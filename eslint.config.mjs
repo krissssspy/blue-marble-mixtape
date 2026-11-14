@@ -4,7 +4,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default defineConfig([
-  globalIgnores(['.stryker-tmp/']),
+  globalIgnores(['.stryker-tmp/', 'dist/']),
   {
     files: ['**/*.{js,mjs,cjs}', 'tools/hooks/{commit-msg,pre-commit,pre-push}'],
     extends: [js.configs.recommended],

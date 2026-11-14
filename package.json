@@ -8,7 +8,8 @@
     "format:check": "prettier --check .",
     "check": "npm run lint && npm run format:check && tsc --noEmit",
     "mutation": "stryker run",
-    "prepare": "node tools/hooks/install.mjs"
+    "prepare": "node tools/hooks/install.mjs",
+    "build": "vite build"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -20,6 +21,7 @@
     "prettier": "^3.10.1",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.72.2",
+    "vite": "^8.3.8",
     "vitest": "^5.1.0",
     "yaml": "^2.9.1"
   }

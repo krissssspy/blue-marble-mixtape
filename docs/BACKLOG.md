@@ -24,7 +24,14 @@ One item is one behaviour, one TDD cycle, and one commit. Work the first uncheck
 
 ## M2 Deploy
 
-Itemised when M1 is done. Needs owner steps U2 and U5.
+Owner steps U2 and U5 are needed before the first live deploy, not before these items.
+
+- [x] M2-01 `npm run build` writes `dist/index.html`: an English-language page titled "Blue Marble Mixtape" with a mobile viewport
+- [ ] M2-02 The built site includes `staticwebapp.config.json` with a navigation fallback to `/index.html`
+- [ ] M2-03 `staticwebapp.config.json` sends a content security policy that allows scripts, styles, and media from the site itself, and images from the site and `https://svs.gsfc.nasa.gov` only
+- [ ] M2-04 The deploy workflow builds the site and deploys it with the Static Web Apps action on pull requests (preview) and on pushes to `main` (production), and removes the preview when a pull request closes
+- [ ] M2-05 The smoke check exits zero when a URL serves the page title, and non-zero otherwise
+- [ ] M2-06 The pull request checks also build the site
 
 ## M3 Ingest
 
