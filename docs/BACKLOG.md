@@ -5,7 +5,7 @@ One item is one behaviour, one TDD cycle, and one commit. Work the first uncheck
 ## M1 Guardrails
 
 - [x] M1-01 `validateCommitMessage` accepts a one-line message that starts with a capitalised regular past-tense verb
-- [ ] M1-02 `validateCommitMessage` rejects a message with more than one non-empty line
+- [x] M1-02 `validateCommitMessage` rejects a message with more than one non-empty line
 - [ ] M1-03 `validateCommitMessage` rejects a first word that is not past tense, and accepts irregular verbs listed in `tools/hooks/irregular-verbs.txt`
 - [ ] M1-04 `validateCommitMessage` rejects a subject longer than 72 characters
 - [ ] M1-05 `validateCommitMessage` rejects any banned agent or tool word, in any letter case
