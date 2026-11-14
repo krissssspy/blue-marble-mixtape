@@ -15,7 +15,10 @@ function runHookOnBranch(branch: string) {
     GIT_CONFIG_NOSYSTEM: '1',
   };
   try {
-    execFileSync('git', ['init', '--quiet', '--template=', '--initial-branch', branch], { cwd, env });
+    execFileSync('git', ['init', '--quiet', '--template=', '--initial-branch', branch], {
+      cwd,
+      env,
+    });
     const result = spawnSync(hookPath, [], { cwd, env });
     if (result.error) throw result.error;
     return result.status;

@@ -1,0 +1,10 @@
+{
+  "singleQuote": true,
+  "printWidth": 100,
+  "overrides": [
+    {
+      "files": "tools/hooks/{commit-msg,pre-commit,pre-push}",
+      "options": { "parser": "babel" }
+    }
+  ]
+}
