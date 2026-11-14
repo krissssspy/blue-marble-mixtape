@@ -49,4 +49,15 @@ describe('npm run build', () => {
     },
     TEST_TIMEOUT_MS,
   );
+
+  it(
+    'writes dist/staticwebapp.config.json with a navigation fallback to /index.html',
+    () => {
+      expect(buildStatus, buildOutput).toBe(0);
+      const raw = readFileSync(join(dist, 'staticwebapp.config.json'), 'utf8');
+      const config = JSON.parse(raw) as { navigationFallback?: { rewrite?: unknown } };
+      expect(config.navigationFallback?.rewrite).toBe('/index.html');
+    },
+    TEST_TIMEOUT_MS,
+  );
 });
