@@ -1,9 +1,10 @@
 import js from '@eslint/js';
-import { defineConfig } from 'eslint/config';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default defineConfig([
+  globalIgnores(['.stryker-tmp/']),
   {
     files: ['**/*.{js,mjs,cjs}', 'tools/hooks/{commit-msg,pre-commit,pre-push}'],
     extends: [js.configs.recommended],
