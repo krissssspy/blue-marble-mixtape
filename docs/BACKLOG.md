@@ -9,7 +9,7 @@ One item is one behaviour, one TDD cycle, and one commit. Work the first uncheck
 - [x] M1-03 `validateCommitMessage` rejects a first word that is not a capitalised regular past-tense verb
 - [x] M1-03b `validateCommitMessage` accepts irregular past-tense verbs listed in `tools/hooks/irregular-verbs.txt`
 - [x] M1-04 `validateCommitMessage` rejects a subject longer than 72 characters
-- [ ] M1-05 `validateCommitMessage` rejects any banned agent or tool word, in any letter case
+- [x] M1-05 `validateCommitMessage` rejects any banned agent or tool word, in any letter case
 - [ ] M1-06 The `commit-msg` hook exits non-zero and prints the reason when the message file fails validation, and exits zero when it passes
 - [ ] M1-07 The `pre-commit` hook exits non-zero when the current branch is `main` or `master`
 - [ ] M1-08 The `pre-push` hook exits non-zero when any pushed ref targets `main` or `master`

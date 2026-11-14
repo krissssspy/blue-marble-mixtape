@@ -104,4 +104,27 @@ describe('validateCommitMessage', () => {
     expect(typeof result.reason).toBe('string');
     expect(result.reason.length).toBeGreaterThan(0);
   });
+
+  it.each([
+    'Updated citation (Co-Authored-By: Example)',
+    'Removed CLAUDE from credits',
+    'Updated CoDeX references',
+    'Removed obsolete reference to GpT',
+    'Updated CoPilot-related labels',
+    'Removed (AgEnT) label',
+    'Updated AssisTant labels',
+    'Generated room labels',
+    'Removed AnthroPIC references',
+    'Updated credits for OpenAI.',
+  ])('rejects a banned term in "%s"', (message) => {
+    const result = validateCommitMessage(message);
+    expect(result.ok).toBe(false);
+    expect(typeof result.reason).toBe('string');
+    expect(result.reason.length).toBeGreaterThan(0);
+  });
+
+  it('accepts a banned term embedded in a longer word', () => {
+    const result = validateCommitMessage('Updated the inventory of reagents');
+    expect(result.ok).toBe(true);
+  });
 });
