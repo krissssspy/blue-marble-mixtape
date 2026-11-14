@@ -5,7 +5,7 @@ const irregularVerbs = readFileSync(new URL('../irregular-verbs.txt', import.met
   .split(/\r?\n/);
 
 export function validateCommitMessage(message) {
-  const lines = message.split('\n').filter((line) => line.trim() !== '');
+  const lines = message.split(/\r?\n/).filter((line) => line.trim() !== '');
   if (lines.length > 1) {
     return { ok: false, reason: 'The commit message must be exactly one line.' };
   }
@@ -16,6 +16,9 @@ export function validateCommitMessage(message) {
       ok: false,
       reason: 'The first word must be a capitalised past-tense verb, such as "Added".',
     };
+  }
+  if ([...subject].length > 72) {
+    return { ok: false, reason: 'The commit subject must be at most 72 characters.' };
   }
   return { ok: true };
 }

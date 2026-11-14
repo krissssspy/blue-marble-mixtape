@@ -83,4 +83,25 @@ describe('validateCommitMessage', () => {
     expect(typeof result.reason).toBe('string');
     expect(result.reason.length).toBeGreaterThan(0);
   });
+
+  const subjectAtLimit =
+    'Added room labels and audio cues for the Blue Marble Mixtape 🌍 showcases';
+
+  it.each([
+    ['without a line ending', ''],
+    ['with a CRLF line ending', '\r\n'],
+  ])('accepts a 72-character subject %s', (_label, lineEnding) => {
+    expect([...subjectAtLimit]).toHaveLength(72);
+    const result = validateCommitMessage(`${subjectAtLimit}${lineEnding}`);
+    expect(result.ok).toBe(true);
+  });
+
+  it('rejects a 73-character subject', () => {
+    const subject = `${subjectAtLimit}.`;
+    expect([...subject]).toHaveLength(73);
+    const result = validateCommitMessage(subject);
+    expect(result.ok).toBe(false);
+    expect(typeof result.reason).toBe('string');
+    expect(result.reason.length).toBeGreaterThan(0);
+  });
 });
