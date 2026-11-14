@@ -11,7 +11,7 @@ One item is one behaviour, one TDD cycle, and one commit. Work the first uncheck
 - [x] M1-04 `validateCommitMessage` rejects a subject longer than 72 characters
 - [x] M1-05 `validateCommitMessage` rejects any banned agent or tool word, in any letter case
 - [x] M1-06 The `commit-msg` hook exits non-zero and prints the reason when the message file fails validation, and exits zero when it passes
-- [ ] M1-07 The `pre-commit` hook exits non-zero when the current branch is `main` or `master`
+- [x] M1-07 The `pre-commit` hook exits non-zero when the current branch is `main` or `master`
 - [ ] M1-08 The `pre-push` hook exits non-zero when any pushed ref targets `main` or `master`
 - [ ] M1-09 The history audit reports every commit in a range whose message fails validation, whose author and committer emails differ, or which is a merge commit
 - [ ] M1-10 `npm run lint` runs the linter (ESLint) over the repository and passes
