@@ -43,7 +43,7 @@ Every requirement has an automated check. A requirement with no check is not don
 | Different algorithm and instruments per exhibit | §7 | Uniqueness test on room recipes; audio-feature distance test |
 | Public virtual museum | §9 | Deploy workflow; smoke test against the preview URL |
 | 8-bit platformer style, mobile compatible | §6 | Indexed-framebuffer golden tests; Playwright mobile viewports |
-| Strict TDD per commit, review, revise, commit | §3 | Red/green evidence gates; coverage-delta check |
+| Strict TDD per commit, review, revise, commit | §3 | Red/green evidence gates; coverage-delta check; linter, style checker, and mutation testing |
 | One-line past-tense commits, no agent, owner as author | §4 | `commit-msg` hook; CI history audit |
 | Never push to mainline | §4 | `pre-push` hook; GitHub branch protection |
 | Already-passing test committed separately | §3, path B | Orchestrator gate |
@@ -119,10 +119,11 @@ flowchart TD
 Gates the orchestrator checks itself, never taking a worker's word:
 
 1. **Red is real.** The orchestrator runs the new test and sees it fail. A syntax error, a typo, or a broken import inside the test is a wrong reason. A missing module or function that the item is supposed to create is a right reason.
-2. **Green is real.** Full suite passes, with lint and type check.
+2. **Green is real.** Full suite passes, and so does `npm run check`: the linter (ESLint), the style checker (Prettier), and the type checker.
 3. **Minimum code.** Every line added under `src/` is executed by a test (coverage delta). An uncovered new line is a blocking finding. The reviewer also rejects options, parameters, and branches that no test demands.
-4. **Review happened.** The review report exists and every blocking finding is addressed by number in the merge report.
-5. **Commit is clean.** See §4.
+4. **Mutants die.** Mutation testing (StrykerJS) runs on the product files the item changed. A surviving mutant that the item's behaviour should catch sends the item back to the test agent. CI runs mutation testing in full and fails below a score of 80.
+5. **Review happened.** The review report exists and every blocking finding is addressed by number in the merge report.
+6. **Commit is clean.** See §4.
 
 **Path B, test passes on arrival.** If a new test passes because earlier minimum code already covers it, the code agent is skipped. The test agent must show the test can fail by describing one mutation of `src/` that turns it red; the orchestrator applies that mutation, confirms red, and reverts it. The test then goes through review and is committed on its own, as its own commit.
 
@@ -358,7 +359,7 @@ The recipe is written into the URL fragment, so a visitor can share a creation b
 
 | Milestone | Outcome | Rough item count |
 | --- | --- | --- |
-| M1 Guardrails | Hooks, history audit, lint, type check, test runner, CI | 12 |
+| M1 Guardrails | Hooks, history audit, test runner, linter, style checker, type checker, mutation testing, CI | 15 |
 | M2 Deploy | Minimal page live on an Azure preview URL; draft PR opened | 6 |
 | M3 Ingest | Crawler, dedupe, rights rule, media processing, feature packs, catalog, alt text, size budget | 25 |
 | M4 Engine | Framebuffer, palette, font, input, walking simulation, camera, state machine, cassette title and loader, avatar builder, glow, prompt, listening view, live region, touch buttons, background rule checks | 45 |
