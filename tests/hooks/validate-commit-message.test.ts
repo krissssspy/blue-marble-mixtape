@@ -21,7 +21,7 @@ describe('validateCommitMessage', () => {
     const result = validateCommitMessage('Added pitch mapper\n\nThis explains why.');
     expect(result.ok).toBe(false);
     expect(typeof result.reason).toBe('string');
-    expect(result.reason.length).toBeGreaterThan(0);
+    expect(result.reason?.length).toBeGreaterThan(0);
   });
 
   it('rejects a message with a trailer line', () => {
@@ -30,7 +30,7 @@ describe('validateCommitMessage', () => {
     );
     expect(result.ok).toBe(false);
     expect(typeof result.reason).toBe('string');
-    expect(result.reason.length).toBeGreaterThan(0);
+    expect(result.reason?.length).toBeGreaterThan(0);
   });
 
   it('accepts a message whose only extra line is whitespace', () => {
@@ -42,7 +42,7 @@ describe('validateCommitMessage', () => {
     const result = validateCommitMessage('Added pitch mapper\nMore text');
     expect(result.ok).toBe(false);
     expect(typeof result.reason).toBe('string');
-    expect(result.reason.length).toBeGreaterThan(0);
+    expect(result.reason?.length).toBeGreaterThan(0);
   });
 
   it.each([
@@ -57,7 +57,7 @@ describe('validateCommitMessage', () => {
     const result = validateCommitMessage(message);
     expect(result.ok).toBe(false);
     expect(typeof result.reason).toBe('string');
-    expect(result.reason.length).toBeGreaterThan(0);
+    expect(result.reason?.length).toBeGreaterThan(0);
   });
 
   it.each([
@@ -81,7 +81,7 @@ describe('validateCommitMessage', () => {
     const result = validateCommitMessage(message);
     expect(result.ok).toBe(false);
     expect(typeof result.reason).toBe('string');
-    expect(result.reason.length).toBeGreaterThan(0);
+    expect(result.reason?.length).toBeGreaterThan(0);
   });
 
   const subjectAtLimit =
@@ -102,7 +102,7 @@ describe('validateCommitMessage', () => {
     const result = validateCommitMessage(subject);
     expect(result.ok).toBe(false);
     expect(typeof result.reason).toBe('string');
-    expect(result.reason.length).toBeGreaterThan(0);
+    expect(result.reason?.length).toBeGreaterThan(0);
   });
 
   it.each([
@@ -120,7 +120,7 @@ describe('validateCommitMessage', () => {
     const result = validateCommitMessage(message);
     expect(result.ok).toBe(false);
     expect(typeof result.reason).toBe('string');
-    expect(result.reason.length).toBeGreaterThan(0);
+    expect(result.reason?.length).toBeGreaterThan(0);
   });
 
   it('accepts a banned term embedded in a longer word', () => {

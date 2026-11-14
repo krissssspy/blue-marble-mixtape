@@ -16,7 +16,7 @@ One item is one behaviour, one TDD cycle, and one commit. Work the first uncheck
 - [x] M1-09 The history audit reports every commit in a range whose message fails validation, whose author and committer emails differ, or which is a merge commit
 - [x] M1-10 `npm run lint` runs the linter (ESLint) over the repository and passes
 - [x] M1-11 `npm run format:check` runs the style checker (Prettier) over the repository and passes
-- [ ] M1-12 `npm run check` runs the linter, the style checker, and the type checker, and passes
+- [x] M1-12 `npm run check` runs the linter, the style checker, and the type checker, and passes
 - [ ] M1-13 `npm run mutation` runs mutation testing (StrykerJS with the Vitest runner) over `src/` and `tools/**/lib/` and fails below a mutation score of 80
 - [ ] M1-14 The CI workflow runs check, tests, mutation testing, and the history audit on every pull request
 - [ ] M1-15 `npm install` points `core.hooksPath` at `tools/hooks`
