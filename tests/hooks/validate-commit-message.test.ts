@@ -59,4 +59,28 @@ describe('validateCommitMessage', () => {
     expect(typeof result.reason).toBe('string');
     expect(result.reason.length).toBeGreaterThan(0);
   });
+
+  it.each([
+    'Built pitch mapper',
+    'Wrote test for empty catalog',
+    'Made ramp controls',
+    'Drew room map',
+    'Kept walk speed',
+    'Split the catalog',
+  ])('accepts a listed irregular verb in "%s"', (message) => {
+    const result = validateCommitMessage(message);
+    expect(result.ok).toBe(true);
+  });
+
+  it.each([
+    ['a lower-case irregular first word', 'wrote test for empty catalog'],
+    ['an upper-case irregular first word', 'WROTE test for empty catalog'],
+    ['a first word that starts with an irregular verb', 'Builtin pitch mapper'],
+    ['a wrong first word followed by an irregular verb', 'Feature: Wrote test for empty catalog'],
+  ])('rejects %s', (_label, message) => {
+    const result = validateCommitMessage(message);
+    expect(result.ok).toBe(false);
+    expect(typeof result.reason).toBe('string');
+    expect(result.reason.length).toBeGreaterThan(0);
+  });
 });
