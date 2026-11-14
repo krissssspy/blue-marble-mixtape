@@ -4,6 +4,9 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { describe, it, expect } from 'vitest';
 
+const TEST_TIMEOUT_MS = 60_000;
+const CHILD_TIMEOUT_MS = 50_000;
+
 const env = {
   PATH: process.env.PATH,
   GIT_CONFIG_GLOBAL: '/dev/null',
@@ -51,7 +54,7 @@ function installPackage(cwd: string) {
         npm_config_globalconfig: join(cwd, 'empty-global.npmrc'),
       },
       encoding: 'utf8',
-      timeout: 10_000,
+      timeout: CHILD_TIMEOUT_MS,
     },
   );
   if (result.error) throw result.error;
@@ -69,18 +72,29 @@ function hookPath(cwd: string) {
 }
 
 describe('npm install hook setup', () => {
-  it('sets the local hooks path when installing in the repository', () => {
-    withRepository((cwd) => {
-      installPackage(cwd);
-      expect(hookPath(cwd)).toBe('tools/hooks');
-    });
-  });
+  it(
+    'sets the local hooks path when installing in the repository',
+    () => {
+      withRepository((cwd) => {
+        installPackage(cwd);
+        expect(hookPath(cwd)).toBe('tools/hooks');
+      });
+    },
+    TEST_TIMEOUT_MS,
+  );
 
-  it('preserves the containing repository hooks path when installing an archive', () => {
-    withRepository((cwd) => {
-      execFileSync('git', ['config', '--local', 'core.hooksPath', 'existing-hooks'], { cwd, env });
-      installPackage(join(cwd, 'archive'));
-      expect(hookPath(cwd)).toBe('existing-hooks');
-    });
-  });
+  it(
+    'preserves the containing repository hooks path when installing an archive',
+    () => {
+      withRepository((cwd) => {
+        execFileSync('git', ['config', '--local', 'core.hooksPath', 'existing-hooks'], {
+          cwd,
+          env,
+        });
+        installPackage(join(cwd, 'archive'));
+        expect(hookPath(cwd)).toBe('existing-hooks');
+      });
+    },
+    TEST_TIMEOUT_MS,
+  );
 });

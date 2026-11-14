@@ -20,6 +20,7 @@ One item is one behaviour, one TDD cycle, and one commit. Work the first uncheck
 - [x] M1-13 `npm run mutation` runs mutation testing (StrykerJS with the Vitest runner) over `src/` and `tools/**/lib/` and fails below a mutation score of 80
 - [x] M1-14 The CI workflow runs check, tests, mutation testing, and the history audit on every pull request
 - [x] M1-15 `npm install` points `core.hooksPath` at `tools/hooks`
+- [x] M1-16 Tests that launch the linter, style checker, type checker, or npm allow 60 seconds, so they do not fail on a busy machine
 
 ## M2 Deploy
 
