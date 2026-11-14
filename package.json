@@ -7,7 +7,8 @@
     "lint": "eslint .",
     "format:check": "prettier --check .",
     "check": "npm run lint && npm run format:check && tsc --noEmit",
-    "mutation": "stryker run"
+    "mutation": "stryker run",
+    "prepare": "node tools/hooks/install.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
