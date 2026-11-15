@@ -51,12 +51,13 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-13 Eligible featured visualisations, animations, and hyperwall visuals with movies produce 48 evenly spaced frames without reading source audio
 - [x] M3-14 Frame sets are stored as sprite sheets with one 320×180 cell per frame and no file over 2 MB
 - [x] M3-15 Each still produces a 96×54 grid of luminance, hue, and saturation
-- [ ] M3-16 Each feature grid includes Sobel edge magnitude and direction
+- [x] M3-16 Each feature grid includes Sobel edge magnitude and direction
 - [ ] M3-17 Feature grids from frame sets include block-matched motion vectors and frame-difference energy
 - [ ] M3-18 Feature grids serialize deterministically to compact binary packs with a tested layout
 - [ ] M3-19 Missing or placeholder NASA alt text is replaced with a view-specific description grounded in NASA's material and marked authored
 - [ ] M3-20 The explicit room table assigns every accepted source, including daily imagery, with four to six featured artifacts per room
 - [ ] M3-21 The catalog records every required field, including a short title of at most 18 characters and retrieval date for daily imagery
+- [ ] M3-21b SVS 5072 uses NASA's current January–December single-year image in place of its broken main-image URL
 - [ ] M3-22 The offline completeness check accounts for every collected source with catalog entries or a documented reason for exclusion
 - [ ] M3-23 The refresh builds the catalog and all referenced media from a recorded snapshot, and the committed outputs serve in the site build
 - [ ] M3-24 The built site fails verification above 150 MB total or 2 MB for any individual file
