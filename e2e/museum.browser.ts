@@ -207,6 +207,7 @@ test('starts catalog audio and its image playhead after a gesture and stops on c
     stopped: number;
   }
   await page.addInitScript(() => {
+    Object.defineProperty(window, 'AudioWorkletNode', { value: undefined });
     const probe: AudioProbe = { started: [], durations: [], stopped: 0 };
     Object.assign(window, { audioProbe: probe });
     const nativeStart = AudioBufferSourceNode.prototype.start;

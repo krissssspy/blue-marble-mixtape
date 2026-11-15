@@ -42,6 +42,25 @@ function fakeContext() {
   return { native, sources, context: native as unknown as BrowserAudioContext };
 }
 
+function fakeWorklet() {
+  const port = {
+    onmessage: null as ((event: { data: { startedAt: number } | { ended: true } }) => void) | null,
+    postMessage: vi.fn(),
+    close: vi.fn(),
+  };
+  const node = {
+    port,
+    onprocessorerror: null as (() => void) | null,
+    connect: vi.fn(),
+    disconnect: vi.fn(),
+  };
+  const backend = {
+    load: vi.fn<() => Promise<void>>(async () => undefined),
+    create: vi.fn(() => node as unknown as AudioWorkletNode),
+  };
+  return { backend, node, port };
+}
+
 describe('browser score playback', () => {
   it('waits for an explicit gesture unlock before creating or starting a buffer', async () => {
     const { context, native } = fakeContext();
@@ -124,5 +143,75 @@ describe('browser score playback', () => {
     expect(empty.read()).toEqual({ progress: 1, activeEvents: [] });
     expect(native.createBufferSource).toHaveBeenCalledTimes(2);
     expect(sources[1].stop).not.toHaveBeenCalled();
+  });
+
+  it('reads the worklet clock, stops it, and releases a completed node', async () => {
+    const { context, native } = fakeContext();
+    const { backend, node, port } = fakeWorklet();
+    const player = createBrowserPlayer(context, backend);
+    await player.unlock();
+    expect(backend.load).toHaveBeenCalledOnce();
+    const playback = player.play([note]);
+    expect(node.connect).toHaveBeenCalledWith(native.destination);
+    expect(port.postMessage).toHaveBeenCalledWith([note]);
+    expect(native.createBufferSource).not.toHaveBeenCalled();
+    expect(playback.read()).toEqual({ progress: 0, activeEvents: [] });
+    port.onmessage!({ data: { startedAt: 6.99 } });
+    expect(playback.read().progress).toBeCloseTo(0.5);
+    expect(playback.read().activeEvents).toEqual([note]);
+    player.stop();
+    expect(playback.read().activeEvents).toEqual([]);
+    expect(port.onmessage).toBeNull();
+    expect(node.onprocessorerror).toBeNull();
+    expect(port.close).toHaveBeenCalledOnce();
+    expect(node.disconnect).toHaveBeenCalledOnce();
+    player.stop();
+    expect(node.disconnect).toHaveBeenCalledOnce();
+
+    const completed = player.play([note]);
+    port.onmessage!({ data: { startedAt: 7 } });
+    native.currentTime = 7.025;
+    port.onmessage!({ data: { ended: true } });
+    expect(completed.read()).toEqual({ progress: 1, activeEvents: [] });
+    expect(node.disconnect).toHaveBeenCalledTimes(2);
+    player.stop();
+    expect(node.disconnect).toHaveBeenCalledTimes(2);
+  });
+
+  it('falls back if the worklet module cannot load or the node cannot start', async () => {
+    const failure = new Error('worklet unavailable');
+    const { context, native } = fakeContext();
+    const { backend, node, port } = fakeWorklet();
+    backend.load.mockRejectedValueOnce(failure);
+    const player = createBrowserPlayer(context, backend);
+    await player.unlock();
+    expect(player.play([note]).read().activeEvents).toEqual([note]);
+    expect(backend.create).not.toHaveBeenCalled();
+    await player.unlock();
+    port.postMessage.mockImplementationOnce(() => {
+      throw failure;
+    });
+    expect(player.play([note]).read().activeEvents).toEqual([note]);
+    expect(node.disconnect).toHaveBeenCalledOnce();
+    expect(port.close).toHaveBeenCalledOnce();
+    player.play([note]);
+    expect(backend.create).toHaveBeenCalledOnce();
+    expect(native.createBufferSource).toHaveBeenCalledTimes(3);
+  });
+
+  it('falls back on a processor error and preserves the playback handle', async () => {
+    const { context, sources } = fakeContext();
+    const { backend, node, port } = fakeWorklet();
+    const player = createBrowserPlayer(context, backend);
+    await player.unlock();
+    const playback = player.play([note]);
+    node.onprocessorerror!();
+    expect(port.close).toHaveBeenCalledOnce();
+    expect(node.disconnect).toHaveBeenCalledOnce();
+    expect(playback.read().activeEvents).toEqual([note]);
+    player.stop();
+    expect(sources[0].stop).toHaveBeenCalledOnce();
+    player.play([note]);
+    expect(backend.create).toHaveBeenCalledOnce();
   });
 });

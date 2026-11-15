@@ -271,7 +271,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ## M7 Lab and release
 
 - [x] M7-01 Put a final door at the end of the museum that opens a thank-you message for visitors.
-- [ ] M7-02 Run the browser voices in an AudioWorklet where available, with the validated buffer player as the fallback.
+- [x] M7-02 Run the browser voices in an AudioWorklet where available, with the validated buffer player as the fallback.
 - [x] M7-03 Browse the full catalog from the Lab's thumbnail strip without changing the curated exhibits.
 - [x] M7-04 Edit each of the seven recipe settings using the existing arrow and touch controls.
 - [x] M7-05 Play each of the seven Lab scans with an image-relative playhead and the visitor's chosen instrument and mappings.

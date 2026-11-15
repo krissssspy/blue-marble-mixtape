@@ -11,6 +11,7 @@ test('walks all nine exhibits, hears distinct scores, and reaches the thank-you 
 }) => {
   test.setTimeout(60_000);
   await page.addInitScript(() => {
+    Object.defineProperty(window, 'AudioWorkletNode', { value: undefined });
     // Preserve trusted inputs and the native audio clock while shortening the walk.
     let first: number | undefined;
     const nativeFrame = window.requestAnimationFrame;

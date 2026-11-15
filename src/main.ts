@@ -3,6 +3,7 @@ import { exhibitScore } from './audio/exhibit-scores.js';
 import { decodeFeaturePack } from './audio/feature-pack.js';
 import { labScore } from './audio/lab-score.js';
 import { DEFAULT_RECIPE, type Recipe } from './audio/recipe.js';
+import scoreWorkletUrl from './audio/score-worklet.ts?worker&url';
 import { createMuseumAnnouncements } from './engine/announcements.js';
 import { createArtifactInteraction, interactWithArtifacts } from './engine/artifact-interaction.js';
 import { drawArtifactFrame } from './engine/artifact-frame.js';
@@ -102,7 +103,19 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   function unlockAudio(): void {
     if (audio || typeof AudioContext === 'undefined') return;
     try {
-      const player = createBrowserPlayer(new AudioContext());
+      const context = new AudioContext();
+      const worklet =
+        context.audioWorklet && typeof AudioWorkletNode === 'function'
+          ? {
+              load: () => context.audioWorklet.addModule(scoreWorkletUrl),
+              create: () =>
+                new AudioWorkletNode(context, 'blue-marble-score', {
+                  numberOfInputs: 0,
+                  outputChannelCount: [2],
+                }),
+            }
+          : undefined;
+      const player = createBrowserPlayer(context, worklet);
       const ready = player.unlock().then(
         () => true,
         () => {
