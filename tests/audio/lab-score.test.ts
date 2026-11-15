@@ -1,8 +1,10 @@
 import { createHash } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
+import { applyConsoleBus } from '../../src/audio/console-bus.js';
 import type { FeaturePack } from '../../src/audio/feature-pack.js';
 import { labScore } from '../../src/audio/lab-score.js';
 import { DEFAULT_RECIPE, type Recipe } from '../../src/audio/recipe.js';
+import { renderScore } from '../../src/audio/render.js';
 import { validateScore } from '../../src/audio/score.js';
 
 const width = 12;
@@ -69,6 +71,46 @@ function scoreHash(recipe: Recipe) {
 }
 
 describe('Lab scan playback', () => {
+  it.each(['lineSweep', 'spiral'] as const)(
+    'produces audible notes with Motion volume on a still image using %s',
+    (scan) => {
+      const { luminance, hue, saturation, edgeMagnitude, edgeDirection } = pack.frames[0];
+      const still = {
+        ...pack,
+        frames: [{ luminance, hue, saturation, edgeMagnitude, edgeDirection }],
+      };
+      const score = labScore(still, { ...DEFAULT_RECIPE, scan, loudnessSource: 'motion' });
+      expect(score.every(({ loudness }) => loudness > 0)).toBe(true);
+      const { left, right } = applyConsoleBus(renderScore(score, 22050), {
+        sampleRate: 22050,
+        bitDepth: 8,
+      });
+      expect(left.some((sample) => Math.abs(sample) > 0.03)).toBe(true);
+      expect(right.some((sample) => Math.abs(sample) > 0.03)).toBe(true);
+    },
+  );
+
+  it('brings up a faint mix without flattening the volume changes between notes', () => {
+    const faint = {
+      ...pack,
+      frames: [{ ...pack.frames[0], luminance: plane(37).map((value) => value >> 5) }],
+    };
+    const recipe = { ...DEFAULT_RECIPE, scan: 'spiral' } as const;
+    const audible = labScore(faint, recipe);
+    const peak = Math.max(...audible.map(({ loudness }) => loudness));
+    expect(peak).toBeCloseTo(0.32);
+    expect(audible.some(({ loudness }) => loudness > 0 && loudness < peak)).toBe(true);
+    expect(audible.some(({ loudness }) => loudness === 0)).toBe(true);
+  });
+
+  it('gives fast Pad notes time to swell while preserving longer notes', () => {
+    const recipe = { ...DEFAULT_RECIPE, scan: 'spiral', voice: 'pad' } as const;
+    const short = labScore(pack, { ...recipe, tempo: 'fast', rhythm: 'grid' });
+    const long = labScore(pack, { ...recipe, tempo: 'slow' });
+    expect(short[0].duration).toBe(0.24);
+    expect(long[0].duration).toBeCloseTo((60 / 72 / 4) * 1.4);
+  });
+
   it('uses a distinct valid image trajectory for each choice', () => {
     const trajectories = new Set();
     for (const [scan, kind] of scans) {

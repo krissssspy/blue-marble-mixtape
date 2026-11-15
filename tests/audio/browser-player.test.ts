@@ -150,6 +150,8 @@ describe('browser score playback', () => {
     const { backend, node, port } = fakeWorklet();
     const player = createBrowserPlayer(context, backend);
     await player.unlock();
+    await player.unlock();
+    expect(native.resume).toHaveBeenCalledTimes(2);
     expect(backend.load).toHaveBeenCalledOnce();
     const playback = player.play([note]);
     expect(node.connect).toHaveBeenCalledWith(native.destination);

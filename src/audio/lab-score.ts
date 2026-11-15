@@ -101,7 +101,7 @@ function feature(pack: FeaturePack, at: ImagePoint, source: Source, index: numbe
   }
 }
 
-export function labScore(pack: FeaturePack, recipe: Recipe): readonly ScoreEvent[] {
+function scanScore(pack: FeaturePack, recipe: Recipe): readonly ScoreEvent[] {
   if (recipe.scan === 'lineSweep') return lineSweepScore(pack, recipe);
   const locations = scanLocations(pack, recipe.scan);
   const step = 60 / RECIPE_TEMPO_BPM[recipe.tempo] / 4;
@@ -125,4 +125,17 @@ export function labScore(pack: FeaturePack, recipe: Recipe): readonly ScoreEvent
       },
     ];
   });
+}
+
+export function labScore(pack: FeaturePack, recipe: Recipe): readonly ScoreEvent[] {
+  const score = scanScore(pack, recipe);
+  const peak = score.reduce((highest, event) => Math.max(highest, event.loudness), 0);
+  const minimumPeak = 0.32;
+  return score.map((event) => ({
+    ...event,
+    // A fast scan can end a pad note before the voice has had time to swell.
+    duration: event.voice === 'pad' ? Math.max(event.duration, 0.24) : event.duration,
+    // Keep the selected feature's dynamics when present, even for very faint images.
+    loudness: peak === 0 ? minimumPeak : event.loudness * Math.max(1, minimumPeak / peak),
+  }));
 }

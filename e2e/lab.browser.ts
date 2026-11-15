@@ -9,7 +9,13 @@ test('reopens an unmounted catalog artifact from a share link, edits the mix, an
   const artifactId = 'svs-page-2008-365262';
   const mix = {
     artifactId,
-    recipe: { ...DEFAULT_RECIPE, scan: 'spiral', voice: 'bell', tempo: 'fast' } as const,
+    recipe: {
+      ...DEFAULT_RECIPE,
+      scan: 'spiral',
+      voice: 'bell',
+      loudnessSource: 'motion',
+      tempo: 'fast',
+    } as const,
   };
   await page.addInitScript(() => {
     Object.defineProperty(window, 'AudioWorkletNode', { value: undefined });
@@ -73,19 +79,21 @@ test.describe('touch controls', () => {
     page,
   }) => {
     interface AudioProbe {
+      context?: AudioContext;
       analyser?: AnalyserNode;
       workletStarts: number;
       workletStops: number;
       bufferStarts: number;
     }
     await page.addInitScript(() => {
+      const probe: AudioProbe = { workletStarts: 0, workletStops: 0, bufferStarts: 0 };
       window.AudioContext = class extends AudioContext {
         constructor() {
           // Drive the native audio graph without depending on the host's playback device.
           super({ sinkId: { type: 'none' } } as AudioContextOptions);
+          probe.context = this;
         }
       };
-      const probe: AudioProbe = { workletStarts: 0, workletStops: 0, bufferStarts: 0 };
       Object.assign(window, { workletProbe: probe });
       window.AudioWorkletNode = class extends AudioWorkletNode {
         constructor(context: BaseAudioContext, name: string, options?: AudioWorkletNodeOptions) {
@@ -136,6 +144,10 @@ test.describe('touch controls', () => {
     for (let choice = 0; choice < 4; choice += 1) await yes.tap();
     await expect(shell).toHaveAttribute('data-screen', 'lab');
     expect(await liveAudio()).toMatchObject({ workletStarts: 0, bufferStarts: 0 });
+    await page.evaluate(async () => {
+      const probe = (window as Window & { workletProbe?: AudioProbe }).workletProbe!;
+      await probe.context!.suspend();
+    });
 
     await yes.tap();
     await expect(shell).toHaveAttribute('data-screen', 'listening');

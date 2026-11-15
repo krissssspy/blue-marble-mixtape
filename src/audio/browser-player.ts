@@ -109,7 +109,7 @@ export function createBrowserPlayer(context: BrowserAudioContext, worklet?: Work
   }
 
   async function loadWorklet(): Promise<void> {
-    if (!worklet) return;
+    if (!worklet || workletReady) return;
     try {
       await worklet.load();
       workletReady = true;
