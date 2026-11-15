@@ -41,7 +41,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-03 Repeated pages and media references are collected once by SVS ID, preserving all referring galleries and terminating cycles
 - [x] M3-04 The crawler reports an unresolved expected SVS page with its referring gallery, so an incomplete snapshot cannot pass silently
 - [x] M3-05 A manual refresh records NASA API responses and retrieval dates for offline ingest, and tests replay the recorded responses
-- [ ] M3-06 Detail and linked media records supply canonical source URLs, titles, credits, release dates, and media groups
+- [x] M3-06 Detail and linked media records supply canonical source URLs, titles, credits, release dates, and media groups
 - [ ] M3-07 Each source contributes its main image first and at most two additional distinct views in source order
 - [ ] M3-08 Media selection skips thumbnails, placeholders, colour bars, and alternate sizes or formats of the same view
 - [ ] M3-09 Produced Video and B-Roll contribute only their NASA poster still and are never sent to movie processing
