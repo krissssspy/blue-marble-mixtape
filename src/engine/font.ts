@@ -57,6 +57,11 @@ const pixelScale = 2;
 const characterAdvance = 12;
 const lineAdvance = 16;
 
+export function measureTextWidth(line: string): number {
+  const trailingSpace = characterAdvance - 5 * pixelScale;
+  return Math.max(0, [...line].length * characterAdvance - trailingSpace);
+}
+
 export function drawText(
   frame: Framebuffer,
   text: string,

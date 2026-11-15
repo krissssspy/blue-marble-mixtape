@@ -1,5 +1,5 @@
 import { STRINGS } from '../strings.js';
-import { drawText } from './font.js';
+import { drawText, measureTextWidth } from './font.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './framebuffer.js';
 
 const dusk = {
@@ -55,7 +55,7 @@ const continents = [
 ] as const;
 
 function drawCenteredText(frame: Framebuffer, text: string, y: number, index: number): void {
-  const width = [...text].length * 12 - 2;
+  const width = measureTextWidth(text);
   drawText(frame, text, (frame.width - width) / 2, y, index);
 }
 
