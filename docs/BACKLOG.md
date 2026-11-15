@@ -276,6 +276,6 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M7-04 Edit each of the seven recipe settings using the existing arrow and touch controls.
 - [x] M7-05 Play each of the seven Lab scans with an image-relative playhead and the visitor's chosen instrument and mappings.
 - [x] M7-06 Round-trip a validated artifact and recipe through a URL fragment and reopen it in the Lab.
-- [ ] M7-07 Show readable, linkable source credits and NASA affiliation language in the liner notes.
+- [x] M7-07 Show readable, linkable source credits and NASA affiliation language in the liner notes.
 - [ ] M7-08 Verify the Lab, sharing, liner notes, and farewell in desktop and touch browsers.
 - [ ] M7-09 Run the full release suite and verify the live Azure preview while keeping PR #1 in draft.

@@ -21,11 +21,13 @@ export function drawFarewell(frame: Framebuffer): void {
     fillRect(frame, x + 4, 116, 10, 10, 0);
     fillRect(frame, x + 7, 119, 4, 4, 6);
   }
-  drawText(
-    frame,
-    STRINGS.close,
-    Math.floor((frame.width - measureTextWidth(STRINGS.close)) / 2),
-    114,
-    5,
-  );
+  for (const [index, label] of [STRINGS.credits, STRINGS.close].entries()) {
+    drawText(
+      frame,
+      label,
+      Math.floor((frame.width - measureTextWidth(label)) / 2),
+      111 + index * 20,
+      5,
+    );
+  }
 }

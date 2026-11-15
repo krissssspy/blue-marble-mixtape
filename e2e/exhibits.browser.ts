@@ -128,6 +128,19 @@ test('walks all nine exhibits, hears distinct scores, and reaches the thank-you 
     await page.keyboard.up('ArrowRight');
   }
   await expect(page.locator('.museum-announcements')).toContainText('Thanks for visiting');
+  await page.keyboard.press('ArrowUp');
+  await expect(shell).toHaveAttribute('data-screen', 'credits');
+  const credits = page.getByRole('region', { name: 'Liner notes' });
+  await expect(credits).toBeVisible();
+  const source = credits.getByRole('link');
+  await expect(source).toHaveAttribute('href', /^https:\/\/[^/]*nasa\.gov\//);
+  const firstTitle = await source.textContent();
+  await expect(credits).toContainText('independent museum project');
+  await page.keyboard.press('ArrowRight');
+  await expect(source).not.toHaveText(firstTitle!);
+  await expect(source).toHaveAttribute('href', /^https:\/\/[^/]*nasa\.gov\//);
+  await page.keyboard.press('ArrowDown');
+  await expect(shell).toHaveAttribute('data-screen', 'farewell');
   await page.keyboard.press('ArrowDown');
   await expect(shell).toHaveAttribute('data-room', 'lab');
   await expect(shell).toHaveAttribute('data-screen', 'room');

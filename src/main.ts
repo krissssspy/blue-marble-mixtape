@@ -11,6 +11,7 @@ import { loadAvatar, saveAvatar } from './engine/avatar-storage.js';
 import { AVATAR_STEPS } from './engine/avatar.js';
 import { cameraLeft } from './engine/camera.js';
 import { createCanvasPresenter } from './engine/display.js';
+import { createLinerNotes } from './engine/credits.js';
 import { drawFarewell } from './engine/farewell.js';
 import { createFixedStepper } from './engine/fixed-step.js';
 import { drawText } from './engine/font.js';
@@ -44,7 +45,7 @@ import { drawTutorial } from './engine/tutorial-render.js';
 import { drawWelcome } from './engine/welcome.js';
 import { createMuseumRooms, drawDoor, drawRoom, type MuseumRoom } from './museum-rooms.js';
 import { loadMuseumThumbnail } from './museum-thumbnails.js';
-import { ACCESSIBILITY_STRINGS, APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
+import { ACCESSIBILITY_STRINGS, APP_STRINGS, CREDITS_COPY, MUSEUM_ROOMS } from './strings.js';
 
 const thumbnailFallback = new Uint8Array(48 * 27).fill(3);
 const secondsPerStep = 1 / 60;
@@ -61,6 +62,8 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   imageHost.className = 'listening-media';
   imageHost.hidden = true;
   stage.prepend(imageHost);
+  const credits = createLinerNotes(document);
+  stage.append(credits.element);
   shell.append(touch, announcements.liveRegion);
   configureTouchLayout(shell, touch, navigator.maxTouchPoints);
 
@@ -76,6 +79,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   let position = { roomIndex: 0, x: 32 };
   let movingSteps = 0;
   let farewell = false;
+  let creditIndex: number | null = null;
   let lab: LabState | null = null;
   let labPlaying = false;
   let interaction = createArtifactInteraction();
@@ -185,11 +189,25 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
 
   function step(sample: InputSample): void {
     tick += 1;
+    if (creditIndex !== null && catalog) {
+      const count = catalog.artifacts.length;
+      if (sample.pressed.includes('no')) {
+        creditIndex = null;
+        input.clear();
+      } else if (sample.pressed.includes('left')) {
+        creditIndex = (creditIndex + count - 1) % count;
+      } else if (sample.pressed.includes('right')) {
+        creditIndex = (creditIndex + 1) % count;
+      }
+      return;
+    }
     if (farewell) {
       if (sample.pressed.includes('no')) {
         farewell = false;
         position = { ...position, x: position.x - 12 };
         input.clear();
+      } else if (sample.pressed.includes('yes') && catalog?.artifacts.length) {
+        creditIndex = 0;
       }
       return;
     }
@@ -309,7 +327,13 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     };
 
     shell.dataset.room = state.screen === 'tutorial' ? room.id : '';
-    if (farewell) {
+    credits.element.hidden = creditIndex === null;
+    if (creditIndex !== null && catalog) {
+      const artifact = catalog.artifacts[creditIndex];
+      shell.dataset.screen = 'credits';
+      credits.show(artifact, creditIndex, catalog.artifacts.length);
+      announcements.update({ roomName: `${CREDITS_COPY.heading}. ${artifact.title}.` });
+    } else if (farewell) {
       hideListening();
       shell.dataset.screen = 'farewell';
       drawFarewell(frame);

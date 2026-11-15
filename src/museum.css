@@ -117,3 +117,32 @@ body {
 .game-stage > canvas {
   z-index: 1;
 }
+
+.museum-credits {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  overflow: auto;
+  background: #121a36;
+  color: #fff1d9;
+}
+
+.museum-credits[hidden] {
+  display: none;
+}
+
+.museum-credit-card {
+  max-inline-size: 36rem;
+  padding: 1rem;
+}
+
+.museum-credit-card time {
+  display: block;
+  margin-block-start: 0.5rem;
+}
+
+.museum-credit-card a {
+  color: #75dce8;
+}

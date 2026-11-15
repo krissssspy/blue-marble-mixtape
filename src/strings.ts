@@ -6,6 +6,14 @@ export const STRINGS = {
   loading: 'LOADING',
   ready: 'READY',
   farewell: 'THANKS FOR\nVISITING',
+  credits: '↑ CREDITS',
+} as const;
+
+export const CREDITS_COPY = {
+  heading: 'Liner notes',
+  notice:
+    'Blue Marble Mixtape is an independent museum project. NASA imagery appears with source credits.',
+  controls: '← → Browse · ↓ Back',
 } as const;
 
 export const TOUCH_STRINGS = {
