@@ -5,7 +5,13 @@ import { midiToHz } from './pitch.js';
 import { seededRandom } from './random.js';
 import { euclideanRhythm } from './rhythm.js';
 import { scaleNote } from './scale.js';
-import type { ImagePoint, ScoreEvent, ScoreLocation, VoiceName } from './score.js';
+import {
+  scoreDuration,
+  type ImagePoint,
+  type ScoreEvent,
+  type ScoreLocation,
+  type VoiceName,
+} from './score.js';
 
 type Note = (
   voice: VoiceName,
@@ -297,6 +303,45 @@ const profiles = {
   agriculture,
 } satisfies Record<ExhibitId, (pack: FeaturePack, add: Note) => void>;
 
+function imagePerformance(pack: FeaturePack) {
+  const phrases = Array.from({ length: 4 }, () => ({ light: 0, detail: 0 }));
+  const last = pack.frames.length - 1;
+  const frames = new Set([0, Math.floor(last / 2), last]);
+  let lightSquared = 0;
+  let saturation = 0;
+  let change = 0;
+  for (const frame of frames) {
+    for (let row = 0; row < 8; row += 1) {
+      for (let column = 0; column < 8; column += 1) {
+        const sample = cell(pack, point((column + 0.5) / 8, (row + 0.5) / 8), frame);
+        const phrase = phrases[Math.floor(column / 2)];
+        phrase.light += sample.light;
+        phrase.detail += sample.edge;
+        lightSquared += sample.light ** 2;
+        saturation += sample.saturation;
+        change += sample.change;
+      }
+    }
+  }
+  const count = 64 * frames.size;
+  const light = phrases.reduce((sum, phrase) => sum + phrase.light, 0) / count;
+  const detail = phrases.reduce((sum, phrase) => sum + phrase.detail, 0) / count;
+  const color = saturation / count;
+  const contrast = Math.sqrt(Math.max(0, lightSquared / count - light ** 2));
+  const keys = [0, 2, 4, 5, 7, 9];
+  const brightness = unit(0.74 * Math.sqrt(light) + 0.28 * color + 0.55 * detail);
+  return {
+    transpose: 2 ** (keys[Math.round(brightness * (keys.length - 1))] / 12),
+    pace: 1.24 - 0.5 * unit(4.2 * detail + 0.5 * color + Math.sqrt(change / count)),
+    sustain: 1.18 - 0.52 * unit(2.4 * contrast + 1.2 * detail + 0.25 * color),
+    emphasis: phrases.map((phrase) => {
+      const lightChange = (4 * phrase.light) / count - light;
+      const detailChange = (4 * phrase.detail) / count - detail;
+      return 0.7 + 0.6 * unit(0.5 + 2 * lightChange + 3 * detailChange);
+    }),
+  };
+}
+
 export function exhibitScore(exhibit: ExhibitId, pack: FeaturePack): readonly ScoreEvent[] {
   const events: ScoreEvent[] = [];
   profiles[exhibit](pack, (voice, start, duration, midi, loudness, location, panX) => {
@@ -311,16 +356,30 @@ export function exhibitScore(exhibit: ExhibitId, pack: FeaturePack): readonly Sc
     });
   });
   events.sort((first, second) => first.start - second.start);
+  const { transpose, pace, sustain, emphasis } = imagePerformance(pack);
+  const duration = scoreDuration(events);
+  const arranged = events.map((event) => {
+    const phrase = Math.floor((event.start / duration) * emphasis.length);
+    const loudness = event.loudness * emphasis[phrase];
+    // Keep each exhibit's arrangement and image locations while letting the image shape the performance.
+    return {
+      ...event,
+      start: event.start * pace,
+      duration: event.duration * pace * sustain,
+      pitch: event.voice === 'noise' ? event.pitch : event.pitch * transpose,
+      loudness: event.voice === 'noise' ? Math.min(0.12, loudness) : loudness,
+    };
+  });
   let peak = 0;
-  for (const [index, { start }] of events.entries()) {
+  for (const [index, { start }] of arranged.entries()) {
     let overlap = 0;
     for (let other = index; other >= 0; other -= 1) {
-      const event = events[other];
+      const event = arranged[other];
       if (event.start + event.duration > start) overlap += event.loudness;
     }
     peak = Math.max(peak, overlap);
   }
   // Each voice is bounded by its loudness, so a whole-score gain keeps transients below clipping.
   const gain = Math.min(1, 0.85 / peak);
-  return events.map((event) => ({ ...event, loudness: event.loudness * gain }));
+  return arranged.map((event) => ({ ...event, loudness: event.loudness * gain }));
 }

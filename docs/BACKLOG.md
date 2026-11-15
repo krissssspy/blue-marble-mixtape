@@ -267,7 +267,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 
 - [x] M6-52 Compare short renders from all nine exhibits for distinct spectra, onset rates, and pitch-class distributions.
 - [x] M6-53 Run the full suite, including static mutants, and verify the curated exhibits in the live draft preview.
-- [ ] M6-54 I will compare rendered clips from artifacts within each exhibit and increase audible contrast through image-driven changes in rhythm, pitch register, or texture. I will check the closest-sounding pairs through listening and rendered-audio comparisons while preserving each exhibit's genre and gentle dynamics.
+- [x] M6-54 I will compare rendered clips from artifacts within each exhibit and increase audible contrast through image-driven changes in rhythm, pitch register, or texture. I will check the closest-sounding pairs through listening and rendered-audio comparisons while preserving each exhibit's genre and gentle dynamics.
 
 ## M7 Lab and release
 

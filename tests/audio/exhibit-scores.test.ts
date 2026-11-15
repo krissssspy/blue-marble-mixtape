@@ -23,15 +23,15 @@ const voices = {
 };
 
 const scoreFingerprints = {
-  'sea-level': '604e67d22ba83ed07e5cc96459706a11ff3297a15326639f329807e21f5171b9',
-  'air-quality': 'c1a9bcbe0d1dff7250934fc8887f63a7b480d5f6fae0f806299e6ac24205eb69',
-  biodiversity: '5f54a399a917966260e6b0a73503a986c73955825732bb2e684af57c486a392c',
-  wildfires: '3d7302d091030fdff2685ac65bd3587369fef2deec34d10a3f24fe18f38b73aa',
-  'greenhouse-gases': '6e9c8e6fad3caacbc52071c43490d001700021ea45819f1b053d81d2aa8dcbe0',
-  energy: '242afb2aed3b8fb3019c5a15fc5d3e66bb8449f8eab6b3b03fd9081ca943b29a',
-  disasters: 'b1abf930b3b988cbb0584cce3d18b1380f86c025131aeef6f69b367d519ba806',
-  'water-resources': '731d90ff999d58a067d537bb5690b23735bb8eff79c13d9220fbbe739b986c3c',
-  agriculture: 'ccb24656a3fdaf122ff59d2c3b95b914fdecf0bd8fe4460a4be8974766cea87e',
+  'sea-level': 'ad83214669ead8e8ef551cc94ca4e7176ca812134d8e2a557b67cac6ecd99da9',
+  'air-quality': '693b540c99c4ba0cc39d9a149a94f552d0af570f9ec156e278e78424ce907290',
+  biodiversity: 'fc26bcbe312f9a297fba3b53e17e029627bf711599835ad0109f8aaf5d081ea2',
+  wildfires: 'd6da4b8f18efc266074886860318ccf46c0dac42f3fa077812b37a37ddb89c03',
+  'greenhouse-gases': 'f96f55cd85633e10d58ed06be38e538fa73e379686cf74591d92902dda5f4f3f',
+  energy: '430a3ddc7b57a546d5519a3187226e7b8b444a87aface431f87ee32c0b6e8e2b',
+  disasters: 'd27f9c1033d396e49700fef47632f0c6c7b068d77f6b9a5713d278c10c2e58ed',
+  'water-resources': '85946f49da10a08c852c30b298b60dcdbb3b777d7471e2f2f7afe47a24055ba6',
+  agriculture: 'fbcf1e009fa6b2afabc462e700f949e9b4ead76b216f714dc2dd95188fe7cec4',
 };
 
 function fixture(shift = 0): FeaturePack {
@@ -163,9 +163,12 @@ describe('nine exhibit scores', () => {
         throw new Error('Expected a point per Hilbert cell.');
       expect(Math.abs(a.x - b.x) + Math.abs(a.y - b.y)).toBe(1 / 8);
     }
-    const plough = exhibitScore('agriculture', fixture()).filter(
-      ({ voice, start }) =>
-        voice === 'pluck' && Math.abs(start / 0.155 - Math.round(start / 0.155)) < 1e-6,
+    const plucks = exhibitScore('agriculture', fixture()).filter(({ voice }) => voice === 'pluck');
+    const stepDuration = plucks.find(
+      ({ location }) => location.kind === 'region' && location.y === 0 && location.x === 1 / 8,
+    )!.start;
+    const plough = plucks.filter(
+      ({ start }) => Math.abs(start / stepDuration - Math.round(start / stepDuration)) < 1e-6,
     );
     expect(plough.slice(0, 3).map(({ location }) => location)).toMatchObject(
       [0, 1 / 8, 2 / 8].map((x) => ({ kind: 'region', x, y: 0 })),
