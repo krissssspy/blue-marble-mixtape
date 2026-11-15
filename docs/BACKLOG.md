@@ -31,7 +31,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M2-03 `staticwebapp.config.json` sends a content security policy that allows scripts, styles, and media from the site itself, and images from the site and `https://svs.gsfc.nasa.gov` only
 - [x] M2-03b The content security policy also sets `base-uri 'self'`, `form-action 'self'`, and `frame-ancestors 'none'`, which do not inherit from `default-src`
 - [x] M2-04 The deploy workflow builds the site and deploys it with the Static Web Apps action on pull requests (preview) and on pushes to `main` (production), and removes the preview when a pull request closes
-- [ ] M2-05 The smoke check exits zero when a URL serves the page title, and non-zero otherwise
+- [x] M2-05 The smoke check exits zero when a URL serves the page title, and non-zero otherwise
 - [ ] M2-06 The pull request checks also build the site
 
 ## M3 Ingest
