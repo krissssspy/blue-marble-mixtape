@@ -1,11 +1,12 @@
 import { drawArtifactFrame } from './engine/artifact-frame.js';
 import { drawExplorer, type ExplorerPose } from './engine/avatar-render.js';
 import type { AvatarSelection } from './engine/avatar.js';
+import { drawExhibitBackdrop } from './engine/exhibit-backgrounds.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './engine/framebuffer.js';
 import type { CatalogArtifact, MuseumAssets } from './engine/museum-assets.js';
 import { drawTrackBanner } from './engine/track-banner.js';
 import { walkwayHeight } from './engine/walkway.js';
-import { EXHIBIT_ARTIFACT_IDS } from './exhibit-selection.js';
+import { EXHIBIT_ARTIFACT_IDS, type ExhibitId } from './exhibit-selection.js';
 import { APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
 
 const ground = 148;
@@ -20,7 +21,7 @@ export interface MountedArtifact {
 }
 
 export interface MuseumRoom {
-  readonly id: string;
+  readonly id: ExhibitId | 'tutorial' | 'lab';
   readonly name: string;
   readonly width: number;
   readonly walkway: readonly { readonly x: number; readonly y: number }[];
@@ -85,15 +86,25 @@ export function drawDoor(frame: Framebuffer, x: number, floor: number, open: boo
   else fillRect(frame, left + 13, floor - 19, 2, 2, 6);
 }
 
-function drawRoomBackdrop(frame: Framebuffer, offset: number): void {
-  clearFramebuffer(frame, 0);
-  fillRect(frame, 0, 55, frame.width, frame.height - 55, 1);
-  for (let x = -(Math.floor(offset / 4) % 48); x < frame.width; x += 48) {
-    fillRect(frame, x, 73, 37, 75, 2);
-    fillRect(frame, x + 4, 82, 29, 2, 3);
-    fillRect(frame, x + 4, 106, 29, 2, 3);
+function drawRoomBackdrop(
+  frame: Framebuffer,
+  room: MuseumRoom,
+  offset: number,
+  parallax: boolean,
+): void {
+  if (room.id === 'lab' || room.id === 'tutorial') {
+    clearFramebuffer(frame, 0);
+    fillRect(frame, 0, 55, frame.width, frame.height - 55, 1);
+    const scroll = parallax ? Math.floor(offset / 4) % 48 : 0;
+    for (let x = -scroll; x < frame.width; x += 48) {
+      fillRect(frame, x, 73, 37, 75, 2);
+      fillRect(frame, x + 4, 82, 29, 2, 3);
+      fillRect(frame, x + 4, 106, 29, 2, 3);
+    }
+    fillRect(frame, 0, 129, frame.width, 2, 4);
+  } else {
+    drawExhibitBackdrop(frame, room.id, offset, parallax);
   }
-  fillRect(frame, 0, 129, frame.width, 2, 4);
   fillRect(frame, 0, ground, frame.width, frame.height - ground, 13);
   for (let x = -(Math.floor(offset) % 8); x < frame.width; x += 8) {
     for (let y = ground; y < frame.height; y += 8) {
@@ -134,7 +145,7 @@ export function drawRoom(frame: Framebuffer, view: RoomView): void {
     hasNext,
     thumbnailFor,
   } = view;
-  drawRoomBackdrop(frame, parallax ? left : 0);
+  drawRoomBackdrop(frame, room, left, parallax);
   drawDoor(frame, room.walkway[0].x - left, ground, true);
   if (hasNext) drawDoor(frame, room.walkway.at(-1)!.x - left, ground, true);
 
