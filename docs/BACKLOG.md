@@ -91,7 +91,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 ### Framebuffer and display
 
 - [x] M4-01 A new 320×180 framebuffer stores one Dusk palette index per pixel and clears to a selected index
-- [ ] M4-02 Filled rectangles clip at the framebuffer boundary and preserve pixels outside the requested area
+- [x] M4-02 Filled rectangles clip at the framebuffer boundary and preserve pixels outside the requested area
 - [ ] M4-03 An 8×8 indexed tile blits at its world position, clips at the edges, and leaves transparent pixels alone
 - [ ] M4-04 The 16-colour Dusk palette matches the ingest thumbnails and retains the five-tone backdrop ramp
 - [ ] M4-05 Indexed frames expand to opaque RGBA in row order for canvas presentation
