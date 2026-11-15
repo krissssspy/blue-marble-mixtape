@@ -130,7 +130,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 
 - [x] M4-29 The explorer's range opens a prompt for the nearest artifact and walking out closes it
 - [x] M4-30 Down dismisses an artifact prompt and it stays dismissed until the explorer leaves that artifact's range
-- [ ] M4-31 Up opens the prompted artifact and Down closes its listening view, returning the explorer to the walkway
+- [x] M4-31 Up opens the prompted artifact and Down closes its listening view, returning the explorer to the walkway
 - [ ] M4-32 Artifact thumbnails fit their frames on posts and the focused frame renders a two-pixel pulse, sparkles, and a bobbing diamond
 - [x] M4-33 An opaque cassette-shaped prompt draws LISTEN? and the two answer hints in the 16-pixel font
 - [x] M4-34 The listening view uses a real image with catalog alt text and keeps the whole NASA frame smoothly fitted on screen

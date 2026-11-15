@@ -40,9 +40,26 @@ export function interactWithArtifacts(
   const focusId = closestArtifact(explorerX, inRange);
   const inRangeIds = new Set(inRange.map(({ id }) => id));
   const dismissedIds = new Set([...state.dismissedIds].filter((id) => inRangeIds.has(id)));
-  if (pressed.includes('no') && state.promptId !== null && inRangeIds.has(state.promptId)) {
-    dismissedIds.add(state.promptId);
+  let listeningId = state.listeningId;
+  let displayedPromptId = state.promptId;
+
+  for (const action of pressed) {
+    if (action === 'no') {
+      const closedId = listeningId ?? displayedPromptId;
+      if (closedId !== null && inRangeIds.has(closedId)) dismissedIds.add(closedId);
+      listeningId = null;
+      displayedPromptId = null;
+    } else if (
+      action === 'yes' &&
+      listeningId === null &&
+      displayedPromptId !== null &&
+      inRangeIds.has(displayedPromptId)
+    ) {
+      listeningId = displayedPromptId;
+    }
   }
-  const promptId = focusId !== null && !dismissedIds.has(focusId) ? focusId : null;
-  return { ...state, focusId, promptId, dismissedIds };
+
+  const promptId =
+    listeningId === null && focusId !== null && !dismissedIds.has(focusId) ? focusId : null;
+  return { focusId, promptId, listeningId, dismissedIds };
 }
