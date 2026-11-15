@@ -8,6 +8,7 @@ import {
   type ExplorerPose,
 } from '../../src/engine/avatar-render.js';
 import { contrastRatio } from '../../src/engine/background.js';
+import { writeFrameRgba } from '../../src/engine/display.js';
 import { drawText } from '../../src/engine/font.js';
 import {
   clearFramebuffer,
@@ -103,8 +104,10 @@ describe('avatar and explorer rendering', () => {
     expect(silhouettes.size).toBe(4);
   });
 
-  it('fills the visible face, neck, and hands with the selected skin tone', () => {
+  it('fills the visible forehead, cheeks, neck, and hands with one distinct tone per choice', () => {
     const faceAndHands = [
+      [4, 1],
+      [5, 1],
       [3, 2],
       [8, 2],
       [2, 3],
@@ -114,14 +117,33 @@ describe('avatar and explorer rendering', () => {
       [1, 8],
       [10, 8],
     ];
-    for (const [skin, tone] of [15, 15, 14, 14, 13, 13].entries()) {
-      const frame = sprite({ ...DEFAULT_AVATAR, skin });
-      for (const [x, y] of faceAndHands) {
-        expect(frame.pixels[(feetY - 14 + y) * frame.width + explorerX - 6 + x]).toBe(tone);
+    const tones = ['f2c79a', 'dea979', 'bf894f', 'a0673a', '7e573d', '5a3e2b'];
+    function checkSkin(frame: Framebuffer, points: readonly (readonly number[])[], tone: string) {
+      const rgba = new Uint8ClampedArray(frame.pixels.length * 4);
+      writeFrameRgba(frame, rgba);
+      for (const [x, y] of points) {
+        const offset = (y * frame.width + x) * 4;
+        expect(Buffer.from(rgba.subarray(offset, offset + 4)).toString('hex')).toBe(tone + 'ff');
       }
+    }
+    for (const [skin, tone] of tones.entries()) {
+      const frame = sprite({ ...DEFAULT_AVATAR, skin });
+      checkSkin(
+        frame,
+        faceAndHands.map(([x, y]) => [explorerX - 6 + x, feetY - 14 + y]),
+        tone,
+      );
       const picker = preview({ ...DEFAULT_AVATAR, skin }, 0);
-      expect(picker.pixels[77 * picker.width + 51]).toBe(tone);
-      expect(picker.pixels[77 * picker.width + 57]).toBe(tone);
+      checkSkin(
+        picker,
+        [
+          [51, 65],
+          [57, 65],
+          [51, 77],
+          [57, 77],
+        ],
+        tone,
+      );
     }
   });
 
@@ -144,11 +166,11 @@ describe('avatar and explorer rendering', () => {
 
   it.each(
     [
-      'a2a04fb9c8357b22d392e9230ef9399df58b07b5c580884636baf4d2f2f653d7',
-      '27fbf7a7d024e15c732e98c8cf8085d4d7533adeec2bc3a0498cb33e36544ae8',
-      'a5dc4a58f2d4a563c975505630fc367529de714d2d427ee368215d7dece5c285',
+      '8cc36e6d9a7db63fd775b2cd8834f2b57706dcd512df0d7a4e05e835a57789cd',
+      'bad828c16e89fc9bd860143f4746d15050358961a278c84f72487e4dd05a82b9',
+      '43f6278ffb951194041f6a22d341dcf94d4a3cdfca64ff0cf24cf8bac0d24329',
       '17101fb9db3c2035dd921a935262da23277ca8821a26f9cd7d930151ac9ab00f',
-      '41c47e5309b191214d3d74e290369181abeed97213de3c6648c974da4d25e69e',
+      '91d07ef90aec8a568311dc4c0e53aa37f532ce6856988a86a2fe42d38677b23c',
       'e886a56ea57f435b34f6708b939e000f3858ae7f50a93ffb634d5ca233cadd8a',
     ].map((expected, choice) => ({ choice, expected })),
   )(

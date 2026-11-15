@@ -2,10 +2,11 @@ import { AVATAR_COPY } from '../strings.js';
 import { AVATAR_STEPS, type AvatarSelection } from './avatar.js';
 import { drawText, measureTextWidth } from './font.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './framebuffer.js';
+import { AVATAR_SKIN_INDICES } from './palette.js';
 
 const body = [
   '...ssssss...',
-  '..ssSSssss..',
+  '..ssssssss..',
   '..ssessess..',
   '..ssssssss..',
   '...ssssss...',
@@ -31,15 +32,6 @@ export function walkPose(movingSteps: number, reducedMotion: boolean): ExplorerP
   if (movingSteps === 0 || reducedMotion) return 0;
   return walkCycle[Math.floor((movingSteps - 1) / stepsPerPose) % walkCycle.length];
 }
-
-const skinColors = [
-  [15, 5],
-  [15, 15],
-  [14, 15],
-  [14, 14],
-  [13, 14],
-  [13, 13],
-] as const;
 
 const outfitColors = [
   [11, 4],
@@ -96,12 +88,10 @@ export function drawExplorer(
 ): void {
   const left = Math.round(x) - 6 * scale;
   const bottom = Math.round(feetY);
-  const [skin, skinLight] = skinColors[appearance.skin];
   const [outfit, outfitTrim] = outfitColors[appearance.outfit];
   const legRows = legPoses[pose];
   const colors = {
-    s: skin,
-    S: skinLight,
+    s: AVATAR_SKIN_INDICES[appearance.skin],
     e: 0,
     o: outfit,
     O: outfitTrim,

@@ -1,7 +1,7 @@
 import { transparentIndex, type Framebuffer } from './framebuffer.js';
-import { DUSK_PALETTE } from './palette.js';
+import { FRAME_PALETTE } from './palette.js';
 
-const rgbaPalette = DUSK_PALETTE.map((hex) => {
+const rgbaPalette = FRAME_PALETTE.map((hex) => {
   const rgb = Number.parseInt(hex.slice(1), 16);
   return [(rgb >> 16) & 255, (rgb >> 8) & 255, rgb & 255, 255];
 });
