@@ -209,12 +209,12 @@ describe('avatar and explorer rendering', () => {
 
   it.each(
     [
-      '13c56dd3cd91ffb928271cb29a37cadc3e6d2ad430cb52559ee493891a3a1920',
-      '0854b82258783f6770fc33a71ecc1fb780cff278662160461c73acff2391a783',
-      'fd517b8863f12c80401ebb3568c13ad1945bda91d5d82fb4fe9a82e9d4a3196e',
-      '937116d0f6a187abfb1bcd030c82d3551cc6af841222a5a2554b65ad6f22054d',
-      'ea936f3dab9a39cbe7fd8beebca214bb522a85bcfe537b1ee5535aac0ce62c8c',
-      'a0e54158867d76856d46adad0d1627824f9354226ac7d1b00e5b2bb9e691f2d2',
+      'c1eb1d8345d59f825ed8cbd88f2187ae31f9166c20e65bd6957b3f4bc5beffa4',
+      '38adcd27116b8347af5b2f8e8d0eb1901606a473948710a0947570d85a17c027',
+      '3b4bcbbf31e2afb2946353b14c23d99ef0d0ce1c6a01ab27b23d3eff30899971',
+      '132ba3bc683344e753b166689651442dffe6e3bce401e61a28e839a1202a402b',
+      'ca8b5ac6e614dcfd65444cde5179096d219c0050514c1f97f0110029b65d706d',
+      'f8c2f4793e8d7c2dd0c2f2f809be69b0f298beeab00f9eed65f8c51aa96e2559',
     ].map((expected, choice) => ({ choice, expected })),
   )(
     'matches indexed frames for choice $choice across four avatar steps',
@@ -278,5 +278,6 @@ describe('avatar and explorer rendering', () => {
     const selected = AVATAR_LABELS.outfit[appearance.outfit].toUpperCase();
 
     expect(hasReadableChoice(frame, selected)).toBe(true);
+    expect(hasReadableChoice(preview(DEFAULT_AVATAR, 0), 'COMPLEXION')).toBe(true);
   });
 });

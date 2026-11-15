@@ -32,7 +32,7 @@ export const AVATAR_LABELS = {
 
 export const AVATAR_COPY = {
   step: 'STEP',
-  categories: ['SKIN', 'HAIR', 'OUTFIT', 'HEADGEAR'],
+  categories: ['COMPLEXION', 'HAIR', 'OUTFIT', 'HEADGEAR'],
   previous: '←',
   next: '→',
   confirm: '↑ OK',
