@@ -1,7 +1,11 @@
-import { spawnSync } from 'node:child_process';
+import { execFile, spawnSync } from 'node:child_process';
+import { once } from 'node:events';
 import { readFileSync, rmSync } from 'node:fs';
+import { createServer } from 'node:http';
+import type { AddressInfo } from 'node:net';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { promisify } from 'node:util';
 import { beforeAll, describe, it, expect } from 'vitest';
 
 const cwd = fileURLToPath(new URL('../../', import.meta.url));
@@ -60,6 +64,32 @@ describe('npm run build', () => {
       expect(viewport, 'a <meta name="viewport"> element').not.toBeNull();
       expect(viewport?.[0]).toMatch(/\bcontent=["'][^"']*width=device-width/);
       expect(viewport?.[0]).toMatch(/\bcontent=["'][^"']*initial-scale=1(?![.\d])/);
+    },
+    TEST_TIMEOUT_MS,
+  );
+
+  it(
+    'passes the smoke CLI against dist/index.html served over HTTP',
+    async () => {
+      expect(buildStatus, buildOutput).toBe(0);
+      const host = '127.0.0.1';
+      const server = createServer((_request, response) => {
+        response.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
+        response.end(html);
+      });
+      try {
+        await once(server.listen(0, host), 'listening');
+        const { port } = server.address() as AddressInfo;
+        const smokePath = join(cwd, 'tools', 'deploy', 'smoke.mjs');
+        await promisify(execFile)(process.execPath, [smokePath, `http://${host}:${port}/`], {
+          cwd,
+          timeout: CHILD_TIMEOUT_MS,
+        });
+      } finally {
+        if (server.listening) {
+          await promisify(server.close.bind(server))();
+        }
+      }
     },
     TEST_TIMEOUT_MS,
   );
