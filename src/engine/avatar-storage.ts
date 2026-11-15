@@ -1,0 +1,39 @@
+import { AVATAR_STEPS, DEFAULT_AVATAR, type AvatarSelection } from './avatar.js';
+
+type AvatarStorage = Pick<Storage, 'getItem' | 'setItem'>;
+const storageKey = 'blue-marble-mixtape.avatar';
+
+export function loadAvatar(storage: AvatarStorage | null | undefined): AvatarSelection {
+  const avatar = { ...DEFAULT_AVATAR };
+  try {
+    const data: unknown = JSON.parse(storage?.getItem(storageKey) ?? 'null');
+    if (typeof data !== 'object' || data === null) return avatar;
+
+    const fields = data as Record<string, unknown>;
+    for (const { key, choices } of AVATAR_STEPS) {
+      const value = fields[key];
+      if (
+        typeof value === 'number' &&
+        Number.isInteger(value) &&
+        value >= 0 &&
+        value < choices.length
+      ) {
+        avatar[key] = value;
+      }
+    }
+  } catch {
+    // Avatar customization is still available if storage or saved data is unavailable.
+  }
+  return avatar;
+}
+
+export function saveAvatar(
+  storage: AvatarStorage | null | undefined,
+  avatar: AvatarSelection,
+): void {
+  try {
+    storage?.setItem(storageKey, JSON.stringify(avatar));
+  } catch {
+    // The current selections remain available in memory.
+  }
+}
