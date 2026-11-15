@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { clearFramebuffer, createFramebuffer, fillRect } from '../../src/engine/framebuffer.js';
+import {
+  blitTile,
+  clearFramebuffer,
+  createFramebuffer,
+  fillRect,
+} from '../../src/engine/framebuffer.js';
 
 describe('framebuffer', () => {
   it('starts with one zero palette index per pixel at 320×180', () => {
@@ -69,4 +74,54 @@ describe('framebuffer', () => {
 
     expect(frame.pixels.every((index) => index === 3)).toBe(true);
   });
+});
+
+describe('blitTile', () => {
+  it('draws an indexed 8×8 tile at its position and leaves transparent pixels and neighbours alone', () => {
+    const frame = createFramebuffer();
+    clearFramebuffer(frame, 9);
+    const tile = new Uint8Array(64).fill(255);
+    tile.set([0, 5], 0);
+    tile[8] = 15;
+    tile[63] = 7;
+
+    blitTile(frame, 11, 6, tile);
+
+    const changed = Array.from(frame.pixels.entries()).filter(([, index]) => index !== 9);
+    expect(changed).toEqual([
+      [1931, 0],
+      [1932, 5],
+      [2251, 15],
+      [4178, 7],
+    ]);
+  });
+
+  it.each([
+    {
+      corner: 'upper left',
+      x: -6,
+      y: -6,
+      sourceOffsets: [54, 55, 62, 63],
+      positions: [0, 1, 320, 321],
+    },
+    {
+      corner: 'lower right',
+      x: 318,
+      y: 178,
+      sourceOffsets: [0, 1, 8, 9],
+      positions: [57_278, 57_279, 57_598, 57_599],
+    },
+  ])(
+    'clips the tile at the $corner corner without shifting its source or wrapping rows',
+    ({ x, y, sourceOffsets, positions }) => {
+      const frame = createFramebuffer();
+      const tile = new Uint8Array(64).fill(15);
+      for (const [index, offset] of sourceOffsets.entries()) tile[offset] = index + 1;
+
+      blitTile(frame, x, y, tile);
+
+      const changed = Array.from(frame.pixels.entries()).filter(([, index]) => index !== 0);
+      expect(changed).toEqual(positions.map((position, index) => [position, index + 1]));
+    },
+  );
 });
