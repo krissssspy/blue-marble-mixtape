@@ -44,10 +44,14 @@ describe('crawlGallery', () => {
   it('collects terminal records from the EIC root and its recorded galleries in source order', async () => {
     const entries = await crawlGallery(async (id: number) => readRecordedPage(id));
 
-    expect(entries).toHaveLength(123);
-    expect(entries.filter(({ type }) => type === 'details_page')).toHaveLength(98);
-    expect(entries.filter(({ type }) => type === 'link')).toHaveLength(22);
+    expect(entries).toHaveLength(103);
+    expect(entries.filter(({ type }) => type === 'details_page')).toHaveLength(79);
+    expect(entries.filter(({ type }) => type === 'link')).toHaveLength(21);
     expect(entries.filter(({ type }) => type === 'media_group')).toHaveLength(3);
+    expect(entries.find(({ type, id }) => type === 'details_page' && id === 5147)).toMatchObject({
+      galleryId: 40509,
+      galleryIds: [40509, 40512],
+    });
 
     const checkpoints = [860409, 5111, 367972, 14700, 479017, 4285];
     expect(entries.filter(({ id }) => checkpoints.includes(id))).toEqual([
@@ -82,6 +86,65 @@ describe('crawlGallery', () => {
     expect(entries).toEqual([
       expect.objectContaining({ type: 'details_page', id: 400, galleryId: 200 }),
       expect.objectContaining({ type: 'details_page', id: 300, galleryId: 100 }),
+    ]);
+  });
+
+  it('keeps the first reference to each page or media ID and visits each gallery once', async () => {
+    const root = 40467;
+    const pages = new Map<number, [string, number][]>([
+      [
+        root,
+        [
+          ['details_page', 200],
+          ['gallery_page', 100],
+          ['gallery_page', 100],
+          ['details_page', 300],
+          ['media_group', 200],
+          ['link', 400],
+        ],
+      ],
+      [
+        100,
+        [
+          ['link', 200],
+          ['details_page', 200],
+          ['details_page', 200],
+          ['details_page', 300],
+          ['media_group', 400],
+          ['gallery_page', root],
+        ],
+      ],
+    ]);
+    const visited = new Set<number>();
+    const entries = await crawlGallery(async (id: number) => {
+      if (visited.has(id)) throw new Error(`Gallery ${id} was loaded more than once`);
+      visited.add(id);
+      const cards = pages.get(id);
+      if (!cards) throw new Error(`Unexpected fixture page ${id}`);
+      const items = cards.map(([type, instanceId]) => ({ type, instance: { id: instanceId } }));
+      return { id, media_groups: [{ items }] };
+    });
+
+    expect(entries).toEqual([
+      expect.objectContaining({
+        type: 'details_page',
+        id: 200,
+        galleryId: root,
+        galleryIds: [root, 100],
+      }),
+      expect.objectContaining({ type: 'link', id: 200, galleryId: 100, galleryIds: [100, root] }),
+      expect.objectContaining({
+        type: 'details_page',
+        id: 300,
+        galleryId: 100,
+        galleryIds: [100, root],
+      }),
+      expect.objectContaining({
+        type: 'media_group',
+        id: 400,
+        galleryId: 100,
+        galleryIds: [100, root],
+      }),
     ]);
   });
 });
