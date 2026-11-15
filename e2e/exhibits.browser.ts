@@ -11,6 +11,11 @@ test('walks all nine exhibits, hears distinct scores, and reaches the thank-you 
 }) => {
   test.setTimeout(60_000);
   await page.addInitScript(() => {
+    window.AudioContext = class extends AudioContext {
+      constructor() {
+        super({ sinkId: { type: 'none' } } as AudioContextOptions);
+      }
+    };
     Object.defineProperty(window, 'AudioWorkletNode', { value: undefined });
     // Preserve trusted inputs and the native audio clock while shortening the walk.
     let first: number | undefined;
@@ -45,6 +50,7 @@ test('walks all nine exhibits, hears distinct scores, and reaches the thank-you 
   const renderedScenes = new Set<number>();
   const rooms = Object.keys(EXHIBIT_ARTIFACT_IDS) as ExhibitId[];
 
+  await page.route('https://svs.gsfc.nasa.gov/**', (route) => route.abort());
   await page.goto('/');
   await expect(shell).toHaveAttribute('data-screen', 'welcome');
   await page.keyboard.press('ArrowUp');
@@ -99,6 +105,26 @@ test('walks all nine exhibits, hears distinct scores, and reaches the thank-you 
     await expect(page.locator('.game-stage img')).toBeVisible();
     await expect.poll(async () => (await clips()).length).toBe(index + 1);
     expect((await clips()).at(-1)?.audible, room).toBe(true);
+    await expect
+      .poll(
+        () =>
+          page.locator('.game-stage canvas').evaluate((element) => {
+            const canvas = element as HTMLCanvasElement;
+            const { data } = canvas.getContext('2d')!.getImageData(0, 50, canvas.width, 73);
+            for (let index = 0; index < data.length; index += 4) {
+              if (
+                data[index] === 255 &&
+                data[index + 1] === 204 &&
+                data[index + 2] === 51 &&
+                data[index + 3] === 255
+              )
+                return true;
+            }
+            return false;
+          }),
+        { message: `the ${room} score draws its playhead over the image` },
+      )
+      .toBe(true);
     await page.keyboard.press('ArrowDown');
     await expect(shell).toHaveAttribute('data-screen', 'room');
   }

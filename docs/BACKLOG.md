@@ -183,7 +183,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 
 ## M6 Rooms 1–9
 
-- [ ] M6-01 Select eight to ten distinct artifacts for each exhibit by evaluating the image and its sonification. Remove repeated views and source additional distinct artifacts for any exhibit that falls below eight.
+- [x] M6-01 Select eight to ten distinct artifacts for each exhibit by evaluating the image and its sonification. Remove repeated views and source additional distinct artifacts for any exhibit that falls below eight.
 
 - [x] M6-02 Add documented Biodiversity sources through the existing ingest pipeline to bring the exhibit to eight distinct artifacts.
 - [x] M6-03 Load explicit exhibit selections in order while preserving the full catalog for the lab library.
@@ -193,80 +193,80 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 
 ### Sea Level
 
-- [ ] M6-07 Draw a flooding harbour with icebergs, a tide gauge, and submerged structures with at least ten distinct motifs.
-- [ ] M6-08 Build a pier walkway with a rising harbour ramp and show its numbered cassette banner.
-- [ ] M6-09 Analyze image features in a way that extracts current directions and traces streamlines through still or animated data.
+- [x] M6-07 Draw a flooding harbour with icebergs, a tide gauge, and submerged structures with at least ten distinct motifs.
+- [x] M6-08 Build a pier walkway with a rising harbour ramp and show its numbered cassette banner.
+- [x] M6-09 Analyze image features in a way that extracts current directions and traces streamlines through still or animated data.
 - [ ] M6-10 Apply the room recipe that uses drifting pads and tide bass with cumulative pitch motion and path markers.
-- [ ] M6-11 Verify room traversal, the listening image, and the playhead in the browser.
+- [x] M6-11 Verify room traversal, the listening image, and the playhead in the browser.
 
 ### Air Quality
 
-- [ ] M6-12 Draw rooftops, layered haze, and atmospheric monitoring instruments with at least ten distinct motifs.
-- [ ] M6-13 Build a continuous roofline and rooftop walkways and show its numbered cassette banner.
+- [x] M6-12 Draw rooftops, layered haze, and atmospheric monitoring instruments with at least ten distinct motifs.
+- [x] M6-13 Build a continuous roofline and rooftop walkways and show its numbered cassette banner.
 - [ ] M6-14 Analyze image features in a way that inverts the colour bar and follows a Hilbert curve through concentration tiles.
 - [ ] M6-15 Apply the room recipe that turns concentration into granular noise and pulses with point markers.
-- [ ] M6-16 Verify room traversal, the listening image, and the playhead in the browser.
+- [x] M6-16 Verify room traversal, the listening image, and the playhead in the browser.
 
 ### Biodiversity
 
-- [ ] M6-17 Draw a canopy bridge with emergent trees, plants, birds, and forest lidar with at least ten distinct motifs.
-- [ ] M6-18 Build a canopy walk with a continuous research bridge and show its numbered cassette banner.
+- [x] M6-17 Draw a canopy bridge with emergent trees, plants, birds, and forest lidar with at least ten distinct motifs.
+- [x] M6-18 Build a canopy walk with a continuous research bridge and show its numbered cassette banner.
 - [ ] M6-19 Analyze image features in a way that reads columns as a spectrogram and traces connected ecosystem features.
-- [ ] M6-20 Apply the room recipe that uses tuned notes and short calls across image positions.
-- [ ] M6-21 Verify room traversal, the listening image, and the playhead in the browser.
+- [x] M6-20 Apply the room recipe that uses tuned notes and short calls across image positions.
+- [x] M6-21 Verify room traversal, the listening image, and the playhead in the browser.
 
 ### Wildfires
 
-- [ ] M6-22 Draw a burn scar with charred trees, a firebreak, and a lookout with at least ten distinct motifs.
-- [ ] M6-23 Build a connected path through the burn scar and across the creek and show its numbered cassette banner.
+- [x] M6-22 Draw a burn scar with charred trees, a firebreak, and a lookout with at least ten distinct motifs.
+- [x] M6-23 Build a connected path through the burn scar and across the creek and show its numbered cassette banner.
 - [ ] M6-24 Analyze image features in a way that detects fire-front changes, burned area, and new hot spots.
 - [ ] M6-25 Apply the room recipe that maps newly active cells to crackles and Euclidean percussion with front markers.
-- [ ] M6-26 Verify room traversal, the listening image, and the playhead in the browser.
+- [x] M6-26 Verify room traversal, the listening image, and the playhead in the browser.
 
 ### Greenhouse Gases
 
-- [ ] M6-27 Draw an observatory above clouds with sampling instruments and a CO₂-shaped ridge with at least ten distinct motifs.
-- [ ] M6-28 Build an observatory path that follows the ridge without blocking the lane and show its numbered cassette banner.
+- [x] M6-27 Draw an observatory above clouds with sampling instruments and a CO₂-shaped ridge with at least ten distinct motifs.
+- [x] M6-28 Build an observatory path that follows the ridge without blocking the lane and show its numbered cassette banner.
 - [ ] M6-29 Analyze image features in a way that traces plotted curves or clusters colours into four source groups.
 - [ ] M6-30 Apply the room recipe that arranges organ parts with seasonal ornaments and marks the source curves.
-- [ ] M6-31 Verify room traversal, the listening image, and the playhead in the browser.
+- [x] M6-31 Verify room traversal, the listening image, and the playhead in the browser.
 
 ### Energy
 
-- [ ] M6-32 Draw a night grid with power lines, wind turbines, solar roofs, and an Earth horizon with at least ten distinct motifs.
-- [ ] M6-33 Build a lit walkway through the power grid and show its numbered cassette banner.
+- [x] M6-32 Draw a night grid with power lines, wind turbines, solar roofs, and an Earth horizon with at least ten distinct motifs.
+- [x] M6-33 Build a lit walkway through the power grid and show its numbered cassette banner.
 - [ ] M6-34 Analyze image features in a way that finds clustered lights and builds a minimum spanning tree between them.
-- [ ] M6-35 Apply the room recipe that walks the tree as synth arpeggios and highlights nodes or edges.
-- [ ] M6-36 Verify room traversal, the listening image, and the playhead in the browser.
+- [x] M6-35 Apply the room recipe that walks the tree as synth arpeggios and highlights nodes or edges.
+- [x] M6-36 Verify room traversal, the listening image, and the playhead in the browser.
 
 ### Disasters
 
-- [ ] M6-37 Draw a storm coast with an eye wall, surge barrier, and weather radar with at least ten distinct motifs.
-- [ ] M6-38 Build an elevated seawall route with connected entry and exit points and show its numbered cassette banner.
+- [x] M6-37 Draw a storm coast with an eye wall, surge barrier, and weather radar with at least ten distinct motifs.
+- [x] M6-38 Build an elevated seawall route with connected entry and exit points and show its numbered cassette banner.
 - [ ] M6-39 Analyze image features in a way that locates a storm centre and samples the log-polar radar sweep.
-- [ ] M6-40 Apply the room recipe that maps wind and lightning to cinematic voices and a rotating radar playhead.
-- [ ] M6-41 Verify room traversal, the listening image, and the playhead in the browser.
+- [x] M6-40 Apply the room recipe that maps wind and lightning to cinematic voices and a rotating radar playhead.
+- [x] M6-41 Verify room traversal, the listening image, and the playhead in the browser.
 
 ### Water Resources
 
-- [ ] M6-42 Draw an aquifer cutaway with a reservoir, river, strata, wells, and satellites with at least ten distinct motifs.
-- [ ] M6-43 Build a path connecting the reservoir and exposed hillside and show its numbered cassette banner.
+- [x] M6-42 Draw an aquifer cutaway with a reservoir, river, strata, wells, and satellites with at least ten distinct motifs.
+- [x] M6-43 Build a path connecting the reservoir and exposed hillside and show its numbered cassette banner.
 - [ ] M6-44 Analyze image features in a way that samples wet areas and traces downhill runoff into basins.
 - [ ] M6-45 Apply the room recipe that voices drops and basins as lo-fi resonances and draws rings and runoff paths.
-- [ ] M6-46 Verify room traversal, the listening image, and the playhead in the browser.
+- [x] M6-46 Verify room traversal, the listening image, and the playhead in the browser.
 
 ### Agriculture
 
-- [ ] M6-47 Draw patchwork fields with a barn, silo, tractor, irrigation, and satellite with at least ten distinct motifs.
-- [ ] M6-48 Build a continuous farm track past the field boundaries and show its numbered cassette banner.
+- [x] M6-47 Draw patchwork fields with a barn, silo, tractor, irrigation, and satellite with at least ten distinct motifs.
+- [x] M6-48 Build a continuous farm track past the field boundaries and show its numbered cassette banner.
 - [ ] M6-49 Analyze image features in a way that segments neighbouring fields and reads them in alternating rows.
 - [ ] M6-50 Apply the room recipe that uses field transitions for plucked melodies with plough paths and field outlines.
-- [ ] M6-51 Verify room traversal, the listening image, and the playhead in the browser.
+- [x] M6-51 Verify room traversal, the listening image, and the playhead in the browser.
 
 ### Phase verification
 
-- [ ] M6-52 Compare short renders from all nine exhibits for distinct spectra, onset rates, and pitch-class distributions.
-- [ ] M6-53 Run the full suite, including static mutants, and verify the curated exhibits in the live draft preview.
+- [x] M6-52 Compare short renders from all nine exhibits for distinct spectra, onset rates, and pitch-class distributions.
+- [x] M6-53 Run the full suite, including static mutants, and verify the curated exhibits in the live draft preview.
 
 ## M7 Lab and release
 
@@ -277,5 +277,5 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M7-05 Play each of the seven Lab scans with an image-relative playhead and the visitor's chosen instrument and mappings.
 - [x] M7-06 Round-trip a validated artifact and recipe through a URL fragment and reopen it in the Lab.
 - [x] M7-07 Show readable, linkable source credits and NASA affiliation language in the liner notes.
-- [ ] M7-08 Verify the Lab, sharing, liner notes, and farewell in desktop and touch browsers.
+- [x] M7-08 Verify the Lab, sharing, liner notes, and farewell in desktop and touch browsers.
 - [ ] M7-09 Run the full release suite and verify the live Azure preview while keeping PR #1 in draft.

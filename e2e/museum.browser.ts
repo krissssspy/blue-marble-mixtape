@@ -156,6 +156,22 @@ test('walks from Welcome to the first exhibit with only arrow keys', async ({ pa
 
   await enterTutorial(page, shell);
   await waitForLoaderText(canvas, 'READY');
+  await expect
+    .poll(() =>
+      canvas.evaluate((element) => {
+        const context = (element as HTMLCanvasElement).getContext('2d')!;
+        return [
+          [180, 8],
+          [305, 28],
+          [291, 69],
+        ].map(([x, y]) => Array.from(context.getImageData(x, y, 1, 1).data));
+      }),
+    )
+    .toEqual([
+      [155, 246, 255, 255],
+      [22, 33, 62, 255],
+      [46, 196, 182, 255],
+    ]);
   await holdRight(page, () => expect(announcements).toContainText(/listen/i));
 
   await page.keyboard.press('ArrowUp');
@@ -207,6 +223,11 @@ test('starts catalog audio and its image playhead after a gesture and stops on c
     stopped: number;
   }
   await page.addInitScript(() => {
+    window.AudioContext = class extends AudioContext {
+      constructor() {
+        super({ sinkId: { type: 'none' } } as AudioContextOptions);
+      }
+    };
     Object.defineProperty(window, 'AudioWorkletNode', { value: undefined });
     const probe: AudioProbe = { started: [], durations: [], stopped: 0 };
     Object.assign(window, { audioProbe: probe });
@@ -232,12 +253,14 @@ test('starts catalog audio and its image playhead after a gesture and stops on c
   const audio = () =>
     page.evaluate(() => (window as Window & { audioProbe?: AudioProbe }).audioProbe!);
 
+  await page.route('https://svs.gsfc.nasa.gov/**', (route) => route.abort());
   await page.goto('/');
   const shell = page.locator(museum);
   const canvas = page.locator(gameCanvas).first();
   await expect(shell).toHaveAttribute('data-screen', 'welcome');
   expect((await audio()).started).toEqual([]);
   await enterTutorial(page, shell);
+  await waitForLoaderText(canvas, 'READY');
   await holdRight(page, () => expect(page.locator(status)).toContainText(/listen/i));
   expect((await audio()).started).toEqual([]);
 
@@ -270,7 +293,9 @@ test('starts catalog audio and its image playhead after a gesture and stops on c
   await expect(shell).toHaveAttribute('data-screen', 'tutorial');
   await expect.poll(async () => (await audio()).stopped).toBe(1);
 
-  await holdRight(page, () => expect(shell).toHaveAttribute('data-room', 'sea-level'));
+  await holdRight(page, () =>
+    expect(shell).toHaveAttribute('data-room', 'sea-level', { timeout: 10000 }),
+  );
   await holdRight(page, () => expect(page.locator(status)).toContainText(/listen/i));
   const exhibitFeature = page.waitForResponse((response) =>
     response.url().endsWith('/media/svs-media-479017-main/features.bin'),

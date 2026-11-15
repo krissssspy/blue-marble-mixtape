@@ -1,6 +1,7 @@
 import { expect, test } from '@playwright/test';
 import { DEFAULT_RECIPE } from '../src/audio/recipe.js';
 import { encodeLabShare, readLabShare } from '../src/engine/lab-share.js';
+import { LAB_STEPS } from '../src/engine/lab.js';
 
 test('reopens an unmounted catalog artifact from a share link, edits the mix, and plays it', async ({
   page,
@@ -68,7 +69,7 @@ test('reopens an unmounted catalog artifact from a share link, edits the mix, an
 test.describe('touch controls', () => {
   test.use({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
 
-  test('plays a shared mix through a native worklet and disconnects it on close', async ({
+  test('plays a shared mix through a native worklet and reaches the liner notes', async ({
     page,
   }) => {
     interface AudioProbe {
@@ -78,6 +79,12 @@ test.describe('touch controls', () => {
       bufferStarts: number;
     }
     await page.addInitScript(() => {
+      window.AudioContext = class extends AudioContext {
+        constructor() {
+          // Drive the native audio graph without depending on the host's playback device.
+          super({ sinkId: { type: 'none' } } as AudioContextOptions);
+        }
+      };
       const probe: AudioProbe = { workletStarts: 0, workletStops: 0, bufferStarts: 0 };
       Object.assign(window, { workletProbe: probe });
       window.AudioWorkletNode = class extends AudioWorkletNode {
@@ -139,5 +146,30 @@ test.describe('touch controls', () => {
     await no.tap();
     await expect(shell).toHaveAttribute('data-screen', 'lab');
     await expect.poll(liveAudio).toMatchObject({ workletStops: 1 });
+
+    for (let step = 0; step < LAB_STEPS.length; step += 1) await no.tap();
+    await expect(shell).toHaveAttribute('data-screen', 'room');
+    const right = page.getByRole('button', { name: 'Walk right' });
+    const box = (await right.boundingBox())!;
+    const input = await page.context().newCDPSession(page);
+    await input.send('Input.dispatchTouchEvent', {
+      type: 'touchStart',
+      touchPoints: [{ x: box.x + box.width / 2, y: box.y + box.height / 2 }],
+    });
+    try {
+      await expect(shell).toHaveAttribute('data-screen', 'farewell', { timeout: 10000 });
+    } finally {
+      await input.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+    }
+    await yes.tap();
+    const credits = page.getByRole('region', { name: 'Liner notes' });
+    await expect(credits).toBeVisible();
+    const source = credits.getByRole('link');
+    await expect(source).toHaveAttribute('href', /^https:\/\/[^/]*nasa\.gov\//);
+    const title = await source.textContent();
+    await right.tap();
+    await expect(source).not.toHaveText(title!);
+    await no.tap();
+    await expect(shell).toHaveAttribute('data-screen', 'farewell');
   });
 });
