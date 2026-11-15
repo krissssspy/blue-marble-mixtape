@@ -52,6 +52,7 @@ import { ACCESSIBILITY_STRINGS, APP_STRINGS, CREDITS_COPY, MUSEUM_ROOMS } from '
 const thumbnailFallback = new Uint8Array(48 * 27).fill(3);
 const secondsPerStep = 1 / 60;
 const maxFrameGapMs = 250;
+const demoFadeMs = 360;
 
 function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasElement): void {
   const frame = createFramebuffer();
@@ -79,6 +80,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   let catalog: MuseumCatalog | null = null;
   let rooms = createMuseumRooms();
   let position = { roomIndex: 0, x: 32 };
+  let demoJump: { roomIndex: number; elapsed: number } | null = null;
   let movingSteps = 0;
   let farewell = false;
   let creditIndex: number | null = null;
@@ -374,6 +376,38 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     currentImage = null;
   }
 
+  function arriveAtExhibit(roomIndex: number): void {
+    const room = rooms[roomIndex];
+    const entrance = room.walkway[0].x + 8;
+    const x = room.id === 'lab' ? entrance : (room.spots[0]?.x ?? entrance);
+    position = { roomIndex, x };
+    movingSteps = 0;
+    lab = null;
+    labPlaying = false;
+    interaction = interactWithArtifacts(createArtifactInteraction(), x, room.spots, []);
+  }
+
+  function startDemoJump(direction: 'left' | 'right'): void {
+    if (!catalog || state.screen !== 'tutorial' || demoJump || farewell) return;
+    const destination = position.roomIndex + (direction === 'left' ? -1 : 1);
+    if (destination < 1 || destination >= rooms.length) return;
+    input.clear();
+    if (motionPreference.matches) arriveAtExhibit(destination);
+    else demoJump = { roomIndex: destination, elapsed: 0 };
+  }
+
+  function advanceDemoJump(elapsed: number): void {
+    if (!demoJump) return;
+    demoJump.elapsed += elapsed;
+    const fraction = motionPreference.matches ? 1 : Math.min(1, demoJump.elapsed / demoFadeMs);
+    if (fraction >= 0.5 && position.roomIndex !== demoJump.roomIndex) {
+      arriveAtExhibit(demoJump.roomIndex);
+    }
+    const fade = 2 * Math.min(fraction, 1 - fraction);
+    stage.style.opacity = fraction === 1 ? '' : String(1 - fade * fade * (3 - 2 * fade));
+    if (fraction === 1) demoJump = null;
+  }
+
   function renderMuseum(): void {
     const room = rooms[position.roomIndex];
     const listening = room.spots.find(({ id }) => id === interaction.listeningId);
@@ -482,6 +516,10 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     if (!action || event.altKey || event.metaKey || event.ctrlKey) return;
     event.preventDefault();
     if (event.repeat) return;
+    if (event.shiftKey && (action === 'left' || action === 'right')) {
+      startDemoJump(action);
+      return;
+    }
     if (event.isTrusted && action === 'yes') unlockAudio();
     input.press(`key:${event.key}`, action);
   });
@@ -505,7 +543,12 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   function animate(now: number): void {
     const elapsed = previousTime === undefined ? 0 : Math.min(now - previousTime, maxFrameGapMs);
     previousTime = now;
-    stepper.advance(elapsed, input.take());
+    if (demoJump) {
+      input.clear();
+      advanceDemoJump(elapsed);
+    } else {
+      stepper.advance(elapsed, input.take());
+    }
     renderMuseum();
     requestAnimationFrame(animate);
   }
