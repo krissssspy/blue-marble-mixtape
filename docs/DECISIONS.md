@@ -22,3 +22,4 @@ Append-only. Newest last.
 - 2026-11-14. The gallery API transposes the reported width and height of some embedded images. PNG headers show that seven Worldview originals are 4096 pixels wide. Ingest keeps those artifacts, records the original NASA URL and verified size, and uses the local WebP when no published variant meets the 3840-pixel remote width cap.
 
 - 2026-11-14. The single processed-media upload disconnected repeatedly during Git transfer. M3-23a through M3-23t stage the same verified files in smaller commits. M3-23 publishes the complete catalog once all media are present.
+- 2026-11-14. Use `--ignoreStatic` for targeted mutation runs during iteration. At each phase boundary run the full test suite and full mutation run, including static mutants.

@@ -88,7 +88,65 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 
 ## M4 Engine
 
-Itemised when M3 is done.
+### Framebuffer and display
+
+- [x] M4-01 A new 320×180 framebuffer stores one Dusk palette index per pixel and clears to a selected index
+- [ ] M4-02 Filled rectangles clip at the framebuffer boundary and preserve pixels outside the requested area
+- [ ] M4-03 An 8×8 indexed tile blits at its world position, clips at the edges, and leaves transparent pixels alone
+- [ ] M4-04 The 16-colour Dusk palette matches the ingest thumbnails and retains the five-tone backdrop ramp
+- [ ] M4-05 Indexed frames expand to opaque RGBA in row order for canvas presentation
+- [ ] M4-06 The canvas presents at a fitting integer scale with crisp pixels and letterboxes spare space
+- [ ] M4-07 A bitmap font draws 16-pixel-high uppercase letters, numbers, punctuation, and all four arrows
+- [ ] M4-08 The engine's visible copy lives in one string table and stays within 18 characters per line and two lines per label
+
+### Input, simulation, and camera
+
+- [ ] M4-09 Only the four arrow keys map to movement and yes/no actions
+- [ ] M4-10 Horizontal movement holds while a key is down, and yes/no dispatch once per press across repeat, release, and blur
+- [ ] M4-11 Four labelled touch buttons send the keyboard's four actions and safely release held movement
+- [ ] M4-12 Touch controls stay hidden on non-touch devices and place 48 CSS px targets under the correct thumbs in portrait and landscape
+- [ ] M4-13 Frame time advances the pure simulation in fixed 60 Hz steps and delivers each discrete press once
+- [ ] M4-14 The explorer walks horizontally at a fixed speed, cancels opposing movement, and stops at the ends of the walkway
+- [ ] M4-15 The explorer stays on the continuous walkway as it passes through ramps and steps
+- [ ] M4-16 The side-scrolling camera follows the explorer and clamps at both room edges
+
+### Welcome, avatar, and tutorial
+
+- [ ] M4-17 The flow begins on Welcome and Up enters the avatar builder and signals the start gesture
+- [ ] M4-18 The Welcome framebuffer shows the cassette label, a single centred Earth, and the start prompt on an opaque panel
+- [ ] M4-19 The centre Earth turns deterministically while the cassette stays still
+- [ ] M4-20 The four avatar steps each offer six named choices and Left and Right cycle the current choices
+- [ ] M4-21 Up confirms an avatar step and Down goes back, with the last confirmation entering the tutorial
+- [ ] M4-22 Confirmed avatar choices are restored from browser storage with usable defaults for invalid saved data
+- [ ] M4-23 The avatar screen previews each choice immediately and the explorer sprite uses the same choices on the walkway
+- [ ] M4-24 The tutorial displays the three control hints and renders a practice artifact on a continuous tiled walkway
+- [ ] M4-25 The engine loads the committed catalog and the local images it needs for the tutorial, with progress based on completed loads
+- [ ] M4-26 The tutorial cassette shows a progress counter and winds tape between its two reels as assets load
+- [ ] M4-27 The tutorial exit stays closed while loading and opens when the loader reads READY
+- [ ] M4-28 Door traversal follows the room order in both directions, positions the explorer on entry, and labels each track with a cassette banner
+
+### Artifact interaction and listening
+
+- [ ] M4-29 The explorer's range opens a prompt for the nearest artifact and walking out closes it
+- [ ] M4-30 Down dismisses an artifact prompt and it stays dismissed until the explorer leaves that artifact's range
+- [ ] M4-31 Up opens the prompted artifact and Down closes its listening view, returning the explorer to the walkway
+- [ ] M4-32 Artifact thumbnails fit their frames on posts and the focused frame renders a two-pixel pulse, sparkles, and a bobbing diamond
+- [ ] M4-33 An opaque cassette-shaped prompt draws LISTEN? and the two answer hints in the 16-pixel font
+- [ ] M4-34 The listening view uses a real image with catalog alt text and keeps the whole NASA frame smoothly fitted on screen
+- [ ] M4-35 Listening selects the catalog's full-resolution URL when present and switches to the local WebP when no eligible image is available
+- [ ] M4-36 The listening overlay shows the short title, display date, genre, close hint, and cassette tape progress strip
+- [ ] M4-37 A shape-marked playhead maps image-relative positions into the fitted image and clears when playback has no active position
+- [ ] M4-38 A named canvas and polite live region announce avatar choices, room titles, artifact prompts, and listening titles and credits
+
+### Background rules and integration
+
+- [ ] M4-39 Background specifications enforce four or more depth layers and ten or more distinct named motifs per room with no reuse between rooms
+- [ ] M4-40 Background colours stay on the five-tone Dusk ramp, the ramp stays within 2:1, play-lane elements reach 3:1, and opaque text panels reach 4.5:1
+- [ ] M4-41 Ambient motion is limited to three animations, one change per second, and under 2% of screen pixels per change outside protected areas
+- [ ] M4-42 Reduced-motion preferences freeze background layers and disable sparkle and parallax while retaining slower focus cues
+- [ ] M4-43 The browser entry point connects the canvas, input, catalog loading, engine screens, and accessible overlays through the real site build
+- [ ] M4-44 Desktop and touch browser tests verify the M4 flow, image accessibility, portrait controls, and reduced motion
+- [ ] M4-45 The built engine passes the full phase suite and the live draft preview serves the M4 flow with the catalog and listening media
 
 ## M5 Audio core
 
