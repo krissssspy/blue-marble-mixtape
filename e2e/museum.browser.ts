@@ -58,7 +58,7 @@ async function waitForLoaderText(canvas: Locator, text: string): Promise<void> {
           },
           { mask, width, height },
         ),
-      { message: `the tutorial cassette visibly reads ${text}` },
+      { message: `the tutorial loader visibly reads ${text}` },
     )
     .toBe(true);
 }

@@ -1,14 +1,16 @@
 import { AVATAR_STEPS, DEFAULT_AVATAR, type AvatarSelection } from './avatar.js';
 
 type AvatarStorage = Pick<Storage, 'getItem' | 'setItem'>;
-const storageKey = 'blue-marble-mixtape.avatar';
+const storageKey = 'overtone.avatar';
+const legacyStorageKey = 'blue-marble-mixtape.avatar';
 const version = 1;
 const legacyHairChoices = [0, 1, 1, 2, 3, 4] as const;
 
 export function loadAvatar(storage: AvatarStorage | null | undefined): AvatarSelection {
   const avatar = { ...DEFAULT_AVATAR };
   try {
-    const data: unknown = JSON.parse(storage?.getItem(storageKey) ?? 'null');
+    const saved = storage?.getItem(storageKey) ?? storage?.getItem(legacyStorageKey);
+    const data: unknown = JSON.parse(saved ?? 'null');
     if (typeof data !== 'object' || data === null) return avatar;
 
     const fields = data as Record<string, unknown>;

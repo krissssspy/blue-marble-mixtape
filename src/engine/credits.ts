@@ -1,7 +1,7 @@
 import { CREDITS_COPY } from '../strings.js';
 import type { CatalogArtifact } from './museum-assets.js';
 
-export function createLinerNotes(document: Document) {
+export function createSourceCredits(document: Document) {
   const element = document.createElement('section');
   element.className = 'museum-credits';
   element.hidden = true;

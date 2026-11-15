@@ -63,7 +63,7 @@ describe('museum announcements', () => {
   it('names the canvas and supplies a polite, atomic status region', () => {
     const { canvas, liveRegion } = setup();
 
-    expect(canvas.getAttribute('aria-label')).toMatch(/blue marble mixtape|museum/i);
+    expect(canvas.getAttribute('aria-label')).toBe('Overtone museum');
     expect(liveRegion.tagName).toBe('DIV');
     expect(liveRegion.className).toBe('museum-announcements');
     expect(liveRegion.getAttribute('role')).toBe('status');

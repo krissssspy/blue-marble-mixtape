@@ -4,7 +4,7 @@ import { STRINGS } from '../../src/strings.js';
 describe('engine copy', () => {
   it('provides the shared welcome, artifact, and loading labels', () => {
     expect(STRINGS).toMatchObject({
-      welcomeTitle: 'BLUE MARBLE\nMIXTAPE',
+      welcomeTitle: 'OVERTONE',
       start: '↑ START',
       listen: 'LISTEN?\n↑ YES ↓ NO',
       close: '↓ CLOSE',

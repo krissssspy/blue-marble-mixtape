@@ -1,18 +1,15 @@
 import { describe, expect, it } from 'vitest';
 import { createFramebuffer, type Framebuffer } from '../../src/engine/framebuffer.js';
+import { motionFrame } from '../../src/engine/motion-preference.js';
 import { drawWelcome } from '../../src/engine/welcome.js';
 
 const drawAtTick: (frame: Framebuffer, tick: number) => void = drawWelcome;
-const window = { left: 116, top: 84, right: 204, bottom: 118 };
+const earth = { x: 240, y: 85, radius: 52 };
 
-function render(tick: number): Framebuffer {
+function render(tick: number, reducedMotion = false): Framebuffer {
   const frame = createFramebuffer();
-  drawAtTick(frame, tick);
+  drawAtTick(frame, motionFrame(tick, reducedMotion).backgroundTick);
   return frame;
-}
-
-function isInsideWindow(x: number, y: number): boolean {
-  return x >= window.left && x < window.right && y >= window.top && y < window.bottom;
 }
 
 function isLand(index: number): boolean {
@@ -25,31 +22,33 @@ describe('Welcome Earth motion', () => {
     drawWelcome(defaultFrame);
 
     expect(render(0).pixels).toEqual(defaultFrame.pixels);
+    expect(render(9).pixels).toEqual(defaultFrame.pixels);
+    expect(render(10).pixels).not.toEqual(defaultFrame.pixels);
     expect(render(12).pixels).toEqual(render(12).pixels);
+    expect(render(120, true).pixels).toEqual(defaultFrame.pixels);
   });
 
-  it('turns the single central Earth while leaving the cassette, label and hint still', () => {
-    const frames = [0, 12, 30].map(render);
+  it('loops a complete revolution and wraps an earlier frame', () => {
+    expect(render(720).pixels).toEqual(render(0).pixels);
+    expect(render(-10).pixels).toEqual(render(710).pixels);
+  });
+
+  it('turns the Earth while leaving the orbit, title and controls still', () => {
+    const frames = [0, 24, 52].map((tick) => render(tick));
 
     for (const [first, second] of [
       [frames[0], frames[1]],
       [frames[1], frames[2]],
     ]) {
-      const backing = first.pixels[window.top * first.width + window.left];
       let landMovedIntoView = false;
       let landMovedOutOfView = false;
-
       for (const [position, before] of first.pixels.entries()) {
         const after = second.pixels[position];
         if (before === after) continue;
 
         const x = position % first.width;
         const y = Math.floor(position / first.width);
-        expect(isInsideWindow(x, y), 'motion outside the cassette window').toBe(true);
-        expect(x).toBeGreaterThanOrEqual(140);
-        expect(x).toBeLessThanOrEqual(180);
-        expect(before).not.toBe(backing);
-        expect(after).not.toBe(backing);
+        expect((x - earth.x) ** 2 + (y - earth.y) ** 2).toBeLessThanOrEqual(earth.radius ** 2);
         landMovedIntoView ||= !isLand(before) && isLand(after);
         landMovedOutOfView ||= isLand(before) && !isLand(after);
       }

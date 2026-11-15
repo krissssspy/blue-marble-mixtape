@@ -14,8 +14,12 @@ export function drawListenPrompt(frame: Framebuffer, centerX: number, top: numbe
     edgeMargin,
     Math.min(frame.width - panelWidth - edgeMargin, Math.round(centerX - panelWidth / 2)),
   );
-  fillRect(frame, left, top, panelWidth, panelHeight, 12);
+  fillRect(frame, left, top, panelWidth, panelHeight, 2);
+  fillRect(frame, left, top, panelWidth, 1, 4);
   fillRect(frame, left + 2, top + 2, panelWidth - 4, panelHeight - 4, 1);
+  fillRect(frame, left, top, 8, 1, 11);
+  fillRect(frame, left, top + 1, 1, 7, 10);
+  fillRect(frame, left + panelWidth - 9, top + panelHeight - 2, 7, 1, 10);
   drawText(frame, question, left + (panelWidth - questionWidth) / 2, top + 4, 5);
-  drawText(frame, answers, left + (panelWidth - answersWidth) / 2, top + 20, 6);
+  drawText(frame, answers, left + (panelWidth - answersWidth) / 2, top + 20, 11);
 }

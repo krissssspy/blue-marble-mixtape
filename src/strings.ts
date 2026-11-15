@@ -1,5 +1,5 @@
 export const STRINGS = {
-  welcomeTitle: 'BLUE MARBLE\nMIXTAPE',
+  welcomeTitle: 'OVERTONE',
   start: '↑ START',
   listen: 'LISTEN?\n↑ YES ↓ NO',
   close: '↓ CLOSE',
@@ -10,9 +10,9 @@ export const STRINGS = {
 } as const;
 
 export const CREDITS_COPY = {
-  heading: 'Liner notes',
+  heading: 'Source credits',
   notice:
-    'Blue Marble Mixtape is an independent museum project. NASA imagery appears with source credits.',
+    'I share NASA imagery in Overtone, my independent museum project. I link to each original source.',
   controls: '← → Browse · ↓ Back',
 } as const;
 
@@ -61,9 +61,9 @@ export const MONTH_ABBREVIATIONS = [
 ] as const;
 
 export const ACCESSIBILITY_STRINGS = {
-  canvasLabel: 'Blue Marble Mixtape museum',
+  canvasLabel: 'Overtone museum',
   listenPrompt: 'Listen to',
-  farewell: 'Thanks for visiting Blue Marble Mixtape.',
+  farewell: 'I appreciate your visit to Overtone.',
 } as const;
 
 export const MUSEUM_ROOMS = [
@@ -86,7 +86,7 @@ export const APP_STRINGS = {
 } as const;
 
 export const LAB_COPY = {
-  invite: '↑ MIX A TAPE',
+  invite: '↑ OPEN THE LAB',
   next: '↑ NEXT',
   play: '↑ PLAY',
   steps: {

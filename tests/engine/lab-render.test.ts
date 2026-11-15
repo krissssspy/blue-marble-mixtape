@@ -23,7 +23,7 @@ describe('Lab thumbnail strip and recipe display', () => {
     const frame = createFramebuffer();
     drawLab(frame, state, artifacts, thumbnail);
     expect(frameHash(frame)).toBe(
-      '852cbff4f72d90ca16ba8fa5a72139b2b1d04013492520ebcd961f6f719a84b2',
+      '45e326304955f42806676d9679813b096d4d806661189c077162208d48486632',
     );
     expect(thumbnail.mock.calls.map(([artifact]) => artifact.id)).toEqual([
       artifacts.at(-1)!.id,
@@ -45,8 +45,10 @@ describe('Lab thumbnail strip and recipe display', () => {
     const thumbnail = vi.fn(() => new Uint8Array(48 * 27));
     const area = { left: 32, top: 16, right: 288, bottom: 154 };
     drawLab(frame, state, artifacts, thumbnail);
+    const pixel = (x: number, y: number) => frame.pixels[y * frame.width + x];
+    expect([pixel(60, 45), pixel(83, 45), pixel(106, 45)]).toEqual([10, 11, 4]);
     expect(frameHash(frame)).toBe(
-      '9780b11e58e7b31dd9975c17c47f698a1506f904dbf4a3fddb954aeb60e6d8fe',
+      '3fc4a564801e6789d9daa61c3a396a8f02bb4953608e007ecd254439df0c6ad3',
     );
     expect(findBitmapText(frame, 'SCAN', area)).toBeDefined();
     expect(findBitmapText(frame, 'LINE SWEEP', area)).toBeDefined();
@@ -54,7 +56,7 @@ describe('Lab thumbnail strip and recipe display', () => {
 
     drawLab(frame, { ...state, step: LAB_STEPS.length - 1 }, artifacts, thumbnail);
     expect(frameHash(frame)).toBe(
-      '2c5e56f01986d9957fcbc3c006625b8fd0b591c60675498b362dc2a7746205b3',
+      '5487cb4ccb89a643fdf1aad06a6b46a11479949d4eaa7e29b04209ad4ab5f63b',
     );
     expect(findBitmapText(frame, 'PLAY?', area)).toBeDefined();
     expect(
@@ -66,7 +68,7 @@ describe('Lab thumbnail strip and recipe display', () => {
     const frame = createFramebuffer();
     drawLabInvite(frame);
     expect(frameHash(frame)).toBe(
-      '57c524f4d6d6745051771c52750dd95898d412013963f1fc5606b1d6845823ec',
+      '8a8818a6ec9ce97f3678075ca956b759c8830e2cd87a1365708c7fbd919a06e3',
     );
   });
 });

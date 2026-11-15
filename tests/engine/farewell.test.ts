@@ -11,8 +11,10 @@ describe('final thank-you screen', () => {
     const frame = createFramebuffer();
     frame.pixels.fill(7);
     drawFarewell(frame);
+    const pixel = (x: number, y: number) => frame.pixels[y * frame.width + x];
+    expect([pixel(29, 31), pixel(237, 44), pixel(237, 71), pixel(42, 118)]).toEqual([11, 10, 4, 4]);
     expect(createHash('sha256').update(frame.pixels).digest('hex')).toBe(
-      '644eabbe5d6464662478c3d946efea8c5121f27c3b660e5648304e725cba7e6d',
+      'd4980dc3bad63213ebe8ba129189fbc7fb19262923dd15f0fb2b8c4c0d4eff80',
     );
     expect(frame.pixels[0]).toBe(0);
     const panel = { left: 32, top: 48, right: 288, bottom: 147 };

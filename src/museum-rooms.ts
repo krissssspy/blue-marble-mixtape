@@ -5,7 +5,7 @@ import { shadeBackdrop } from './engine/background.js';
 import { drawExhibitBackdrop } from './engine/exhibit-backgrounds.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './engine/framebuffer.js';
 import type { CatalogArtifact, MuseumAssets } from './engine/museum-assets.js';
-import { drawTrackBanner } from './engine/track-banner.js';
+import { drawExhibitBanner } from './engine/exhibit-banner.js';
 import { walkwayHeight } from './engine/walkway.js';
 import { EXHIBIT_ARTIFACT_IDS, type ExhibitId } from './exhibit-selection.js';
 import { APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
@@ -139,7 +139,7 @@ type ArtifactFocus = NonNullable<Parameters<typeof drawArtifactFrame>[4]>;
 
 interface RoomView {
   readonly room: MuseumRoom;
-  readonly track: number;
+  readonly exhibitNumber: number;
   readonly left: number;
   readonly explorerX: number;
   readonly avatar: AvatarSelection;
@@ -154,7 +154,7 @@ interface RoomView {
 export function drawRoom(frame: Framebuffer, view: RoomView): void {
   const {
     room,
-    track,
+    exhibitNumber,
     left,
     explorerX,
     avatar,
@@ -185,5 +185,5 @@ export function drawRoom(frame: Framebuffer, view: RoomView): void {
   }
 
   drawExplorer(frame, explorerX - left, walkwayHeight(room.walkway, explorerX), avatar, 1, pose);
-  drawTrackBanner(frame, track, room.name);
+  drawExhibitBanner(frame, exhibitNumber, room.name);
 }

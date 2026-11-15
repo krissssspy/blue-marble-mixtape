@@ -26,7 +26,7 @@ One item is one behaviour, one TDD cycle, and one commit. Work the first uncheck
 
 Owner steps U2 and U5 are needed before the first live deploy, not before these items.
 
-- [x] M2-01 `npm run build` writes `dist/index.html`: an English-language page titled "Blue Marble Mixtape" with a mobile viewport
+- [x] M2-01 I build an English-language page titled Overtone with a mobile viewport.
 - [x] M2-02 The built site includes `staticwebapp.config.json` with a navigation fallback to `/index.html`
 - [x] M2-03 `staticwebapp.config.json` sends a content security policy that allows scripts, styles, and media from the site itself, and images from the site and `https://svs.gsfc.nasa.gov` only
 - [x] M2-03b The content security policy also sets `base-uri 'self'`, `form-action 'self'`, and `frame-ancestors 'none'`, which do not inherit from `default-src`
@@ -113,18 +113,18 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 ### Welcome, avatar, and tutorial
 
 - [x] M4-17 The flow begins on Welcome and Up enters the avatar builder and signals the start gesture
-- [x] M4-18 The Welcome framebuffer shows the cassette label, a single centred Earth, and the start prompt on an opaque panel
-- [x] M4-19 The centre Earth turns deterministically while the cassette stays still
+- [x] M4-18 I show the Overtone wordmark, Earth, and the start prompt on the welcome screen.
+- [x] M4-19 I animate Earth deterministically and keep the welcome screen steady in reduced motion.
 - [x] M4-20 The four avatar steps each offer six named choices and Left and Right cycle the current choices
 - [x] M4-21 Up confirms an avatar step and Down goes back, with the last confirmation entering the tutorial
 - [x] M4-22 Confirmed avatar choices are restored from browser storage with usable defaults for invalid saved data
 - [x] M4-23 The avatar screen previews each choice immediately and the explorer sprite uses the same choices on the walkway
 - [x] M4-24 The tutorial displays the three control hints and renders a practice artifact on a continuous tiled walkway
 - [x] M4-25 The engine loads the committed catalog and the local images it needs for the tutorial, with progress based on completed loads
-- [x] M4-26 The tutorial cassette shows a progress counter and winds tape between its two reels as assets load
+- [x] M4-26 I show an asset progress counter and a signal meter in the tutorial.
 - [x] M4-27 The tutorial exit stays closed while loading and opens when the loader reads READY
 - [x] M4-28 Door traversal follows the room order in both directions and positions the explorer on entry
-- [x] M4-28b Each room shows its track number and name on an opaque cassette banner
+- [x] M4-28b I show each exhibit number and name on an opaque banner.
 
 ### Artifact interaction and listening
 
@@ -132,10 +132,10 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-30 Down dismisses an artifact prompt and it stays dismissed until the explorer leaves that artifact's range
 - [x] M4-31 Up opens the prompted artifact and Down closes its listening view, returning the explorer to the walkway
 - [x] M4-32 Artifact thumbnails fit their frames on posts and the focused frame renders a two-pixel pulse, sparkles, and a bobbing diamond
-- [x] M4-33 An opaque cassette-shaped prompt draws LISTEN? and the two answer hints in the 16-pixel font
+- [x] M4-33 I show the listen prompt and two answer hints on an opaque panel in the 16-pixel font.
 - [x] M4-34 The listening view uses a real image with catalog alt text and keeps the whole NASA frame smoothly fitted on screen
 - [x] M4-35 Listening shows the local WebP immediately, upgrades to the eligible NASA image after loading, and keeps the WebP if the remote load fails
-- [x] M4-36 The listening overlay shows the short title, display date, genre, close hint, and cassette tape progress strip
+- [x] M4-36 I show the short title, display date, genre, close hint, and playback timeline.
 - [x] M4-37 A shape-marked playhead maps image-relative positions into the fitted image and clears when playback has no active position
 - [x] M4-38 A named canvas and polite live region announce avatar choices, room titles, artifact prompts, and listening titles and credits
 
@@ -194,7 +194,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ### Sea Level
 
 - [x] M6-07 Draw a flooding harbour with icebergs, a tide gauge, and submerged structures with at least ten distinct motifs.
-- [x] M6-08 Build a pier walkway with a rising harbour ramp and show its numbered cassette banner.
+- [x] M6-08 I build a pier walkway with a rising harbour ramp and show the exhibit number and name.
 - [x] M6-09 Analyze image features in a way that extracts current directions and traces streamlines through still or animated data.
 - [ ] M6-10 Apply the room recipe that uses drifting pads and tide bass with cumulative pitch motion and path markers.
 - [x] M6-11 Verify room traversal, the listening image, and the playhead in the browser.
@@ -202,7 +202,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ### Air Quality
 
 - [x] M6-12 Draw rooftops, layered haze, and atmospheric monitoring instruments with at least ten distinct motifs.
-- [x] M6-13 Build a continuous roofline and rooftop walkways and show its numbered cassette banner.
+- [x] M6-13 I build a continuous roofline and rooftop walkways and show the exhibit number and name.
 - [ ] M6-14 Analyze image features in a way that inverts the colour bar and follows a Hilbert curve through concentration tiles.
 - [ ] M6-15 Apply the room recipe that turns concentration into granular noise and pulses with point markers.
 - [x] M6-16 Verify room traversal, the listening image, and the playhead in the browser.
@@ -210,7 +210,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ### Biodiversity
 
 - [x] M6-17 Draw a canopy bridge with emergent trees, plants, birds, and forest lidar with at least ten distinct motifs.
-- [x] M6-18 Build a canopy walk with a continuous research bridge and show its numbered cassette banner.
+- [x] M6-18 I build a canopy walk with a continuous research bridge and show the exhibit number and name.
 - [ ] M6-19 Analyze image features in a way that reads columns as a spectrogram and traces connected ecosystem features.
 - [x] M6-20 Apply the room recipe that uses tuned notes and short calls across image positions.
 - [x] M6-21 Verify room traversal, the listening image, and the playhead in the browser.
@@ -218,7 +218,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ### Wildfires
 
 - [x] M6-22 Draw a burn scar with charred trees, a firebreak, and a lookout with at least ten distinct motifs.
-- [x] M6-23 Build a connected path through the burn scar and across the creek and show its numbered cassette banner.
+- [x] M6-23 I build a connected path through the burn scar and across the creek and show the exhibit number and name.
 - [ ] M6-24 Analyze image features in a way that detects fire-front changes, burned area, and new hot spots.
 - [ ] M6-25 Apply the room recipe that maps newly active cells to crackles and Euclidean percussion with front markers.
 - [x] M6-26 Verify room traversal, the listening image, and the playhead in the browser.
@@ -226,7 +226,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ### Greenhouse Gases
 
 - [x] M6-27 Draw an observatory above clouds with sampling instruments and a CO₂-shaped ridge with at least ten distinct motifs.
-- [x] M6-28 Build an observatory path that follows the ridge without blocking the lane and show its numbered cassette banner.
+- [x] M6-28 I build an observatory path that follows the ridge without blocking the lane and show the exhibit number and name.
 - [ ] M6-29 Analyze image features in a way that traces plotted curves or clusters colours into four source groups.
 - [ ] M6-30 Apply the room recipe that arranges organ parts with seasonal ornaments and marks the source curves.
 - [x] M6-31 Verify room traversal, the listening image, and the playhead in the browser.
@@ -234,7 +234,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ### Energy
 
 - [x] M6-32 Draw a night grid with power lines, wind turbines, solar roofs, and an Earth horizon with at least ten distinct motifs.
-- [x] M6-33 Build a lit walkway through the power grid and show its numbered cassette banner.
+- [x] M6-33 I build a lit walkway through the power grid and show the exhibit number and name.
 - [ ] M6-34 Analyze image features in a way that finds clustered lights and builds a minimum spanning tree between them.
 - [x] M6-35 Apply the room recipe that walks the tree as synth arpeggios and highlights nodes or edges.
 - [x] M6-36 Verify room traversal, the listening image, and the playhead in the browser.
@@ -242,7 +242,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ### Disasters
 
 - [x] M6-37 Draw a storm coast with an eye wall, surge barrier, and weather radar with at least ten distinct motifs.
-- [x] M6-38 Build an elevated seawall route with connected entry and exit points and show its numbered cassette banner.
+- [x] M6-38 I build an elevated seawall route with connected entry and exit points and show the exhibit number and name.
 - [ ] M6-39 Analyze image features in a way that locates a storm centre and samples the log-polar radar sweep.
 - [x] M6-40 Apply the room recipe that maps wind and lightning to cinematic voices and a rotating radar playhead.
 - [x] M6-41 Verify room traversal, the listening image, and the playhead in the browser.
@@ -250,7 +250,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ### Water Resources
 
 - [x] M6-42 Draw an aquifer cutaway with a reservoir, river, strata, wells, and satellites with at least ten distinct motifs.
-- [x] M6-43 Build a path connecting the reservoir and exposed hillside and show its numbered cassette banner.
+- [x] M6-43 I build a path connecting the reservoir and exposed hillside and show the exhibit number and name.
 - [ ] M6-44 Analyze image features in a way that samples wet areas and traces downhill runoff into basins.
 - [ ] M6-45 Apply the room recipe that voices drops and basins as lo-fi resonances and draws rings and runoff paths.
 - [x] M6-46 Verify room traversal, the listening image, and the playhead in the browser.
@@ -258,7 +258,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 ### Agriculture
 
 - [x] M6-47 Draw patchwork fields with a barn, silo, tractor, irrigation, and satellite with at least ten distinct motifs.
-- [x] M6-48 Build a continuous farm track past the field boundaries and show its numbered cassette banner.
+- [x] M6-48 I build a continuous farm track past the field boundaries and show the exhibit number and name.
 - [ ] M6-49 Analyze image features in a way that segments neighbouring fields and reads them in alternating rows.
 - [ ] M6-50 Apply the room recipe that uses field transitions for plucked melodies with plough paths and field outlines.
 - [x] M6-51 Verify room traversal, the listening image, and the playhead in the browser.
@@ -267,6 +267,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 
 - [x] M6-52 Compare short renders from all nine exhibits for distinct spectra, onset rates, and pitch-class distributions.
 - [x] M6-53 Run the full suite, including static mutants, and verify the curated exhibits in the live draft preview.
+- [ ] M6-54 I will compare rendered clips from artifacts within each exhibit and increase audible contrast through image-driven changes in rhythm, pitch register, or texture. I will check the closest-sounding pairs through listening and rendered-audio comparisons while preserving each exhibit's genre and gentle dynamics.
 
 ## M7 Lab and release
 
@@ -276,6 +277,6 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M7-04 Edit each of the seven recipe settings using the existing arrow and touch controls.
 - [x] M7-05 Play each of the seven Lab scans with an image-relative playhead and the visitor's chosen instrument and mappings.
 - [x] M7-06 Round-trip a validated artifact and recipe through a URL fragment and reopen it in the Lab.
-- [x] M7-07 Show readable, linkable source credits and NASA affiliation language in the liner notes.
-- [x] M7-08 Verify the Lab, sharing, liner notes, and farewell in desktop and touch browsers.
+- [x] M7-07 I show readable source credits, links to the original sources, and a statement of project independence.
+- [x] M7-08 I verify the Lab, sharing, source credits, and farewell in desktop and touch browsers.
 - [x] M7-09 Run the full release suite and verify the live Azure preview while keeping PR #1 in draft.

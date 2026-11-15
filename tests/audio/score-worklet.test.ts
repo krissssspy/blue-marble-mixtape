@@ -32,7 +32,7 @@ describe('worklet score output', () => {
     );
     vi.stubGlobal('registerProcessor', register);
     await import('../../src/audio/score-worklet.js');
-    expect(register).toHaveBeenCalledExactlyOnceWith('blue-marble-score', expect.any(Function));
+    expect(register).toHaveBeenCalledExactlyOnceWith('overtone-score', expect.any(Function));
     const Processor = register.mock.calls[0][1];
     const processor = new Processor();
     const block = () => [new Float32Array(128), new Float32Array(128)];

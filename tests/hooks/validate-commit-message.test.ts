@@ -85,7 +85,7 @@ describe('validateCommitMessage', () => {
   });
 
   const subjectAtLimit =
-    'Added room labels and audio cues for the Blue Marble Mixtape 🌍 showcases';
+    'Added room labels and quiet audio cues for the Overtone 🌍 full showcases';
 
   it.each([
     ['without a line ending', ''],

@@ -10,16 +10,8 @@ interface ListeningMetadata {
 
 function drawLabel(frame: Framebuffer, text: string, left: number, top: number): void {
   fillRect(frame, left, top, measureTextWidth(text) + 8, 22, 1);
+  fillRect(frame, left, top, 2, 6, 10);
   drawText(frame, text, left + 4, top + 3, 5);
-}
-
-function drawReel(frame: Framebuffer, x: number, y: number, fraction: number): void {
-  const radius = Math.round(9 * Math.sqrt(fraction));
-  for (let row = -radius; row <= radius; row += 1) {
-    const span = Math.floor(Math.sqrt(radius * radius - row * row));
-    fillRect(frame, x - span, y + row, span * 2 + 1, 1, 12);
-  }
-  fillRect(frame, x - 1, y - 1, 3, 3, 5);
 }
 
 export function drawListeningOverlay(
@@ -38,10 +30,17 @@ export function drawListeningOverlay(
   drawLabel(frame, genreLabel, 4, 123);
 
   const fraction = Math.max(0, Math.min(1, progress));
+  const trackLeft = 27;
+  const trackWidth = frame.width - 54;
+  const marker = trackLeft + Math.round((trackWidth - 1) * fraction);
   fillRect(frame, 12, 148, frame.width - 24, 22, 1);
-  drawReel(frame, 29, 159, 1 - fraction);
-  drawReel(frame, frame.width - 29, 159, fraction);
-  const tapeWidth = frame.width - 92;
-  fillRect(frame, 46, 157, tapeWidth, 4, 4);
-  fillRect(frame, 46, 157, Math.floor(tapeWidth * fraction), 4, 6);
+  fillRect(frame, 12, 148, frame.width - 24, 1, 4);
+  fillRect(frame, trackLeft, 158, trackWidth, 3, 4);
+  fillRect(frame, trackLeft, 158, Math.floor(trackWidth * fraction), 3, 10);
+  for (let tick = 0; tick <= 8; tick += 1) {
+    const x = trackLeft + Math.round(((trackWidth - 1) * tick) / 8);
+    fillRect(frame, x, 164, 1, 2, x <= marker ? 10 : 4);
+  }
+  fillRect(frame, marker, 154, 1, 13, 11);
+  fillRect(frame, marker - 1, 153, 3, 2, 11);
 }

@@ -14,13 +14,13 @@ const page = (title: string) =>
 function respond(path: string): { status: number; body: string } {
   switch (path) {
     case '/ok':
-      return { status: 200, body: page('Blue Marble Mixtape') };
+      return { status: 200, body: page('Overtone') };
     case '/wrong-title':
       return { status: 200, body: page('Something Else') };
     case '/no-title':
       return { status: 200, body: '<!doctype html><html><head></head><body>hi</body></html>' };
     default:
-      return { status: 404, body: page('Blue Marble Mixtape') };
+      return { status: 404, body: page('Overtone') };
   }
 }
 
@@ -70,7 +70,7 @@ describe('deploy smoke check', () => {
 
   describe('checkPage', () => {
     it(
-      'passes for a 200 page titled Blue Marble Mixtape',
+      'passes for a 200 page titled Overtone',
       async () => {
         const { checkPage } = await import('../../tools/deploy/lib/smoke.mjs');
         expect(await checkPage(`${base}/ok`)).toEqual({ ok: true });

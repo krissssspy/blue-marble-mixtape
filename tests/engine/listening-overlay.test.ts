@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
 import { contrastRatio } from '../../src/engine/background.js';
 import { writeFrameRgba } from '../../src/engine/display.js';
@@ -25,21 +26,6 @@ function render(progress: number): Framebuffer {
   return frame;
 }
 
-function tapeChanges(before: Framebuffer, after: Framebuffer) {
-  const counts = { left: 0, right: 0, leftReel: 0, rightReel: 0 };
-  for (let y = 116; y < 170; y += 1) {
-    for (let x = 0; x < before.width; x += 1) {
-      const offset = y * before.width + x;
-      if (before.pixels[offset] === after.pixels[offset]) continue;
-      if (x < 45) counts.leftReel += 1;
-      if (x >= 275) counts.rightReel += 1;
-      if (x >= 45 && x < 160) counts.left += 1;
-      if (x >= 160 && x < 275) counts.right += 1;
-    }
-  }
-  return counts;
-}
-
 describe('listening overlay', () => {
   it('renders the title, human-readable date, genre, and close hint on opaque readable panels', () => {
     const frame = render(0.5);
@@ -58,15 +44,23 @@ describe('listening overlay', () => {
     expect(regionPixels(frame, imageCenter).every((pixel) => pixel === 255)).toBe(true);
   });
 
-  it('advances the cassette tape from left to right and changes both reels with progress', () => {
+  it('moves the timeline cursor across the signal and keeps the image center clear', () => {
     const [start, halfway, complete] = [0, 0.5, 1].map(render);
-    const first = tapeChanges(start, halfway);
-    const second = tapeChanges(halfway, complete);
-    expect(first.left).toBeGreaterThan(first.right);
-    expect(second.right).toBeGreaterThan(second.left);
-    const whole = tapeChanges(start, complete);
-    expect(whole.leftReel).toBeGreaterThan(0);
-    expect(whole.rightReel).toBeGreaterThan(0);
+    const frameSequence = createHash('sha256');
+    for (const { pixels } of [start, halfway, complete]) frameSequence.update(pixels);
+    expect(frameSequence.digest('hex')).toBe(
+      '77dfe0cd4364dc5da112054eb687fae7b7070004b74d2153657d2fafd346975b',
+    );
+    const pixel = (frame: Framebuffer, x: number, y: number) => frame.pixels[y * frame.width + x];
+    expect([pixel(start, 27, 154), pixel(halfway, 160, 154), pixel(complete, 292, 154)]).toEqual([
+      11, 11, 11,
+    ]);
+    expect([pixel(start, 134, 159), pixel(halfway, 134, 159), pixel(complete, 260, 159)]).toEqual([
+      4, 10, 10,
+    ]);
+    expect(pixel(halfway, 253, 159)).toBe(4);
+    expect(render(-1).pixels).toEqual(start.pixels);
+    expect(render(2).pixels).toEqual(complete.pixels);
     expect(render(0.5).pixels).toEqual(halfway.pixels);
   });
 

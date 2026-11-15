@@ -13,7 +13,7 @@ import { loadAvatar, saveAvatar } from './engine/avatar-storage.js';
 import { AVATAR_STEPS } from './engine/avatar.js';
 import { cameraLeft } from './engine/camera.js';
 import { createCanvasPresenter } from './engine/display.js';
-import { createLinerNotes } from './engine/credits.js';
+import { createSourceCredits } from './engine/credits.js';
 import { drawFarewell } from './engine/farewell.js';
 import { createFixedStepper } from './engine/fixed-step.js';
 import { drawText } from './engine/font.js';
@@ -40,7 +40,7 @@ import {
 import { createMuseumState, stepMuseum } from './engine/museum-state.js';
 import { drawPlayhead, fitImageRect } from './engine/playhead.js';
 import { tutorialExitOpen, walkRoom } from './engine/room-travel.js';
-import { drawTapeLoader } from './engine/tape-loader.js';
+import { drawAssetLoader } from './engine/asset-loader.js';
 import { createTouchControls } from './engine/touch-controls.js';
 import { configureTouchLayout } from './engine/touch-layout.js';
 import { drawTutorial } from './engine/tutorial-render.js';
@@ -64,7 +64,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   imageHost.className = 'listening-media';
   imageHost.hidden = true;
   stage.prepend(imageHost);
-  const credits = createLinerNotes(document);
+  const credits = createSourceCredits(document);
   stage.append(credits.element);
   shell.append(touch, announcements.liveRegion);
   configureTouchLayout(shell, touch, navigator.maxTouchPoints);
@@ -122,7 +122,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
           ? {
               load: () => context.audioWorklet.addModule(scoreWorkletUrl),
               create: () =>
-                new AudioWorkletNode(context, 'blue-marble-score', {
+                new AudioWorkletNode(context, 'overtone-score', {
                   numberOfInputs: 0,
                   outputChannelCount: [2],
                 }),
@@ -437,7 +437,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
             drawExplorer(frame, position.x, floor, state.avatar, 1, pose);
           }
           drawDoor(frame, room.walkway.at(-1)!.x, floor, tutorialExitOpen(progress));
-          drawTapeLoader(frame, progress);
+          drawAssetLoader(frame, progress);
           if (loadFailed) {
             fillRect(frame, 172, 5, 140, 41, 1);
             drawText(frame, APP_STRINGS.loadFailed, 176, 9, 5);
@@ -446,7 +446,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
           shell.dataset.screen = 'room';
           drawRoom(frame, {
             room,
-            track: position.roomIndex,
+            exhibitNumber: position.roomIndex,
             left,
             explorerX: position.x,
             avatar: state.avatar,

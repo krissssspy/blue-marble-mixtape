@@ -62,12 +62,12 @@ describe('npm run build', () => {
   );
 
   it(
-    'writes an English HTML5 page titled "Blue Marble Mixtape" with a mobile viewport',
+    'writes an English HTML5 page titled "Overtone" with a mobile viewport',
     () => {
       expect(buildStatus, buildOutput).toBe(0);
       expect(html).toMatch(/^\s*<!doctype html>/i);
       expect(html).toMatch(/<html\b[^>]*\blang=["']en["']/i);
-      expect(html).toMatch(/<title>\s*Blue Marble Mixtape\s*<\/title>/);
+      expect(html).toMatch(/<title>\s*Overtone\s*<\/title>/);
       const viewport = html.match(/<meta\b(?=[^>]*\bname=["']viewport["'])[^>]*>/i);
       expect(viewport, 'a <meta name="viewport"> element').not.toBeNull();
       expect(viewport?.[0]).toMatch(/\bcontent=["'][^"']*width=device-width/);

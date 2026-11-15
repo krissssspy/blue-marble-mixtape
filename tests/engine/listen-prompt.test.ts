@@ -59,7 +59,7 @@ function findLabel(frame: Framebuffer, bounds: ReturnType<typeof promptBounds>, 
   }
 }
 
-describe('cassette listen prompt', () => {
+describe('signal listening prompt', () => {
   it('draws both centered lines in full on an opaque panel', () => {
     const frame = render(160, 15);
     const bounds = promptBounds(frame, 15);
@@ -84,21 +84,16 @@ describe('cassette listen prompt', () => {
     expect(bounds.bottom).toBeLessThan(frame.height - 1);
   });
 
-  it('keeps the opaque backing inset from a continuous slate outline', () => {
+  it('keeps the two-line prompt on a dark panel with matching teal accents', () => {
     const untouched = 15;
-    const slate = 12;
-    const backing = 1;
     const frame = render(160, untouched);
     const { pixels, top, bottom } = promptBounds(frame, untouched);
-    const horizontalTrim = Array<number>(pixels[0].length).fill(slate);
-
-    expect(pixels[0]).toEqual(horizontalTrim);
-    expect(pixels.at(-1)).toEqual(horizontalTrim);
-    expect(pixels.map((row) => [row[0], row.at(-1)])).toEqual(
-      Array.from({ length: pixels.length }, () => [slate, slate]),
-    );
-    expect(pixels[2][2]).toBe(backing);
-    expect(pixels.at(-3)?.at(-3)).toBe(backing);
+    expect(pixels[0][0]).toBe(11);
+    expect(pixels[0].at(-1)).toBe(4);
+    expect(pixels.at(-1)?.at(-1)).toBe(2);
+    expect(pixels[1][0]).toBe(10);
+    expect(pixels[2][2]).toBe(1);
+    expect(pixels.at(-3)?.at(-3)).toBe(1);
 
     const exteriorRows = [promptTop - 1, frame.height - 1];
     for (const y of exteriorRows) {

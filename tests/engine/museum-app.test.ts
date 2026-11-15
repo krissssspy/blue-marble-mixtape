@@ -95,7 +95,7 @@ describe('browser room layout', () => {
     const floor = Math.round(walkwayHeight(room.walkway, explorerX));
     drawRoom(frame, {
       room,
-      track: 1,
+      exhibitNumber: 1,
       left,
       explorerX,
       avatar: { skin: 0, hair: 0, outfit: 0, headgear: 0 },
@@ -152,7 +152,7 @@ describe('browser room layout', () => {
     frame.pixels.fill(7);
     const view = {
       room,
-      track: 10,
+      exhibitNumber: 10,
       left: 31,
       explorerX: 72,
       avatar: { skin: 0, hair: 0, outfit: 0, headgear: 0 },
@@ -181,7 +181,7 @@ describe('browser room layout', () => {
     const thumbnailFor = vi.fn<(spot: MountedArtifact) => Uint8Array>(() => practiceThumbnail);
     const common = {
       room,
-      track: 1,
+      exhibitNumber: 1,
       left: 0,
       explorerX: 32,
       avatar: { skin: 0, hair: 0, outfit: 0, headgear: 0 },
@@ -225,10 +225,10 @@ describe('browser room layout', () => {
 
     drawRoom(frame, { ...common, left: lastView - 3, explorerX: room.width - 40 });
     expect([entrance, end, openExit, digest(frame)]).toEqual([
-      '332e61e7d0a0789556ce26a476fb2db4e19c864fd38925c0bd19e53bfe9b2159',
-      '1f9a6705a8bdceeaa7c71bfe6d8b4348ae1b35aae662e5f97cc74be595185025',
-      '0de962691ce0c64046ebfac92e28ebd6703319a3cc934f38cf84069f12eb733d',
-      'a1de99dd816a5fe66a55ab1ebf8cf4dfb04ba90fa0109611b6e3b325048fd953',
+      '5787251c3765f2e65fd3aba437517217a9cfc903b65861972c6feeda15070903',
+      'aa8c5ed971413228f5d2bdd89e9e59caa9ed8ae07791684e2904a1d31c8f81f7',
+      '197c6d20d1127673094f765c0169965695d5f1b1083080e375746f8f293e53e4',
+      '9eeed4db2333a7902568418d60671fad42bf1c7e0066fbba43b52b6bc9398755',
     ]);
   });
 
@@ -251,7 +251,7 @@ describe('browser room layout', () => {
     const frame = createFramebuffer();
     const view = {
       room,
-      track: 1,
+      exhibitNumber: 1,
       left: 64,
       explorerX: 100,
       avatar: { skin: 0, hair: 0, outfit: 0, headgear: 0 },

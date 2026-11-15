@@ -1,4 +1,4 @@
-const EXPECTED_TITLE = 'Blue Marble Mixtape';
+const EXPECTED_TITLE = 'Overtone';
 
 /**
  * @param {string} url

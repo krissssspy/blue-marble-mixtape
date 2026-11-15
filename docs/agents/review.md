@@ -14,7 +14,7 @@ Read the work order. Read the diff with `git status` and `git diff` (include unt
 4. **Deterministic.** No network, wall clock, unseeded randomness, or order dependence.
 5. **Scope.** Only this item. Files outside the allowed paths are untouched.
 6. **Accessibility** (`DESIGN_PLAN.md` §8), when the change is user-facing: alt text, text size and length, four-arrow input only, calm backgrounds.
-7. **Style** (§6), when the change is visual: Dusk palette, backdrop ramp, cassette identity.
+7. **Style** (§6). I check visual changes against the Dusk palette, backdrop ramp, and orbital and signal design.
 8. **Sonification** (§7), when the change is audio: the room's algorithm matches its specification, and every score event carries a location.
 9. **Hygiene.** No secrets. No agent, model, or tool names anywhere. Clear names. No dead code.
 

@@ -5,15 +5,15 @@ import {
   createFramebuffer,
   type Framebuffer,
 } from '../../src/engine/framebuffer.js';
-import { drawTrackBanner } from '../../src/engine/track-banner.js';
+import { drawExhibitBanner } from '../../src/engine/exhibit-banner.js';
 import { findBitmapText, regionPixels, type PixelRegion } from './bitmap-text-region.js';
 
 const topStrip = { left: 0, top: 0, right: 320, bottom: 44 };
 
-function render(track: number, room: string, backing = 15): Framebuffer {
+function render(exhibitNumber: number, room: string, backing = 15): Framebuffer {
   const frame = createFramebuffer();
   clearFramebuffer(frame, backing);
-  drawTrackBanner(frame, track, room);
+  drawExhibitBanner(frame, exhibitNumber, room);
   return frame;
 }
 
@@ -29,25 +29,11 @@ function bounds(frame: Framebuffer, backing: number): PixelRegion {
   };
 }
 
-function hasTapeHubs(frame: Framebuffer, icon: PixelRegion): boolean {
-  for (let y = icon.top; y < icon.bottom; y += 1) {
-    let lightRuns = 0;
-    let light = false;
-    for (let x = icon.left; x < icon.right; x += 1) {
-      const next = frame.pixels[y * frame.width + x] >= 5;
-      if (next && !light) lightRuns += 1;
-      light = next;
-    }
-    if (lightRuns === 2) return true;
-  }
-  return false;
-}
-
-describe('cassette track banner', () => {
+describe('orbital exhibit banner', () => {
   it.each([
-    [1, 'Sea Level', 'be0d74a64d7b81707bdb81087d54479781921ab27087a9e33adb9fab7c496e95'],
-    [5, 'Greenhouse Gases', 'becd6ead6f8d6bce25f2e488c7e602ed43da08429c6cb31d7e679e6e9c2ae789'],
-    [10, 'Lab', '11c639f953d29daf4d7da5dc436dd2db84d812b9f094ccc3f3c205c2d6612fed'],
+    [1, 'Sea Level', 'f468d2a966a94e03032599b8a3d18b535be71306e36672f859abdc2feb638ea7'],
+    [5, 'Greenhouse Gases', '55e3b9d5e2821cbe0307fa452ddc15713d6bc09be12ce80265c1f75eed251d0e'],
+    [10, 'Lab', '6b14d82f219c980e6ff0af749e1c683f83911347cc57ae332a5d8421c4a8786c'],
   ] as const)('matches the indexed banner for track %i', (track, room, expected) => {
     const frame = render(track, room, 2);
     expect(createHash('sha256').update(frame.pixels).digest('hex')).toBe(expected);
@@ -70,13 +56,9 @@ describe('cassette track banner', () => {
     expect(text!.left).toBeGreaterThan(badge.left + 8);
     expect(regionPixels(frame, text!)).toEqual(regionPixels(render(track, room, 9), text!));
 
-    expect(
-      hasTapeHubs(frame, {
-        left: badge.left + 2,
-        top: badge.top + 2,
-        right: text!.left - 1,
-        bottom: badge.bottom - 2,
-      }),
-    ).toBe(true);
+    const marker = (x: number, y: number) => frame.pixels[y * frame.width + x];
+    expect([marker(15, 14), marker(23, 19), marker(31, 25), marker(36, 19)]).toEqual([
+      10, 11, 10, 4,
+    ]);
   });
 });

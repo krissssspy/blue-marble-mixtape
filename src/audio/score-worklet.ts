@@ -42,4 +42,4 @@ class ScoreProcessor extends AudioWorkletProcessor {
   }
 }
 
-registerProcessor('blue-marble-score', ScoreProcessor);
+registerProcessor('overtone-score', ScoreProcessor);

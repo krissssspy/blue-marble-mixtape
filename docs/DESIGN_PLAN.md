@@ -1,7 +1,6 @@
-# Blue Marble Mixtape: Orchestration and Design Plan
+# Overtone Design Plan
 
-Status: **approved by the owner on 2026-11-14**. Progress lives in `docs/BACKLOG.md` and the git history.
-Written: 2026-11-14.
+I recorded the original approval on 2026-11-14 and the Overtone identity on 2026-11-15. I track progress in `docs/BACKLOG.md` and the Git history.
 
 This file is the single source of truth. Any orchestrator on any platform (Claude Code, Codex, or another agent runner) can read it, read `docs/BACKLOG.md`, and resume the work with no other context. Section 12 says exactly how.
 
@@ -9,7 +8,7 @@ This file is the single source of truth. Any orchestrator on any platform (Claud
 
 ## 1. What we are building
 
-A public website: a side-scrolling, 8-bit, tile-based platform game that is a museum. Each room is an exhibit of NASA Earth Information Center (EIC) graphics. The visitor walks up to a glowing artifact, answers a yes/no prompt with the up and down arrows, and then sees the artifact magnified while a sonification of it plays, with a moving marker showing which part of the picture is sounding.
+I built Overtone as a side-scrolling, pixel-art museum for NASA Earth Information Center (EIC) imagery. I give each exhibit a distinct setting and sound. When a visitor opens an artifact, I show the NASA image beside an image-relative playhead and play a score derived from that image.
 
 Source: <https://svs.gsfc.nasa.gov/gallery/earth-information-center/> and every page it links to, recursively.
 
@@ -20,7 +19,7 @@ Source: <https://svs.gsfc.nasa.gov/gallery/earth-information-center/> and every 
 | Controls | The four arrow keys only. Left and right walk and change values. Up means yes, down means no, and they do nothing else. No jumping, no dropping, no Y or N keys. |
 | Mobile input | Four on-screen arrow buttons on touch devices: left and right under the left thumb, up (yes) and down (no) under the right. They fire the same four actions as the keyboard. |
 | Palette | Dusk: dark navy backdrop, cream text, gold and coral accents. |
-| Identity | The cassette is the main visual motif on every screen, not a decoration. On the title screen the Earth sits alone in the centre of the cassette. |
+| Identity | I use orbital paths, pixel-art instruments, and signal displays to connect the Earth imagery with the sound. |
 | Avatar | The visitor customises their explorer before the tutorial. |
 | Backgrounds | Each room's background is detailed and built for its theme, but calm: low contrast, little motion, never competing with artifacts or text (§6). |
 | Listening view | The real NASA image at full resolution, with its date. |
@@ -216,14 +215,16 @@ There are no mouse, pointer, or other key handlers in the game. The four touch b
 Welcome ──↑──▶ Avatar ──↑──▶ Tutorial / loading ──walk through the door──▶ Room 1 ─▶ … ─▶ Room 9 ─▶ Room 10 (Lab)
 ```
 
-- **Welcome.** A large cassette is the title: its label reads BLUE MARBLE MIXTAPE and a single turning Earth sits in the centre of its window. No second reel. `↑ START`. That key press is also the gesture that unlocks audio on mobile browsers.
-- **Avatar.** The visitor builds their explorer one step at a time: skin, hair, outfit colour, and headgear, six choices each. Left and right change the choice, up confirms, down goes back. A large preview updates live, and every choice has a spoken name. The result is kept in the browser and used in every room. Up on the last step moves on with the defaults if nothing was changed.
-- **Tutorial / loading.** A tiny practice room: walk, approach a practice artifact, answer yes, close with no. The loader is a cassette whose tape winds from one reel to the other as assets load, with a counter. The exit door opens when it reads READY.
+- **Welcome.** I pair the OVERTONE title and `↑ START` with an illuminated Earth and an orbital path. I unlock audio when the visitor starts by keyboard or touch and hold the scene still when the visitor prefers reduced motion.
+- **Avatar.** I show a live explorer preview across four steps. I offer six skin tones, five hairstyles, six shirt colours, and six choices for headgear. I announce each choice and save the confirmed appearance in the visitor's browser.
+- **Tutorial and loading.** I introduce the controls in a practice room and show asset progress on a compact signal display. I open the exit when the display reads READY.
 - **Rooms.** Walk right through the door to the next room, left to the previous one.
 - **Artifact loop.** Each artifact hangs in a frame on a post. The one in range glows: a pulsing two-pixel outline, sparkles, and a bobbing diamond above it, so the cue does not depend on colour alone. Inside its range the prompt `LISTEN? ↑ YES ↓ NO` appears. Up opens the listening view; down dismisses the prompt.
-- **Listening view.** The NASA image itself, at full resolution, fitted to the screen without cropping and drawn smoothly, not pixelated. Only the overlay is in game pixels: the playhead, a genre tag, the date, the short title, a tape-and-reels progress strip, and `↓ CLOSE`. The date is NASA's release date for the item, or the retrieval date for daily visualisations.
+- **Listening view.** I fit the NASA image to the screen and show the image playhead, genre, date, short title, playback timeline, and `↓ CLOSE`. I use NASA's release date or the retrieval date for daily visualisations.
 
-**Cassette identity.** The tape carries through every screen: the title is a cassette; loading is tape winding; each room is a numbered track with a cassette icon in its banner, and the ten rooms are the ten tracks; listening progress is tape running between two reels; the lab is the visitor recording their own track onto a blank tape; the credits are the liner notes.
+**Orbital and signal design.** I use the same restrained instrument panels for numbered exhibit banners, loading progress, playback, the Lab, and the farewell. I link each original NASA source from the source credits.
+
+**Sound effects.** I play a brief, quiet click when the visitor confirms or changes a selection. I pace footsteps to the explorer's movement and stop issuing footsteps when the explorer stands still.
 
 **Backgrounds: tailored and detailed, but calm.** Every room has its own background that tells that room's story and shares no motif with another room. It must never compete with the things a visitor has to see. The rules, each with a test:
 
@@ -245,7 +246,7 @@ Welcome ──↑──▶ Avatar ──↑──▶ Tutorial / loading ──wa
 | 7 Disasters | Storm coast | Hurricane cloud wall with a clear eye, bent palms, seawall and surge, shelter, weather radar dome, hurricane-hunter aircraft, rain bands |
 | 8 Water Resources | Hillside cut away to show the aquifer | Snowy peaks, reservoir and dam, river, rock strata, the water-table line, wells and pumps, roots, twin gravity satellites, dry ground on one side and wet on the other |
 | 9 Agriculture | Farmland | Patchwork fields, centre-pivot circles, barn and silo, windmill, tractor, irrigation canal, crop rows at different growth stages, a land-imaging satellite pass |
-| 10 Lab | Recording studio and mission control | Tape shelves, mixing desk, oscilloscope, the visitor's blank tape, hanging satellite models, a wall of small screens |
+| 10 Lab | Audio instrument studio | Signal monitors, a mixing desk, an oscilloscope, satellite models, and a wall of small screens |
 
 ---
 
@@ -310,7 +311,7 @@ Each room marks four to six artifacts as featured; those get frame clips where t
 
 ### The lab
 
-The visitor builds a recipe one step at a time, as if recording a track onto a blank tape. Each step shows one setting: left and right change its value, up confirms and moves to the next step, down goes back a step. The last step asks `PLAY? ↑ YES ↓ NO`. A row of chips shows which step the visitor is on.
+I guide the visitor through one recipe setting at a time. I use left and right to change a setting, up to confirm, and down to return to the previous step. I show the current step and offer playback after the final confirmation.
 
 | Step | Choices |
 | --- | --- |
@@ -362,7 +363,7 @@ The recipe is written into the URL fragment, so a visitor can share a creation b
 | M1 Guardrails | Hooks, history audit, test runner, linter, style checker, type checker, mutation testing, CI | 15 |
 | M2 Deploy | Minimal page live on an Azure preview URL; draft PR opened | 6 |
 | M3 Ingest | Crawler, dedupe, rights rule, media processing, feature packs, catalog, alt text, size budget | 25 |
-| M4 Engine | Framebuffer, palette, font, input, walking simulation, camera, state machine, cassette title and loader, avatar builder, glow, prompt, listening view, live region, touch buttons, background rule checks | 45 |
+| M4 Engine | Framebuffer, palette, font, input, walking simulation, camera, state machine, welcome and loader, avatar builder, glow, prompt, listening view, live region, touch buttons, background rule checks | 45 |
 | M5 Audio core | Score, scheduler, voices, console bus, playhead overlays | 25 |
 | M6 Rooms 1–9 | Per room: analysis module, recipe, tailored background with its motif list, walkway, end-to-end test | 9 × 14 |
 | M7 Lab and release | Recipe builder, library strip, share link, diversity tests, accessibility audit, mobile matrix, credits; PR marked ready | 25 |
@@ -437,11 +438,11 @@ Resolved by the owner on 2026-11-14 and folded into the sections above:
 3. Up to three views per NASA page, with the site budget raised to 150 MB (§5).
 4. No agent attribution in the PR either (§4).
 
-5. Project name: **Blue Marble Mixtape**, repository `blue-marble-mixtape`.
+5. I use **Overtone** as the project name.
 6. Dusk palette.
 7. Arrow keys only: up is yes, down is no; no jump, no drop, no Y or N keys (§6).
 8. Avatar customisation before the tutorial (§6).
-9. Cassette as the main motif; on the title screen, a single centred Earth in the cassette (§6).
+9. I use an illuminated Earth and an orbital path on the title screen (§6).
 10. Backgrounds tailored and detailed but calm, with tested accessibility rules (§6).
 11. Listening view shows the real NASA image at full resolution with its date (§5, §6).
 

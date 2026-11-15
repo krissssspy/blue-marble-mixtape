@@ -69,7 +69,7 @@ test('reopens an unmounted catalog artifact from a share link, edits the mix, an
 test.describe('touch controls', () => {
   test.use({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
 
-  test('plays a shared mix through a native worklet and reaches the liner notes', async ({
+  test('plays a shared mix through a native worklet and reaches the source credits', async ({
     page,
   }) => {
     interface AudioProbe {
@@ -162,7 +162,7 @@ test.describe('touch controls', () => {
       await input.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
     }
     await yes.tap();
-    const credits = page.getByRole('region', { name: 'Liner notes' });
+    const credits = page.getByRole('region', { name: 'Source credits' });
     await expect(credits).toBeVisible();
     const source = credits.getByRole('link');
     await expect(source).toHaveAttribute('href', /^https:\/\/[^/]*nasa\.gov\//);

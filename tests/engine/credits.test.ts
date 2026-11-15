@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { createLinerNotes } from '../../src/engine/credits.js';
+import { createSourceCredits } from '../../src/engine/credits.js';
 import type { MuseumCatalog } from '../../src/engine/museum-assets.js';
 
 class Element {
@@ -36,13 +36,13 @@ class Element {
   }
 }
 
-describe('source liner notes', () => {
+describe('source credits', () => {
   it('presents the exact catalog attribution, date, and source link', () => {
     const { artifacts } = JSON.parse(
       readFileSync(new URL('../../public/catalog.json', import.meta.url), 'utf8'),
     ) as MuseumCatalog;
     const document = { createElement: (name: string) => new Element(name) } as unknown as Document;
-    const { element, show } = createLinerNotes(document);
+    const { element, show } = createSourceCredits(document);
     const section = element as unknown as Element;
     expect(section).toMatchObject({
       tagName: 'section',
@@ -58,7 +58,7 @@ describe('source liner notes', () => {
       'p',
       'p',
     ]);
-    expect(title).toMatchObject({ tagName: 'h1', textContent: 'Liner notes' });
+    expect(title).toMatchObject({ tagName: 'h1', textContent: 'Source credits' });
     expect(section.attributes.get('aria-labelledby')).toBe(title.id);
     expect(notice.textContent).toContain('independent museum project');
     expect(navigation.textContent).toContain('↓ Back');

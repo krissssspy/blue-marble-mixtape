@@ -24,6 +24,19 @@ describe('avatar storage', () => {
     expect(loadAvatar(storage)).toEqual(chosen);
   });
 
+  it('reads a legacy key and saves confirmed choices under the Overtone key', () => {
+    const storage = memoryStorage();
+    const old = { skin: 5, hair: 5, outfit: 3, headgear: 1 };
+    const migrated = { ...old, hair: 4 };
+    storage.setItem('blue-marble-mixtape.avatar', JSON.stringify(old));
+
+    expect(loadAvatar(storage)).toEqual(migrated);
+    const chosen = { ...migrated, hair: 3 };
+    saveAvatar(storage, chosen);
+    expect(JSON.parse(storage.getItem('overtone.avatar')!)).toEqual({ ...chosen, version: 1 });
+    expect(loadAvatar(storage)).toEqual(chosen);
+  });
+
   it.each([null, '{broken', 'null', '[]', 'false', '{"unrelated":4}'])(
     'defaults every choice for unusable saved data %j',
     (stored) => {
@@ -49,6 +62,9 @@ describe('avatar storage', () => {
       outfit: 0,
       headgear: 2,
     });
+    expect(
+      loadAvatar(memoryStorage('{"version":1,"skin":-2,"hair":-1,"outfit":2,"headgear":-1}')),
+    ).toEqual({ ...defaults, outfit: 2 });
   });
 
   it.each([0, 1, 1, 2, 3, 4].map((expected, old) => ({ old, expected })))(

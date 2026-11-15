@@ -1,16 +1,18 @@
 import { createHash } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
-import { drawText } from '../../src/engine/font.js';
+import { STRINGS } from '../../src/strings.js';
+import { contrastRatio } from '../../src/engine/background.js';
 import {
   clearFramebuffer,
   createFramebuffer,
-  fillRect,
   type Framebuffer,
 } from '../../src/engine/framebuffer.js';
+import { DUSK_PALETTE } from '../../src/engine/palette.js';
 import { drawWelcome } from '../../src/engine/welcome.js';
+import { findBitmapText, regionPixels } from './bitmap-text-region.js';
 
-const cream = 5;
-const gold = 6;
+const titleArea = { left: 16, top: 38, right: 162, bottom: 96 };
+const startArea = { left: 18, top: 105, right: 154, bottom: 155 };
 
 function pixel(frame: Framebuffer, x: number, y: number): number {
   return frame.pixels[y * frame.width + x];
@@ -23,110 +25,49 @@ function welcomeFrame(): Framebuffer {
   return frame;
 }
 
-function region(frame: Framebuffer, left: number, top: number, width: number, height: number) {
-  return Array.from({ length: height }, (_, row) => {
-    const start = (top + row) * frame.width + left;
-    return [...frame.pixels.slice(start, start + width)];
-  });
-}
-
 describe('Welcome frame', () => {
   it('matches the reviewed 320×180 indexed title frame', () => {
     const frame = welcomeFrame();
 
     expect([frame.width, frame.height]).toEqual([320, 180]);
     expect(createHash('sha256').update(frame.pixels).digest('hex')).toBe(
-      '96a69c8ed808aeb153774ef7a2cf244f2cc488711e0e8232e9c1001d8e27b73d',
+      'eafb8b8da5db6303968903ed2b9762d5cdf97df6635f4e096d74d8594bc87726',
     );
   });
 
-  it('draws the centered cassette and its two-line label on an opaque panel', () => {
+  it('keeps the one-word title readable in the left column', () => {
     const frame = welcomeFrame();
-    const exterior = pixel(frame, 12, 16);
-    const cassette = pixel(frame, 160, 16);
+    const title = findBitmapText(frame, STRINGS.welcomeTitle, titleArea);
 
-    expect(cassette).not.toBe(exterior);
-    expect(pixel(frame, 70, 16)).toBe(cassette);
-    expect(pixel(frame, 250, 16)).toBe(cassette);
-    expect(pixel(frame, 308, 16)).toBe(exterior);
-
-    const left = 66;
-    const top = 22;
-    const width = 188;
-    const height = 45;
-    const label = region(frame, left, top, width, height);
-    const backing = label[0][0];
-    expect(backing).toBeLessThan(5);
-
-    const expected = createFramebuffer();
-    fillRect(expected, left, top, width, height, backing);
-    const lines = [
-      ['BLUE MARBLE', cream],
-      ['MIXTAPE', gold],
-    ] as const;
-    const firstLineTop = label.findIndex((row) => row.includes(cream));
-    const secondLineTop = label.findIndex((row) => row.includes(gold));
-    expect(secondLineTop).toBeGreaterThanOrEqual(firstLineTop + 16);
-
-    for (const [text, ink] of lines) {
-      const firstRow = label.findIndex((row) => row.includes(ink));
-      expect(firstRow).toBeGreaterThanOrEqual(0);
-      const columns = label.flatMap((row) =>
-        row.flatMap((value, column) => (value === ink ? [column] : [])),
-      );
-      const min = Math.min(...columns) + left;
-      const max = Math.max(...columns) + left;
-      expect(Math.abs((min + max) / 2 - 160)).toBeLessThanOrEqual(3);
-      drawText(expected, text, min, top + firstRow, ink);
-    }
-
-    expect(label).toEqual(region(expected, left, top, width, height));
+    expect(title).toBeDefined();
+    const colors = [...new Set(regionPixels(frame, title!))];
+    expect(colors).toHaveLength(2);
+    expect(contrastRatio(DUSK_PALETTE[colors[0]], DUSK_PALETTE[colors[1]])).toBeGreaterThan(4.5);
   });
 
-  it('holds one centered Earth in a dark window with empty space on both sides', () => {
+  it('makes the Earth the dominant illustration with visible terrain, day and night', () => {
     const frame = welcomeFrame();
-    const left = 116;
-    const top = 84;
-    const window = region(frame, left, top, 88, 34);
-    const backing = window[0][0];
-    expect(backing).toBeLessThan(5);
+    const scene = { left: 174, top: 24, right: 305, bottom: 147 };
+    const illustration = regionPixels(frame, scene);
+    const terrain = illustration.filter((color) => color === 8 || color === 9);
 
-    const globe = window.flatMap((row) =>
-      row.flatMap((value, x) => (value !== backing ? [{ x: left + x, value }] : [])),
-    );
-    const globeColors = new Set(globe.map(({ value }) => value));
-
-    expect(globe.length).toBeGreaterThan(400);
-    expect(globeColors.size).toBeGreaterThanOrEqual(2);
-    expect(globeColors.has(8) || globeColors.has(9)).toBe(true);
-    expect(globe.every(({ x }) => x >= 140 && x <= 180)).toBe(true);
-    expect(
-      Math.abs(
-        (Math.min(...globe.map(({ x }) => x)) + Math.max(...globe.map(({ x }) => x))) / 2 - 160,
-      ),
-    ).toBeLessThanOrEqual(2);
+    expect(terrain.length).toBeGreaterThan(1500);
+    expect(new Set(terrain)).toEqual(new Set([8, 9]));
+    const rim = { left: 185, top: 32, right: 236, bottom: 72 };
+    expect(regionPixels(frame, rim).filter((color) => color === 11).length).toBeGreaterThan(32);
+    expect(pixel(frame, 284, 112)).toBe(3);
+    expect(pixel(frame, 241, 140)).not.toBe(pixel(frame, 241, 150));
   });
 
-  it('shows the up-arrow start hint on an opaque dark panel below the cassette', () => {
+  it('shows a high-contrast Up Start control below the title', () => {
     const frame = welcomeFrame();
-    const left = 110;
-    const top = 141;
-    const width = 100;
-    const height = 21;
-    const hint = region(frame, left, top, width, height);
-    const backing = hint[0][0];
-    const firstRow = hint.findIndex((row) => row.includes(cream));
+    const start = findBitmapText(frame, STRINGS.start, startArea);
 
-    expect(backing).toBeLessThan(5);
-    expect(firstRow).toBeGreaterThanOrEqual(0);
-
-    const columns = hint.flatMap((row) =>
-      row.flatMap((value, column) => (value === cream ? [column] : [])),
-    );
-    const expected = createFramebuffer();
-    fillRect(expected, left, top, width, height, backing);
-    drawText(expected, '↑ START', left + Math.min(...columns), top + firstRow, cream);
-
-    expect(hint).toEqual(region(expected, left, top, width, height));
+    expect(start).toBeDefined();
+    const colors = [...new Set(regionPixels(frame, start!))];
+    expect(colors).toHaveLength(2);
+    expect(contrastRatio(DUSK_PALETTE[colors[0]], DUSK_PALETTE[colors[1]])).toBeGreaterThan(7);
+    expect(pixel(frame, 30, 111)).toBe(11);
+    expect(pixel(frame, 30, 145)).toBe(0);
   });
 });
