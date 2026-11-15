@@ -37,7 +37,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 ## M3 Ingest
 
 - [x] M3-01 The ingest reader loads the recorded EIC root (SVS 40467) and identifies child cards using their instance IDs and types
-- [ ] M3-02 The crawler follows every nested gallery from 40467 in source order and collects detail pages, media-group references, and links
+- [x] M3-02 The crawler follows every nested gallery from 40467 in source order and collects detail pages, media-group references, and links
 - [ ] M3-03 Repeated pages and media references are collected once by SVS ID, including cycles between galleries
 - [ ] M3-04 The crawler reports an unresolved expected SVS page with its referring gallery, so an incomplete snapshot cannot pass silently
 - [ ] M3-05 A manual refresh records NASA API responses and retrieval dates for offline ingest, and tests replay the recorded responses
