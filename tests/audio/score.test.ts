@@ -126,3 +126,51 @@ describe('score event values and ordering', () => {
     ).toEqual({ ok: false, index: 2, reason: expect.stringContaining('start') });
   });
 });
+
+describe('score image locations', () => {
+  const from = { x: 0, y: 1 };
+  const to = { x: 1, y: 0 };
+  const sparse = [from, to];
+  sparse.length = 3;
+  const valid = [
+    { kind: 'point', ...to },
+    { kind: 'line', from, to },
+    { kind: 'ring', center: { x: 0.5, y: 0.5 }, radius: 0.25 },
+    { kind: 'path', points: [from, to] },
+    { kind: 'region', x: 0, y: 0.5, width: 1, height: 0.5 },
+  ];
+
+  it('accepts all five image-relative shapes used by the playhead', () => {
+    expect(validateScore(valid.map((location) => ({ ...goodEvent(), location })))).toEqual({
+      ok: true,
+    });
+  });
+
+  it.each([
+    'point',
+    { kind: 'arrow' },
+    { kind: 'point', x: -0.01, y: 0.5 },
+    { kind: 'point', x: 0.5, y: 1.01 },
+    { kind: 'point', x: '0.5', y: 0.5 },
+    { kind: 'point', x: 0.5, y: Number.NaN },
+    { kind: 'line', from },
+    { kind: 'line', from: { x: 0, y: -1 }, to },
+    { kind: 'ring', center: from, radius: Number.POSITIVE_INFINITY },
+    { kind: 'ring', center: {}, radius: 0.25 },
+    { kind: 'ring', center: to, radius: -0.1 },
+    { kind: 'path', points: { from, to } },
+    { kind: 'path', points: [from] },
+    { kind: 'path', points: sparse },
+    { kind: 'path', points: [from, { x: 1, y: 2 }, to] },
+    { kind: 'region', x: 0.5, y: 0, width: 1, height: 0.5 },
+    { kind: 'region', x: 0, y: 0.5, width: 0.5, height: 1 },
+    { kind: 'region', x: 0, y: 0, width: -0.1, height: 1 },
+    { kind: 'region', x: 0, y: 0, width: 1 },
+  ])('rejects a malformed image location %j', (location) => {
+    expect(validateScore([goodEvent(), { ...goodEvent(), location }])).toEqual({
+      ok: false,
+      index: 1,
+      reason: expect.stringContaining('location'),
+    });
+  });
+});

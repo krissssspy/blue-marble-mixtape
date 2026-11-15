@@ -40,11 +40,51 @@ const NUMBER_FIELDS = {
   pan: (value: number) => value >= -1 && value <= 1,
 };
 
-function eventProblem(candidate: unknown): string | undefined {
-  if (candidate === null || typeof candidate !== 'object') {
-    return 'event must be an object';
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return value !== null && typeof value === 'object';
+}
+
+function isCoordinate(value: unknown): value is number {
+  return typeof value === 'number' && value >= 0 && value <= 1;
+}
+
+function isImagePoint(value: unknown): value is ImagePoint {
+  return isRecord(value) && isCoordinate(value.x) && isCoordinate(value.y);
+}
+
+function isScoreLocation(value: unknown): boolean {
+  if (!isRecord(value)) return false;
+
+  switch (value.kind) {
+    case 'point':
+      return isImagePoint(value);
+    case 'line':
+      return isImagePoint(value.from) && isImagePoint(value.to);
+    case 'ring':
+      return isImagePoint(value.center) && isCoordinate(value.radius);
+    case 'path':
+      return (
+        Array.isArray(value.points) &&
+        value.points.length >= 2 &&
+        Array.from(value.points).every(isImagePoint)
+      );
+    case 'region': {
+      const { width, height } = value;
+      return (
+        isImagePoint(value) &&
+        isCoordinate(width) &&
+        isCoordinate(height) &&
+        value.x + width <= 1 &&
+        value.y + height <= 1
+      );
+    }
+    default:
+      return false;
   }
-  const event = candidate as Record<string, unknown>;
+}
+
+function eventProblem(event: unknown): string | undefined {
+  if (!isRecord(event)) return 'event must be an object';
   if (typeof event.voice !== 'string' || !VOICES.includes(event.voice)) {
     return 'voice is missing or not a known voice';
   }
@@ -56,6 +96,7 @@ function eventProblem(candidate: unknown): string | undefined {
   if (event.location === undefined || event.location === null) {
     return 'location is missing';
   }
+  if (!isScoreLocation(event.location)) return 'location is malformed';
   return undefined;
 }
 
