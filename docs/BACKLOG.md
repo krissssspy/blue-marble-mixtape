@@ -59,7 +59,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-20 The explicit room table assigns every accepted source, including daily imagery, with four to six featured artifacts per room
 - [x] M3-21 The catalog records every required field, including a short title of at most 18 characters and retrieval date for daily imagery
 - [x] M3-21b SVS 5072 uses NASA's current January–December single-year image in place of its broken main-image URL
-- [ ] M3-21c Ingest uses decoded image dimensions and serves the local fallback when a source has no published image within the 3840-pixel width cap
+- [x] M3-21c Ingest uses decoded image dimensions and serves the local fallback when a source has no published image within the 3840-pixel width cap
 - [ ] M3-22 The offline completeness check accounts for every collected source with catalog entries or a documented reason for exclusion
 - [ ] M3-23 The refresh builds the catalog and all referenced media from a recorded snapshot, and the committed outputs serve in the site build
 - [ ] M3-24 The built site fails verification above 150 MB total or 2 MB for any individual file
