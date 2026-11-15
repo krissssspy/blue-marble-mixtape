@@ -1,4 +1,5 @@
 import type { ExhibitId } from '../exhibit-selection.js';
+import { shadeBackdrop } from './background.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './framebuffer.js';
 
 type Tone = 0 | 1 | 2 | 3;
@@ -845,4 +846,5 @@ export function drawExhibitBackdrop(
       }
     }
   }
+  shadeBackdrop(frame);
 }

@@ -166,7 +166,9 @@ describe('browser room layout', () => {
     expect(pixel(frame, 5, 77)).toBe(2);
     expect(pixel(frame, 32, 77)).toBe(1);
     expect(pixel(frame, 10, 82)).toBe(3);
+    expect(pixel(frame, 10, 83)).toBe(2);
     expect(pixel(frame, 10, 106)).toBe(3);
+    expect(pixel(frame, 10, 107)).toBe(2);
     expect(pixel(frame, 10, 129)).toBe(4);
     expect(pixel(frame, 10, 148)).toBe(12);
     drawRoom(frame, { ...view, parallax: false });
@@ -223,10 +225,10 @@ describe('browser room layout', () => {
 
     drawRoom(frame, { ...common, left: lastView - 3, explorerX: room.width - 40 });
     expect([entrance, end, openExit, digest(frame)]).toEqual([
-      '38aa1f6ebdf2abaa0f885384dc14ca279aee2138d641791dbd5488daf2326523',
-      'eca55ddd9411e8ec75676c622bd1841c5598235d3a2ca2794a9d2c8825df570f',
-      '2091e36ae9937bf0b3dc0468a6578b3b7f0c70e76c94a2ef3d99fbc3bfa6f3a3',
-      '406151ac5dee61ebe90ebb16e82fdb420ef42ed43f027d82a69d99211e3a1a3b',
+      'bf94bd0940cec268c6305a57fb2129e3850b176f739ca1678a76450629721792',
+      '7cda470dfa0595194cd1e0b3346cfe5513a678971325c61ca3ff035a93faabfc',
+      '0de962691ce0c64046ebfac92e28ebd6703319a3cc934f38cf84069f12eb733d',
+      'ac812e4d612a26d9f99138de897a901a6a96b07177b55eaf1b9a0b2f80f67359',
     ]);
   });
 

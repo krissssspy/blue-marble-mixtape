@@ -1,4 +1,27 @@
+import type { Framebuffer } from './framebuffer.js';
 import { BACKDROP_RAMP } from './palette.js';
+
+export function shadeBackdrop({ pixels, width, height }: Framebuffer): void {
+  const scene = pixels.slice();
+  // Keep edge light below the blue used in the visitor's play lane.
+  const brightest = 3;
+  for (let y = 1; y < height - 1; y += 1) {
+    for (let x = 1; x < width - 1; x += 1) {
+      const index = y * width + x;
+      const tone = scene[index];
+      if (tone === 0 || tone > brightest) continue;
+      const north = scene[index - width];
+      const west = scene[index - 1];
+      const south = scene[index + width];
+      const east = scene[index + 1];
+      if (tone < brightest && (north < tone || west < tone) && (south === tone || east === tone)) {
+        pixels[index] = tone + 1;
+      } else if ((south < tone || east < tone) && (north === tone || west === tone)) {
+        pixels[index] = tone - 1;
+      }
+    }
+  }
+}
 
 interface RoomMotifs {
   readonly id: string;

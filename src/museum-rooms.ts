@@ -1,6 +1,7 @@
 import { drawArtifactFrame } from './engine/artifact-frame.js';
 import { drawExplorer, type ExplorerPose } from './engine/avatar-render.js';
 import type { AvatarSelection } from './engine/avatar.js';
+import { shadeBackdrop } from './engine/background.js';
 import { drawExhibitBackdrop } from './engine/exhibit-backgrounds.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './engine/framebuffer.js';
 import type { CatalogArtifact, MuseumAssets } from './engine/museum-assets.js';
@@ -114,6 +115,7 @@ function drawRoomBackdrop(
       fillRect(frame, x + 4, 106, 29, 2, 3);
     }
     fillRect(frame, 0, 129, frame.width, 2, 4);
+    shadeBackdrop(frame);
   } else {
     drawExhibitBackdrop(frame, room.id, offset, parallax);
   }

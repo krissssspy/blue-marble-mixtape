@@ -1,6 +1,7 @@
 import { TUTORIAL_HINTS } from '../strings.js';
 import { drawExplorer, type ExplorerPose } from './avatar-render.js';
 import type { AvatarSelection } from './avatar.js';
+import { shadeBackdrop } from './background.js';
 import { drawText } from './font.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './framebuffer.js';
 
@@ -81,6 +82,7 @@ export function drawTutorial(
   pose: ExplorerPose = 0,
 ): void {
   drawLandscape(frame);
+  shadeBackdrop(frame);
   drawWalkway(frame);
   drawHints(frame);
   drawPracticeArtifact(frame, practiceThumbnail);

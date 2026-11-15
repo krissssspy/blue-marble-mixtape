@@ -1,5 +1,10 @@
 import { describe, expect, it, vi } from 'vitest';
-import { assertBackgroundContrast, contrastRatio } from '../../src/engine/background.js';
+import {
+  assertBackgroundContrast,
+  contrastRatio,
+  shadeBackdrop,
+} from '../../src/engine/background.js';
+import { fillRect, type Framebuffer } from '../../src/engine/framebuffer.js';
 import { BACKDROP_RAMP } from '../../src/engine/palette.js';
 
 const darkest = '#0b1026';
@@ -75,5 +80,19 @@ describe('room contrast', () => {
         text: [{ foreground: cream, panel: darkest, opaque: false }],
       }),
     ).toThrow(/opaque panel.*4[.]5:1 contrast/i);
+  });
+});
+describe('directional backdrop shading', () => {
+  it('gives a solid surface a top-left highlight and bottom-right shadow', () => {
+    const frame: Framebuffer = { width: 9, height: 8, pixels: new Uint8Array(72) };
+    fillRect(frame, 2, 2, 5, 4, 2);
+    fillRect(frame, 4, 0, 1, 1, 3);
+    fillRect(frame, 1, 6, 1, 1, 12);
+    shadeBackdrop(frame);
+    const at = (x: number, y: number) => frame.pixels[y * frame.width + x];
+    expect([at(2, 2), at(4, 2), at(2, 4), at(4, 3), at(6, 4), at(4, 5), at(6, 5)]).toEqual([
+      3, 3, 3, 2, 1, 1, 1,
+    ]);
+    expect([at(1, 2), at(7, 4), at(4, 0), at(1, 6)]).toEqual([0, 0, 3, 12]);
   });
 });
