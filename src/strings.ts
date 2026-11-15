@@ -6,3 +6,10 @@ export const STRINGS = {
   loading: 'LOADING',
   ready: 'READY',
 } as const;
+
+export const TOUCH_STRINGS = {
+  left: { arrow: '←', label: 'Walk left' },
+  right: { arrow: '→', label: 'Walk right' },
+  yes: { arrow: '↑', label: 'Yes' },
+  no: { arrow: '↓', label: 'No' },
+} as const;
