@@ -116,7 +116,16 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   }
 
   function unlockAudio(): void {
-    if (audio || typeof AudioContext === 'undefined') return;
+    if (audio) {
+      if (audio.context.state !== 'running') {
+        audio.ready = audio.player.unlock().then(
+          () => true,
+          () => false,
+        );
+      }
+      return;
+    }
+    if (typeof AudioContext === 'undefined') return;
     try {
       const context = new AudioContext();
       const worklet =
