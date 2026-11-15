@@ -104,7 +104,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-09 Only the four arrow keys map to movement and yes/no actions
 - [x] M4-10 Horizontal movement holds while a key is down, and yes/no dispatch once per press across repeat, release, and blur
 - [x] M4-11 Four labelled touch buttons send the keyboard's four actions and safely release held movement
-- [ ] M4-12 Touch controls stay hidden on non-touch devices and place 48 CSS px targets under the correct thumbs in portrait and landscape
+- [x] M4-12 Touch controls stay hidden on non-touch devices and place 48 CSS px targets under the correct thumbs in portrait and landscape
 - [x] M4-13 Frame time advances the pure simulation in fixed 60 Hz steps and delivers each discrete press once
 - [x] M4-14 The explorer walks horizontally at a fixed speed, cancels opposing movement, and stops at the ends of the walkway
 - [x] M4-15 The explorer stays on the continuous walkway as it passes through ramps and steps
