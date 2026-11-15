@@ -5,6 +5,7 @@ function imageStem({ filename }) {
 function isViewImage(image) {
   const stem = imageStem(image);
   return (
+    !/^\s*colou?r\s*bar\b/i.test(image.alt_text) &&
     !/(?:^|[_.-])no[_.-]?preview(?:[_.-]|$)/.test(stem) &&
     (!/(?:^|[_.-])(?:colou?r[_.-]?bar|legend)(?:[_.-]|$)/.test(stem) ||
       /(?:^|[_.-])(?:w|with)[_.-]?(?:colou?r[_.-]?bar|legend)/.test(stem))

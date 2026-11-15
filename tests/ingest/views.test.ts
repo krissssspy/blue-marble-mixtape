@@ -84,6 +84,36 @@ describe('selectViews', () => {
     expect(views[0].imageVariants).toEqual([page.main_image]);
   });
 
+  it('skips standalone precipitation color bars identified by their recorded alt text', () => {
+    const page = readRecordedPage(4285);
+    const views = selectViews({ mainImage: page.main_image, mediaGroups: page.media_groups });
+
+    expect(views.map(({ groupId }) => groupId)).toEqual([338068, 338071]);
+    expect(views[0].image).toEqual(page.main_image);
+  });
+
+  it('rejects a standalone colour bar identified by its alt text', () => {
+    const mainImage = {
+      ...image(1, 'temperature_scale.png'),
+      alt_text: '  Colour Bar for surface temperature',
+    };
+
+    expect(selectViews({ mainImage, mediaGroups: [] })).toEqual([]);
+  });
+
+  it('keeps a data view when its alt text describes a map with a colorbar', () => {
+    const mainImage = image(1, 'sea_surface.png');
+    const map = {
+      ...image(2, 'regional_map.png'),
+      alt_text: 'A map of sea surface temperatures, with a colorbar along the bottom.',
+    };
+    const mediaGroups = [imageGroup(1, mainImage), imageGroup(2, map)];
+
+    const views = selectViews({ mainImage, mediaGroups });
+
+    expect(views.map(({ image }) => image)).toEqual([mainImage, map]);
+  });
+
   it('fills the remaining view slots with distinct images after skipping alternate sizes and placeholders', () => {
     const mainImage = {
       ...image(10, 'surface_temperature_1920x1080.png'),
