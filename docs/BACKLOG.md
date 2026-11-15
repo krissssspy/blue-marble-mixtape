@@ -106,7 +106,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [ ] M4-11 Four labelled touch buttons send the keyboard's four actions and safely release held movement
 - [ ] M4-12 Touch controls stay hidden on non-touch devices and place 48 CSS px targets under the correct thumbs in portrait and landscape
 - [x] M4-13 Frame time advances the pure simulation in fixed 60 Hz steps and delivers each discrete press once
-- [ ] M4-14 The explorer walks horizontally at a fixed speed, cancels opposing movement, and stops at the ends of the walkway
+- [x] M4-14 The explorer walks horizontally at a fixed speed, cancels opposing movement, and stops at the ends of the walkway
 - [x] M4-15 The explorer stays on the continuous walkway as it passes through ramps and steps
 - [ ] M4-16 The side-scrolling camera follows the explorer and clamps at both room edges
 
