@@ -31,13 +31,12 @@ function seaLevel(pack: FeaturePack, add: Note): void {
       const motionY = 0.04 * signal.motionY - 0.028 * Math.cos(signal.direction);
       trail.push(point(at.x + 0.025 + motionX, at.y + motionY));
       const start = 0.42 * step + 0.19 * stream;
-      const rise = (step + 2 * stream) % 12;
-      const ascent = Math.sin((Math.PI * rise) / 12) ** 2;
-      const pitch = 39 + rise + 5 * (signal.light - 0.5);
+      const swell = (1 - Math.cos((step * Math.PI) / 7)) / 2;
+      const pitch = scaleNote(0.55 * swell + 0.45 * signal.light, 'majorPentatonic', 50, 1);
       const location = { kind: 'path', points: trail.slice(Math.max(0, step - 3)) } as const;
-      add('pad', start, 1.35, pitch, 0.1 + ascent * 0.15, location, at.x);
-      add('pad', start, 1.32, pitch + 12, 0.19 - ascent * 0.12, location, at.x);
-      if (step % 4 === 0) add('triangle', start, 1.55, 29 + 2 * signal.light, 0.1, dot(at), at.x);
+      add('pad', start, 1.35, pitch, 0.08 + swell * 0.12, location, at.x);
+      add('pad', start + 0.08, 1.32, pitch + 12, 0.09 - swell * 0.045, location, at.x);
+      if (step % 4 === 0) add('triangle', start, 1.25, stream % 2 ? 50 : 45, 0.055, dot(at), at.x);
     }
   }
 }
@@ -52,8 +51,8 @@ function airQuality(pack: FeaturePack, add: Note): void {
       'pulse',
       when,
       0.044 + 0.06 * concentration,
-      46 + Math.floor(concentration * 17),
-      0.12 + 0.32 * concentration,
+      scaleNote(concentration, 'majorPentatonic', 59, 1),
+      0.1 + 0.17 * concentration,
       dot(at),
       at.x,
     );
@@ -63,9 +62,9 @@ function airQuality(pack: FeaturePack, add: Note): void {
         add(
           'noise',
           when + grain * 0.014,
-          0.024 + 0.045 * concentration,
+          0.024 + 0.028 * concentration,
           68,
-          0.08 + concentration * 0.18,
+          0.025 + concentration * 0.065,
           dot(at),
           at.x,
         );
@@ -79,7 +78,7 @@ function biodiversity(pack: FeaturePack, add: Note): void {
     const x = (column + 0.5) / 18;
     const time = column * 0.22;
     const scan = { kind: 'line', from: point(x, 0), to: point(x, 1) } as const;
-    add('organ', time, 0.31, 55 + (column % 5) * 2, 0.06, scan, x);
+    add('organ', time, 0.31, column % 4 < 2 ? 50 : 57, 0.07, scan, x);
     for (let band = 0; band < 7; band += 1) {
       const at = point(x, (band + 0.5) / 7);
       const sample = cell(pack, at, column);
@@ -87,7 +86,7 @@ function biodiversity(pack: FeaturePack, add: Note): void {
       const pitch = scaleNote(1 - at.y, 'majorPentatonic', 62, 3);
       add('organ', time, 0.24, pitch, 0.035 + sample.light * 0.075, dot(at), x);
       if ((band + column) % 5 === 0 || sample.edge > 0.48) {
-        add('bell', time + 0.07, 0.32, pitch + 7, 0.05 + 0.18 * sample.edge, dot(at), x);
+        add('bell', time + 0.07, 0.32, pitch, 0.05 + 0.12 * sample.edge, dot(at), x);
       }
     }
   }
@@ -109,16 +108,23 @@ function wildfires(pack: FeaturePack, add: Note): void {
       const start = (bar * 8 + step) * 0.105;
       const radius = 0.022 + 0.03 * signal;
       const location = { kind: 'ring', center: at, radius } as const;
-      add('noise', start, 0.05 + 0.12 * signal, 53, 0.35 + 0.35 * signal, location, at.x);
-      add('pulse', start, 0.1, 31 + 7 * signal, 0.38, dot(at), at.x);
-      if (step % 2 === 0) add('bell', start + 0.036, 0.13, 39 + 10 * signal, 0.22, dot(at), at.x);
+      const pitch = scaleNote(signal, 'majorPentatonic', 52, 1);
+      add('noise', start, 0.044 + 0.048 * signal, 53, 0.04 + 0.075 * signal, location, at.x);
+      add('pulse', start, 0.1, pitch, 0.14 + 0.08 * signal, dot(at), at.x);
+      if (step % 2 === 0) add('bell', start + 0.045, 0.17, pitch + 12, 0.1, dot(at), at.x);
     }
   }
 }
 
 function greenhouseGases(pack: FeaturePack, add: Note): void {
   let previous = point(0, 0.5);
-  const intervals = [0, 3, 7, 12];
+  const chords = [
+    { root: 50, third: 4 },
+    { root: 55, third: 4 },
+    { root: 52, third: 3 },
+    { root: 57, third: 4 },
+    { root: 50, third: 4 },
+  ];
   for (let column = 0; column < 14; column += 1) {
     const x = column / 13;
     const bands = Array.from({ length: 10 }, (_, row) => point(x, row / 9));
@@ -130,21 +136,21 @@ function greenhouseGases(pack: FeaturePack, add: Note): void {
     const shape = { kind: 'line', from: previous, to: line } as const;
     previous = line;
     const when = column * 0.32;
-    const root = scaleNote(1 - line.y, 'dorian', 41, 2);
-    for (const [part, interval] of intervals.entries()) {
+    const { root, third } = chords[Math.floor((column * chords.length) / 14)];
+    for (const [part, interval] of [0, third, 7, 12].entries()) {
       const row = bands[(Math.round(line.y * 9) + part * 2) % bands.length];
       const tone = cell(pack, row);
       add(
         'organ',
         when + part * 0.031,
         0.66,
-        root + interval + Math.floor(tone.hue * 3),
-        0.1 + tone.saturation * 0.045,
+        root + interval + (part === 3 && tone.hue > 0.6 ? 12 : 0),
+        0.095 + tone.saturation * 0.04,
         part === 0 ? shape : dot(row),
         0.18 + 0.22 * part,
       );
     }
-    if (column % 4 === 0) add('organ', when + 0.25, 0.15, root + 14, 0.13, dot(line), x);
+    if (column % 4 === 0) add('organ', when + 0.25, 0.15, root + 19, 0.08, dot(line), x);
   }
 }
 
@@ -176,12 +182,12 @@ function energy(pack: FeaturePack, add: Note): void {
     );
     connected.push(to);
     const path = { kind: 'line', from: from.at, to: to.at } as const;
-    const key = scaleNote(unit(to.light), 'minorPentatonic', 48, 2);
-    for (const [index, interval] of [0, 7, 12, 15].entries()) {
-      add('pulse', onset + index * 0.083, 0.16, key + interval, 0.22, path, to.at.x);
+    const key = scaleNote(unit(to.light), 'majorPentatonic', 53, 2);
+    for (const [index, interval] of [0, 7, 12, 19].entries()) {
+      add('pulse', onset + index * 0.083, 0.16, key + interval, 0.17, path, to.at.x);
     }
     add('pad', onset, 0.73, key - 12, 0.24, dot(from.at), from.at.x);
-    add('triangle', onset, 0.14, 30, 0.25, dot(to.at), 0.5);
+    add('triangle', onset, 0.14, 41, 0.16, dot(to.at), 0.5);
     onset += 0.36;
   }
 }
@@ -208,11 +214,20 @@ function disasters(pack: FeaturePack, add: Note): void {
     const wind = cell(pack, mid, step);
     const start = step * 0.205;
     const sweep = { kind: 'line', from: center, to: edge } as const;
-    add('pad', start, 0.86, 39 + 7 * wind.light + 3 * Math.sin(angle), 0.16, sweep, mid.x);
-    add('triangle', start, 0.39, 52 + 11 * wind.edge, 0.14 + 0.14 * wind.edge, sweep, mid.x);
+    const pitch = scaleNote(0.7 * wind.light + 0.3 * wind.edge, 'majorPentatonic', 55, 1);
+    add('pad', start, 0.86, pitch, 0.17, sweep, mid.x);
+    add('triangle', start + 0.035, 0.36, pitch + 12, 0.1 + 0.11 * wind.edge, sweep, mid.x);
     if (step % 4 === 0 || wind.change > 0.4) {
-      add('bell', start + 0.07, 0.52, 35 + 14 * wind.edge, 0.36, dot(mid), mid.x);
-      add('noise', start + 0.15 + 0.1 * wind.light, 0.22, 43, 0.22, dot(mid), mid.x);
+      add('bell', start + 0.1, 0.52, pitch + 12, 0.09 + 0.07 * wind.edge, dot(mid), mid.x);
+      add(
+        'noise',
+        start + 0.15 + 0.1 * wind.light,
+        0.15,
+        43,
+        0.035 + 0.055 * wind.change,
+        dot(mid),
+        mid.x,
+      );
     }
   }
 }
@@ -243,8 +258,8 @@ function waterResources(pack: FeaturePack, add: Note): void {
       );
     }
     add('pluck', start + 0.14, 0.42, pitch - 12, 0.17, { kind: 'path', points: route }, at.x);
-    if (index % 4 === 0) add('pluck', start, 0.75, 31 + wetness * 7, 0.39, dot(at), 0.5);
-    if (index % 4 === 2) add('noise', start - 0.06, 0.12, 62, 0.13, dot(at), 0.5);
+    if (index % 4 === 0) add('pluck', start, 0.75, wetness > 0.5 ? 52 : 45, 0.16, dot(at), 0.5);
+    if (index % 4 === 2) add('noise', start - 0.06, 0.12, 62, 0.06, dot(at), 0.5);
   }
 }
 
@@ -259,13 +274,13 @@ function agriculture(pack: FeaturePack, add: Note): void {
       const crop = Math.min(4, Math.floor(5 * (0.75 * sample.hue + 0.25 * sample.saturation)));
       const transition = (lastClass * 2 + crop + Math.floor(sample.light * 4)) % 7;
       lastClass = crop;
-      const pitch = scaleNote(transition / 6, 'majorPentatonic', 48, 2);
+      const pitch = scaleNote(transition / 6, 'majorPentatonic', 53, 2);
       const t = (row * 8 + step) * 0.155;
       const field = { kind: 'region', x, y, width: 1 / 8, height: 1 / 4 } as const;
       add('pluck', t, 0.28, pitch, 0.23 + 0.22 * sample.light, field, at.x);
       if (step % 2 === 0) add('pluck', t + 0.055, 0.24, pitch + 7, 0.19, field, at.x);
-      if (step % 4 === 0) add('triangle', t, 0.29, pitch - 24, 0.16, field, 0.5);
-      if (step % 4 === 2) add('noise', t, 0.07, 45, 0.15, field, 0.5);
+      if (step % 4 === 0) add('triangle', t, 0.29, pitch - 12, 0.13, field, 0.5);
+      if (step % 4 === 2) add('noise', t, 0.07, 45, 0.075, field, 0.5);
     }
   }
 }
@@ -295,5 +310,17 @@ export function exhibitScore(exhibit: ExhibitId, pack: FeaturePack): readonly Sc
       pan: 2 * panX - 1,
     });
   });
-  return events.sort((first, second) => first.start - second.start);
+  events.sort((first, second) => first.start - second.start);
+  let peak = 0;
+  for (const [index, { start }] of events.entries()) {
+    let overlap = 0;
+    for (let other = index; other >= 0; other -= 1) {
+      const event = events[other];
+      if (event.start + event.duration > start) overlap += event.loudness;
+    }
+    peak = Math.max(peak, overlap);
+  }
+  // Each voice is bounded by its loudness, so a whole-score gain keeps transients below clipping.
+  const gain = Math.min(1, 0.85 / peak);
+  return events.map((event) => ({ ...event, loudness: event.loudness * gain }));
 }

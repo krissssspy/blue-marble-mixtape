@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { exhibitScore } from '../../src/audio/exhibit-scores.js';
 import { decodeFeaturePack, type FeaturePack } from '../../src/audio/feature-pack.js';
+import { midiToHz } from '../../src/audio/pitch.js';
 import { renderScore } from '../../src/audio/render.js';
 import { scoreDuration, validateScore, type ScoreEvent } from '../../src/audio/score.js';
 import type { MuseumCatalog } from '../../src/engine/museum-assets.js';
@@ -22,15 +23,15 @@ const voices = {
 };
 
 const scoreFingerprints = {
-  'sea-level': 'f44bbd094a40fb9f73477aa25e45f6447676f751109a0b88a3da7b681e00a8e3',
-  'air-quality': '65b1c003a21c362e9c7b05ade7df2f1703a8b593f48273ba122a68a957553e64',
-  biodiversity: '6604b50b24aff7203ab51feb1df1bc95b3d817c2f0084520c188e257e50bc050',
-  wildfires: '276671371b8e65ce46f7344d0224fe7dc7aa524fa275684813464ba568fa69de',
-  'greenhouse-gases': 'a904b560089e3b995c69a2854505d569198945c4bd33fdf2f6257eeb8ed1cf17',
-  energy: 'f4fc509e934a501edf287da8514b62922af1acb94ff7b866dd8dee4fb6317a62',
-  disasters: '236c45cacac3c933aebd497e9d7d48002dbefd371ef1e5d741ff40ee2469a204',
-  'water-resources': '6ee0570e9a064c84e642ca93e3e2a6129609295df433a861cb6d68023af24951',
-  agriculture: '6d02c697c8e3b97afc6e804058a45cfa572036c6a9770bcef48cbe8b9ac13e4a',
+  'sea-level': '604e67d22ba83ed07e5cc96459706a11ff3297a15326639f329807e21f5171b9',
+  'air-quality': 'c1a9bcbe0d1dff7250934fc8887f63a7b480d5f6fae0f806299e6ac24205eb69',
+  biodiversity: '5f54a399a917966260e6b0a73503a986c73955825732bb2e684af57c486a392c',
+  wildfires: '3d7302d091030fdff2685ac65bd3587369fef2deec34d10a3f24fe18f38b73aa',
+  'greenhouse-gases': '6e9c8e6fad3caacbc52071c43490d001700021ea45819f1b053d81d2aa8dcbe0',
+  energy: '242afb2aed3b8fb3019c5a15fc5d3e66bb8449f8eab6b3b03fd9081ca943b29a',
+  disasters: 'b1abf930b3b988cbb0584cce3d18b1380f86c025131aeef6f69b367d519ba806',
+  'water-resources': '731d90ff999d58a067d537bb5690b23735bb8eff79c13d9220fbbe739b986c3c',
+  agriculture: 'ccb24656a3fdaf122ff59d2c3b95b914fdecf0bd8fe4460a4be8974766cea87e',
 };
 
 function fixture(shift = 0): FeaturePack {
@@ -131,7 +132,23 @@ describe('nine exhibit scores', () => {
         const score = exhibitScore(exhibit, pack);
         expect(score.length, id).toBeGreaterThan(10);
         expect(validateScore(score), id).toEqual({ ok: true });
+        for (const event of score) {
+          if (event.voice === 'noise') expect(event.loudness, id).toBeLessThanOrEqual(0.12);
+          else expect(event.pitch, id).toBeGreaterThanOrEqual(midiToHz(41));
+        }
       }
+    }
+  });
+
+  it('keeps exhibit playback audible with headroom for overlapping parts', () => {
+    for (const exhibit of exhibits) {
+      const { left, right } = renderScore(exhibitScore(exhibit, fixture()), 8000);
+      let peak = 0;
+      for (const channel of [left, right]) {
+        for (const sample of channel) peak = Math.max(peak, Math.abs(sample));
+      }
+      expect(peak, exhibit).toBeGreaterThan(0.045);
+      expect(peak, exhibit).toBeLessThanOrEqual(0.86);
     }
   });
 
