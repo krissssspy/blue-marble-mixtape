@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
+import sharp from 'sharp';
 import { describe, expect, it, vi } from 'vitest';
 import { createFramebuffer, type Framebuffer } from '../../src/engine/framebuffer.js';
 import type { MuseumCatalog } from '../../src/engine/museum-assets.js';
@@ -27,7 +28,7 @@ function pixel(frame: Framebuffer, x: number, y: number): number {
 }
 
 describe('browser room layout', () => {
-  it('starts with a continuous tutorial before loading and groups every catalog artifact afterward', () => {
+  it('starts with a continuous tutorial and installs the curated exhibits after loading', () => {
     const [pending, ...hidden] = createMuseumRooms();
     expect(hidden).toEqual([]);
     expect(pending).toMatchObject({ id: 'tutorial', width: 320, spots: [] });
@@ -50,13 +51,18 @@ describe('browser room layout', () => {
       'lab',
     ]);
     expect(rooms.map(({ name }) => name)).toContain('Sea Level');
-    expect(rooms.flatMap(({ spots }) => spots.map(({ id }) => id)).sort()).toEqual(
-      catalog.artifacts.map(({ id }) => id).sort(),
-    );
+    expect(rooms[0].spots[0].id).toBe('svs-media-479017-main');
     for (const room of rooms) {
-      expect(room.spots.map(({ artifact }) => artifact)).toEqual(
-        catalog.artifacts.filter(({ room: group }) => group === room.id),
-      );
+      const catalogued = catalog.artifacts.filter(({ room: group }) => group === room.id);
+      if (room.id === 'lab') {
+        expect(room.spots.map(({ artifact }) => artifact)).toEqual(catalogued);
+      } else {
+        expect(room.spots.length, room.id).toBeGreaterThanOrEqual(8);
+        expect(room.spots.length, room.id).toBeLessThanOrEqual(10);
+        expect(catalogued).toEqual(
+          expect.arrayContaining(room.spots.map(({ artifact }) => artifact)),
+        );
+      }
       expect(room.walkway).toEqual([
         { x: 18, y: 148 },
         { x: room.width - 18, y: 148 },
@@ -66,6 +72,28 @@ describe('browser room layout', () => {
         room.spots.every(({ x, range }) => x > 18 && x < room.width - 18 && range === 27),
       ).toBe(true);
     }
+  });
+
+  it('uses no repeated images across the nine exhibits and keeps the original catalog', async () => {
+    const rooms = createMuseumRooms(assets).slice(1, -1);
+    const exhibits = rooms.flatMap(({ spots }) => spots.map(({ artifact }) => artifact));
+    expect(new Set(exhibits.map(({ id }) => id)).size).toBe(exhibits.length);
+    expect(new Set(exhibits.map(({ originalImage }) => originalImage.url)).size).toBe(
+      exhibits.length,
+    );
+    const rasterHashes = await Promise.all(
+      exhibits.map(async ({ mediaPaths }) => {
+        const input = readFileSync(new URL(`../../public${mediaPaths.preview}`, import.meta.url));
+        const raster = await sharp(input)
+          .resize(64, 36, { fit: 'contain', background: '#000' })
+          .removeAlpha()
+          .raw()
+          .toBuffer();
+        return createHash('sha256').update(raster).digest('hex');
+      }),
+    );
+    expect(new Set(rasterHashes).size).toBe(exhibits.length);
+    expect(assets.catalog.artifacts.length).toBeGreaterThan(exhibits.length);
   });
 
   it('requests framed thumbnails around the camera and draws a focus cue above the native pixels', () => {
@@ -119,9 +147,9 @@ describe('browser room layout', () => {
     drawRoom(frame, { ...common, left: lastView - 3, explorerX: room.width - 40 });
     expect([entrance, end, openExit, digest(frame)]).toEqual([
       '94cefa0c6f3c8213c0022fa81d5d760b4282a6ecf3826c54b47d89569ebf89b1',
-      '930cf8e1b79dc21d4a474ed1aa3ad2a863b85cd46314c485098010eded9504f5',
-      'a59febbbfac83e926fe0dba33fdaa2273572ad9d4c4d26f5b40d139ead0503c5',
-      '0cba3b834ca17cbb4b51935c11a6062fbe4cbf6c08d31fb3e04e26ae039bb0eb',
+      'c7d2677b060eff7d312c08ab7cf86ac574b72dceb8540602f7b42f720d421476',
+      'f17aef43f719f685f19e648b0d74b4b72cec191dfed9af3a71a840ef5c22f9ca',
+      'e5ed6620567b93a9d193d8b70ae486db1359defc8ea6f3c408acedb3ddf6b5f1',
     ]);
   });
 

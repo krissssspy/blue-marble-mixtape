@@ -5,6 +5,7 @@ import { clearFramebuffer, fillRect, type Framebuffer } from './engine/framebuff
 import type { CatalogArtifact, MuseumAssets } from './engine/museum-assets.js';
 import { drawTrackBanner } from './engine/track-banner.js';
 import { walkwayHeight } from './engine/walkway.js';
+import { EXHIBIT_ARTIFACT_IDS } from './exhibit-selection.js';
 import { APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
 
 const ground = 148;
@@ -45,10 +46,17 @@ export function createMuseumRooms(assets?: MuseumAssets): readonly MuseumRoom[] 
       { id: assets.practiceArtifact.id, x: 160, range: 27, artifact: assets.practiceArtifact },
     ],
   };
+  const catalogById = new Map(assets.catalog.artifacts.map((artifact) => [artifact.id, artifact]));
   return [
     tutorial,
     ...MUSEUM_ROOMS.map(({ id, name }) => {
-      const artifacts = assets.catalog.artifacts.filter((artifact) => artifact.room === id);
+      const artifacts =
+        id === 'lab'
+          ? assets.catalog.artifacts.filter((artifact) => artifact.room === id)
+          : EXHIBIT_ARTIFACT_IDS[id].flatMap((artifactId) => {
+              const artifact = catalogById.get(artifactId);
+              return artifact?.room === id ? [artifact] : [];
+            });
       const width = Math.max(320, spacing * (artifacts.length + 1));
       return {
         id,
