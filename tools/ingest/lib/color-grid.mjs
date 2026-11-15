@@ -3,8 +3,8 @@ import sharp from 'sharp';
 const width = 96;
 const height = 54;
 
-export async function extractColorGrid(input) {
-  const pixels = await sharp(input)
+export async function extractColorGrid(input, options) {
+  const pixels = await sharp(input, options)
     .pipelineColourspace('srgb')
     .flatten({ background: '#0b1026' })
     .resize(width, height, { fit: 'fill' })

@@ -10,7 +10,7 @@
     "mutation": "stryker run",
     "prepare": "node tools/hooks/install.mjs",
     "build": "vite build",
-    "ingest:refresh": "node tools/ingest/refresh.mjs"
+    "ingest:refresh": "node tools/ingest/refresh.mjs && node tools/ingest/build-catalog.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
