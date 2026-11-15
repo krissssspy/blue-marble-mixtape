@@ -113,7 +113,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 ### Welcome, avatar, and tutorial
 
 - [ ] M4-17 The flow begins on Welcome and Up enters the avatar builder and signals the start gesture
-- [ ] M4-18 The Welcome framebuffer shows the cassette label, a single centred Earth, and the start prompt on an opaque panel
+- [x] M4-18 The Welcome framebuffer shows the cassette label, a single centred Earth, and the start prompt on an opaque panel
 - [ ] M4-19 The centre Earth turns deterministically while the cassette stays still
 - [ ] M4-20 The four avatar steps each offer six named choices and Left and Right cycle the current choices
 - [ ] M4-21 Up confirms an avatar step and Down goes back, with the last confirmation entering the tutorial
