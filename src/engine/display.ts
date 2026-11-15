@@ -11,3 +11,34 @@ export function writeFrameRgba(frame: Framebuffer, target: Uint8ClampedArray): v
     target.set(rgbaPalette[frame.pixels[pixel]], pixel * 4);
   }
 }
+
+export function createCanvasPresenter(canvas: HTMLCanvasElement, frame: Framebuffer) {
+  canvas.width = frame.width;
+  canvas.height = frame.height;
+  const context = canvas.getContext('2d');
+  if (!context) throw new Error('Could not get a 2D context for the game canvas.');
+
+  context.imageSmoothingEnabled = false;
+  canvas.style.imageRendering = 'pixelated';
+  canvas.style.position = 'absolute';
+  const image = context.createImageData(frame.width, frame.height);
+
+  return {
+    resize(hostWidth: number, hostHeight: number): void {
+      const scale = Math.max(
+        1,
+        Math.floor(Math.min(hostWidth / frame.width, hostHeight / frame.height)),
+      );
+      const width = frame.width * scale;
+      const height = frame.height * scale;
+      canvas.style.width = `${width}px`;
+      canvas.style.height = `${height}px`;
+      canvas.style.left = `${(hostWidth - width) / 2}px`;
+      canvas.style.top = `${(hostHeight - height) / 2}px`;
+    },
+    draw(): void {
+      writeFrameRgba(frame, image.data);
+      context.putImageData(image, 0, 0);
+    },
+  };
+}
