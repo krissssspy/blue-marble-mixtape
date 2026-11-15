@@ -96,7 +96,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-04 The 16-colour Dusk palette matches the ingest thumbnails and retains the five-tone backdrop ramp
 - [x] M4-05 Indexed frames expand to opaque RGBA in row order for canvas presentation
 - [x] M4-06 The canvas presents at a fitting integer scale with crisp pixels and letterboxes spare space
-- [ ] M4-07 A bitmap font draws 16-pixel-high uppercase letters, numbers, punctuation, and all four arrows
+- [x] M4-07 A bitmap font draws 16-pixel-high uppercase letters, numbers, punctuation, and all four arrows
 - [ ] M4-08 The engine's visible copy lives in one string table and stays within 18 characters per line and two lines per label
 
 ### Input, simulation, and camera

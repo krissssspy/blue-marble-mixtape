@@ -23,3 +23,4 @@ Append-only. Newest last.
 
 - 2026-11-14. The single processed-media upload disconnected repeatedly during Git transfer. M3-23a through M3-23t stage the same verified files in smaller commits. M3-23 publishes the complete catalog once all media are present.
 - 2026-11-14. Use `--ignoreStatic` for targeted mutation runs during iteration. At each phase boundary run the full test suite and full mutation run, including static mutants.
+- 2026-11-14. The owner asked to parallelise development and keep the full project scope even if it runs past midnight. Independent items use isolated worktrees with one writer per worktree. Each item keeps its own red, green, review, and commit on `feature/museum`.
