@@ -13,3 +13,10 @@ export const TOUCH_STRINGS = {
   yes: { arrow: '↑', label: 'Yes' },
   no: { arrow: '↓', label: 'No' },
 } as const;
+
+export const AVATAR_LABELS = {
+  skin: ['Light peach', 'Warm beige', 'Golden tan', 'Copper brown', 'Rich brown', 'Deep umber'],
+  hair: ['Short crop', 'Side part', 'Waves', 'Afro', 'Braids', 'Ponytail'],
+  outfit: ['Ocean blue', 'Forest green', 'Coral red', 'Sunflower yellow', 'Slate', 'Plum'],
+  headgear: ['No headgear', 'Baseball cap', 'Beanie', 'Sun hat', 'Headband', 'Explorer hat'],
+} as const;
