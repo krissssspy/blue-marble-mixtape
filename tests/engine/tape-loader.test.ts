@@ -35,11 +35,18 @@ function tapeVolume(frames: readonly Framebuffer[], region: PixelRegion, emptyFr
 
 describe('cassette tape loader', () => {
   it.each([
-    [0, 'ab566146da0004b6456ad30f693654e993c5024a46d5dbb1b4b06701f4dd1a20'],
-    [0.5, 'a65f9e909e48eaa941d270eeca9955314f02a17500fa2b2de3a342e472e6ddf6'],
-    [1, '206faf159c04392551d1ff435d77feca9603f2e07353c6ed587fd463a3fc918b'],
+    [0, '022c68cf09e5d1d9b4dc0e863510ea591a1f0588eb861cf1318e636c414b7ec3'],
+    [0.5, '38b1ca7e2b84e580dfae196f68b2eb663766fb33d0abe252bc22c73679bd638e'],
+    [1, '4b70285cb906d2ac60154090829db2796e423a7d01f82f807246a7818f48b137'],
   ] as const)('matches the indexed loader frame at %s progress', (progress, expected) => {
     expect(createHash('sha256').update(render(progress, 2).pixels).digest('hex')).toBe(expected);
+  });
+
+  it('lights the case from the top left and fills the inset progress track', () => {
+    const frame = render(0.5);
+    const at = (x: number, y: number) => frame.pixels[y * frame.width + x];
+    expect([at(180, 8), at(174, 28), at(305, 28), at(180, 73)]).toEqual([11, 11, 2, 2]);
+    expect([at(188, 69), at(239, 69), at(240, 69), at(291, 69)]).toEqual([10, 10, 3, 3]);
   });
 
   it.each([
