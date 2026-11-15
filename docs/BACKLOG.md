@@ -176,7 +176,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M5-19 `renderScore` is deterministic and keeps every sample within −1 to 1
 - [x] M5-20 The console bus reduces bit depth and sample rate to the chosen settings
 - [x] M5-21 The scheduler hands each event out exactly once as the clock advances through its lookahead window
-- [ ] M5-22 The player reports progress from 0 to 1 against the clock and reports no active events after stop
+- [x] M5-22 The player reports progress from 0 to 1 against the clock and reports no active events after stop
 - [ ] M5-23 `validateRecipe` accepts the lab's scans, sources, scales, voices, rhythms, and tempos, and rejects anything else
 - [ ] M5-24 `lineSweepScore` turns a feature pack and a recipe into a valid score whose event locations sweep left to right
 - [ ] M5-25 The browser player renders a score to an audio buffer and plays it through an injected audio context, starting only after a user gesture
