@@ -75,7 +75,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-23l Stage processed media batch 12 of 20 (4 artifacts, 14 files)
 - [x] M3-23m Stage processed media batch 13 of 20 (12 artifacts, 37 files)
 - [x] M3-23n Stage processed media batch 14 of 20 (16 artifacts, 50 files)
-- [ ] M3-23o Stage processed media batch 15 of 20 (14 artifacts, 44 files)
+- [x] M3-23o Stage processed media batch 15 of 20 (14 artifacts, 44 files)
 - [ ] M3-23p Stage processed media batch 16 of 20 (6 artifacts, 19 files)
 - [ ] M3-23q Stage processed media batch 17 of 20 (2 artifacts, 7 files)
 - [ ] M3-23r Stage processed media batch 18 of 20 (11 artifacts, 34 files)
