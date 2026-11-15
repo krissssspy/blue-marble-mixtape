@@ -15,7 +15,7 @@ import {
   createFramebuffer,
   type Framebuffer,
 } from '../../src/engine/framebuffer.js';
-import { DUSK_PALETTE } from '../../src/engine/palette.js';
+import { BACKDROP_RAMP, DUSK_PALETTE, FRAME_PALETTE } from '../../src/engine/palette.js';
 import { AVATAR_LABELS } from '../../src/strings.js';
 
 const backing = 15;
@@ -147,39 +147,51 @@ describe('avatar and explorer rendering', () => {
     }
   });
 
-  it('keeps each shirt distinct from the avatar preview backdrop', () => {
+  function legibleShades(shadowIndex: number, mainIndex: number, highlightIndex: number) {
+    const [shadow, main, highlight] = [shadowIndex, mainIndex, highlightIndex].map(
+      (index) => FRAME_PALETTE[index],
+    );
+    const darkest = BACKDROP_RAMP[0];
+    expect(contrastRatio(shadow, darkest)).toBeLessThan(contrastRatio(main, darkest));
+    expect(contrastRatio(main, darkest)).toBeLessThan(contrastRatio(highlight, darkest));
+    for (const shade of [shadow, main, highlight]) {
+      for (const backdrop of BACKDROP_RAMP) {
+        expect(contrastRatio(shade, backdrop)).toBeGreaterThanOrEqual(3);
+      }
+    }
+  }
+
+  it('renders six distinct shirts with legible highlights and shadows', () => {
     const shirts = new Set<number>();
     for (const [outfit] of AVATAR_LABELS.outfit.entries()) {
       const frame = preview({ ...DEFAULT_AVATAR, outfit }, 2);
       const shirt = frame.pixels[102 * frame.width + 60];
-      expect(contrastRatio(DUSK_PALETTE[shirt], DUSK_PALETTE[3])).toBeGreaterThanOrEqual(3);
-      for (const [x, y] of [
-        [42, 94],
-        [72, 94],
-        [42, 112],
-        [78, 112],
-      ]) {
-        expect(frame.pixels[y * frame.width + x]).toBe(shirt);
-      }
+      legibleShades(
+        frame.pixels[112 * frame.width + 42],
+        shirt,
+        frame.pixels[94 * frame.width + 42],
+      );
       shirts.add(shirt);
     }
     expect(shirts.size).toBe(6);
   });
 
-  it('keeps the trouser legs visible against the preview behind them', () => {
+  it('draws a legible highlight and shadow on both trouser legs', () => {
     const frame = preview(DEFAULT_AVATAR, 2);
-    const trouser = frame.pixels[125 * frame.width + 45];
-    expect(contrastRatio(DUSK_PALETTE[trouser], DUSK_PALETTE[3])).toBeGreaterThanOrEqual(3);
+    for (const left of [39, 69]) {
+      const row = 125 * frame.width + left;
+      legibleShades(frame.pixels[row + 12], frame.pixels[row + 6], frame.pixels[row]);
+    }
   });
 
   it.each(
     [
-      '5f3a9b683de8d3f9ecd4a214744ea87f5de5f56fab55442dc1ba09a44984e79f',
-      'ffb8876a482719af1210911653c982da1404faaf9d6378911e5fec20f2e6302d',
-      '7463885b41e269122261a7fba70b3563aba269f8b2f366872454b389260b1bbe',
-      'bf5032475c078573d3ab4d9fdaba474cdee9d7f59d496a02549be6de2efc5d3e',
-      '061e6b77657a3b55462e43b3cb37a73095d783a912288833ce3b87fe39df62d1',
-      'f927de87b80c09588dc63dce0f93a26f6c1ebb0ecc75aea4c0975b1e0fa0ddc3',
+      '7cda70f2877e0a1cfc64be636dc0bc60ffbac99e56056384a5263c39efb680ed',
+      '4bceb2b74d806fa8f186c65e5c8c112bb86a18c7a36ad85696217f110ac5e45d',
+      'be52c10583d8a74365d55a9f497ca8eb40bad2507ec12713bdb78b0a3b445af1',
+      'd6537e6754f9e1dd80fff853b4d962a67c2037e063617b5c13e91757d0bd0b34',
+      '0c52289b5ce59a54b94db37ae4d13e255c08cac973edafee6b7ee1a6df12c1b1',
+      '1cbc9ef5548f02fa834180e2b9ec4b137384f523f506d8fc58fa7ff5c9455b33',
     ].map((expected, choice) => ({ choice, expected })),
   )(
     'matches indexed frames for choice $choice across four avatar steps',

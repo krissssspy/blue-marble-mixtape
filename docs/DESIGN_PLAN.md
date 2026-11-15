@@ -192,7 +192,7 @@ Verified on 2026-11-14:
 
 **Look.** Original pixel art in the style of a 2D tile-based sandbox platformer: side view, 8×8 tiles, layered parallax, a distinct biome per room. The palette is Dusk: a dark navy backdrop, cream text, gold and coral accents. No assets, characters, names, or music from Terraria or any other game.
 
-**Rendering.** Internal resolution 320×180. A pure TypeScript indexed framebuffer (one byte per pixel, the 16-colour Dusk palette plus three avatar skin swatches) is the renderer's only output; a thin layer blits it to a `<canvas>` at an integer scale with `image-rendering: pixelated`. Because the framebuffer is plain data, every visual rule is testable in Node with golden frames.
+**Rendering.** Internal resolution 320×180. A pure TypeScript indexed framebuffer (one byte per pixel, the 16-colour Dusk palette plus dedicated avatar skin and garment swatches) is the renderer's only output; a thin layer blits it to a `<canvas>` at an integer scale with `image-rendering: pixelated`. Because the framebuffer is plain data, every visual rule is testable in Node with golden frames.
 
 **Simulation.** `step(state, actions, dt) → state` is a pure function with a fixed 60 Hz timestep. The explorer walks left and right along one continuous walkway per room; the walkway may rise and fall as ramps and steps, which the explorer follows automatically. There is no jumping, dropping, falling, gap, or enemy, and nothing a visitor can fail. Camera follow. No randomness without a seed.
 

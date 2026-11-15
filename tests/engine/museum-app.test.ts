@@ -118,10 +118,10 @@ describe('browser room layout', () => {
 
     drawRoom(frame, { ...common, left: lastView - 3, explorerX: room.width - 40 });
     expect([entrance, end, openExit, digest(frame)]).toEqual([
-      'f906f0e75c02b1ff800680533af96183a56f4243afe5c3eb9b340ccaa7aaed9d',
-      '8a4c1be0e7b69343c4f7b5a3d15f3c51ced53b6e2e2e8338a99228085593b62f',
+      '94cefa0c6f3c8213c0022fa81d5d760b4282a6ecf3826c54b47d89569ebf89b1',
+      '930cf8e1b79dc21d4a474ed1aa3ad2a863b85cd46314c485098010eded9504f5',
       'a59febbbfac83e926fe0dba33fdaa2273572ad9d4c4d26f5b40d139ead0503c5',
-      '6d12c4587bbf885f3c0084c0e861e27c50a659da02a9a02a826b5eeadaa465a3',
+      '0cba3b834ca17cbb4b51935c11a6062fbe4cbf6c08d31fb3e04e26ae039bb0eb',
     ]);
   });
 

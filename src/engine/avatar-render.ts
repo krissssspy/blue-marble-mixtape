@@ -2,7 +2,7 @@ import { AVATAR_COPY } from '../strings.js';
 import { AVATAR_STEPS, type AvatarSelection } from './avatar.js';
 import { drawText, measureTextWidth } from './font.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './framebuffer.js';
-import { AVATAR_SKIN_INDICES } from './palette.js';
+import { AVATAR_SHIRT_INDICES, AVATAR_SKIN_INDICES, AVATAR_TROUSER_INDICES } from './palette.js';
 
 const body = [
   '...ssssss...',
@@ -11,17 +11,17 @@ const body = [
   '..ssssssss..',
   '...ssssss...',
   '....ssss....',
-  '..oooooooo..',
+  '..OOoooooo..',
   '.oooooooooo.',
   '.soooooooos.',
-  '..oooooooo..',
+  '..ddoooodd..',
 ] as const;
 
 const legPoses = [
-  ['..ppp..ppp..', '..ppp..ppp..', '..ppp..ppp..', '.bbbb..bbbb.'],
-  ['..ppp..ppp..', '.ppp...ppp..', '.ppp....ppp.', 'bbbb....bbb.'],
-  ['..ppp..ppp..', '...pppppp...', '....ppppb...', '...bbbb.....'],
-  ['..ppp..ppp..', '..ppp...ppp.', '.ppp....ppp.', '.bbb....bbbb'],
+  ['..Ppq..Ppq..', '..Ppq..Ppq..', '..ppq..ppq..', '.bbbb..bbbb.'],
+  ['..Ppq..Ppq..', '.Ppq...Ppq..', '.Ppq....Ppq.', 'bbbb....bbb.'],
+  ['..Ppq..Ppq..', '...Pppppq...', '....Ppqpb...', '...bbbb.....'],
+  ['..Ppq..Ppq..', '..Ppq...Ppq.', '.Ppq....Ppq.', '.bbb....bbbb'],
 ] as const;
 
 export type ExplorerPose = 0 | 1 | 2 | 3;
@@ -32,8 +32,6 @@ export function walkPose(movingSteps: number, reducedMotion: boolean): ExplorerP
   if (movingSteps === 0 || reducedMotion) return 0;
   return walkCycle[Math.floor((movingSteps - 1) / stepsPerPose) % walkCycle.length];
 }
-
-const outfitColors = [11, 8, 7, 6, 12, 10] as const;
 
 const hairShapes = [
   ['...hhhhhh...', '..hhhhhhhh..', '..h......h..'],
@@ -82,11 +80,17 @@ export function drawExplorer(
   const left = Math.round(x) - 6 * scale;
   const bottom = Math.round(feetY);
   const legRows = legPoses[pose];
+  const [shirt, shirtShadow, shirtHighlight] = AVATAR_SHIRT_INDICES[appearance.outfit];
+  const [trousers, trouserShadow, trouserHighlight] = AVATAR_TROUSER_INDICES;
   const colors = {
     s: AVATAR_SKIN_INDICES[appearance.skin],
     e: 0,
-    o: outfitColors[appearance.outfit],
-    p: 12,
+    o: shirt,
+    d: shirtShadow,
+    O: shirtHighlight,
+    p: trousers,
+    q: trouserShadow,
+    P: trouserHighlight,
     b: 13,
   };
   paintSprite(frame, body, left, bottom - (body.length + legRows.length) * scale, scale, colors);
