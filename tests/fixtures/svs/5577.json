@@ -1,0 +1,251 @@
+{
+  "id": 5577,
+  "url": "http://svs.gsfc.nasa.gov/5577/",
+  "page_type": "Animation",
+  "title": "SDO Sun This Week",
+  "description": "This visualization shows SDO AIA-304 imagery from the past 7 days with a color table and image processing applied. Archive folders are provided in the Download menu.",
+  "release_date": "2025-11-20T09:00:00-05:00",
+  "update_date": "2026-08-28T13:17:24.723400-04:00",
+  "main_image": {
+    "id": 1159777,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005577/2025_11_11__10_04_09_342__SDO_AIA_AIA_171_thumb.jpg",
+    "filename": "2025_11_11__10_04_09_342__SDO_AIA_AIA_171_thumb.jpg",
+    "media_type": "Image",
+    "alt_text": "Video of the Sun from the SDO telescope.",
+    "width": 1080,
+    "height": 1080,
+    "pixels": 1166400
+  },
+  "main_video": {
+    "id": 1158734,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005577/STWrolling_24hr_2048p30.mp4",
+    "filename": "STWrolling_24hr_2048p30.mp4",
+    "media_type": "Movie",
+    "alt_text": "Video of the Sun from the SDO telescope.",
+    "width": 2048,
+    "height": 2048,
+    "pixels": 4194304
+  },
+  "main_credits": {
+    "Visualizations by": [{ "name": "AJ Christensen", "employer": "SSAI" }],
+    "Written by": [{ "name": "Miles S. Hatfield", "employer": "Telophase" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 378983,
+      "url": "http://svs.gsfc.nasa.gov/5577/#media_group_378983",
+      "widget": "Basic text",
+      "title": "",
+      "caption": "",
+      "description": "The Solar Dynamics Observatory, or SDO, orbits Earth in a geosynchronous path, providing a continuous view of the Sun. The instrument shown in this visualization observes ultraviolet light that is normally absorbed by Earth’s atmosphere, which is why these observations must be made from space.\r\n\r\nThese visualizations use the 171-angstrom filter of SDO’s Atmospheric Imaging Assembly, or AIA. This wavelength is particularly useful for studying the quiet corona and magnetic structures like coronal loops. You may also notice plasma eruptions, some of which are coronal mass ejections that can influence space weather. Bright flashes with X-shaped diffraction spikes are solar flares. Occasionally, a dark circle may cross the Sun’s face — an eclipse caused by Earth or the Moon.\r\n\r\nThis near-real-time visualization is updated daily.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 378909,
+      "url": "http://svs.gsfc.nasa.gov/5577/#media_group_378909",
+      "widget": "Video player",
+      "title": "Sun This Week",
+      "caption": "",
+      "description": "This visualization shows SDO imagery from the past 7 days with a color table and image processing applied. \r\n\r\nTwo archive folders are provided in the Download menu. One stores the week-long videos published each day during the past week, and the other stores all videos published on Fridays since the intialization of this webpage.",
+      "items": [
+        {
+          "id": 492138,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158451,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005577/STWrolling_2048p30.mp4",
+            "filename": "STWrolling_2048p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Video of the Sun from the SDO telescope.",
+            "width": 2048,
+            "height": 2048,
+            "pixels": 4194304
+          }
+        },
+        {
+          "id": 492139,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158452,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005577/frames/archived_versions/",
+            "filename": "archived_versions",
+            "media_type": "Frames",
+            "alt_text": "Video of the Sun from the SDO telescope.",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        },
+        {
+          "id": 492140,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158453,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005577/frames/archived_friday_versions/",
+            "filename": "archived_friday_versions",
+            "media_type": "Frames",
+            "alt_text": "Video of the Sun from the SDO telescope.",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        },
+        {
+          "id": 502506,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1159777,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005577/2025_11_11__10_04_09_342__SDO_AIA_AIA_171_thumb.jpg",
+            "filename": "2025_11_11__10_04_09_342__SDO_AIA_AIA_171_thumb.jpg",
+            "media_type": "Image",
+            "alt_text": "Video of the Sun from the SDO telescope.",
+            "width": 1080,
+            "height": 1080,
+            "pixels": 1166400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378972,
+      "url": "http://svs.gsfc.nasa.gov/5577/#media_group_378972",
+      "widget": "Video player",
+      "title": "Sun Today",
+      "caption": "",
+      "description": "This visualization shows SDO imagery from the past 24 hours with a color table and image processing applied. \r\n\r\nOne archive folder is provided in the Download menu. It stores the 24-hour videos published each day during the past week.",
+      "items": [
+        {
+          "id": 492687,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158734,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005577/STWrolling_24hr_2048p30.mp4",
+            "filename": "STWrolling_24hr_2048p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Video of the Sun from the SDO telescope.",
+            "width": 2048,
+            "height": 2048,
+            "pixels": 4194304
+          }
+        },
+        {
+          "id": 492688,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158735,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005577/frames/daily_archived_versions/",
+            "filename": "daily_archived_versions",
+            "media_type": "Frames",
+            "alt_text": "Video of the Sun from the SDO telescope.",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        },
+        {
+          "id": 502507,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1159777,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005577/2025_11_11__10_04_09_342__SDO_AIA_AIA_171_thumb.jpg",
+            "filename": "2025_11_11__10_04_09_342__SDO_AIA_AIA_171_thumb.jpg",
+            "media_type": "Image",
+            "alt_text": "Video of the Sun from the SDO telescope.",
+            "width": 1080,
+            "height": 1080,
+            "pixels": 1166400
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": [],
+  "credits": [
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "AJ Christensen", "employer": "SSAI" },
+        { "name": "Tom Bridgman", "employer": "Global Science and Technology, Inc." }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Kel Elkins", "employer": "USRA" },
+        { "name": "Alex Gurvich", "employer": "NASA/GSFC" }
+      ]
+    },
+    { "role": "Writer", "people": [{ "name": "Miles S. Hatfield", "employer": "Telophase" }] }
+  ],
+  "missions": ["SDO"],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "SDO",
+      "sensor": null,
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "http://sdo.gsfc.nasa.gov/",
+      "date_range": ""
+    }
+  ],
+  "nasa_science_categories": ["Sun"],
+  "keywords": [
+    "Automated",
+    "CME",
+    "Coronal Mass Ejections",
+    "SDO",
+    "Solar Active Regions",
+    "Solar Cycle",
+    "Solar Dynamics Observatory",
+    "Solar Filaments",
+    "Solar Flares",
+    "Solar Imagery",
+    "Solar Maximum",
+    "Solar Minimum",
+    "Solar Prominences",
+    "Solar Prominences/solar Filaments",
+    "Solar Wind",
+    "Space Weather",
+    "Sun"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

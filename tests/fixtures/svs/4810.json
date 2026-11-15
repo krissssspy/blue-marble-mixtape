@@ -1,0 +1,2268 @@
+{
+  "id": 4810,
+  "url": "http://svs.gsfc.nasa.gov/4810/",
+  "page_type": "Visualization",
+  "title": "Reductions in Pollution Associated with Decreased Fossil Fuel Use Resulting from COVID-19 Mitigation",
+  "description": "Over the past several weeks, the United States has seen significant reductions in air pollution over its major metropolitan areas. Similar reductions in air pollution have been observed in other regions of the world. || Tropospheric NO2 Column, Animated GIF || cropped_NO2_2019_2020.gif (848x862) [54.4 MB] || cropped_NO2_2019_2020_print.jpg (1024x1040) [318.2 KB] || cropped_NO2_2019_2020_searchweb.png (320x180) [102.2 KB] || ",
+  "release_date": "2020-04-24T00:00:00-04:00",
+  "update_date": "2025-01-19T22:42:34.297178-05:00",
+  "main_image": {
+    "id": 385773,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_print_print.jpg",
+    "filename": "2020_NO2_print_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, No Labels",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [{ "name": "Trent L. Schindler", "employer": "USRA" }],
+    "Scientific consulting by": [{ "name": "Bryan Duncan", "employer": "NASA/GSFC" }],
+    "Written by": [{ "name": "Bryan Duncan", "employer": "NASA/GSFC" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 320013,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320013",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Over the past several weeks, the United States has seen significant reductions in air pollution over its major metropolitan areas. Similar reductions in air pollution have been observed in other regions of the world. ",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 320015,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320015",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "These recent improvements in air quality have come at a high cost, as communities grapple with widespread lockdowns and shelter-in-place orders as a result of the spread of COVID-19. One air pollutant, nitrogen dioxide (NO2), is primarily emitted from burning fossil fuels (diesel, gasoline, coal), coming out of our tailpipes when driving cars and smokestacks when generating electricity. Therefore, changes in NO2 levels can be used as an indicator of changes in human activity. However, care must be taken when processing and interpreting satellite NO2 data as the quantity observed by the satellite is not exactly the same as the NO2 abundance at ground level. NO2 levels are influenced by dynamical and chemical processes in the atmosphere. For instance, atmospheric NO2 levels can vary day-to-day due to changes in the weather, which influences both the lifetime of NO2 molecules as well as the dispersal of the molecules by the wind. It is also important to note that satellites that observe NO2 cannot see through clouds, so all data shown is for days with low amounts of cloudiness. If processed and interpreted carefully, NO2 levels observed from space serve as an effective proxy for NO2 levels at Earth's surface.<br><br>NASA's air quality  group is also monitoring other air pollutants, such as sulfur dioxide (SO2).  Major anthropogenic activities that emit SO2 include electricity generation, oil and gas extraction, and metal smelting. SO2 is emitted during electricity generation if the coal burned has sulfur impurities that are not removed (or not “scrubbed”) from the plant’s exhaust stacks.<br><br>For more information on what pollutants NASA satellites observe, visit the <a href=\"https://airquality.gsfc.nasa.gov/\" target=\"_blank\">NASA Air Quality website</a>.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 320016,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320016",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, With Labels",
+      "items": [
+        {
+          "id": 228565,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385757,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_w_colorbar_date.jpg",
+            "filename": "avg2015-2019_NO2_w_colorbar_date.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, With Labels",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 228567,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385759,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print_w_colorbar_date_print.jpg",
+            "filename": "avg2015-2019_NO2_print_w_colorbar_date_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, With Labels",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 228566,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385755,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print_w_colorbar_date.jpg",
+            "filename": "avg2015-2019_NO2_print_w_colorbar_date.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, With Labels",
+            "width": 5760,
+            "height": 3240,
+            "pixels": 18662400
+          }
+        },
+        {
+          "id": 228568,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385758,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print_w_colorbar_date_searchweb.png",
+            "filename": "avg2015-2019_NO2_print_w_colorbar_date_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Over the past several weeks, the United States has seen significant reductions in air pollution over its major metropolitan areas. Similar reductions in air pollution have been observed in other regions of the world. These recent improvements in air quality have come at a high cost, as communities grapple with widespread lockdowns and shelter-in-place orders as a result of the spread of COVID-19. One air pollutant, nitrogen dioxide (NO2), is primarily emitted from burning fossil fuels (diesel, gasoline, coal), coming out of our tailpipes when driving cars and smokestacks when generating electricity. Therefore, changes in NO2 levels can be used as an indicator of changes in human activity. However, care must be taken when processing and interpreting satellite NO2 data as the quantity observed by the satellite is not exactly the same as the NO2 abundance at ground level. NO2 levels are influenced by dynamical and chemical processes in the atmosphere. For instance, atmospheric NO2 levels can vary day-to-day due to changes in the weather, which influences both the lifetime of NO2 molecules as well as the dispersal of the molecules by the wind. It is also important to note that satellites that observe NO2 cannot see through clouds, so all data shown is for days with low amounts of cloudiness. If processed and interpreted carefully, NO2 levels observed from space serve as an effective proxy for NO2 levels at Earth's surface.\n\nNASA's air quality  group is also monitoring other air pollutants, such as sulfur dioxide (SO2).  Major anthropogenic activities that emit SO2 include electricity generation, oil and gas extraction, and metal smelting. SO2 is emitted during electricity generation if the coal burned has sulfur impurities that are not removed (or not “scrubbed”) from the plant’s exhaust stacks.\n\nFor more information on what pollutants NASA satellites observe, visit the NASA Air Quality website.",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 228569,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385756,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print_w_colorbar_date_web.png",
+            "filename": "avg2015-2019_NO2_print_w_colorbar_date_web.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, With Labels",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 228570,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385754,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print_w_colorbar_date_thm.png",
+            "filename": "avg2015-2019_NO2_print_w_colorbar_date_thm.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, With Labels",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320017,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320017",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 2020, Northeast USA, With Labels",
+      "items": [
+        {
+          "id": 228572,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385761,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_w_colorbar_date.jpg",
+            "filename": "2020_NO2_w_colorbar_date.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, With Labels",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 228573,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385762,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_w_colorbar_date_print.jpg",
+            "filename": "2020_NO2_w_colorbar_date_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, With Labels",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 228571,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385760,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_print._w_colorbar_date.jpg",
+            "filename": "2020_NO2_print._w_colorbar_date.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, With Labels",
+            "width": 5760,
+            "height": 3240,
+            "pixels": 18662400
+          }
+        },
+        {
+          "id": 228574,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385763,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_w_colorbar_date_searchweb.png",
+            "filename": "2020_NO2_w_colorbar_date_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, With Labels",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 228575,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385764,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_w_colorbar_date_web.png",
+            "filename": "2020_NO2_w_colorbar_date_web.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, With Labels",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 228576,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385765,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_w_colorbar_date_thm.png",
+            "filename": "2020_NO2_w_colorbar_date_thm.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, With Labels",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320018,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320018",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, No Labels",
+      "items": [
+        {
+          "id": 228577,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385768,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2.jpg",
+            "filename": "avg2015-2019_NO2.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, No Labels",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 228579,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385767,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print_print.jpg",
+            "filename": "avg2015-2019_NO2_print_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, No Labels",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 228578,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385766,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print.jpg",
+            "filename": "avg2015-2019_NO2_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, No Labels",
+            "width": 5760,
+            "height": 3240,
+            "pixels": 18662400
+          }
+        },
+        {
+          "id": 228580,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385769,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print_searchweb.png",
+            "filename": "avg2015-2019_NO2_print_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, No Labels",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 228581,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385770,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print_web.png",
+            "filename": "avg2015-2019_NO2_print_web.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, No Labels",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 228582,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385771,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/avg2015-2019_NO2_print_thm.png",
+            "filename": "avg2015-2019_NO2_print_thm.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2015-2019 Average, Northeast USA, No Labels",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320019,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320019",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 2020, Northeast USA, No Labels",
+      "items": [
+        {
+          "id": 228584,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385777,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_final.jpg",
+            "filename": "2020_NO2_final.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, No Labels",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 228585,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385773,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_print_print.jpg",
+            "filename": "2020_NO2_print_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, No Labels",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 228583,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385772,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_print.jpg",
+            "filename": "2020_NO2_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, No Labels",
+            "width": 5760,
+            "height": 3240,
+            "pixels": 18662400
+          }
+        },
+        {
+          "id": 228586,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385774,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_print_searchweb.png",
+            "filename": "2020_NO2_print_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, No Labels",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 228587,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385775,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_print_web.png",
+            "filename": "2020_NO2_print_web.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, No Labels",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 228588,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385776,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/2020_NO2_print_thm.png",
+            "filename": "2020_NO2_print_thm.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 2020, Northeast USA, No Labels",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320020,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320020",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column Animation, With Total Mass Inset",
+      "items": [
+        {
+          "id": 228590,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385782,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/march_yearly_NO2.00001_print.jpg",
+            "filename": "march_yearly_NO2.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column Animation, With Total Mass Inset",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 228589,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385781,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/march_yearly_NO2.mp4",
+            "filename": "march_yearly_NO2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Tropospheric NO2 Column Animation, With Total Mass Inset",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 228591,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385783,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/march_yearly_NO2.webm",
+            "filename": "march_yearly_NO2.webm",
+            "media_type": "Movie",
+            "alt_text": "Tropospheric NO2 Column Animation, With Total Mass Inset",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320021,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320021",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbar, Quantitative",
+      "items": [
+        {
+          "id": 228592,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385784,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_NO2_2019_white_text.png",
+            "filename": "cbar_NO2_2019_white_text.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Quantitative",
+            "width": 2000,
+            "height": 500,
+            "pixels": 1000000
+          }
+        },
+        {
+          "id": 228593,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385785,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_NO2_2019_white_text_print.jpg",
+            "filename": "cbar_NO2_2019_white_text_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Quantitative",
+            "width": 1024,
+            "height": 256,
+            "pixels": 262144
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320022,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320022",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbar, Qualitative",
+      "items": [
+        {
+          "id": 228594,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385786,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_NO2_2019_public_white_text.png",
+            "filename": "cbar_NO2_2019_public_white_text.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Qualitative",
+            "width": 2000,
+            "height": 500,
+            "pixels": 1000000
+          }
+        },
+        {
+          "id": 228595,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385787,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_NO2_2019_public_white_text_print.jpg",
+            "filename": "cbar_NO2_2019_public_white_text_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Qualitative",
+            "width": 1024,
+            "height": 256,
+            "pixels": 262144
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320023,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320023",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Animated Gif -tropospheric NO2 from March 15-April 15 time series in southeastern US.",
+      "items": [
+        {
+          "id": 228596,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385788,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_USA_2020covid_cities.gif",
+            "filename": "SE_USA_2020covid_cities.gif",
+            "media_type": "Image",
+            "alt_text": "Animated Gif -tropospheric NO2 from March 15-April 15 time series in southeastern US.",
+            "width": 1024,
+            "height": 732,
+            "pixels": 749568
+          }
+        },
+        {
+          "id": 228597,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385789,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_USA_2020covid_cities_print.jpg",
+            "filename": "SE_USA_2020covid_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animated Gif -tropospheric NO2 from March 15-April 15 time series in southeastern US.",
+            "width": 1024,
+            "height": 732,
+            "pixels": 749568
+          }
+        },
+        {
+          "id": 228598,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385790,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_USA_2020covid_cities_searchweb.png",
+            "filename": "SE_USA_2020covid_cities_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Animated Gif -tropospheric NO2 from March 15-April 15 time series in southeastern US.",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320024,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320024",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Southeast USA, With Cities",
+      "items": [
+        {
+          "id": 228600,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385792,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2015_2019_w_cities_print.jpg",
+            "filename": "SE_image_2015_2019_w_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Southeast USA, With Cities",
+            "width": 1024,
+            "height": 732,
+            "pixels": 749568
+          }
+        },
+        {
+          "id": 228599,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385791,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2015_2019_w_cities.png",
+            "filename": "SE_image_2015_2019_w_cities.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Southeast USA, With Cities",
+            "width": 3020,
+            "height": 2160,
+            "pixels": 6523200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320025,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320025",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Southeast USA, With Cities",
+      "items": [
+        {
+          "id": 228602,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385794,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2020_w_cities_print.jpg",
+            "filename": "SE_image_2020_w_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Southeast USA, With Cities",
+            "width": 1024,
+            "height": 732,
+            "pixels": 749568
+          }
+        },
+        {
+          "id": 228601,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385793,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2020_w_cities.png",
+            "filename": "SE_image_2020_w_cities.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Southeast USA, With Cities",
+            "width": 3020,
+            "height": 2160,
+            "pixels": 6523200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320026,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320026",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Southeast USA, No Cities",
+      "items": [
+        {
+          "id": 228604,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385796,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2015_2019_no_cities_print.jpg",
+            "filename": "SE_image_2015_2019_no_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Southeast USA, No Cities",
+            "width": 1024,
+            "height": 732,
+            "pixels": 749568
+          }
+        },
+        {
+          "id": 228603,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385795,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2015_2019_no_cities.png",
+            "filename": "SE_image_2015_2019_no_cities.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Southeast USA, No Cities",
+            "width": 3020,
+            "height": 2160,
+            "pixels": 6523200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320027,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320027",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Southeast USA, No Cities",
+      "items": [
+        {
+          "id": 228606,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385798,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2020_no_cities_print.jpg",
+            "filename": "SE_image_2020_no_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Southeast USA, No Cities",
+            "width": 1024,
+            "height": 732,
+            "pixels": 749568
+          }
+        },
+        {
+          "id": 228605,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385797,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2020_no_cities.png",
+            "filename": "SE_image_2020_no_cities.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Southeast USA, No Cities",
+            "width": 3020,
+            "height": 2160,
+            "pixels": 6523200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320028,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320028",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Southeast USA, No Labels",
+      "items": [
+        {
+          "id": 228608,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385800,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2015_2019_no_labels_print.jpg",
+            "filename": "SE_image_2015_2019_no_labels_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Southeast USA, No Labels",
+            "width": 1024,
+            "height": 732,
+            "pixels": 749568
+          }
+        },
+        {
+          "id": 228607,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385799,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2015_2019_no_labels.png",
+            "filename": "SE_image_2015_2019_no_labels.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Southeast USA, No Labels",
+            "width": 3020,
+            "height": 2160,
+            "pixels": 6523200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320029,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320029",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Southeast USA, No Labels",
+      "items": [
+        {
+          "id": 228610,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385802,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2020_no_labels_print.jpg",
+            "filename": "SE_image_2020_no_labels_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Southeast USA, No Labels",
+            "width": 1024,
+            "height": 732,
+            "pixels": 749568
+          }
+        },
+        {
+          "id": 228609,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385801,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/SE_image_2020_no_labels.png",
+            "filename": "SE_image_2020_no_labels.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Southeast USA, No Labels",
+            "width": 3020,
+            "height": 2160,
+            "pixels": 6523200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320030,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320030",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Animated Gif -tropospheric NO2 from March 15-April 15 time series in the state of Florida",
+      "items": [
+        {
+          "id": 228611,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385803,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_covid_no2_cities.gif",
+            "filename": "florida_covid_no2_cities.gif",
+            "media_type": "Image",
+            "alt_text": "Animated Gif -tropospheric NO2 from March 15-April 15 time series in the state of Florida",
+            "width": 1024,
+            "height": 752,
+            "pixels": 770048
+          }
+        },
+        {
+          "id": 228612,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385804,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_covid_no2_cities_print.jpg",
+            "filename": "florida_covid_no2_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animated Gif -tropospheric NO2 from March 15-April 15 time series in the state of Florida",
+            "width": 1024,
+            "height": 752,
+            "pixels": 770048
+          }
+        },
+        {
+          "id": 228613,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385805,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_covid_no2_cities_searchweb.png",
+            "filename": "florida_covid_no2_cities_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Animated Gif -tropospheric NO2 from March 15-April 15 time series in the state of Florida",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320031,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320031",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Florida, With Cities",
+      "items": [
+        {
+          "id": 228615,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385807,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2015_2019_final_w_cities_print.jpg",
+            "filename": "florida_2015_2019_final_w_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Florida, With Cities",
+            "width": 1024,
+            "height": 752,
+            "pixels": 770048
+          }
+        },
+        {
+          "id": 228614,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385806,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2015_2019_final_w_cities.png",
+            "filename": "florida_2015_2019_final_w_cities.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Florida, With Cities",
+            "width": 2847,
+            "height": 2091,
+            "pixels": 5953077
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320032,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320032",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Florida, With Cities",
+      "items": [
+        {
+          "id": 228617,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385809,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2020_final_w_cities_print.jpg",
+            "filename": "florida_2020_final_w_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Florida, With Cities",
+            "width": 1024,
+            "height": 752,
+            "pixels": 770048
+          }
+        },
+        {
+          "id": 228616,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385808,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2020_final_w_cities.png",
+            "filename": "florida_2020_final_w_cities.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Florida, With Cities",
+            "width": 2847,
+            "height": 2091,
+            "pixels": 5953077
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320033,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320033",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Florida, No Cities",
+      "items": [
+        {
+          "id": 228619,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385811,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2015_2019_final_no_cities_print.jpg",
+            "filename": "florida_2015_2019_final_no_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Florida, No Cities",
+            "width": 1024,
+            "height": 752,
+            "pixels": 770048
+          }
+        },
+        {
+          "id": 228618,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385810,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2015_2019_final_no_cities.png",
+            "filename": "florida_2015_2019_final_no_cities.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Florida, No Cities",
+            "width": 2847,
+            "height": 2091,
+            "pixels": 5953077
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320034,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320034",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Florida, No Cities",
+      "items": [
+        {
+          "id": 228621,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385813,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2020_final_no_cities_print.jpg",
+            "filename": "florida_2020_final_no_cities_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Florida, No Cities",
+            "width": 1024,
+            "height": 752,
+            "pixels": 770048
+          }
+        },
+        {
+          "id": 228620,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385812,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2020_final_no_cities.png",
+            "filename": "florida_2020_final_no_cities.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Florida, No Cities",
+            "width": 2847,
+            "height": 2091,
+            "pixels": 5953077
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320035,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320035",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Florida, No Labels",
+      "items": [
+        {
+          "id": 228623,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385815,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2015_2019_final_no_labels_print.jpg",
+            "filename": "florida_2015_2019_final_no_labels_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Florida, No Labels",
+            "width": 1024,
+            "height": 752,
+            "pixels": 770048
+          }
+        },
+        {
+          "id": 228622,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385814,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2015_2019_final_no_labels.png",
+            "filename": "florida_2015_2019_final_no_labels.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 Average, Florida, No Labels",
+            "width": 2847,
+            "height": 2091,
+            "pixels": 5953077
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320036,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320036",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Florida, No Labels",
+      "items": [
+        {
+          "id": 228625,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385817,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2020_final_no_labels_print.jpg",
+            "filename": "florida_2020_final_no_labels_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Florida, No Labels",
+            "width": 1024,
+            "height": 752,
+            "pixels": 770048
+          }
+        },
+        {
+          "id": 228624,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385816,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/florida_2020_final_no_labels.png",
+            "filename": "florida_2020_final_no_labels.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 15-April 15 2020 Average, Florida, No Labels",
+            "width": 2847,
+            "height": 2091,
+            "pixels": 5953077
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320037,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320037",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbar, Range 0-5 x10^15 molecules/cm^2",
+      "items": [
+        {
+          "id": 228626,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385818,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_NO2_0-5.png",
+            "filename": "cbar_NO2_0-5.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Range 0-5 x10^15 molecules/cm^2",
+            "width": 2000,
+            "height": 500,
+            "pixels": 1000000
+          }
+        },
+        {
+          "id": 228627,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385819,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_NO2_0-5_print.jpg",
+            "filename": "cbar_NO2_0-5_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Range 0-5 x10^15 molecules/cm^2",
+            "width": 1024,
+            "height": 256,
+            "pixels": 262144
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320038,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320038",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Animated Gif of tropospheric NO2, March 25 -April 25 of Indian subcontinent.<p>On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19. ",
+      "items": [
+        {
+          "id": 228629,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385820,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/no2india.gif",
+            "filename": "no2india.gif",
+            "media_type": "Image",
+            "alt_text": "Animated Gif of tropospheric NO2, March 25 -April 25 of Indian subcontinent.On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19. ",
+            "width": 640,
+            "height": 539,
+            "pixels": 344960
+          }
+        },
+        {
+          "id": 228630,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385821,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/no2india_print.jpg",
+            "filename": "no2india_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animated Gif of tropospheric NO2, March 25 -April 25 of Indian subcontinent.On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19. ",
+            "width": 1024,
+            "height": 862,
+            "pixels": 882688
+          }
+        },
+        {
+          "id": 228628,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385822,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/no2india_searchweb.png",
+            "filename": "no2india_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Animated Gif of tropospheric NO2, March 25 -April 25 of Indian subcontinent.On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19.",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320039,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320039",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 25-April 25 2017-2019 Average, Indian Subcontinent, With Labels",
+      "items": [
+        {
+          "id": 228632,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385824,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_w_cities_2017_2019_print.jpg",
+            "filename": "india_w_cities_2017_2019_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2017-2019 Average, Indian Subcontinent, With Labels",
+            "width": 1024,
+            "height": 942,
+            "pixels": 964608
+          }
+        },
+        {
+          "id": 228631,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385823,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_w_cities_2017_2019.png",
+            "filename": "india_w_cities_2017_2019.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2017-2019 Average, Indian Subcontinent, With Labels",
+            "width": 2276,
+            "height": 2095,
+            "pixels": 4768220
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320040,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320040",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Indian Subcontinent, With Labels",
+      "items": [
+        {
+          "id": 228634,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385826,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_w_cities_2020_print.jpg",
+            "filename": "india_w_cities_2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Indian Subcontinent, With Labels",
+            "width": 1024,
+            "height": 942,
+            "pixels": 964608
+          }
+        },
+        {
+          "id": 228633,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385825,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_w_cities_2020.png",
+            "filename": "india_w_cities_2020.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Indian Subcontinent, With Labels",
+            "width": 2276,
+            "height": 2095,
+            "pixels": 4768220
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320041,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320041",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 25-April 25 2017-2019 Average, Indian Subcontinent, No Labels",
+      "items": [
+        {
+          "id": 228636,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385828,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_NO2_2017-2019_print.jpg",
+            "filename": "india_NO2_2017-2019_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2017-2019 Average, Indian Subcontinent, No Labels",
+            "width": 1024,
+            "height": 942,
+            "pixels": 964608
+          }
+        },
+        {
+          "id": 228635,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385827,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_NO2_2017-2019.png",
+            "filename": "india_NO2_2017-2019.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2017-2019 Average, Indian Subcontinent, No Labels",
+            "width": 2276,
+            "height": 2095,
+            "pixels": 4768220
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320042,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320042",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Indian Subcontinent, No Labels",
+      "items": [
+        {
+          "id": 228638,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385830,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_NO2_2020_print.jpg",
+            "filename": "india_NO2_2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Indian Subcontinent, No Labels",
+            "width": 1024,
+            "height": 942,
+            "pixels": 964608
+          }
+        },
+        {
+          "id": 228637,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385829,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_NO2_2020.png",
+            "filename": "india_NO2_2020.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Indian Subcontinent, No Labels",
+            "width": 2276,
+            "height": 2095,
+            "pixels": 4768220
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320043,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320043",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Animated Gif - Tropospheric SO2 Column, March 25-April 25 time series of Indian Subcontinent. On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19.",
+      "items": [
+        {
+          "id": 228640,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385831,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/indiaSO2.gif",
+            "filename": "indiaSO2.gif",
+            "media_type": "Image",
+            "alt_text": "Animated Gif - Tropospheric SO2 Column, March 25-April 25 time series of Indian Subcontinent. On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19.",
+            "width": 813,
+            "height": 635,
+            "pixels": 516255
+          }
+        },
+        {
+          "id": 228641,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385832,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/indiaSO2_print.jpg",
+            "filename": "indiaSO2_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animated Gif - Tropospheric SO2 Column, March 25-April 25 time series of Indian Subcontinent. On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19.",
+            "width": 1024,
+            "height": 799,
+            "pixels": 818176
+          }
+        },
+        {
+          "id": 228639,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385833,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/indiaSO2_searchweb.png",
+            "filename": "indiaSO2_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Animated Gif - Tropospheric SO2 Column, March 25-April 25 time series of Indian Subcontinent. On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19.",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320044,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320044",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric SO2 Column, March 25-April 25 2017-2019 Average, Indian Subcontinent, With Labels",
+      "items": [
+        {
+          "id": 228643,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385835,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_SO2_2017_2019_print.jpg",
+            "filename": "india_SO2_2017_2019_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric SO2 Column, March 25-April 25 2017-2019 Average, Indian Subcontinent, With Labels",
+            "width": 1024,
+            "height": 942,
+            "pixels": 964608
+          }
+        },
+        {
+          "id": 228642,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385834,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_SO2_2017_2019.png",
+            "filename": "india_SO2_2017_2019.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric SO2 Column, March 25-April 25 2017-2019 Average, Indian Subcontinent, With Labels",
+            "width": 2276,
+            "height": 2095,
+            "pixels": 4768220
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320045,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320045",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric SO2 Column, March 25-April 25 2020 Average, Indian Subcontinent, With Labels.  On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19. As a consequence, less fossil fuels are being consumed and, subsequently, there is less air pollution in India and in neighboring countries, including Pakistan, Nepal, Bangladesh, and Sri Lanka.",
+      "items": [
+        {
+          "id": 228645,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385837,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_SO2_2020_print.jpg",
+            "filename": "india_SO2_2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric SO2 Column, March 25-April 25 2020 Average, Indian Subcontinent, With Labels.  On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19. As a consequence, less fossil fuels are being consumed and, subsequently, there is less air pollution in India and in neighboring countries, including Pakistan, Nepal, Bangladesh, and Sri Lanka.",
+            "width": 1024,
+            "height": 942,
+            "pixels": 964608
+          }
+        },
+        {
+          "id": 228644,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385836,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/india_SO2_2020.png",
+            "filename": "india_SO2_2020.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric SO2 Column, March 25-April 25 2020 Average, Indian Subcontinent, With Labels.  On March 24, 2020, Prime Minister Modi ordered a nationwide stay-at-home order for India’s 1.3 billion citizens in an attempt to slow the spread of COVID-19. As a consequence, less fossil fuels are being consumed and, subsequently, there is less air pollution in India and in neighboring countries, including Pakistan, Nepal, Bangladesh, and Sri Lanka.",
+            "width": 2276,
+            "height": 2095,
+            "pixels": 4768220
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320046,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320046",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbar, Range 0-1 Dobson Units",
+      "items": [
+        {
+          "id": 228646,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385838,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_SO2_india.png",
+            "filename": "cbar_SO2_india.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Range 0-1 Dobson Units",
+            "width": 1648,
+            "height": 456,
+            "pixels": 751488
+          }
+        },
+        {
+          "id": 228647,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385839,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_SO2_india_print.jpg",
+            "filename": "cbar_SO2_india_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Range 0-1 Dobson Units",
+            "width": 1024,
+            "height": 283,
+            "pixels": 289792
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320047,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320047",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Animated Gif -tropospheric NO2 from March 25-April 25 time series in southwestern US.",
+      "items": [
+        {
+          "id": 228649,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385840,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/no2-LA.gif",
+            "filename": "no2-LA.gif",
+            "media_type": "Image",
+            "alt_text": "Animated Gif -tropospheric NO2 from March 25-April 25 time series in southwestern US.",
+            "width": 640,
+            "height": 342,
+            "pixels": 218880
+          }
+        },
+        {
+          "id": 228650,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385841,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/no2-LA_print.jpg",
+            "filename": "no2-LA_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animated Gif -tropospheric NO2 from March 25-April 25 time series in southwestern US.",
+            "width": 1024,
+            "height": 547,
+            "pixels": 560128
+          }
+        },
+        {
+          "id": 228648,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385842,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/no2-LA_searchweb.png",
+            "filename": "no2-LA_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Animated Gif -tropospheric NO2 from March 25-April 25 time series in southwestern US.",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320048,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320048",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 25-April 25 2015-2019 Average, Southwest USA, With Labels",
+      "items": [
+        {
+          "id": 228652,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385844,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/los_angeles_w_cities_2015_2019_print.jpg",
+            "filename": "los_angeles_w_cities_2015_2019_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2015-2019 Average, Southwest USA, With Labels",
+            "width": 1024,
+            "height": 700,
+            "pixels": 716800
+          }
+        },
+        {
+          "id": 228651,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385843,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/los_angeles_w_cities_2015_2019.png",
+            "filename": "los_angeles_w_cities_2015_2019.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2015-2019 Average, Southwest USA, With Labels",
+            "width": 3156,
+            "height": 2160,
+            "pixels": 6816960
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320049,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320049",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Southwest USA, With Labels",
+      "items": [
+        {
+          "id": 228654,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385846,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/los_angeles_w_cities_2020_print.jpg",
+            "filename": "los_angeles_w_cities_2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Southwest USA, With Labels",
+            "width": 1024,
+            "height": 700,
+            "pixels": 716800
+          }
+        },
+        {
+          "id": 228653,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385845,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/los_angeles_w_cities_2020.png",
+            "filename": "los_angeles_w_cities_2020.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Southwest USA, With Labels",
+            "width": 3156,
+            "height": 2160,
+            "pixels": 6816960
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320050,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320050",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 25-April 25 2015-2019 Average, Southwest USA, No Labels",
+      "items": [
+        {
+          "id": 228656,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385848,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/los_angeles_no_labels_2015_2019_print.jpg",
+            "filename": "los_angeles_no_labels_2015_2019_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2015-2019 Average, Southwest USA, No Labels",
+            "width": 1024,
+            "height": 700,
+            "pixels": 716800
+          }
+        },
+        {
+          "id": 228655,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385847,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/los_angeles_no_labels_2015_2019.png",
+            "filename": "los_angeles_no_labels_2015_2019.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2015-2019 Average, Southwest USA, No Labels",
+            "width": 3156,
+            "height": 2160,
+            "pixels": 6816960
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320051,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320051",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Southwest USA, No Labels",
+      "items": [
+        {
+          "id": 228658,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385850,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/los_angeles_no_labels_2020_print.jpg",
+            "filename": "los_angeles_no_labels_2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Southwest USA, No Labels",
+            "width": 1024,
+            "height": 700,
+            "pixels": 716800
+          }
+        },
+        {
+          "id": 228657,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385849,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/los_angeles_no_labels_2020.png",
+            "filename": "los_angeles_no_labels_2020.png",
+            "media_type": "Image",
+            "alt_text": "Tropospheric NO2 Column, March 25-April 25 2020 Average, Southwest USA, No Labels",
+            "width": 3156,
+            "height": 2160,
+            "pixels": 6816960
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 320052,
+      "url": "http://svs.gsfc.nasa.gov/4810/#media_group_320052",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbar, Range 0-12 x10^15 molecules/cm^2",
+      "items": [
+        {
+          "id": 228659,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385851,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_NO2_2019_white_text_extended.png",
+            "filename": "cbar_NO2_2019_white_text_extended.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Range 0-12 x10^15 molecules/cm^2",
+            "width": 2000,
+            "height": 500,
+            "pixels": 1000000
+          }
+        },
+        {
+          "id": 228660,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 385852,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004810/cbar_NO2_2019_white_text_extended_print.jpg",
+            "filename": "cbar_NO2_2019_white_text_extended_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Range 0-12 x10^15 molecules/cm^2",
+            "width": 1024,
+            "height": 256,
+            "pixels": 262144
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Visualizer", "people": [{ "name": "Trent L. Schindler", "employer": "USRA" }] },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Bryan Duncan", "employer": "NASA/GSFC" },
+        { "name": "Joanna Joiner", "employer": "NASA/GSFC" },
+        { "name": "Lok Lamsal", "employer": "USRA" }
+      ]
+    },
+    { "role": "Writer", "people": [{ "name": "Bryan Duncan", "employer": "NASA/GSFC" }] },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." },
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "Aura",
+      "sensor": "OMI",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "Ozone",
+      "common_name": "",
+      "platform": "Aura",
+      "sensor": "OMI",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "Blue Marble: Next Generation",
+      "common_name": "BMNG",
+      "platform": "Terra and Aqua",
+      "sensor": "MODIS",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "The Blue Marble data is courtesy of Reto Stockli (NASA/GSFC).",
+      "url": "http://earthobservatory.nasa.gov/Newsroom/BlueMarble/",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "air quality",
+    "Atmosphere",
+    "Atmospheric Chemistry/Nitrogen Compounds",
+    "Atmospheric science",
+    "Aura",
+    "Earth Science",
+    "Environmental science",
+    "Hyperwall",
+    "nitrogen",
+    "Nitrogen Dioxide",
+    "Nitrogen Oxides"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 31225,
+      "url": "http://svs.gsfc.nasa.gov/31225/",
+      "page_type": "Hyperwall Visual",
+      "title": "Pandemic Before And After: Northeast US 2015-2019 Versus 2020",
+      "description": "Pandemic Before And After: Northeast US 2015-2019 Versus 2020 || NO2_USCities_00000_print.jpg (1024x576) [175.6 KB] || NO2_USCities_00000_searchweb.png (320x180) [84.7 KB] || NO2_USCities_00000_thm.png (80x40) [5.7 KB] || NO2_USCities_1080p29.97.mp4 (1920x1080) [28.4 MB] || NO2_USCities_1080p29.97.webm (1920x1080) [7.1 MB] || 3840x2160_16x9_30p (3840x2160) [0 Item(s)] || NO2_USCities_2160p29.97.mp4 (3840x2160) [72.5 MB] || ",
+      "release_date": "2023-05-01T00:00:00-04:00",
+      "update_date": "2025-02-03T00:53:21.529827-05:00",
+      "main_image": {
+        "id": 855004,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031200/a031225/NO2_USCities_00000_print.jpg",
+        "filename": "NO2_USCities_00000_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Pandemic Before And After: Northeast US 2015-2019 Versus 2020",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4912,
+      "url": "http://svs.gsfc.nasa.gov/4912/",
+      "page_type": "Visualization",
+      "title": "Global Tropospheric Ozone Response to Worldwide COVID-19 Lockdowns",
+      "description": "Free tropospheric ozone anomaly at 500 hPa || covid_ozone_z9_500hPa.00900_print.jpg (1024x576) [141.7 KB] || covid_ozone_z9_500hPa.00900_searchweb.png (320x180) [74.2 KB] || covid_ozone_z9_500hPa.00900_thm.png (80x40) [6.6 KB] || covid_ozone_z9_500hPa.mp4 (1920x1080) [87.1 MB] || covid_ozone_z9_500hPa.webm (1920x1080) [5.4 MB] || covid_ozone_z9_500hPa.mp4.hwshow [214 bytes] || ",
+      "release_date": "2021-06-09T12:30:00-04:00",
+      "update_date": "2025-01-05T00:13:22.561219-05:00",
+      "main_image": {
+        "id": 378254,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004912/covid_ozone_z9_500hPa.00900_print.jpg",
+        "filename": "covid_ozone_z9_500hPa.00900_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Free tropospheric ozone anomaly at 500 hPa",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "id": 13814,
+      "url": "http://svs.gsfc.nasa.gov/13814/",
+      "page_type": "Produced Video",
+      "title": "SVS Demo Reel 2020",
+      "description": "This is the SVS Demo Reel submitted to SIGGRAPH 2021.Coming soon to our YouTube channel. || SVS_2020.File.1080p.00250_print.jpg (1024x576) [129.8 KB] || SVS_2020.File.1080p.00250_thm.png (80x40) [3.1 KB] || SVS_2020.File.1080p.00250_searchweb.png (320x180) [60.0 KB] || SVS_2020.File.1080p.mp4 (1920x1080) [367.7 MB] || captions_silent.30842.en_US.srt [42 bytes] || SVS_2020.File.720p.mp4 (720x404) [62.6 MB] || SVS_2020.file.2160pp.mp4 (3840x2160) [1.4 GB] || SVS_2020.file.2160pp.webm (3840x2160) [78.3 MB] || ",
+      "release_date": "2021-02-18T00:00:00-05:00",
+      "update_date": "2023-05-03T13:44:20.561761-04:00",
+      "main_image": {
+        "id": 379755,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013800/a013814/SVS_2020.File.1080p.00250_print.jpg",
+        "filename": "SVS_2020.File.1080p.00250_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This is the SVS Demo Reel submitted to SIGGRAPH 2021.Coming soon to our YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 13753,
+      "url": "http://svs.gsfc.nasa.gov/13753/",
+      "page_type": "Produced Video",
+      "title": "NASA Studies How COVID-19 Shutdowns Affect Emissions",
+      "description": "Music: \"Lab Analysis\" from Universal Production MusicComplete transcript available.Coming soon to our YouTube channel. || Screen_Shot_2020-11-13_at_1.08.17_PM_print.jpg (1024x572) [164.1 KB] || Screen_Shot_2020-11-13_at_1.08.17_PM.png (3568x1994) [6.4 MB] || Screen_Shot_2020-11-13_at_1.08.17_PM_searchweb.png (320x180) [85.1 KB] || Screen_Shot_2020-11-13_at_1.08.17_PM_thm.png (80x40) [9.8 KB] || NASA_Studies_How_COVID-19_Shutdowns_Affect_Emissions.mp4 (1920x1080) [442.5 MB] || NASA_Studies_How_COVID-19_Shutdowns_Affect_Emissions.webm (1920x1080) [25.9 MB] || COVIDNO2.en_US.srt [4.4 KB] || COVIDNO2.en_US.vtt [4.4 KB] || ",
+      "release_date": "2020-11-17T11:00:00-05:00",
+      "update_date": "2023-05-03T13:44:29.159092-04:00",
+      "main_image": {
+        "id": 381398,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013700/a013753/Screen_Shot_2020-11-13_at_1.08.17_PM_print.jpg",
+        "filename": "Screen_Shot_2020-11-13_at_1.08.17_PM_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Music: \"Lab Analysis\" from Universal Production MusicComplete transcript available.Coming soon to our YouTube channel.",
+        "width": 1024,
+        "height": 572,
+        "pixels": 585728
+      }
+    },
+    {
+      "id": 31142,
+      "url": "http://svs.gsfc.nasa.gov/31142/",
+      "page_type": "Hyperwall Visual",
+      "title": "COVID-19: NASA Satellite Data Show Drop in Air Pollution Over U.S.",
+      "description": "Tropospheric NO2 Column, March 15-April 15 2015-2019 average vs. 2020, USA regions || 3-regions_1080p.00001_print.jpg (1024x576) [141.7 KB] || 3-regions_1080p.00001_searchweb.png (320x180) [62.9 KB] || 3-regions_1080p.00001_thm.png (80x40) [5.2 KB] || 3-regions_1080p.mp4 (1920x1080) [1.9 MB] || 3-regions_720p.mp4 (1280x720) [1.0 MB] || 3-regions_1080p.webm (1920x1080) [2.3 MB] || 3-regions_2160p.mp4 (3840x2160) [5.6 MB] || ",
+      "release_date": "2020-05-18T00:00:00-04:00",
+      "update_date": "2024-11-12T12:00:33.545609-05:00",
+      "main_image": {
+        "id": 384989,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031142/3-regions_1080p.00001_print.jpg",
+        "filename": "3-regions_1080p.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Tropospheric NO2 Column, March 15-April 15 2015-2019 average vs. 2020, USA regions",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

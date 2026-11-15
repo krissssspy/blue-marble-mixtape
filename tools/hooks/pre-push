@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+import { readFileSync } from 'node:fs';
+
+for (const update of readFileSync(0, 'utf8').split('\n')) {
+  const [, , remoteRef] = update.split(' ', 3);
+  if (remoteRef === 'refs/heads/main' || remoteRef === 'refs/heads/master') {
+    console.error(`Pushes to ${remoteRef} are blocked. Push to a feature branch instead.`);
+    process.exitCode = 1;
+    break;
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "id": 4968,
+  "url": "http://svs.gsfc.nasa.gov/4968/",
+  "page_type": "Visualization",
+  "title": "Iowa Cropland 2001-2020",
+  "description": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020. || IowaCrops_2022-02-17_1606.01240_print.jpg (1024x576) [479.4 KB] || IowaCrops_2022-02-17_1606.01240_searchweb.png (320x180) [124.0 KB] || IowaCrops_2022-02-17_1606.01240_web.png (320x180) [124.0 KB] || IowaCrops_2022-02-17_1606.01240_thm.png (80x40) [7.7 KB] || IowaCrops_2022-02-17_1606_1080p30.webm (1920x1080) [12.7 MB] || IowaCrops_2022-02-17_1606_1080p30.mp4 (1920x1080) [267.3 MB] || main (3840x2160) [0 Item(s)] || IowaCrops_2022-02-17_1606.mp4 (3840x2160) [491.4 MB] || IowaCrops_2022-02-17_1606_1080p30.mp4.hwshow [199 bytes] || ",
+  "release_date": "2022-03-09T09:00:00-05:00",
+  "update_date": "2025-03-10T00:11:27.037402-04:00",
+  "main_image": {
+    "id": 372850,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_2022-02-17_1606.01240_print.jpg",
+    "filename": "IowaCrops_2022-02-17_1606.01240_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [{ "name": "Mark SubbaRao", "employer": "NASA/GSFC" }],
+    "Scientific consulting by": [{ "name": "Alex C. Ruane", "employer": "NASA/GISS" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 315151,
+      "url": "http://svs.gsfc.nasa.gov/4968/#media_group_315151",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+      "items": [
+        {
+          "id": 213946,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372850,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_2022-02-17_1606.01240_print.jpg",
+            "filename": "IowaCrops_2022-02-17_1606.01240_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 213947,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372851,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_2022-02-17_1606.01240_searchweb.png",
+            "filename": "IowaCrops_2022-02-17_1606.01240_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 213948,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372853,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_2022-02-17_1606.01240_web.png",
+            "filename": "IowaCrops_2022-02-17_1606.01240_web.png",
+            "media_type": "Image",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 213949,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372854,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_2022-02-17_1606.01240_thm.png",
+            "filename": "IowaCrops_2022-02-17_1606.01240_thm.png",
+            "media_type": "Image",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 213950,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372855,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_2022-02-17_1606_1080p30.webm",
+            "filename": "IowaCrops_2022-02-17_1606_1080p30.webm",
+            "media_type": "Movie",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 213945,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372849,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_2022-02-17_1606_1080p30.mp4",
+            "filename": "IowaCrops_2022-02-17_1606_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 213951,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372856,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/frames/3840x2160_16x9_30p/main/",
+            "filename": "main",
+            "media_type": "Frames",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 213944,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372852,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_2022-02-17_1606.mp4",
+            "filename": "IowaCrops_2022-02-17_1606.mp4",
+            "media_type": "Movie",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 454812,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1099379,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_2022-02-17_1606_1080p30.mp4.hwshow",
+            "filename": "IowaCrops_2022-02-17_1606_1080p30.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 315152,
+      "url": "http://svs.gsfc.nasa.gov/4968/#media_group_315152",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "This visualization shows simulated corn and soybean yields in Iowa between 2001-2020. NASA builds detailed high resolution crop models to understand how the production of commodity crops like corn and soybean responds to weather, soil type, soil conditions, farm management and cultivar traits. These models use information about farm management on a county level and soils down to a 30 meter resolution, with verification against crop yields reported by the USDA.<br><br>Climate variability produces significant variation in year-to-yield yields and even within a given field. 2012 was a year of severe drought. Also apparent in the visualization are the patterns of crop rotation and the effects of soil quality. The large, state-wide scale linear features seen in the map are due to county-level assumptions of planting date and cultivar selection. Model results help farmers plan to be more resilient against drought conditions (such as 2012) and provide a framework for integration with remote sensing for a variety of decision support tools.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 315153,
+      "url": "http://svs.gsfc.nasa.gov/4968/#media_group_315153",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Modeled Iowa corn (yellow) and soybean (green) yields in 2020.",
+      "items": [
+        {
+          "id": 213953,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372858,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_Zoomonly_2022-03-02_1416.00001_print.jpg",
+            "filename": "IowaCrops_Zoomonly_2022-03-02_1416.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields in 2020.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 213954,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372859,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_Zoomonly_2022-03-02_1416.webm",
+            "filename": "IowaCrops_Zoomonly_2022-03-02_1416.webm",
+            "media_type": "Movie",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields in 2020.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 213955,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372860,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/frames/3840x2160_16x9_30p/zoomOnly/",
+            "filename": "zoomOnly",
+            "media_type": "Frames",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields in 2020.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 213952,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372857,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_Zoomonly_2022-03-02_1416.mp4",
+            "filename": "IowaCrops_Zoomonly_2022-03-02_1416.mp4",
+            "media_type": "Movie",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields in 2020.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 315154,
+      "url": "http://svs.gsfc.nasa.gov/4968/#media_group_315154",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020. Full state view - no zoom in",
+      "items": [
+        {
+          "id": 213957,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372862,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_YearsOnly_2022-03-02_2232.00001_print.jpg",
+            "filename": "IowaCrops_YearsOnly_2022-03-02_2232.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020. Full state view - no zoom in",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 213956,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372861,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_YearsOnly_2022-03-02_2232.mp4",
+            "filename": "IowaCrops_YearsOnly_2022-03-02_2232.mp4",
+            "media_type": "Movie",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020. Full state view - no zoom in",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 213958,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372863,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/IowaCrops_YearsOnly_2022-03-02_2232.webm",
+            "filename": "IowaCrops_YearsOnly_2022-03-02_2232.webm",
+            "media_type": "Movie",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020. Full state view - no zoom in",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 213959,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 372864,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004968/frames/3840x2160_16x9_30p/yearsOnly/",
+            "filename": "yearsOnly",
+            "media_type": "Frames",
+            "alt_text": "Modeled Iowa corn (yellow) and soybean (green) yields from 2001-2020. Full state view - no zoom in",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Visualizer", "people": [{ "name": "Mark SubbaRao", "employer": "NASA/GSFC" }] },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Alex C. Ruane", "employer": "NASA/GISS" },
+        { "name": "Luke Monhollon", "employer": "SciSpace/NASA GISS" }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." },
+        { "name": "Eric Sokolowsky", "employer": "Global Science and Technology, Inc." }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Agricultural science",
+    "Agriculture",
+    "Biosphere",
+    "Earth Science",
+    "Hyperwall",
+    "Iowa",
+    "Location"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

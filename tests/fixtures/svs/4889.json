@@ -1,0 +1,494 @@
+{
+  "id": 4889,
+  "url": "http://svs.gsfc.nasa.gov/4889/",
+  "page_type": "Visualization",
+  "title": "Variability of Water Storage in Global Hydrological Basins",
+  "description": "Variability of Water Level || figure_2.00001_print.jpg (1024x576) [92.0 KB] || figure_2.00001_searchweb.png (320x180) [46.0 KB] || figure_2.00001_thm.png (80x40) [4.7 KB] || figure_2.mp4 (1920x1080) [82.9 MB] || figure_2.webm (1920x1080) [5.1 MB] || figure_2.mp4.hwshow [174 bytes] || ",
+  "release_date": "2021-03-03T14:00:00-05:00",
+  "update_date": "2025-01-06T00:18:46.960639-05:00",
+  "main_image": {
+    "id": 379640,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_2.00001_print.jpg",
+    "filename": "figure_2.00001_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Variability of Water Level",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [{ "name": "Trent L. Schindler", "employer": "USRA" }],
+    "Scientific consulting by": [{ "name": "Sarah Cooley", "employer": "Stanford University" }],
+    "Produced by": [{ "name": "Ryan Fitzgibbons", "employer": "USRA" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 317904,
+      "url": "http://svs.gsfc.nasa.gov/4889/#media_group_317904",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Variability of Water Level",
+      "items": [
+        {
+          "id": 222532,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379640,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_2.00001_print.jpg",
+            "filename": "figure_2.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Variability of Water Level",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 222533,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379641,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_2.00001_searchweb.png",
+            "filename": "figure_2.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Variability of Water Level",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 222534,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379637,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_2.00001_thm.png",
+            "filename": "figure_2.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "Variability of Water Level",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 222531,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379639,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_2.mp4",
+            "filename": "figure_2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Variability of Water Level",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 222535,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379638,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_2.webm",
+            "filename": "figure_2.webm",
+            "media_type": "Movie",
+            "alt_text": "Variability of Water Level",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 435724,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1098101,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_2.mp4.hwshow",
+            "filename": "figure_2.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317903,
+      "url": "http://svs.gsfc.nasa.gov/4889/#media_group_317903",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Knowing the extent of human influence on the global hydrological cycle is essential for the sustainability of freshwater resources on Earth. However, a lack of water level observations for the world’s ponds, lakes, and reservoirs has limited quantification of reservoir (human-managed) versus natural changes to surface water storage. In this study, scientists used data from NASA's ICESat-2 satellite laser altimeter to quantify global variability in water level over 227,386 water bodies from October 2018 to July 2020. <br><br>By combining this dataset with a global database of human-managed reservoirs, the study found that 57% of seasonal water storage variability occurs in human-managed reservoirs. Global maps of the results organized by hydrologic basin reveal that natural variability in surface water level is greatest in tropical basins like the Amazon and the Congo and lowest in northern and Arctic areas such as Northern Canada and Alaska. In contrast, human-management of surface water storage in arid and semi-arid regions like the Western US, Middle East, Southern Africa and Australia, where human influence drives nearly 100% of seasonal storage variability. Overall, the finding that humans are responsible for the majority of seasonal surface water storage variability shows that we are now a key regulator of the water cycle.  <br><br>As economic development, population growth, and climate change continue to pressure global water resources in the future, measurements from satellites like ICESat-2 will continue to provide vital information about how humans are managing freshwater resources worldwide.<br><br>This animation uses data from the study to visualize two quantities: the variability of water level, and the variability of the percent of water storage from man-made reservoirs.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 317905,
+      "url": "http://svs.gsfc.nasa.gov/4889/#media_group_317905",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Storage Variability Attributed to Reservoirs",
+      "items": [
+        {
+          "id": 222537,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379642,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_3.00001_print.jpg",
+            "filename": "figure_3.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Storage Variability Attributed to Reservoirs",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 222538,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379643,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_3.00001_searchweb.png",
+            "filename": "figure_3.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Storage Variability Attributed to Reservoirs",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 222539,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379644,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_3.00001_thm.png",
+            "filename": "figure_3.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "Storage Variability Attributed to Reservoirs",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 222536,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379646,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_3.mp4",
+            "filename": "figure_3.mp4",
+            "media_type": "Movie",
+            "alt_text": "Storage Variability Attributed to Reservoirs",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 222540,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379645,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_3.webm",
+            "filename": "figure_3.webm",
+            "media_type": "Movie",
+            "alt_text": "Storage Variability Attributed to Reservoirs",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317906,
+      "url": "http://svs.gsfc.nasa.gov/4889/#media_group_317906",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Variability of Water Level, No Colorbar",
+      "items": [
+        {
+          "id": 222542,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379647,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_2_topo_60_fps.0001_print.jpg",
+            "filename": "figure_2_topo_60_fps.0001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Variability of Water Level, No Colorbar",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 222541,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379648,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/frames/3840x2160_16x9_60p/figure_2_no_cbar/",
+            "filename": "figure_2_no_cbar",
+            "media_type": "Frames",
+            "alt_text": "Variability of Water Level, No Colorbar",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317907,
+      "url": "http://svs.gsfc.nasa.gov/4889/#media_group_317907",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Storage Variability Attributed to Reservoirs, No Colorbar",
+      "items": [
+        {
+          "id": 222544,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379649,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/figure_3_topo_60_fps.0001_print.jpg",
+            "filename": "figure_3_topo_60_fps.0001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Storage Variability Attributed to Reservoirs, No Colorbar",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 222543,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379650,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/frames/3840x2160_16x9_60p/figure_3_no_cbar/",
+            "filename": "figure_3_no_cbar",
+            "media_type": "Frames",
+            "alt_text": "Storage Variability Attributed to Reservoirs, No Colorbar",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317908,
+      "url": "http://svs.gsfc.nasa.gov/4889/#media_group_317908",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbar, Variability of Water Level",
+      "items": [
+        {
+          "id": 222546,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379651,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/fig_2_cbar_print.jpg",
+            "filename": "fig_2_cbar_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Variability of Water Level",
+            "width": 1024,
+            "height": 2150,
+            "pixels": 2201600
+          }
+        },
+        {
+          "id": 222545,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379652,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/fig_2_cbar.png",
+            "filename": "fig_2_cbar.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Variability of Water Level",
+            "width": 500,
+            "height": 1050,
+            "pixels": 525000
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317909,
+      "url": "http://svs.gsfc.nasa.gov/4889/#media_group_317909",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbar, Storage Variability Attributed to Reservoirs",
+      "items": [
+        {
+          "id": 222548,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379653,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/fig_3_cbar_print.jpg",
+            "filename": "fig_3_cbar_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Storage Variability Attributed to Reservoirs",
+            "width": 1024,
+            "height": 2150,
+            "pixels": 2201600
+          }
+        },
+        {
+          "id": 222547,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 379654,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004889/fig_3_cbar.png",
+            "filename": "fig_3_cbar.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar, Storage Variability Attributed to Reservoirs",
+            "width": 500,
+            "height": 1050,
+            "pixels": 525000
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Visualizer", "people": [{ "name": "Trent L. Schindler", "employer": "USRA" }] },
+    {
+      "role": "Scientist",
+      "people": [{ "name": "Sarah Cooley", "employer": "Stanford University" }]
+    },
+    { "role": "Producer", "people": [{ "name": "Ryan Fitzgibbons", "employer": "USRA" }] }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "ICESat-2",
+      "sensor": "Advanced Topographic Laser Altimeter System (ATLAS)",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Earth Science",
+    "Environmental Governance/management",
+    "Human Dimensions",
+    "Hydrology",
+    "Hydrosphere",
+    "Hyperwall",
+    "Water Levels",
+    "water management",
+    "Water Scarcity"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [
+    {
+      "id": 13824,
+      "url": "http://svs.gsfc.nasa.gov/13824/",
+      "page_type": "Produced Video",
+      "title": "NASA Satellite Measures the Human Impact in Water Storage",
+      "description": "Music: \"Cycle of the Moon,\" \"Domestic Idyll,\" Universal Production MusicComplete transcript available.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by pond5.com and is obtained through permission and may not be excised or remixed in other products. Specific details on stock footage may be found here. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html.Notes on footage:0:27-0:33; 0:57-1:06; 2:00-2:05; 2:14-2:45 provided by pond5. || reservoirthumb_print.jpg (1024x555) [244.0 KB] || reservoirthumb.png (3152x1710) [8.9 MB] || reservoirthumb_searchweb.png (320x180) [131.1 KB] || reservoirthumb_thm.png (80x40) [11.3 KB] || Reservoirs_prores.mov (1920x1080) [4.2 GB] || Reservoirs_3-2-v2.mp4 (1920x1080) [202.9 MB] || Reservoirs_prores.webm (1920x1080) [22.0 MB] || Reservoirs.en_US.srt [3.9 KB] || Reservoirs.en_US.vtt [3.9 KB] || ",
+      "release_date": "2021-03-03T09:00:00-05:00",
+      "update_date": "2023-05-03T13:44:18.601265-04:00",
+      "main_image": {
+        "id": 379633,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013800/a013824/reservoirthumb_print.jpg",
+        "filename": "reservoirthumb_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Music: \"Cycle of the Moon,\" \"Domestic Idyll,\" Universal Production MusicComplete transcript available.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by pond5.com and is obtained through permission and may not be excised or remixed in other products. Specific details on stock footage may be found here. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html.Notes on footage:0:27-0:33; 0:57-1:06; 2:00-2:05; 2:14-2:45 provided by pond5.",
+        "width": 1024,
+        "height": 555,
+        "pixels": 568320
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

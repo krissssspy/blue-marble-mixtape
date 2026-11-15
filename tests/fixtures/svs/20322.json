@@ -1,0 +1,978 @@
+{
+  "id": 20322,
+  "url": "http://svs.gsfc.nasa.gov/20322/",
+  "page_type": "Animation",
+  "title": "Landsat Lightpath Animations",
+  "description": "For nearly half a century, the Landsat mission has shaped our understanding of Earth. Since the launch of the first Landsat satellite in 1972, the mission has gathered and archived more than 8 million images of our home planet’s terrain, including crop fields and sprawling cities, forests and shrinking glaciers. These data-rich images are free and publicly available, leading to scientific discoveries and informed resource management.Landsat 9 will carry two instruments that largely replicate the instruments on Landsat 8: the Operational Land Imager 2 (OLI-2) and the Thermal Infrared Sensor 2 (TIRS-2). OLI-2 and TIRS-2 are optical sensors that detect 11 wavelengths of visible, near infrared, shortwave infrared, and thermal infrared light as it is reflected or emitted from the planet’s surface. Data from these instruments are processed and stored at the USGS Earth Resources Observation and Science (EROS) Center in Sioux Falls, South Dakota—where decades worth of data from all of the Landsat satellites are stored and made available for free to the public.The Landsat mission, a partnership between NASA and the U.S. Geological Survey (USGS), has provided the longest continuous record of Earth’s land surfaces from space. The consistency of Landsat’s land-cover data from sensor to sensor and year to year makes it possible to trace land-cover changes from 1972 to the present, and it will continue into the future with Landsat 9. With better technology than ever before, Landsat 9 will enhance and extend the data record to the 50-year mark and beyond. || ",
+  "release_date": "2021-01-12T20:00:00-05:00",
+  "update_date": "2023-05-03T13:44:23.608479-04:00",
+  "main_image": {
+    "id": 383102,
+    "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_OLI_data_1080_30fps_ProRes.00406_print.jpg",
+    "filename": "L9_OLI_data_1080_30fps_ProRes.00406_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": {
+    "id": 383100,
+    "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_OLI_data_1080_30fps_ProRes.mov",
+    "filename": "L9_OLI_data_1080_30fps_ProRes.mov",
+    "media_type": "Movie",
+    "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+    "width": 1920,
+    "height": 1080,
+    "pixels": 2073600
+  },
+  "main_credits": {
+    "Visualizations by": [
+      { "name": "Jacquelyn DeMink", "employer": "USRA" },
+      { "name": "Adriana Manrique Gutierrez", "employer": "USRA" }
+    ],
+    "Produced by": [{ "name": "Matthew R. Radcliff", "employer": "USRA" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 318167,
+      "url": "http://svs.gsfc.nasa.gov/20322/#media_group_318167",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "For nearly half a century, the Landsat mission has shaped our understanding of Earth. Since the launch of the first Landsat satellite in 1972, the mission has gathered and archived more than 8 million images of our home planet’s terrain, including crop fields and sprawling cities, forests and shrinking glaciers. These data-rich images are free and publicly available, leading to scientific discoveries and informed resource management.<br><br>Landsat 9 will carry two instruments that largely replicate the instruments on Landsat 8: the Operational Land Imager 2 (OLI-2) and the Thermal Infrared Sensor 2 (TIRS-2). OLI-2 and TIRS-2 are optical sensors that detect 11 wavelengths of visible, near infrared, shortwave infrared, and thermal infrared light as it is reflected or emitted from the planet’s surface. Data from these instruments are processed and stored at the USGS Earth Resources Observation and Science (EROS) Center in Sioux Falls, South Dakota—where decades worth of data from all of the Landsat satellites are stored and made available for free to the public.<br><br>The Landsat mission, a partnership between NASA and the U.S. Geological Survey (USGS), has provided the longest continuous record of Earth’s land surfaces from space. The consistency of Landsat’s land-cover data from sensor to sensor and year to year makes it possible to trace land-cover changes from 1972 to the present, and it will continue into the future with Landsat 9. With better technology than ever before, Landsat 9 will enhance and extend the data record to the 50-year mark and beyond.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 318168,
+      "url": "http://svs.gsfc.nasa.gov/20322/#media_group_318168",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.<p><p>Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+      "items": [
+        {
+          "id": 223135,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383102,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_OLI_data_1080_30fps_ProRes.00406_print.jpg",
+            "filename": "L9_OLI_data_1080_30fps_ProRes.00406_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 223138,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383099,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_OLI_data_1080_30fps_ProRes.00406_print_searchweb.png",
+            "filename": "L9_OLI_data_1080_30fps_ProRes.00406_print_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 223139,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383098,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_OLI_data_1080_30fps_ProRes.00406_print_thm.png",
+            "filename": "L9_OLI_data_1080_30fps_ProRes.00406_print_thm.png",
+            "media_type": "Image",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 223133,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383100,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_OLI_data_1080_30fps_ProRes.mov",
+            "filename": "L9_OLI_data_1080_30fps_ProRes.mov",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223134,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383101,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_OLI_data_1080_30fps_h264.mp4",
+            "filename": "L9_OLI_data_1080_30fps_h264.mp4",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223136,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383103,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_OLI_data_1080_30fps_ProRes.webm",
+            "filename": "L9_OLI_data_1080_30fps_ProRes.webm",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223137,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383104,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/frames/1920x1080_16x9_30p/L9_OLI_data_1080/",
+            "filename": "L9_OLI_data_1080",
+            "media_type": "Frames",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. OLI-2 will have a 98-foot (30-meter) spatial resolution across most of its spectral bands, meaning each pixel represents an area about the size of a baseball infield. Altogether, the sensors cover a swath 115 miles (185 kilometers) wide. This combination of a wide swath and moderate resolution allows OLI-2 to cover large areas, while still providing fine enough resolution to distinguish individual agricultural fields, forest plots or housing developments—important information for urban planners, land resource managers and commodity analysts.Light from the sun reflects off Earth's surface and into OLI-2's telescope. In the example in this animation, OLI-2 is colecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 318169,
+      "url": "http://svs.gsfc.nasa.gov/20322/#media_group_318169",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Light reflected from Earth's surface shines into OLI-2, bouncing off of five mirrors before shining through a set of wavelength filters covering the focal plane. On the focal plane are thousands of detectors, aligned in rows. These detectors are sensitive to light reflecting off Earth’s surface in nine different wavelengths, including visible, near-infrared and short-wave-infrared light. With data from these bands, either alone or in combination, Earth’s surface is revealed.",
+      "items": [
+        {
+          "id": 223142,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383106,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/OLI_Final.00001_print.jpg",
+            "filename": "OLI_Final.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Light reflected from Earth's surface shines into OLI-2, bouncing off of five mirrors before shining through a set of wavelength filters covering the focal plane. On the focal plane are thousands of detectors, aligned in rows. These detectors are sensitive to light reflecting off Earth’s surface in nine different wavelengths, including visible, near-infrared and short-wave-infrared light. With data from these bands, either alone or in combination, Earth’s surface is revealed.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 223140,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383109,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/OLI_FINAL_2160p30_2.mp4",
+            "filename": "OLI_FINAL_2160p30_2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Light reflected from Earth's surface shines into OLI-2, bouncing off of five mirrors before shining through a set of wavelength filters covering the focal plane. On the focal plane are thousands of detectors, aligned in rows. These detectors are sensitive to light reflecting off Earth’s surface in nine different wavelengths, including visible, near-infrared and short-wave-infrared light. With data from these bands, either alone or in combination, Earth’s surface is revealed.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 223141,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383105,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/OLI_Final.mov",
+            "filename": "OLI_Final.mov",
+            "media_type": "Movie",
+            "alt_text": "Light reflected from Earth's surface shines into OLI-2, bouncing off of five mirrors before shining through a set of wavelength filters covering the focal plane. On the focal plane are thousands of detectors, aligned in rows. These detectors are sensitive to light reflecting off Earth’s surface in nine different wavelengths, including visible, near-infrared and short-wave-infrared light. With data from these bands, either alone or in combination, Earth’s surface is revealed.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 223143,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383107,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/OLI_Final.webm",
+            "filename": "OLI_Final.webm",
+            "media_type": "Movie",
+            "alt_text": "Light reflected from Earth's surface shines into OLI-2, bouncing off of five mirrors before shining through a set of wavelength filters covering the focal plane. On the focal plane are thousands of detectors, aligned in rows. These detectors are sensitive to light reflecting off Earth’s surface in nine different wavelengths, including visible, near-infrared and short-wave-infrared light. With data from these bands, either alone or in combination, Earth’s surface is revealed.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 223144,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383108,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/frames/3840x2160_16x9_30p/",
+            "filename": "3840x2160_16x9_30p",
+            "media_type": "Frames",
+            "alt_text": "Light reflected from Earth's surface shines into OLI-2, bouncing off of five mirrors before shining through a set of wavelength filters covering the focal plane. On the focal plane are thousands of detectors, aligned in rows. These detectors are sensitive to light reflecting off Earth’s surface in nine different wavelengths, including visible, near-infrared and short-wave-infrared light. With data from these bands, either alone or in combination, Earth’s surface is revealed.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 318170,
+      "url": "http://svs.gsfc.nasa.gov/20322/#media_group_318170",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Data collection of the TIRS-2 instrument aboard Landsat 9. Whether it’s a cornfield, a parking lot, or an iceberg, a surface emits thermal infrared radiation, or heat. By detecting radiation in two thermal wavelengths, Landsat 9’s TIRS-2 instrument can measure the temperature of our planet’s ground and water. <p><p>TIRS-2 works on the same principles as the original TIRS on Landsat 8, but corrects a problem the first instrument had with scattered light inside the telescope. And while TIRS has a three-year design life, TIRS-2 is built with increased robustness and redundancy to last at least five years. TIRS-2, like OLI-2, is a “push-broom” sensor with arrays of detectors that line up to observe a field of view that is 115 miles (185 kilometers) across, with a resolution of 328 feet (100 meters). In this example, TIRS-2 is collecting data south of Fort Worth, Texas, on July 17, 2020.",
+      "items": [
+        {
+          "id": 223147,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383112,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_1080_30fps_ProRes.00406_print.jpg",
+            "filename": "L9_DataTIRS_1080_30fps_ProRes.00406_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. Whether it’s a cornfield, a parking lot, or an iceberg, a surface emits thermal infrared radiation, or heat. By detecting radiation in two thermal wavelengths, Landsat 9’s TIRS-2 instrument can measure the temperature of our planet’s ground and water. TIRS-2 works on the same principles as the original TIRS on Landsat 8, but corrects a problem the first instrument had with scattered light inside the telescope. And while TIRS has a three-year design life, TIRS-2 is built with increased robustness and redundancy to last at least five years. TIRS-2, like OLI-2, is a “push-broom” sensor with arrays of detectors that line up to observe a field of view that is 115 miles (185 kilometers) across, with a resolution of 328 feet (100 meters). In this example, TIRS-2 is collecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 223145,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383110,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_1080_30fps_ProRes.mov",
+            "filename": "L9_DataTIRS_1080_30fps_ProRes.mov",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. Whether it’s a cornfield, a parking lot, or an iceberg, a surface emits thermal infrared radiation, or heat. By detecting radiation in two thermal wavelengths, Landsat 9’s TIRS-2 instrument can measure the temperature of our planet’s ground and water. TIRS-2 works on the same principles as the original TIRS on Landsat 8, but corrects a problem the first instrument had with scattered light inside the telescope. And while TIRS has a three-year design life, TIRS-2 is built with increased robustness and redundancy to last at least five years. TIRS-2, like OLI-2, is a “push-broom” sensor with arrays of detectors that line up to observe a field of view that is 115 miles (185 kilometers) across, with a resolution of 328 feet (100 meters). In this example, TIRS-2 is collecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223146,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383111,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/frames/1920x1080_16x9_30p/L9_DataTIRS_1080/",
+            "filename": "L9_DataTIRS_1080",
+            "media_type": "Frames",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. Whether it’s a cornfield, a parking lot, or an iceberg, a surface emits thermal infrared radiation, or heat. By detecting radiation in two thermal wavelengths, Landsat 9’s TIRS-2 instrument can measure the temperature of our planet’s ground and water. TIRS-2 works on the same principles as the original TIRS on Landsat 8, but corrects a problem the first instrument had with scattered light inside the telescope. And while TIRS has a three-year design life, TIRS-2 is built with increased robustness and redundancy to last at least five years. TIRS-2, like OLI-2, is a “push-broom” sensor with arrays of detectors that line up to observe a field of view that is 115 miles (185 kilometers) across, with a resolution of 328 feet (100 meters). In this example, TIRS-2 is collecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223148,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383113,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_1080_30fps_ProRes.webm",
+            "filename": "L9_DataTIRS_1080_30fps_ProRes.webm",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. Whether it’s a cornfield, a parking lot, or an iceberg, a surface emits thermal infrared radiation, or heat. By detecting radiation in two thermal wavelengths, Landsat 9’s TIRS-2 instrument can measure the temperature of our planet’s ground and water. TIRS-2 works on the same principles as the original TIRS on Landsat 8, but corrects a problem the first instrument had with scattered light inside the telescope. And while TIRS has a three-year design life, TIRS-2 is built with increased robustness and redundancy to last at least five years. TIRS-2, like OLI-2, is a “push-broom” sensor with arrays of detectors that line up to observe a field of view that is 115 miles (185 kilometers) across, with a resolution of 328 feet (100 meters). In this example, TIRS-2 is collecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223149,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383114,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_1080_30fps_h264.mp4",
+            "filename": "L9_DataTIRS_1080_30fps_h264.mp4",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. Whether it’s a cornfield, a parking lot, or an iceberg, a surface emits thermal infrared radiation, or heat. By detecting radiation in two thermal wavelengths, Landsat 9’s TIRS-2 instrument can measure the temperature of our planet’s ground and water. TIRS-2 works on the same principles as the original TIRS on Landsat 8, but corrects a problem the first instrument had with scattered light inside the telescope. And while TIRS has a three-year design life, TIRS-2 is built with increased robustness and redundancy to last at least five years. TIRS-2, like OLI-2, is a “push-broom” sensor with arrays of detectors that line up to observe a field of view that is 115 miles (185 kilometers) across, with a resolution of 328 feet (100 meters). In this example, TIRS-2 is collecting data south of Fort Worth, Texas, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 318171,
+      "url": "http://svs.gsfc.nasa.gov/20322/#media_group_318171",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Lightpath animation of TIRS-2. TIRS-2 uses thermal bands to detect subtle shifts<p>in temperature—within a tenth of a degree Celsius. Its detectors are called Quantum Well Infrared Photodetectors, or QWIPs, and were developed at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. Thermal infrared radiation in a specific wavelength will excite electrons within the QWIPs, creating an electrical signal that is used to determine surface temperature.",
+      "items": [
+        {
+          "id": 223153,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383115,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/TIRS_Final.00001_print.jpg",
+            "filename": "TIRS_Final.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Lightpath animation of TIRS-2. TIRS-2 uses thermal bands to detect subtle shiftsin temperature—within a tenth of a degree Celsius. Its detectors are called Quantum Well Infrared Photodetectors, or QWIPs, and were developed at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. Thermal infrared radiation in a specific wavelength will excite electrons within the QWIPs, creating an electrical signal that is used to determine surface temperature.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 223150,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383119,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/TIRS_Final_1080p30.mp4",
+            "filename": "TIRS_Final_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Lightpath animation of TIRS-2. TIRS-2 uses thermal bands to detect subtle shiftsin temperature—within a tenth of a degree Celsius. Its detectors are called Quantum Well Infrared Photodetectors, or QWIPs, and were developed at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. Thermal infrared radiation in a specific wavelength will excite electrons within the QWIPs, creating an electrical signal that is used to determine surface temperature.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223151,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383117,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/TIRS_Final.mov",
+            "filename": "TIRS_Final.mov",
+            "media_type": "Movie",
+            "alt_text": "Lightpath animation of TIRS-2. TIRS-2 uses thermal bands to detect subtle shiftsin temperature—within a tenth of a degree Celsius. Its detectors are called Quantum Well Infrared Photodetectors, or QWIPs, and were developed at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. Thermal infrared radiation in a specific wavelength will excite electrons within the QWIPs, creating an electrical signal that is used to determine surface temperature.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223152,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383116,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/TIRS_Final.webm",
+            "filename": "TIRS_Final.webm",
+            "media_type": "Movie",
+            "alt_text": "Lightpath animation of TIRS-2. TIRS-2 uses thermal bands to detect subtle shiftsin temperature—within a tenth of a degree Celsius. Its detectors are called Quantum Well Infrared Photodetectors, or QWIPs, and were developed at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. Thermal infrared radiation in a specific wavelength will excite electrons within the QWIPs, creating an electrical signal that is used to determine surface temperature.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223154,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383118,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/frames/1920x1080_16x9_30p/TIRS_Final/",
+            "filename": "TIRS_Final",
+            "media_type": "Frames",
+            "alt_text": "Lightpath animation of TIRS-2. TIRS-2 uses thermal bands to detect subtle shiftsin temperature—within a tenth of a degree Celsius. Its detectors are called Quantum Well Infrared Photodetectors, or QWIPs, and were developed at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. Thermal infrared radiation in a specific wavelength will excite electrons within the QWIPs, creating an electrical signal that is used to determine surface temperature.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 318172,
+      "url": "http://svs.gsfc.nasa.gov/20322/#media_group_318172",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Data collection of the OLI-2 instrument aboard Landsat 9. (w/o side panel)",
+      "items": [
+        {
+          "id": 223157,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383122,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataOLI_nPanel_1080_30fps_ProRes.00406_print.jpg",
+            "filename": "L9_DataOLI_nPanel_1080_30fps_ProRes.00406_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 223155,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383120,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataOLI_nPanel_1080_30fps_ProRes.mov",
+            "filename": "L9_DataOLI_nPanel_1080_30fps_ProRes.mov",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223156,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383121,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/frames/1920x1080_16x9_30p/L9_DataOLI_nPanel_1080/",
+            "filename": "L9_DataOLI_nPanel_1080",
+            "media_type": "Frames",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223158,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383123,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataOLI_nPanel_1080_30fps_ProRes.webm",
+            "filename": "L9_DataOLI_nPanel_1080_30fps_ProRes.webm",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223159,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383124,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataOLI_nPanel_1080_30fps_h264.mp4",
+            "filename": "L9_DataOLI_nPanel_1080_30fps_h264.mp4",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the OLI-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 318173,
+      "url": "http://svs.gsfc.nasa.gov/20322/#media_group_318173",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Side panel for the data collection of the OLI-2 instrument aboard Landsat 9, showing data south of Fort Worth, TX, on July 17, 2020.",
+      "items": [
+        {
+          "id": 223162,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383127,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataOLI_Panel_1080_30fps_4444.00406_print.jpg",
+            "filename": "L9_DataOLI_Panel_1080_30fps_4444.00406_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Side panel for the data collection of the OLI-2 instrument aboard Landsat 9, showing data south of Fort Worth, TX, on July 17, 2020.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 223160,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383125,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataOLI_Panel_1080_30fps_4444.mov",
+            "filename": "L9_DataOLI_Panel_1080_30fps_4444.mov",
+            "media_type": "Movie",
+            "alt_text": "Side panel for the data collection of the OLI-2 instrument aboard Landsat 9, showing data south of Fort Worth, TX, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223161,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383126,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/frames/1920x1080_16x9_30p/L9_DataOLI_Panel_1080/",
+            "filename": "L9_DataOLI_Panel_1080",
+            "media_type": "Frames",
+            "alt_text": "Side panel for the data collection of the OLI-2 instrument aboard Landsat 9, showing data south of Fort Worth, TX, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223163,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383128,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataOLI_Panel_1080.mp4",
+            "filename": "L9_DataOLI_Panel_1080.mp4",
+            "media_type": "Movie",
+            "alt_text": "Side panel for the data collection of the OLI-2 instrument aboard Landsat 9, showing data south of Fort Worth, TX, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223164,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383129,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataOLI_Panel_1080.webm",
+            "filename": "L9_DataOLI_Panel_1080.webm",
+            "media_type": "Movie",
+            "alt_text": "Side panel for the data collection of the OLI-2 instrument aboard Landsat 9, showing data south of Fort Worth, TX, on July 17, 2020.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 318174,
+      "url": "http://svs.gsfc.nasa.gov/20322/#media_group_318174",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Data collection of the TIRS-2 instrument aboard Landsat 9. (w/o side panel)",
+      "items": [
+        {
+          "id": 223167,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383132,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_nPanel_1080_30fps_ProRes.00406_print.jpg",
+            "filename": "L9_DataTIRS_nPanel_1080_30fps_ProRes.00406_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 223165,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383130,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_nPanel_1080_30fps_ProRes.mov",
+            "filename": "L9_DataTIRS_nPanel_1080_30fps_ProRes.mov",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223166,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383131,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/frames/1920x1080_16x9_30p/L9_DataTIRS_nPanel_1080/",
+            "filename": "L9_DataTIRS_nPanel_1080",
+            "media_type": "Frames",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223168,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383133,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_nPanel_1080_30fps_ProRes.webm",
+            "filename": "L9_DataTIRS_nPanel_1080_30fps_ProRes.webm",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223169,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383134,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_nPanel_1080_30fps_h264.mp4",
+            "filename": "L9_DataTIRS_nPanel_1080_30fps_h264.mp4",
+            "media_type": "Movie",
+            "alt_text": "Data collection of the TIRS-2 instrument aboard Landsat 9. (w/o side panel)",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 318175,
+      "url": "http://svs.gsfc.nasa.gov/20322/#media_group_318175",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Side panel for the data collection of the TIRS-2 instrument aboard Landsat 9, showing data collected south of Fort Worth, TX, on July 17, 2020. ",
+      "items": [
+        {
+          "id": 223173,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383137,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_Panel_1080_30fps_4444.00406_print.jpg",
+            "filename": "L9_DataTIRS_Panel_1080_30fps_4444.00406_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Side panel for the data collection of the TIRS-2 instrument aboard Landsat 9, showing data collected south of Fort Worth, TX, on July 17, 2020. ",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 223170,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383135,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_Panel_1080_30fps_4444.mov",
+            "filename": "L9_DataTIRS_Panel_1080_30fps_4444.mov",
+            "media_type": "Movie",
+            "alt_text": "Side panel for the data collection of the TIRS-2 instrument aboard Landsat 9, showing data collected south of Fort Worth, TX, on July 17, 2020. ",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223171,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383138,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_Panel_1080.mp4",
+            "filename": "L9_DataTIRS_Panel_1080.mp4",
+            "media_type": "Movie",
+            "alt_text": "Side panel for the data collection of the TIRS-2 instrument aboard Landsat 9, showing data collected south of Fort Worth, TX, on July 17, 2020. ",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223172,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383136,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/frames/1920x1080_16x9_30p/L9_DataTIRS_Panel_1080/",
+            "filename": "L9_DataTIRS_Panel_1080",
+            "media_type": "Frames",
+            "alt_text": "Side panel for the data collection of the TIRS-2 instrument aboard Landsat 9, showing data collected south of Fort Worth, TX, on July 17, 2020. ",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 223174,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 383139,
+            "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020322/L9_DataTIRS_Panel_1080.webm",
+            "filename": "L9_DataTIRS_Panel_1080.webm",
+            "media_type": "Movie",
+            "alt_text": "Side panel for the data collection of the TIRS-2 instrument aboard Landsat 9, showing data collected south of Fort Worth, TX, on July 17, 2020. ",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "cil",
+  "funding_sources": ["PAO"],
+  "credits": [
+    {
+      "role": "Animator",
+      "people": [
+        { "name": "Jacquelyn DeMink", "employer": "USRA" },
+        { "name": "Adriana Manrique Gutierrez", "employer": "USRA" }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [{ "name": "Aaron E. Lepsch", "employer": "ADNET Systems, Inc." }]
+    },
+    { "role": "Producer", "people": [{ "name": "Matthew R. Radcliff", "employer": "USRA" }] }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Earth", "Landsat", "TIRS"],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 13917,
+      "url": "http://svs.gsfc.nasa.gov/13917/",
+      "page_type": "Produced Video",
+      "title": "9 Things About Landsat 9",
+      "description": "In anticipation of the launch of Landsat 9, we count down 9 things about the Landsat mission, the science, the technology and the people who continue its legacy. Each item on the list had a short video that was released in the nine days leading up to the launch. They are compiled into one video that was released on the NASA Goddard YouTube channel. || ",
+      "release_date": "2021-09-26T12:00:00-04:00",
+      "update_date": "2023-05-03T13:43:54.826615-04:00",
+      "main_image": {
+        "id": 377291,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013900/a013917/Landsat9Things_Thumb.png",
+        "filename": "Landsat9Things_Thumb.png",
+        "media_type": "Image",
+        "alt_text": "In celebration of the launch of Landsat 9, we count down 9 things about the Landsat mission, the science, the technology and the people who continue its legacy.Music: \"Thought and Passion,\" \"Hot Air Balloon Trip,\" \"Cristal Delight,\" \"Flying Aloft,\" \"Castles and Cathedrals,\" \"On Going Steps,\" \"Ongoing Journey,\" \"Home Staging,\" \"Arpology,\" \"All Life Long,\" \"Luv Beam,\" \"Interchangeable Parts,\" \"Electricity Tracks,\" \"Digital Travelers,\" \"Hyperion,\" Universal Production Music. ",
+        "width": 1668,
+        "height": 938,
+        "pixels": 1564584
+      }
+    },
+    {
+      "id": 13920,
+      "url": "http://svs.gsfc.nasa.gov/13920/",
+      "page_type": "Produced Video",
+      "title": "NASA To Launch Landsat 9: Continues Nearly 50-Year Legacy of Observing Earth from Space Live Shots",
+      "description": "Quick link to edited B-ROLLQuick link to canned interview with DR JEFF MASEK / Landsat 9 Project Scientist || Landsat_banner.png (3274x528) [4.1 MB] || Landsat_banner_print.jpg (1024x165) [109.1 KB] || Landsat_banner_searchweb.png (320x180) [137.8 KB] || Landsat_banner_thm.png (80x40) [12.8 KB] || ",
+      "release_date": "2021-09-23T12:00:00-04:00",
+      "update_date": "2023-05-03T13:43:55.267545-04:00",
+      "main_image": {
+        "id": 377185,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013900/a013920/Landsat_banner_print.jpg",
+        "filename": "Landsat_banner_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Quick link to edited B-ROLLQuick link to canned interview with DR JEFF MASEK / Landsat 9 Project Scientist",
+        "width": 1024,
+        "height": 165,
+        "pixels": 168960
+      }
+    },
+    {
+      "id": 13889,
+      "url": "http://svs.gsfc.nasa.gov/13889/",
+      "page_type": "Produced Video",
+      "title": "Landsat 9 at Work",
+      "description": "Landsat 9, launching September 2021, will collect the highest quality data ever recorded by a Landsat satellite, while still ensuring that these new measurements can be compared to those taken by previous generations of the Earth-observing satellite. Landsat 9 will enable or improve measurements of water quality, glacial ice velocity, crop water usage, and much more.Music: The Waiting Room by Sam Dodson [PRS], Afterglow by Christopher Timothy White [PRS],   both published by Atmosphere Music Ltd [PRS]; and Inner Strength by Brava/Dsilence/Input/Output [SGAE], published by El Murmullo Sarao [SGAE] and Universal Sarao [SGAE]. Available from Universal Production Music. Complete transcript available.Watch this video on the NASA Goddard YouTube channel. || 13889_Landsat9_at_Work_print.jpg (1024x576) [202.5 KB] || 13889_Landsat9_at_Work_print.png (1920x1080) [3.3 MB] || 13889_Landsat9_at_Work_print_thm.png (80x40) [6.4 KB] || 13889_Landsat9_at_Work_searchweb.png (320x180) [100.7 KB] || 13889_Landsat9_at_Work-hd-tw.mp4 (1920x1080) [50.9 MB] || 13889_Landsat9_at_Work-hd-yt.webm (1920x1080) [25.3 MB] || 13889_Landsat9_at_Work-hd-yt.mp4 (1920x1080) [346.2 MB] || 13889_Landsat9_at_Work-captions.en_US.srt [5.1 KB] || 13889_Landsat9_at_Work-captions.en_US.vtt [4.9 KB] || 13889_Landsat9_at_Work-UHD-yt.mp4 (3840x2160) [872.4 MB] || 13889_Landsat9_at_Work-UHD-pr.mov (3840x2160) [11.8 GB] || 13889_Landsat9_at_Work-hd-yt.hwshow [483 bytes] || ",
+      "release_date": "2021-07-26T11:45:00-04:00",
+      "update_date": "2021-08-03T22:50:56-04:00",
+      "main_image": {
+        "id": 377956,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013800/a013889/13889_Landsat9_at_Work_print.png",
+        "filename": "13889_Landsat9_at_Work_print.png",
+        "media_type": "Image",
+        "alt_text": " Landsat 9, launching September 2021, will collect the highest quality data ever recorded by a Landsat satellite, while still ensuring that these new measurements can be compared to those taken by previous generations of the Earth-observing satellite. Landsat 9 will enable or improve measurements of water quality, glacial ice velocity, crop water usage, and much more.Music: The Waiting Room by Sam Dodson [PRS], Afterglow by Christopher Timothy White [PRS],   both published by Atmosphere Music Ltd [PRS]; and Inner Strength by Brava/Dsilence/Input/Output [SGAE], published by El Murmullo Sarao [SGAE] and Universal Sarao [SGAE]. Available from Universal Production Music. Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "id": 13800,
+      "url": "http://svs.gsfc.nasa.gov/13800/",
+      "page_type": "Produced Video",
+      "title": "Landsat Helps Warn of Algae in Lakes and Rivers",
+      "description": "From space, satellites including the NASA and U.S. Geological Survey’s (USGS) Landsat 8 can help scientists identify lakes where an algal bloom has formed. It’s a complicated data analysis process, but one that researchers are automating so resource managers around the country can use the satellite data to identify potential problems.Music: Light From Dark by Adam Salkedi, Neil Pollard [PRS], published by Atmosphere Music Ltd.; Experimental Design by Laurent Dury [SACEM], published by Koka Media; Against The Wall by Benjamin Peter McAvoy [PRS], published by Sound Pocket Music; Brainstorming by Laurent Dury[SACEM], published by Koka Media; Together As One by Le Fat Club [SACEM], Olivier Grim [SACEM]; published by Koka Media.Complete transcript available.Watch this video on the NASA Goddard YouTube channel. || 13800_aquatic_reflection_poster.png (1564x936) [2.7 MB] || 13800_aquatic_reflection_poster_print.jpg (1024x612) [237.1 KB] || 13800_aquatic_reflection_poster_searchweb.png (320x180) [130.5 KB] || 13800_aquatic_reflection_poster_thm.png (80x40) [10.8 KB] || 13800_aquatic_reflectance_prores.mov (1920x1080) [5.3 GB] || 13800_aquatic_reflectance_yt.mp4 (1920x1080) [632.1 MB] || 13800_aquatic_reflectance_fb.mp4 (1920x1080) [473.0 MB] || 13800_aquatic_reflectance_tw-720.mp4 (1280x720) [161.2 MB] || 13800_aquatic_reflectance_yt.webm (1920x1080) [21.7 MB] || 13800_aquatic_reflectance-captions.en_US.srt [9.4 KB] || 13800_aquatic_reflectance-captions.en_US.vtt [9.0 KB] || ",
+      "release_date": "2021-03-22T09:30:00-04:00",
+      "update_date": "2023-05-03T13:44:15.676170-04:00",
+      "main_image": {
+        "id": 380103,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013800/a013800/13800_aquatic_reflection_poster.png",
+        "filename": "13800_aquatic_reflection_poster.png",
+        "media_type": "Image",
+        "alt_text": "From space, satellites including the NASA and U.S. Geological Survey’s (USGS) Landsat 8 can help scientists identify lakes where an algal bloom has formed. It’s a complicated data analysis process, but one that researchers are automating so resource managers around the country can use the satellite data to identify potential problems.Music: Light From Dark by Adam Salkedi, Neil Pollard [PRS], published by Atmosphere Music Ltd.; Experimental Design by Laurent Dury [SACEM], published by Koka Media; Against The Wall by Benjamin Peter McAvoy [PRS], published by Sound Pocket Music; Brainstorming by Laurent Dury[SACEM], published by Koka Media; Together As One by Le Fat Club [SACEM], Olivier Grim [SACEM]; published by Koka Media.Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+        "width": 1564,
+        "height": 936,
+        "pixels": 1463904
+      }
+    },
+    {
+      "id": 13712,
+      "url": "http://svs.gsfc.nasa.gov/13712/",
+      "page_type": "Produced Video",
+      "title": "Landsat 9: Continuing the Legacy series",
+      "description": "Five decades ago, NASA and the US Geological Society launched a satellite to monitor Earth’s land from space. It was the beginning of a legacy. The Apollo era had given us our first looks at Earth from space and inspired the idea of regularly collecting images of our planet. The first Landsat — originally known as the Earth Resources Technology Satellite, or ERTS — rocketed into space in 1972. Since then, there have been eight Landsats and we’re preparing to launch number nine.The Landsat legacy stretches far and wide. Using visible and infrared light, Landsat helps track the health of crops, shows ocean pollution, and tracks coral reefs, icebergs and more. Thanks to sensor that can record wavelengths beyond what we can see with our eyes, Landsat can record vital information about Earth's surface.Narrated by the actor Marc Evan Jackson, who played a Landsat scientist in the movie Kong: Skull Island (2017), this series of videos tells the story of Landsat 9. From the birth of the Landsat program to the present preparations for launching Landsat 9 and even a look to the future with Landsat NeXt. || ",
+      "release_date": "2020-11-30T11:00:00-05:00",
+      "update_date": "2023-05-03T13:44:27.459470-04:00",
+      "main_image": {
+        "id": 382702,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013700/a013712/Landsat_9_Series_poster_searchweb.png",
+        "filename": "Landsat_9_Series_poster_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Every legacy has a compelling origin. The soon-to-be-launched Landsat 9 is the intellectual and technical product of eight generations of Landsat missions, spanning nearly 50 years. Episode One answers the question “why?” Why did the specific years between 1962 and 1972 call for a such a mission? Why did leadership across agencies commit to its fruition? Why was the knowledge it could reveal important to the advancing study of earth science? In this episode, we’re introduced to William Pecora and Stewart Udall, two men who propelled the project into reality, as well as Virginia Norwood who breathed life into new technology. Like any worthwhile endeavor, Landsat encountered its fair share of resistance. Episode one explores how those challenges were overcome with the launch of Landsat 1, signifying a bold step into a new paradigm.\r\rAdditional footage courtesy of Gordon Wilkinson/Texas Archive of the Moving Image and the US Geological Survey.\rComplete transcript available.Music: \"The Missing Star,\" \"Brazenly Bashful,\" \"Light Tense Weight,\" \"It's Decision Time,\" \"Patisserie Pressure,\" Universal Production MusicWatch this video on the NASA Goddard YouTube channel.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

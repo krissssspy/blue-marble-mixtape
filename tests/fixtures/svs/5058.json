@@ -1,0 +1,348 @@
+{
+  "id": 5058,
+  "url": "http://svs.gsfc.nasa.gov/5058/",
+  "page_type": "Visualization",
+  "title": "Florida Nighttime Lights Before and After Hurricane Ian",
+  "description": "Difference in nighttime light energy levels and coverage before and after Hurricane Ian. The nighttime light data were generated from NASA’s Black Marble and depicts the levels on August 30th, 2022 (before Hurricane Ian) and on September 30th, 2022 (after Hurricane Ian). || black_marble_slide_line4.00001_print.jpg (1024x576) [106.1 KB] || black_marble_slide_line4.00001_searchweb.png (320x180) [46.0 KB] || black_marble_slide_line4.00001_thm.png (80x40) [3.7 KB] || black_marble_slide_line4.mp4 (3840x2160) [22.1 MB] || ",
+  "release_date": "2023-06-16T10:00:00-04:00",
+  "update_date": "2024-07-26T23:23:10.760991-04:00",
+  "main_image": {
+    "id": 855886,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_slide_line4.00001_print.jpg",
+    "filename": "black_marble_slide_line4.00001_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Difference in nighttime light energy levels and coverage before and after Hurricane Ian. The nighttime light data were generated from NASA’s Black Marble and depicts the levels on August 30th, 2022 (before Hurricane Ian) and on September 30th, 2022 (after Hurricane Ian). ",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": { "Visualizations by": [{ "name": "Michala Garrison", "employer": "SSAI" }] },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 312163,
+      "url": "http://svs.gsfc.nasa.gov/5058/#media_group_312163",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Difference in nighttime light energy levels and coverage before and after Hurricane Ian. The nighttime light data were generated from NASA’s Black Marble and depicts the levels on August 30th, 2022 (before Hurricane Ian) and on September 30th, 2022 (after Hurricane Ian). ",
+      "items": [
+        {
+          "id": 205598,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855886,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_slide_line4.00001_print.jpg",
+            "filename": "black_marble_slide_line4.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Difference in nighttime light energy levels and coverage before and after Hurricane Ian. The nighttime light data were generated from NASA’s Black Marble and depicts the levels on August 30th, 2022 (before Hurricane Ian) and on September 30th, 2022 (after Hurricane Ian). ",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 205599,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855887,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_slide_line4.00001_searchweb.png",
+            "filename": "black_marble_slide_line4.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Difference in nighttime light energy levels and coverage before and after Hurricane Ian. The nighttime light data were generated from NASA’s Black Marble and depicts the levels on August 30th, 2022 (before Hurricane Ian) and on September 30th, 2022 (after Hurricane Ian). ",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205600,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855888,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_slide_line4.00001_thm.png",
+            "filename": "black_marble_slide_line4.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "Difference in nighttime light energy levels and coverage before and after Hurricane Ian. The nighttime light data were generated from NASA’s Black Marble and depicts the levels on August 30th, 2022 (before Hurricane Ian) and on September 30th, 2022 (after Hurricane Ian). ",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205597,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855885,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_slide_line4.mp4",
+            "filename": "black_marble_slide_line4.mp4",
+            "media_type": "Movie",
+            "alt_text": "Difference in nighttime light energy levels and coverage before and after Hurricane Ian. The nighttime light data were generated from NASA’s Black Marble and depicts the levels on August 30th, 2022 (before Hurricane Ian) and on September 30th, 2022 (after Hurricane Ian). ",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312162,
+      "url": "http://svs.gsfc.nasa.gov/5058/#media_group_312162",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Hurricane Ian was a powerful Category 5 Atlantic hurricane that made landfall in southwestern Florida on September 28, 2022. Ian brought catastrophic storm surge, winds, and flooding that resulted in causalities, structural damage, and power outages. Between September 28 and October 1, an estimated total of 4.45 million customers lost power in the U.S. The state of Florida experienced the most power outages with an estimated total of 3.28 million customers without power.<br><br>The VIIRS instrument on the Suomi NPP satellite captures nighttime light emissions and reflections, and scientists worked with the imagery to show what these power outages looked like. The maps above and below illustrate the processed VIIRS data in a few cities hit hardest by Hurricane Ian.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 312164,
+      "url": "http://svs.gsfc.nasa.gov/5058/#media_group_312164",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animation of the difference in nighttime light before and after Hurricane Ian at 7680 x 2160 resolution. ",
+      "items": [
+        {
+          "id": 205602,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856024,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_fade.00001_print.jpg",
+            "filename": "black_marble_fade.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animation of the difference in nighttime light before and after Hurricane Ian at 7680 x 2160 resolution. ",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 205601,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856023,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_fade.mp4",
+            "filename": "black_marble_fade.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of the difference in nighttime light before and after Hurricane Ian at 7680 x 2160 resolution. ",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312165,
+      "url": "http://svs.gsfc.nasa.gov/5058/#media_group_312165",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Still map of nighttime lights before Hurricane Ian (August 30, 2022).",
+      "items": [
+        {
+          "id": 205603,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855821,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_aug2160.png",
+            "filename": "black_marble_aug2160.png",
+            "media_type": "Image",
+            "alt_text": "Still map of nighttime lights before Hurricane Ian (August 30, 2022).",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 205604,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855822,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_augV2.png",
+            "filename": "black_marble_augV2.png",
+            "media_type": "Image",
+            "alt_text": "Still map of nighttime lights before Hurricane Ian (August 30, 2022).",
+            "width": 32000,
+            "height": 9000,
+            "pixels": 288000000
+          }
+        },
+        {
+          "id": 205605,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856030,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_aug2160_print.jpg",
+            "filename": "black_marble_aug2160_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Still map of nighttime lights before Hurricane Ian (August 30, 2022).",
+            "width": 1024,
+            "height": 288,
+            "pixels": 294912
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312166,
+      "url": "http://svs.gsfc.nasa.gov/5058/#media_group_312166",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Still map of nighttime lights after Hurricane Ian (September 30, 2022).",
+      "items": [
+        {
+          "id": 205606,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855827,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_sepV2.png",
+            "filename": "black_marble_sepV2.png",
+            "media_type": "Image",
+            "alt_text": "Still map of nighttime lights after Hurricane Ian (September 30, 2022).",
+            "width": 32000,
+            "height": 9000,
+            "pixels": 288000000
+          }
+        },
+        {
+          "id": 205607,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855826,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_sep2160.png",
+            "filename": "black_marble_sep2160.png",
+            "media_type": "Image",
+            "alt_text": "Still map of nighttime lights after Hurricane Ian (September 30, 2022).",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 205608,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856032,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005058/black_marble_sep2160_print.jpg",
+            "filename": "black_marble_sep2160_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Still map of nighttime lights after Hurricane Ian (September 30, 2022).",
+            "width": 1024,
+            "height": 288,
+            "pixels": 294912
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Visualizer", "people": [{ "name": "Michala Garrison", "employer": "SSAI" }] }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "Landsat",
+      "sensor": null,
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "Band Combination 2,3,4",
+      "common_name": "True Color",
+      "platform": "Landsat-8",
+      "sensor": "OLI",
+      "type": "Observed Data",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "Black Marble: Next Generation",
+      "common_name": "Black Marble",
+      "platform": "Suomi NPP",
+      "sensor": "VIIRS",
+      "type": "Other",
+      "organizations": ["NASA/NOAA"],
+      "description": "Earth at night imagery",
+      "credit": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel Román, NASA GSFC.",
+      "url": "https://visibleearth.nasa.gov/images/144898/earth-at-night-black-marble-2016-color-maps/144947l",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Atmosphere",
+    "Atmospheric Phenomena",
+    "Atmospheric science",
+    "Black Marble",
+    "Earth Information Center",
+    "Earth Science",
+    "Hurricanes",
+    "Natural hazards",
+    "Night lights"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

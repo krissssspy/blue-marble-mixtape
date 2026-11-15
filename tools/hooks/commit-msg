@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+import { readFileSync } from 'node:fs';
+import { validateCommitMessage } from './lib/validate-commit-message.mjs';
+
+const result = validateCommitMessage(readFileSync(process.argv[2], 'utf8'));
+if (!result.ok) {
+  console.error(result.reason);
+  process.exitCode = 1;
+}

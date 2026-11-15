@@ -1,0 +1,1586 @@
+{
+  "id": 13417,
+  "url": "http://svs.gsfc.nasa.gov/13417/",
+  "page_type": "Produced Video",
+  "title": "Landsat Croplands Data Overview",
+  "description": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel. || 13417_Landsat_Croplands_print.jpg (1920x1080) [940.0 KB] || 13417_Landsat_Croplands_print_searchweb.png (180x320) [52.1 KB] || 13417_Landsat_Croplands_print_thm.png (80x40) [4.6 KB] || 13417_Landsat_Croplands.webm (1920x1080) [19.7 MB] || 13417_Landsat_Croplands.mp4 (1920x1080) [292.2 MB] || 13417_Landsat_Croplands-captions.en_US.srt [3.0 KB] || 13417_Landsat_Croplands-captions.en_US.vtt [3.0 KB] || 13417_Landsat_Croplands.mov (1920x1080) [4.8 GB] || 13417_Landsat_Croplands.mp4.hwshow [423 bytes] || ",
+  "release_date": "2019-11-27T12:00:00-05:00",
+  "update_date": "2025-03-16T23:21:08.148457-04:00",
+  "main_image": {
+    "id": 391566,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_Landsat_Croplands_print.jpg",
+    "filename": "13417_Landsat_Croplands_print.jpg",
+    "media_type": "Image",
+    "alt_text": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+    "width": 1920,
+    "height": 1080,
+    "pixels": 2073600
+  },
+  "main_video": null,
+  "main_credits": {
+    "Produced by": [{ "name": "Matthew R. Radcliff", "employer": "USRA" }],
+    "Visualizations by": [{ "name": "Lori Perkins", "employer": "NASA/GSFC" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 322007,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322007",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. <p><p>Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].<p><p><p><p><p><a href=\"/vis/a010000/a013400/a013417/13417_Landsat_Croplands-transcript.html\">Complete transcript</a> available.</p><p><b>Watch this video on the <a href=\"https://www.youtube.com/watch?v=vOAuMkprG7k&t=40s\" target=\"_blank\" >NASA Goddard YouTube channel</a>.</b><p>",
+      "items": [
+        {
+          "id": 234420,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391566,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_Landsat_Croplands_print.jpg",
+            "filename": "13417_Landsat_Croplands_print.jpg",
+            "media_type": "Image",
+            "alt_text": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234421,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391564,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_Landsat_Croplands_print_searchweb.png",
+            "filename": "13417_Landsat_Croplands_print_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 234422,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391563,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_Landsat_Croplands_print_thm.png",
+            "filename": "13417_Landsat_Croplands_print_thm.png",
+            "media_type": "Image",
+            "alt_text": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 234425,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391562,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_Landsat_Croplands.webm",
+            "filename": "13417_Landsat_Croplands.webm",
+            "media_type": "Movie",
+            "alt_text": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234419,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391565,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_Landsat_Croplands.mp4",
+            "filename": "13417_Landsat_Croplands.mp4",
+            "media_type": "Movie",
+            "alt_text": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234423,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 849915,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_Landsat_Croplands-captions.en_US.srt",
+            "filename": "13417_Landsat_Croplands-captions.en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 234424,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 849916,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_Landsat_Croplands-captions.en_US.vtt",
+            "filename": "13417_Landsat_Croplands-captions.en_US.vtt",
+            "media_type": "Captions",
+            "alt_text": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 234426,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391567,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_Landsat_Croplands.mov",
+            "filename": "13417_Landsat_Croplands.mov",
+            "media_type": "Movie",
+            "alt_text": "The U.S. Department of Agriculture tracks how many acres and the annual yield for every crop produced. One method used to estimate crop acreage and yield is remote-sensing data from the NASA-USGS Landsat satellite program. The program started in 1997,with North Dakota, and by 2008 covered the entire lower 48 states and the District of Columbia. Music: \"Downloading Landscapes\" by Andrew Michael Britton [PRS] and David Stephen Goldsmith [PRS]. Published by Atmosphere Music Ltd [PRS].Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322006,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322006",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Since 2009, the <a href=\"https://www.usgs.gov/centers/fort/science/usda-national-agricultural-statistics-service-cropland-data-layer-0?qt-science_center_objects=0#qt-science_center_objects\" target=\"_blank\">USDA's National Agricultural Statistics Service,</a> or NASS, has drawn on Landsat data to monitor dozens of crops in the lower 48 states as part of NASS's Cropland Data Layer program. The Cropland Data layer uses <a href=\"https://landsat.gsfc.nasa.gov\">Landsat</a> and similar sensors to identify what crop is growing where in the country. Separately, NASS uses NASA's Moderate Resolution Imaging Spectroradiometer (MODIS) instruments aboard the Aqua and Terra satellites to monitor daily vegetation health and growth stage, all indicators of crop yield.  \r<br>\r<br>“Landsat has been one of the only ways we can directly measure the global food supply,” said Brad Doorn, program manager for NASA's Applied Sciences Water Resources and Agriculture Research at NASA Headquarters in Washington, D.C. However, “It's not all satellites,” Mueller said. \r<br>\r<br>During a typical farming year, NASS relies heavily on their ground observations and surveys data. Across the country, NASS field officials visit farms, and measure acreage and condition of planted fields throughout the growing season. NASS also receives crop acreage data from the Farm Service Agency (FSA).  Farmers are required to self-report crop acreage and land use information to <a href=\"https://www.fsa.usda.gov/news-room/efoia/electronic-reading-room/frequently-requested-information/crop-acreage-data/index\" target=\"_blank\">FSA annually</a>. FSA uses the data to determine payment for federal programs such as crop loss due to natural disaster or financial loss from changes in market prices.\r<br>\r<br>NASS will publish the final Cropland Data layer in January of the following year and makes the data available to everyone through the CropScape website. Disaster managers use the sites historic data to evaluate crop damage from this year's floods and other natural disasters. Resource managers use historic data to direct crop rotation, study land-use change, and monitor water use.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 322008,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322008",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "animation of USDA Croplands Data Layer, from 1997-2020, showing all field and tree crops. Before 2008, only some states have data. After 2008, all 48 states are included.",
+      "items": [
+        {
+          "id": 234430,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391568,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/crops_CDL-2020_print.jpg",
+            "filename": "crops_CDL-2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "animation of USDA Croplands Data Layer, from 1997-2020, showing all field and tree crops. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234429,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391572,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/crops_CDL-1997_2020-hd-tw.mp4",
+            "filename": "crops_CDL-1997_2020-hd-tw.mp4",
+            "media_type": "Movie",
+            "alt_text": "animation of USDA Croplands Data Layer, from 1997-2020, showing all field and tree crops. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234431,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391570,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/crops_CDL-1997_2020-hd-tw.webm",
+            "filename": "crops_CDL-1997_2020-hd-tw.webm",
+            "media_type": "Movie",
+            "alt_text": "animation of USDA Croplands Data Layer, from 1997-2020, showing all field and tree crops. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234428,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391571,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/crops_CDL-1997_2020-UHD-yt.mp4",
+            "filename": "crops_CDL-1997_2020-UHD-yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "animation of USDA Croplands Data Layer, from 1997-2020, showing all field and tree crops. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234432,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391569,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/crops_all_2020.tif",
+            "filename": "crops_all_2020.tif",
+            "media_type": "Image",
+            "alt_text": "animation of USDA Croplands Data Layer, from 1997-2020, showing all field and tree crops. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 9600,
+            "height": 5400,
+            "pixels": 51840000
+          }
+        },
+        {
+          "id": 234427,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391573,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/crops_CDL-1997_2020-UHD-pr.mov",
+            "filename": "crops_CDL-1997_2020-UHD-pr.mov",
+            "media_type": "Movie",
+            "alt_text": "animation of USDA Croplands Data Layer, from 1997-2020, showing all field and tree crops. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322009,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322009",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animation of USDA Croplands Data Layer, from 1997-2020, showing all corn fields. Before 2008, only some states have data. After 2008, all 48 states are included.",
+      "items": [
+        {
+          "id": 234437,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391575,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/corn_CDL-2020_print.jpg",
+            "filename": "corn_CDL-2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2020, showing all corn fields. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234435,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391577,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/corn_CDL-1997_2020-hd-tw.mp4",
+            "filename": "corn_CDL-1997_2020-hd-tw.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2020, showing all corn fields. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234434,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391576,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/corn_CDL-1997_2020-UHD-yt.mp4",
+            "filename": "corn_CDL-1997_2020-UHD-yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2020, showing all corn fields. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234436,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391579,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/corn_all_2020.tif",
+            "filename": "corn_all_2020.tif",
+            "media_type": "Image",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2020, showing all corn fields. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 9600,
+            "height": 5400,
+            "pixels": 51840000
+          }
+        },
+        {
+          "id": 234438,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391574,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/corn_CDL-1997_2020-UHD-yt.webm",
+            "filename": "corn_CDL-1997_2020-UHD-yt.webm",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2020, showing all corn fields. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234433,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391578,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/corn_CDL-1997_2020-UHD-pr.mov",
+            "filename": "corn_CDL-1997_2020-UHD-pr.mov",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2020, showing all corn fields. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322010,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322010",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animation of wheat fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+      "items": [
+        {
+          "id": 234443,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391583,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/wheat_CDL-2020_print.jpg",
+            "filename": "wheat_CDL-2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animation of wheat fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234441,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391582,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/wheat_CDL-1997_2020-hd-tw.mp4",
+            "filename": "wheat_CDL-1997_2020-hd-tw.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of wheat fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234444,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391580,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/wheat_CDL-1997_2020-hd-tw.webm",
+            "filename": "wheat_CDL-1997_2020-hd-tw.webm",
+            "media_type": "Movie",
+            "alt_text": "Animation of wheat fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234440,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391581,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/wheat_CDL-1997_2020-UHD-yt.mp4",
+            "filename": "wheat_CDL-1997_2020-UHD-yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of wheat fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234442,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391585,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/wheat_all_2020.tif",
+            "filename": "wheat_all_2020.tif",
+            "media_type": "Image",
+            "alt_text": "Animation of wheat fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 9600,
+            "height": 5400,
+            "pixels": 51840000
+          }
+        },
+        {
+          "id": 234439,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391584,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/wheat_CDL-1997_2020-UHD-pr.mov",
+            "filename": "wheat_CDL-1997_2020-UHD-pr.mov",
+            "media_type": "Movie",
+            "alt_text": "Animation of wheat fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322011,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322011",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animation of cotton fields from USDA Croplands Data Layer, 2008-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+      "items": [
+        {
+          "id": 234449,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391586,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/cotton_all_2020_print.jpg",
+            "filename": "cotton_all_2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animation of cotton fields from USDA Croplands Data Layer, 2008-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 234447,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391588,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/cotton_CDL-2008_2020-hd-tw.mp4",
+            "filename": "cotton_CDL-2008_2020-hd-tw.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of cotton fields from USDA Croplands Data Layer, 2008-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234446,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391587,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/cotton_CDL-2008_2020-UHD-yt.mp4",
+            "filename": "cotton_CDL-2008_2020-UHD-yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of cotton fields from USDA Croplands Data Layer, 2008-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234448,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391591,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/cotton_all_2020.tif",
+            "filename": "cotton_all_2020.tif",
+            "media_type": "Image",
+            "alt_text": "Animation of cotton fields from USDA Croplands Data Layer, 2008-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 9600,
+            "height": 5400,
+            "pixels": 51840000
+          }
+        },
+        {
+          "id": 234450,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391589,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/cotton_CDL-2008_2020-UHD-yt.webm",
+            "filename": "cotton_CDL-2008_2020-UHD-yt.webm",
+            "media_type": "Movie",
+            "alt_text": "Animation of cotton fields from USDA Croplands Data Layer, 2008-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234445,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391590,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/cotton_CDL-2008_2020-UHD-pr.mov",
+            "filename": "cotton_CDL-2008_2020-UHD-pr.mov",
+            "media_type": "Movie",
+            "alt_text": "Animation of cotton fields from USDA Croplands Data Layer, 2008-2020. Before 2008, only some states have data. After 2008, all 48 states are included.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322012,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322012",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animation of citrus groves (oranges, grapefruits, and all citrus) from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+      "items": [
+        {
+          "id": 234455,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391597,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/citrus_all_2020_print.jpg",
+            "filename": "citrus_all_2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animation of citrus groves (oranges, grapefruits, and all citrus) from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 234453,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391596,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/citrus_CDL-2008_2020-hd-tw.mp4",
+            "filename": "citrus_CDL-2008_2020-hd-tw.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of citrus groves (oranges, grapefruits, and all citrus) from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234452,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391595,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/citrus_CDL-2008_2020-UHD-yt.mp4",
+            "filename": "citrus_CDL-2008_2020-UHD-yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of citrus groves (oranges, grapefruits, and all citrus) from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234456,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391593,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/citrus_CDL-2008_2020-UHD-yt.webm",
+            "filename": "citrus_CDL-2008_2020-UHD-yt.webm",
+            "media_type": "Movie",
+            "alt_text": "Animation of citrus groves (oranges, grapefruits, and all citrus) from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234454,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391592,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/citrus_all_2020.tif",
+            "filename": "citrus_all_2020.tif",
+            "media_type": "Image",
+            "alt_text": "Animation of citrus groves (oranges, grapefruits, and all citrus) from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 9600,
+            "height": 5400,
+            "pixels": 51840000
+          }
+        },
+        {
+          "id": 234451,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391594,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/citrus_CDL-2008_2020-UHD-pr.mov",
+            "filename": "citrus_CDL-2008_2020-UHD-pr.mov",
+            "media_type": "Movie",
+            "alt_text": "Animation of citrus groves (oranges, grapefruits, and all citrus) from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322013,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322013",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animation of rice fields from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+      "items": [
+        {
+          "id": 234461,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391598,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/rice_all_2020_print.jpg",
+            "filename": "rice_all_2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animation of rice fields from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 234459,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391602,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/rice_CDL-2008_2020-hd-tw.mp4",
+            "filename": "rice_CDL-2008_2020-hd-tw.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of rice fields from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234458,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391601,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/rice_CDL-2008_2020-UHD-yt.mp4",
+            "filename": "rice_CDL-2008_2020-UHD-yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of rice fields from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234460,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391603,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/rice_all_2020.tif",
+            "filename": "rice_all_2020.tif",
+            "media_type": "Image",
+            "alt_text": "Animation of rice fields from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 9600,
+            "height": 5400,
+            "pixels": 51840000
+          }
+        },
+        {
+          "id": 234462,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391599,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/rice_CDL-2008_2020-UHD-yt.webm",
+            "filename": "rice_CDL-2008_2020-UHD-yt.webm",
+            "media_type": "Movie",
+            "alt_text": "Animation of rice fields from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234457,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391600,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/rice_CDL-2008_2020-UHD-pr.mov",
+            "filename": "rice_CDL-2008_2020-UHD-pr.mov",
+            "media_type": "Movie",
+            "alt_text": "Animation of rice fields from USDA Croplands Data Layer, from 2008-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322014,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322014",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animation of soybean fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+      "items": [
+        {
+          "id": 234467,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391605,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/soybeans_all_2020_print.jpg",
+            "filename": "soybeans_all_2020_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animation of soybean fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 234465,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391607,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/soy_CDL-1997_2020-hd-tw.mp4",
+            "filename": "soy_CDL-1997_2020-hd-tw.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of soybean fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234464,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391606,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/soy_CDL-1997_2020-UHD-yt.mp4",
+            "filename": "soy_CDL-1997_2020-UHD-yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of soybean fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234466,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391608,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/soybeans_all_2020.tif",
+            "filename": "soybeans_all_2020.tif",
+            "media_type": "Image",
+            "alt_text": "Animation of soybean fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 9600,
+            "height": 5400,
+            "pixels": 51840000
+          }
+        },
+        {
+          "id": 234468,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391604,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/soy_CDL-1997_2020-UHD-yt.webm",
+            "filename": "soy_CDL-1997_2020-UHD-yt.webm",
+            "media_type": "Movie",
+            "alt_text": "Animation of soybean fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234463,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391609,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/soy_CDL-1997_2020-UHD-pr.mov",
+            "filename": "soy_CDL-1997_2020-UHD-pr.mov",
+            "media_type": "Movie",
+            "alt_text": "Animation of soybean fields from USDA Croplands Data Layer, from 1997-2020. Before 2008, data only exists for some of the states. Starting in 2008, all 48 states have data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322015,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322015",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animation of USDA Croplands Data Layer, from 1997-2018, showing all categories.",
+      "items": [
+        {
+          "id": 234471,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391613,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/CDL_complete-2018_print.jpg",
+            "filename": "CDL_complete-2018_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2018, showing all categories.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234469,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391611,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/CDL_complete-1997_2018-hd.mov",
+            "filename": "CDL_complete-1997_2018-hd.mov",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2018, showing all categories.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234470,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391612,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/CDL_complete-1997_2018-hd.mp4",
+            "filename": "CDL_complete-1997_2018-hd.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2018, showing all categories.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 234472,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391610,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/CDL_complete-1997_2018-hd.webm",
+            "filename": "CDL_complete-1997_2018-hd.webm",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Croplands Data Layer, from 1997-2018, showing all categories.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322016,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322016",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Legend showing ten of the top twenty crops grown in the contiguous United States in 2020, by acreage. Data is from USDA Crop Production reports.",
+      "items": [
+        {
+          "id": 234473,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391614,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/Crops-top10-legend.jpg",
+            "filename": "Crops-top10-legend.jpg",
+            "media_type": "Image",
+            "alt_text": "Legend showing ten of the top twenty crops grown in the contiguous United States in 2020, by acreage. Data is from USDA Crop Production reports.",
+            "width": 300,
+            "height": 599,
+            "pixels": 179700
+          }
+        },
+        {
+          "id": 234474,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391615,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/Crops-top10-legend.tif",
+            "filename": "Crops-top10-legend.tif",
+            "media_type": "Image",
+            "alt_text": "Legend showing ten of the top twenty crops grown in the contiguous United States in 2020, by acreage. Data is from USDA Crop Production reports.",
+            "width": 300,
+            "height": 599,
+            "pixels": 179700
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322017,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322017",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animation of USDA Cropscape data (Croplands Data Layer) from 2008-2017. Shows all the crops across continental United States, then zooms to the plethora of crop types in California’s central valley, to cotton fields in Texas, to the Corn Belt in the upper midwest (with soybeans in green), and finally to the fertile floodplains of the Mississippi Delta (cotton is red, rice is blue).  Not the full 30-meter Landsat resolution, but at 1:10 scale.",
+      "items": [
+        {
+          "id": 234477,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391617,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_cropland_03_print.png",
+            "filename": "13417_cropland_03_print.png",
+            "media_type": "Image",
+            "alt_text": "Animation of USDA Cropscape data (Croplands Data Layer) from 2008-2017. Shows all the crops across continental United States, then zooms to the plethora of crop types in California’s central valley, to cotton fields in Texas, to the Corn Belt in the upper midwest (with soybeans in green), and finally to the fertile floodplains of the Mississippi Delta (cotton is red, rice is blue).  Not the full 30-meter Landsat resolution, but at 1:10 scale.",
+            "width": 1919,
+            "height": 1080,
+            "pixels": 2072520
+          }
+        },
+        {
+          "id": 234478,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391618,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_cropland_03_print_print.jpg",
+            "filename": "13417_cropland_03_print_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Animation of USDA Cropscape data (Croplands Data Layer) from 2008-2017. Shows all the crops across continental United States, then zooms to the plethora of crop types in California’s central valley, to cotton fields in Texas, to the Corn Belt in the upper midwest (with soybeans in green), and finally to the fertile floodplains of the Mississippi Delta (cotton is red, rice is blue).  Not the full 30-meter Landsat resolution, but at 1:10 scale.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 234479,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391619,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_cropland_03_1080p60.webm",
+            "filename": "13417_cropland_03_1080p60.webm",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Cropscape data (Croplands Data Layer) from 2008-2017. Shows all the crops across continental United States, then zooms to the plethora of crop types in California’s central valley, to cotton fields in Texas, to the Corn Belt in the upper midwest (with soybeans in green), and finally to the fertile floodplains of the Mississippi Delta (cotton is red, rice is blue).  Not the full 30-meter Landsat resolution, but at 1:10 scale.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234475,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391616,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_cropland_03_1080p60.mp4",
+            "filename": "13417_cropland_03_1080p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Cropscape data (Croplands Data Layer) from 2008-2017. Shows all the crops across continental United States, then zooms to the plethora of crop types in California’s central valley, to cotton fields in Texas, to the Corn Belt in the upper midwest (with soybeans in green), and finally to the fertile floodplains of the Mississippi Delta (cotton is red, rice is blue).  Not the full 30-meter Landsat resolution, but at 1:10 scale.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234476,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391620,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/13417_cropland_03_1080p30.mp4",
+            "filename": "13417_cropland_03_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animation of USDA Cropscape data (Croplands Data Layer) from 2008-2017. Shows all the crops across continental United States, then zooms to the plethora of crop types in California’s central valley, to cotton fields in Texas, to the Corn Belt in the upper midwest (with soybeans in green), and finally to the fertile floodplains of the Mississippi Delta (cotton is red, rice is blue).  Not the full 30-meter Landsat resolution, but at 1:10 scale.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322018,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322018",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Farmers rely on the accuracy of a crucial NASA and USGS mission, Landsat, to make decisions about crops. In this video, you can hear Landsat's view of crops from space in the form of a song, called a data sonification. Every sound carries meaning. Six notes of an acoustic guitar indicate the current top six crops by acreage, in order: corn, soybeans, wheat, alfalfa, cotton and sorghum. In each year, the pitch of these notes indicates the acreage recorded by Landsat for those six crops. Higher pitches indicate more acreage, and a low percussive sound distinguishes each year. <p><p>Video and data sonification produced by System Sounds for NASA's Curious Universe podcast.",
+      "items": [
+        {
+          "id": 234483,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391622,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/Landsat_cropland_sonification.png",
+            "filename": "Landsat_cropland_sonification.png",
+            "media_type": "Image",
+            "alt_text": "Farmers rely on the accuracy of a crucial NASA and USGS mission, Landsat, to make decisions about crops. In this video, you can hear Landsat's view of crops from space in the form of a song, called a data sonification. Every sound carries meaning. Six notes of an acoustic guitar indicate the current top six crops by acreage, in order: corn, soybeans, wheat, alfalfa, cotton and sorghum. In each year, the pitch of these notes indicates the acreage recorded by Landsat for those six crops. Higher pitches indicate more acreage, and a low percussive sound distinguishes each year. Video and data sonification produced by System Sounds for NASA's Curious Universe podcast.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234484,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391623,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/Landsat_cropland_sonification_print.jpg",
+            "filename": "Landsat_cropland_sonification_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Farmers rely on the accuracy of a crucial NASA and USGS mission, Landsat, to make decisions about crops. In this video, you can hear Landsat's view of crops from space in the form of a song, called a data sonification. Every sound carries meaning. Six notes of an acoustic guitar indicate the current top six crops by acreage, in order: corn, soybeans, wheat, alfalfa, cotton and sorghum. In each year, the pitch of these notes indicates the acreage recorded by Landsat for those six crops. Higher pitches indicate more acreage, and a low percussive sound distinguishes each year. Video and data sonification produced by System Sounds for NASA's Curious Universe podcast.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 234480,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391621,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/Landsat_cropland_sonification.mp4",
+            "filename": "Landsat_cropland_sonification.mp4",
+            "media_type": "Movie",
+            "alt_text": "Farmers rely on the accuracy of a crucial NASA and USGS mission, Landsat, to make decisions about crops. In this video, you can hear Landsat's view of crops from space in the form of a song, called a data sonification. Every sound carries meaning. Six notes of an acoustic guitar indicate the current top six crops by acreage, in order: corn, soybeans, wheat, alfalfa, cotton and sorghum. In each year, the pitch of these notes indicates the acreage recorded by Landsat for those six crops. Higher pitches indicate more acreage, and a low percussive sound distinguishes each year. Video and data sonification produced by System Sounds for NASA's Curious Universe podcast.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234485,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 391624,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/Landsat_cropland_sonification.webm",
+            "filename": "Landsat_cropland_sonification.webm",
+            "media_type": "Movie",
+            "alt_text": "Farmers rely on the accuracy of a crucial NASA and USGS mission, Landsat, to make decisions about crops. In this video, you can hear Landsat's view of crops from space in the form of a song, called a data sonification. Every sound carries meaning. Six notes of an acoustic guitar indicate the current top six crops by acreage, in order: corn, soybeans, wheat, alfalfa, cotton and sorghum. In each year, the pitch of these notes indicates the acreage recorded by Landsat for those six crops. Higher pitches indicate more acreage, and a low percussive sound distinguishes each year. Video and data sonification produced by System Sounds for NASA's Curious Universe podcast.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 234481,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 849917,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/Landsat_cropland_sonification-captions.en_US.srt",
+            "filename": "Landsat_cropland_sonification-captions.en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "Farmers rely on the accuracy of a crucial NASA and USGS mission, Landsat, to make decisions about crops. In this video, you can hear Landsat's view of crops from space in the form of a song, called a data sonification. Every sound carries meaning. Six notes of an acoustic guitar indicate the current top six crops by acreage, in order: corn, soybeans, wheat, alfalfa, cotton and sorghum. In each year, the pitch of these notes indicates the acreage recorded by Landsat for those six crops. Higher pitches indicate more acreage, and a low percussive sound distinguishes each year. Video and data sonification produced by System Sounds for NASA's Curious Universe podcast.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 234482,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 849918,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/Landsat_cropland_sonification-captions.en_US.vtt",
+            "filename": "Landsat_cropland_sonification-captions.en_US.vtt",
+            "media_type": "Captions",
+            "alt_text": "Farmers rely on the accuracy of a crucial NASA and USGS mission, Landsat, to make decisions about crops. In this video, you can hear Landsat's view of crops from space in the form of a song, called a data sonification. Every sound carries meaning. Six notes of an acoustic guitar indicate the current top six crops by acreage, in order: corn, soybeans, wheat, alfalfa, cotton and sorghum. In each year, the pitch of these notes indicates the acreage recorded by Landsat for those six crops. Higher pitches indicate more acreage, and a low percussive sound distinguishes each year. Video and data sonification produced by System Sounds for NASA's Curious Universe podcast.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322019,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322019",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Annual top 10 crops in Cropland Data Layer for 2019.",
+      "items": [
+        {
+          "id": 234487,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765004,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/crops_all_2019_print.jpg",
+            "filename": "crops_all_2019_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Annual top 10 crops in Cropland Data Layer for 2019.",
+            "width": 1024,
+            "height": 642,
+            "pixels": 657408
+          }
+        },
+        {
+          "id": 234486,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 552401,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/crops_all_2019.tif",
+            "filename": "crops_all_2019.tif",
+            "media_type": "Image",
+            "alt_text": "Annual top 10 crops in Cropland Data Layer for 2019.",
+            "width": 9600,
+            "height": 6024,
+            "pixels": 57830400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322020,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322020",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "USDA, National Agricultural Statistics Service (NASS) uses NASA data from Landsat to generate an annual crop-specific land cover data layer for the continental United States. THis is the annual crop data for 2021.",
+      "items": [
+        {
+          "id": 234490,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765006,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/2021_30m_cdls_allcrops_hw_print.jpg",
+            "filename": "2021_30m_cdls_allcrops_hw_print.jpg",
+            "media_type": "Image",
+            "alt_text": "USDA, National Agricultural Statistics Service (NASS) uses NASA data from Landsat to generate an annual crop-specific land cover data layer for the continental United States. THis is the annual crop data for 2021.",
+            "width": 1024,
+            "height": 642,
+            "pixels": 657408
+          }
+        },
+        {
+          "id": 234488,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854579,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/2021_30m_cdls_allcrops_hw_nodatelabel.tif",
+            "filename": "2021_30m_cdls_allcrops_hw_nodatelabel.tif",
+            "media_type": "Image",
+            "alt_text": "USDA, National Agricultural Statistics Service (NASS) uses NASA data from Landsat to generate an annual crop-specific land cover data layer for the continental United States. THis is the annual crop data for 2021.",
+            "width": 5163,
+            "height": 3240,
+            "pixels": 16728120
+          }
+        },
+        {
+          "id": 234489,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765005,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/2021_30m_cdls_allcrops_hw.tif",
+            "filename": "2021_30m_cdls_allcrops_hw.tif",
+            "media_type": "Image",
+            "alt_text": "USDA, National Agricultural Statistics Service (NASS) uses NASA data from Landsat to generate an annual crop-specific land cover data layer for the continental United States. THis is the annual crop data for 2021.",
+            "width": 5163,
+            "height": 3240,
+            "pixels": 16728120
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322021,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322021",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "USDA, National Agricultural Statistics Service (NASS) uses NASA data from Landsat to generate an annual crop-specific land cover data layer for the continental United States. THis is the annual crop data for 2022.",
+      "items": [
+        {
+          "id": 234493,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765008,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/2022_30m_cdls_allcrops_hw_print.jpg",
+            "filename": "2022_30m_cdls_allcrops_hw_print.jpg",
+            "media_type": "Image",
+            "alt_text": "USDA, National Agricultural Statistics Service (NASS) uses NASA data from Landsat to generate an annual crop-specific land cover data layer for the continental United States. THis is the annual crop data for 2022.",
+            "width": 1024,
+            "height": 642,
+            "pixels": 657408
+          }
+        },
+        {
+          "id": 234491,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854580,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/2022_30m_cdls_allcrops_hw_nodatelabel.tif",
+            "filename": "2022_30m_cdls_allcrops_hw_nodatelabel.tif",
+            "media_type": "Image",
+            "alt_text": "USDA, National Agricultural Statistics Service (NASS) uses NASA data from Landsat to generate an annual crop-specific land cover data layer for the continental United States. THis is the annual crop data for 2022.",
+            "width": 5163,
+            "height": 3240,
+            "pixels": 16728120
+          }
+        },
+        {
+          "id": 234492,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765007,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013400/a013417/2022_30m_cdls_allcrops_hw.tif",
+            "filename": "2022_30m_cdls_allcrops_hw.tif",
+            "media_type": "Image",
+            "alt_text": "USDA, National Agricultural Statistics Service (NASS) uses NASA data from Landsat to generate an annual crop-specific land cover data layer for the continental United States. THis is the annual crop data for 2022.",
+            "width": 5163,
+            "height": 3240,
+            "pixels": 16728120
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 322022,
+      "url": "http://svs.gsfc.nasa.gov/13417/#media_group_322022",
+      "widget": "Basic text",
+      "title": "For More Information",
+      "caption": "",
+      "description": "See [https://www.nasa.gov/feature/goddard/2019/landsat-data-maps-nation](https://www.nasa.gov/feature/goddard/2019/landsat-data-maps-nation)",
+      "items": [],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["PAO"],
+  "credits": [
+    { "role": "Producer", "people": [{ "name": "Matthew R. Radcliff", "employer": "USRA" }] },
+    {
+      "role": "Data visualizer",
+      "people": [
+        { "name": "Kel Elkins", "employer": "USRA" },
+        { "name": "Horace Mitchell", "employer": "NASA/GSFC" },
+        { "name": "Lori Perkins", "employer": "NASA/GSFC" }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        { "name": "Jessica Merzdorf", "employer": "Telophase" },
+        { "name": "Rani Gran", "employer": "NASA/GSFC" }
+      ]
+    },
+    { "role": "Narrator", "people": [{ "name": "Jefferson Beck", "employer": "USRA" }] },
+    { "role": "Scientist", "people": [{ "name": "David M. Johnson", "employer": "USDA/NASS" }] }
+  ],
+  "missions": ["Landsat", "Landsat 7", "Landsat 8", "Landsat 9"],
+  "series": ["Geophysical Changes Over Time", "Landsat", "Narrated Movies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Agricultural Plant Science",
+    "Agricultural science",
+    "Agriculture",
+    "Biosphere",
+    "Crop/Plant Yields",
+    "Croplands",
+    "Earth Science",
+    "Hyperwall"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [
+    {
+      "id": 60003,
+      "url": "http://svs.gsfc.nasa.gov/60003/",
+      "page_type": "Produced Video",
+      "title": "How NASA Data Stabilizes Global Markets",
+      "description": "By delivering timely, science-based insights from space, NASA supports smarter farming decisions and helps keep food prices more stable for consumers around the world.",
+      "release_date": "2025-09-15T16:00:00-04:00",
+      "update_date": "2025-09-15T16:21:36.722914-04:00",
+      "main_image": {
+        "id": 1158269,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060003/EIC_AgAndMarkets_preview.png",
+        "filename": "EIC_AgAndMarkets_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1080,
+        "height": 634,
+        "pixels": 684720
+      }
+    },
+    {
+      "id": 31180,
+      "url": "http://svs.gsfc.nasa.gov/31180/",
+      "page_type": "Hyperwall Visual",
+      "title": "NASA and Agriculture: From Seeds to Satellites",
+      "description": "Complete transcript available. || ComClas_Final_Cut.00148_print.jpg (1024x576) [55.5 KB] || Screen_Shot_2022-03-03_at_1.29.01_PM.png (2478x1382) [1.5 MB] || ComClas_Final_Cut.00148_searchweb.png (320x180) [45.5 KB] || ComClas_Final_Cut.00148_web.png (320x180) [45.5 KB] || ComClas_Final_Cut.00148_thm.png (80x40) [4.1 KB] || ComClas_Final_Cut.webm (1920x1080) [8.0 MB] || ComClas_Final_Cut.mp4 (1920x1080) [126.1 MB] || ComClas_Final_Cut_otter_ai.en_US.srt [1009 bytes] || ComClas_Final_Cut_otter_ai.en_US.vtt [1022 bytes] || ",
+      "release_date": "2022-03-10T10:00:00-05:00",
+      "update_date": "2025-03-03T00:46:43.449331-05:00",
+      "main_image": {
+        "id": 372642,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031180/ComClas_Final_Cut.00148_print.jpg",
+        "filename": "ComClas_Final_Cut.00148_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 13894,
+      "url": "http://svs.gsfc.nasa.gov/13894/",
+      "page_type": "Produced Video",
+      "title": "Keeping Track of Food Production From Space",
+      "description": "Music: Building Ideas [Instrumental] by Todd James Carlin BakerComplete transcript available. || GLAM_thumbnail.png (1280x720) [796.0 KB] || GLAM_thumbnail_print.jpg (1024x576) [133.6 KB] || GLAM_thumbnail_searchweb.png (320x180) [57.4 KB] || GLAM_thumbnail_thm.png (80x40) [5.1 KB] || GLAM_FINAL.mov (1280x720) [887.4 MB] || GLAM_FINAL.mp4 (1280x720) [122.3 MB] || GLAM_FINAL.webm (1280x720) [13.1 MB] || GLAM_Captions.en_US.srt [2.3 KB] || GLAM_Captions.en_US.vtt [2.3 KB] || ",
+      "release_date": "2021-07-26T09:00:00-04:00",
+      "update_date": "2023-05-03T13:44:03.872754-04:00",
+      "main_image": {
+        "id": 377908,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013800/a013894/GLAM_thumbnail.png",
+        "filename": "GLAM_thumbnail.png",
+        "media_type": "Image",
+        "alt_text": "Music: Building Ideas [Instrumental] by Todd James Carlin BakerComplete transcript available.",
+        "width": 1280,
+        "height": 720,
+        "pixels": 921600
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

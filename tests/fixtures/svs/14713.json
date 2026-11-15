@@ -1,0 +1,560 @@
+{
+  "id": 14713,
+  "url": "http://svs.gsfc.nasa.gov/14713/",
+  "page_type": "Produced Video",
+  "title": "Building Coastal Resilience with NASA Data",
+  "description": "The city of Mobile, AL is working with NASA’s Sea Level Change Team to plan for future infrastructure projects and to protect Mobile’s coastal resources. As sea levels change globally, coastal cities feel the effects of more frequent and more severe storms and flooding. NASA’s sea level change data helps Mobile and other coastal communities plan for a more resilient future.",
+  "release_date": "2025-01-07T00:30:59-05:00",
+  "update_date": "2025-09-15T21:55:55.202941-04:00",
+  "main_image": {
+    "id": 1139025,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_SeaLevelRise_2560x720.png",
+    "filename": "EIC_SeaLevelRise_2560x720.png",
+    "media_type": "Image",
+    "alt_text": "",
+    "width": 2560,
+    "height": 720,
+    "pixels": 1843200
+  },
+  "main_video": null,
+  "main_credits": {
+    "Produced by": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }],
+    "Scientific consulting by": [{ "name": "Benjamin Hamlington", "employer": "NASA/JPL" }],
+    "Visualizations by": [{ "name": "Helen-Nicole Kostis", "employer": "USRA" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 376507,
+      "url": "http://svs.gsfc.nasa.gov/14713/#media_group_376507",
+      "widget": "Video player",
+      "title": "",
+      "caption": "Full 8K resolution. Optimized for Earth Information Center display at NASA HQ.\r\n\r\nUniversal Production Music: \"Waited So Long\" and \"Untangled\" by Thomas Trueman, Abby Roads Masters; \"Of the Sea\", by Jack Niemann, BBC Production Music\r\n\r\nThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Shutterstock and Starling Photo is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit [https://www.nasa.gov/multimedia/guidelines/index.html](https://www.nasa.gov/multimedia/guidelines/index.html)\r\n\r\nComplete<a href=\"/vis/a010000/a014700/a014713/script.html\"> transcript</a> available.\r\n\r\nWatch this video on the NASA Scientific Visualization Studio <a href=\"https://youtu.be/FDSoZYUw6Bk?si=qROVkFXjFaxIzR8L\">YouTube channel</a>.",
+      "description": "",
+      "items": [
+        {
+          "id": 445984,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158284,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_NASAandSeaLevelChange_Main_4K.mp4",
+            "filename": "EIC_NASAandSeaLevelChange_Main_4K.mp4",
+            "media_type": "Movie",
+            "alt_text": "",
+            "width": 3840,
+            "height": 1080,
+            "pixels": 4147200
+          }
+        },
+        {
+          "id": 445983,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158283,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_NASAandSeaLevelChange_Main.mp4",
+            "filename": "EIC_NASAandSeaLevelChange_Main.mp4",
+            "media_type": "Movie",
+            "alt_text": "",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 443373,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158285,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_SeaLevelChange.png",
+            "filename": "EIC_SeaLevelChange.png",
+            "media_type": "Image",
+            "alt_text": "",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 491914,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158286,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_SeaLevelChage_2560x720.png",
+            "filename": "EIC_SeaLevelChage_2560x720.png",
+            "media_type": "Image",
+            "alt_text": "",
+            "width": 2560,
+            "height": 720,
+            "pixels": 1843200
+          }
+        },
+        {
+          "id": 491915,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158287,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_NASAandSeaLevelChange_Main.srt",
+            "filename": "EIC_NASAandSeaLevelChange_Main.srt",
+            "media_type": "Captions",
+            "alt_text": "",
+            "label": "English",
+            "language_code": ""
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376508,
+      "url": "http://svs.gsfc.nasa.gov/14713/#media_group_376508",
+      "widget": "Basic text (large)",
+      "title": "",
+      "caption": "",
+      "description": "The city of Mobile, AL is working with NASA’s Sea Level Change Team to plan for future infrastructure projects and to protect Mobile’s coastal resources. As sea levels change globally, coastal cities feel the effects of more frequent and more severe storms and flooding. NASA’s sea level change data helps Mobile and other coastal communities plan for a more resilient future.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 378879,
+      "url": "http://svs.gsfc.nasa.gov/14713/#media_group_378879",
+      "widget": "Video player",
+      "title": "",
+      "caption": "Left circle display video.",
+      "description": "",
+      "items": [
+        {
+          "id": 491919,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158291,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_NASAandSeaLevelChange_Panel_Left.mp4",
+            "filename": "EIC_NASAandSeaLevelChange_Panel_Left.mp4",
+            "media_type": "Movie",
+            "alt_text": "",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 491920,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158292,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_NASAandSeaLevelChange_Panel_Left_Image.png",
+            "filename": "EIC_NASAandSeaLevelChange_Panel_Left_Image.png",
+            "media_type": "Image",
+            "alt_text": "",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378878,
+      "url": "http://svs.gsfc.nasa.gov/14713/#media_group_378878",
+      "widget": "Video player",
+      "title": "",
+      "caption": "Right circle display video.",
+      "description": "",
+      "items": [
+        {
+          "id": 491918,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158290,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_NASAandSeaLevelChange_Panel_Right.mp4",
+            "filename": "EIC_NASAandSeaLevelChange_Panel_Right.mp4",
+            "media_type": "Movie",
+            "alt_text": "",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 491921,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158293,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_NASAandSeaLevelChange_Panel_Right_Image.png",
+            "filename": "EIC_NASAandSeaLevelChange_Panel_Right_Image.png",
+            "media_type": "Image",
+            "alt_text": "",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376506,
+      "url": "http://svs.gsfc.nasa.gov/14713/#media_group_376506",
+      "widget": "Basic text",
+      "title": "For More Information",
+      "caption": "See [Earth.gov](https://earth.gov/)\r\n[Global Sea Level Change](https://earth.gov/sealevel)",
+      "description": "",
+      "items": [],
+      "extra_data": {}
+    }
+  ],
+  "studio": "eic",
+  "funding_sources": ["Earth Information Center"],
+  "credits": [
+    {
+      "role": "Producer",
+      "people": [
+        { "name": "James Round", "employer": "NASA/JPL CalTech" },
+        { "name": "Eleanor Stokes", "employer": "NASA" },
+        { "name": "Nicole Ramberg-Phil", "employer": "SSAI" }
+      ]
+    },
+    { "role": "Writer", "people": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }] },
+    { "role": "Editor", "people": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }] },
+    {
+      "role": "Cinematographer",
+      "people": [
+        { "name": "James Round", "employer": "NASA/JPL CalTech" },
+        { "name": "Grace Weikert", "employer": "eMITS" }
+      ]
+    },
+    { "role": "Scientist", "people": [{ "name": "Benjamin Hamlington", "employer": "NASA/JPL" }] },
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" },
+        { "name": "Mark SubbaRao", "employer": "NASA/GSFC" },
+        { "name": "Joseph V. Ardizzone", "employer": "NASA/GSFC" },
+        { "name": "Eric Hackathorn", "employer": "NOAA" }
+      ]
+    },
+    {
+      "role": "City of Mobile",
+      "people": [
+        { "name": "Andy Depaola", "employer": "Mobile Bay Resident" },
+        { "name": "Casi Callaway", "employer": "Chief Resilience Office, City of Mobile" },
+        { "name": "Alan Sealls", "employer": "Meteorologist, Mobile, AL" }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Brenda Lopez-Silva", "employer": "SSAI" },
+        { "name": "Michael Chyatte", "employer": "ADNET Systems Inc." },
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    },
+    {
+      "role": "Support",
+      "people": [
+        { "name": "Kathleen Gaeta", "employer": "Advocates in Manpower Management, Inc." },
+        { "name": "Grace Weikert", "employer": "eMITS" },
+        { "name": "Katie Jepson", "employer": "eMITS" },
+        { "name": "Aries Keck", "employer": "ADNET Systems, Inc." }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": ["Narrated Movies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "8K",
+    "Earth Information Center",
+    "Earth Science",
+    "Hyperwall",
+    "Narrated",
+    "Sea Level Rise"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 15093,
+      "url": "http://svs.gsfc.nasa.gov/15093/",
+      "page_type": "Produced Video",
+      "title": "BioSCapes: Tracking Biodiversity using NASA Satellites",
+      "description": "Adapted from Fishwater Films' *The Spectrum of Life* for NASA's Earth Information Center, this short documentary features NASA's BioSCape campaign. BioSCape is NASA's first biodiversity airborne campaign in South Africa focused on local biodiversity, how NASA plays a role in conservation, and the potential of using remote sensing to measure and monitor ecosystems.\r\n\r\nTo learn more about NASA's Earth Information Center, visit: [https://earth.gov/](https://)",
+      "release_date": "9999-12-30T18:59:59-05:00",
+      "update_date": "2026-10-07T10:09:11.133635-04:00",
+      "main_image": {
+        "id": 1205894,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015093/BIOSCAPE_STILLImage.png",
+        "filename": "BIOSCAPE_STILLImage.png",
+        "media_type": "Image",
+        "alt_text": "A wide image made up of three smaller images. The image on the left shows two boats with people in the foregound floating on a dark blue ocean with a mountainous coastline in the background along the horizon. The middle image is a satellite image of a peninsula, potentially where the people on the boats are located. The third image on the right contains three rectangular bars left to right in the colors blue, green and red.",
+        "width": 7680,
+        "height": 2160,
+        "pixels": 16588800
+      }
+    },
+    {
+      "id": 15108,
+      "url": "http://svs.gsfc.nasa.gov/15108/",
+      "page_type": "Produced Video",
+      "title": "EIC: Earth Science Technology Office",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.Music Credit:“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production MusicPretty Rocks Landslide courtesy of the National Park Service.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html || ESTO_Still2_print.jpg (1024x288) [100.0 KB] || ESTO_Still.png (7680x2160) [73.9 MB] || ESTO_Still_print.jpg (1024x288) [130.9 KB] || ESTO_Still2.png (7680x2160) [47.0 MB] || ESTO_Still_searchweb.png (320x180) [117.0 KB] || ESTO_Still_thm.png (80x40) [9.0 KB] || ESTO_FINAL.en_US.srt [3.7 KB] || ESTO_FINAL.en_US.vtt [3.5 KB] || ESTO_FINAL_Low.mp4 (7680x2160) [854.3 MB] || ESTO_FINAL_Medium.mp4 (7680x2160) [1.7 GB] || ESTO_FINAL.mp4 (7680x2160) [2.6 GB] || ESTO_FINAL.mov (7680x2160) [37.0 GB] || ",
+      "release_date": "9999-12-30T18:59:59-05:00",
+      "update_date": "2026-11-05T11:34:09-05:00",
+      "main_image": {
+        "id": 1206300,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015100/a015108/ESTO_Still_print.jpg",
+        "filename": "ESTO_Still_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\rMusic Credit:\r“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music\r“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music\r“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production Music\rPretty Rocks Landslide courtesy of the National Park Service.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html\r",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 60003,
+      "url": "http://svs.gsfc.nasa.gov/60003/",
+      "page_type": "Produced Video",
+      "title": "How NASA Data Stabilizes Global Markets",
+      "description": "By delivering timely, science-based insights from space, NASA supports smarter farming decisions and helps keep food prices more stable for consumers around the world.",
+      "release_date": "2025-09-15T16:00:00-04:00",
+      "update_date": "2025-09-15T16:21:36.722914-04:00",
+      "main_image": {
+        "id": 1158269,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060003/EIC_AgAndMarkets_preview.png",
+        "filename": "EIC_AgAndMarkets_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1080,
+        "height": 634,
+        "pixels": 684720
+      }
+    },
+    {
+      "id": 60002,
+      "url": "http://svs.gsfc.nasa.gov/60002/",
+      "page_type": "Produced Video",
+      "title": "NASA: Helping Communities Protect Drinking Water",
+      "description": "NASA is helping communities safeguard one of their most essential resources: clean water. When wildfires burn through forests, \texcessive sediment and potential contaminants can enter local waterways and overwhelm downstream treatment plants. NASA satellites provide critical data to track post-fire impacts on watersheds by mapping vulnerable areas for faster response.",
+      "release_date": "2025-09-15T12:00:00-04:00",
+      "update_date": "2025-09-15T16:21:53.427078-04:00",
+      "main_image": {
+        "id": 1158206,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060002/EIC_WaterResources_Image_preview.png",
+        "filename": "EIC_WaterResources_Image_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1886,
+        "height": 1080,
+        "pixels": 2036880
+      }
+    },
+    {
+      "id": 60001,
+      "url": "http://svs.gsfc.nasa.gov/60001/",
+      "page_type": "Produced Video",
+      "title": "NASA Mapping Critical Minerals",
+      "description": "The Geological Earth Mapping Experiment (GEMx) is a joint effort between NASA and the U.S. Geological Survey (USGS) to advance our knowledge of critical mineral resources in the Western United States. In September 2023, NASA aircraft began supporting an effort to find and map critical mineral deposits in Western regions of the U.S. Identifying these minerals  could help improve environmental processes for mining and geological activities, enhance national security, and boost the economy.",
+      "release_date": "2025-09-11T15:00:00-04:00",
+      "update_date": "2025-10-24T13:33:24.652706-04:00",
+      "main_image": {
+        "id": 1158159,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060001/EIC_CriticalMinerals_Image_3840x1080.png",
+        "filename": "EIC_CriticalMinerals_Image_3840x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 3840,
+        "height": 1080,
+        "pixels": 4147200
+      }
+    },
+    {
+      "id": 14700,
+      "url": "http://svs.gsfc.nasa.gov/14700/",
+      "page_type": "Produced Video",
+      "title": "NASA + The Smithsonian: Biodiversity",
+      "description": "Biodiverse ecosystems need protection. Through fieldwork, coordination with local partners, and satellite observations, NASA and the Smithsonian are working hard to protect them. Using NASA Earth science satellite and other data, the Goodall Institute puts imagery and data into the hands of local communities to drive conservation efforts. The Scimitar-horned oryx went from extinct in the wild to endangered in the wild thanks to the Smithsonian’s work with partners to re-introduce the species.",
+      "release_date": "2024-10-08T10:00:00-04:00",
+      "update_date": "2025-06-16T09:11:07.773462-04:00",
+      "main_image": {
+        "id": 1102583,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014700/Screenshot_2024-10-03_at_11.46.44_AM.png",
+        "filename": "Screenshot_2024-10-03_at_11.46.44_AM.png",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Full 8K resolution. Optimized for Earth Information Center display.Music Credit: “Lion Track,” “Atmospheres Instrumental,” and “Fast Progress Instrumental” from Universal Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Sahara Conservation and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1908,
+        "height": 532,
+        "pixels": 1015056
+      }
+    },
+    {
+      "id": 14696,
+      "url": "http://svs.gsfc.nasa.gov/14696/",
+      "page_type": "Produced Video",
+      "title": "NASA + Smithsonian and Greenhouse Gases",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel. || Smithsonian_GHG.png (3825x1076) [2.8 MB] || Smithsonian_GHG_searchweb.png (320x180) [63.7 KB] || Smithsonian_GHG_thm.png (80x40) [6.2 KB] || GHG_Smithsonian.en_US.srt [5.8 KB] || GHG_Smithsonian.en_US.vtt [5.5 KB] || Smithsonian_GHG_v5_small.mp4 (7680x2160) [472.3 MB] || Smithsonian_GHG_v5_medium.mp4 (7680x2160) [859.9 MB] || Smithsonian_GHG_v5_h.264.mp4 (7680x2160) [4.5 GB] || ",
+      "release_date": "2024-10-08T00:00:00-04:00",
+      "update_date": "2024-10-08T17:35:56-04:00",
+      "main_image": {
+        "id": 1100888,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png",
+        "filename": "Smithsonian_GHG_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    },
+    {
+      "id": 14606,
+      "url": "http://svs.gsfc.nasa.gov/14606/",
+      "page_type": "Produced Video",
+      "title": "NASA and Fire",
+      "description": "Wildland fires, which are natural and essential for many ecosystems, have increased in frequency and size due to longer fire seasons, climate change, and the expanding interface between communities and wild vegetation. Using fire strategically—through prescribed burns and natural ignitions—can mitigate future severe fires that might burn more intensely under hotter, drier conditions.",
+      "release_date": "2024-07-29T15:00:00-04:00",
+      "update_date": "2025-09-15T17:43:50.308847-04:00",
+      "main_image": {
+        "id": 1158279,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_Image_4K.jpg",
+        "filename": "EIC_NASAandFire_Main_Image_4K.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+        "width": 3840,
+        "height": 1080,
+        "pixels": 4147200
+      }
+    },
+    {
+      "id": 14507,
+      "url": "http://svs.gsfc.nasa.gov/14507/",
+      "page_type": "Produced Video",
+      "title": "NASA Joins the Jane Goodall Institute to Conserve Chimpanzee Habitat, Earth Information Center Videos",
+      "description": "After years of forest loss, chimpanzee habitats are recovering. This is, in part, due to a collaboration between NASA and the Jane Goodall Institute (JGI). Using NASA Earth science satellite and other data, the Goodall Institute puts data into the hands of local communities to drive conservation across Africa’s equatorial forest belt.",
+      "release_date": "2024-04-18T08:40:00-04:00",
+      "update_date": "2025-09-16T09:59:40.488223-04:00",
+      "main_image": {
+        "id": 1091072,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+        "filename": "JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 14367,
+      "url": "http://svs.gsfc.nasa.gov/14367/",
+      "page_type": "Produced Video",
+      "title": "NASA and Agriculture",
+      "description": "Feeding a Hungry World The farmers responsible for the food that reaches your plate need a lot of a very precious and limited resource, water. NASA works with farmers like Dwane Roth of Kansas to help them track their water use. Roth says that farmers like him are seeing more frequent, hotter days with less rain. “We need to grow more with less and get as much out of each drop of water we can,” he says. NASA helps to promote the use of Earth observations to strengthen food security.",
+      "release_date": "2023-06-15T16:00:00-04:00",
+      "update_date": "2025-05-29T11:20:21.421872-04:00",
+      "main_image": {
+        "id": 855994,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+        "filename": "0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": 5221,
+      "url": "http://svs.gsfc.nasa.gov/5221/",
+      "page_type": "Visualization",
+      "title": "Global Mean Sea Level 1993-2023",
+      "description": "This animation shows the rise in global mean sea level from 1993 to 2023 based on data from a series of five international satellites. The spike in sea level from 2022 to 2023 is mostly a consequence of climate change and the development of El Niño conditions in the Pacific Ocean. || seaLevelRise_2024_English.00405_print.jpg (1024x576) [188.5 KB] || seaLevelRise_2024_English.00405_web.png (320x180) [54.4 KB] || seaLevelRise_2024_English.00405_thm.png (80x40) [5.1 KB] || seaLevel_Curves_2024_English.00405_searchweb.png (320x180) [41.9 KB] || English (3840x2160) [0 Item(s)] || seaLevelRise_2024_English.mp4 (3840x2160) [45.0 MB] || Climate-dashboard.hwshow [1.6 KB] || ",
+      "release_date": "2024-03-21T12:00:00-04:00",
+      "update_date": "2025-03-16T23:08:01.166105-04:00",
+      "main_image": {
+        "id": 1089324,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005221/seaLevel_Curves_2024_English.00405_print.jpg",
+        "filename": "seaLevel_Curves_2024_English.00405_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Global Mean Sea Level  variations from 1993 to 2023 computed at the NASA Goddard Space Flight Center under the auspices of the NASA Sea Level Change program. The GMSL was generated using the Integrated Multi-Mission Ocean Altimeter Data for Climate Research. It combines Sea Surface Heights from the TOPEX/Poseidon, Jason-1, OSTM/Jason-2, Jason-3, and Sentinel-6 Michael Freilich missions.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5235,
+      "url": "http://svs.gsfc.nasa.gov/5235/",
+      "page_type": "Visualization",
+      "title": "Sea Level Through a Porthole (2023)",
+      "description": "As the planet warms and polar ice melts, our global average sea level is rising. Although exact ocean heights vary due to local geography, climate over time, and dynamic fluid interactions with gravity and planetary rotation, scientists observe sea level trends by comparing measurements against a 20 year spatial and temporal mean reference. These visualizations use the visual metaphor of a submerged porthole window to observe how far our oceans rose between 1993 and 2023. || ",
+      "release_date": "2024-03-21T12:00:00-04:00",
+      "update_date": "2025-03-21T13:59:52.409818-04:00",
+      "main_image": {
+        "id": 1089959,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005235/seaLevelWaveTank_noWW_3-5-2024a_wavetank.01500_print.jpg",
+        "filename": "seaLevelWaveTank_noWW_3-5-2024a_wavetank.01500_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization is the same as above, but without the circular window.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5207,
+      "url": "http://svs.gsfc.nasa.gov/5207/",
+      "page_type": "Visualization",
+      "title": "Global Temperature Anomalies from 1880 to 2023",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023. || 2023GISTEMP_Map.00899_print.jpg (1024x576) [138.7 KB] || 2023GISTEMP_Map.00899_searchweb.png (320x180) [66.6 KB] || 2023GISTEMP_Map.00899_thm.png (80x40) [6.4 KB] || 2023GISTEMP_Map.00899_web.png (320x180) [65.9 KB] || 2023GISTEMP_Map_HD.mp4 (1920x1080) [57.2 MB] || 3840x2160_16x9_30p (3840x2160) [0 Item(s)] || 2023GISTEMP_Map.mp4 (3840x2160) [114.3 MB] || earth_observations_5x3.hwshow || ",
+      "release_date": "2024-01-12T11:00:00-05:00",
+      "update_date": "2025-01-08T13:56:34-05:00",
+      "main_image": {
+        "id": 1088347,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map.00899_print.jpg",
+        "filename": "2023GISTEMP_Map.00899_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

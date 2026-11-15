@@ -1,0 +1,590 @@
+{
+  "id": 14568,
+  "url": "http://svs.gsfc.nasa.gov/14568/",
+  "page_type": "Produced Video",
+  "title": "Tracking the Greenhouse Gas Methane, Earth Information Center Videos",
+  "description": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html || GHGMain.png (7680x2160) [5.4 MB] || GHGMain_print.jpg (1024x288) [68.0 KB] || GHGMain_searchweb.png (320x180) [64.0 KB] || GHGMain_thm.png (80x40) [6.8 KB] || GHG.en_US.srt [4.0 KB] || GHG.en_US.vtt [3.8 KB] || GHG_Main_7680x2160.mp4 (7680x2160) [586.6 MB] || GHG_Main.mp4 (7680x2160) [1.1 GB] || GHG_Main_h.264.mov (7680x2160) [1.1 GB] || ",
+  "release_date": "2024-04-18T00:00:00-04:00",
+  "update_date": "2024-11-17T23:29:39.213467-05:00",
+  "main_image": {
+    "id": 1091163,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGMain_print.jpg",
+    "filename": "GHGMain_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+    "width": 1024,
+    "height": 288,
+    "pixels": 294912
+  },
+  "main_video": null,
+  "main_credits": {
+    "Produced by": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }],
+    "Scientific consulting by": [{ "name": "Lesley Ott", "employer": "NASA/GSFC" }],
+    "Visualizations by": [{ "name": "Helen-Nicole Kostis", "employer": "USRA" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 373935,
+      "url": "http://svs.gsfc.nasa.gov/14568/#media_group_373935",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.<p><p>Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, <p><p>This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit <a href=\"https://www.nasa.gov/multimedia/guidelines/index.html\">https://www.nasa.gov/multimedia/guidelines/index.html</a>",
+      "items": [
+        {
+          "id": 424982,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091162,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGMain.png",
+            "filename": "GHGMain.png",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 424983,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091163,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGMain_print.jpg",
+            "filename": "GHGMain_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 1024,
+            "height": 288,
+            "pixels": 294912
+          }
+        },
+        {
+          "id": 424984,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091164,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGMain_searchweb.png",
+            "filename": "GHGMain_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 424985,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091165,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGMain_thm.png",
+            "filename": "GHGMain_thm.png",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 424978,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091158,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHG.en_US.srt",
+            "filename": "GHG.en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 424979,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091159,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHG.en_US.vtt",
+            "filename": "GHG.en_US.vtt",
+            "media_type": "Captions",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 424976,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091156,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHG_Main.mp4",
+            "filename": "GHG_Main.mp4",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 424977,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091157,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHG_Main_h.264.mov",
+            "filename": "GHG_Main_h.264.mov",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 424987,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091167,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHG_Main_7680x2160.mp4",
+            "filename": "GHG_Main_7680x2160.mp4",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373910,
+      "url": "http://svs.gsfc.nasa.gov/14568/#media_group_373910",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "NASA data is changing the way the landfills are operated and monitored.<br>\r<br>Landfills are necessary part of waste management in the United States. With over 2,600 landfills throughout the country however, the amount of methane emitted from these sources is immense, even outpacing oil and gas in some regions.  The Environmental Protection Agency (EPA) is now using NASA data for monitoring and enforcing the Clean Air Act established in 2020.  This is a pivotal moment for the EPA as new data and technology, led by NASA, is revolutionizing how the agency does its job.<br>\r<br>With new data from NASA (EMIT, AVIRIS), the EPA is better able to identify the biggest landfill emitters that are out of compliance, prioritize action, and enforce regulations that help keep our air clean and our climate in balance. The landfill industry is taking notice. Some operators are taking action to build better infrastructure that keeps them in compliance and saves them money in the long run. <br>\r<br>Methane emissions from landfills is equivalent to nearly 23 million gasoline-powered vehicles driven for one year.  Not only does methane mitigation help the climate, it also has health and financial benefits.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 373936,
+      "url": "http://svs.gsfc.nasa.gov/14568/#media_group_373936",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Left circle display video.",
+      "items": [
+        {
+          "id": 424980,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091160,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGLeftPanel.png",
+            "filename": "GHGLeftPanel.png",
+            "media_type": "Image",
+            "alt_text": "Left circle display video.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 424996,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091179,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGLeftPanel.mp4",
+            "filename": "GHGLeftPanel.mp4",
+            "media_type": "Movie",
+            "alt_text": "Left circle display video.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 424997,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091180,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGLeftPanel_h264.mov",
+            "filename": "GHGLeftPanel_h264.mov",
+            "media_type": "Movie",
+            "alt_text": "Left circle display video.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373937,
+      "url": "http://svs.gsfc.nasa.gov/14568/#media_group_373937",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Right circle display video.",
+      "items": [
+        {
+          "id": 424981,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091161,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGRightPanel.png",
+            "filename": "GHGRightPanel.png",
+            "media_type": "Image",
+            "alt_text": "Right circle display video.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 424998,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091181,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGRightPanel.mp4",
+            "filename": "GHGRightPanel.mp4",
+            "media_type": "Movie",
+            "alt_text": "Right circle display video.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 424999,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1091182,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGRightPanel_h264.mov",
+            "filename": "GHGRightPanel_h264.mov",
+            "media_type": "Movie",
+            "alt_text": "Right circle display video.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["PAO"],
+  "credits": [
+    { "role": "Producer", "people": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }] },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Lesley Ott", "employer": "NASA/GSFC" },
+        { "name": "Susan Thorneloe", "employer": "U.S. Environmental Protection Agency (EPA)" }
+      ]
+    },
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" },
+        { "name": "AJ Christensen", "employer": "SSAI" },
+        { "name": "Mark SubbaRao", "employer": "NASA/GSFC" },
+        { "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." },
+        { "name": "Zoey N. Armstrong", "employer": "Navteca, LLC." }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Brenda Lopez-Silva", "employer": "SSAI" },
+        { "name": "Michael Chyatte", "employer": "ADNET Systems Inc." },
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    },
+    {
+      "role": "Public affairs officer",
+      "people": [{ "name": "Aries Keck", "employer": "ADNET Systems, Inc." }]
+    }
+  ],
+  "missions": [],
+  "series": ["Narrated Movies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Atmosphere",
+    "Earth Information Center",
+    "Earth Science",
+    "Greenhouse Gases",
+    "Hyperwall"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 5389,
+      "url": "http://svs.gsfc.nasa.gov/5389/",
+      "page_type": "Visualization",
+      "title": "Tracking methane with EMIT and AVIRIS-3",
+      "description": "Methane plumes can now be detected using the airborne AVIRIS-3 spectrometer in addition to EMIT on the International Space Station.",
+      "release_date": "2024-11-14T00:00:00-05:00",
+      "update_date": "2024-11-19T15:14:39.511245-05:00",
+      "main_image": {
+        "id": 1138836,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005389/AVIRIS_NewMexico_100823_1920x1080.jpg",
+        "filename": "AVIRIS_NewMexico_100823_1920x1080.jpg",
+        "media_type": "Image",
+        "alt_text": "Methane plume detected by airborne AVIRIS-3 spectrometer.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 14696,
+      "url": "http://svs.gsfc.nasa.gov/14696/",
+      "page_type": "Produced Video",
+      "title": "NASA + Smithsonian and Greenhouse Gases",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel. || Smithsonian_GHG.png (3825x1076) [2.8 MB] || Smithsonian_GHG_searchweb.png (320x180) [63.7 KB] || Smithsonian_GHG_thm.png (80x40) [6.2 KB] || GHG_Smithsonian.en_US.srt [5.8 KB] || GHG_Smithsonian.en_US.vtt [5.5 KB] || Smithsonian_GHG_v5_small.mp4 (7680x2160) [472.3 MB] || Smithsonian_GHG_v5_medium.mp4 (7680x2160) [859.9 MB] || Smithsonian_GHG_v5_h.264.mp4 (7680x2160) [4.5 GB] || ",
+      "release_date": "2024-10-08T00:00:00-04:00",
+      "update_date": "2024-10-08T17:35:56-04:00",
+      "main_image": {
+        "id": 1100888,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png",
+        "filename": "Smithsonian_GHG_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": 5360,
+      "url": "http://svs.gsfc.nasa.gov/5360/",
+      "page_type": "Visualization",
+      "title": "Global Methane Emissions",
+      "description": "Spinning globe showing global methane emissions in magenta. || newemit_spinning_globe_v16.1440_print.jpg (1024x576) [73.5 KB] || newemit_spinning_globe_v16.1440_searchweb.png (320x180) [33.5 KB] || newemit_spinning_globe_v16.1440_thm.png (80x40) [5.6 KB] || newemit_spinning_globe_v16_1080p30.mp4 (1920x1080) [9.7 MB] || 1920x1080_16x9_30p [0 Item(s)] || ",
+      "release_date": "2024-08-21T00:00:00-04:00",
+      "update_date": "2024-09-04T14:29:56.732088-04:00",
+      "main_image": {
+        "id": 1097926,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005360/newemit_spinning_globe_v16.1440_print.jpg",
+        "filename": "newemit_spinning_globe_v16.1440_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Spinning globe showing global methane emissions in magenta. ",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5272,
+      "url": "http://svs.gsfc.nasa.gov/5272/",
+      "page_type": "Visualization",
+      "title": "Methane plumes detected by EMIT Space Mission",
+      "description": "The Earth Surface Mineral Dust Source Investigation (EMIT) mission uses an imaging spectrometer to detect the unique pattern of reflected and absorbed light – called a spectral fingerprint – from various materials on Earth's surface and in its atmosphere. Perched on the International Space Station, EMIT was originally intended to map the prevalence of minerals in Earth's arid regions, such as the deserts of Africa and Australia. Scientists verified that EMIT could also detect the spectral fingerprints of methane and carbon dioxide which enables mapping of emissions from the energy, waste, and agriculture sectors. || ",
+      "release_date": "2024-05-21T08:00:00-04:00",
+      "update_date": "2024-09-17T10:43:40.204188-04:00",
+      "main_image": {
+        "id": 1092449,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005272/California_3840x2160_print.jpg",
+        "filename": "California_3840x2160_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A region of enhanced methane is visible near Modesto, California. This version of the data visualization includes location label.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5273,
+      "url": "http://svs.gsfc.nasa.gov/5273/",
+      "page_type": "Visualization",
+      "title": "Atmospheric Carbon Dioxide Tagged by Source for Science-on-a-Sphere",
+      "description": "Carbon dioxide (CO2) is the most prevalent greenhouse gas driving global climate change. However, its increase in the atmosphere would be even more rapid without land and ocean carbon sinks, which collectively absorb about half of human emissions every year. Advanced computer modeling techniques in NASA's Global Modeling and Assimilation Office allow us to disentangle the influences of sources and sinks and to better understand where carbon is coming from and going to.",
+      "release_date": "2024-04-22T00:00:00-04:00",
+      "update_date": "2025-07-09T17:25:19.927673-04:00",
+      "main_image": {
+        "id": 1091430,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005273/SOS_TaggedCO2_10-6-2023a_co2_foursources_quality_ScienceOnASphere_copied.00001_print.jpg",
+        "filename": "SOS_TaggedCO2_10-6-2023a_co2_foursources_quality_ScienceOnASphere_copied.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 5121,
+      "url": "http://svs.gsfc.nasa.gov/5121/",
+      "page_type": "Visualization",
+      "title": "ODIAC: a map of human made carbon dioxide emissions",
+      "description": "ODIAC (Open-source Data Inventory for Anthropogenic CO2) map for December 2021. || odiac_2023_2160p60.00001_print.jpg (1024x1024) [310.4 KB] || odiac_2023_2160p60.00001_searchweb.png (320x180) [64.3 KB] || odiac_2023_2160p60.00001_thm.png (80x40) [5.2 KB] || 2160x2160_1x1_60p (2160x2160) [0 Item(s)] || odiac_2023_2160p60.mp4 (2160x2160) [126.7 MB] ||",
+      "release_date": "2023-06-30T00:00:00-04:00",
+      "update_date": "2025-05-29T14:20:05.512646-04:00",
+      "main_image": {
+        "id": 856383,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005121/odiac_2023_2160p60.00001_print.jpg",
+        "filename": "odiac_2023_2160p60.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "ODIAC (Open-source Data Inventory for Anthropogenic CO2) map for December 2021.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5118,
+      "url": "http://svs.gsfc.nasa.gov/5118/",
+      "page_type": "Visualization",
+      "title": "Trends in atmospheric Methane (CH₄)",
+      "description": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022. || CH4Trends_1920x1080p30.00900_print.jpg (1024x576) [64.5 KB] || CH4Trends_1920x1080p30.00900.png (1920x1080) [766.2 KB] || CH4Trends_1920x1080p30.00900_searchweb.png (320x180) [26.3 KB] || CH4Trends_1920x1080p30.00900_thm.png (80x40) [3.5 KB] || CH4_Trends_1920x1080.mp4 (1920x1080) [4.4 MB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || CH4Trends_1920x1080p30.00900.exr (1920x1080) [1.7 MB] || ",
+      "release_date": "2023-06-20T22:00:00-04:00",
+      "update_date": "2025-06-23T00:15:56.469642-04:00",
+      "main_image": {
+        "id": 856225,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4Trends_1920x1080p30.00900.png",
+        "filename": "CH4Trends_1920x1080p30.00900.png",
+        "media_type": "Image",
+        "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5116,
+      "url": "http://svs.gsfc.nasa.gov/5116/",
+      "page_type": "Visualization",
+      "title": "Global Atmospheric Methane (CH₄)",
+      "description": "Volumetric visualization of the total Methane (CH₄) on a global scale added on Earth's atmosphere over the course of the year 2021. || TotalCH4_Comp_1920x19020p30_00080.png (1920x1920) [2.5 MB] || TotalCH4_Comp_1920x19020p30_00080_print.jpg (1024x1024) [114.9 KB] || VolumetricCH4_Composite (1920x1920) [0 Item(s)] || VolumetricCH4_Composite_1920x19020p30.mp4 (1920x1920) [353.5 MB] || ",
+      "release_date": "2023-06-20T16:00:00-04:00",
+      "update_date": "2025-03-16T23:03:25.999759-04:00",
+      "main_image": {
+        "id": 856165,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005116/TotalCH4_Volume_1920x1920.00080.png",
+        "filename": "TotalCH4_Volume_1920x1920.00080.png",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the total methane on a global scale added on Earth's atmosphere over the course of the year 2021.",
+        "width": 1920,
+        "height": 1920,
+        "pixels": 3686400
+      }
+    },
+    {
+      "id": 5115,
+      "url": "http://svs.gsfc.nasa.gov/5115/",
+      "page_type": "Visualization",
+      "title": "Global Atmospheric Carbon Dioxide (CO₂)",
+      "description": "Volumetric visualization of the total carbon dioxide (CO₂) on a global scale added on Earth's atmosphere over the course of the year 2021. || TotalCO2_Comp_1920x1920p30_00080.png (1920x1920) [3.2 MB] || TotalCO2_Comp_1920x1920p30_00080_print.jpg (1024x1024) [168.5 KB] || VolumetricCO2_Composite (1920x1920) [0 Item(s)] || VolumetricCO2_Composite_1920x1920p30.mp4 (1920x1920) [806.2 MB] || ",
+      "release_date": "2023-06-20T15:00:00-04:00",
+      "update_date": "2025-01-15T10:57:49-05:00",
+      "main_image": {
+        "id": 856146,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005115/TotalCO2_Volume_1920x1920.00080.png",
+        "filename": "TotalCO2_Volume_1920x1920.00080.png",
+        "media_type": "Image",
+        "alt_text": "Visualization of the total carbon dioxide (CO₂) on a global scale added on Earth's atmosphere over the course of the year 2021 (without the timeline).",
+        "width": 1920,
+        "height": 1920,
+        "pixels": 3686400
+      }
+    },
+    {
+      "id": 5110,
+      "url": "http://svs.gsfc.nasa.gov/5110/",
+      "page_type": "Visualization",
+      "title": "Atmospheric Carbon Dioxide Tagged by Source",
+      "description": "Carbon dioxide (CO2) is the most prevalent greenhouse gas driving global climate change. However, its increase in the atmosphere would be even more rapid without land and ocean carbon sinks, which collectively absorb about half of human emissions every year.  Advanced computer modeling techniques in NASA's Global Modeling and Assimilation Office allow us to disentangle the influences of sources and sinks and to better understand where carbon is coming from and going to. ||",
+      "release_date": "2023-06-16T10:00:00-04:00",
+      "update_date": "2026-01-05T15:47:43.308683-05:00",
+      "main_image": {
+        "id": 859342,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2explainer_1080p30.00740_print.jpg",
+        "filename": "CO2explainer_1080p30.00740_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5041,
+      "url": "http://svs.gsfc.nasa.gov/5041/",
+      "page_type": "Visualization",
+      "title": "Methane Emissions in the United States",
+      "description": "2012 methane emissions across the United States. || ch4_epa_sq_2022-11-14_1335.00100_print.jpg (1024x1024) [191.2 KB] || ch4_epa_sq_2022-11-14_1335.00100_searchweb.png (180x320) [57.3 KB] || ch4_epa_sq_2022-11-14_1335.00100_thm.png (80x40) [4.5 KB] || ch4_epa_sq_2022-11-14_1335.mp4 (2160x2160) [23.8 MB] || ch4_epa_sq_2022-11-14_1335.webm (2160x2160) [5.0 MB] || ",
+      "release_date": "2022-12-01T00:00:00-05:00",
+      "update_date": "2024-11-19T00:21:33.616388-05:00",
+      "main_image": {
+        "id": 368018,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005041/ch4_epa_sq_2022-11-14_1335.00100_print.jpg",
+        "filename": "ch4_epa_sq_2022-11-14_1335.00100_print.jpg",
+        "media_type": "Image",
+        "alt_text": "2012 methane emissions across the United States.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    }
+  ],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

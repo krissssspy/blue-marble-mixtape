@@ -1,0 +1,416 @@
+{
+  "id": 3967,
+  "url": "http://svs.gsfc.nasa.gov/3967/",
+  "page_type": "Visualization",
+  "title": "Deforestation in Rondonia, Brazil",
+  "description": "In this animation of images from 1975 until 2012, acquired by the Landsat 5 and 7 satellites, enormous tracts of Amazonian forest disappear in Rondonia, a state in Western Brazil.Deforestation in Rondonia in the 1970s until the 1990s had a distinctive \"fishbone\" pattern. Access to this remote region began with a major road cutting through the dense tropical forest, opening up new territory for small farms and ranches. Then, other roads developed at right angles to the initial road. In this visualization, these roads shoot off a stretch of the main \"backbone\" road for about 31 miles (~50 kilometers) long, each secondary road branching off about every 2.5 (~4 kilometers). This creates the \"fishbone\" pattern. Even with the deforestation, Brazil is still home to more than a quarter of Earth's tropical forests. In addition to their astounding biodiversity, these forests act as a major carbon \"sink.\" These are places where carbon dioxide in the atmosphere is absorbed by living things, like trees and plants, and thus the carbon is said to be trapped or sequestered. With increasing carbon dioxide levels around the world, the ability of these forests to hold onto carbon has beneficial implications for stabilizing the world's climate.NASA and the U.S. Department of the Interior through the U.S. Geological Survey (USGS) jointly manage Landsat, and the USGS preserves a 40-year archive of Landsat images that is freely available over the Internet. The next Landsat satellite, now known as the Landsat Data Continuity Mission (LDCM) and later to be called Landsat 8, is scheduled for launch in 2013. || ",
+  "release_date": "2012-07-23T00:00:00-04:00",
+  "update_date": "2024-10-09T00:02:25.574260-04:00",
+  "main_image": {
+    "id": 474261,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia-2005.png",
+    "filename": "Rondonia-2005.png",
+    "media_type": "Image",
+    "alt_text": "Rondonia deforestation with dates",
+    "width": 320,
+    "height": 180,
+    "pixels": 57600
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [
+      {
+        "name": "Trent L. Schindler",
+        "employer": "USRA"
+      }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 348575,
+      "url": "http://svs.gsfc.nasa.gov/3967/#media_group_348575",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "In this animation of images from 1975 until 2012, acquired by the Landsat 5 and 7 satellites, enormous tracts of Amazonian forest disappear in Rondonia, a state in Western Brazil.<p><p>Deforestation in Rondonia in the 1970s until the 1990s had a distinctive \"fishbone\" pattern. Access to this remote region began with a major road cutting through the dense tropical forest, opening up new territory for small farms and ranches. Then, other roads developed at right angles to the initial road. In this visualization, these roads shoot off a stretch of the main \"backbone\" road for about 31 miles (~50 kilometers) long, each secondary road branching off about every 2.5 (~4 kilometers). This creates the \"fishbone\" pattern. <p><p>Even with the deforestation, Brazil is still home to more than a quarter of Earth's tropical forests. In addition to their astounding biodiversity, these forests act as a major carbon \"sink.\" These are places where carbon dioxide in the atmosphere is absorbed by living things, like trees and plants, and thus the carbon is said to be trapped or sequestered. With increasing carbon dioxide levels around the world, the ability of these forests to hold onto carbon has beneficial implications for stabilizing the world's climate.<p><p>NASA and the U.S. Department of the Interior through the U.S. Geological Survey (USGS) jointly manage Landsat, and the USGS preserves a 40-year archive of Landsat images that is freely available over the Internet. The next Landsat satellite, now known as the Landsat Data Continuity Mission (LDCM) and later to be called Landsat 8, is scheduled for launch in 2013.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 348576,
+      "url": "http://svs.gsfc.nasa.gov/3967/#media_group_348576",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Rondonia deforestation with dates",
+      "items": [
+        {
+          "id": 318677,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474262,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/rondonia.0330.jpg",
+            "filename": "rondonia.0330.jpg",
+            "media_type": "Image",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 318674,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474261,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia-2005.png",
+            "filename": "Rondonia-2005.png",
+            "media_type": "Image",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 318675,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474251,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia-2005_thm.png",
+            "filename": "Rondonia-2005_thm.png",
+            "media_type": "Image",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 318664,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474252,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/rondonia_deforestation.mp4",
+            "filename": "rondonia_deforestation.mp4",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 318665,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474253,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/rondonia_deforestation_medium.mp4",
+            "filename": "rondonia_deforestation_medium.mp4",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 318667,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474255,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia_1975-2011_MASTER_1280x720.wmv",
+            "filename": "Rondonia_1975-2011_MASTER_1280x720.wmv",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 318669,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474257,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia_1975-2011_MASTER_appletv.m4v",
+            "filename": "Rondonia_1975-2011_MASTER_appletv.m4v",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 318672,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474260,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia_1975-2011_MASTER_youtube_hq.mov",
+            "filename": "Rondonia_1975-2011_MASTER_youtube_hq.mov",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 318673,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474250,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/frames/1920x1080_16x9_30p/",
+            "filename": "1920x1080_16x9_30p",
+            "media_type": "Frames",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 318676,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474263,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/rondonia_deforestation.webmhd.webm",
+            "filename": "rondonia_deforestation.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 318666,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474254,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia_1975-2011_MASTER.mov",
+            "filename": "Rondonia_1975-2011_MASTER.mov",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 640,
+            "height": 360,
+            "pixels": 230400
+          }
+        },
+        {
+          "id": 318668,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474256,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia_1975-2011_MASTER_720x480.wmv",
+            "filename": "Rondonia_1975-2011_MASTER_720x480.wmv",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 720,
+            "height": 480,
+            "pixels": 345600
+          }
+        },
+        {
+          "id": 318670,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474258,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia_1975-2011_MASTER_ipod_sm.mp4",
+            "filename": "Rondonia_1975-2011_MASTER_ipod_sm.mp4",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 320,
+            "height": 240,
+            "pixels": 76800
+          }
+        },
+        {
+          "id": 318671,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 474259,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia_1975-2011_MASTER_prores.mov",
+            "filename": "Rondonia_1975-2011_MASTER_prores.mov",
+            "media_type": "Movie",
+            "alt_text": "Rondonia deforestation with dates",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 440611,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1102177,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/Rondonia_1975-2011_MASTER.hwshow",
+            "filename": "Rondonia_1975-2011_MASTER.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Animator",
+      "people": [
+        {
+          "name": "Trent L. Schindler",
+          "employer": "USRA"
+        },
+        {
+          "name": "Alex Kekesi",
+          "employer": "Global Science and Technology, Inc."
+        },
+        {
+          "name": "Horace Mitchell",
+          "employer": "NASA/GSFC"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Matthew R. Radcliff",
+          "employer": "USRA"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Aries Keck",
+          "employer": "ADNET Systems, Inc."
+        }
+      ]
+    }
+  ],
+  "missions": ["Landsat", "Terra"],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "Landsat",
+      "sensor": null,
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "Blue Marble Land Cover",
+      "common_name": "",
+      "platform": "Terra and Aqua",
+      "sensor": "MODIS",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "The Blue Marble data is courtesy of Reto Stockli (NASA/GSFC).",
+      "url": "",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Brazil",
+    "Deforestation",
+    "Earth Science",
+    "Habitat Conversion/fragmentation",
+    "HDTV",
+    "Human Dimensions",
+    "Hyperwall",
+    "Landsat",
+    "Location",
+    "Rainforest"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 11061,
+      "url": "http://svs.gsfc.nasa.gov/11061/",
+      "page_type": "Produced Video",
+      "title": "Fishbone Forest",
+      "description": "In the rain forest of Rondonia in western Brazil, deforestation has cut a unique fishbone pattern into the landscape that is visible from space. Beginning in the 1970s, farmers and ranchers began to clear land that branched off one main road. As new roads penetrated deeper into the forest, the continued clearing ultimately left a number of orthogonal scars running through the lush canopy. The many forest edges created by this crosshatching fragment the ecosystem and negatively impact biodiversity, even more so than logging that clear-cuts habitat. By the 2000s, connected deforested areas created open spaces now used as farmland and pastures. The visualization shows images of the rain forest captured by USGS-NASA Landsat satellites from 1975 to 2012. || ",
+      "release_date": "2012-08-16T00:00:00-04:00",
+      "update_date": "2023-05-03T13:52:50.911527-04:00",
+      "main_image": {
+        "id": 473721,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011000/a011061/Rondonia_2000B_1024x576.jpg",
+        "filename": "Rondonia_2000B_1024x576.jpg",
+        "media_type": "Image",
+        "alt_text": "Deforestation transforms Brazil's backcountry.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

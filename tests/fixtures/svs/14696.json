@@ -1,0 +1,587 @@
+{
+  "id": 14696,
+  "url": "http://svs.gsfc.nasa.gov/14696/",
+  "page_type": "Produced Video",
+  "title": "NASA + Smithsonian and Greenhouse Gases",
+  "description": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel. || Smithsonian_GHG.png (3825x1076) [2.8 MB] || Smithsonian_GHG_searchweb.png (320x180) [63.7 KB] || Smithsonian_GHG_thm.png (80x40) [6.2 KB] || GHG_Smithsonian.en_US.srt [5.8 KB] || GHG_Smithsonian.en_US.vtt [5.5 KB] || Smithsonian_GHG_v5_small.mp4 (7680x2160) [472.3 MB] || Smithsonian_GHG_v5_medium.mp4 (7680x2160) [859.9 MB] || Smithsonian_GHG_v5_h.264.mp4 (7680x2160) [4.5 GB] || ",
+  "release_date": "2024-10-08T00:00:00-04:00",
+  "update_date": "2024-10-08T17:35:56-04:00",
+  "main_image": {
+    "id": 1100888,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png",
+    "filename": "Smithsonian_GHG_searchweb.png",
+    "media_type": "Image",
+    "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+    "width": 320,
+    "height": 180,
+    "pixels": 57600
+  },
+  "main_video": null,
+  "main_credits": {
+    "Produced by": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }],
+    "Visualizations by": [{ "name": "Helen-Nicole Kostis", "employer": "USRA" }],
+    "Scientific consulting by": [
+      { "name": "Stuart Davies", "employer": "Smithsonian Forest Global Earth Observatory" },
+      { "name": "Helene Muller-Landau", "employer": "Smithsonian Tropical Research Institute" },
+      { "name": "Lesley Ott", "employer": "NASA/GSFC" }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 375932,
+      "url": "http://svs.gsfc.nasa.gov/14696/#media_group_375932",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).<p>\r<p>Universal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.<br>Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\r<p>This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit <a href=\"https://www.nasa.gov/multimedia/guidelines/index.html\">https://www.nasa.gov/multimedia/guidelines/index.html</a>\r<p><p><p><p><a href=\"/vis/a010000/a014600/a014696/script_37388_00.html\">Complete transcript</a> available.</p><p><p><b>Watch this video</b> on the <a href=\"https://www.youtube.com/watch?v=gz1JwUTL6dc\">NASA Scientific Visualization Studio YouTube channel.</a>",
+      "items": [
+        {
+          "id": 439221,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1100886,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG.png",
+            "filename": "Smithsonian_GHG.png",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+            "width": 3825,
+            "height": 1076,
+            "pixels": 4115700
+          }
+        },
+        {
+          "id": 439223,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1100888,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png",
+            "filename": "Smithsonian_GHG_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 439224,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1100889,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_thm.png",
+            "filename": "Smithsonian_GHG_thm.png",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 439225,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1100890,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/GHG_Smithsonian.en_US.srt",
+            "filename": "GHG_Smithsonian.en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 439226,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1100891,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/GHG_Smithsonian.en_US.vtt",
+            "filename": "GHG_Smithsonian.en_US.vtt",
+            "media_type": "Captions",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 439222,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1100887,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_v5_h.264.mp4",
+            "filename": "Smithsonian_GHG_v5_h.264.mp4",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 441041,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1102546,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_v5_medium.mp4",
+            "filename": "Smithsonian_GHG_v5_medium.mp4",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 441042,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1102547,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_v5_small.mp4",
+            "filename": "Smithsonian_GHG_v5_small.mp4",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376050,
+      "url": "http://svs.gsfc.nasa.gov/14696/#media_group_376050",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "NASA uses airborne and satellite data to look at how changes to forests impact carbon dioxide concentrations in the atmosphere. Smithsonian’s GEO-TREES initiative validates satellite observations with ground-based measurements of how much carbon is stored in forests’ trees and vegetation. GEO-TREES also works to bolster global investments in forest protection and restoration. Tracking carbon dioxide, and other greenhouse gases, and having a comprehensive understanding of how much carbon is stored in our planet’s diverse forests are both critical to monitoring our changing climate and its impacts.<br><br><U>About GEO-TREES</U><br>The GEO-TREES project is hosted at the Smithsonian Tropical Research Institute and relies on the support from and collaboration with network partners, including ForestGEO, FORESTPLOTS.net, TmFO, the Bezos Earth Fund, The Gordon and Betty Moore Foundation, the US National Science Foundation (NSF), the Group on Earth Observations (GEO), the Centre National D’Etudes Spatiales (CNES), France, the Centre National de la Recherche Scientifique (CNRS), France, the University of Leeds, UK, International Institute for Applied Systems Analysis (IASA), Austria, the U.S. National Aeronautics and Space Administration (NASA), OneForest, France, and the European Space Agency (ESA).",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 375931,
+      "url": "http://svs.gsfc.nasa.gov/14696/#media_group_375931",
+      "widget": "Basic text",
+      "title": "For More Information",
+      "caption": "",
+      "description": "See [Greenhouse Gases | earth.gov](https://earth.gov/stories/greenhouse_gases)",
+      "items": [],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Producer", "people": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }] },
+    { "role": "Writer", "people": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }] },
+    {
+      "role": "Director of photography",
+      "people": [{ "name": "Grace Weikert", "employer": "eMITS" }]
+    },
+    {
+      "role": "Videographer",
+      "people": [{ "name": "Ana Endara", "employer": "Smithsonian Tropical Research Institute" }]
+    },
+    { "role": "Editor", "people": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }] },
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" },
+        { "name": "AJ Christensen", "employer": "SSAI" },
+        { "name": "Kel Elkins", "employer": "USRA" },
+        { "name": "Mark SubbaRao", "employer": "NASA/GSFC" }
+      ]
+    },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Stuart Davies", "employer": "Smithsonian Forest Global Earth Observatory" },
+        { "name": "Helene Muller-Landau", "employer": "Smithsonian Tropical Research Institute" },
+        { "name": "Lesley Ott", "employer": "NASA/GSFC" },
+        { "name": "Daniel Zuleta", "employer": "Smithsonian Forest Global Earth Observatory" }
+      ]
+    },
+    {
+      "role": "Intern",
+      "people": [
+        { "name": "Luisa Fernanda Gómez", "employer": "Smithsonian Tropical Research Institute" }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Brenda Lopez-Silva", "employer": "SSAI" },
+        { "name": "Michael Chyatte", "employer": "ADNET Systems Inc." },
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    },
+    {
+      "role": "Support",
+      "people": [
+        { "name": "Jefferson Beck", "employer": "eMITS" },
+        { "name": "Kathleen Gaeta", "employer": "Advocates in Manpower Management, Inc." },
+        { "name": "Alex Gurvich", "employer": "NASA/GSFC" },
+        { "name": "Katie Jepson", "employer": "eMITS" },
+        { "name": "Aries Keck", "employer": "ADNET Systems, Inc." },
+        { "name": "Nicole Ramberg-Pihl", "employer": "SSAI" },
+        { "name": "Christyna Solhan", "employer": "Smithsonian Institution" },
+        { "name": "Eleanor Stokes", "employer": "NASA" }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": ["Narrated Movies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Atmosphere",
+    "Biomass",
+    "Carbon",
+    "Climate Change",
+    "Earth Science",
+    "Greenhouse Gases",
+    "Hyperwall",
+    "Smithsonian Institution"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 15108,
+      "url": "http://svs.gsfc.nasa.gov/15108/",
+      "page_type": "Produced Video",
+      "title": "EIC: Earth Science Technology Office",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.Music Credit:“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production MusicPretty Rocks Landslide courtesy of the National Park Service.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html || ESTO_Still2_print.jpg (1024x288) [100.0 KB] || ESTO_Still.png (7680x2160) [73.9 MB] || ESTO_Still_print.jpg (1024x288) [130.9 KB] || ESTO_Still2.png (7680x2160) [47.0 MB] || ESTO_Still_searchweb.png (320x180) [117.0 KB] || ESTO_Still_thm.png (80x40) [9.0 KB] || ESTO_FINAL.en_US.srt [3.7 KB] || ESTO_FINAL.en_US.vtt [3.5 KB] || ESTO_FINAL_Low.mp4 (7680x2160) [854.3 MB] || ESTO_FINAL_Medium.mp4 (7680x2160) [1.7 GB] || ESTO_FINAL.mp4 (7680x2160) [2.6 GB] || ESTO_FINAL.mov (7680x2160) [37.0 GB] || ",
+      "release_date": "9999-12-30T18:59:59-05:00",
+      "update_date": "2026-11-05T11:34:09-05:00",
+      "main_image": {
+        "id": 1206300,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015100/a015108/ESTO_Still_print.jpg",
+        "filename": "ESTO_Still_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\rMusic Credit:\r“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music\r“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music\r“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production Music\rPretty Rocks Landslide courtesy of the National Park Service.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html\r",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 14368,
+      "url": "http://svs.gsfc.nasa.gov/14368/",
+      "page_type": "Produced Video",
+      "title": "How NASA Observes Air Quality in DC",
+      "description": "16x9 version optimized for YouTube. Universal Production Music: Evolving Earth Underscore by James Carlin BakerThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available. || DC_AQ_MAIN_16x9.00030_print.jpg (1024x576) [51.5 KB] || DC_AQ_MAIN_16x9.00001_thm.png (80x40) [4.1 KB] || DC_AQ_MAIN_16x9.00030_searchweb.png (320x180) [49.2 KB] || AirQuality.en_US.srt [2.5 KB] || AirQuality.en_US.vtt [2.4 KB] || DC_AQ_MAIN_16x9.webm (3840x2160) [29.6 MB] || DC_AQ_MAIN_16x9.mp4 (3840x2160) [1.3 GB] || ",
+      "release_date": "2028-01-21T08:00:00-05:00",
+      "update_date": "2025-01-22T13:34:56.691126-05:00",
+      "main_image": {
+        "id": 855973,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014368/DC_AQ_MAIN_16x9.00030_print.jpg",
+        "filename": "DC_AQ_MAIN_16x9.00030_print.jpg",
+        "media_type": "Image",
+        "alt_text": "16x9 version optimized for YouTube. Universal Production Music: Evolving Earth Underscore by James Carlin BakerThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 60003,
+      "url": "http://svs.gsfc.nasa.gov/60003/",
+      "page_type": "Produced Video",
+      "title": "How NASA Data Stabilizes Global Markets",
+      "description": "By delivering timely, science-based insights from space, NASA supports smarter farming decisions and helps keep food prices more stable for consumers around the world.",
+      "release_date": "2025-09-15T16:00:00-04:00",
+      "update_date": "2025-09-15T16:21:36.722914-04:00",
+      "main_image": {
+        "id": 1158269,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060003/EIC_AgAndMarkets_preview.png",
+        "filename": "EIC_AgAndMarkets_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1080,
+        "height": 634,
+        "pixels": 684720
+      }
+    },
+    {
+      "id": 60002,
+      "url": "http://svs.gsfc.nasa.gov/60002/",
+      "page_type": "Produced Video",
+      "title": "NASA: Helping Communities Protect Drinking Water",
+      "description": "NASA is helping communities safeguard one of their most essential resources: clean water. When wildfires burn through forests, \texcessive sediment and potential contaminants can enter local waterways and overwhelm downstream treatment plants. NASA satellites provide critical data to track post-fire impacts on watersheds by mapping vulnerable areas for faster response.",
+      "release_date": "2025-09-15T12:00:00-04:00",
+      "update_date": "2025-09-15T16:21:53.427078-04:00",
+      "main_image": {
+        "id": 1158206,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060002/EIC_WaterResources_Image_preview.png",
+        "filename": "EIC_WaterResources_Image_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1886,
+        "height": 1080,
+        "pixels": 2036880
+      }
+    },
+    {
+      "id": 14713,
+      "url": "http://svs.gsfc.nasa.gov/14713/",
+      "page_type": "Produced Video",
+      "title": "Building Coastal Resilience with NASA Data",
+      "description": "The city of Mobile, AL is working with NASA’s Sea Level Change Team to plan for future infrastructure projects and to protect Mobile’s coastal resources. As sea levels change globally, coastal cities feel the effects of more frequent and more severe storms and flooding. NASA’s sea level change data helps Mobile and other coastal communities plan for a more resilient future.",
+      "release_date": "2025-01-07T00:30:59-05:00",
+      "update_date": "2025-09-15T21:55:55.202941-04:00",
+      "main_image": {
+        "id": 1139025,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_SeaLevelRise_2560x720.png",
+        "filename": "EIC_SeaLevelRise_2560x720.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 2560,
+        "height": 720,
+        "pixels": 1843200
+      }
+    },
+    {
+      "id": 14700,
+      "url": "http://svs.gsfc.nasa.gov/14700/",
+      "page_type": "Produced Video",
+      "title": "NASA + The Smithsonian: Biodiversity",
+      "description": "Biodiverse ecosystems need protection. Through fieldwork, coordination with local partners, and satellite observations, NASA and the Smithsonian are working hard to protect them. Using NASA Earth science satellite and other data, the Goodall Institute puts imagery and data into the hands of local communities to drive conservation efforts. The Scimitar-horned oryx went from extinct in the wild to endangered in the wild thanks to the Smithsonian’s work with partners to re-introduce the species.",
+      "release_date": "2024-10-08T10:00:00-04:00",
+      "update_date": "2025-06-16T09:11:07.773462-04:00",
+      "main_image": {
+        "id": 1102583,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014700/Screenshot_2024-10-03_at_11.46.44_AM.png",
+        "filename": "Screenshot_2024-10-03_at_11.46.44_AM.png",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Full 8K resolution. Optimized for Earth Information Center display.Music Credit: “Lion Track,” “Atmospheres Instrumental,” and “Fast Progress Instrumental” from Universal Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Sahara Conservation and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1908,
+        "height": 532,
+        "pixels": 1015056
+      }
+    },
+    {
+      "id": 14606,
+      "url": "http://svs.gsfc.nasa.gov/14606/",
+      "page_type": "Produced Video",
+      "title": "NASA and Fire",
+      "description": "Wildland fires, which are natural and essential for many ecosystems, have increased in frequency and size due to longer fire seasons, climate change, and the expanding interface between communities and wild vegetation. Using fire strategically—through prescribed burns and natural ignitions—can mitigate future severe fires that might burn more intensely under hotter, drier conditions.",
+      "release_date": "2024-07-29T15:00:00-04:00",
+      "update_date": "2025-09-15T17:43:50.308847-04:00",
+      "main_image": {
+        "id": 1158279,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_Image_4K.jpg",
+        "filename": "EIC_NASAandFire_Main_Image_4K.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+        "width": 3840,
+        "height": 1080,
+        "pixels": 4147200
+      }
+    },
+    {
+      "id": 14507,
+      "url": "http://svs.gsfc.nasa.gov/14507/",
+      "page_type": "Produced Video",
+      "title": "NASA Joins the Jane Goodall Institute to Conserve Chimpanzee Habitat, Earth Information Center Videos",
+      "description": "After years of forest loss, chimpanzee habitats are recovering. This is, in part, due to a collaboration between NASA and the Jane Goodall Institute (JGI). Using NASA Earth science satellite and other data, the Goodall Institute puts data into the hands of local communities to drive conservation across Africa’s equatorial forest belt.",
+      "release_date": "2024-04-18T08:40:00-04:00",
+      "update_date": "2025-09-16T09:59:40.488223-04:00",
+      "main_image": {
+        "id": 1091072,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+        "filename": "JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 14568,
+      "url": "http://svs.gsfc.nasa.gov/14568/",
+      "page_type": "Produced Video",
+      "title": "Tracking the Greenhouse Gas Methane, Earth Information Center Videos",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html || GHGMain.png (7680x2160) [5.4 MB] || GHGMain_print.jpg (1024x288) [68.0 KB] || GHGMain_searchweb.png (320x180) [64.0 KB] || GHGMain_thm.png (80x40) [6.8 KB] || GHG.en_US.srt [4.0 KB] || GHG.en_US.vtt [3.8 KB] || GHG_Main_7680x2160.mp4 (7680x2160) [586.6 MB] || GHG_Main.mp4 (7680x2160) [1.1 GB] || GHG_Main_h.264.mov (7680x2160) [1.1 GB] || ",
+      "release_date": "2024-04-18T00:00:00-04:00",
+      "update_date": "2024-11-17T23:29:39.213467-05:00",
+      "main_image": {
+        "id": 1091163,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGMain_print.jpg",
+        "filename": "GHGMain_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 14369,
+      "url": "http://svs.gsfc.nasa.gov/14369/",
+      "page_type": "Produced Video",
+      "title": "Leveraging NASA Research to Safeguard the U.S. East Coast from Hurricanes",
+      "description": "16x9 optimized for YouTube Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available. || EIC_Hurricanes_16x9_FINAL.00030_print.jpg (1024x576) [84.1 KB] || EIC_Hurricanes_16x9_FINAL.00030_searchweb.png (320x180) [26.5 KB] || EIC_Hurricanes_16x9_FINAL.00030_thm.png (80x40) [2.5 KB] || EIC_l_Hurricanes_16x9.en_US.srt [2.8 KB] || EIC_Hurricanes_16x9_FINAL.webm (3840x2160) [45.0 MB] || EIC_Hurricanes_16x9_FINAL.mp4 (3840x2160) [550.7 MB] || ",
+      "release_date": "2023-06-21T08:00:00-04:00",
+      "update_date": "2025-01-06T01:35:27.914399-05:00",
+      "main_image": {
+        "id": 855990,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_16x9_FINAL.00030_print.jpg",
+        "filename": "EIC_Hurricanes_16x9_FINAL.00030_print.jpg",
+        "media_type": "Image",
+        "alt_text": "16x9 optimized for YouTube Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 14367,
+      "url": "http://svs.gsfc.nasa.gov/14367/",
+      "page_type": "Produced Video",
+      "title": "NASA and Agriculture",
+      "description": "Feeding a Hungry World The farmers responsible for the food that reaches your plate need a lot of a very precious and limited resource, water. NASA works with farmers like Dwane Roth of Kansas to help them track their water use. Roth says that farmers like him are seeing more frequent, hotter days with less rain. “We need to grow more with less and get as much out of each drop of water we can,” he says. NASA helps to promote the use of Earth observations to strengthen food security.",
+      "release_date": "2023-06-15T16:00:00-04:00",
+      "update_date": "2025-05-29T11:20:21.421872-04:00",
+      "main_image": {
+        "id": 855994,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+        "filename": "0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": 5196,
+      "url": "http://svs.gsfc.nasa.gov/5196/",
+      "page_type": "Visualization",
+      "title": "DYAMOND Global Carbon Dioxide",
+      "description": "Global CO2 ppm for January-March of 2020. This camera move orbits the Earth from a distance. || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_print.jpg (1024x576) [46.2 KB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_searchweb.png (320x180) [31.3 KB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_web.png (320x180) [31.3 KB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_thm.png (80x40) [3.0 KB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_1080p30_h265.mp4 (1920x1080) [6.9 MB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall (5760x3240) [0 Item(s)] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_2160p30.mp4 (3840x2160) [68.4 MB] || ",
+      "release_date": "2024-07-22T09:00:00-04:00",
+      "update_date": "2025-06-23T00:16:15.106632-04:00",
+      "main_image": {
+        "id": 1087887,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_print.jpg",
+        "filename": "dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Global CO2 ppm for January-March of 2020. This camera move orbits the Earth from a distance.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5115,
+      "url": "http://svs.gsfc.nasa.gov/5115/",
+      "page_type": "Visualization",
+      "title": "Global Atmospheric Carbon Dioxide (CO₂)",
+      "description": "Volumetric visualization of the total carbon dioxide (CO₂) on a global scale added on Earth's atmosphere over the course of the year 2021. || TotalCO2_Comp_1920x1920p30_00080.png (1920x1920) [3.2 MB] || TotalCO2_Comp_1920x1920p30_00080_print.jpg (1024x1024) [168.5 KB] || VolumetricCO2_Composite (1920x1920) [0 Item(s)] || VolumetricCO2_Composite_1920x1920p30.mp4 (1920x1920) [806.2 MB] || ",
+      "release_date": "2023-06-20T15:00:00-04:00",
+      "update_date": "2025-01-15T10:57:49-05:00",
+      "main_image": {
+        "id": 856146,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005115/TotalCO2_Volume_1920x1920.00080.png",
+        "filename": "TotalCO2_Volume_1920x1920.00080.png",
+        "media_type": "Image",
+        "alt_text": "Visualization of the total carbon dioxide (CO₂) on a global scale added on Earth's atmosphere over the course of the year 2021 (without the timeline).",
+        "width": 1920,
+        "height": 1920,
+        "pixels": 3686400
+      }
+    },
+    {
+      "id": 5110,
+      "url": "http://svs.gsfc.nasa.gov/5110/",
+      "page_type": "Visualization",
+      "title": "Atmospheric Carbon Dioxide Tagged by Source",
+      "description": "Carbon dioxide (CO2) is the most prevalent greenhouse gas driving global climate change. However, its increase in the atmosphere would be even more rapid without land and ocean carbon sinks, which collectively absorb about half of human emissions every year.  Advanced computer modeling techniques in NASA's Global Modeling and Assimilation Office allow us to disentangle the influences of sources and sinks and to better understand where carbon is coming from and going to. ||",
+      "release_date": "2023-06-16T10:00:00-04:00",
+      "update_date": "2026-01-05T15:47:43.308683-05:00",
+      "main_image": {
+        "id": 859342,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2explainer_1080p30.00740_print.jpg",
+        "filename": "CO2explainer_1080p30.00740_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5095,
+      "url": "http://svs.gsfc.nasa.gov/5095/",
+      "page_type": "Visualization",
+      "title": "USFS/GEDI Old Growth Forest Visualizations",
+      "description": "This visualization begins with a view of USFS Forest Inventory and Analysis (FIA) plot locations (orange dots) across the continental US.  GEDI vegetation height data then draws on dynamically, showing how data from both the USFS and NASA can be used together to increase spatial coverage. || FIA_plots_with_GEDI.00425_print.jpg (1024x576) [304.0 KB] || FIA_plots_with_GEDI.00425_searchweb.png (320x180) [96.4 KB] || FIA_plots_with_GEDI.00425_thm.png (80x40) [6.6 KB] || FIA_plots_with_GEDI_1080p60.mp4 (1920x1080) [26.4 MB] || FIA_plots_with_GEDI_no_legend_1080p60.mp4 (1920x1080) [25.8 MB] || FIA_plots_with_GEDI_1080p60.webm (1920x1080) [2.1 MB] || FIA_plots_with_GEDI (3840x2160) [0 Item(s)] || FIA_plots_with_GEDI_noLegend (3840x2160) [0 Item(s)] || FIA_plots_with_GEDI_2160p60.mp4 (3840x2160) [63.6 MB] || FIA_plots_with_GEDI_no_legend_2160p60.mp4 (3840x2160) [63.0 MB] || FIA_plots_with_GEDI_2160p60.mp4.hwshow [124 bytes] || ",
+      "release_date": "2023-04-20T00:00:00-04:00",
+      "update_date": "2025-06-23T00:15:51.306088-04:00",
+      "main_image": {
+        "id": 854515,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005095/FIA_plots_with_GEDI.00425_print.jpg",
+        "filename": "FIA_plots_with_GEDI.00425_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization begins with a view of USFS Forest Inventory and Analysis (FIA) plot locations (orange dots) across the continental US.  GEDI vegetation height data then draws on dynamically, showing how data from both the USFS and NASA can be used together to increase spatial coverage.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4950,
+      "url": "http://svs.gsfc.nasa.gov/4950/",
+      "page_type": "Visualization",
+      "title": "GEDI Forest Height",
+      "description": "This visualization depicts a global view of forest height data collected by the GEDI instrument aboard the International Space Station.  Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2019 and April 2020. Height is exaggerated to depict variation at this scale.Coming soon to our YouTube channel. || GEDI_global_w_colorbar_0900_print.jpg (1024x576) [83.4 KB] || GEDI_global_w_colorbar_0900_searchweb.png (320x180) [42.8 KB] || GEDI_global_w_colorbar_0900_thm.png (80x40) [4.0 KB] || GEDI_global_w_colorbar_1080p60.mp4 (1920x1080) [17.7 MB] || GEDI_global_w_colorbar_1080p60.webm (1920x1080) [6.0 MB] || GEDI_global_w_colorbar (3840x2160) [0 Item(s)] || GEDI_global_w_colorbar_2160p30.mp4 (3840x2160) [61.5 MB] || GEDI_global_w_colorbar_2160p60.mp4 (3840x2160) [65.5 MB] || captions_silent.31845.en_US.srt [43 bytes] || ",
+      "release_date": "2021-10-29T10:00:00-04:00",
+      "update_date": "2025-04-01T13:54:15.020681-04:00",
+      "main_image": {
+        "id": 375814,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global.0900_print.jpg",
+        "filename": "GEDI_global.0900_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization depicts a global view of forest height data collected by the GEDI instrument aboard the International Space Station.  Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale. This version has no on screen color bar.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

@@ -1,0 +1,334 @@
+{
+  "id": 31345,
+  "url": "http://svs.gsfc.nasa.gov/31345/",
+  "page_type": "Visualization",
+  "title": "One Year of PACE OCI Chlorophyll",
+  "description": "The Ocean Color Instrument (OCI) on the Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite is a spectrometer designed to identify and quantify phytoplankton. This is a year-long visualization of the level 3 mapped chlorophyll data.",
+  "release_date": "2025-06-11T18:59:59-04:00",
+  "update_date": "2025-07-02T09:03:01.379218-04:00",
+  "main_image": {
+    "id": 1156310,
+    "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_chlorophyll_20250303-20250401.jpg",
+    "filename": "PACE_chlorophyll_20250303-20250401.jpg",
+    "media_type": "Image",
+    "alt_text": "These global maps of PACE chlorophyll data show areas with high chlorophyll concentration in red, medium chlorophyll in green and low chloroiphyll in blue. The global maps are in a rectangular projection.",
+    "width": 1920,
+    "height": 960,
+    "pixels": 1843200
+  },
+  "main_video": {
+    "id": 1156312,
+    "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_running_monthly_chlorophyll_1920x960.mp4",
+    "filename": "PACE_running_monthly_chlorophyll_1920x960.mp4",
+    "media_type": "Movie",
+    "alt_text": "These global maps of PACE chlorophyll data show areas with high chlorophyll concentration in red, medium chlorophyll in green and low chloroiphyll in blue. The global maps are in a rectangular projection.",
+    "width": 1920,
+    "height": 960,
+    "pixels": 1843200
+  },
+  "main_credits": {},
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 378344,
+      "url": "http://svs.gsfc.nasa.gov/31345/#media_group_378344",
+      "widget": "Basic text",
+      "title": "",
+      "caption": "",
+      "description": "The Ocean Color Instrument (OCI) on the Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) spacecraft is an optical spectrometer designed to detect phytoplankton by accurately measuring the the spectrum of sunlight reflected from the ocean. PACE was launched on February 8, 2024, and the first OCI global map of ocean chlorophyll was produced on March 4, 2024.\r\n\r\nThis year-long visualization of PACE chlorophyll data uses a traditional rainbow color palette to show areas with high chlorophyll concentration in red and yellow, medium chlorophyll in green and low chloroiphyll in blue and purple. Each individual image is a 30 day average, and the visualization covers one year, from March 2024 to March 2025, revealing the seasonal cycle of phytoplankton activity.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 378063,
+      "url": "http://svs.gsfc.nasa.gov/31345/#media_group_378063",
+      "widget": "Video player",
+      "title": "",
+      "caption": "A year-long animation of global maps of Pace OCI Chlorophyll",
+      "description": "",
+      "items": [
+        {
+          "id": 488197,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156310,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_chlorophyll_20250303-20250401.jpg",
+            "filename": "PACE_chlorophyll_20250303-20250401.jpg",
+            "media_type": "Image",
+            "alt_text": "These global maps of PACE chlorophyll data show areas with high chlorophyll concentration in red, medium chlorophyll in green and low chloroiphyll in blue. The global maps are in a rectangular projection.",
+            "width": 1920,
+            "height": 960,
+            "pixels": 1843200
+          }
+        },
+        {
+          "id": 488198,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156311,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_chlorophyll_20250303-20250401.png",
+            "filename": "PACE_chlorophyll_20250303-20250401.png",
+            "media_type": "Image",
+            "alt_text": "These global maps of PACE chlorophyll data show areas with high chlorophyll concentration in red, medium chlorophyll in green and low chloroiphyll in blue. The global maps are in a rectangular projection.",
+            "width": 4320,
+            "height": 2160,
+            "pixels": 9331200
+          }
+        },
+        {
+          "id": 488199,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156312,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_running_monthly_chlorophyll_1920x960.mp4",
+            "filename": "PACE_running_monthly_chlorophyll_1920x960.mp4",
+            "media_type": "Movie",
+            "alt_text": "These global maps of PACE chlorophyll data show areas with high chlorophyll concentration in red, medium chlorophyll in green and low chloroiphyll in blue. The global maps are in a rectangular projection.",
+            "width": 1920,
+            "height": 960,
+            "pixels": 1843200
+          }
+        },
+        {
+          "id": 488200,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156313,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_running_monthly_chlorophyll.mp4",
+            "filename": "PACE_running_monthly_chlorophyll.mp4",
+            "media_type": "Movie",
+            "alt_text": "These global maps of PACE chlorophyll data show areas with high chlorophyll concentration in red, medium chlorophyll in green and low chloroiphyll in blue. The global maps are in a rectangular projection.",
+            "width": 4320,
+            "height": 2160,
+            "pixels": 9331200
+          }
+        },
+        {
+          "id": 488784,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1156652,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_running_monthly_chlorophyll.hwshow",
+            "filename": "PACE_running_monthly_chlorophyll.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "These global maps of PACE chlorophyll data show areas with high chlorophyll concentration in red, medium chlorophyll in green and low chloroiphyll in blue. The global maps are in a rectangular projection.",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        },
+        {
+          "id": 488785,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1156653,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_running_monthly_chlorophyll_caption.txt",
+            "filename": "PACE_running_monthly_chlorophyll_caption.txt",
+            "media_type": "File",
+            "alt_text": "This is a video of a rotating globe with PACE ocean chlorophyll data shown using an historic rainbow palette."
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378342,
+      "url": "http://svs.gsfc.nasa.gov/31345/#media_group_378342",
+      "widget": "Video player",
+      "title": "",
+      "caption": "PACE running monthly chlorophyll on a rotating globe, v1",
+      "description": "",
+      "items": [
+        {
+          "id": 488193,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156306,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_rotating_chlorophyll_v1.jpg",
+            "filename": "PACE_rotating_chlorophyll_v1.jpg",
+            "media_type": "Image",
+            "alt_text": "This is a video of a rotating globe with PACE ocean chlorophyll data shown using an historic rainbow palette",
+            "width": 1080,
+            "height": 1080,
+            "pixels": 1166400
+          }
+        },
+        {
+          "id": 488194,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156307,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_rotating_chlorophyll_v1.mp4",
+            "filename": "PACE_rotating_chlorophyll_v1.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is a video of a rotating globe with PACE ocean chlorophyll data shown using an historic rainbow palette",
+            "width": 1080,
+            "height": 1080,
+            "pixels": 1166400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378343,
+      "url": "http://svs.gsfc.nasa.gov/31345/#media_group_378343",
+      "widget": "Video player",
+      "title": "",
+      "caption": "A year-long animation of PACE OCI Chlorophyll displayed on a rotating globe.",
+      "description": "",
+      "items": [
+        {
+          "id": 488195,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156308,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_rotating_chlorophyll_v2.jpg",
+            "filename": "PACE_rotating_chlorophyll_v2.jpg",
+            "media_type": "Image",
+            "alt_text": "This is a video of a rotating globe with PACE ocean chlorophyll data shown using an historic rainbow palette.",
+            "width": 1080,
+            "height": 1080,
+            "pixels": 1166400
+          }
+        },
+        {
+          "id": 488196,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156309,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_rotating_chlorophyll_v2.mp4",
+            "filename": "PACE_rotating_chlorophyll_v2.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is a video of a rotating globe with PACE ocean chlorophyll data shown using an historic rainbow palette.",
+            "width": 1080,
+            "height": 1080,
+            "pixels": 1166400
+          }
+        },
+        {
+          "id": 488786,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1156653,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_running_monthly_chlorophyll_caption.txt",
+            "filename": "PACE_running_monthly_chlorophyll_caption.txt",
+            "media_type": "File",
+            "alt_text": "This is a video of a rotating globe with PACE ocean chlorophyll data shown using an historic rainbow palette."
+          }
+        },
+        {
+          "id": 488787,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1156654,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_rotating_chlorophyll_v2.hwshow",
+            "filename": "PACE_rotating_chlorophyll_v2.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "This is a video of a rotating globe with PACE ocean chlorophyll data shown using an historic rainbow palette.",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "hw",
+  "funding_sources": [],
+  "credits": [
+    {
+      "role": "Scientist",
+      "people": [
+        {
+          "name": "Jeremy Werdell",
+          "employer": "NASA/GSFC"
+        },
+        {
+          "name": "Ivona Cetinic",
+          "employer": "Morgan State University"
+        }
+      ]
+    },
+    {
+      "role": "Visualizer",
+      "people": [
+        {
+          "name": "Marit Jentoft-Nilsen",
+          "employer": "Global Science and Technology, Inc."
+        }
+      ]
+    }
+  ],
+  "missions": ["Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)"],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "Chlorophyll Concentration",
+      "common_name": "Chlorophyll",
+      "platform": "PACE",
+      "sensor": "OCI",
+      "type": "Observed Data",
+      "organizations": [],
+      "description": "",
+      "credit": "NASA Ocean Biology Processing Group. (2024). PACE OCI Level-3 Global Mapped Chlorophyll (CHL) Data, version 3.0 [Dataset]. NASA Ocean Biology Distributed Active Archive Center. https://doi.org/10.5067/PACE/OCI/L3M/CHL/3.0",
+      "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3385050568-OB_CLOUD.html",
+      "date_range": ""
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Aquatic Ecosystems",
+    "Chlorophyll",
+    "Ocean",
+    "Ocean Chlorophyll",
+    "ocean color",
+    "Phytoplankton"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

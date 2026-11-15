@@ -1,0 +1,420 @@
+{
+  "id": 12647,
+  "url": "http://svs.gsfc.nasa.gov/12647/",
+  "page_type": "Produced Video",
+  "title": "Trading Water",
+  "description": "Crops sold in the international market trade away they water they're grown with. || usa_west.1974_1024x576.jpg (1024x576) [83.6 KB] || usa_west.1974_thm.png (80x40) [5.6 KB] || usa_west.1974_searchweb.png (320x180) [66.6 KB] || usa_west.1974.tif (1920x1080) [4.0 MB] || ",
+  "release_date": "2017-06-26T12:00:00-04:00",
+  "update_date": "2023-05-03T13:47:34.884537-04:00",
+  "main_image": {
+    "id": 413270,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/usa_west.1974_1024x576.jpg",
+    "filename": "usa_west.1974_1024x576.jpg",
+    "media_type": "Image",
+    "alt_text": "Crops sold in the international market trade away they water they're grown with. ",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": {
+    "id": 413277,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/12429_irrigation_high.mp4",
+    "filename": "12429_irrigation_high.mp4",
+    "media_type": "Movie",
+    "alt_text": "Explore how irrigation taps groundwater around the world to produce essential crops for the international market.",
+    "width": 1280,
+    "height": 720,
+    "pixels": 921600
+  },
+  "main_credits": {
+    "Visualizations by": [{ "name": "Ernie Wright", "employer": "STC" }],
+    "Produced by": [{ "name": "Kathryn Mersmann", "employer": "USRA" }],
+    "Scientific consulting by": [
+      { "name": "Michael Puma", "employer": "Columbia University" },
+      { "name": "Thomas Kastner", "employer": "Alpen-Adria Universitaet Klagenfurt" },
+      { "name": "Yoshihide Wada", "employer": "Columbia University" },
+      { "name": "Carole Dalin", "employer": "University College London" }
+    ],
+    "Written by": [{ "name": "Ellen T. Gray", "employer": "ADNET Systems, Inc." }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 330082,
+      "url": "http://svs.gsfc.nasa.gov/12647/#media_group_330082",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Crops sold in the international market trade away they water they're grown with. ",
+      "items": [
+        {
+          "id": 258005,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413270,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/usa_west.1974_1024x576.jpg",
+            "filename": "usa_west.1974_1024x576.jpg",
+            "media_type": "Image",
+            "alt_text": "Crops sold in the international market trade away they water they're grown with. ",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 258006,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413271,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/usa_west.1974_thm.png",
+            "filename": "usa_west.1974_thm.png",
+            "media_type": "Image",
+            "alt_text": "Crops sold in the international market trade away they water they're grown with. ",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 258007,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413272,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/usa_west.1974_searchweb.png",
+            "filename": "usa_west.1974_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Crops sold in the international market trade away they water they're grown with. ",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 258004,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413273,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/usa_west.1974.tif",
+            "filename": "usa_west.1974.tif",
+            "media_type": "Image",
+            "alt_text": "Crops sold in the international market trade away they water they're grown with. ",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 330081,
+      "url": "http://svs.gsfc.nasa.gov/12647/#media_group_330081",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "The connection between water supplies, food, and international trade is closer than you might think. Globally, 70 percent of freshwater is used for irrigated agriculture, and one source of that water is underground aquifers. Aquifers form when water accumulates in the ground over time, sometimes over hundreds or thousands of years. Some of these aquifers become depleted, meaning that they do not accumulate rainfall fast enough to replace what is drawn out to the surface, either naturally to lakes and rivers or in this case by people via pumping. Once that groundwater is depleted, it will effectively be gone for good on the scale of a human life-time, and will no longer be available for relief during emergencies such as droughts. University and NASA researchers have used computer models of groundwater depletion and irrigation and compared them to records of the international food trade. They've traced the connections between food grown with depleted groundwater to individual crop sectors, countries, and their trade partners in order to better understand how we might conserve our freshwater resources. Watch the video to learn more.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 330083,
+      "url": "http://svs.gsfc.nasa.gov/12647/#media_group_330083",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Explore how irrigation taps groundwater around the world to produce essential crops for the international market.",
+      "items": [
+        {
+          "id": 258012,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413275,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/PosterFrame_1280x720_1024x576.jpg",
+            "filename": "PosterFrame_1280x720_1024x576.jpg",
+            "media_type": "Image",
+            "alt_text": "Explore how irrigation taps groundwater around the world to produce essential crops for the international market.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 258008,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413278,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/12429_irrigation_high.webm",
+            "filename": "12429_irrigation_high.webm",
+            "media_type": "Movie",
+            "alt_text": "Explore how irrigation taps groundwater around the world to produce essential crops for the international market.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 258010,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413277,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/12429_irrigation_high.mp4",
+            "filename": "12429_irrigation_high.mp4",
+            "media_type": "Movie",
+            "alt_text": "Explore how irrigation taps groundwater around the world to produce essential crops for the international market.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 258011,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413274,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/PosterFrame_1280x720.tiff",
+            "filename": "PosterFrame_1280x720.tiff",
+            "media_type": "Image",
+            "alt_text": "Explore how irrigation taps groundwater around the world to produce essential crops for the international market.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 258009,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 851677,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/a012647_iPad_movie_12429_irrigation/12429_irrigation.m3u8",
+            "filename": "12429_irrigation.m3u8",
+            "media_type": "File",
+            "alt_text": "Explore how irrigation taps groundwater around the world to produce essential crops for the international market."
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 330084,
+      "url": "http://svs.gsfc.nasa.gov/12647/#media_group_330084",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "In the western United States, irrigation shown in blue coincides with groundwater depletion shown in greens (mild) to reds (severe).",
+      "items": [
+        {
+          "id": 258014,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413279,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/usa_west.1780_1024x576.jpg",
+            "filename": "usa_west.1780_1024x576.jpg",
+            "media_type": "Image",
+            "alt_text": "In the western United States, irrigation shown in blue coincides with groundwater depletion shown in greens (mild) to reds (severe).",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 258013,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413280,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/usa_west.1780.tif",
+            "filename": "usa_west.1780.tif",
+            "media_type": "Image",
+            "alt_text": "In the western United States, irrigation shown in blue coincides with groundwater depletion shown in greens (mild) to reds (severe).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 330085,
+      "url": "http://svs.gsfc.nasa.gov/12647/#media_group_330085",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Two-thirds of the exported crops that depend on non-renewable groundwater are produced in the United States, Pakistan, and India.",
+      "items": [
+        {
+          "id": 258016,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413281,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/asia_irr.1800_1024x576.jpg",
+            "filename": "asia_irr.1800_1024x576.jpg",
+            "media_type": "Image",
+            "alt_text": "Two-thirds of the exported crops that depend on non-renewable groundwater are produced in the United States, Pakistan, and India.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 258015,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413282,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/asia_irr.1800.tif",
+            "filename": "asia_irr.1800.tif",
+            "media_type": "Image",
+            "alt_text": "Two-thirds of the exported crops that depend on non-renewable groundwater are produced in the United States, Pakistan, and India.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 330086,
+      "url": "http://svs.gsfc.nasa.gov/12647/#media_group_330086",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "NASA's Gravity Recovery and Climate satellites have observed aquifer drawdowns globally over the last 15 years, validating model results.",
+      "items": [
+        {
+          "id": 258018,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413283,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/asia_dep.1225_1024x576.jpg",
+            "filename": "asia_dep.1225_1024x576.jpg",
+            "media_type": "Image",
+            "alt_text": "NASA's Gravity Recovery and Climate satellites have observed aquifer drawdowns globally over the last 15 years, validating model results.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 258017,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 413284,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012600/a012647/asia_dep.1225.tif",
+            "filename": "asia_dep.1225.tif",
+            "media_type": "Image",
+            "alt_text": "NASA's Gravity Recovery and Climate satellites have observed aquifer drawdowns globally over the last 15 years, validating model results.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 330087,
+      "url": "http://svs.gsfc.nasa.gov/12647/#media_group_330087",
+      "widget": "Basic text",
+      "title": "For More Information",
+      "caption": "",
+      "description": "See [NASA.gov](https://www.nasa.gov/feature/goddard/2017/11-percent-of-disappearing-groundwater-used-to-grow)",
+      "items": [],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Animator", "people": [{ "name": "Ernie Wright", "employer": "STC" }] },
+    { "role": "Producer", "people": [{ "name": "Kathryn Mersmann", "employer": "USRA" }] },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Michael Puma", "employer": "Columbia University" },
+        { "name": "Thomas Kastner", "employer": "Alpen-Adria Universitaet Klagenfurt" },
+        { "name": "Yoshihide Wada", "employer": "Columbia University" },
+        { "name": "Carole Dalin", "employer": "University College London" }
+      ]
+    },
+    { "role": "Writer", "people": [{ "name": "Ellen T. Gray", "employer": "ADNET Systems, Inc." }] }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["App", "HDTV"],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [
+    {
+      "id": 12429,
+      "url": "http://svs.gsfc.nasa.gov/12429/",
+      "page_type": "Produced Video",
+      "title": "Crop Irrigation Is Closely Tied to Groundwater Depletion Around the World",
+      "description": "The irrigation that grows crops, especially in dry countries, can also be responsible for taxing aquifers beyond their capacities. Groundwater depletion is embedded in the international food trade, with countries exporting crops grown from overexploited aquifers and setting up potential future food crises if the aquifers run dry. || ",
+      "release_date": "2017-03-29T12:00:00-04:00",
+      "update_date": "2023-05-03T13:47:49.032279-04:00",
+      "main_image": {
+        "id": 418300,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012400/a012429/LARGE_MP4-12429_irrigation_large.00152_print.jpg",
+        "filename": "LARGE_MP4-12429_irrigation_large.00152_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Music credit: Time Is Passing by Theo Golding [PRS]Narrated by Michael Puma",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

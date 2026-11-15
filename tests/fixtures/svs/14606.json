@@ -1,0 +1,910 @@
+{
+  "id": 14606,
+  "url": "http://svs.gsfc.nasa.gov/14606/",
+  "page_type": "Produced Video",
+  "title": "NASA and Fire",
+  "description": "Wildland fires, which are natural and essential for many ecosystems, have increased in frequency and size due to longer fire seasons, climate change, and the expanding interface between communities and wild vegetation. Using fire strategically—through prescribed burns and natural ignitions—can mitigate future severe fires that might burn more intensely under hotter, drier conditions.",
+  "release_date": "2024-07-29T15:00:00-04:00",
+  "update_date": "2025-09-15T17:43:50.308847-04:00",
+  "main_image": {
+    "id": 1158279,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_Image_4K.jpg",
+    "filename": "EIC_NASAandFire_Main_Image_4K.jpg",
+    "media_type": "Image",
+    "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+    "width": 3840,
+    "height": 1080,
+    "pixels": 4147200
+  },
+  "main_video": null,
+  "main_credits": {
+    "Produced by": [{ "name": "Grace Weikert", "employer": "eMITS" }],
+    "Written by": [{ "name": "Grace Weikert", "employer": "eMITS" }],
+    "Edited by": [{ "name": "Grace Weikert", "employer": "eMITS" }],
+    "Videography": [{ "name": "Grace Weikert", "employer": "eMITS" }],
+    "Visualizations by": [{ "name": "Helen-Nicole Kostis", "employer": "USRA" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 375082,
+      "url": "http://svs.gsfc.nasa.gov/14606/#media_group_375082",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Wildland fires, which are natural and essential for many ecosystems, have increased in frequency and size due to longer fire seasons, climate change, and the expanding interface between communities and wild vegetation. Using fire strategically—through prescribed burns and natural ignitions—can mitigate future severe fires that might burn more intensely under hotter, drier conditions. Data-driven decisions and community collaboration guide proactive fire management. With the help of satellite observations, the USDA, Forest Service, Rocky Mountain Research Station and NASA research advance proactive strategies for healthier forests, reducing future fire risks.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 375083,
+      "url": "http://svs.gsfc.nasa.gov/14606/#media_group_375083",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.<p><p>Music credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production Music<p><p>This video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit [https://nasa.gov/multimedia/guidelines.](https://www.nasa.gov/multimedia/guidelines/index.html)\r\n\r\nComplete <a href=\"/vis/a010000/a014600/a014606/script.html\">transcript</a> available.\r\n\r\nWatch this video on the NASA Scientific Visualization Studio [YouTube channel](https://youtu.be/RFz3T5059Jw?si=3VqFjCmQgncSDgbe).",
+      "items": [
+        {
+          "id": 432542,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158273,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_4K.mp4",
+            "filename": "EIC_NASAandFire_Main_4K.mp4",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+            "width": 3840,
+            "height": 1080,
+            "pixels": 4147200
+          }
+        },
+        {
+          "id": 432553,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158272,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main.mp4",
+            "filename": "EIC_NASAandFire_Main.mp4",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 432548,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158274,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main.srt",
+            "filename": "EIC_NASAandFire_Main.srt",
+            "media_type": "Captions",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+            "label": "English",
+            "language_code": ""
+          }
+        },
+        {
+          "id": 491911,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158279,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_Image_4K.jpg",
+            "filename": "EIC_NASAandFire_Main_Image_4K.jpg",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+            "width": 3840,
+            "height": 1080,
+            "pixels": 4147200
+          }
+        },
+        {
+          "id": 491910,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158280,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_Image.jpg",
+            "filename": "EIC_NASAandFire_Main_Image.jpg",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 375089,
+      "url": "http://svs.gsfc.nasa.gov/14606/#media_group_375089",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Left circle display video",
+      "items": [
+        {
+          "id": 491908,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158276,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Panel_Left_small.mp4",
+            "filename": "EIC_NASAandFire_Panel_Left_small.mp4",
+            "media_type": "Movie",
+            "alt_text": "",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 432655,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158275,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Panel_Left.mp4",
+            "filename": "EIC_NASAandFire_Panel_Left.mp4",
+            "media_type": "Movie",
+            "alt_text": "",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 491912,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158281,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Panel_Left.jpg",
+            "filename": "EIC_NASAandFire_Panel_Left.jpg",
+            "media_type": "Image",
+            "alt_text": "",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 375090,
+      "url": "http://svs.gsfc.nasa.gov/14606/#media_group_375090",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Right circle display video",
+      "items": [
+        {
+          "id": 491909,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158278,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFires_Panel_Right_small.mp4",
+            "filename": "EIC_NASAandFires_Panel_Right_small.mp4",
+            "media_type": "Movie",
+            "alt_text": "Right circle display video",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 432596,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158277,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Panel_Right.mp4",
+            "filename": "EIC_NASAandFire_Panel_Right.mp4",
+            "media_type": "Movie",
+            "alt_text": "Right circle display video",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 491913,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158282,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Panel_Right.jpg",
+            "filename": "EIC_NASAandFire_Panel_Right.jpg",
+            "media_type": "Image",
+            "alt_text": "Right circle display video",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Producer",
+      "people": [
+        { "name": "Grace Weikert", "employer": "eMITS" },
+        { "name": "Eleanor Stokes", "employer": "NASA" },
+        { "name": "Nicole Ramberg-Phil", "employer": "SSAI" }
+      ]
+    },
+    { "role": "Writer", "people": [{ "name": "Grace Weikert", "employer": "eMITS" }] },
+    { "role": "Editor", "people": [{ "name": "Grace Weikert", "employer": "eMITS" }] },
+    { "role": "Videographer", "people": [{ "name": "Grace Weikert", "employer": "eMITS" }] },
+    {
+      "role": "Support",
+      "people": [
+        { "name": "James Round", "employer": "NASA/JPL CalTech" },
+        { "name": "Katie Jepson", "employer": "eMITS" },
+        { "name": "Kathleen Gaeta Greer", "employer": "NASA/GSFC/AMA" },
+        { "name": "Jefferson Beck", "employer": "eMITS" }
+      ]
+    },
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" },
+        { "name": "Mark SubbaRao", "employer": "NASA/GSFC" }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [{ "name": "Brenda Lopez-Silva", "employer": "SSAI" }]
+    },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Amber Soja", "employer": "NASA/LaRC" },
+        {
+          "name": "John Hogland",
+          "employer": "USDA/Forest Service/ Rocky Mountian Research Station"
+        }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": ["Narrated Movies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Earth Information Center", "Fires", "Hyperwall", "Natural hazards"],
+  "recommended_pages": [
+    {
+      "id": 5601,
+      "url": "http://svs.gsfc.nasa.gov/5601/",
+      "page_type": "Visualization",
+      "title": "Wyoming Red Canyon wildfire: 2025 Year in Review",
+      "description": "Part of our 2025 Year in Review series examining major wildfire events, this analysis focuses on the August 2025 Red Canyon wildfire in Wyoming. Leveraging NASA's satellite data, advanced models, visualization capacity and computing power, we examine how weather conditions impacted this fire and how regional air quality affected surrounding communities.",
+      "release_date": "2026-01-02T12:27:00-05:00",
+      "update_date": "2026-01-02T12:19:54.431640-05:00",
+      "main_image": {
+        "id": 1195382,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005601/event001-RED_CANYON_Wildfire_Hot_Springs_Wyoming-BlackCarbonGEOS2km-20250824_2048x1024.png",
+        "filename": "event001-RED_CANYON_Wildfire_Hot_Springs_Wyoming-BlackCarbonGEOS2km-20250824_2048x1024.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 2048,
+        "height": 1024,
+        "pixels": 2097152
+      }
+    },
+    {
+      "id": 5598,
+      "url": "http://svs.gsfc.nasa.gov/5598/",
+      "page_type": "Visualization",
+      "title": "Grand Canyon Dragon Bravo Megafire: 2025 Year in Review",
+      "description": "Part of our 2025 Year in Review series examining major wildfire events, this analysis focuses on the July 2025 Dragon Bravo megafire at the North Rim of Grand Canyon National Park in Arizona. The analysis leverages NASA's satellite data, models, and computing power to reveal fire behavior and impacts. Five visualization assets show fire information, black carbon dispersal, air quality effects, weather conditions, and progression, demonstrating how technology helps understand wildfire dynamics.",
+      "release_date": "2025-12-31T11:26:00-05:00",
+      "update_date": "2025-12-30T17:55:28.914344-05:00",
+      "main_image": {
+        "id": 1195357,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005598/event001.Dragon_Bravo_Wildfire_Coconino_County_Arizona.BlackCarbonGEOS2km.20250731_2048x1024.png",
+        "filename": "event001.Dragon_Bravo_Wildfire_Coconino_County_Arizona.BlackCarbonGEOS2km.20250731_2048x1024.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 2048,
+        "height": 1024,
+        "pixels": 2097152
+      }
+    },
+    {
+      "id": 5597,
+      "url": "http://svs.gsfc.nasa.gov/5597/",
+      "page_type": "Visualization",
+      "title": "Los Angeles Palisades and Eaton Wildfires: 2025 Year in Review",
+      "description": "Part of our 2025 Year in Review series examining major wildfire events, this analysis of the January 2025 Los Angeles Palisades and Eaton wildfires leverages NASA's satellite data, models, and computing power to reveal fire behavior and impacts. Five visualization assets show fire information, black carbon dispersal, air quality effects, weather conditions, and progression, demonstrating how technology helps understand wildfire dynamics.",
+      "release_date": "2025-12-30T17:18:00-05:00",
+      "update_date": "2025-12-30T17:03:42.488592-05:00",
+      "main_image": {
+        "id": 1195350,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005597/event001-Palisades_Wildfire_Los_Angeles_California-BlackCarbonGEOS2km-20250120_2048x1024.png",
+        "filename": "event001-Palisades_Wildfire_Los_Angeles_California-BlackCarbonGEOS2km-20250120_2048x1024.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 2048,
+        "height": 1024,
+        "pixels": 2097152
+      }
+    },
+    {
+      "id": 14894,
+      "url": "http://svs.gsfc.nasa.gov/14894/",
+      "page_type": "Produced Video",
+      "title": "NASA Flew Over a Fire — to Better Understand Future Ones",
+      "description": "On April 14th-20th, 2025, NASA’s FireSense project led a multi-agency prescribed burn research operation at Fort Stewart-Hunter Army Field, Georgia, in partnership with the U.S. Department of War (DoW). The DoW led the prescribed burn activities, while NASA FireSense coordinated field and airborne sampling with academic and agency partners, including the DoW Strategic Environmental Research and Development Program (SERDP) and DoW Environmental Security Technology Certification Program (ESTCP). The campaign targeted vegetation, fire, and smoke measurements, and aims to enhance understanding of fire behavior and smoke dynamics in order to provide actionable information to practitioners.In a collaboration between NASA, the DoW, and wildland experts, NASA FireSense demonstrates how cutting-edge satellite and airborne technology is revolutionizing fire detection, prescribed fire, and ecosystem management—bringing real-time data to wildland fire managers.NASA FireSense Website || ",
+      "release_date": "2025-09-23T13:00:00-04:00",
+      "update_date": "2025-12-11T14:22:02-05:00",
+      "main_image": {
+        "id": 1158343,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014894/20250917_SVS14894_NASA_FireSense_at_Fort_Stewart_GAW_1080x720_Thumbnail.jpg",
+        "filename": "20250917_SVS14894_NASA_FireSense_at_Fort_Stewart_GAW_1080x720_Thumbnail.jpg",
+        "media_type": "Image",
+        "alt_text": "NASA FireSense 2025 Field Campaign video (4960x2160)Universal Production Music:Collective Conscious Instrumental by Moenks WrightScience to Save Us Instrumental by Moenks WrightMaking Magic Instrumental by Moenks WrightOxygenate the Idea Instrumental by Banksman Stone TurnerTrusting in Tech Instrumental by Moenks WrightKinetic World Instrumental by PriceThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Tridant Sensing Inc, U.S. Forest Service, Department of War and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit <a href=\"https://www.nasa.gov/nasa-brand-center/images-and-media/\" target=\"_blank\">https://www.nasa.gov/nasa-brand-center/images-and-media/Complete transcript available.Watch this video on the NASA.gov Video YouTube channel.",
+        "width": 1280,
+        "height": 720,
+        "pixels": 921600
+      }
+    },
+    {
+      "id": 5557,
+      "url": "http://svs.gsfc.nasa.gov/5557/",
+      "page_type": "Visualization",
+      "title": "Daily Visualizations of the Largest Wildfires in the United States: 2025",
+      "description": "Wildland fires pose significant threats to ecosystems, property, and human lives. Leveraging NASA’s satellite data, advanced models, visualization capacity and computing power, we analyze fire events, monitor how weather conditions impact fires and how regional air quality affects communities. Through this webpage we offer daily updated visualizations of the two largest active wildfires events in the continental United States throughout fire season.",
+      "release_date": "2025-09-08T16:30:00-04:00",
+      "update_date": "2026-03-12T15:19:14.483700-04:00",
+      "main_image": {
+        "id": 1157547,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005557/preview_image.png",
+        "filename": "preview_image.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1000,
+        "height": 495,
+        "pixels": 495000
+      }
+    },
+    {
+      "id": 5558,
+      "url": "http://svs.gsfc.nasa.gov/5558/",
+      "page_type": "Animation",
+      "title": "Spread of the Palisades and Eaton Fires - January 2025",
+      "description": "These visualizations show the spread of the Palisades and Eaton fires that occurred near Los Angeles, California in January 2025.  This visualization highlights data from a fire detection and tracking approach (Chen et al., 2022) based on near-real time active fire detections from the VIIRS sensor on the Suomi-NPP and NOAA-20 satellites.",
+      "release_date": "2025-07-11T12:01:00-04:00",
+      "update_date": "2025-07-17T13:01:25.084468-04:00",
+      "main_image": {
+        "id": 1156478,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005558/fire_spread_LA_only_2025_v52_2025-06-15_2314.02652.png",
+        "filename": "fire_spread_LA_only_2025_v52_2025-06-15_2314.02652.png",
+        "media_type": "Image",
+        "alt_text": "This image shows the spread of the Palisades and Eaton fires near Los Angeles, California on January 8, 2025.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 14789,
+      "url": "http://svs.gsfc.nasa.gov/14789/",
+      "page_type": "Produced Video",
+      "title": "NASA Earth: Powering America's Future",
+      "description": "Music: Pacemaker Instrumental (Everitt) via Universal Production MusicThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by pond5.com is obtained through permission and may not be excised or remixed in other products. Specific details on stock footage may be found here. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html.Complete transcript available. || 14789_Thumbnail.jpg (1280x720) [156.0 KB] || 14789_Thumbnail_print.jpg (1024x576) [131.1 KB] || 14789_Thumbnail_searchweb.png (320x180) [64.5 KB] || 14789_Thumbnail_web.png (320x180) [64.5 KB] || 14789_Thumbnail_thm.png [5.9 KB] || 14789_NASAEarthPoweringAmericasFuture.mp4 (1920x1080) [274.8 MB] || 14789_NASAEarthPowering.en_US.srt [1.9 KB] || 14789_NASAEarthPowering.en_US.vtt [1.9 KB] || ",
+      "release_date": "2025-04-07T11:00:00-04:00",
+      "update_date": "2025-04-02T13:36:45.998069-04:00",
+      "main_image": {
+        "id": 1152977,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014789/14789_Thumbnail_Vert.jpg",
+        "filename": "14789_Thumbnail_Vert.jpg",
+        "media_type": "Image",
+        "alt_text": "Shortened version formatted for vertical Instagram ReelsMusic: Music: Pacemaker Instrumental (Everitt) via Universal Production MusicThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1080,
+        "height": 1920,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5113,
+      "url": "http://svs.gsfc.nasa.gov/5113/",
+      "page_type": "Visualization",
+      "title": "Active Fires As Observed by VIIRS, 2024-Present",
+      "description": "This animated visualization uses a moving five-day window of VIIRS measurments of fire radiative power (FRP), to present a view of fire intensities around the globe. || fires_frp_VIIRS.892_print.jpg (1024x512) [71.9 KB] || fires_frp_VIIRS.892_searchweb.png (320x180) [37.8 KB] || fires_frp_VIIRS.892_web.png (320x160) [33.5 KB] || fires_frp_VIIRS.892_thm.png (80x40) [4.3 KB] || fires_frp_VIIRS_2048p30.mp4 (4096x2048) [46.5 MB] || EIC (4096x2048) [824 Item(s)] || VIIRS_fires_latest.exr [7.0 MB] || ",
+      "release_date": "2024-03-01T14:00:00-05:00",
+      "update_date": "2026-10-24T19:30:10.364230-04:00",
+      "main_image": {
+        "id": 856615,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005113/fires_frp_VIIRS.001_print.jpg",
+        "filename": "fires_frp_VIIRS.001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This animated visualization uses a moving five-day window of VIIRS measurments of fire radiative power (FRP), to present a view of fire intensities around the globe.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 5088,
+      "url": "http://svs.gsfc.nasa.gov/5088/",
+      "page_type": "Visualization",
+      "title": "Tracking the Spread of the Caldor and Dixie Fires",
+      "description": "This visualization shows the spread of the Caldor and the Dixie fires in California during the summer of 2021, updated every 12 hours from a new fire detection and tracking approach based on near-real time active fire detections from the VIIRS sensor on the Suomi-NPP satellite.Complete transcript available. || Tracking_the_Caldor_and_Dixie_Fires.03615_print.jpg (1024x576) [296.7 KB] || Tracking_the_Caldor_and_Dixie_Fires.03615_searchweb.png (320x180) [133.9 KB] || Tracking_the_Caldor_and_Dixie_Fires.03615_thm.png (80x40) [7.8 KB] || Tracking_the_Caldor_and_Dixie_Fires.mp4 (1920x1080) [336.4 MB] || Tracking_the_Caldor_and_Dixie_Fires.mp4.en_US.srt [3.9 KB] || Tracking_the_Caldor_and_Dixie_Fires.mp4.en_US.vtt [3.7 KB] || Tracking_the_Caldor_and_Dixie_Fires.mp4.hwshow || ",
+      "release_date": "2023-06-12T00:00:00-04:00",
+      "update_date": "2025-06-23T00:15:49.119129-04:00",
+      "main_image": {
+        "id": 841998,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005088/Tracking_the_Caldor_and_Dixie_Fires.03615_print.jpg",
+        "filename": "Tracking_the_Caldor_and_Dixie_Fires.03615_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the spread of the Caldor and the Dixie fires in California during the summer of 2021, updated every 12 hours from a new fire detection and tracking approach based on near-real time active fire detections from the VIIRS sensor on the Suomi-NPP satellite.Complete transcript available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4993,
+      "url": "http://svs.gsfc.nasa.gov/4993/",
+      "page_type": "Visualization",
+      "title": "Spread of the Dixie Fire - 2021",
+      "description": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel. || Dixie_fire_2021.7135_print.jpg (1024x576) [369.5 KB] || Dixie_fire_2021.7135_searchweb.png (320x180) [139.8 KB] || Dixie_fire_2021.7135_thm.png (80x40) [8.3 KB] || Dixie_fire_2021_p30_1080p30.mp4 (1920x1080) [172.9 MB] || Dixie_fire_2021_1080p60.mp4 (1920x1080) [190.8 MB] || 3840x2160_16x9_60p (3840x2160) [0 Item(s)] || captions_silent.32827.en_US.srt [43 bytes] || Dixie_fire_2021_p30_2160p30.mp4 (3840x2160) [477.6 MB] || Dixie_fire_2021_2160p60.mp4 (3840x2160) [513.8 MB] || Dixie_fire_2021_p30_1080p30.mp4.hwshow || Dixie_fire_animation_only_2021_1080p60.hwshow || ",
+      "release_date": "2022-06-01T09:00:00-04:00",
+      "update_date": "2025-06-23T00:13:43.248481-04:00",
+      "main_image": {
+        "id": 371837,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135_print.jpg",
+        "filename": "Dixie_fire_2021.7135_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This image shows the spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5009,
+      "url": "http://svs.gsfc.nasa.gov/5009/",
+      "page_type": "Visualization",
+      "title": "Dixie and Caldor Wildfires Locator Maps - 2021",
+      "description": "Perimeters of Dixie and Caldor wildfires located in California. The extent of the Dixie wildfire is as of October 22, 2021, while the extent of the Caldor wildfire is as of October 6, 2021. The dropdown menu offers multiple resolutions for a 32:27 aspect ratio. || fires_preview.jpg (1024x864) [167.1 KB] || fires_16000.png (16000x13500) [19.6 MB] || fires_3840.png (3840x3240) [11.1 MB] || fires_16000_searchweb.png (320x180) [71.5 KB] || fires_16000_thm.png (80x40) [5.2 KB] || ",
+      "release_date": "2022-06-01T00:00:00-04:00",
+      "update_date": "2025-03-16T22:55:05.652269-04:00",
+      "main_image": {
+        "id": 842113,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005009/fires_16000_searchweb.png",
+        "filename": "fires_16000_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Perimeters of Dixie and Caldor wildfires located in California. The extent of the Dixie wildfire is as of October 22, 2021, while the extent of the Caldor wildfire is as of October 6, 2021. The dropdown menu offers multiple resolutions for a 32:27 aspect ratio.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": 15093,
+      "url": "http://svs.gsfc.nasa.gov/15093/",
+      "page_type": "Produced Video",
+      "title": "BioSCapes: Tracking Biodiversity using NASA Satellites",
+      "description": "Adapted from Fishwater Films' *The Spectrum of Life* for NASA's Earth Information Center, this short documentary features NASA's BioSCape campaign. BioSCape is NASA's first biodiversity airborne campaign in South Africa focused on local biodiversity, how NASA plays a role in conservation, and the potential of using remote sensing to measure and monitor ecosystems.\r\n\r\nTo learn more about NASA's Earth Information Center, visit: [https://earth.gov/](https://)",
+      "release_date": "9999-12-30T18:59:59-05:00",
+      "update_date": "2026-10-07T10:09:11.133635-04:00",
+      "main_image": {
+        "id": 1205894,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015093/BIOSCAPE_STILLImage.png",
+        "filename": "BIOSCAPE_STILLImage.png",
+        "media_type": "Image",
+        "alt_text": "A wide image made up of three smaller images. The image on the left shows two boats with people in the foregound floating on a dark blue ocean with a mountainous coastline in the background along the horizon. The middle image is a satellite image of a peninsula, potentially where the people on the boats are located. The third image on the right contains three rectangular bars left to right in the colors blue, green and red.",
+        "width": 7680,
+        "height": 2160,
+        "pixels": 16588800
+      }
+    },
+    {
+      "id": 15108,
+      "url": "http://svs.gsfc.nasa.gov/15108/",
+      "page_type": "Produced Video",
+      "title": "EIC: Earth Science Technology Office",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.Music Credit:“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production MusicPretty Rocks Landslide courtesy of the National Park Service.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html || ESTO_Still2_print.jpg (1024x288) [100.0 KB] || ESTO_Still.png (7680x2160) [73.9 MB] || ESTO_Still_print.jpg (1024x288) [130.9 KB] || ESTO_Still2.png (7680x2160) [47.0 MB] || ESTO_Still_searchweb.png (320x180) [117.0 KB] || ESTO_Still_thm.png (80x40) [9.0 KB] || ESTO_FINAL.en_US.srt [3.7 KB] || ESTO_FINAL.en_US.vtt [3.5 KB] || ESTO_FINAL_Low.mp4 (7680x2160) [854.3 MB] || ESTO_FINAL_Medium.mp4 (7680x2160) [1.7 GB] || ESTO_FINAL.mp4 (7680x2160) [2.6 GB] || ESTO_FINAL.mov (7680x2160) [37.0 GB] || ",
+      "release_date": "9999-12-30T18:59:59-05:00",
+      "update_date": "2026-11-05T11:34:09-05:00",
+      "main_image": {
+        "id": 1206300,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015100/a015108/ESTO_Still_print.jpg",
+        "filename": "ESTO_Still_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\rMusic Credit:\r“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music\r“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music\r“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production Music\rPretty Rocks Landslide courtesy of the National Park Service.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html\r",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 5668,
+      "url": "http://svs.gsfc.nasa.gov/5668/",
+      "page_type": "Visualization",
+      "title": "Unprecedented Wildfires in the Pacific Northwest Engulf the Region in Smoke",
+      "description": "Record-breaking wildfires impacted the Pacific Northwest. Watch how NASA’s GEOS model tracks the long-range transport of wildfire smoke as it travels across the continent. Additionally, Sentinel satellite imagery reveals the localized ground-level aftermath, showing burn scars and fire spread near Spokane, WA, as well as throughout Washington and Oregon.",
+      "release_date": "2026-08-06T00:00:00-04:00",
+      "update_date": "2026-08-06T14:58:08.086728-04:00",
+      "main_image": {
+        "id": 1204991,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005668/SmokeIntensity_PacificNW_1920x1080.png",
+        "filename": "SmokeIntensity_PacificNW_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5666,
+      "url": "http://svs.gsfc.nasa.gov/5666/",
+      "page_type": "Visualization",
+      "title": "Smoke from Record-Breaking Wildfires in Spain and France",
+      "description": "Record-breaking wildfires in July 2026 severely impacted European air quality. Watch how NASA’s GEOS model tracks the dramatic transport of wildfire smoke across the continent, alongside two NASA FEDS visualizations showing the rapid expansion of active fire perimeters in Madrid, Spain, and Bordeaux, France.",
+      "release_date": "2026-07-30T16:02:00-04:00",
+      "update_date": "2026-08-25T15:32:16.461583-04:00",
+      "main_image": {
+        "id": 1204875,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005666/SmokeIntensity_EuropeanWildfires_1920x1080.png",
+        "filename": "SmokeIntensity_EuropeanWildfires_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5665,
+      "url": "http://svs.gsfc.nasa.gov/5665/",
+      "page_type": "Visualization",
+      "title": "Long-range Transport of 2026 Canadian Wildfire Smoke into the United States (July 14-20, 2026)",
+      "description": "Powered by NASA's GEOS model, this animation visualizes the transport of brown carbon from July 14 to 20, 2026, and its impact on U.S. air quality.",
+      "release_date": "2026-07-20T13:30:00-04:00",
+      "update_date": "2026-07-22T11:17:40.880015-04:00",
+      "main_image": {
+        "id": 1204626,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005665/CanadianWildfires_WithActiveFireLocations_07202026_1920x1080.png",
+        "filename": "CanadianWildfires_WithActiveFireLocations_07202026_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5664,
+      "url": "http://svs.gsfc.nasa.gov/5664/",
+      "page_type": "Visualization",
+      "title": "Long-range Transport of 2026 Canadian Wildfire Smoke into the United States (July 14-17, 2026)",
+      "description": "Powered by NASA's GEOS model, this animation visualizes the transport of brown carbon from July 14 to 17, 2026, and its impact on U.S. air quality.",
+      "release_date": "2026-07-17T18:00:00-04:00",
+      "update_date": "2026-07-23T09:21:29.709358-04:00",
+      "main_image": {
+        "id": 1204624,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005664/CanadianWildfires_WithActiveFireLocations_07172026_1920x1080.png",
+        "filename": "CanadianWildfires_WithActiveFireLocations_07172026_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5639,
+      "url": "http://svs.gsfc.nasa.gov/5639/",
+      "page_type": "Visualization",
+      "title": "Daily Visualizations of the Largest Wildfires in the United States: 2026",
+      "description": "Wildland fires pose significant threats to ecosystems, property, and human lives. Leveraging NASA’s satellite data, advanced models, visualization capacity and computing power, we analyze fire events, monitor how weather conditions impact fires and how regional air quality affects communities. Through this webpage we offer daily updated visualizations of the two largest active wildfires events in the continental United States throughout fire season.",
+      "release_date": "2026-06-08T22:00:00-04:00",
+      "update_date": "2026-11-14T02:00:13.716995-05:00",
+      "main_image": {
+        "id": 1204334,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005639/daily_wildfires_preview_image.png",
+        "filename": "daily_wildfires_preview_image.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 14894,
+      "url": "http://svs.gsfc.nasa.gov/14894/",
+      "page_type": "Produced Video",
+      "title": "NASA Flew Over a Fire — to Better Understand Future Ones",
+      "description": "On April 14th-20th, 2025, NASA’s FireSense project led a multi-agency prescribed burn research operation at Fort Stewart-Hunter Army Field, Georgia, in partnership with the U.S. Department of War (DoW). The DoW led the prescribed burn activities, while NASA FireSense coordinated field and airborne sampling with academic and agency partners, including the DoW Strategic Environmental Research and Development Program (SERDP) and DoW Environmental Security Technology Certification Program (ESTCP). The campaign targeted vegetation, fire, and smoke measurements, and aims to enhance understanding of fire behavior and smoke dynamics in order to provide actionable information to practitioners.In a collaboration between NASA, the DoW, and wildland experts, NASA FireSense demonstrates how cutting-edge satellite and airborne technology is revolutionizing fire detection, prescribed fire, and ecosystem management—bringing real-time data to wildland fire managers.NASA FireSense Website || ",
+      "release_date": "2025-09-23T13:00:00-04:00",
+      "update_date": "2025-12-11T14:22:02-05:00",
+      "main_image": {
+        "id": 1158343,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014894/20250917_SVS14894_NASA_FireSense_at_Fort_Stewart_GAW_1080x720_Thumbnail.jpg",
+        "filename": "20250917_SVS14894_NASA_FireSense_at_Fort_Stewart_GAW_1080x720_Thumbnail.jpg",
+        "media_type": "Image",
+        "alt_text": "NASA FireSense 2025 Field Campaign video (4960x2160)Universal Production Music:Collective Conscious Instrumental by Moenks WrightScience to Save Us Instrumental by Moenks WrightMaking Magic Instrumental by Moenks WrightOxygenate the Idea Instrumental by Banksman Stone TurnerTrusting in Tech Instrumental by Moenks WrightKinetic World Instrumental by PriceThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Tridant Sensing Inc, U.S. Forest Service, Department of War and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit <a href=\"https://www.nasa.gov/nasa-brand-center/images-and-media/\" target=\"_blank\">https://www.nasa.gov/nasa-brand-center/images-and-media/Complete transcript available.Watch this video on the NASA.gov Video YouTube channel.",
+        "width": 1280,
+        "height": 720,
+        "pixels": 921600
+      }
+    },
+    {
+      "id": 60003,
+      "url": "http://svs.gsfc.nasa.gov/60003/",
+      "page_type": "Produced Video",
+      "title": "How NASA Data Stabilizes Global Markets",
+      "description": "By delivering timely, science-based insights from space, NASA supports smarter farming decisions and helps keep food prices more stable for consumers around the world.",
+      "release_date": "2025-09-15T16:00:00-04:00",
+      "update_date": "2025-09-15T16:21:36.722914-04:00",
+      "main_image": {
+        "id": 1158269,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060003/EIC_AgAndMarkets_preview.png",
+        "filename": "EIC_AgAndMarkets_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1080,
+        "height": 634,
+        "pixels": 684720
+      }
+    },
+    {
+      "id": 60002,
+      "url": "http://svs.gsfc.nasa.gov/60002/",
+      "page_type": "Produced Video",
+      "title": "NASA: Helping Communities Protect Drinking Water",
+      "description": "NASA is helping communities safeguard one of their most essential resources: clean water. When wildfires burn through forests, \texcessive sediment and potential contaminants can enter local waterways and overwhelm downstream treatment plants. NASA satellites provide critical data to track post-fire impacts on watersheds by mapping vulnerable areas for faster response.",
+      "release_date": "2025-09-15T12:00:00-04:00",
+      "update_date": "2025-09-15T16:21:53.427078-04:00",
+      "main_image": {
+        "id": 1158206,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060002/EIC_WaterResources_Image_preview.png",
+        "filename": "EIC_WaterResources_Image_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1886,
+        "height": 1080,
+        "pixels": 2036880
+      }
+    },
+    {
+      "id": 60001,
+      "url": "http://svs.gsfc.nasa.gov/60001/",
+      "page_type": "Produced Video",
+      "title": "NASA Mapping Critical Minerals",
+      "description": "The Geological Earth Mapping Experiment (GEMx) is a joint effort between NASA and the U.S. Geological Survey (USGS) to advance our knowledge of critical mineral resources in the Western United States. In September 2023, NASA aircraft began supporting an effort to find and map critical mineral deposits in Western regions of the U.S. Identifying these minerals  could help improve environmental processes for mining and geological activities, enhance national security, and boost the economy.",
+      "release_date": "2025-09-11T15:00:00-04:00",
+      "update_date": "2025-10-24T13:33:24.652706-04:00",
+      "main_image": {
+        "id": 1158159,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060001/EIC_CriticalMinerals_Image_3840x1080.png",
+        "filename": "EIC_CriticalMinerals_Image_3840x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 3840,
+        "height": 1080,
+        "pixels": 4147200
+      }
+    },
+    {
+      "id": 14713,
+      "url": "http://svs.gsfc.nasa.gov/14713/",
+      "page_type": "Produced Video",
+      "title": "Building Coastal Resilience with NASA Data",
+      "description": "The city of Mobile, AL is working with NASA’s Sea Level Change Team to plan for future infrastructure projects and to protect Mobile’s coastal resources. As sea levels change globally, coastal cities feel the effects of more frequent and more severe storms and flooding. NASA’s sea level change data helps Mobile and other coastal communities plan for a more resilient future.",
+      "release_date": "2025-01-07T00:30:59-05:00",
+      "update_date": "2025-09-15T21:55:55.202941-04:00",
+      "main_image": {
+        "id": 1139025,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_SeaLevelRise_2560x720.png",
+        "filename": "EIC_SeaLevelRise_2560x720.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 2560,
+        "height": 720,
+        "pixels": 1843200
+      }
+    },
+    {
+      "id": 14700,
+      "url": "http://svs.gsfc.nasa.gov/14700/",
+      "page_type": "Produced Video",
+      "title": "NASA + The Smithsonian: Biodiversity",
+      "description": "Biodiverse ecosystems need protection. Through fieldwork, coordination with local partners, and satellite observations, NASA and the Smithsonian are working hard to protect them. Using NASA Earth science satellite and other data, the Goodall Institute puts imagery and data into the hands of local communities to drive conservation efforts. The Scimitar-horned oryx went from extinct in the wild to endangered in the wild thanks to the Smithsonian’s work with partners to re-introduce the species.",
+      "release_date": "2024-10-08T10:00:00-04:00",
+      "update_date": "2025-06-16T09:11:07.773462-04:00",
+      "main_image": {
+        "id": 1102583,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014700/Screenshot_2024-10-03_at_11.46.44_AM.png",
+        "filename": "Screenshot_2024-10-03_at_11.46.44_AM.png",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Full 8K resolution. Optimized for Earth Information Center display.Music Credit: “Lion Track,” “Atmospheres Instrumental,” and “Fast Progress Instrumental” from Universal Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Sahara Conservation and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1908,
+        "height": 532,
+        "pixels": 1015056
+      }
+    },
+    {
+      "id": 14696,
+      "url": "http://svs.gsfc.nasa.gov/14696/",
+      "page_type": "Produced Video",
+      "title": "NASA + Smithsonian and Greenhouse Gases",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel. || Smithsonian_GHG.png (3825x1076) [2.8 MB] || Smithsonian_GHG_searchweb.png (320x180) [63.7 KB] || Smithsonian_GHG_thm.png (80x40) [6.2 KB] || GHG_Smithsonian.en_US.srt [5.8 KB] || GHG_Smithsonian.en_US.vtt [5.5 KB] || Smithsonian_GHG_v5_small.mp4 (7680x2160) [472.3 MB] || Smithsonian_GHG_v5_medium.mp4 (7680x2160) [859.9 MB] || Smithsonian_GHG_v5_h.264.mp4 (7680x2160) [4.5 GB] || ",
+      "release_date": "2024-10-08T00:00:00-04:00",
+      "update_date": "2024-10-08T17:35:56-04:00",
+      "main_image": {
+        "id": 1100888,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png",
+        "filename": "Smithsonian_GHG_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    },
+    {
+      "id": 14507,
+      "url": "http://svs.gsfc.nasa.gov/14507/",
+      "page_type": "Produced Video",
+      "title": "NASA Joins the Jane Goodall Institute to Conserve Chimpanzee Habitat, Earth Information Center Videos",
+      "description": "After years of forest loss, chimpanzee habitats are recovering. This is, in part, due to a collaboration between NASA and the Jane Goodall Institute (JGI). Using NASA Earth science satellite and other data, the Goodall Institute puts data into the hands of local communities to drive conservation across Africa’s equatorial forest belt.",
+      "release_date": "2024-04-18T08:40:00-04:00",
+      "update_date": "2025-09-16T09:59:40.488223-04:00",
+      "main_image": {
+        "id": 1091072,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+        "filename": "JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 14367,
+      "url": "http://svs.gsfc.nasa.gov/14367/",
+      "page_type": "Produced Video",
+      "title": "NASA and Agriculture",
+      "description": "Feeding a Hungry World The farmers responsible for the food that reaches your plate need a lot of a very precious and limited resource, water. NASA works with farmers like Dwane Roth of Kansas to help them track their water use. Roth says that farmers like him are seeing more frequent, hotter days with less rain. “We need to grow more with less and get as much out of each drop of water we can,” he says. NASA helps to promote the use of Earth observations to strengthen food security.",
+      "release_date": "2023-06-15T16:00:00-04:00",
+      "update_date": "2025-05-29T11:20:21.421872-04:00",
+      "main_image": {
+        "id": 855994,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+        "filename": "0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": 5113,
+      "url": "http://svs.gsfc.nasa.gov/5113/",
+      "page_type": "Visualization",
+      "title": "Active Fires As Observed by VIIRS, 2024-Present",
+      "description": "This animated visualization uses a moving five-day window of VIIRS measurments of fire radiative power (FRP), to present a view of fire intensities around the globe. || fires_frp_VIIRS.892_print.jpg (1024x512) [71.9 KB] || fires_frp_VIIRS.892_searchweb.png (320x180) [37.8 KB] || fires_frp_VIIRS.892_web.png (320x160) [33.5 KB] || fires_frp_VIIRS.892_thm.png (80x40) [4.3 KB] || fires_frp_VIIRS_2048p30.mp4 (4096x2048) [46.5 MB] || EIC (4096x2048) [824 Item(s)] || VIIRS_fires_latest.exr [7.0 MB] || ",
+      "release_date": "2024-03-01T14:00:00-05:00",
+      "update_date": "2026-10-24T19:30:10.364230-04:00",
+      "main_image": {
+        "id": 856615,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005113/fires_frp_VIIRS.001_print.jpg",
+        "filename": "fires_frp_VIIRS.001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This animated visualization uses a moving five-day window of VIIRS measurments of fire radiative power (FRP), to present a view of fire intensities around the globe.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 5088,
+      "url": "http://svs.gsfc.nasa.gov/5088/",
+      "page_type": "Visualization",
+      "title": "Tracking the Spread of the Caldor and Dixie Fires",
+      "description": "This visualization shows the spread of the Caldor and the Dixie fires in California during the summer of 2021, updated every 12 hours from a new fire detection and tracking approach based on near-real time active fire detections from the VIIRS sensor on the Suomi-NPP satellite.Complete transcript available. || Tracking_the_Caldor_and_Dixie_Fires.03615_print.jpg (1024x576) [296.7 KB] || Tracking_the_Caldor_and_Dixie_Fires.03615_searchweb.png (320x180) [133.9 KB] || Tracking_the_Caldor_and_Dixie_Fires.03615_thm.png (80x40) [7.8 KB] || Tracking_the_Caldor_and_Dixie_Fires.mp4 (1920x1080) [336.4 MB] || Tracking_the_Caldor_and_Dixie_Fires.mp4.en_US.srt [3.9 KB] || Tracking_the_Caldor_and_Dixie_Fires.mp4.en_US.vtt [3.7 KB] || Tracking_the_Caldor_and_Dixie_Fires.mp4.hwshow || ",
+      "release_date": "2023-06-12T00:00:00-04:00",
+      "update_date": "2025-06-23T00:15:49.119129-04:00",
+      "main_image": {
+        "id": 841998,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005088/Tracking_the_Caldor_and_Dixie_Fires.03615_print.jpg",
+        "filename": "Tracking_the_Caldor_and_Dixie_Fires.03615_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the spread of the Caldor and the Dixie fires in California during the summer of 2021, updated every 12 hours from a new fire detection and tracking approach based on near-real time active fire detections from the VIIRS sensor on the Suomi-NPP satellite.Complete transcript available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5095,
+      "url": "http://svs.gsfc.nasa.gov/5095/",
+      "page_type": "Visualization",
+      "title": "USFS/GEDI Old Growth Forest Visualizations",
+      "description": "This visualization begins with a view of USFS Forest Inventory and Analysis (FIA) plot locations (orange dots) across the continental US.  GEDI vegetation height data then draws on dynamically, showing how data from both the USFS and NASA can be used together to increase spatial coverage. || FIA_plots_with_GEDI.00425_print.jpg (1024x576) [304.0 KB] || FIA_plots_with_GEDI.00425_searchweb.png (320x180) [96.4 KB] || FIA_plots_with_GEDI.00425_thm.png (80x40) [6.6 KB] || FIA_plots_with_GEDI_1080p60.mp4 (1920x1080) [26.4 MB] || FIA_plots_with_GEDI_no_legend_1080p60.mp4 (1920x1080) [25.8 MB] || FIA_plots_with_GEDI_1080p60.webm (1920x1080) [2.1 MB] || FIA_plots_with_GEDI (3840x2160) [0 Item(s)] || FIA_plots_with_GEDI_noLegend (3840x2160) [0 Item(s)] || FIA_plots_with_GEDI_2160p60.mp4 (3840x2160) [63.6 MB] || FIA_plots_with_GEDI_no_legend_2160p60.mp4 (3840x2160) [63.0 MB] || FIA_plots_with_GEDI_2160p60.mp4.hwshow [124 bytes] || ",
+      "release_date": "2023-04-20T00:00:00-04:00",
+      "update_date": "2025-06-23T00:15:51.306088-04:00",
+      "main_image": {
+        "id": 854515,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005095/FIA_plots_with_GEDI.00425_print.jpg",
+        "filename": "FIA_plots_with_GEDI.00425_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization begins with a view of USFS Forest Inventory and Analysis (FIA) plot locations (orange dots) across the continental US.  GEDI vegetation height data then draws on dynamically, showing how data from both the USFS and NASA can be used together to increase spatial coverage.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5009,
+      "url": "http://svs.gsfc.nasa.gov/5009/",
+      "page_type": "Visualization",
+      "title": "Dixie and Caldor Wildfires Locator Maps - 2021",
+      "description": "Perimeters of Dixie and Caldor wildfires located in California. The extent of the Dixie wildfire is as of October 22, 2021, while the extent of the Caldor wildfire is as of October 6, 2021. The dropdown menu offers multiple resolutions for a 32:27 aspect ratio. || fires_preview.jpg (1024x864) [167.1 KB] || fires_16000.png (16000x13500) [19.6 MB] || fires_3840.png (3840x3240) [11.1 MB] || fires_16000_searchweb.png (320x180) [71.5 KB] || fires_16000_thm.png (80x40) [5.2 KB] || ",
+      "release_date": "2022-06-01T00:00:00-04:00",
+      "update_date": "2025-03-16T22:55:05.652269-04:00",
+      "main_image": {
+        "id": 842113,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005009/fires_16000_searchweb.png",
+        "filename": "fires_16000_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Perimeters of Dixie and Caldor wildfires located in California. The extent of the Dixie wildfire is as of October 22, 2021, while the extent of the Caldor wildfire is as of October 6, 2021. The dropdown menu offers multiple resolutions for a 32:27 aspect ratio.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    }
+  ],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

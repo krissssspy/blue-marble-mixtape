@@ -1,0 +1,733 @@
+{
+  "id": 14367,
+  "url": "http://svs.gsfc.nasa.gov/14367/",
+  "page_type": "Produced Video",
+  "title": "NASA and Agriculture",
+  "description": "Feeding a Hungry World The farmers responsible for the food that reaches your plate need a lot of a very precious and limited resource, water. NASA works with farmers like Dwane Roth of Kansas to help them track their water use. Roth says that farmers like him are seeing more frequent, hotter days with less rain. “We need to grow more with less and get as much out of each drop of water we can,” he says. NASA helps to promote the use of Earth observations to strengthen food security.",
+  "release_date": "2023-06-15T16:00:00-04:00",
+  "update_date": "2025-05-29T11:20:21.421872-04:00",
+  "main_image": {
+    "id": 855994,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+    "filename": "0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+    "width": 1024,
+    "height": 288,
+    "pixels": 294912
+  },
+  "main_video": null,
+  "main_credits": {
+    "Scientific consulting by": [{ "name": "Matthew Rodell", "employer": "NASA/GSFC" }],
+    "Visualizations by": [
+      { "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." }
+    ],
+    "Technical support": [{ "name": "Aaron E. Lepsch", "employer": "ADNET Systems, Inc." }],
+    "Produced by": [{ "name": "Kathleen Gaeta Greer", "employer": "NASA/GSFC/AMA" }],
+    "Written by": [{ "name": "Kathleen Gaeta Greer", "employer": "NASA/GSFC/AMA" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 312223,
+      "url": "http://svs.gsfc.nasa.gov/14367/#media_group_312223",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Feeding a Hungry World <br>The farmers responsible for the food that reaches your plate need a lot of a very precious and limited resource, water. NASA works with farmers like Dwane Roth of Kansas to help them track their water use. Roth says that farmers like him are seeing more frequent, hotter days with less rain. “We need to grow more with less and get as much out of each drop of water we can,” he says. NASA helps to promote the use of Earth observations to strengthen food security. One solution is OpenET, a system that puts near-real-time water data into the hands of farmers in the United States.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 312224,
+      "url": "http://svs.gsfc.nasa.gov/14367/#media_group_312224",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "<p><p><p><a href=\"/vis/a010000/a014300/a014367/script_34463_00.html\">Complete transcript</a> available.</p><p><p> <p><p>Music credit: “The Grand Journey” from Universal Production Music <p><p>This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+      "items": [
+        {
+          "id": 459192,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 855994,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+            "filename": "0613_Ag_Water__Main_Screen__FInal_Export.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 1024,
+            "height": 288,
+            "pixels": 294912
+          }
+        },
+        {
+          "id": 459194,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 855996,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen__FInal_Export.00001_web.png",
+            "filename": "0613_Ag_Water__Main_Screen__FInal_Export.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 320,
+            "height": 90,
+            "pixels": 28800
+          }
+        },
+        {
+          "id": 459195,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 855997,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen__FInal_Export.00001_thm.png",
+            "filename": "0613_Ag_Water__Main_Screen__FInal_Export.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459191,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 855927,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen__FInal_Export.mp4",
+            "filename": "0613_Ag_Water__Main_Screen__FInal_Export.mp4",
+            "media_type": "Movie",
+            "alt_text": "Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 471027,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155531,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen_1080p.mp4",
+            "filename": "0613_Ag_Water__Main_Screen_1080p.mp4",
+            "media_type": "Movie",
+            "alt_text": "Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+            "width": 3840,
+            "height": 1080,
+            "pixels": 4147200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312225,
+      "url": "http://svs.gsfc.nasa.gov/14367/#media_group_312225",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "<p><p><p><a href=\"/vis/a010000/a014300/a014367/script_34464_00.html\">Complete transcript</a> available.</p><p>16x9 version optimized for YouTube.<p><p>",
+      "items": [
+        {
+          "id": 459198,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856006,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/16-9_Final_Cut.00001_print.jpg",
+            "filename": "16-9_Final_Cut.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Complete transcript available.16x9 version optimized for YouTube.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 459199,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856007,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/16-9_Final_Cut.00001_searchweb.png",
+            "filename": "16-9_Final_Cut.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Complete transcript available.16x9 version optimized for YouTube.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 459200,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856008,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/16-9_Final_Cut.00001_web.png",
+            "filename": "16-9_Final_Cut.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "Complete transcript available.16x9 version optimized for YouTube.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 459201,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856009,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/16-9_Final_Cut.00001_thm.png",
+            "filename": "16-9_Final_Cut.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "Complete transcript available.16x9 version optimized for YouTube.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459202,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856026,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/16-9_Final_Cut.webm",
+            "filename": "16-9_Final_Cut.webm",
+            "media_type": "Movie",
+            "alt_text": "Complete transcript available.16x9 version optimized for YouTube.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 459197,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855928,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/16-9_Final_Cut.mp4",
+            "filename": "16-9_Final_Cut.mp4",
+            "media_type": "Movie",
+            "alt_text": "Complete transcript available.16x9 version optimized for YouTube.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 465417,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1148363,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/16-9_Final_Cut.mp4.hwshow",
+            "filename": "16-9_Final_Cut.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312226,
+      "url": "http://svs.gsfc.nasa.gov/14367/#media_group_312226",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Right panel visuals.",
+      "items": [
+        {
+          "id": 459204,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856012,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleRight2.00001_print.jpg",
+            "filename": "AgCircleRight2.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Right panel visuals.",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        },
+        {
+          "id": 459205,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856013,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleRight2.00001_searchweb.png",
+            "filename": "AgCircleRight2.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Right panel visuals.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 459206,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856014,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleRight2.00001_web.png",
+            "filename": "AgCircleRight2.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "Right panel visuals.",
+            "width": 320,
+            "height": 320,
+            "pixels": 102400
+          }
+        },
+        {
+          "id": 459207,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856015,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleRight2.00001_thm.png",
+            "filename": "AgCircleRight2.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "Right panel visuals.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459208,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856031,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleRight2.webm",
+            "filename": "AgCircleRight2.webm",
+            "media_type": "Movie",
+            "alt_text": "Right panel visuals.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 459203,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856011,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleRight2.mp4",
+            "filename": "AgCircleRight2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Right panel visuals.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312227,
+      "url": "http://svs.gsfc.nasa.gov/14367/#media_group_312227",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Left panel visuals. ",
+      "items": [
+        {
+          "id": 459210,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856019,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleLeft2.00001_print.jpg",
+            "filename": "AgCircleLeft2.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Left panel visuals. ",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        },
+        {
+          "id": 459211,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856020,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleLeft2.00001_searchweb.png",
+            "filename": "AgCircleLeft2.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Left panel visuals. ",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 459212,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856021,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleLeft2.00001_web.png",
+            "filename": "AgCircleLeft2.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "Left panel visuals. ",
+            "width": 320,
+            "height": 320,
+            "pixels": 102400
+          }
+        },
+        {
+          "id": 459213,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856022,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleLeft2.00001_thm.png",
+            "filename": "AgCircleLeft2.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "Left panel visuals. ",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459214,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856033,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleLeft2.webm",
+            "filename": "AgCircleLeft2.webm",
+            "media_type": "Movie",
+            "alt_text": "Left panel visuals. ",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 459209,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856016,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014367/AgCircleLeft2.mp4",
+            "filename": "AgCircleLeft2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Left panel visuals. ",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Scientist", "people": [{ "name": "Matthew Rodell", "employer": "NASA/GSFC" }] },
+    {
+      "role": "Animator",
+      "people": [{ "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." }]
+    },
+    { "role": "Project support", "people": [{ "name": "Ellen T. Gray", "employer": "NASA/HQ" }] },
+    {
+      "role": "Technical support",
+      "people": [{ "name": "Aaron E. Lepsch", "employer": "ADNET Systems, Inc." }]
+    },
+    {
+      "role": "Producer",
+      "people": [{ "name": "Kathleen Gaeta Greer", "employer": "NASA/GSFC/AMA" }]
+    },
+    {
+      "role": "Writer",
+      "people": [{ "name": "Kathleen Gaeta Greer", "employer": "NASA/GSFC/AMA" }]
+    }
+  ],
+  "missions": [],
+  "series": ["Narrated Movies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Agricultural science",
+    "Agriculture",
+    "Earth Science",
+    "Environmental Governance/management",
+    "Ground Water",
+    "Groundwater Chemistry",
+    "Human Dimensions",
+    "Hyperwall",
+    "Terrestrial Hydrosphere",
+    "water management"
+  ],
+  "recommended_pages": [
+    {
+      "id": 31370,
+      "url": "http://svs.gsfc.nasa.gov/31370/",
+      "page_type": "Visualization",
+      "title": "OpenET Expands to Cover 48 States",
+      "description": "An animation of five years of CONUS evapotrasnpiration from OpenET, related to this release https://etdata.org/openet-expands-satellite-based-water-use-data-48-states-farmers-water-managers-across-nation/",
+      "release_date": "9999-12-30T18:59:59-05:00",
+      "update_date": "2026-03-06T11:42:40.163679-05:00",
+      "main_image": {
+        "id": 1202377,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031370/OpenET_conus_labeled_2025.png",
+        "filename": "OpenET_conus_labeled_2025.png",
+        "media_type": "Image",
+        "alt_text": "This is a movie of five years of evapotranspiration data over the contiguous US. The image of the US is colored with a scale that varies from orange to yellow to green to blue, with orange indicating areas with the least evaportranspiration and blue indicating areas with the most.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": 15093,
+      "url": "http://svs.gsfc.nasa.gov/15093/",
+      "page_type": "Produced Video",
+      "title": "BioSCapes: Tracking Biodiversity using NASA Satellites",
+      "description": "Adapted from Fishwater Films' *The Spectrum of Life* for NASA's Earth Information Center, this short documentary features NASA's BioSCape campaign. BioSCape is NASA's first biodiversity airborne campaign in South Africa focused on local biodiversity, how NASA plays a role in conservation, and the potential of using remote sensing to measure and monitor ecosystems.\r\n\r\nTo learn more about NASA's Earth Information Center, visit: [https://earth.gov/](https://)",
+      "release_date": "9999-12-30T18:59:59-05:00",
+      "update_date": "2026-10-07T10:09:11.133635-04:00",
+      "main_image": {
+        "id": 1205894,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015093/BIOSCAPE_STILLImage.png",
+        "filename": "BIOSCAPE_STILLImage.png",
+        "media_type": "Image",
+        "alt_text": "A wide image made up of three smaller images. The image on the left shows two boats with people in the foregound floating on a dark blue ocean with a mountainous coastline in the background along the horizon. The middle image is a satellite image of a peninsula, potentially where the people on the boats are located. The third image on the right contains three rectangular bars left to right in the colors blue, green and red.",
+        "width": 7680,
+        "height": 2160,
+        "pixels": 16588800
+      }
+    },
+    {
+      "id": 15108,
+      "url": "http://svs.gsfc.nasa.gov/15108/",
+      "page_type": "Produced Video",
+      "title": "EIC: Earth Science Technology Office",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.Music Credit:“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production MusicPretty Rocks Landslide courtesy of the National Park Service.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html || ESTO_Still2_print.jpg (1024x288) [100.0 KB] || ESTO_Still.png (7680x2160) [73.9 MB] || ESTO_Still_print.jpg (1024x288) [130.9 KB] || ESTO_Still2.png (7680x2160) [47.0 MB] || ESTO_Still_searchweb.png (320x180) [117.0 KB] || ESTO_Still_thm.png (80x40) [9.0 KB] || ESTO_FINAL.en_US.srt [3.7 KB] || ESTO_FINAL.en_US.vtt [3.5 KB] || ESTO_FINAL_Low.mp4 (7680x2160) [854.3 MB] || ESTO_FINAL_Medium.mp4 (7680x2160) [1.7 GB] || ESTO_FINAL.mp4 (7680x2160) [2.6 GB] || ESTO_FINAL.mov (7680x2160) [37.0 GB] || ",
+      "release_date": "9999-12-30T18:59:59-05:00",
+      "update_date": "2026-11-05T11:34:09-05:00",
+      "main_image": {
+        "id": 1206300,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015100/a015108/ESTO_Still_print.jpg",
+        "filename": "ESTO_Still_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\rMusic Credit:\r“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music\r“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music\r“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production Music\rPretty Rocks Landslide courtesy of the National Park Service.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html\r",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 60003,
+      "url": "http://svs.gsfc.nasa.gov/60003/",
+      "page_type": "Produced Video",
+      "title": "How NASA Data Stabilizes Global Markets",
+      "description": "By delivering timely, science-based insights from space, NASA supports smarter farming decisions and helps keep food prices more stable for consumers around the world.",
+      "release_date": "2025-09-15T16:00:00-04:00",
+      "update_date": "2025-09-15T16:21:36.722914-04:00",
+      "main_image": {
+        "id": 1158269,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060003/EIC_AgAndMarkets_preview.png",
+        "filename": "EIC_AgAndMarkets_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1080,
+        "height": 634,
+        "pixels": 684720
+      }
+    },
+    {
+      "id": 60002,
+      "url": "http://svs.gsfc.nasa.gov/60002/",
+      "page_type": "Produced Video",
+      "title": "NASA: Helping Communities Protect Drinking Water",
+      "description": "NASA is helping communities safeguard one of their most essential resources: clean water. When wildfires burn through forests, \texcessive sediment and potential contaminants can enter local waterways and overwhelm downstream treatment plants. NASA satellites provide critical data to track post-fire impacts on watersheds by mapping vulnerable areas for faster response.",
+      "release_date": "2025-09-15T12:00:00-04:00",
+      "update_date": "2025-09-15T16:21:53.427078-04:00",
+      "main_image": {
+        "id": 1158206,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060002/EIC_WaterResources_Image_preview.png",
+        "filename": "EIC_WaterResources_Image_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1886,
+        "height": 1080,
+        "pixels": 2036880
+      }
+    },
+    {
+      "id": 60001,
+      "url": "http://svs.gsfc.nasa.gov/60001/",
+      "page_type": "Produced Video",
+      "title": "NASA Mapping Critical Minerals",
+      "description": "The Geological Earth Mapping Experiment (GEMx) is a joint effort between NASA and the U.S. Geological Survey (USGS) to advance our knowledge of critical mineral resources in the Western United States. In September 2023, NASA aircraft began supporting an effort to find and map critical mineral deposits in Western regions of the U.S. Identifying these minerals  could help improve environmental processes for mining and geological activities, enhance national security, and boost the economy.",
+      "release_date": "2025-09-11T15:00:00-04:00",
+      "update_date": "2025-10-24T13:33:24.652706-04:00",
+      "main_image": {
+        "id": 1158159,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060001/EIC_CriticalMinerals_Image_3840x1080.png",
+        "filename": "EIC_CriticalMinerals_Image_3840x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 3840,
+        "height": 1080,
+        "pixels": 4147200
+      }
+    },
+    {
+      "id": 14789,
+      "url": "http://svs.gsfc.nasa.gov/14789/",
+      "page_type": "Produced Video",
+      "title": "NASA Earth: Powering America's Future",
+      "description": "Music: Pacemaker Instrumental (Everitt) via Universal Production MusicThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by pond5.com is obtained through permission and may not be excised or remixed in other products. Specific details on stock footage may be found here. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html.Complete transcript available. || 14789_Thumbnail.jpg (1280x720) [156.0 KB] || 14789_Thumbnail_print.jpg (1024x576) [131.1 KB] || 14789_Thumbnail_searchweb.png (320x180) [64.5 KB] || 14789_Thumbnail_web.png (320x180) [64.5 KB] || 14789_Thumbnail_thm.png [5.9 KB] || 14789_NASAEarthPoweringAmericasFuture.mp4 (1920x1080) [274.8 MB] || 14789_NASAEarthPowering.en_US.srt [1.9 KB] || 14789_NASAEarthPowering.en_US.vtt [1.9 KB] || ",
+      "release_date": "2025-04-07T11:00:00-04:00",
+      "update_date": "2025-04-02T13:36:45.998069-04:00",
+      "main_image": {
+        "id": 1152977,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014789/14789_Thumbnail_Vert.jpg",
+        "filename": "14789_Thumbnail_Vert.jpg",
+        "media_type": "Image",
+        "alt_text": "Shortened version formatted for vertical Instagram ReelsMusic: Music: Pacemaker Instrumental (Everitt) via Universal Production MusicThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1080,
+        "height": 1920,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 14713,
+      "url": "http://svs.gsfc.nasa.gov/14713/",
+      "page_type": "Produced Video",
+      "title": "Building Coastal Resilience with NASA Data",
+      "description": "The city of Mobile, AL is working with NASA’s Sea Level Change Team to plan for future infrastructure projects and to protect Mobile’s coastal resources. As sea levels change globally, coastal cities feel the effects of more frequent and more severe storms and flooding. NASA’s sea level change data helps Mobile and other coastal communities plan for a more resilient future.",
+      "release_date": "2025-01-07T00:30:59-05:00",
+      "update_date": "2025-09-15T21:55:55.202941-04:00",
+      "main_image": {
+        "id": 1139025,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_SeaLevelRise_2560x720.png",
+        "filename": "EIC_SeaLevelRise_2560x720.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 2560,
+        "height": 720,
+        "pixels": 1843200
+      }
+    },
+    {
+      "id": 14696,
+      "url": "http://svs.gsfc.nasa.gov/14696/",
+      "page_type": "Produced Video",
+      "title": "NASA + Smithsonian and Greenhouse Gases",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel. || Smithsonian_GHG.png (3825x1076) [2.8 MB] || Smithsonian_GHG_searchweb.png (320x180) [63.7 KB] || Smithsonian_GHG_thm.png (80x40) [6.2 KB] || GHG_Smithsonian.en_US.srt [5.8 KB] || GHG_Smithsonian.en_US.vtt [5.5 KB] || Smithsonian_GHG_v5_small.mp4 (7680x2160) [472.3 MB] || Smithsonian_GHG_v5_medium.mp4 (7680x2160) [859.9 MB] || Smithsonian_GHG_v5_h.264.mp4 (7680x2160) [4.5 GB] || ",
+      "release_date": "2024-10-08T00:00:00-04:00",
+      "update_date": "2024-10-08T17:35:56-04:00",
+      "main_image": {
+        "id": 1100888,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png",
+        "filename": "Smithsonian_GHG_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    },
+    {
+      "id": 14606,
+      "url": "http://svs.gsfc.nasa.gov/14606/",
+      "page_type": "Produced Video",
+      "title": "NASA and Fire",
+      "description": "Wildland fires, which are natural and essential for many ecosystems, have increased in frequency and size due to longer fire seasons, climate change, and the expanding interface between communities and wild vegetation. Using fire strategically—through prescribed burns and natural ignitions—can mitigate future severe fires that might burn more intensely under hotter, drier conditions.",
+      "release_date": "2024-07-29T15:00:00-04:00",
+      "update_date": "2025-09-15T17:43:50.308847-04:00",
+      "main_image": {
+        "id": 1158279,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_Image_4K.jpg",
+        "filename": "EIC_NASAandFire_Main_Image_4K.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+        "width": 3840,
+        "height": 1080,
+        "pixels": 4147200
+      }
+    }
+  ],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

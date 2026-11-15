@@ -1,0 +1,482 @@
+{
+  "id": 31196,
+  "url": "http://svs.gsfc.nasa.gov/31196/",
+  "page_type": "Hyperwall Visual",
+  "title": "50 years of Landsat: Denver",
+  "description": "Since 1972, Landsat satellites have observed our planet’s forests, deserts, cities, farms, and badlands. The Mile High City rose up on the hopes of gold miners, who founded the city in 1858 after the discovery of gold in the waters at the confluence of the South Platte River and Cherry Creek. Denver, Colorado, quickly became a hub for the mining towns to the west and the agricultural interests on the plains to the east. Unhindered by any major body of water or topographic feature to the north, south, or east, the city has expanded in all directions. These red-NIR-green combination false color images show the city of Denver between 1972 or 1972 and 2022, using sensors aboard Landsat satellites that have been collecting data in different ranges of frequencies along the electromagnetic spectrum for nearly 50 years. || ",
+  "release_date": "2022-10-20T00:00:00-04:00",
+  "update_date": "2025-04-16T00:36:22.132103-04:00",
+  "main_image": {
+    "id": 368773,
+    "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_v1_2022_print.jpg",
+    "filename": "denver_landsat_v1_2022_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Timeseries animation of Denver between 1973 and 2022. 1973 was the first year with non-cloudy Landsat images.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [
+      { "name": "Marit Jentoft-Nilsen", "employer": "Global Science and Technology, Inc." }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 313727,
+      "url": "http://svs.gsfc.nasa.gov/31196/#media_group_313727",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Since 1972, Landsat satellites have observed our planet’s forests, deserts, cities, farms, and badlands. The Mile High City rose up on the hopes of gold miners, who founded the city in 1858 after the discovery of gold in the waters at the confluence of the South Platte River and Cherry Creek. Denver, Colorado, quickly became a hub for the mining towns to the west and the agricultural interests on the plains to the east. Unhindered by any major body of water or topographic feature to the north, south, or east, the city has expanded in all directions. These red-NIR-green combination false color images show the city of Denver between 1972 or 1972 and 2022, using sensors aboard Landsat satellites that have been collecting data in different ranges of frequencies along the electromagnetic spectrum for nearly 50 years.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 313728,
+      "url": "http://svs.gsfc.nasa.gov/31196/#media_group_313728",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Timeseries animation of Denver between 1973 and 2022. 1973 was the first year with non-cloudy Landsat images.",
+      "items": [
+        {
+          "id": 209926,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368773,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_v1_2022_print.jpg",
+            "filename": "denver_landsat_v1_2022_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Timeseries animation of Denver between 1973 and 2022. 1973 was the first year with non-cloudy Landsat images.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 209927,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368774,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_v1_2022_searchweb.png",
+            "filename": "denver_landsat_v1_2022_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Timeseries animation of Denver between 1973 and 2022. 1973 was the first year with non-cloudy Landsat images.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 209928,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368775,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_v1_2022_thm.png",
+            "filename": "denver_landsat_v1_2022_thm.png",
+            "media_type": "Image",
+            "alt_text": "Timeseries animation of Denver between 1973 and 2022. 1973 was the first year with non-cloudy Landsat images.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 209923,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368770,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_1973-2022_v1_1080p2.mp4",
+            "filename": "denver_landsat_1973-2022_v1_1080p2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Timeseries animation of Denver between 1973 and 2022. 1973 was the first year with non-cloudy Landsat images.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 209929,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368776,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_1973-2022_v1_1080p2.webm",
+            "filename": "denver_landsat_1973-2022_v1_1080p2.webm",
+            "media_type": "Movie",
+            "alt_text": "Timeseries animation of Denver between 1973 and 2022. 1973 was the first year with non-cloudy Landsat images.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 209924,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368771,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_1973-2022_v1_2160p2.mp4",
+            "filename": "denver_landsat_1973-2022_v1_2160p2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Timeseries animation of Denver between 1973 and 2022. 1973 was the first year with non-cloudy Landsat images.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 209925,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368772,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_v1_2022.tif",
+            "filename": "denver_landsat_v1_2022.tif",
+            "media_type": "Image",
+            "alt_text": "Timeseries animation of Denver between 1973 and 2022. 1973 was the first year with non-cloudy Landsat images.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 437521,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1099275,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_1973-2022_v1_2160p2.hwshow",
+            "filename": "denver_landsat_1973-2022_v1_2160p2.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313729,
+      "url": "http://svs.gsfc.nasa.gov/31196/#media_group_313729",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Timeseries animation of Denver between 1972 and 2022. Only cloudy Landsat scenes are available for 1972.",
+      "items": [
+        {
+          "id": 209933,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368780,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_v1_1972_print.jpg",
+            "filename": "denver_landsat_v1_1972_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Timeseries animation of Denver between 1972 and 2022. Only cloudy Landsat scenes are available for 1972.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 209934,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368781,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_v1_1972_searchweb.png",
+            "filename": "denver_landsat_v1_1972_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Timeseries animation of Denver between 1972 and 2022. Only cloudy Landsat scenes are available for 1972.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 209935,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368782,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_v1_1972_thm.png",
+            "filename": "denver_landsat_v1_1972_thm.png",
+            "media_type": "Image",
+            "alt_text": "Timeseries animation of Denver between 1972 and 2022. Only cloudy Landsat scenes are available for 1972.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 209930,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368777,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_1972-2022_v1_1080p2.mp4",
+            "filename": "denver_landsat_1972-2022_v1_1080p2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Timeseries animation of Denver between 1972 and 2022. Only cloudy Landsat scenes are available for 1972.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 209936,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368783,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_1972-2022_v1_1080p2.webm",
+            "filename": "denver_landsat_1972-2022_v1_1080p2.webm",
+            "media_type": "Movie",
+            "alt_text": "Timeseries animation of Denver between 1972 and 2022. Only cloudy Landsat scenes are available for 1972.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 209931,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368778,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_1972-2022_v1_2160p2.mp4",
+            "filename": "denver_landsat_1972-2022_v1_2160p2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Timeseries animation of Denver between 1972 and 2022. Only cloudy Landsat scenes are available for 1972.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 209932,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368779,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_v1_1972.tif",
+            "filename": "denver_landsat_v1_1972.tif",
+            "media_type": "Image",
+            "alt_text": "Timeseries animation of Denver between 1972 and 2022. Only cloudy Landsat scenes are available for 1972.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 437522,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1099276,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_1972-2022_v1_2160p2.hwshow",
+            "filename": "denver_landsat_1972-2022_v1_2160p2.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313730,
+      "url": "http://svs.gsfc.nasa.gov/31196/#media_group_313730",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Mosaic of Landsat Denver for selected years between 1973 and 2022",
+      "items": [
+        {
+          "id": 209938,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368785,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_9_years_1973-2022_print.jpg",
+            "filename": "denver_landsat_9_years_1973-2022_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Mosaic of Landsat Denver for selected years between 1973 and 2022",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 209939,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368786,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_9_years_1973-2022_searchweb.png",
+            "filename": "denver_landsat_9_years_1973-2022_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Mosaic of Landsat Denver for selected years between 1973 and 2022",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 209940,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368787,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_9_years_1973-2022_thm.png",
+            "filename": "denver_landsat_9_years_1973-2022_thm.png",
+            "media_type": "Image",
+            "alt_text": "Mosaic of Landsat Denver for selected years between 1973 and 2022",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 209937,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368784,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_9_years_1973-2022.tif",
+            "filename": "denver_landsat_9_years_1973-2022.tif",
+            "media_type": "Image",
+            "alt_text": "Mosaic of Landsat Denver for selected years between 1973 and 2022",
+            "width": 11520,
+            "height": 6480,
+            "pixels": 74649600
+          }
+        },
+        {
+          "id": 437523,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1099277,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031196/denver_landsat_9_years_1973-2022.hwshow",
+            "filename": "denver_landsat_9_years_1973-2022.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "hw",
+  "funding_sources": ["SMD"],
+  "credits": [
+    {
+      "role": "Animator",
+      "people": [
+        { "name": "Marit Jentoft-Nilsen", "employer": "Global Science and Technology, Inc." }
+      ]
+    }
+  ],
+  "missions": ["Landsat"],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Earth Science",
+    "Habitat Conversion/fragmentation",
+    "Human Dimensions",
+    "Hyperwall",
+    "Land Cover",
+    "Land Surface",
+    "Land Use/Land Cover",
+    "Urban Growth",
+    "Urbanization/urban Sprawl"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 31195,
+      "url": "http://svs.gsfc.nasa.gov/31195/",
+      "page_type": "Hyperwall Visual",
+      "title": "50+ years of Landsat: Las Vegas",
+      "description": "The city of Las Vegas—meaning the meadows—was established in 1905. In the 1930s, gambling became legalized and construction of the Hoover Dam began, resulting in the city's first growth spurt. Since then, Las Vegas has not stopped growing. Population has reached nearly two million over the past decade, becoming one of the fastest growing metropolitan areas in the world. These false-color images show the rapid urbanization of Las Vegas between 1972 and 2024.",
+      "release_date": "2024-04-16T00:00:00-04:00",
+      "update_date": "2025-04-16T11:07:05.945938-04:00",
+      "main_image": {
+        "id": 1154421,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031195/landsat_las_vegas_2024_1920x1080.png",
+        "filename": "landsat_las_vegas_2024_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "Timeseries animation of Las Vegas from 1972 to 2024.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

@@ -1,0 +1,446 @@
+{
+  "id": 14371,
+  "url": "http://svs.gsfc.nasa.gov/14371/",
+  "page_type": "B-Roll",
+  "title": "Earth Information Center Media B-Roll",
+  "description": "The Earth Information Center is a physical and virtual space that showcases NASA Earth information and how our partners and everyday people use Earth observations to solve our planet’s most pressing issues.  It provides a view of our home planet down to local neighborhoods, from outer space. It shows how our planet is changing and provides easy-to-use information and resources we need to mitigate, adapt, and respond to climate change.  The Earth Information Center at NASA’s headquarters building is a physical space that includes various parts: an Earth Pulse sculpture of lights showing NASA Earth data, a Hyperwall that showcases awe-inspiring visualizations and stories told by people using NASA Earth data, the Space for Earth immersive experience surrounding you with science, and an Eyes on Earth interactive kiosk.Images of the June 21, 2023 ribbon cutting ceremony can be found on the NASA Flickr account || ",
+  "release_date": "2023-06-21T09:00:00-04:00",
+  "update_date": "2023-06-19T10:49:47.823790-04:00",
+  "main_image": {
+    "id": 856095,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2-3_print.jpg",
+    "filename": "Thumbnail2-3_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Earth Information Center media resource reel (10Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+    "width": 1024,
+    "height": 544,
+    "pixels": 557056
+  },
+  "main_video": {
+    "id": 856071,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/NASA_HQ_Earth_Information_Center_-_Resource_Reel_40_Mbps.mp4",
+    "filename": "NASA_HQ_Earth_Information_Center_-_Resource_Reel_40_Mbps.mp4",
+    "media_type": "Movie",
+    "alt_text": "Earth Information Center media resource reel (40Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+    "width": 3840,
+    "height": 2160,
+    "pixels": 8294400
+  },
+  "main_credits": {},
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 312118,
+      "url": "http://svs.gsfc.nasa.gov/14371/#media_group_312118",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "The <b>Earth Information Center</b> is a physical and virtual space that showcases NASA Earth information and how our partners and everyday people use Earth observations to solve our planet’s most pressing issues. <br> <br>It provides a view of our home planet down to local neighborhoods, from outer space. It shows how our planet is changing and provides easy-to-use information and resources we need to mitigate, adapt, and respond to climate change. <br> <br>The Earth Information Center at NASA’s headquarters building is a physical space that includes various parts: an Earth Pulse sculpture of lights showing NASA Earth data, a Hyperwall that showcases awe-inspiring visualizations and stories told by people using NASA Earth data, the Space for Earth immersive experience surrounding you with science, and an Eyes on Earth interactive kiosk.<br><br><b>Images of the June 21, 2023 ribbon cutting ceremony can be found on the </b><a href=\"https://www.flickr.com/photos/nasahqphoto/sets/72177720309231779/\" target=\"_blank\">NASA Flickr account</a><br><br><hr>",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 312119,
+      "url": "http://svs.gsfc.nasa.gov/14371/#media_group_312119",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Earth Information Center media resource reel (40Mbps). Audio. TRT 13:06<p>Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+      "items": [
+        {
+          "id": 205453,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856089,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2_print.jpg",
+            "filename": "Thumbnail2_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (40Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 1024,
+            "height": 544,
+            "pixels": 557056
+          }
+        },
+        {
+          "id": 205452,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856085,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2.png",
+            "filename": "Thumbnail2.png",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (40Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 2358,
+            "height": 1253,
+            "pixels": 2954574
+          }
+        },
+        {
+          "id": 205454,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856090,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2_searchweb.png",
+            "filename": "Thumbnail2_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (40Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205455,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856088,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2_thm.png",
+            "filename": "Thumbnail2_thm.png",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (40Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205450,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856071,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/NASA_HQ_Earth_Information_Center_-_Resource_Reel_40_Mbps.mp4",
+            "filename": "NASA_HQ_Earth_Information_Center_-_Resource_Reel_40_Mbps.mp4",
+            "media_type": "Movie",
+            "alt_text": "Earth Information Center media resource reel (40Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 205451,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856082,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/NASA_HQ_Earth_Information_Center_-_Resource_Reel_40_Mbps.webm",
+            "filename": "NASA_HQ_Earth_Information_Center_-_Resource_Reel_40_Mbps.webm",
+            "media_type": "Movie",
+            "alt_text": "Earth Information Center media resource reel (40Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312120,
+      "url": "http://svs.gsfc.nasa.gov/14371/#media_group_312120",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Earth Information Center media resource reel (10Mbps). Audio. TRT 13:06<p>Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+      "items": [
+        {
+          "id": 205459,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856095,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2-3_print.jpg",
+            "filename": "Thumbnail2-3_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (10Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 1024,
+            "height": 544,
+            "pixels": 557056
+          }
+        },
+        {
+          "id": 205458,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856094,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2-3.png",
+            "filename": "Thumbnail2-3.png",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (10Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 2358,
+            "height": 1253,
+            "pixels": 2954574
+          }
+        },
+        {
+          "id": 205460,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856096,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2-3_searchweb.png",
+            "filename": "Thumbnail2-3_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (10Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205461,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856097,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2-3_thm.png",
+            "filename": "Thumbnail2-3_thm.png",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (10Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205456,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856072,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/NASA_HQ_Earth_Information_Center_-_Resource_Reel_10_Mbps.mp4",
+            "filename": "NASA_HQ_Earth_Information_Center_-_Resource_Reel_10_Mbps.mp4",
+            "media_type": "Movie",
+            "alt_text": "Earth Information Center media resource reel (10Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 205457,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856083,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/NASA_HQ_Earth_Information_Center_-_Resource_Reel_10_Mbps.webm",
+            "filename": "NASA_HQ_Earth_Information_Center_-_Resource_Reel_10_Mbps.webm",
+            "media_type": "Movie",
+            "alt_text": "Earth Information Center media resource reel (10Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312121,
+      "url": "http://svs.gsfc.nasa.gov/14371/#media_group_312121",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Earth Information Center media resource reel (mxf). Audio. TRT 13:06<p>Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+      "items": [
+        {
+          "id": 205466,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856093,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2-2_print.jpg",
+            "filename": "Thumbnail2-2_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (mxf). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 1024,
+            "height": 544,
+            "pixels": 557056
+          }
+        },
+        {
+          "id": 205465,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856087,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2-2.png",
+            "filename": "Thumbnail2-2.png",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (mxf). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 2358,
+            "height": 1253,
+            "pixels": 2954574
+          }
+        },
+        {
+          "id": 205467,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856091,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2-2_searchweb.png",
+            "filename": "Thumbnail2-2_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (mxf). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205468,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856092,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/Thumbnail2-2_thm.png",
+            "filename": "Thumbnail2-2_thm.png",
+            "media_type": "Image",
+            "alt_text": "Earth Information Center media resource reel (mxf). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205462,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856073,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/NASA_HQ_Earth_Information_Center_-_Resource_Reel.mxf",
+            "filename": "NASA_HQ_Earth_Information_Center_-_Resource_Reel.mxf",
+            "media_type": "Movie",
+            "alt_text": "Earth Information Center media resource reel (mxf). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 205463,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856074,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/NASA_HQ_Earth_Information_Center_-_Resource_Reel.mp4",
+            "filename": "NASA_HQ_Earth_Information_Center_-_Resource_Reel.mp4",
+            "media_type": "Movie",
+            "alt_text": "Earth Information Center media resource reel (mxf). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 205464,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856084,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014371/NASA_HQ_Earth_Information_Center_-_Resource_Reel.webm",
+            "filename": "NASA_HQ_Earth_Information_Center_-_Resource_Reel.webm",
+            "media_type": "Movie",
+            "alt_text": "Earth Information Center media resource reel (mxf). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312122,
+      "url": "http://svs.gsfc.nasa.gov/14371/#media_group_312122",
+      "widget": "Basic text",
+      "title": "For More Information",
+      "caption": "",
+      "description": "See [https://science.nasa.gov/earth-science/earth-information-center](https://science.nasa.gov/earth-science/earth-information-center)",
+      "items": [],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["PAO"],
+  "credits": [
+    {
+      "role": "Project manager",
+      "people": [
+        { "name": "Ellen T. Gray", "employer": "NASA/HQ" },
+        { "name": "Karen Fox", "employer": "ADNET Systems, Inc." },
+        { "name": "Aries Keck", "employer": "ADNET Systems, Inc." }
+      ]
+    },
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Mark SubbaRao", "employer": "NASA/GSFC" },
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" }
+      ]
+    },
+    {
+      "role": "Project support",
+      "people": [{ "name": "Katie Jepson", "employer": "KBR Wyle Services, LLC" }]
+    }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Earth Information Center"],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

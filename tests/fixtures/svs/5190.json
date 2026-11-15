@@ -1,0 +1,462 @@
+{
+  "id": 5190,
+  "url": "http://svs.gsfc.nasa.gov/5190/",
+  "page_type": "Visualization",
+  "title": "NASA Climate Spiral 1880-Present",
+  "description": "The NASA climate spiral visualization of the GISTEMP global temperature record.",
+  "release_date": "2023-11-15T00:00:00-05:00",
+  "update_date": "2026-11-13T17:57:45.507192-05:00",
+  "main_image": {
+    "id": 1097202,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005190/GISTEMP_Spiral_English_degC_2160p60.01402_print.jpg",
+    "filename": "GISTEMP_Spiral_English_degC_2160p60.01402_print.jpg",
+    "media_type": "Image",
+    "alt_text": "The NASA climate spiral visualization with labels in English and Celsius.",
+    "width": 1080,
+    "height": 1080,
+    "pixels": 1166400
+  },
+  "main_video": null,
+  "main_credits": { "Visualizations by": [{ "name": "Mark SubbaRao", "employer": "NASA/GSFC" }] },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 372817,
+      "url": "http://svs.gsfc.nasa.gov/5190/#media_group_372817",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "The NASA climate spiral visualization with labels in English and Celsius.",
+      "items": [
+        {
+          "id": 414907,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1069922,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005190/GISTEMP_Spiral_English_degC_2160p60.mp4",
+            "filename": "GISTEMP_Spiral_English_degC_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "The NASA climate spiral visualization with labels in English and Celsius.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 414915,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1069930,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005190/frames/2160x2160_1x1_60p/En_C/",
+            "filename": "En_C",
+            "media_type": "Frames",
+            "alt_text": "The NASA climate spiral visualization with labels in English and Celsius.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 499333,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1154414,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005190/GISTEMP_Spiral_English_degC_2160p60.01402_full.jpg",
+            "filename": "GISTEMP_Spiral_English_degC_2160p60.01402_full.jpg",
+            "media_type": "Image",
+            "alt_text": "The NASA climate spiral visualization with labels in English and Celsius.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 499331,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1097202,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005190/GISTEMP_Spiral_English_degC_2160p60.01402_print.jpg",
+            "filename": "GISTEMP_Spiral_English_degC_2160p60.01402_print.jpg",
+            "media_type": "Image",
+            "alt_text": "The NASA climate spiral visualization with labels in English and Celsius.",
+            "width": 1080,
+            "height": 1080,
+            "pixels": 1166400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 372786,
+      "url": "http://svs.gsfc.nasa.gov/5190/#media_group_372786",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "The visualization presents monthly global temperature anomalies. This visualization is updated roughly two weeks after the end of each month.<br><br>Temperature anomalies are deviations from a long term global average. In this case the period 1951-1980 is used to define the baseline for the anomaly. These temperatures are based on the GISS Surface Temperature Analysis (GISTEMP v4), an estimate of global surface temperature change. The data file used to create this visualization is publicly accessible <a href=\"https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv\">here</a>.<br><br>The term <a href=\"https://www.climate-lab-book.ac.uk/spirals/\">'climate spiral'</a> describes an animated radial plot of global temperatures. Climate scientist Ed Hawkins from the National Centre for Atmospheric Science, University of Reading popularized this style of visualization in 2016.<br><br>The Goddard Institute for Space Studies (GISS) in New York is a NASA laboratory managed by the Earth Sciences Division of the agency’s Goddard Space Flight Center in Greenbelt, Maryland. The laboratory is affiliated with Columbia University’s Earth Institute and School of Engineering and Applied Science in New York.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 372818,
+      "url": "http://svs.gsfc.nasa.gov/5190/#media_group_372818",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "The NASA climate spiral visualization with labels in English and Fahrenheit.",
+      "items": [
+        {
+          "id": 414912,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1154416,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005190/GISTEMP_Spiral_English_degF_2160p60.01700_full.jpg",
+            "filename": "GISTEMP_Spiral_English_degF_2160p60.01700_full.jpg",
+            "media_type": "Image",
+            "alt_text": "The NASA climate spiral visualization with labels in English and Fahrenheit.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 414908,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1069923,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005190/GISTEMP_Spiral_English_degF_2160p60.mp4",
+            "filename": "GISTEMP_Spiral_English_degF_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "The NASA climate spiral visualization with labels in English and Fahrenheit.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 372819,
+      "url": "http://svs.gsfc.nasa.gov/5190/#media_group_372819",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "The NASA climate spiral visualization with labels in Spanish and Celsius.",
+      "items": [
+        {
+          "id": 414914,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1154415,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005190/GISTEMP_Spiral_Spanish_degC_2160p60.01400_full.jpg",
+            "filename": "GISTEMP_Spiral_Spanish_degC_2160p60.01400_full.jpg",
+            "media_type": "Image",
+            "alt_text": "The NASA climate spiral visualization with labels in Spanish and Celsius.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 414913,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1069928,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005190/GISTEMP_Spiral_Spanish_degC_2160p60.mp4",
+            "filename": "GISTEMP_Spiral_Spanish_degC_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "The NASA climate spiral visualization with labels in Spanish and Celsius.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Mark SubbaRao", "employer": "NASA/GSFC" },
+        {
+          "name": "Ed Hawkins",
+          "employer": "National Centre for Atmospheric Science, University of Reading"
+        }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    },
+    {
+      "role": "Web administrator",
+      "people": [{ "name": "Ella Kaplan", "employer": "Global Science and Technology, Inc." }]
+    },
+    {
+      "role": "Scientist",
+      "people": [{ "name": "Gavin A. Schmidt", "employer": "NASA/GSFC GISS" }]
+    },
+    {
+      "role": "Science support",
+      "people": [{ "name": "Peter H. Jacobs", "employer": "NASA/GSFC" }]
+    }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "GISTEMP",
+      "common_name": "",
+      "platform": null,
+      "sensor": "GISS Surface Temperature Analysis (GISTEMP)",
+      "type": "Model",
+      "organizations": ["NASA/GISS"],
+      "description": "The GISS Surface Temperature Analysis version 4 (GISTEMP v4) is an estimate of global surface temperature change. Graphs and tables are updated around the middle of every month using current data files from NOAA GHCN v4 (meteorological stations) and ERSST v5 (ocean areas), combined as described in our publications [Hansen et al. (2010)](https://pubs.giss.nasa.gov/abs/ha00510u.html), [Lenssen et al. (2019)](https://pubs.giss.nasa.gov/abs/le05800h.html), and [Lenssen et al. (2024)](https://pubs.giss.nasa.gov/abs/le07900t.html).",
+      "credit": "Lenssen, N., G.A. Schmidt, M. Hendrickson, P. Jacobs, M. Menne, and R. Ruedy, 2024: [A GISTEMPv4 observational uncertainty ensemble](https://pubs.giss.nasa.gov/abs/le07900t.html). J. Geophys. Res. Atmos., 129, no. 17, e2023JD040179, doi:10.1029/2023JD040179.",
+      "url": "https://data.giss.nasa.gov/gistemp/",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Climate",
+    "Climate Change",
+    "Climate Variability and Change",
+    "Earth Information Center",
+    "Hyperwall",
+    "Spanish"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 5603,
+      "url": "http://svs.gsfc.nasa.gov/5603/",
+      "page_type": "Visualization",
+      "title": "Global Temperature Anomalies from 1880 to 2025",
+      "description": "Global surface air temperatures from 1880-2025 as estimated from the GISTEMP analysis.",
+      "release_date": "2026-01-14T13:00:00-05:00",
+      "update_date": "2026-01-20T15:50:34.592588-05:00",
+      "main_image": {
+        "id": 1195692,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005603/Map_HD_2025_nosmoothing.png",
+        "filename": "Map_HD_2025_nosmoothing.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5376,
+      "url": "http://svs.gsfc.nasa.gov/5376/",
+      "page_type": "Visualization",
+      "title": "Record Temperature Years: 2024, 2023, and 2016",
+      "description": "A visualization of global temperature anomalies highlighting the record years of 2024, 2023, and 2016. The visualizations morphs between a data grid showing monthly temperatures and a bar chart of annual temperatures. This version is labeled in English and temperatures are in Celsius. || GISTEMP_Records_English_C.00001_print.jpg (1024x1024) [402.0 KB] || GISTEMP_Records_English_C.00001_searchweb.png (320x180) [105.1 KB] || GISTEMP_Records_English_C.00001_thm.png [7.1 KB] || GISTEMP_Records_English_C.mp4 (2160x2160) [19.3 MB] || climate_compiled_GISTEMP.hwshow || ",
+      "release_date": "2025-01-10T11:00:00-05:00",
+      "update_date": "2025-01-09T21:59:47-05:00",
+      "main_image": {
+        "id": 1140701,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005376/GISTEMP_Records_English_C.00001_print.jpg",
+        "filename": "GISTEMP_Records_English_C.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A visualization of global temperature anomalies highlighting the record years of 2024, 2023, and 2016. The visualizations morphs between a data grid showing monthly temperatures and a bar chart of annual temperatures. This version is labeled in English and temperatures are in Celsius.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5451,
+      "url": "http://svs.gsfc.nasa.gov/5451/",
+      "page_type": "Visualization",
+      "title": "Zonal Climate Anomalies 1880-2024",
+      "description": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980. This version is in Celsius, an alternate version in Fahrenheit is also available. || GISTEMP_Zonal_1880-2024_C_2160p30.00850_print.jpg (1024x576) [52.4 KB] || GISTEMP_Zonal_1880-2024_C_2160p30.00850_searchweb.png (320x180) [17.8 KB] || GISTEMP_Zonal_1880-2024_C_2160p30.00850_thm.png [2.4 KB] || GISTEMP_Zonal_1880-2024_C_2160p30.mp4 (3840x2160) [20.3 MB] || ",
+      "release_date": "2025-01-10T11:00:00-05:00",
+      "update_date": "2025-01-08T23:05:14-05:00",
+      "main_image": {
+        "id": 1140647,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005451/GISTEMP_Zonal_1880-2024_C_2160p30.00850_print.jpg",
+        "filename": "GISTEMP_Zonal_1880-2024_C_2160p30.00850_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980. This version is in Celsius, an alternate version in Fahrenheit is also available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5452,
+      "url": "http://svs.gsfc.nasa.gov/5452/",
+      "page_type": "Visualization",
+      "title": "Shifting Distribution of Land Temperature Anomalies, 1964-2024",
+      "description": "The change in the distribution of land temperature anomalies over the years 1964 to 2024. This version is in Celsius, a Fahrenheit version is also available. || GISTEMPDist_2024_C.00850_print.jpg (1024x576) [45.7 KB] || GISTEMPDist_2024_C.00850_searchweb.png (320x180) [13.7 KB] || GISTEMPDist_2024_C.00850_thm.png [2.1 KB] || GISTEMPDist_2024_C.mp4 (3840x2160) [21.1 MB] ||",
+      "release_date": "2025-01-10T11:00:00-05:00",
+      "update_date": "2026-02-04T11:49:41.268153-05:00",
+      "main_image": {
+        "id": 1140655,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005452/GISTEMPDist_2024_C.00850_print.jpg",
+        "filename": "GISTEMPDist_2024_C.00850_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The change in the distribution of land temperature anomalies over the years 1964 to 2024. This version is in Celsius, a Fahrenheit version is also available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 14743,
+      "url": "http://svs.gsfc.nasa.gov/14743/",
+      "page_type": "Produced Video",
+      "title": "2024 is the Warmest Year on Record",
+      "description": "Earth's average surface temperature in 2024 was the warmest on record, according to an analysis led by NASA scientists. Global temperatures in 2024 were around 1.28 degrees Celsius above the agency’s 20th century baseline (1951-1980). That is equal to a 2.30 degree Fahrenheit change and exceeds the record set in 2023. NASA scientists also estimate Earth in 2024 was about 1.47 degrees Celsius (2.65 degrees Fahrenheit) warmer than the mid-19th century average (1850-1900). The Goddard Institute for Space Studies (GISS) maintains NASA’s surface temperature record. || ",
+      "release_date": "2025-01-10T11:00:00-05:00",
+      "update_date": "2025-01-24T16:55:17-05:00",
+      "main_image": {
+        "id": 1140687,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014743/250109_GTU_January_2025_3840x2160_THUMBNAIL_ENGLISH_GAW_FINALCUT.jpg",
+        "filename": "250109_GTU_January_2025_3840x2160_THUMBNAIL_ENGLISH_GAW_FINALCUT.jpg",
+        "media_type": "Image",
+        "alt_text": "Global Temperature Update 2024 Horizontal Verison (3840x2160)Universal Production Music: Time Passing Marimba Instrumental by ChevalierThis video can be freely shared and downloaded. For more information on NASA’s media guidelines, visit https://www.nasa.gov/nasa-brand-center/images-and-media/Complete transcript available.Watch this video on the NASA.gov Video YouTube channel.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5383,
+      "url": "http://svs.gsfc.nasa.gov/5383/",
+      "page_type": "Visualization",
+      "title": "Slow Reveal Graphs: Climate Spiral",
+      "description": "Slow reveal graphs are an instructional routine using scaffolded visuals and discourse to help students (in K-12 and beyond) make sense of data. This is a slow reveal graph of the SVS visualization of NASA Climate Spiral. || ",
+      "release_date": "2024-09-17T15:00:00-04:00",
+      "update_date": "2024-09-17T15:43:36-04:00",
+      "main_image": {
+        "id": 1098565,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005383/GISTEMP_Spiral_SR_1.01400_print.jpg",
+        "filename": "GISTEMP_Spiral_SR_1.01400_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Slide #1 - just the animated spiralBefore playing, ask students what they notice and what they wonder as they are watching.  Play it through several times before having the group share.  Depending on your group, have them share with an elbow partner or small group first.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5311,
+      "url": "http://svs.gsfc.nasa.gov/5311/",
+      "page_type": "Visualization",
+      "title": "Twelve consecutive months of global surface temperature records: June 2023 - May 2024",
+      "description": "This visualization shows monthly global surface temperatures from 1880 to May 2024. The last 12 months (June 2023 through May 2024) each set a record as the warmest month in the temperature record. This version of the graph is in Fahrenheit. || GISTEMP_Lines_Rotate_2024_degF.00650_print.jpg (1024x1024) [428.6 KB] || GISTEMP_Lines_Rotate_2024_degF.00650_searchweb.png (320x180) [109.7 KB] || GISTEMP_Lines_Rotate_2024_degF.00650_thm.png (80x40) [7.5 KB] || GISTEMP_Lines_Rotate_2024_degF.mp4 (2160x2160) [57.3 MB] || ",
+      "release_date": "2024-07-17T06:00:00-04:00",
+      "update_date": "2024-07-17T07:24:17-04:00",
+      "main_image": {
+        "id": 1093307,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005311/GISTEMP_Lines_Rotate_2024_degF.00650_print.jpg",
+        "filename": "GISTEMP_Lines_Rotate_2024_degF.00650_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows monthly global surface temperatures from 1880 to May 2024. The last 12 months (June 2023 through May 2024) each set a record as the warmest month in the temperature record. This version of the graph is in Fahrenheit.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    }
+  ],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [
+    {
+      "id": 5161,
+      "url": "http://svs.gsfc.nasa.gov/5161/",
+      "page_type": "Visualization",
+      "title": "Summer 2023 Record High Global Temperatures",
+      "description": "This 'map shows monthly temperature anomalies measure from 1880 to August 2023 measured with respect to a the baseline period 1951-1980.Versions are provided in both English and Spanish. || GISTEMP_Summer2023_English_2160p30.00899_print.jpg (1024x576) [191.0 KB] || GISTEMP_Summer2023_English_2160p30.00899_searchweb.png (320x180) [74.2 KB] || GISTEMP_Summer2023_English_2160p30.00899_thm.png (80x40) [7.1 KB] || GISTEMP_Summer2023_English_1080p30.mp4 (1920x1080) [35.8 MB] || GISTEMP_Summer2023_Spanish_2160p30.mp4 (3840x2160) [36.2 MB] || gistemp-summer2023-english (3840x2160) [901 Item(s)] || GISTEMP_Summer2023_English_2160p30.mp4 (3840x2160) [106.5 MB] || GISTEMP_Summer2023_Spanish_2160p30.mp4.hwshow [113 bytes] || GISTEMP_Summer2023_English_2160p30.hwshow || GISTEMP_Summer2023_English_1080p30.mp4.hwshow [137 bytes] || ",
+      "release_date": "2023-09-14T11:00:00-04:00",
+      "update_date": "2025-03-16T23:04:25.185454-04:00",
+      "main_image": {
+        "id": 858682,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005161/GISTEMP_Summer2023_English_2160p30.00899_print.jpg",
+        "filename": "GISTEMP_Summer2023_English_2160p30.00899_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This 'map shows monthly temperature anomalies measure from 1880 to August 2023 measured with respect to a the baseline period 1951-1980.Versions are provided in both English and Spanish.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5057,
+      "url": "http://svs.gsfc.nasa.gov/5057/",
+      "page_type": "Visualization",
+      "title": "NASA Climate Spiral 1880-2022",
+      "description": "The NASA climate spiral 1880-2022. This version is in Celsius; see below for an alternate version in Fahrenheit. Both a 30 fps, 60 second duration video and 60 fps, 30 second duration video are available. || GISTEMP_Spiral_60sec_C.01400_print.jpg (1024x1024) [283.8 KB] || GISTEMP_Spiral_60sec_C.01400_searchweb.png (180x320) [92.9 KB] || GISTEMP_Spiral_60sec_C.01400_thm.png (80x40) [6.6 KB] || GISTEMP_Spiral_30sec_C.mp4 (2160x2160) [20.3 MB] || GISTEMP_Spiral_60sec_C.mp4 (2160x2160) [38.3 MB] || GISTEMP_Spiral_60sec_C.webm (2160x2160) [8.2 MB] || C (2160x2160) [0 Item(s)] || ",
+      "release_date": "2023-01-12T11:00:00-05:00",
+      "update_date": "2025-03-16T22:57:07.091270-04:00",
+      "main_image": {
+        "id": 551996,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005057/GISTEMP_Spiral_60sec_C.01400_print.jpg",
+        "filename": "GISTEMP_Spiral_60sec_C.01400_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The NASA climate spiral 1880-2022. This version is in Celsius; see below for an alternate version in Fahrenheit. Both a 30 fps, 60 second duration video and 60 fps, 30 second duration video are available.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 4975,
+      "url": "http://svs.gsfc.nasa.gov/4975/",
+      "page_type": "Visualization",
+      "title": "GISTEMP Climate Spiral",
+      "description": "The GISTEMP climate spiral 1880-2021. This version is in Celsius, see below for an alternate version in Fahrenheit. || GISTEMP_Spiral_2022-03-06_2257.01710_print.jpg (1024x576) [122.0 KB] || GISTEMP_Spiral_2022-03-06_2257.01710_searchweb.png (320x180) [43.9 KB] || GISTEMP_Spiral_2022-03-06_2257.01710_thm.png (80x40) [3.6 KB] || GISTEMP_Spiral_2022-03-06_1851_1080sq.mp4 (1080x1080) [21.6 MB] || GISTEMP_Spiral_2022-03-06_1851_1080sq.webm (1080x1080) [8.0 MB] || GISTEMP_Spiral_2022-03-06_2257.mp4 (3840x2160) [33.0 MB] || 3840x2160_16x9_30p (3840x2160) [0 Item(s)] || GISTEMP_Spiral.hwshow [112 bytes] || ",
+      "release_date": "2022-03-07T22:00:00-05:00",
+      "update_date": "2025-06-23T00:13:30.332955-04:00",
+      "main_image": {
+        "id": 372606,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004975/GISTEMP_Spiral_2022-03-06_2257.01710_print.jpg",
+        "filename": "GISTEMP_Spiral_2022-03-06_2257.01710_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The GISTEMP climate spiral 1880-2021. This version is in Celsius, see below for an alternate version in Fahrenheit.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "alternate_versions": []
+}

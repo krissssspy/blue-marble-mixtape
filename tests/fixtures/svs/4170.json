@@ -1,0 +1,1554 @@
+{
+  "id": 4170,
+  "url": "http://svs.gsfc.nasa.gov/4170/",
+  "page_type": "Visualization",
+  "title": "GPM Constellation Covers the Earth",
+  "description": "This page contains a series of test animations for the GPM \"Second Light\" release.  Each animation test is rendered in three ways: on a flat map, on a globe, and on a rotating globe.  The newest tests are always at the top of the page. || ",
+  "release_date": "2014-07-01T00:00:00-04:00",
+  "update_date": "2025-01-05T22:29:00.926971-05:00",
+  "main_image": {
+    "id": 455267,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_fade.png",
+    "filename": "allswaths3_fade.png",
+    "media_type": "Image",
+    "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.",
+    "width": 1920,
+    "height": 1080,
+    "pixels": 2073600
+  },
+  "main_video": null,
+  "main_credits": { "Visualizations by": [{ "name": "Horace Mitchell", "employer": "NASA/GSFC" }] },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 340787,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340787",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "This page contains a series of test animations for the GPM \"Second Light\" release.  Each animation test is rendered in three ways: on a flat map, on a globe, and on a rotating globe.  The newest tests are always at the top of the page.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 340788,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340788",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.",
+      "items": [
+        {
+          "id": 291027,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455267,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_fade.png",
+            "filename": "allswaths3_fade.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291025,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455269,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_fade_web.png",
+            "filename": "allswaths3_fade_web.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291026,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455270,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_fade_thm.png",
+            "filename": "allswaths3_fade_thm.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 291028,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455266,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_fade.mp4",
+            "filename": "allswaths3_fade.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291029,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455268,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_fade.webmhd.webm",
+            "filename": "allswaths3_fade.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 440081,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101691,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_fade.mp4.hwshow",
+            "filename": "allswaths3_fade.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340789,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340789",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.",
+      "items": [
+        {
+          "id": 291031,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455271,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade.png",
+            "filename": "allswaths3_globe_fade.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291030,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455274,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade_web.png",
+            "filename": "allswaths3_globe_fade_web.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291032,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455272,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade.mp4",
+            "filename": "allswaths3_globe_fade.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291033,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455273,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade.webmhd.webm",
+            "filename": "allswaths3_globe_fade.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 440082,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101692,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade.mp4.hwshow",
+            "filename": "allswaths3_globe_fade.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340790,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340790",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating swaths from the GPM Constellation, shown on a globe rotating at the correct rate.  Swaths are brightest with the current data, then fade to a dimmer representation.",
+      "items": [
+        {
+          "id": 291036,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455276,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade_rot.png",
+            "filename": "allswaths3_globe_fade_rot.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe rotating at the correct rate.  Swaths are brightest with the current data, then fade to a dimmer representation.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291034,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455278,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade_rot_web.png",
+            "filename": "allswaths3_globe_fade_rot_web.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe rotating at the correct rate.  Swaths are brightest with the current data, then fade to a dimmer representation.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291035,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455275,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade_rot.mp4",
+            "filename": "allswaths3_globe_fade_rot.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe rotating at the correct rate.  Swaths are brightest with the current data, then fade to a dimmer representation.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291037,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455277,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade_rot.webmhd.webm",
+            "filename": "allswaths3_globe_fade_rot.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe rotating at the correct rate.  Swaths are brightest with the current data, then fade to a dimmer representation.",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 440083,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101693,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths3_globe_fade_rot.mp4.hwshow",
+            "filename": "allswaths3_globe_fade_rot.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340791,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340791",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+      "items": [
+        {
+          "id": 291040,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455280,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade.png",
+            "filename": "allswaths4_crossfade.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291038,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455282,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_web.png",
+            "filename": "allswaths4_crossfade_web.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291039,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455279,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade.mp4",
+            "filename": "allswaths4_crossfade.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291041,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455281,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade.webmhd.webm",
+            "filename": "allswaths4_crossfade.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 440084,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101694,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade.mp4.hwshow",
+            "filename": "allswaths4_crossfade.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340792,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340792",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+      "items": [
+        {
+          "id": 291043,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455283,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe.png",
+            "filename": "allswaths4_crossfade_globe.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291042,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455286,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe_web.png",
+            "filename": "allswaths4_crossfade_globe_web.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291044,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455284,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe.mp4",
+            "filename": "allswaths4_crossfade_globe.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291045,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455285,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe.webmhd.webm",
+            "filename": "allswaths4_crossfade_globe.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a fast version (10 minutes per frame).",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 440085,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101695,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe.mp4.hwshow",
+            "filename": "allswaths4_crossfade_globe.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340793,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340793",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+      "items": [
+        {
+          "id": 291046,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455288,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_faster.png",
+            "filename": "allswaths4_crossfade_faster.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291049,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455290,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_faster_web.png",
+            "filename": "allswaths4_crossfade_faster_web.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291047,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455289,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_faster.mp4",
+            "filename": "allswaths4_crossfade_faster.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291048,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455287,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_faster.webmhd.webm",
+            "filename": "allswaths4_crossfade_faster.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a flat map.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 440086,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101696,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_faster.mp4.hwshow",
+            "filename": "allswaths4_crossfade_faster.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340794,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340794",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+      "items": [
+        {
+          "id": 291051,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455292,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe_faster.png",
+            "filename": "allswaths4_crossfade_globe_faster.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291053,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455294,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe_faster_web.png",
+            "filename": "allswaths4_crossfade_globe_faster_web.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291050,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455291,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe_faster.mp4",
+            "filename": "allswaths4_crossfade_globe_faster.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291052,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455293,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe_faster.webmhd.webm",
+            "filename": "allswaths4_crossfade_globe_faster.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating swaths from the GPM Constellation, shown on a globe.  Swaths are brightest with current data, then fade to a dimmer representation.  About halfway through, this new swath indication fades away.  This is a very fast version (30 minutes per frame).",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 440087,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101697,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths4_crossfade_globe_faster.mp4.hwshow",
+            "filename": "allswaths4_crossfade_globe_faster.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340795,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340795",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating rain rate swaths from the GPM Constellation, shown on a flat map",
+      "items": [
+        {
+          "id": 291055,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455295,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2.png",
+            "filename": "allswaths2.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a flat map",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291057,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455297,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_web.jpg",
+            "filename": "allswaths2_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a flat map",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291054,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455298,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2.webmhd.webm",
+            "filename": "allswaths2.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a flat map",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 291056,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455296,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2.mp4",
+            "filename": "allswaths2.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a flat map",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 440088,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101698,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2.mp4.hwshow",
+            "filename": "allswaths2.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340796,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340796",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe",
+      "items": [
+        {
+          "id": 291059,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455299,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe.png",
+            "filename": "allswaths2_globe.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291061,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455301,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_web.jpg",
+            "filename": "allswaths2_globe_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291058,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455302,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe.webmhd.webm",
+            "filename": "allswaths2_globe.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 291060,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455300,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe.mp4",
+            "filename": "allswaths2_globe.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 440089,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101699,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe.mp4.hwshow",
+            "filename": "allswaths2_globe.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340797,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340797",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe rotating at the correct rate",
+      "items": [
+        {
+          "id": 291063,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455303,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot.png",
+            "filename": "allswaths2_globe_rot.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe rotating at the correct rate",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291065,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455305,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot_web.jpg",
+            "filename": "allswaths2_globe_rot_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe rotating at the correct rate",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291062,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455306,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot.webmhd.webm",
+            "filename": "allswaths2_globe_rot.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe rotating at the correct rate",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 291064,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455304,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot.mp4",
+            "filename": "allswaths2_globe_rot.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GPM Constellation, shown on a globe rotating at the correct rate",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 440090,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101700,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot.mp4.hwshow",
+            "filename": "allswaths2_globe_rot.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340798,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340798",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Fading swaths of rain rate from the GPM constallation, shown a flat map",
+      "items": [
+        {
+          "id": 291067,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455307,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_fade.png",
+            "filename": "allswaths2_fade.png",
+            "media_type": "Image",
+            "alt_text": "Fading swaths of rain rate from the GPM constallation, shown a flat map",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291069,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455309,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_fade_web.jpg",
+            "filename": "allswaths2_fade_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Fading swaths of rain rate from the GPM constallation, shown a flat map",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291066,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455310,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_fade.webmhd.webm",
+            "filename": "allswaths2_fade.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Fading swaths of rain rate from the GPM constallation, shown a flat map",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 291068,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455308,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_fade.mp4",
+            "filename": "allswaths2_fade.mp4",
+            "media_type": "Movie",
+            "alt_text": "Fading swaths of rain rate from the GPM constallation, shown a flat map",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 440091,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101701,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_fade.mp4.hwshow",
+            "filename": "allswaths2_fade.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340799,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340799",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Fading swaths of rain rate from the GPM Constellation, shown on a globe",
+      "items": [
+        {
+          "id": 291071,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455311,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_fade.png",
+            "filename": "allswaths2_globe_fade.png",
+            "media_type": "Image",
+            "alt_text": "Fading swaths of rain rate from the GPM Constellation, shown on a globe",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291073,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455313,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_fade_web.jpg",
+            "filename": "allswaths2_globe_fade_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Fading swaths of rain rate from the GPM Constellation, shown on a globe",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291070,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455314,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_fade.webmhd.webm",
+            "filename": "allswaths2_globe_fade.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Fading swaths of rain rate from the GPM Constellation, shown on a globe",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 291072,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455312,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_fade.mp4",
+            "filename": "allswaths2_globe_fade.mp4",
+            "media_type": "Movie",
+            "alt_text": "Fading swaths of rain rate from the GPM Constellation, shown on a globe",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 440092,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101702,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_fade.mp4.hwshow",
+            "filename": "allswaths2_globe_fade.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340800,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340800",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Fading swaths of rain rate from the GPM Constellation, shown on a globe rotating at the correct rate",
+      "items": [
+        {
+          "id": 291075,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455315,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot_fade.png",
+            "filename": "allswaths2_globe_rot_fade.png",
+            "media_type": "Image",
+            "alt_text": "Fading swaths of rain rate from the GPM Constellation, shown on a globe rotating at the correct rate",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291077,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455317,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot_fade_web.jpg",
+            "filename": "allswaths2_globe_rot_fade_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Fading swaths of rain rate from the GPM Constellation, shown on a globe rotating at the correct rate",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291074,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455318,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot_fade.webmhd.webm",
+            "filename": "allswaths2_globe_rot_fade.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Fading swaths of rain rate from the GPM Constellation, shown on a globe rotating at the correct rate",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 291076,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455316,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot_fade.mp4",
+            "filename": "allswaths2_globe_rot_fade.mp4",
+            "media_type": "Movie",
+            "alt_text": "Fading swaths of rain rate from the GPM Constellation, shown on a globe rotating at the correct rate",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 440093,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101703,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/allswaths2_globe_rot_fade.mp4.hwshow",
+            "filename": "allswaths2_globe_rot_fade.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340801,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340801",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating rain rate swaths from the GPM and TRMM satellites, shown on a flat map",
+      "items": [
+        {
+          "id": 291079,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455319,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/trmm_gpm_swaths_01.png",
+            "filename": "trmm_gpm_swaths_01.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GPM and TRMM satellites, shown on a flat map",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291081,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455321,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/trmm_gpm_swaths_01_web.jpg",
+            "filename": "trmm_gpm_swaths_01_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GPM and TRMM satellites, shown on a flat map",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291078,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455322,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/trmm_gpm_swaths_01.webmhd.webm",
+            "filename": "trmm_gpm_swaths_01.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GPM and TRMM satellites, shown on a flat map",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 291080,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455320,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/trmm_gpm_swaths_01.mp4",
+            "filename": "trmm_gpm_swaths_01.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GPM and TRMM satellites, shown on a flat map",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 440094,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101704,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/trmm_gpm_swaths_01.mp4.hwshow",
+            "filename": "trmm_gpm_swaths_01.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 340802,
+      "url": "http://svs.gsfc.nasa.gov/4170/#media_group_340802",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Accumulating rain rate swaths from the GMI instrument on the GPM satellite, shown on a flat map",
+      "items": [
+        {
+          "id": 291083,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455323,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/gpmswath_04.png",
+            "filename": "gpmswath_04.png",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GMI instrument on the GPM satellite, shown on a flat map",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 291085,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455325,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/gpmswath_04_web.jpg",
+            "filename": "gpmswath_04_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Accumulating rain rate swaths from the GMI instrument on the GPM satellite, shown on a flat map",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 291082,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455326,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/gpmswath_04.webmhd.webm",
+            "filename": "gpmswath_04.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GMI instrument on the GPM satellite, shown on a flat map",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 291084,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 455324,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/gpmswath_04.mp4",
+            "filename": "gpmswath_04.mp4",
+            "media_type": "Movie",
+            "alt_text": "Accumulating rain rate swaths from the GMI instrument on the GPM satellite, shown on a flat map",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 440095,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1101705,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004170/gpmswath_04.mp4.hwshow",
+            "filename": "gpmswath_04.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["GPM"],
+  "credits": [
+    { "role": "Animator", "people": [{ "name": "Horace Mitchell", "employer": "NASA/GSFC" }] },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Gail Skofronick Jackson", "employer": "NASA/GSFC" },
+        { "name": "Dalia B Kirschbaum", "employer": "NASA/GSFC" },
+        { "name": "George Huffman", "employer": "NASA/GSFC" }
+      ]
+    },
+    {
+      "role": "Project support",
+      "people": [
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    }
+  ],
+  "missions": [
+    "Global Precipitation Measurement (GPM)",
+    "Tropical Rainfall Measuring Mission (TRMM)",
+    "Viking"
+  ],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "Daily Rainfall",
+      "common_name": "",
+      "platform": "TRMM",
+      "sensor": "TMI",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "http://disc.sci.gsfc.nasa.gov/data/datapool/TRMM/01_Data_Products/index.html",
+      "date_range": "4/1/2014-4/3/2014"
+    },
+    {
+      "name": "Surface Precipitation",
+      "common_name": "Rain Rates",
+      "platform": "GPM",
+      "sensor": "GMI",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "Data provided by the joint NASA/JAXA GPM mission.",
+      "url": "",
+      "date_range": "4/1/2014-4/3/2014"
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Hyperwall"],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

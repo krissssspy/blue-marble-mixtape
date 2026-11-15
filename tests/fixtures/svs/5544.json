@@ -1,0 +1,249 @@
+{
+  "id": 5544,
+  "url": "http://svs.gsfc.nasa.gov/5544/",
+  "page_type": "Visualization",
+  "title": "Near Real-Time Normalized Difference Vegetation Index (NDVI)",
+  "description": "NRT NDVI",
+  "release_date": "2025-09-22T18:59:59-04:00",
+  "update_date": "2026-11-14T06:01:43.255260-05:00",
+  "main_image": {
+    "id": 1155429,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/nrtndvi_equi_print.jpg",
+    "filename": "nrtndvi_equi_print.jpg",
+    "media_type": "Image",
+    "alt_text": "",
+    "width": 1024,
+    "height": 512,
+    "pixels": 524288
+  },
+  "main_video": {
+    "id": 1155430,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/SNPP_VIIRS.ndvi.nrt.8640x4320_30p.mp4",
+    "filename": "SNPP_VIIRS.ndvi.nrt.8640x4320_30p.mp4",
+    "media_type": "Movie",
+    "alt_text": "",
+    "width": 3840,
+    "height": 2160,
+    "pixels": 8294400
+  },
+  "main_credits": {
+    "Visualizations by": [
+      { "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 378160,
+      "url": "http://svs.gsfc.nasa.gov/5544/#media_group_378160",
+      "widget": "Globe Viewer",
+      "title": "Interactive Viewer",
+      "caption": "",
+      "description": "",
+      "items": [
+        {
+          "id": 470878,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155469,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/nrt_ndvi_equi_2048p30.mp4",
+            "filename": "nrt_ndvi_equi_2048p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "",
+            "width": 4096,
+            "height": 2048,
+            "pixels": 8388608
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378155,
+      "url": "http://svs.gsfc.nasa.gov/5544/#media_group_378155",
+      "widget": "Basic text",
+      "title": "Abstract",
+      "caption": "",
+      "description": "By monitoring the color of reflected light via satellite, scientists can determine how successfully plant life is photosynthesizing. A measurement of photosynthesis is essentially a measurement of successful growth, and growth means successful use of ambient carbon. This data visualization shows the abundance of life on land from two and a half years ago to the present. Green represents areas of abundant plant life, such as forests and grasslands, while tan and white represent areas where plant life is sparse or non-existent, such as the deserts in Africa and the Middle East and snow-cover at the poles.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 378148,
+      "url": "http://svs.gsfc.nasa.gov/5544/#media_group_378148",
+      "widget": "Video player",
+      "title": "NRT NDVI (Equirectangular Projection)",
+      "caption": "",
+      "description": "Near reatlime NDVI (Equirectangular projection)",
+      "items": [
+        {
+          "id": 470814,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155431,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/nrt_ndvi_equi_w_dates_2048p30.mp4",
+            "filename": "nrt_ndvi_equi_w_dates_2048p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "",
+            "width": 4096,
+            "height": 2048,
+            "pixels": 8388608
+          }
+        },
+        {
+          "id": 470815,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155432,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/frames/8640x4320_2x1_30p/equirectangular/",
+            "filename": "equirectangular",
+            "media_type": "Frames",
+            "alt_text": "",
+            "width": 8640,
+            "height": 4320,
+            "pixels": 37324800
+          }
+        },
+        {
+          "id": 470816,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155433,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/frames/4096x2048_2x1_30p/equirectangular_w_dates/",
+            "filename": "equirectangular_w_dates",
+            "media_type": "Frames",
+            "alt_text": "",
+            "width": 4096,
+            "height": 2048,
+            "pixels": 8388608
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378149,
+      "url": "http://svs.gsfc.nasa.gov/5544/#media_group_378149",
+      "widget": "Video player",
+      "title": "NRT NDVI (Robinson Projection)",
+      "caption": "",
+      "description": "Near reatlime NDVI (Robinson Projection)",
+      "items": [
+        {
+          "id": 470817,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155434,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/nrt_ndvi_rob_w_dates_2048p30.mp4",
+            "filename": "nrt_ndvi_rob_w_dates_2048p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "",
+            "width": 4096,
+            "height": 2048,
+            "pixels": 8388608
+          }
+        },
+        {
+          "id": 470818,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155435,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/frames/4096x2048_2x1_30p/robinson_w_dates/",
+            "filename": "robinson_w_dates",
+            "media_type": "Frames",
+            "alt_text": "",
+            "width": 4096,
+            "height": 2048,
+            "pixels": 8388608
+          }
+        },
+        {
+          "id": 470819,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155436,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/frames/8640x4320_2x1_30p/robinson/",
+            "filename": "robinson",
+            "media_type": "Frames",
+            "alt_text": "",
+            "width": 8640,
+            "height": 4320,
+            "pixels": 37324800
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378171,
+      "url": "http://svs.gsfc.nasa.gov/5544/#media_group_378171",
+      "widget": "Single image",
+      "title": "NDVI Colorbar",
+      "caption": "",
+      "description": "NDVI colorbar",
+      "items": [
+        {
+          "id": 470961,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155468,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005544/NDVI_colorbar.png",
+            "filename": "NDVI_colorbar.png",
+            "media_type": "Image",
+            "alt_text": "",
+            "width": 1000,
+            "height": 250,
+            "pixels": 250000
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["Earth Information Center"],
+  "credits": [
+    {
+      "role": "Data visualizer",
+      "people": [{ "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." }]
+    }
+  ],
+  "missions": [],
+  "series": ["Updates Regularly"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": [],
+  "keywords": [],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

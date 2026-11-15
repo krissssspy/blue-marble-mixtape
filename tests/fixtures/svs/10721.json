@@ -1,0 +1,249 @@
+{
+  "id": 10721,
+  "url": "http://svs.gsfc.nasa.gov/10721/",
+  "page_type": "Produced Video",
+  "title": "Las Vegas, 1972-2021",
+  "description": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red. || Las_Vegas-wide-2021_print.jpg (1024x576) [226.8 KB] || Las_Vegas-wide-2021_searchweb.png (320x180) [119.1 KB] || Las_Vegas-wide-2021_thm.png (80x40) [7.7 KB] || Las_Vegas_1972-2021-tw.mp4 (1920x1080) [64.7 MB] || Las_Vegas-wide-2021.tif (1920x1080) [7.9 MB] || Las_Vegas_1972-2021-tw.webm (1920x1080) [8.0 MB] || Las_Vegas_1972-2021-yt.mp4 (1920x1080) [129.5 MB] || Las_Vegas_1972-2021.mov (1920x1080) [2.3 GB] || ",
+  "release_date": "2012-03-05T17:00:00-05:00",
+  "update_date": "2023-05-03T13:53:14.202937-04:00",
+  "main_image": {
+    "id": 377885,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010721/Las_Vegas-wide-2021_print.jpg",
+    "filename": "Las_Vegas-wide-2021_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": { "Visualizations by": [{ "name": "Marit Jentoft-Nilsen", "employer": "RSIS" }] },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 349900,
+      "url": "http://svs.gsfc.nasa.gov/10721/#media_group_349900",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+      "items": [
+        {
+          "id": 323486,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 377885,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010721/Las_Vegas-wide-2021_print.jpg",
+            "filename": "Las_Vegas-wide-2021_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 323487,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 377884,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010721/Las_Vegas-wide-2021_searchweb.png",
+            "filename": "Las_Vegas-wide-2021_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 323488,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 377888,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010721/Las_Vegas-wide-2021_thm.png",
+            "filename": "Las_Vegas-wide-2021_thm.png",
+            "media_type": "Image",
+            "alt_text": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 323482,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 377890,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010721/Las_Vegas_1972-2021-tw.mp4",
+            "filename": "Las_Vegas_1972-2021-tw.mp4",
+            "media_type": "Movie",
+            "alt_text": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 323483,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 377891,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010721/Las_Vegas_1972-2021-yt.mp4",
+            "filename": "Las_Vegas_1972-2021-yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 323484,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 377889,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010721/Las_Vegas_1972-2021.mov",
+            "filename": "Las_Vegas_1972-2021.mov",
+            "media_type": "Movie",
+            "alt_text": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 323485,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 377886,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010721/Las_Vegas-wide-2021.tif",
+            "filename": "Las_Vegas-wide-2021.tif",
+            "media_type": "Image",
+            "alt_text": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 323489,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 377887,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010721/Las_Vegas_1972-2021-tw.webm",
+            "filename": "Las_Vegas_1972-2021-tw.webm",
+            "media_type": "Movie",
+            "alt_text": "Timelapse animation of Lake Mead and the city of Las Vegas, Nevada, from 1972-2021, as captured by Landsat sensors. The images are false-color, showing healthy vegetation in red.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 349899,
+      "url": "http://svs.gsfc.nasa.gov/10721/#media_group_349899",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "What Doesn't Stay in Vegas? Sprawl.<p><p>This image series shows the desert city's massive growth spurt since 1972. The outward expansion of the city is shown in a false-color time lapse of data from all the Landsat satellites.<p><p>The large red areas are actually green space, mostly golf courses and city parks. You'll notice the images become a lot sharper around 1984, when new instrument designs improved the ability to resolve smaller parcels of land.<p><p>These Las Vegas images were created using reflected light from the near-infrared, red and green portions of the electromagnetic spectrum (Landsat 8 OLI bands 5,4,3; Landsat 7 ETM+ and Landsat 5 TM bands 4,3,2; and Landsat 1-3 MSS bands 4,2,1).<p><p>Landsat data have been instrumental in increasing our understanding of forest health, storm damage, agricultural trends, urban growth, and many other ongoing changes to our land resources. Studies using Landsat data have helped land managers keep track of the pace of urbanization in locations around the world.<p><p>The <a href=\"https://www.nasa.gov/landsat9\">Landsat Program</a> is a series of Earth-observing satellite missions jointly managed by NASA and the <a href=\"http://landsat.usgs.gov\">U.S. Geological Survey (USGS)</a>. Landsat satellites have been consistently gathering data about our planet since 1972. They continue to improve and expand this unparalleled record of Earth's changing landscapes for the benefit of all.",
+      "items": [],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["PAO"],
+  "credits": [
+    { "role": "Animator", "people": [{ "name": "Marit Jentoft-Nilsen", "employer": "RSIS" }] },
+    { "role": "Video editor", "people": [{ "name": "Matthew R. Radcliff", "employer": "USRA" }] },
+    { "role": "Producer", "people": [{ "name": "Matthew R. Radcliff", "employer": "USRA" }] },
+    { "role": "Scientist", "people": [{ "name": "James R. Irons", "employer": "NASA/GSFC" }] },
+    { "role": "Writer", "people": [{ "name": "Aries Keck", "employer": "ADNET Systems, Inc." }] }
+  ],
+  "missions": ["Landsat"],
+  "series": ["Geophysical Changes Over Time", "Landsat"],
+  "tapes": ["Las Vegas, 1972-2010 (Produced by: Walt Feimer)"],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "Landsat",
+      "sensor": null,
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Earth Science",
+    "Environmental Impacts",
+    "Habitat Conversion/fragmentation",
+    "HDTV",
+    "Human Dimensions",
+    "Landsat",
+    "Las Vegas",
+    "Music",
+    "Urban Growth",
+    "Urbanization",
+    "Urbanization/urban Sprawl"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 10715,
+      "url": "http://svs.gsfc.nasa.gov/10715/",
+      "page_type": "Produced Video",
+      "title": "Tapped Dry In Vegas",
+      "description": "The constant influx of residents to Las Vegas since the 1970s has made it one of the fastest-growing metropolitan areas in the world. Currently more than 2 million people live in the 600-square-mile desert region, centered around the world-famous Las Vegas Strip and its luxury resorts and casinos. No doubt, the steady commercial and residential development over the last 40 years has been a boon to the valley's economy, but dense urbanization has exacted a high price on its most vital natural resource: water. Abundant parks, golf courses and manicured landscapes in Las Vegas' arid climate require more water to maintain than they naturally receive. This has placed an unsustainable demand on the region's primary water supply—Lake Mead—where water levels have fallen in the past decade due to persistent drought experienced across the Southwest. Scientists predict drought frequency and intensity for the region will only increase as global temperatures rise. In the collection of false-color, time-lapse images below captured by USGS-NASA Landsat satellites, witness Las Vegas' explosive growth from 1972 to 2010. || ",
+      "release_date": "2011-08-18T00:00:00-04:00",
+      "update_date": "2024-10-10T00:15:56.426766-04:00",
+      "main_image": {
+        "id": 488194,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010715/Las_Vegas_1972-2010_lrg.jpg",
+        "filename": "Las_Vegas_1972-2010_lrg.jpg",
+        "media_type": "Image",
+        "alt_text": "Las Vegas is all in, but how long until its water runs out?",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

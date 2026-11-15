@@ -1,0 +1,519 @@
+{
+  "id": 14507,
+  "url": "http://svs.gsfc.nasa.gov/14507/",
+  "page_type": "Produced Video",
+  "title": "NASA Joins the Jane Goodall Institute to Conserve Chimpanzee Habitat, Earth Information Center Videos",
+  "description": "After years of forest loss, chimpanzee habitats are recovering. This is, in part, due to a collaboration between NASA and the Jane Goodall Institute (JGI). Using NASA Earth science satellite and other data, the Goodall Institute puts data into the hands of local communities to drive conservation across Africa’s equatorial forest belt.",
+  "release_date": "2024-04-18T08:40:00-04:00",
+  "update_date": "2025-09-16T09:59:40.488223-04:00",
+  "main_image": {
+    "id": 1091072,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+    "filename": "JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+    "width": 1024,
+    "height": 288,
+    "pixels": 294912
+  },
+  "main_video": null,
+  "main_credits": {
+    "Produced by": [{ "name": "Jefferson Beck", "employer": "eMITS" }],
+    "Visualizations by": [{ "name": "Helen-Nicole Kostis", "employer": "USRA" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 373896,
+      "url": "http://svs.gsfc.nasa.gov/14507/#media_group_373896",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit [https://www.nasa.gov/multimedia/guidelines/index.html](https://www.nasa.gov/multimedia/guidelines/index.html)\r\n\r\nComplete <a href=\"/vis/a010000/a014500/a014507/script.html\">transcript</a> available.\r\n\r\nWatch this video on the NASA Scientific Visualization Studio [YouTube channel](https://youtu.be/XLWZUZh-Kgc?si=c3Q1kzlsbQ8XTGNv).",
+      "items": [
+        {
+          "id": 424727,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1091072,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+            "filename": "JGI_NASA_chmpanzees_final_web.00030_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+            "width": 1024,
+            "height": 288,
+            "pixels": 294912
+          }
+        },
+        {
+          "id": 491924,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158296,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/EIC_NASAandJGI_Main.mp4",
+            "filename": "EIC_NASAandJGI_Main.mp4",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 491925,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158297,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/EIC_NASAandJGI_Main_en_US.srt",
+            "filename": "EIC_NASAandJGI_Main_en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+            "label": "English",
+            "language_code": ""
+          }
+        },
+        {
+          "id": 491932,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158300,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/EIC_NASAandJGI_Main_4K.mp4",
+            "filename": "EIC_NASAandJGI_Main_4K.mp4",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+            "width": 3840,
+            "height": 1080,
+            "pixels": 4147200
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373909,
+      "url": "http://svs.gsfc.nasa.gov/14507/#media_group_373909",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "After years of forest loss, chimpanzee habitats are recovering. This is, in part, due to a collaboration between NASA and the Jane Goodall Institute (JGI). Using NASA Earth science satellite and other data, the Goodall Institute puts data into the hands of local communities to drive conservation across Africa’s equatorial forest belt. For example, the Institute uses data from the NASA and U.S. Geological Survey Landsat series of satellites, to create chimpanzee habitat suitability maps. Mobile apps also bring in data in real time. This allows local communities to protect village forest reserves and create land use plans for watersheds, people, and chimpanzees.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 373897,
+      "url": "http://svs.gsfc.nasa.gov/14507/#media_group_373897",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Left circle display video.",
+      "items": [
+        {
+          "id": 491933,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158301,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/EIC_NASAandJGI_Panel_Left_small.mp4",
+            "filename": "EIC_NASAandJGI_Panel_Left_small.mp4",
+            "media_type": "Movie",
+            "alt_text": "Left circle display video.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 491922,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158294,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/EIC_NASAandJGI_Panel_Left.mp4",
+            "filename": "EIC_NASAandJGI_Panel_Left.mp4",
+            "media_type": "Movie",
+            "alt_text": "Left circle display video.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 424730,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1091075,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/Biodiversity_EIC_left_circle_web.00001_print.jpg",
+            "filename": "Biodiversity_EIC_left_circle_web.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Left circle display video.",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373898,
+      "url": "http://svs.gsfc.nasa.gov/14507/#media_group_373898",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Right circle display video",
+      "items": [
+        {
+          "id": 491934,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158302,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/EIC_NASAandJGI_Panel_Right_small.mp4",
+            "filename": "EIC_NASAandJGI_Panel_Right_small.mp4",
+            "media_type": "Movie",
+            "alt_text": "Right circle display video",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 491923,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158295,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/EIC_NASAandJGI_Panel_Right.mp4",
+            "filename": "EIC_NASAandJGI_Panel_Right.mp4",
+            "media_type": "Movie",
+            "alt_text": "Right circle display video",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 424734,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1091079,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014507/Biodiversity_EIC_right_circle_web.00500_print.jpg",
+            "filename": "Biodiversity_EIC_right_circle_web.00500_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Right circle display video",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["PAO"],
+  "credits": [
+    {
+      "role": "Producer",
+      "people": [
+        { "name": "Jefferson Beck", "employer": "eMITS" },
+        { "name": "Kathleen Gaeta", "employer": "Advocates in Manpower Management, Inc." },
+        { "name": "Eleanor Stokes", "employer": "NASA" },
+        { "name": "Nicole Ramberg-Phil", "employer": "SSAI" }
+      ]
+    },
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" },
+        { "name": "Cindy Starr", "employer": "Global Science and Technology, Inc." },
+        { "name": "Michala Garrison", "employer": "SSAI" }
+      ]
+    },
+    {
+      "role": "Scientist",
+      "people": [{ "name": "Lilian Pintea", "employer": "The Jane Goodall Institute" }]
+    },
+    {
+      "role": "Public affairs officer",
+      "people": [{ "name": "Aries Keck", "employer": "ADNET Systems, Inc." }]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Brenda Lopez-Silva", "employer": "SSAI" },
+        { "name": "Michael Chyatte", "employer": "ADNET Systems Inc." }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": ["Narrated Movies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Biodiversity", "Earth Information Center", "Environmental science", "Hyperwall"],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 15108,
+      "url": "http://svs.gsfc.nasa.gov/15108/",
+      "page_type": "Produced Video",
+      "title": "EIC: Earth Science Technology Office",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.Music Credit:“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production MusicPretty Rocks Landslide courtesy of the National Park Service.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html || ESTO_Still2_print.jpg (1024x288) [100.0 KB] || ESTO_Still.png (7680x2160) [73.9 MB] || ESTO_Still_print.jpg (1024x288) [130.9 KB] || ESTO_Still2.png (7680x2160) [47.0 MB] || ESTO_Still_searchweb.png (320x180) [117.0 KB] || ESTO_Still_thm.png (80x40) [9.0 KB] || ESTO_FINAL.en_US.srt [3.7 KB] || ESTO_FINAL.en_US.vtt [3.5 KB] || ESTO_FINAL_Low.mp4 (7680x2160) [854.3 MB] || ESTO_FINAL_Medium.mp4 (7680x2160) [1.7 GB] || ESTO_FINAL.mp4 (7680x2160) [2.6 GB] || ESTO_FINAL.mov (7680x2160) [37.0 GB] || ",
+      "release_date": "9999-12-30T18:59:59-05:00",
+      "update_date": "2026-11-05T11:34:09-05:00",
+      "main_image": {
+        "id": 1206300,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015100/a015108/ESTO_Still_print.jpg",
+        "filename": "ESTO_Still_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\rMusic Credit:\r“Nebula” by Benjamin Dohery [PRS]; Chappell; Universal Production Music\r“Temporal Timings” by Lee John Gretton [PRS]; Freshworx; Universal Production Music\r“Kinetic Worlds” by Jay Price [PRS]; Sketch Music; Universal Production Music\rPretty Rocks Landslide courtesy of the National Park Service.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Storyblocks and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit: https://www.nasa.gov/multimedia/guidelines/index.html\r",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 60003,
+      "url": "http://svs.gsfc.nasa.gov/60003/",
+      "page_type": "Produced Video",
+      "title": "How NASA Data Stabilizes Global Markets",
+      "description": "By delivering timely, science-based insights from space, NASA supports smarter farming decisions and helps keep food prices more stable for consumers around the world.",
+      "release_date": "2025-09-15T16:00:00-04:00",
+      "update_date": "2025-09-15T16:21:36.722914-04:00",
+      "main_image": {
+        "id": 1158269,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060003/EIC_AgAndMarkets_preview.png",
+        "filename": "EIC_AgAndMarkets_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1080,
+        "height": 634,
+        "pixels": 684720
+      }
+    },
+    {
+      "id": 60002,
+      "url": "http://svs.gsfc.nasa.gov/60002/",
+      "page_type": "Produced Video",
+      "title": "NASA: Helping Communities Protect Drinking Water",
+      "description": "NASA is helping communities safeguard one of their most essential resources: clean water. When wildfires burn through forests, \texcessive sediment and potential contaminants can enter local waterways and overwhelm downstream treatment plants. NASA satellites provide critical data to track post-fire impacts on watersheds by mapping vulnerable areas for faster response.",
+      "release_date": "2025-09-15T12:00:00-04:00",
+      "update_date": "2025-09-15T16:21:53.427078-04:00",
+      "main_image": {
+        "id": 1158206,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060002/EIC_WaterResources_Image_preview.png",
+        "filename": "EIC_WaterResources_Image_preview.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1886,
+        "height": 1080,
+        "pixels": 2036880
+      }
+    },
+    {
+      "id": 60001,
+      "url": "http://svs.gsfc.nasa.gov/60001/",
+      "page_type": "Produced Video",
+      "title": "NASA Mapping Critical Minerals",
+      "description": "The Geological Earth Mapping Experiment (GEMx) is a joint effort between NASA and the U.S. Geological Survey (USGS) to advance our knowledge of critical mineral resources in the Western United States. In September 2023, NASA aircraft began supporting an effort to find and map critical mineral deposits in Western regions of the U.S. Identifying these minerals  could help improve environmental processes for mining and geological activities, enhance national security, and boost the economy.",
+      "release_date": "2025-09-11T15:00:00-04:00",
+      "update_date": "2025-10-24T13:33:24.652706-04:00",
+      "main_image": {
+        "id": 1158159,
+        "url": "http://svs.gsfc.nasa.gov/vis/a060000/a060000/a060001/EIC_CriticalMinerals_Image_3840x1080.png",
+        "filename": "EIC_CriticalMinerals_Image_3840x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 3840,
+        "height": 1080,
+        "pixels": 4147200
+      }
+    },
+    {
+      "id": 14713,
+      "url": "http://svs.gsfc.nasa.gov/14713/",
+      "page_type": "Produced Video",
+      "title": "Building Coastal Resilience with NASA Data",
+      "description": "The city of Mobile, AL is working with NASA’s Sea Level Change Team to plan for future infrastructure projects and to protect Mobile’s coastal resources. As sea levels change globally, coastal cities feel the effects of more frequent and more severe storms and flooding. NASA’s sea level change data helps Mobile and other coastal communities plan for a more resilient future.",
+      "release_date": "2025-01-07T00:30:59-05:00",
+      "update_date": "2025-09-15T21:55:55.202941-04:00",
+      "main_image": {
+        "id": 1139025,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_SeaLevelRise_2560x720.png",
+        "filename": "EIC_SeaLevelRise_2560x720.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 2560,
+        "height": 720,
+        "pixels": 1843200
+      }
+    },
+    {
+      "id": 14700,
+      "url": "http://svs.gsfc.nasa.gov/14700/",
+      "page_type": "Produced Video",
+      "title": "NASA + The Smithsonian: Biodiversity",
+      "description": "Biodiverse ecosystems need protection. Through fieldwork, coordination with local partners, and satellite observations, NASA and the Smithsonian are working hard to protect them. Using NASA Earth science satellite and other data, the Goodall Institute puts imagery and data into the hands of local communities to drive conservation efforts. The Scimitar-horned oryx went from extinct in the wild to endangered in the wild thanks to the Smithsonian’s work with partners to re-introduce the species.",
+      "release_date": "2024-10-08T10:00:00-04:00",
+      "update_date": "2025-06-16T09:11:07.773462-04:00",
+      "main_image": {
+        "id": 1102583,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014700/Screenshot_2024-10-03_at_11.46.44_AM.png",
+        "filename": "Screenshot_2024-10-03_at_11.46.44_AM.png",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Full 8K resolution. Optimized for Earth Information Center display.Music Credit: “Lion Track,” “Atmospheres Instrumental,” and “Fast Progress Instrumental” from Universal Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Sahara Conservation and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1908,
+        "height": 532,
+        "pixels": 1015056
+      }
+    },
+    {
+      "id": 14696,
+      "url": "http://svs.gsfc.nasa.gov/14696/",
+      "page_type": "Produced Video",
+      "title": "NASA + Smithsonian and Greenhouse Gases",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel. || Smithsonian_GHG.png (3825x1076) [2.8 MB] || Smithsonian_GHG_searchweb.png (320x180) [63.7 KB] || Smithsonian_GHG_thm.png (80x40) [6.2 KB] || GHG_Smithsonian.en_US.srt [5.8 KB] || GHG_Smithsonian.en_US.vtt [5.5 KB] || Smithsonian_GHG_v5_small.mp4 (7680x2160) [472.3 MB] || Smithsonian_GHG_v5_medium.mp4 (7680x2160) [859.9 MB] || Smithsonian_GHG_v5_h.264.mp4 (7680x2160) [4.5 GB] || ",
+      "release_date": "2024-10-08T00:00:00-04:00",
+      "update_date": "2024-10-08T17:35:56-04:00",
+      "main_image": {
+        "id": 1100888,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png",
+        "filename": "Smithsonian_GHG_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    },
+    {
+      "id": 14606,
+      "url": "http://svs.gsfc.nasa.gov/14606/",
+      "page_type": "Produced Video",
+      "title": "NASA and Fire",
+      "description": "Wildland fires, which are natural and essential for many ecosystems, have increased in frequency and size due to longer fire seasons, climate change, and the expanding interface between communities and wild vegetation. Using fire strategically—through prescribed burns and natural ignitions—can mitigate future severe fires that might burn more intensely under hotter, drier conditions.",
+      "release_date": "2024-07-29T15:00:00-04:00",
+      "update_date": "2025-09-15T17:43:50.308847-04:00",
+      "main_image": {
+        "id": 1158279,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_Image_4K.jpg",
+        "filename": "EIC_NASAandFire_Main_Image_4K.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+        "width": 3840,
+        "height": 1080,
+        "pixels": 4147200
+      }
+    },
+    {
+      "id": 14410,
+      "url": "http://svs.gsfc.nasa.gov/14410/",
+      "page_type": "Produced Video",
+      "title": "NASA Joins Jane Goodall to Conserve Chimp Habitats",
+      "description": "Complete transcript available. || Jane_Goodall_fullvideo_FINAL.00001_print.jpg (1024x576) [225.0 KB] || Jane_Goodall_fullvideo_FINAL.00001_searchweb.png (320x180) [123.8 KB] || Jane_Goodall_fullvideo_FINAL.00001_web.png (320x180) [123.8 KB] || Jane_Goodall_fullvideo_FINAL.00001_thm.png (80x40) [8.1 KB] || Jane_Goodall_fullvideo_FINAL.en_US.srt [10.7 KB] || Jane_Goodall_fullvideo_FINAL.en_US.vtt [10.2 KB] || Jane_Goodall_fullvideo_FINAL.mp4 (3840x2160) [4.3 GB] || ",
+      "release_date": "2023-09-13T10:00:00-04:00",
+      "update_date": "2023-09-12T23:45:19.153936-04:00",
+      "main_image": {
+        "id": 858676,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014410/Jane_Goodall_fullvideo_FINAL.00001_print.jpg",
+        "filename": "Jane_Goodall_fullvideo_FINAL.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": 4948,
+      "url": "http://svs.gsfc.nasa.gov/4948/",
+      "page_type": "Visualization",
+      "title": "Reforestation in Kigoma region of Tanzania: 2005 - 2014",
+      "description": "This visualization begins by showing the location of the village of Kigalye, south of the Gombe National Park in Tanzania.  The topography of that region is draped with a satellite image taken on May 14, 2005.  As we fly up the valley between Kigalye and the park, scars from deforestation cover much of the landscape. || habitat_reforestation_4k_60fps_2005.1000_print.jpg (1024x576) [290.7 KB] || habitat_reforestation_4k_30fps_2005_1080p30.webmhd.webm (1080x606) [10.0 MB] || habitat_reforestation_4k_30fps_2005_1080p30.mp4 (1920x1080) [49.6 MB] || habitat_reforestation_4k_60fps_2005_1080p60.mp4 (1920x1080) [52.8 MB] || Yr_2005 (3840x2160) [0 Item(s)] || Yr_2005 (3840x2160) [0 Item(s)] || habitat_reforestation_2005_2160p30.mp4 (3840x2160) [151.6 MB] || habitat_reforestation_2005_2160p60.mp4 (3840x2160) [152.5 MB] || ",
+      "release_date": "2023-09-13T10:00:00-04:00",
+      "update_date": "2025-06-23T00:13:11.925583-04:00",
+      "main_image": {
+        "id": 369268,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004948/habitat_reforestation_4k_60fps_2005.1000_print.jpg",
+        "filename": "habitat_reforestation_4k_60fps_2005.1000_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization begins by showing the location of the village of Kigalye, south of the Gombe National Park in Tanzania.  The topography of that region is draped with a satellite image taken on May 14, 2005.  As we fly up the valley between Kigalye and the park, scars from deforestation cover much of the landscape.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5160,
+      "url": "http://svs.gsfc.nasa.gov/5160/",
+      "page_type": "Visualization",
+      "title": "Using NASA Data to Monitor Chimpanzee Habitat Suitability in Africa",
+      "description": "The historic chimpanzee habitat range (yellow) mapped with the current range (pink). A historic range only map can be found in the download button to the right. || range_map_current_print.jpg (1024x545) [93.5 KB] || range_map_current.png (4225x2250) [6.6 MB] || range_map_historic.png (4225x2250) [6.7 MB] || ",
+      "release_date": "2023-09-13T10:00:00-04:00",
+      "update_date": "2023-09-13T14:53:14.058823-04:00",
+      "main_image": {
+        "id": 858639,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005160/africa_suit_print.jpg",
+        "filename": "africa_suit_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Chimpanzee habitat suitability within the current habitat range at 30m resolution. ",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 4928,
+      "url": "http://svs.gsfc.nasa.gov/4928/",
+      "page_type": "Visualization",
+      "title": "Earth Observing Fleet (December 2021)",
+      "description": "Earth observing fleet for December 2021 - this version includes Landsat-9 in nominal orbit and excludes Landsat-7 || fleet_2021_dec_15_HD_002.01000_print.jpg (1024x576) [75.6 KB] || fleet_2021_dec_15_HD_002.01000_searchweb.png (320x180) [40.3 KB] || fleet_2021_dec_15_HD_002.01000_thm.png (80x40) [3.8 KB] || fleet_2021_dec_15_HD_002_1080p59.94.mp4 (1920x1080) [50.2 MB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || fleet_2021_dec_15_HD_002_1080p59.94.webm (1920x1080) [20.8 MB] || fleet_2021_dec_15_4k_002_2160p59.94.mp4 (3840x2160) [92.5 MB] || png (9600x3240) [0 Item(s)] || exr (9600x3240) [0 Item(s)] || 3840x2160_16x9_30p (3840x2160) [0 Item(s)] || exr_better_labels (9600x3240) [0 Item(s)] || png_better_labels (9600x3240) [0 Item(s)] || fleet_2021_Dec_HD.mp4.hwshow || ",
+      "release_date": "2021-12-13T00:00:00-05:00",
+      "update_date": "2025-06-23T00:13:06.600220-04:00",
+      "main_image": {
+        "id": 377175,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004928/fleet_2021_dec_15_HD_002.01000_print.jpg",
+        "filename": "fleet_2021_dec_15_HD_002.01000_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Earth observing fleet for December 2021 - this version includes Landsat-9 in nominal orbit and excludes Landsat-7",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+import { execFileSync } from 'node:child_process';
+
+const branch = execFileSync('git', ['branch', '--show-current'], { encoding: 'utf8' }).trim();
+if (branch === 'main' || branch === 'master') {
+  console.error(`Commits on ${branch} are blocked. Switch to a feature branch first.`);
+  process.exitCode = 1;
+}

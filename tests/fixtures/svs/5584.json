@@ -1,0 +1,226 @@
+{
+  "id": 5584,
+  "url": "http://svs.gsfc.nasa.gov/5584/",
+  "page_type": "Visualization",
+  "title": "Daily Global Landslide Exposure Map",
+  "description": "This daily map shows results from the Landslide Hazard Assessment for Situational Awareness (LHASA) model, helping users identify areas where landslides may occur.",
+  "release_date": "2025-09-30T16:40:00-04:00",
+  "update_date": "2026-10-29T15:38:42.584546-04:00",
+  "main_image": {
+    "id": 1158687,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005584/landslides_daily.png",
+    "filename": "landslides_daily.png",
+    "media_type": "Image",
+    "alt_text": "Global landslide risk assessment map with color-coded hazard levels ranging from red (very high risk) to yellow (low risk). Red areas indicate the highest landslide risk, orange shows elevated risk, and yellow represents low risk areas.",
+    "width": 2048,
+    "height": 1024,
+    "pixels": 2097152
+  },
+  "main_video": null,
+  "main_credits": {
+    "Scientific consulting by": [
+      { "name": "Thomas A. Stanley", "employer": "University of Maryland Baltimore County" }
+    ],
+    "Visualizations by": [{ "name": "Zoey N. Armstrong", "employer": "Navteca, LLC." }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 378912,
+      "url": "http://svs.gsfc.nasa.gov/5584/#media_group_378912",
+      "widget": "Single image",
+      "title": "",
+      "caption": "Daily global landslide exposure assessment from the LHASA (Landslide Hazard Assessment for Situational Awareness) model. Color-coded hazard levels range from red (very high risk) to yellow (low risk), helping users identify areas where landslides may occur.",
+      "description": "",
+      "items": [
+        {
+          "id": 492546,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158687,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005584/landslides_daily.png",
+            "filename": "landslides_daily.png",
+            "media_type": "Image",
+            "alt_text": "Global landslide risk assessment map with color-coded hazard levels ranging from red (very high risk) to yellow (low risk). Red areas indicate the highest landslide risk, orange shows elevated risk, and yellow represents low risk areas.",
+            "width": 2048,
+            "height": 1024,
+            "pixels": 2097152
+          }
+        },
+        {
+          "id": 502653,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1159825,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005584/frames/archive/",
+            "filename": "archive",
+            "media_type": "Frames",
+            "alt_text": "Global landslide risk assessment map with color-coded hazard levels ranging from red (very high risk) to yellow (low risk). Red areas indicate the highest landslide risk, orange shows elevated risk, and yellow represents low risk areas.",
+            "width": 2048,
+            "height": 1024,
+            "pixels": 2097152
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378915,
+      "url": "http://svs.gsfc.nasa.gov/5584/#media_group_378915",
+      "widget": "Basic text",
+      "title": "",
+      "caption": "",
+      "description": "Landslides are a widespread and often underestimated natural hazard, causing thousands of deaths and significant economic damage each year. They routinely block roads, destroy infrastructure, and disrupt communities worldwide. While intense or prolonged rainfall is the most common landslide trigger, earthquakes and human activities can also cause them.\r\nThe global Landslide Hazard Assessment for Situational Awareness (LHASA) model provides users with a comprehensive view of landslide hazard in near real-time. Using machine learning, LHASA combines rainfall data from the Global Precipitation Measurement (GPM) satellite with antecedent soil moisture from the Soil Moisture Active Passive (SMAP) satellite to identify areas currently at risk from landslides. The model shows where and when landslides are most probable, then calculates the exposed population and road length within each administrative district, helping users understand both the hazard and potential impacts on communities and infrastructure.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 378914,
+      "url": "http://svs.gsfc.nasa.gov/5584/#media_group_378914",
+      "widget": "Basic text",
+      "title": "",
+      "caption": "",
+      "description": "To learn more please visit: [https://landslides.nasa.gov/](https://landslides.nasa.gov/)",
+      "items": [],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": [],
+  "credits": [
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Thomas A. Stanley", "employer": "University of Maryland Baltimore County" }
+      ]
+    },
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Zoey N. Armstrong", "employer": "Navteca, LLC." },
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" }
+      ]
+    },
+    {
+      "role": "Support",
+      "people": [
+        { "name": "Ella Kaplan", "employer": "Global Science and Technology, Inc." },
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    }
+  ],
+  "missions": ["Global Precipitation Measurement (GPM)", "Soil Moisture Active Passive (SMAP)"],
+  "series": ["Updates Regularly"],
+  "tapes": [],
+  "papers": [
+    "Better Satellite Precipitation Algorithms Slightly Improved Landslide Hazard Assessment.",
+    "New global characterisation of landslide exposure"
+  ],
+  "datasets": [
+    {
+      "name": "Global Landslide Hazard Assessment for Situational Awareness (LHASA)",
+      "common_name": "Global Landslide Model",
+      "platform": null,
+      "sensor": null,
+      "type": "Model",
+      "organizations": ["GPM"],
+      "description": "<a href=\"https://pmm.nasa.gov/applications/global-landslide-model\">https://pmm.nasa.gov/applications/global-landslide-model</a>The global Landslide Hazard Assessment for Situational Awareness (LHASA) model is developed to provide situational awareness of landslide hazards for a wide range of users. Precipitation is",
+      "credit": "",
+      "url": "",
+      "date_range": ""
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Earth", "Earth Information Center", "Global Landslide Catalog", "Landslides"],
+  "recommended_pages": [
+    {
+      "id": 5596,
+      "url": "http://svs.gsfc.nasa.gov/5596/",
+      "page_type": "Visualization",
+      "title": "Tracking Weather Extremes: December 2025 Pacific Northwest Flooding",
+      "description": "Created with NASA's GEOS data, this visualization shows the December 2025 atmospheric river that brought extreme precipitation to the Pacific Northwest. The analysis displays total precipitable water from the Pacific Ocean and resulting precipitation across Washington, Oregon, British Columbia, and Montana. This Category 5 atmospheric river delivered up to 10 inches of rain and forced over 100,000 evacuations in Washington state.",
+      "release_date": "2026-01-27T17:00:00-05:00",
+      "update_date": "2026-01-27T16:23:28.326067-05:00",
+      "main_image": {
+        "id": 1195548,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005596/PacificNorthwestFlooding_Dec2025_1920x1080.png",
+        "filename": "PacificNorthwestFlooding_Dec2025_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "Map visualization showing atmospheric river moisture transport from the Pacific Ocean into the Pacific Northwest region during December 2025. The visualization displays two components: colored areas representing total precipitable water as the atmospheric river moves inland from the Pacific, and precipitation accumulation patterns across Washington, Oregon, British Columbia, and Montana. The atmospheric river appears as a continuous moisture plume extending from the Pacific Ocean eastward into the continental landmass. Areas of heavy precipitation accumulation are shown in red to yellow hues across the Pacific Northwest region, indicating where the most intense rainfall occurred during this flooding event.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5595,
+      "url": "http://svs.gsfc.nasa.gov/5595/",
+      "page_type": "Visualization",
+      "title": "Tracking Weather Extremes: July 2025 Texas Precipitation and Guadalupe River Flooding",
+      "description": "Created with NASA's GEOS-FP 2km replay data, this visualization shows extreme precipitation across Texas from June 30 - July 5, 2025. The Hunt City, marked on the visualization, experienced 6.5 inches of rain in three hours on July 4th, triggering catastrophic Guadalupe River flooding that reached record-breaking levels of 37.52 feet - the highest ever recorded at this location.",
+      "release_date": "2025-12-29T15:50:00-05:00",
+      "update_date": "2026-01-07T15:54:42.569124-05:00",
+      "main_image": {
+        "id": 1195337,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005595/guadalupe_flood_Texas_2025_1920x1080.png",
+        "filename": "guadalupe_flood_Texas_2025_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "Map of Texas showing color-coded 24-hour precipitation accumulation from June 30 - July 5, 2025. The visualization displays varying precipitation levels across the state using a color scale, with purple/red/yellow hues indicating higher rainfall amounts. A black dot marks the location of Hunt City in the Texas Hill Country region, where extreme precipitation of 6.5 inches in three hours on July 4th caused catastrophic flooding of the Guadalupe River. The precipitation patterns show concentrated heavy rainfall in the central Texas Hill Country area, with Hunt City located in one of the areas of highest accumulation.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5594,
+      "url": "http://svs.gsfc.nasa.gov/5594/",
+      "page_type": "Visualization",
+      "title": "Los Angeles Palisades Wildfire, January 2025: Black Carbon, Weather, and Air Quality",
+      "description": "NASA GEOS model visualization showing black carbon dispersal from the Palisades Fire overlaid with regional weather patterns and air quality indicators, January 2-14, 2025.",
+      "release_date": "2025-12-29T15:00:00-05:00",
+      "update_date": "2026-01-07T15:57:31.509704-05:00",
+      "main_image": {
+        "id": 1195333,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005594/Palisades_Wildfire_LA_CA_2025_1920x1080.png",
+        "filename": "Palisades_Wildfire_LA_CA_2025_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5593,
+      "url": "http://svs.gsfc.nasa.gov/5593/",
+      "page_type": "Visualization",
+      "title": "Tracking Weather Extremes: May 2025 Tornadoes and Flooding Across the Continental United States",
+      "description": "Created with NASA's GEOS-FP 2km replay model, this visualization tracks May 2025's severe weather across the continental US. The visualization maps tornado paths and 24-hour precipitation data, revealing how tornadic activity and heavy rainfall combined to create compound disasters affecting communities from the Great Plains to the Southeast.",
+      "release_date": "2025-12-29T13:00:00-05:00",
+      "update_date": "2025-12-29T12:15:13.379632-05:00",
+      "main_image": {
+        "id": 1195329,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005593/USTornadoes_May2025_1920x1080.png",
+        "filename": "USTornadoes_May2025_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "This visualization shows a map of the continental United States with tornado tracks and color-coded precipitation levels during May 2025. Multiple tornado paths are visible across the central and eastern states, with concentrated activity in the Midwest and Southeast. Areas of heavy precipitation (shown in purple/red/yellow hues) overlap with many tornado-affected regions, illustrating the compound severe weather events that occurred that month.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

@@ -1,0 +1,1422 @@
+{
+  "id": 5207,
+  "url": "http://svs.gsfc.nasa.gov/5207/",
+  "page_type": "Visualization",
+  "title": "Global Temperature Anomalies from 1880 to 2023",
+  "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023. || 2023GISTEMP_Map.00899_print.jpg (1024x576) [138.7 KB] || 2023GISTEMP_Map.00899_searchweb.png (320x180) [66.6 KB] || 2023GISTEMP_Map.00899_thm.png (80x40) [6.4 KB] || 2023GISTEMP_Map.00899_web.png (320x180) [65.9 KB] || 2023GISTEMP_Map_HD.mp4 (1920x1080) [57.2 MB] || 3840x2160_16x9_30p (3840x2160) [0 Item(s)] || 2023GISTEMP_Map.mp4 (3840x2160) [114.3 MB] || earth_observations_5x3.hwshow || ",
+  "release_date": "2024-01-12T11:00:00-05:00",
+  "update_date": "2025-01-08T13:56:34-05:00",
+  "main_image": {
+    "id": 1088347,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map.00899_print.jpg",
+    "filename": "2023GISTEMP_Map.00899_print.jpg",
+    "media_type": "Image",
+    "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Scientific consulting by": [{ "name": "Gavin A. Schmidt", "employer": "NASA/GSFC GISS" }],
+    "Produced by": [
+      { "name": "Kathleen Gaeta", "employer": "Advocates in Manpower Management, Inc." }
+    ],
+    "Visualizations by": [{ "name": "Mark SubbaRao", "employer": "NASA/GSFC" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 373191,
+      "url": "http://svs.gsfc.nasa.gov/5207/#media_group_373191",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+      "items": [
+        {
+          "id": 418309,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088347,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map.00899_print.jpg",
+            "filename": "2023GISTEMP_Map.00899_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 418310,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088348,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map.00899_searchweb.png",
+            "filename": "2023GISTEMP_Map.00899_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 418311,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088349,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map.00899_thm.png",
+            "filename": "2023GISTEMP_Map.00899_thm.png",
+            "media_type": "Image",
+            "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 418939,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088641,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map.00899_web.png",
+            "filename": "2023GISTEMP_Map.00899_web.png",
+            "media_type": "Image",
+            "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 418938,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088640,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map_HD.mp4",
+            "filename": "2023GISTEMP_Map_HD.mp4",
+            "media_type": "Movie",
+            "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 423188,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1090245,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/frames/3840x2160_16x9_30p/",
+            "filename": "3840x2160_16x9_30p",
+            "media_type": "Frames",
+            "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418308,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088346,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map.mp4",
+            "filename": "2023GISTEMP_Map.mp4",
+            "media_type": "Movie",
+            "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373113,
+      "url": "http://svs.gsfc.nasa.gov/5207/#media_group_373113",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Earth's average surface temperature in 2023 was the warmest on record, according to an analysis by NASA. Global temperatures in 2023 were around 2 degrees Fahrenheit (1.1 degrees Celsius) above the average for NASA's baseline period (1951-1980), scientists from NASA's Goddard Institute for Space Studies (GISS) in New York reported.\r<br>\r<br>In 2023, hundreds of millions of people around the world experienced extreme heat, and each month from June through December set a global record for the respective month. July was the hottest month ever recorded. Overall, Earth was about 2.45 degrees Fahrenheit (or about 1.36 degrees Celsius) warmer in 2023 than the late 19th-century average, when modern record-keeping began.\r<br>\r<br>“The exceptional warming that we’re experiencing is not something we’ve seen before as a species,” said Gavin Schmidt, director of GISS. “It’s driven primarily by our fossil fuel emissions, and we're seeing the impacts in heat waves, intense rainfall, and coastal flooding.”\r<br> \r<br>Though scientists have conclusive evidence that the planet’s long-term warming trend is driven by human activitiy, they still examine other events that can effect yearly or multi-year changes in climate such as El Nino, aerosols and pollution, and volcanic eruptions.\r<br>\r<br>NASA's <a href=\"https://data.giss.nasa.gov/gistemp/\" target=\"_blank\">full dataset of global surface temperatures </a> as well as full details with code of how NASA scientists conducted the analysis, are publicly available from GISS.\r<br>\r<br>GISS is a NASA laboratory managed by the Earth Sciences Division of the agency's Goddard Space Flight Center in Greenbelt, Maryland. The laboratory is affiliated with Columbia University's Earth Institute and School of Engineering and Applied Science in New York.\r<br>\r<br>For more information about NASA's Earth science programs, visit: \r<br>\r<br>https://www.nasa.gov/earth",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 373114,
+      "url": "http://svs.gsfc.nasa.gov/5207/#media_group_373114",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This visualizarion is in an equirectangular projection optimised for spherical displays such as Science On a Sphere. This color-coded map displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents global temperature anomalies in 2023.<p><p>The file <a href=\"/vis/a000000/a005200/a005207/time.txt\">time.txt</a> is a label file containing the animation time for each frame number ",
+      "items": [
+        {
+          "id": 419695,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088843,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map_SOS.00899_print.jpg",
+            "filename": "2023GISTEMP_Map_SOS.00899_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This visualizarion is in an equirectangular projection optimised for spherical displays such as Science On a Sphere. This color-coded map displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents global temperature anomalies in 2023.The file time.txt is a label file containing the animation time for each frame number ",
+            "width": 1024,
+            "height": 512,
+            "pixels": 524288
+          }
+        },
+        {
+          "id": 419688,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088842,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023GISTEMP_Map_SOS.mp4",
+            "filename": "2023GISTEMP_Map_SOS.mp4",
+            "media_type": "Movie",
+            "alt_text": "This visualizarion is in an equirectangular projection optimised for spherical displays such as Science On a Sphere. This color-coded map displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents global temperature anomalies in 2023.The file time.txt is a label file containing the animation time for each frame number ",
+            "width": 4096,
+            "height": 2048,
+            "pixels": 8388608
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373198,
+      "url": "http://svs.gsfc.nasa.gov/5207/#media_group_373198",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "This color-coded map in Robinson projection of the 2023 global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. ",
+      "items": [
+        {
+          "id": 419690,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088510,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023AverageTemp_HD.png",
+            "filename": "2023AverageTemp_HD.png",
+            "media_type": "Image",
+            "alt_text": "This color-coded map in Robinson projection of the 2023 global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. ",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 419691,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088511,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023AverageTemp_print.png",
+            "filename": "2023AverageTemp_print.png",
+            "media_type": "Image",
+            "alt_text": "This color-coded map in Robinson projection of the 2023 global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. ",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 419689,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088509,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/2023AverageTemp_4K.png",
+            "filename": "2023AverageTemp_4K.png",
+            "media_type": "Image",
+            "alt_text": "This color-coded map in Robinson projection of the 2023 global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. ",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373200,
+      "url": "http://svs.gsfc.nasa.gov/5207/#media_group_373200",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This color-coded map in Orthographic projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+      "items": [
+        {
+          "id": 419693,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088496,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/GISTEMP_1880-2023_vert.00899_print.jpg",
+            "filename": "GISTEMP_1880-2023_vert.00899_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This color-coded map in Orthographic projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+            "width": 1024,
+            "height": 1820,
+            "pixels": 1863680
+          }
+        },
+        {
+          "id": 419692,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088495,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/GISTEMP_1880-2023_vert.mp4",
+            "filename": "GISTEMP_1880-2023_vert.mp4",
+            "media_type": "Movie",
+            "alt_text": "This color-coded map in Orthographic projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents  global temperature anomalies in 2023.",
+            "width": 1080,
+            "height": 1920,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373287,
+      "url": "http://svs.gsfc.nasa.gov/5207/#media_group_373287",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colortable in both degrees Fahrenheit and degrees Celsius.",
+      "items": [
+        {
+          "id": 419694,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088512,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005207/giss_navy_anomaly_Vertical-both.png",
+            "filename": "giss_navy_anomaly_Vertical-both.png",
+            "media_type": "Image",
+            "alt_text": "Colortable in both degrees Fahrenheit and degrees Celsius.",
+            "width": 167,
+            "height": 333,
+            "pixels": 55611
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Gavin A. Schmidt", "employer": "NASA/GSFC GISS" },
+        { "name": "Robert B Schmunk", "employer": "SIGMA Space Partners, LLC." },
+        { "name": "Reto A. Ruedy", "employer": "SIGMA Space Partners, LLC." }
+      ]
+    },
+    {
+      "role": "Public affairs officer",
+      "people": [{ "name": "Peter H. Jacobs", "employer": "NASA/GSFC" }]
+    },
+    {
+      "role": "Producer",
+      "people": [{ "name": "Kathleen Gaeta", "employer": "Advocates in Manpower Management, Inc." }]
+    },
+    { "role": "Visualizer", "people": [{ "name": "Mark SubbaRao", "employer": "NASA/GSFC" }] },
+    {
+      "role": "Writer",
+      "people": [
+        { "name": "Sally Younger", "employer": "NASA/JPL" },
+        { "name": "Jenny Marder Fadoul", "employer": "Telophase" }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": ["Global Temperature Anomalies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "GISTEMP",
+      "common_name": "",
+      "platform": null,
+      "sensor": "GISS Surface Temperature Analysis (GISTEMP)",
+      "type": "Model",
+      "organizations": ["NASA/GISS"],
+      "description": "The GISS Surface Temperature Analysis version 4 (GISTEMP v4) is an estimate of global surface temperature change. Graphs and tables are updated around the middle of every month using current data files from NOAA GHCN v4 (meteorological stations) and ERSST v5 (ocean areas), combined as described in our publications [Hansen et al. (2010)](https://pubs.giss.nasa.gov/abs/ha00510u.html), [Lenssen et al. (2019)](https://pubs.giss.nasa.gov/abs/le05800h.html), and [Lenssen et al. (2024)](https://pubs.giss.nasa.gov/abs/le07900t.html).",
+      "credit": "Lenssen, N., G.A. Schmidt, M. Hendrickson, P. Jacobs, M. Menne, and R. Ruedy, 2024: [A GISTEMPv4 observational uncertainty ensemble](https://pubs.giss.nasa.gov/abs/le07900t.html). J. Geophys. Res. Atmos., 129, no. 17, e2023JD040179, doi:10.1029/2023JD040179.",
+      "url": "https://data.giss.nasa.gov/gistemp/",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Anomaly",
+    "Climate",
+    "Climate Variability and Change",
+    "Coastal Processes",
+    "Earth Information Center",
+    "Earth Science",
+    "Global Warming",
+    "HDTV",
+    "Hyperwall",
+    "Model Data",
+    "Oceans",
+    "Physical oceanography",
+    "Science On a Sphere",
+    "Sea Level Rise"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 5376,
+      "url": "http://svs.gsfc.nasa.gov/5376/",
+      "page_type": "Visualization",
+      "title": "Record Temperature Years: 2024, 2023, and 2016",
+      "description": "A visualization of global temperature anomalies highlighting the record years of 2024, 2023, and 2016. The visualizations morphs between a data grid showing monthly temperatures and a bar chart of annual temperatures. This version is labeled in English and temperatures are in Celsius. || GISTEMP_Records_English_C.00001_print.jpg (1024x1024) [402.0 KB] || GISTEMP_Records_English_C.00001_searchweb.png (320x180) [105.1 KB] || GISTEMP_Records_English_C.00001_thm.png [7.1 KB] || GISTEMP_Records_English_C.mp4 (2160x2160) [19.3 MB] || climate_compiled_GISTEMP.hwshow || ",
+      "release_date": "2025-01-10T11:00:00-05:00",
+      "update_date": "2025-01-09T21:59:47-05:00",
+      "main_image": {
+        "id": 1140701,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005376/GISTEMP_Records_English_C.00001_print.jpg",
+        "filename": "GISTEMP_Records_English_C.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A visualization of global temperature anomalies highlighting the record years of 2024, 2023, and 2016. The visualizations morphs between a data grid showing monthly temperatures and a bar chart of annual temperatures. This version is labeled in English and temperatures are in Celsius.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5451,
+      "url": "http://svs.gsfc.nasa.gov/5451/",
+      "page_type": "Visualization",
+      "title": "Zonal Climate Anomalies 1880-2024",
+      "description": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980. This version is in Celsius, an alternate version in Fahrenheit is also available. || GISTEMP_Zonal_1880-2024_C_2160p30.00850_print.jpg (1024x576) [52.4 KB] || GISTEMP_Zonal_1880-2024_C_2160p30.00850_searchweb.png (320x180) [17.8 KB] || GISTEMP_Zonal_1880-2024_C_2160p30.00850_thm.png [2.4 KB] || GISTEMP_Zonal_1880-2024_C_2160p30.mp4 (3840x2160) [20.3 MB] || ",
+      "release_date": "2025-01-10T11:00:00-05:00",
+      "update_date": "2025-01-08T23:05:14-05:00",
+      "main_image": {
+        "id": 1140647,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005451/GISTEMP_Zonal_1880-2024_C_2160p30.00850_print.jpg",
+        "filename": "GISTEMP_Zonal_1880-2024_C_2160p30.00850_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980. This version is in Celsius, an alternate version in Fahrenheit is also available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5452,
+      "url": "http://svs.gsfc.nasa.gov/5452/",
+      "page_type": "Visualization",
+      "title": "Shifting Distribution of Land Temperature Anomalies, 1964-2024",
+      "description": "The change in the distribution of land temperature anomalies over the years 1964 to 2024. This version is in Celsius, a Fahrenheit version is also available. || GISTEMPDist_2024_C.00850_print.jpg (1024x576) [45.7 KB] || GISTEMPDist_2024_C.00850_searchweb.png (320x180) [13.7 KB] || GISTEMPDist_2024_C.00850_thm.png [2.1 KB] || GISTEMPDist_2024_C.mp4 (3840x2160) [21.1 MB] ||",
+      "release_date": "2025-01-10T11:00:00-05:00",
+      "update_date": "2026-02-04T11:49:41.268153-05:00",
+      "main_image": {
+        "id": 1140655,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005452/GISTEMPDist_2024_C.00850_print.jpg",
+        "filename": "GISTEMPDist_2024_C.00850_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The change in the distribution of land temperature anomalies over the years 1964 to 2024. This version is in Celsius, a Fahrenheit version is also available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5383,
+      "url": "http://svs.gsfc.nasa.gov/5383/",
+      "page_type": "Visualization",
+      "title": "Slow Reveal Graphs: Climate Spiral",
+      "description": "Slow reveal graphs are an instructional routine using scaffolded visuals and discourse to help students (in K-12 and beyond) make sense of data. This is a slow reveal graph of the SVS visualization of NASA Climate Spiral. || ",
+      "release_date": "2024-09-17T15:00:00-04:00",
+      "update_date": "2024-09-17T15:43:36-04:00",
+      "main_image": {
+        "id": 1098565,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005383/GISTEMP_Spiral_SR_1.01400_print.jpg",
+        "filename": "GISTEMP_Spiral_SR_1.01400_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Slide #1 - just the animated spiralBefore playing, ask students what they notice and what they wonder as they are watching.  Play it through several times before having the group share.  Depending on your group, have them share with an elbow partner or small group first.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5311,
+      "url": "http://svs.gsfc.nasa.gov/5311/",
+      "page_type": "Visualization",
+      "title": "Twelve consecutive months of global surface temperature records: June 2023 - May 2024",
+      "description": "This visualization shows monthly global surface temperatures from 1880 to May 2024. The last 12 months (June 2023 through May 2024) each set a record as the warmest month in the temperature record. This version of the graph is in Fahrenheit. || GISTEMP_Lines_Rotate_2024_degF.00650_print.jpg (1024x1024) [428.6 KB] || GISTEMP_Lines_Rotate_2024_degF.00650_searchweb.png (320x180) [109.7 KB] || GISTEMP_Lines_Rotate_2024_degF.00650_thm.png (80x40) [7.5 KB] || GISTEMP_Lines_Rotate_2024_degF.mp4 (2160x2160) [57.3 MB] || ",
+      "release_date": "2024-07-17T06:00:00-04:00",
+      "update_date": "2024-07-17T07:24:17-04:00",
+      "main_image": {
+        "id": 1093307,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005311/GISTEMP_Lines_Rotate_2024_degF.00650_print.jpg",
+        "filename": "GISTEMP_Lines_Rotate_2024_degF.00650_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows monthly global surface temperatures from 1880 to May 2024. The last 12 months (June 2023 through May 2024) each set a record as the warmest month in the temperature record. This version of the graph is in Fahrenheit.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5327,
+      "url": "http://svs.gsfc.nasa.gov/5327/",
+      "page_type": "Visualization",
+      "title": "Slow Reveal Graphs: Twelve consecutive months of global surface temperature records (June 2023 - May 2024)",
+      "description": "Slow reveal graphs are an instructional routine using scaffolded visuals and discourse to help students (in K-12 and beyond) make sense of data. This is a slow reveal graph of the SVS visualization of Twelve consectutive months of global surface temperature records. || ",
+      "release_date": "2024-07-17T06:00:00-04:00",
+      "update_date": "2024-07-17T11:07:20-04:00",
+      "main_image": {
+        "id": 1095228,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005327/GISTEMP_Lines_Rotate_SR_SBS.jpg",
+        "filename": "GISTEMP_Lines_Rotate_SR_SBS.jpg",
+        "media_type": "Image",
+        "alt_text": "Static View: Side by sideQuestions to ask:What's the same and what's different between these two?Which do you like better and why?What information is easier to see in one over the other?Where do we see the months and years represented in each graph?How do you think each of these representations would look different if we fast forward and add 2, 5 or 10 more years of data?",
+        "width": 2160,
+        "height": 1080,
+        "pixels": 2332800
+      }
+    },
+    {
+      "id": 5328,
+      "url": "http://svs.gsfc.nasa.gov/5328/",
+      "page_type": "Visualization",
+      "title": "Twelve consecutive months of global surface temperature records: June 2023 - May 2024",
+      "description": "Each month from June 2023 to May 2024 set a record for the highest average global surface temperature. Temperature anomalies are deviations from a long term global average. In this case the period 1951-1980 is used to define the baseline for the anomaly. These temperatures are based on the GISS Surface Temperature Analysis (GISTEMP v4), an estimate of global surface temperature change. The data file used to create this visualization is publicaly accessible here.  The Goddard Institute for Space Studies (GISS) in New York is a NASA laboratory managed by the Earth Sciences Division of the agency’s Goddard Space Flight Center in Greenbelt, Maryland. The laboratory is affiliated with Columbia University’s Earth Institute and School of Engineering and Applied Science in New York. || ",
+      "release_date": "2024-07-13T00:00:00-04:00",
+      "update_date": "2024-07-18T13:40:49-04:00",
+      "main_image": null
+    },
+    {
+      "id": 5208,
+      "url": "http://svs.gsfc.nasa.gov/5208/",
+      "page_type": "Visualization",
+      "title": "2023 Temperature Measurements",
+      "description": "The locations of the temperature measurements that were used in the 2023 GISS Surface Temperature Analysis (v4). The data on land comes from the weather stations that make up the Global Historical Climatology Network (GHCN). Over water temperature measurements come from International Comprehensive Ocean-Atmosphere Data Set (ICOADS).",
+      "release_date": "2024-01-12T11:00:00-05:00",
+      "update_date": "2025-05-06T09:13:45.456789-04:00",
+      "main_image": {
+        "id": 1088392,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005208/GISTEMP_stations_2024-01-06_2221.01000_print.jpg",
+        "filename": "GISTEMP_stations_2024-01-06_2221.01000_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The locations of the temperature measurements that were used in the 2023 GISS Surface Temperature Analysis (v4). The data on land comes from the weather stations that make up the Global Historical Climatology Network (GHCN). Over water temperature measurements come from International Comprehensive Ocean-Atmosphere Data Set (ICOADS).  ",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5209,
+      "url": "http://svs.gsfc.nasa.gov/5209/",
+      "page_type": "Visualization",
+      "title": "Zonal Climate Anomalies 1880-2023",
+      "description": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980. This version is in Celsius, an alternate version in Fahrenheit is also available. || GISTEMP_Zonal_1880-2023_C.00840_print.jpg (1024x576) [43.1 KB] || GISTEMP_Zonal_1880-2023_C.00840_searchweb.png (320x180) [18.0 KB] || GISTEMP_Zonal_1880-2023_C.00840_thm.png (80x40) [2.5 KB] || GISTEMP_Zonal_1880-2023_C.mp4 (3840x2160) [20.2 MB] || degC (3840x2160) [0 Item(s)] || GISTEMP_Zonal_1880-2023_C.mp4.hwshow || ",
+      "release_date": "2024-01-12T11:00:00-05:00",
+      "update_date": "2024-12-16T14:32:44-05:00",
+      "main_image": {
+        "id": 1088478,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005209/GISTEMP_Zonal_1880-2023_C.00899_print.jpg",
+        "filename": "GISTEMP_Zonal_1880-2023_C.00899_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980. This version is in Celsius, an alternate version in Fahrenheit is also available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5211,
+      "url": "http://svs.gsfc.nasa.gov/5211/",
+      "page_type": "Visualization",
+      "title": "Shifting Distribution of Land Temperature Anomalies, 1963-2023",
+      "description": "The change in the distribution of land temperature anomalies over the years 1963 to 2023. This version is in Celsius, a Fahrenheit version is also available. || 2023_GISTEMP_Dist_C.00899_print.jpg (1024x576) [38.5 KB] || 2023_GISTEMP_Dist_C.00899_searchweb.png (320x180) [13.9 KB] || 2023_GISTEMP_Dist_C.00899_thm.png (80x40) [2.3 KB] || 2023_GISTEMP_Dist_C.mp4 (3840x2160) [22.3 MB] || 2023_GISTEMP_Dist_C.mp4.hwshow || ",
+      "release_date": "2024-01-12T11:00:00-05:00",
+      "update_date": "2024-12-16T14:40:04-05:00",
+      "main_image": {
+        "id": 1088514,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005211/2023_GISTEMP_Dist_C.00899_print.jpg",
+        "filename": "2023_GISTEMP_Dist_C.00899_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The change in the distribution of land temperature anomalies over the years 1963 to 2023. This version is in Celsius, a Fahrenheit version is also available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5191,
+      "url": "http://svs.gsfc.nasa.gov/5191/",
+      "page_type": "Visualization",
+      "title": "Global Temperature Graph 1880-2024",
+      "description": "The seasonal cycle of average temperature variation on the earth's surface.",
+      "release_date": "2023-11-16T00:00:00-05:00",
+      "update_date": "2025-06-22T20:07:53.052254-04:00",
+      "main_image": {
+        "id": 1069938,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005191/GISTEMP_Curves_English_degC_2160p60.01750_print.jpg",
+        "filename": "GISTEMP_Curves_English_degC_2160p60.01750_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The seasonal cycle of temperature variation on the earth's surface. This version is labeled in English and Celsius.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5161,
+      "url": "http://svs.gsfc.nasa.gov/5161/",
+      "page_type": "Visualization",
+      "title": "Summer 2023 Record High Global Temperatures",
+      "description": "This 'map shows monthly temperature anomalies measure from 1880 to August 2023 measured with respect to a the baseline period 1951-1980.Versions are provided in both English and Spanish. || GISTEMP_Summer2023_English_2160p30.00899_print.jpg (1024x576) [191.0 KB] || GISTEMP_Summer2023_English_2160p30.00899_searchweb.png (320x180) [74.2 KB] || GISTEMP_Summer2023_English_2160p30.00899_thm.png (80x40) [7.1 KB] || GISTEMP_Summer2023_English_1080p30.mp4 (1920x1080) [35.8 MB] || GISTEMP_Summer2023_Spanish_2160p30.mp4 (3840x2160) [36.2 MB] || gistemp-summer2023-english (3840x2160) [901 Item(s)] || GISTEMP_Summer2023_English_2160p30.mp4 (3840x2160) [106.5 MB] || GISTEMP_Summer2023_Spanish_2160p30.mp4.hwshow [113 bytes] || GISTEMP_Summer2023_English_2160p30.hwshow || GISTEMP_Summer2023_English_1080p30.mp4.hwshow [137 bytes] || ",
+      "release_date": "2023-09-14T11:00:00-04:00",
+      "update_date": "2025-03-16T23:04:25.185454-04:00",
+      "main_image": {
+        "id": 858682,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005161/GISTEMP_Summer2023_English_2160p30.00899_print.jpg",
+        "filename": "GISTEMP_Summer2023_English_2160p30.00899_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This 'map shows monthly temperature anomalies measure from 1880 to August 2023 measured with respect to a the baseline period 1951-1980.Versions are provided in both English and Spanish.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5137,
+      "url": "http://svs.gsfc.nasa.gov/5137/",
+      "page_type": "Visualization",
+      "title": "July 2023 Record High Global Temperatures",
+      "description": "Monthly temperature anomalies measure from 1880 to July 2023 measured with respect to a  the baseline period 1951-1980. This graph includes the seasonal cycle (from MERRA2) showing that July 2023 was the warmest month on record. Temperatures measured in Celsius, a Fahrenheit version of this graph is also available. || GISTEMP_Curves_July2023_1080p60.01800_print.jpg (1024x576) [164.8 KB] || GISTEMP_Curves_July2023_1080p60.01800_searchweb.png (320x180) [48.1 KB] || GISTEMP_Curves_July2023_1080p60.01800_thm.png (80x40) [4.1 KB] || GISTEMP_Curves_July2023_1080p60.mp4 (1920x1080) [38.8 MB] || GISTEMP_Curves_July2023_C_2160p60.mp4 (3840x2160) [105.6 MB] || ",
+      "release_date": "2023-08-14T11:05:00-04:00",
+      "update_date": "2023-09-27T12:39:33.119640-04:00",
+      "main_image": {
+        "id": 857673,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005137/GISTEMP_Curves_July2023_1080p60.01800_print.jpg",
+        "filename": "GISTEMP_Curves_July2023_1080p60.01800_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Monthly temperature anomalies measure from 1880 to July 2023 measured with respect to a  the baseline period 1951-1980. This graph includes the seasonal cycle (from MERRA2) showing that July 2023 was the warmest month on record. Temperatures measured in Celsius, a Fahrenheit version of this graph is also available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5065,
+      "url": "http://svs.gsfc.nasa.gov/5065/",
+      "page_type": "Visualization",
+      "title": "Shifting Distribution of Land Temperature Anomalies, 1962-2022",
+      "description": "The change in the distribution of land temperature anomalies over the years 1962 to 2022. This version is in Celsius, a Fahrenheit version is also available. || GISTEMPDist2022_C.00890_print.jpg (1024x576) [49.0 KB] || GISTEMPDist2022_C.00890_searchweb.png (320x180) [18.8 KB] || GISTEMPDist2022_C.00890_thm.png (80x40) [2.5 KB] || GISTEMPDist2022_C.mp4 (3840x2160) [17.1 MB] || GISTEMPDist2022_C.webm (3840x2160) [4.2 MB] || ",
+      "release_date": "2023-05-31T00:00:00-04:00",
+      "update_date": "2024-01-11T07:39:33-05:00",
+      "main_image": {
+        "id": 552391,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005065/GISTEMPDist2022_C.00890_print.jpg",
+        "filename": "GISTEMPDist2022_C.00890_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The change in the distribution of land temperature anomalies over the years 1962 to 2022. This version is in Celsius, a Fahrenheit version is also available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 14327,
+      "url": "http://svs.gsfc.nasa.gov/14327/",
+      "page_type": "Produced Video",
+      "title": "NASA Interview Opportunity: Celebrate our Dynamic Planet with a NASA Expert this Earth Day",
+      "description": "Click here for quick link to cut B-ROLL for interviewsScroll down promo videos for John Bolten and Lesley OttClick here for quick link to canned interview with Lesley Ott || 1_print.jpg (1024x512) [89.6 KB] || 1.jpeg (6912x3456) [1.4 MB] || 1_searchweb.png (320x180) [100.4 KB] || 1_thm.png (80x40) [7.8 KB] || ",
+      "release_date": "2023-04-12T06:00:00-04:00",
+      "update_date": "2023-05-03T11:43:37.344948-04:00",
+      "main_image": {
+        "id": 854791,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014327/2023-EarthDay.V8.00001_print.jpg",
+        "filename": "2023-EarthDay.V8.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Cut b-roll for the live shots. TRT 5:31. Clips are separated by a slate with associated question. No audio on clips.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5057,
+      "url": "http://svs.gsfc.nasa.gov/5057/",
+      "page_type": "Visualization",
+      "title": "NASA Climate Spiral 1880-2022",
+      "description": "The NASA climate spiral 1880-2022. This version is in Celsius; see below for an alternate version in Fahrenheit. Both a 30 fps, 60 second duration video and 60 fps, 30 second duration video are available. || GISTEMP_Spiral_60sec_C.01400_print.jpg (1024x1024) [283.8 KB] || GISTEMP_Spiral_60sec_C.01400_searchweb.png (180x320) [92.9 KB] || GISTEMP_Spiral_60sec_C.01400_thm.png (80x40) [6.6 KB] || GISTEMP_Spiral_30sec_C.mp4 (2160x2160) [20.3 MB] || GISTEMP_Spiral_60sec_C.mp4 (2160x2160) [38.3 MB] || GISTEMP_Spiral_60sec_C.webm (2160x2160) [8.2 MB] || C (2160x2160) [0 Item(s)] || ",
+      "release_date": "2023-01-12T11:00:00-05:00",
+      "update_date": "2025-03-16T22:57:07.091270-04:00",
+      "main_image": {
+        "id": 551996,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005057/GISTEMP_Spiral_60sec_C.01400_print.jpg",
+        "filename": "GISTEMP_Spiral_60sec_C.01400_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The NASA climate spiral 1880-2022. This version is in Celsius; see below for an alternate version in Fahrenheit. Both a 30 fps, 60 second duration video and 60 fps, 30 second duration video are available.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5059,
+      "url": "http://svs.gsfc.nasa.gov/5059/",
+      "page_type": "Visualization",
+      "title": "Zonal Climate Anomalies 1880-2022",
+      "description": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980. This version is in Fahrenheit, an alternate version in Celsius is also available. || GISTEMP_Zonal_F.00899_print.jpg (1024x576) [52.2 KB] || GISTEMP_Zonal_F.00899_searchweb.png (320x180) [21.1 KB] || GISTEMP_Zonal_F.00899_thm.png (80x40) [2.9 KB] || GISTEMP_Zonal_F.mp4 (3840x2160) [27.3 MB] || GISTEMP_Zonal_F.webm (3840x2160) [6.2 MB] || F (3840x2160) [0 Item(s)] || ",
+      "release_date": "2023-01-12T11:00:00-05:00",
+      "update_date": "2023-01-11T17:03:23-05:00",
+      "main_image": {
+        "id": 552011,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005059/GISTEMP_Zonal_F.00899_print.jpg",
+        "filename": "GISTEMP_Zonal_F.00899_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980. This version is in Fahrenheit, an alternate version in Celsius is also available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 14273,
+      "url": "http://svs.gsfc.nasa.gov/14273/",
+      "page_type": "Produced Video",
+      "title": "A Look Back: 2022's Temperature Record",
+      "description": "Complete transcript available. 2022 effectively tied for Earth’s 5th warmest year since 1880, and the last 9 consecutive years have been the warmest 9 on record. NASA looks back at how heat was expressed in different ways around the world in 2022.Music credit: “Ad Infinitum,” “Arctic Blue,” and “Recovery” from Universal Production Music || Thambnail_final2.jpg (2085x1176) [2.2 MB] || 2022_Temp_Update_FINAL.00001_web.png (320x180) [2.8 KB] || 2022_Temp_Update_FINAL.00001_thm.png (80x40) [594 bytes] || New_Thumbnail_final2.jpg (320x180) [44.2 KB] || 2022_Temp_Update_FINAL.webm (1920x1080) [36.9 MB] || 2022_Temp_Update_FINAL.mp4 (1920x1080) [667.1 MB] || Transcript_otter_ai.en_US.srt [4.7 KB] || Transcript_otter_ai.en_US.vtt [4.7 KB] || ",
+      "release_date": "2023-01-12T11:00:00-05:00",
+      "update_date": "2025-01-31T15:30:44-05:00",
+      "main_image": {
+        "id": 857066,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014200/a014273/New_Thumbnail_final2.jpg",
+        "filename": "New_Thumbnail_final2.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available. 2022 effectively tied for Earth’s 5th warmest year since 1880, and the last 9 consecutive years have been the warmest 9 on record. NASA looks back at how heat was expressed in different ways around the world in 2022.Music credit: “Ad Infinitum,” “Arctic Blue,” and “Recovery” from Universal Production Music",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    },
+    {
+      "id": 4978,
+      "url": "http://svs.gsfc.nasa.gov/4978/",
+      "page_type": "Visualization",
+      "title": "Zonal Climate Anomalies",
+      "description": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980. || GISTEMP_Zonal_2022-02-11_1520.01418_print.jpg (1024x576) [44.0 KB] || GISTEMP_Zonal_2022-02-11_1520.01418_searchweb.png (320x180) [18.9 KB] || GISTEMP_Zonal_2022-02-11_1520.01418_thm.png (80x40) [2.6 KB] || GISTEMP_Zonal_2022-02-11_1520.mp4 (1920x1080) [10.6 MB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || GISTEMP_Zonal_2022-02-11_1520.webm (1920x1080) [5.5 MB] || GISTEMP_Zonal_2022-02-11_1520.mp4.hwshow || ",
+      "release_date": "2022-03-07T23:00:00-05:00",
+      "update_date": "2025-06-23T00:13:32.078620-04:00",
+      "main_image": {
+        "id": 372599,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004978/GISTEMP_Zonal_2022-02-11_1520.01418_print.jpg",
+        "filename": "GISTEMP_Zonal_2022-02-11_1520.01418_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A visualization of zonal temperature anomalies. The latitude zones are 90N-64N, 64N-44N, 44N-24N, 24N-EQU, EQU-24S, 24S-44S, 44S-64S, 64S-90S. The anomalies are calculated relative to a baseline period of 1951-1980.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4975,
+      "url": "http://svs.gsfc.nasa.gov/4975/",
+      "page_type": "Visualization",
+      "title": "GISTEMP Climate Spiral",
+      "description": "The GISTEMP climate spiral 1880-2021. This version is in Celsius, see below for an alternate version in Fahrenheit. || GISTEMP_Spiral_2022-03-06_2257.01710_print.jpg (1024x576) [122.0 KB] || GISTEMP_Spiral_2022-03-06_2257.01710_searchweb.png (320x180) [43.9 KB] || GISTEMP_Spiral_2022-03-06_2257.01710_thm.png (80x40) [3.6 KB] || GISTEMP_Spiral_2022-03-06_1851_1080sq.mp4 (1080x1080) [21.6 MB] || GISTEMP_Spiral_2022-03-06_1851_1080sq.webm (1080x1080) [8.0 MB] || GISTEMP_Spiral_2022-03-06_2257.mp4 (3840x2160) [33.0 MB] || 3840x2160_16x9_30p (3840x2160) [0 Item(s)] || GISTEMP_Spiral.hwshow [112 bytes] || ",
+      "release_date": "2022-03-07T22:00:00-05:00",
+      "update_date": "2025-06-23T00:13:30.332955-04:00",
+      "main_image": {
+        "id": 372606,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004975/GISTEMP_Spiral_2022-03-06_2257.01710_print.jpg",
+        "filename": "GISTEMP_Spiral_2022-03-06_2257.01710_print.jpg",
+        "media_type": "Image",
+        "alt_text": "The GISTEMP climate spiral 1880-2021. This version is in Celsius, see below for an alternate version in Fahrenheit.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 14069,
+      "url": "http://svs.gsfc.nasa.gov/14069/",
+      "page_type": "Produced Video",
+      "title": "The Numbers Are In: Where Does 2021 Rank for Global Temperatures Live Shots",
+      "description": "Quick link to latest release: 2021 Tied for 6th Warmest Year in Continued Trend, NASA Analysis ShowsQuick link to announcement soundbite with Dr. Gavin Schmidt***** Quick link to latest graphic showing the  2021 global temperature update. ******Quick link to associated B-ROLL for questions 2-6 on the advisoryQuick link to canned interview with Dr. Gavin SchmidtNote that the new graphic showing the 2021 average will be released Thursday, Jan 13 at 11 a.m. EST**Click here for information about the NASA NOAA announcement  on Thursday, Jan 13 at 11:00 a.m. EST || temp_2021_banneer.jpeg (1494x526) [313.3 KB] || temp_2021_banneer_print.jpg (1024x360) [159.4 KB] || temp_2021_banneer_searchweb.png (320x180) [115.4 KB] || temp_2021_banneer_thm.png (80x40) [9.0 KB] || ",
+      "release_date": "2022-01-12T11:00:00-05:00",
+      "update_date": "2023-05-03T13:43:34.277544-04:00",
+      "main_image": {
+        "id": 374014,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014000/a014069/temp_2021_banneer.jpeg",
+        "filename": "temp_2021_banneer.jpeg",
+        "media_type": "Image",
+        "alt_text": "Quick link to latest release: 2021 Tied for 6th Warmest Year in Continued Trend, NASA Analysis ShowsQuick link to announcement soundbite with Dr. Gavin Schmidt***** Quick link to latest graphic showing the  2021 global temperature update. ******Quick link to associated B-ROLL for questions 2-6 on the advisoryQuick link to canned interview with Dr. Gavin SchmidtNote that the new graphic showing the 2021 average will be released Thursday, Jan 13 at 11 a.m. EST**Click here for information about the NASA NOAA announcement  on Thursday, Jan 13 at 11:00 a.m. EST",
+        "width": 1494,
+        "height": 526,
+        "pixels": 785844
+      }
+    },
+    {
+      "id": 4961,
+      "url": "http://svs.gsfc.nasa.gov/4961/",
+      "page_type": "Visualization",
+      "title": "Temperature Measurement Stations",
+      "description": "Weather stations currently used in the GISS Surface Temperature Analysis (v4). The size of the station markers is varied to reduce overplotting and is not indicative of any properties of that station. || GISTEMP_stations_2160p60.00001_print.jpg (1024x576) [92.2 KB] || GISTEMP_stations_2160p60.00001_searchweb.png (320x180) [30.1 KB] || GISTEMP_stations_2160p60.00001_web.png (320x180) [30.1 KB] || GISTEMP_stations_2160p60.00001_thm.png (80x40) [2.8 KB] || GISTEMP_stations_1080p60.mp4 (1920x1080) [27.3 MB] || GISTEMP_stations_1080p60.webm (1920x1080) [4.6 MB] || GISTEMP_stations_2160p60.mp4 (3840x2160) [77.9 MB] || 3840x2160_16x9_60p (3840x2160) [0 Item(s)] || Stations.hwshow [88 bytes] || GISTEMP_stations_2160p60.mp4.hwshow [121 bytes] || ",
+      "release_date": "2021-12-25T00:00:00-05:00",
+      "update_date": "2025-03-16T22:52:55.205907-04:00",
+      "main_image": {
+        "id": 374206,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004961/GISTEMP_stations_2160p60.00001_print.jpg",
+        "filename": "GISTEMP_stations_2160p60.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Weather stations currently used in the GISS Surface Temperature Analysis (v4). The size of the station markers is varied to reduce overplotting and is not indicative of any properties of that station.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4908,
+      "url": "http://svs.gsfc.nasa.gov/4908/",
+      "page_type": "Visualization",
+      "title": "Climate Drivers",
+      "description": "Data visualization of human and natural drivers of climate change for the period 1850-2018, showcasing data products from NASA's GISS Model E 2.1-G and observations.Dr. Gavin Schmidt uses this visual to explain NASA's role in tracking and predicting climate at the 2021 COP26 conference -   https://www.youtube.com/watch?v=CCAcKuJaJOg. || ClimateDrivers_3840x2160_30fps_923_print.jpg (1024x576) [106.7 KB] || ClimateDrivers_3840x2160_30fps_923_searchweb.png (320x180) [44.7 KB] || ClimateDrivers_3840x2160_30fps_923_thm.png (80x40) [4.9 KB] || ClimateDrivers_1080p30.mp4 (1920x1080) [13.2 MB] || ClimateDrivers_1080p30.webm (1920x1080) [3.6 MB] || Composite (3840x2160) [0 Item(s)] || ClimateDrivers_3840x2160p30.mp4 (3840x2160) [36.1 MB] || ClimateDrivers_3840x2160_30fps_923.tif (3840x2160) [31.7 MB] || ClimateDrivers_1080p30.mp4.hwshow || ",
+      "release_date": "2021-06-30T11:00:00-04:00",
+      "update_date": "2025-06-23T00:13:01.639067-04:00",
+      "main_image": {
+        "id": 378289,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004908/ClimateDrivers_3840x2160_30fps_923_print.jpg",
+        "filename": "ClimateDrivers_3840x2160_30fps_923_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Data visualization of human and natural drivers of climate change for the period 1850-2018, showcasing data products from NASA's GISS Model E 2.1-G and observations.Dr. Gavin Schmidt uses this visual to explain NASA's role in tracking and predicting climate at the 2021 COP26 conference -   https://www.youtube.com/watch?v=CCAcKuJaJOg.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4891,
+      "url": "http://svs.gsfc.nasa.gov/4891/",
+      "page_type": "Visualization",
+      "title": "Shifting Distribution of Land Temperature Anomalies, 1951-2020",
+      "description": "The change in the distribution of land temperature anomalies over the years 1951 to 2020 || GISSTempDist_print.jpg (1024x576) [53.1 KB] || GISSTempDist_STILL.jpg (7680x4320) [1.0 MB] || GISTempDist_searchweb.png (320x180) [13.6 KB] || GISTempDist_thm.png (71x40) [2.1 KB] || GISTempDist_1080p30.mp4 (1920x1080) [2.0 MB] || GISTempDist_1080p30.webm (1920x1080) [3.3 MB] || GISSTempDist_2160p59.94.mp4 (3840x2160) [4.9 MB] || 3840x2160_16x9_60p (3840x2160) [0 Item(s)] || GISTempDist_1080p30.mp4.hwshow || ",
+      "release_date": "2021-04-23T00:00:00-04:00",
+      "update_date": "2021-08-04T15:38:21-04:00",
+      "main_image": {
+        "id": 378819,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004891/GISTempDist_searchweb.png",
+        "filename": "GISTempDist_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "The change in the distribution of land temperature anomalies over the years 1951 to 2020",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    },
+    {
+      "id": 13791,
+      "url": "http://svs.gsfc.nasa.gov/13791/",
+      "page_type": "Produced Video",
+      "title": "2020 Global Temperature Announcement Live Shots",
+      "description": "NASA Finds 2020 Tied for Hottest Year on Record The Climate Events of 2020 Show How Excess Heat is Expressed on EarthEl 2020 empató con 2016 como el año más cálido en el registro, según un análisis de la NASA || banner2.jpg (2042x520) [718.9 KB] || banner2_print.jpg (1024x260) [286.9 KB] || banner2_searchweb.png (320x180) [120.9 KB] || banner2_thm.png (80x40) [19.7 KB] || ",
+      "release_date": "2021-01-08T06:00:00-05:00",
+      "update_date": "2023-05-03T13:44:24.174681-04:00",
+      "main_image": {
+        "id": 380451,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013700/a013791/banner2.jpg",
+        "filename": "banner2.jpg",
+        "media_type": "Image",
+        "alt_text": "NASA Finds 2020 Tied for Hottest Year on Record The Climate Events of 2020 Show How Excess Heat is Expressed on EarthEl 2020 empató con 2016 como el año más cálido en el registro, según un análisis de la NASA",
+        "width": 2042,
+        "height": 520,
+        "pixels": 1061840
+      }
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "id": 14713,
+      "url": "http://svs.gsfc.nasa.gov/14713/",
+      "page_type": "Produced Video",
+      "title": "Building Coastal Resilience with NASA Data",
+      "description": "The city of Mobile, AL is working with NASA’s Sea Level Change Team to plan for future infrastructure projects and to protect Mobile’s coastal resources. As sea levels change globally, coastal cities feel the effects of more frequent and more severe storms and flooding. NASA’s sea level change data helps Mobile and other coastal communities plan for a more resilient future.",
+      "release_date": "2025-01-07T00:30:59-05:00",
+      "update_date": "2025-09-15T21:55:55.202941-04:00",
+      "main_image": {
+        "id": 1139025,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014713/EIC_SeaLevelRise_2560x720.png",
+        "filename": "EIC_SeaLevelRise_2560x720.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 2560,
+        "height": 720,
+        "pixels": 1843200
+      }
+    },
+    {
+      "id": 14066,
+      "url": "http://svs.gsfc.nasa.gov/14066/",
+      "page_type": "Produced Video",
+      "title": "Temperature Record 101: How We Know What We Know",
+      "description": "2021 was tied for the sixth warmest year on NASA’s record, stretching more than a century. But, what is a temperature record?GISTEMP, NASA’s global temperature analysis, takes in millions of observations from instruments on weather stations, ships and ocean buoys, and Antarctic research stations, to determine how much warmer or cooler Earth is on average from year to year.Stretching back to 1880, NASA’s record shows a clear warming trend. However, individual weather events and La Niña — a pattern of cooler waters in the Pacific that was responsible for slightly cooling 2021’s average temperature — can affect individual years.Because the record is global, not every place on Earth experienced the sixth warmest year on record. Some places had record-high temperatures, and we saw record droughts, floods and fires around the globe. || ",
+      "release_date": "2022-01-13T11:00:00-05:00",
+      "update_date": "2023-09-13T21:06:33.874008-04:00",
+      "main_image": {
+        "id": 374062,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014000/a014066/Title.jpg",
+        "filename": "Title.jpg",
+        "media_type": "Image",
+        "alt_text": "Universal Production Music: Knock and Wait (Instrumental) by Brice Davoli [SACEM], Well That’s Difference (Instrumental) by Jeff Cardoni [ASCAP], Wanna Be Hipster (Instrumental) by Jeff Cardoni [ASCAP], Curiosity Killed Kitty (Instrumental) by Robert Leslie Bennett [ASCAP], Eco Issues (Instrumental) by Max van Thun [GEMA] Additional Footage: Pond5.com, CSPANComplete transcript available.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 31168,
+      "url": "http://svs.gsfc.nasa.gov/31168/",
+      "page_type": "Hyperwall Visual",
+      "title": "What NASA Knows from Decades of Earth System Observations",
+      "description": "Karen St. Germain, NASA's Director of Earth Science, gave this presentation to the 2021 United Nations Climate Change ConferenceWatch this video on the NASA Goddard YouTube channel. || KarenStGermain_4k_COP26_Presentation_Final_103850_print.jpg (1024x576) [143.2 KB] || KarenStGermain_4k_COP26_Presentation_Final_103850_searchweb.png (320x180) [87.7 KB] || KarenStGermain_4k_COP26_Presentation_Final_103850_thm.png (80x40) [6.7 KB] || KarenStGermain_HD_COP26_Presentation_Final.webm (1920x1080) [106.3 MB] || KarenStGermain_HD_COP26_Presentation_Final.mp4 (1920x1080) [1008.1 MB] || KarenStGFinal (3840x2160) [0 Item(s)] || transcript_StGermain.en_US.srt [13.6 KB] || transcript_StGermain.en_US.vtt [13.2 KB] || KarenStGermain_4k_COP26_Presentation_Final.mp4 (3840x2160) [7.6 GB] || ",
+      "release_date": "2021-12-13T00:00:00-05:00",
+      "update_date": "2025-02-03T00:52:40.917029-05:00",
+      "main_image": {
+        "id": 376487,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031168/KarenStGermain_4k_COP26_Presentation_Final_103850_print.jpg",
+        "filename": "KarenStGermain_4k_COP26_Presentation_Final_103850_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Karen St. Germain, NASA's Director of Earth Science, gave this presentation to the 2021 United Nations Climate Change ConferenceWatch this video on the NASA Goddard YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 13979,
+      "url": "http://svs.gsfc.nasa.gov/13979/",
+      "page_type": "Produced Video",
+      "title": "Climate Change Could Affect Global Agriculture within 10 Years",
+      "description": "Average global crop yields for maize, or corn, may see a decrease of 24% by late century, with the declines becoming apparent by 2030, with high greenhouse gas emissions, according to a new NASA study. Wheat, in contrast, may see an uptick in crop yields by about 17%. The change in yields is due to the projected increases in temperature, shifts in rainfall patterns and elevated surface carbon dioxide concentrations due to human-caused greenhouse gas emissions, making it more difficult to grow maize in the tropics and expanding wheat’s growing range. || ",
+      "release_date": "2021-11-01T12:00:00-04:00",
+      "update_date": "2023-05-03T13:43:47.278008-04:00",
+      "main_image": {
+        "id": 375779,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013900/a013979/Screen_Shot_2021-10-28_at_2.29.18_PM.png",
+        "filename": "Screen_Shot_2021-10-28_at_2.29.18_PM.png",
+        "media_type": "Image",
+        "alt_text": "Music: Futurity by Lee Groves [PRS] and Peter George Marett [PRS]Complete transcript available.",
+        "width": 1777,
+        "height": 998,
+        "pixels": 1773446
+      }
+    },
+    {
+      "id": 13909,
+      "url": "http://svs.gsfc.nasa.gov/13909/",
+      "page_type": "Produced Video",
+      "title": "How NASA Satellites Help Model the Future of Climate",
+      "description": "Music: \"Connections Established,\" \"Data Visions,\" Universal Production MusicComplete transcript available. || gpmclimatethumb.png (1673x938) [2.6 MB] || gpmclimatethumb_print.jpg (1024x574) [222.0 KB] || gpmclimatethumb_searchweb.png (320x180) [126.5 KB] || gpmclimatethumb_thm.png (80x40) [11.6 KB] || ClimMod_v3.webm (1920x1080) [37.3 MB] || GPMClimMod_Twitter.mp4 (1920x1080) [203.6 MB] || ClimMod_v3.mp4 (1920x1080) [342.0 MB] || ClimMod.en_US.srt [7.2 KB] || ClimMod.en_US.vtt [6.8 KB] || GPMClimMod_prores.mov (1920x1080) [4.6 GB] || ",
+      "release_date": "2021-08-24T00:00:00-04:00",
+      "update_date": "2025-01-06T01:35:16.228977-05:00",
+      "main_image": {
+        "id": 377581,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013900/a013909/gpmclimatethumb.png",
+        "filename": "gpmclimatethumb.png",
+        "media_type": "Image",
+        "alt_text": "Music: \"Connections Established,\" \"Data Visions,\" Universal Production MusicComplete transcript available.",
+        "width": 1673,
+        "height": 938,
+        "pixels": 1569274
+      }
+    },
+    {
+      "id": 13814,
+      "url": "http://svs.gsfc.nasa.gov/13814/",
+      "page_type": "Produced Video",
+      "title": "SVS Demo Reel 2020",
+      "description": "This is the SVS Demo Reel submitted to SIGGRAPH 2021.Coming soon to our YouTube channel. || SVS_2020.File.1080p.00250_print.jpg (1024x576) [129.8 KB] || SVS_2020.File.1080p.00250_thm.png (80x40) [3.1 KB] || SVS_2020.File.1080p.00250_searchweb.png (320x180) [60.0 KB] || SVS_2020.File.1080p.mp4 (1920x1080) [367.7 MB] || captions_silent.30842.en_US.srt [42 bytes] || SVS_2020.File.720p.mp4 (720x404) [62.6 MB] || SVS_2020.file.2160pp.mp4 (3840x2160) [1.4 GB] || SVS_2020.file.2160pp.webm (3840x2160) [78.3 MB] || ",
+      "release_date": "2021-02-18T00:00:00-05:00",
+      "update_date": "2023-05-03T13:44:20.561761-04:00",
+      "main_image": {
+        "id": 379755,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013800/a013814/SVS_2020.File.1080p.00250_print.jpg",
+        "filename": "SVS_2020.File.1080p.00250_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This is the SVS Demo Reel submitted to SIGGRAPH 2021.Coming soon to our YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 13799,
+      "url": "http://svs.gsfc.nasa.gov/13799/",
+      "page_type": "Produced Video",
+      "title": "NASA Finds 2020 Tied for Hottest Year on Record",
+      "description": "Globally, 2020 was the hottest year on record, effectively tying 2016, the previous record. Overall, Earth’s average temperature has risen more than 2 degrees Fahrenheit since the 1880s. Temperatures are increasing due to human activities, specifically emissions of greenhouse gases, like carbon dioxide and methane. || ",
+      "release_date": "2021-01-14T11:00:00-05:00",
+      "update_date": "2023-05-03T13:44:23.048847-04:00",
+      "main_image": {
+        "id": 380415,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013700/a013799/2020Temp.png",
+        "filename": "2020Temp.png",
+        "media_type": "Image",
+        "alt_text": "Music: Organic Machine by Bernhard Hering [GEMA] and Matthias Kruger [GEMA]Complete transcript available.",
+        "width": 1781,
+        "height": 1002,
+        "pixels": 1784562
+      }
+    },
+    {
+      "id": 13781,
+      "url": "http://svs.gsfc.nasa.gov/13781/",
+      "page_type": "Produced Video",
+      "title": "Plants Are Struggling to Keep Up with Rising Carbon Dioxide Concentrations",
+      "description": "Plants play a key role in mitigating climate change. The more carbon dioxide they absorb during photosynthesis, the less carbon dioxide remains trapped in the atmosphere where it can cause temperatures to rise. But scientists have identified an unsettling trend – 86% of land ecosystems globally are becoming progressively less efficient at absorbing the increasing levels of CO2 from the atmosphere. || ",
+      "release_date": "2020-12-10T14:00:00-05:00",
+      "update_date": "2023-05-03T13:44:25.893222-04:00",
+      "main_image": {
+        "id": 380748,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013700/a013781/CO20.jpg",
+        "filename": "CO20.jpg",
+        "media_type": "Image",
+        "alt_text": "Music: A Curious Incident by Jay Price [PRS] and Paul Reeves [PRS]Complete transcript available.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 13747,
+      "url": "http://svs.gsfc.nasa.gov/13747/",
+      "page_type": "Produced Video",
+      "title": "Rising Waters: A Warmer World",
+      "description": "Earth’s global sea levels are rising – and are doing so at an accelerating rate. Waters in the ocean are expanding as they absorb massive amounts of heat trapped by greenhouse gases in Earth’s atmosphere. Glaciers and ice sheets are adding hundreds of gigatons of meltwater into the oceans each year. With satellites, airborne missions, shipboard measurements, and supercomputers, NASA has been investigating sea level rise for decades. Together with our international and interagency partners, we’re monitoring the causes of sea level rise with high accuracy and precision. Global sea level is rising approximately 0.13 inches (3.3 millimeters) a year. That’s 30% more than when NASA launched its first satellite mission to measure ocean heights in 1992.nasa.gov/sea-level-rise-2020 || ",
+      "release_date": "2020-11-05T11:00:00-05:00",
+      "update_date": "2023-05-03T13:44:30.689350-04:00",
+      "main_image": {
+        "id": 381683,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013700/a013747/Thumbnail0.jpg",
+        "filename": "Thumbnail0.jpg",
+        "media_type": "Image",
+        "alt_text": "Music: Rain over the Sea by Bruno Vouillon [SACEM]Complete transcript available.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 13652,
+      "url": "http://svs.gsfc.nasa.gov/13652/",
+      "page_type": "Produced Video",
+      "title": "NASA Tracks the Arizona Bush Fire",
+      "description": "Music: \"Solar Winds\" by Ben Niblett [PRS] and Jon Cotton [PRS] courtesy of Universal Production Music.Complete transcript available. || BushFire_Still_2.jpg (1920x1080) [680.7 KB] || BushFire_Image.jpg (1920x1080) [917.4 KB] || BushFire_Still_2_print.jpg (1024x576) [255.9 KB] || BushFire_Still_2_searchweb.png (320x180) [84.2 KB] || BushFire_Still_2_web.png (320x180) [84.2 KB] || BushFire_Still_2_thm.png (80x40) [7.7 KB] || 13652_BushFire_Final.mov (1920x1080) [3.7 GB] || 13652_BushFire_Final.mp4 (1920x1080) [211.7 MB] || 13652_BushFire_Final.webm (960x540) [46.5 MB] || BushFire.en_US.srt [2.3 KB] || BushFire.en_US.vtt [2.3 KB] || ",
+      "release_date": "2020-06-26T11:00:00-04:00",
+      "update_date": "2023-05-03T13:44:52.797951-04:00",
+      "main_image": {
+        "id": 384209,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013600/a013652/BushFire_Still_2.jpg",
+        "filename": "BushFire_Still_2.jpg",
+        "media_type": "Image",
+        "alt_text": "Music: \"Solar Winds\" by Ben Niblett [PRS] and Jon Cotton [PRS] courtesy of Universal Production Music.\rComplete transcript available.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 13516,
+      "url": "http://svs.gsfc.nasa.gov/13516/",
+      "page_type": "Produced Video",
+      "title": "2019 Was the Second Hottest Year on Record",
+      "description": "Earth's global surface temperatures in 2019 ranked second warmest since 1880, according to independent analyses by NASA and the National Oceanic and Atmospheric Administration (NOAA).Global temperatures in 2019 were 2 degrees Fahrenheit (1.1 degrees Celsius) warmer than the late 19th Century, according to scientists at NASA’s Goddard Institute for Space Studies (GISS) in New York. 2019's temperatures were second only to those of 2016 and continued the planet's long-term warming trend: the six warmest years on the instrumental record have been the six last years. || ",
+      "release_date": "2020-01-15T11:00:00-05:00",
+      "update_date": "2023-05-03T13:45:16.318899-04:00",
+      "main_image": {
+        "id": 388083,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013500/a013516/2019Temp.png",
+        "filename": "2019Temp.png",
+        "media_type": "Image",
+        "alt_text": "Music: Avalanches by Chris Constantinou [PRS] and Paul Frazer [PRS]Complete transcript available.",
+        "width": 1776,
+        "height": 999,
+        "pixels": 1774224
+      }
+    },
+    {
+      "id": 13309,
+      "url": "http://svs.gsfc.nasa.gov/13309/",
+      "page_type": "Produced Video",
+      "title": "Arctic Sea Ice Reaches 2019 Minimum Extent",
+      "description": "Music: Hiraeth by Anthony Edwin Phillips [PRS], James Edward CollinsComplete transcript available. || Arctic_Min_2019_Thumbnail_LKW.png (1920x1080) [2.2 MB] || Arctic_Min_2019_Thumbnail_LKW_print.jpg (1024x576) [102.3 KB] || Arctic_Min_2019_Thumbnail_LKW_searchweb.png (320x180) [88.1 KB] || Arctic_Min_2019_Thumbnail_LKW_thm.png (80x40) [6.9 KB] || Arctic_Min_2019_LKW.mov (1920x1080) [3.8 GB] || Arctic_Min_2019_LKW.webm (1920x1080) [19.9 MB] || Arctic_Min_2019_LKW.mp4 (1920x1080) [182.4 MB] || Arctic_Min_2019_LKW.en_US.srt [3.4 KB] || Arctic_Min_2019_LKW.en_US.vtt [3.3 KB] || ",
+      "release_date": "2019-09-23T13:00:00-04:00",
+      "update_date": "2023-05-03T13:45:37.942725-04:00",
+      "main_image": {
+        "id": 393006,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013300/a013309/Arctic_Min_2019_Thumbnail_LKW.png",
+        "filename": "Arctic_Min_2019_Thumbnail_LKW.png",
+        "media_type": "Image",
+        "alt_text": "Music: Hiraeth by Anthony Edwin Phillips [PRS], James Edward CollinsComplete transcript available.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 13281,
+      "url": "http://svs.gsfc.nasa.gov/13281/",
+      "page_type": "Produced Video",
+      "title": "NASA Studies How Arctic Fires Change the World",
+      "description": "Music: Stepping Stone Bridge by Timothy Michael Hammond [PRS], Wayne Roberts [PRS]Watching Ladybirds by Benjamin James Parsons [PRS]  This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by pond5.com and Artbeats is obtained through permission and may not be excised or remixed in other products. Specific details on stock footage may be found here. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html. Complete transcript available. || Thumbnail_Arctic_Fires_Print.jpg (1920x1080) [917.1 KB] || Thumbnail_Arctic_Fires_Print_searchweb.png (320x180) [121.3 KB] || Thumbnail_Arctic_Fires_Print_thm.png (80x40) [8.0 KB] || 13281_Arctic_Fires_720.mp4 (1280x720) [265.3 MB] || 13281_Arctic_Fires.mov (1920x1080) [3.5 GB] || 13281_Arctic_Fires.webm (1920x1080) [21.2 MB] || 13281_Arctic_Fires.en_US.srt [4.1 KB] || 13281_Arctic_Fires.en_US.vtt [4.0 KB] || ",
+      "release_date": "2019-08-13T11:00:00-04:00",
+      "update_date": "2023-05-03T13:45:42.568131-04:00",
+      "main_image": {
+        "id": 393877,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013200/a013281/Thumbnail_Arctic_Fires_Print.jpg",
+        "filename": "Thumbnail_Arctic_Fires_Print.jpg",
+        "media_type": "Image",
+        "alt_text": "Music: Stepping Stone Bridge by Timothy Michael Hammond [PRS], Wayne Roberts [PRS]Watching Ladybirds by Benjamin James Parsons [PRS]  This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by pond5.com and Artbeats is obtained through permission and may not be excised or remixed in other products. Specific details on stock footage may be found here. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html. Complete transcript available.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 13188,
+      "url": "http://svs.gsfc.nasa.gov/13188/",
+      "page_type": "Produced Video",
+      "title": "Earth from Orbit 2019: How NASA Satellites #PictureEarth",
+      "description": "Music: After the Sun by Andrew Michael Britton [PRS], David Stephen Goldsmith [PRS], Andrew Skeet [PRS]Complete transcript available. || Still_print.jpg (1024x574) [166.3 KB] || Still.png (3022x1696) [8.0 MB] || Still_searchweb.png (320x180) [119.3 KB] || Still_thm.png (80x40) [7.5 KB] || 13188_Earth_From_Orbit_2019_Final_Text.webm (960x540) [49.7 MB] || FACEBOOK_720_13188_Earth_From_Orbit_2019_Final_Text_facebook_720.mp4 (1280x720) [139.2 MB] || YOUTUBE_1080_13188_Earth_From_Orbit_2019_Final_Text_youtube_1080.mp4 (1920x1080) [193.3 MB] || 13188_Earth_From_Orbit_2019_Final_Text.en_US.srt [1.2 KB] || 13188_Earth_From_Orbit_2019_Final_Text.en_US.vtt [1.2 KB] || ",
+      "release_date": "2019-04-19T11:00:00-04:00",
+      "update_date": "2023-05-03T13:46:00.659910-04:00",
+      "main_image": {
+        "id": 396239,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013100/a013188/Still_print.jpg",
+        "filename": "Still_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Music: After the Sun by Andrew Michael Britton [PRS], David Stephen Goldsmith [PRS], Andrew Skeet [PRS]Complete transcript available.",
+        "width": 1024,
+        "height": 574,
+        "pixels": 587776
+      }
+    },
+    {
+      "id": 13142,
+      "url": "http://svs.gsfc.nasa.gov/13142/",
+      "page_type": "Produced Video",
+      "title": "2018 Was the Fourth Hottest Year on Record",
+      "description": "2018 was the fourth hottest year in the modern record, part of a decades-long trend of warming. The record dates back to 1880, when it became possible to collect consistent, reliable temperatures around the planet. NASA and NOAA work together to track the temperatures, part of ongoing research into our warming planet. || ",
+      "release_date": "2019-02-06T11:00:00-05:00",
+      "update_date": "2023-05-03T13:46:09.078812-04:00",
+      "main_image": {
+        "id": 397581,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013100/a013142/FlatMapStill.jpg",
+        "filename": "FlatMapStill.jpg",
+        "media_type": "Image",
+        "alt_text": "Music: Sculpture by Axel Coon [GEMA], Ralf Goebel [GEMA]Complete transcript available.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "newer_versions": [
+    {
+      "id": 5450,
+      "url": "http://svs.gsfc.nasa.gov/5450/",
+      "page_type": "Visualization",
+      "title": "Global Temperature Anomalies from 1880 to 2024",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents global temperature anomalies in 2024.",
+      "release_date": "2025-01-10T11:00:00-05:00",
+      "update_date": "2026-01-20T00:19:30.917595-05:00",
+      "main_image": {
+        "id": 1153214,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005450/2024GISTEMPMap_2K.png",
+        "filename": "2024GISTEMPMap_2K.png",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The maps are averages over a running 24 month window. The final frame represents global temperature anomalies in 2024.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "older_versions": [
+    {
+      "id": 5060,
+      "url": "http://svs.gsfc.nasa.gov/5060/",
+      "page_type": "Visualization",
+      "title": "Global Temperature Anomalies from 1880 to 2022",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The final frame represents the 5 year global temperature anomalies from 2018-2022. || GISTEMP-2022-TemperatureAnomalyBothCelsiusFahrenheit.00899_print.jpg (1024x576) [145.3 KB] || GISTEMP-2022-TemperatureAnomalyBothCelsiusFahrenheit.00899_searchweb.png (180x320) [74.8 KB] || GISTEMP-2022-TemperatureAnomalyBothCelsiusFahrenheit.00899_thm.png (80x40) [6.3 KB] || GISTEMP-2022-TemperatureAnomalyBothCelsiusFahrenheit.mp4 (1920x1080) [57.8 MB] || celsius (1920x1080) [0 Item(s)] || celsius (3840x2160) [0 Item(s)] || ",
+      "release_date": "2023-01-12T10:00:00-05:00",
+      "update_date": "2024-01-25T14:18:26-05:00",
+      "main_image": {
+        "id": 552069,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005060/GISTEMP-2022-TemperatureAnomalyBothCelsiusFahrenheit.00899_print.jpg",
+        "filename": "GISTEMP-2022-TemperatureAnomalyBothCelsiusFahrenheit.00899_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The final frame represents the 5 year global temperature anomalies from 2018-2022. ",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4964,
+      "url": "http://svs.gsfc.nasa.gov/4964/",
+      "page_type": "Visualization",
+      "title": "Global Temperature Anomalies from 1880 to 2021",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The final frame represents the 5 year global temperature anomalies from 2017-2021. Scale in degrees Fahrenheit. || 2021f-TemperatureAnomalyF.0900_print.jpg (1024x576) [164.1 KB] || 2021f-TemperatureAnomalyF.0900_searchweb.png (180x320) [74.9 KB] || 2021f-TemperatureAnomalyF.0900_thm.png (80x40) [14.4 KB] || 2021f-TemperatureAnomalyF.0900.tif (1920x1080) [1.6 MB] || 2021GISStempF-5yrAvg.mp4 (1920x1080) [41.1 MB] || fahrenheit (1920x1080) [0 Item(s)] || 2021GISStempF-5yrAvg.webm (1920x1080) [3.4 MB] || 2021TempAnomalyF_GISSTEMP_1080p30.mp4.hwshow || ",
+      "release_date": "2022-01-13T00:00:00-05:00",
+      "update_date": "2025-06-23T00:13:24.073238-04:00",
+      "main_image": {
+        "id": 373796,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004964/2021f-TemperatureAnomalyF.0900_print.jpg",
+        "filename": "2021f-TemperatureAnomalyF.0900_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980. The final frame represents the 5 year global temperature anomalies from 2017-2021. Scale in degrees Fahrenheit.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4882,
+      "url": "http://svs.gsfc.nasa.gov/4882/",
+      "page_type": "Visualization",
+      "title": "Global Temperature Anomalies from 1880 to 2020",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are the average over the 30 year baseline period 1951-1980. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. The final frame represents the 5 year global temperature anomalies from 2016-2020. Scale in degrees Celsius. || print_cel2020_00000_print.jpg (1024x576) [184.6 KB] || print_cel2020_00000_searchweb.png (320x180) [71.3 KB] || print_cel2020_00000_thm.png (80x40) [6.5 KB] || GISSTEMP_celsius_fade_composite.mp4 (1920x1080) [69.1 MB] || GISSTEMP_celsius_fade_composite.webm (1920x1080) [3.4 MB] || print_cel2020_00000.tif (3840x2160) [23.7 MB] || ",
+      "release_date": "2021-01-14T11:00:00-05:00",
+      "update_date": "2025-06-23T00:12:53.857233-04:00",
+      "main_image": {
+        "id": 380257,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004882/print_cel2020_00000_print.jpg",
+        "filename": "print_cel2020_00000_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies. Normal temperatures are the average over the 30 year baseline period 1951-1980. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. The final frame represents the 5 year global temperature anomalies from 2016-2020. Scale in degrees Celsius.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4626,
+      "url": "http://svs.gsfc.nasa.gov/4626/",
+      "page_type": "Visualization",
+      "title": "Global Temperature Anomalies from 1880 to 2018",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies from 1880 through 2018. Higher than normal temperatures are shown in red and lower then normal termperatures are shown in blue. The final frame represents the global temperatures 5-year averaged from 2014 through 2018. Scale in degree Celsius. || 2018HD_celsius_0900_print.jpg (1024x576) [126.0 KB] || 2018HD_celsius_0900_searchweb.png (320x180) [79.1 KB] || 2018HD_celsius_0900_thm.png (80x40) [7.4 KB] || 2018HD_celsius_1080p30.mp4 (1920x1080) [20.7 MB] || celsius_robinson (1920x1080) [0 Item(s)] || 2018HD_celsius_1080p30.webm (1920x1080) [4.2 MB] || celsius (5760x3240) [0 Item(s)] || celsius_composite (5760x3240) [0 Item(s)] || ",
+      "release_date": "2019-02-06T11:00:00-05:00",
+      "update_date": "2025-02-02T00:10:36.586278-05:00",
+      "main_image": {
+        "id": 407797,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004600/a004626/2018HD_celsius_0900_print.jpg",
+        "filename": "2018HD_celsius_0900_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies from 1880 through 2018. Higher than normal temperatures are shown in red and lower then normal termperatures are shown in blue. The final frame represents the global temperatures 5-year averaged from 2014 through 2018. Scale in degree Celsius.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4609,
+      "url": "http://svs.gsfc.nasa.gov/4609/",
+      "page_type": "Visualization",
+      "title": "Global Temperature Anomalies from 1880 to 2017",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies from 1880 through 2017. Higher than normal temperatures are shown in red and lower then normal termperatures are shown in blue. The final frame represents the global temperatures 5-year averaged from 2013 through 2017. Scale in degree Celsius.This video is also available on our YouTube channel. || gistemp2017_celsius_1072_print.jpg (1024x576) [114.7 KB] || gistemp2017_celsius_1072_searchweb.png (320x180) [74.8 KB] || gistemp2017_celsius_1072_thm.png (80x40) [7.2 KB] || gistemp2017_celsius_wDatesColorbar (1920x1080) [0 Item(s)] || gistemp2017_celsius_1080p30.mp4 (1920x1080) [36.8 MB] || gistemp2017_celsius_1080p30.webm (1920x1080) [4.1 MB] || gistemp2017_celsius_PrintStill.tif (1920x1080) [7.9 MB] || gistemp2017_celsius_wDatesColorbar_4k (3840x2160) [0 Item(s)] || gistemp2017_celsius_4k_2160p30.mp4 (3840x2160) [136.7 MB] || gistemp2017_celsius_1080p30.mp4.hwshow [193 bytes] || ",
+      "release_date": "2018-01-18T10:30:00-05:00",
+      "update_date": "2025-01-06T00:12:25.765535-05:00",
+      "main_image": {
+        "id": 407684,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004600/a004609/gistemp2017_celsius_1072_print.jpg",
+        "filename": "gistemp2017_celsius_1072_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies from 1880 through 2017. Higher than normal temperatures are shown in red and lower then normal termperatures are shown in blue. The final frame represents the global temperatures 5-year averaged from 2013 through 2017. Scale in degree Celsius.This video is also available on our YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4546,
+      "url": "http://svs.gsfc.nasa.gov/4546/",
+      "page_type": "Visualization",
+      "title": "Five-Year Global Temperature Anomalies from 1880 to 2016",
+      "description": "This color-coded map displays a progression of changing global surface temperatures anomalies from 1880 through 2016. The final frame represents global temperature anomalies averaged from 2012 through 2016 in degrees Celsius. || robinson2_1212_print.jpg (1024x576) [124.2 KB] || robinson2_1213_searchweb.png (180x320) [72.8 KB] || robinson2_1213_thm.png (80x40) [6.7 KB] || gistemp2016_5year_full_record_celsius_1080p.mp4 (1920x1080) [46.3 MB] || gistemp2016_5year_full_record_celsius_30fps_1080p.mp4 (1920x1080) [46.3 MB] || Celsius_composite (1920x1080) [64.0 KB] || Celsius_composite (1920x1080) [64.0 KB] || gistemp2016_5year_full_record_celsius_1080p.webm (1920x1080) [2.1 MB] || gistemp2016_5year_full_record_celsius_4546.key [48.7 MB] || gistemp2016_5year_full_record_celsius_4546.pptx [48.3 MB] || gistemp2016_5year_full_record_celsius_1080p.mp4.hwshow [258 bytes] || ",
+      "release_date": "2017-01-18T10:29:00-05:00",
+      "update_date": "2024-12-15T00:07:03.067874-05:00",
+      "main_image": {
+        "id": 417070,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004500/a004546/robinson2_1213_print.jpg",
+        "filename": "robinson2_1213_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map displays a progression of changing global surface temperatures anomalies from 1880 through 2016. The final frame represents global temperature anomalies averaged from 2012 through 2016 in degrees Fahrenheit.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4419,
+      "url": "http://svs.gsfc.nasa.gov/4419/",
+      "page_type": "Visualization",
+      "title": "Five-Year Global Temperature Anomalies from 1880 to 2015",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies from 1880 through 2015. Higher than normal temperatures are shown in red and lower then normal termperatures are shown in blue. The final frame represents the global temperatures 5-year averaged from 2011 through 2015.  Scale in degree Celsius.This video is also available on our YouTube channel. || 4419_GISTEMP_2015_Robinson_C_print.jpg (1024x576) [107.0 KB] || 4419_GISTEMP_2015_Robinson_C_print_searchweb.png (320x180) [78.5 KB] || 4419_GISTEMP_2015_Robinson_C_print_thm.png (80x40) [7.3 KB] || celsius_composite (1920x1080) [0 Item(s)] || 4419_GISTEMP_2015_Robinson_C_youtube_hq.mov (1920x1080) [79.5 MB] || 4419_GISTEMP_2015_Robinson_C.webm (960x540) [13.3 MB] || 4419_GISTEMP_2015_Robinson_C_appletv.m4v (1280x720) [16.3 MB] || 4419_GISTEMP_2015_Robinson_C.mpeg (1280x720) [122.2 MB] || 4419_GISTEMP_2015_Robinson_C_prores.mov (1280x720) [533.7 MB] || 4419_GISTEMP_2015_Robinson_C.key [20.0 MB] || 4419_GISTEMP_2015_Robinson_C.pptx [17.4 MB] || 4419_GISTEMP_2015_Robinson_C_ipod_sm.mp4 (320x240) [4.8 MB] || ",
+      "release_date": "2016-01-20T00:00:00-05:00",
+      "update_date": "2025-01-05T00:07:01.030234-05:00",
+      "main_image": {
+        "id": 435949,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004400/a004419/4419_GISTEMP_2015_Robinson_C_print.jpg",
+        "filename": "4419_GISTEMP_2015_Robinson_C_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies from 1880 through 2015. Higher than normal temperatures are shown in red and lower then normal termperatures are shown in blue. The final frame represents the global temperatures 5-year averaged from 2011 through 2015.  Scale in degree Celsius.This video is also available on our YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4252,
+      "url": "http://svs.gsfc.nasa.gov/4252/",
+      "page_type": "Visualization",
+      "title": "Five-Year Global Temperature Anomalies from 1880 to 2014",
+      "description": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies from 1880 through 2014.  Higher than normal temperatures are shown in red and lower then normal termperatures are shown in blue.  The final frame represents the global temperatures 5-year averaged from 2010 through 2014. || GISTEMP_2014update.0905_print.jpg (1024x576) [122.2 KB] || GISTEMP_2014update.0905_searchweb.png (320x180) [74.5 KB] || GISTEMP_2014update.0905_thm.png (80x40) [6.7 KB] || composite (1920x1080) [0 Item(s)] || 2014_update_robinson_composite.mp4 (1920x1080) [36.8 MB] || 2014_update_robinson_composite.webm (1920x1080) [3.5 MB] || ",
+      "release_date": "2015-01-16T00:30:00-05:00",
+      "update_date": "2025-02-02T22:19:35.273677-05:00",
+      "main_image": {
+        "id": 447356,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004252/GISTEMP_2014update.0905_print.jpg",
+        "filename": "GISTEMP_2014update.0905_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperature anomalies from 1880 through 2014.  Higher than normal temperatures are shown in red and lower then normal termperatures are shown in blue.  The final frame represents the global temperatures 5-year averaged from 2010 through 2014.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4135,
+      "url": "http://svs.gsfc.nasa.gov/4135/",
+      "page_type": "Visualization",
+      "title": "Five-Year Global Temperature Anomalies from 1880 to 2013",
+      "description": "NASA scientists say 2013 tied with 2009 and 2006 for the seventh warmest year since 1880, continuing a long-term trend of rising global temperatures. With the exception of 1998, the 10 warmest years in the 134-year record all have occurred since 2000, with 2010 and 2005 ranking as the warmest years on record.NASA's Goddard Institute for Space Studies (GISS) in New York, which analyzes global surface temperatures on an ongoing basis, released an updated report Tuesday on temperatures around the globe in 2013. The comparison shows how Earth continues to experience temperatures warmer than those measured several decades ago.  The average temperature in 2013 was 58.3 degrees Fahrenheit (14.6 degrees Celsius), which is 1.1 °F (0.6 °C) warmer than the mid-20th century baseline. The average global temperature has risen about 1.4 °F (0.8 °C) since 1880, according to the new analysis. Exact rankings for individual years are sensitive to data inputs and analysis methods.\"Long-term trends in surface temperatures are unusual and 2013 adds to the evidence for ongoing climate change,\" GISS climatologist Gavin Schmidt said. \"While one year or one season can be affected by random weather events, this analysis shows the necessity for continued, long-term monitoring.\"Scientists emphasize that weather patterns always will cause fluctuations in average temperatures from year to year, but the continued increases in greenhouse gas levels in Earth's atmosphere are driving a long-term rise in global temperatures. Each successive year will not necessarily be warmer than the year before, but with the current level of greenhouse gas emissions, scientists expect each successive decade to be warmer than the previous.Carbon dioxide is a greenhouse gas that traps heat and plays a major role in controlling changes to Earth's climate. It occurs naturally and also is emitted by the burning of fossil fuels for energy. Driven by increasing man-made emissions, the level of carbon dioxide in Earth's atmosphere presently is higher than at any time in the last 800,000 years. The carbon dioxide level in the atmosphere was about 285 parts per million in 1880, the first year in the GISS temperature record. By 1960, the atmospheric carbon dioxide concentration, measured at the National Oceanic and Atmospheric Administration's (NOAA) Mauna Loa Observatory in Hawaii, was about 315 parts per million. This measurement peaked last year at more than 400 parts per million.While the world experienced relatively warm temperatures in 2013, the continental United States experienced the 42nd warmest year on record, according to GISS analysis. For some other countries, such as Australia, 2013 was the hottest year on record.The temperature analysis produced at GISS is compiled from weather data from more than 1,000 meteorological stations around the world, satellite observations of sea-surface temperature, and Antarctic research station measurements, taking into account station history and urban heat island effects. Software is used to calculate the difference between surface temperature in a given month and the average temperature for the same place from 1951 to 1980. This three-decade period functions as a baseline for the analysis. It has been 38 years since the recording of a year of cooler than average temperatures.The GISS temperature record is one of several global temperature analyses, along with those produced by the Met Office Hadley Centre in the United Kingdom and NOAA's National Climatic Data Center in Asheville, N.C. These three primary records use slightly different methods, but overall, their trends show close agreement.Additional commentary on the 2013 temperature anomaly is provided by Dr. James Hansen of Columbia University at: http://www.columbia.edu/~jeh1/mailings/2014/20140121_Temperature2013.pdfThe GISTEMP analysis website is located at: http://data.giss.nasa.gov/gistemp/ || ",
+      "release_date": "2014-01-21T00:00:00-05:00",
+      "update_date": "2025-02-02T22:13:21.205434-05:00",
+      "main_image": {
+        "id": 459440,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004100/a004135/GCM2013update_robinson_composite.0790.jpg",
+        "filename": "GCM2013update_robinson_composite.0790.jpg",
+        "media_type": "Image",
+        "alt_text": "This color-coded map in Robinson projection displays a progression of changing global surface temperatures anomalies from 1880 through 2013. Higher than normal temperatures are shown in red and lower then normal temperatures are shown in blue.The final frame represents global temperature anomalies averaged from 2009 through 2013. ",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 4030,
+      "url": "http://svs.gsfc.nasa.gov/4030/",
+      "page_type": "Visualization",
+      "title": "Five-Year Global Temperature Anomalies from 1880 to 2012",
+      "description": "This color-coded map displays a progression of changing global surface temperatures anomalies from 1880 through 2012. Higher than normal temperatures are shown in red and lower then normal temperatures are shown in blue. Global surface temperature in 2012 was +0.55 || ",
+      "release_date": "2013-01-15T13:00:00-05:00",
+      "update_date": "2025-02-02T22:10:02.552757-05:00",
+      "main_image": {
+        "id": 469108,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004000/a004030/doublespeed.0777_web.png",
+        "filename": "doublespeed.0777_web.png",
+        "media_type": "Image",
+        "alt_text": "Abbreviated 13 second movie starting from 1950 through 2012 with dates and colorbar applied.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    },
+    {
+      "id": 3901,
+      "url": "http://svs.gsfc.nasa.gov/3901/",
+      "page_type": "Visualization",
+      "title": "Five-Year Average Global Temperature Anomalies from 1880 to 2011",
+      "description": "The global average surface temperature in 2011 was the ninth warmest since 1880.The finding sustains a trend that has seen the 21st century experience nine of the 10 warmest years in the modern meteorological record. NASA's Goddard Institute for Space Studies (GISS) in New York released an analysis of how temperatures around the globe in 2011 compared to the average global temperature from the mid-20th century. The comparison shows how Earth continues to experience higher temperatures than several decades ago. The average temperature around the globe in 2011 was 0.92 degrees F (0.51 C) higher than the mid-20th century baseline.\"We know the planet is absorbing more energy than it is emitting,\" said GISS director James E. Hansen. \"So we are continuing to see a trend toward higher temperatures. Even with the cooling effects of a strong La Ni?a influence and low solar activity for the past several years, 2011 was one of the 10 warmest years on record.\"The difference between 2011 and the warmest year in the GISS record (2010) is 0.22 degrees F (0.12 C). This underscores the emphasis scientists put on the long-term trend of global temperature rise as opposed to year-to-year variations. Because of the large natural variability of climate, scientists do not expect annual temperatures to rise consistently each year. However, they do expect a continuing temperature rise over decades. The first 11 years of the 21st century experienced notably higher temperatures compared to the middle and late 20th century, Hansen said.For more information on the GISS temperature analysis, visit http://data.giss.nasa.gov/gistemp. || ",
+      "release_date": "2012-01-20T00:00:00-05:00",
+      "update_date": "2025-01-05T00:01:38.029846-05:00",
+      "main_image": {
+        "id": 479801,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003900/a003901/dates2011updateGISStemperatureAnomalydates.1550_web.png",
+        "filename": "dates2011updateGISStemperatureAnomalydates.1550_web.png",
+        "media_type": "Image",
+        "alt_text": "This color-coded map displays a progression of changing global surface temperatures anomalies from 1880 through 2011. The final frame represents global temperature anomalies averaged from 2007 to 2011.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    },
+    {
+      "id": 3375,
+      "url": "http://svs.gsfc.nasa.gov/3375/",
+      "page_type": "Visualization",
+      "title": "Five-Year Average Global Temperature Anomalies from 1881 to 2006",
+      "description": "Because of a rapid warming trend over the past 30 years, the Earth is now reaching and passing through the warmest levels seen in the last 12,000 years. This color-coded map shows a progression of changing global surface temperatures from 1881 to 2006, the warmest ranked year on record. || ",
+      "release_date": "2006-09-25T00:00:00-04:00",
+      "update_date": "2023-05-03T13:55:50.233853-04:00",
+      "main_image": {
+        "id": 510158,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a003300/a003375/tempanom.0975.jpg",
+        "filename": "tempanom.0975.jpg",
+        "media_type": "Image",
+        "alt_text": "Animation of global temperature anomalies from 1881 to 2006 taken as a five-year moving average.  Dark blue indicates areas cooler than average.  Dark red indicates areas warmer than average.  This animation is not annotated.",
+        "width": 720,
+        "height": 486,
+        "pixels": 349920
+      }
+    }
+  ],
+  "alternate_versions": []
+}

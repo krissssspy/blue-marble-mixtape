@@ -1,0 +1,497 @@
+{
+  "id": 4897,
+  "url": "http://svs.gsfc.nasa.gov/4897/",
+  "page_type": "Visualization",
+  "title": "Seasonal Global Precipitation Variation from the Global Precipitation Measurement Constellation",
+  "description": "An animation of the most recent variation in global precipitation data from IMERG.",
+  "release_date": "2021-04-12T08:00:00-04:00",
+  "update_date": "2026-11-14T01:05:54.232798-05:00",
+  "main_image": {
+    "id": 378441,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_composite_1080p15.00001_print.jpg",
+    "filename": "imergvar_composite_1080p15.00001_print.jpg",
+    "media_type": "Image",
+    "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [{ "name": "Horace Mitchell", "employer": "NASA/GSFC" }],
+    "Scientific consulting by": [
+      { "name": "George Huffman", "employer": "NASA/GSFC" },
+      { "name": "Gail Skofronick Jackson", "employer": "NASA/GSFC" },
+      { "name": "Dalia B Kirschbaum", "employer": "NASA/GSFC" }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 317706,
+      "url": "http://svs.gsfc.nasa.gov/4897/#media_group_317706",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "An animation of the most recent variation in global precipitation data from IMERG.",
+      "items": [
+        {
+          "id": 221998,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378441,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_composite_1080p15.00001_print.jpg",
+            "filename": "imergvar_composite_1080p15.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 221999,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378438,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_composite_1080p15.00001_searchweb.png",
+            "filename": "imergvar_composite_1080p15.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 222000,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378439,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_composite_1080p15.00001_thm.png",
+            "filename": "imergvar_composite_1080p15.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 221992,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378440,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_composite_1080p15.mp4",
+            "filename": "imergvar_composite_1080p15.mp4",
+            "media_type": "Movie",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221996,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378435,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/frames/1920x1080_16x9_15p/flatcomposite/",
+            "filename": "flatcomposite",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221997,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378436,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/frames/1920x1080_16x9_15p/numberedcomposite/",
+            "filename": "numberedcomposite",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221993,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378432,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/frames/3600x1800_2x1_15p/flatcomposite/",
+            "filename": "flatcomposite",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 221995,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378434,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/frames/3600x1800_2x1_15p/flatalpha/",
+            "filename": "flatalpha",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 398513,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 858249,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/frames/3600x1800_2x1_15p/flatcompwithdates/",
+            "filename": "flatcompwithdates",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 221994,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378433,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/frames/3600x1800_2x1_15p/flatdates/",
+            "filename": "flatdates",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most recent variation in global precipitation data from IMERG.",
+            "width": 195,
+            "height": 63,
+            "pixels": 12285
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317705,
+      "url": "http://svs.gsfc.nasa.gov/4897/#media_group_317705",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "The Global Precipitation Meaurement (GPM) mission produces NASA's most comprehensive estimate of global rain and snowfall, the Integrated Multi-satellite Retrievals for GPM, or IMERG.  IMERG is largely based on data from the GPM constellation - a group of satellites independently operated by many agencies that pool their data for global precipitation estimates.  These satellites currently include the GPM Core Observatory, other U.S. civilian satellites (Aqua, NOAA-19, NOAA-20, Suomi NPP), U.S. defense satellites (DMSP F-16, DMSP F-17, DMSP- F18), and international agency satellites (GCOM-W1, Metop-B, Metop-C, and MeghaTropiques).  The IMERG dataset starts in June 2000, providing a sufficiently long record that seasonal/regional averages, or climatology, can be computed with reasonable confidence.  By comparing the progression of the observed precipitation with climatology, we can generate maps of showing how much observations depart from normal.  In the animation, each day's variation from the average precipitation is added to the map, then allowed to gradually fade away over three months so that time changes in the larger-scale patterns are easier to see.  Researchers sometimes refer to these deviations from the climatology as \"precipitation anomalies\".",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 317707,
+      "url": "http://svs.gsfc.nasa.gov/4897/#media_group_317707",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Near realtime IMERG Anomaly data in Robinson projection.",
+      "items": [
+        {
+          "id": 399118,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 858531,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imerganom_w_date.now.rob_print.jpg",
+            "filename": "imerganom_w_date.now.rob_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Near realtime IMERG Anomaly data in Robinson projection.",
+            "width": 1024,
+            "height": 512,
+            "pixels": 524288
+          }
+        },
+        {
+          "id": 443246,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 858520,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imerganomrob_w_dates_1080p15.mp4",
+            "filename": "imerganomrob_w_dates_1080p15.mp4",
+            "media_type": "Movie",
+            "alt_text": "Near realtime IMERG Anomaly data in Robinson projection.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 399100,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 858518,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/frames/3600x1800_2x1_15p/Robinson/",
+            "filename": "Robinson",
+            "media_type": "Frames",
+            "alt_text": "Near realtime IMERG Anomaly data in Robinson projection.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 399101,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 858519,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/frames/3600x1800_2x1_15p/RobinsonWithDates/",
+            "filename": "RobinsonWithDates",
+            "media_type": "Frames",
+            "alt_text": "Near realtime IMERG Anomaly data in Robinson projection.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 371951,
+      "url": "http://svs.gsfc.nasa.gov/4897/#media_group_371951",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "An image of the most currently available global precipitation variation from IMERG.",
+      "items": [
+        {
+          "id": 399103,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378445,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_1080p.now.png",
+            "filename": "imergvar_1080p.now.png",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation variation from IMERG.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 399107,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378442,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_1080p.now_print.jpg",
+            "filename": "imergvar_1080p.now_print.jpg",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation variation from IMERG.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 399104,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378446,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_alpha.now.png",
+            "filename": "imergvar_alpha.now.png",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation variation from IMERG.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 399105,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378444,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_composite.now.png",
+            "filename": "imergvar_composite.now.png",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation variation from IMERG.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 399106,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 378443,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004897/imergvar_dates.now.png",
+            "filename": "imergvar_dates.now.png",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation variation from IMERG.",
+            "width": 199,
+            "height": 63,
+            "pixels": 12537
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Animator", "people": [{ "name": "Horace Mitchell", "employer": "NASA/GSFC" }] },
+    {
+      "role": "Data visualizer",
+      "people": [{ "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." }]
+    },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "George Huffman", "employer": "NASA/GSFC" },
+        { "name": "Gail Skofronick Jackson", "employer": "NASA/GSFC" },
+        { "name": "Dalia B Kirschbaum", "employer": "NASA/GSFC" }
+      ]
+    },
+    { "role": "Producer", "people": [{ "name": "Ryan Fitzgibbons", "employer": "USRA" }] }
+  ],
+  "missions": [],
+  "series": ["Updates Regularly"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "IMERG",
+      "platform": null,
+      "sensor": null,
+      "type": "Data Compilation",
+      "organizations": ["NASA/GSFC"],
+      "description": "",
+      "credit": "",
+      "url": "http://pmm.nasa.gov/sites/default/files/document_files/IMERG_ATBD_V4.4.pdf",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Atmosphere",
+    "Atmospheric science",
+    "Earth Science",
+    "Global Precipitation Measurement",
+    "Hyperwall",
+    "precipitation",
+    "Precipitation Rate",
+    "rain",
+    "Real-time",
+    "Realtime",
+    "SOS",
+    "Up-to-date",
+    "Updated",
+    "Weather and Atmospheric Dynamics"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 5682,
+      "url": "http://svs.gsfc.nasa.gov/5682/",
+      "page_type": "Visualization",
+      "title": "Currrent IMERG Accumulated Anomaly",
+      "description": "Global IMERG accumulated anomalies in Robinson projection. (Unannotated versions can be downloaded here as well.) || currIMERGaccum.rob.1800x900.annotated.png (1800x900) [1.8 MB] || currIMERGaccum.rob.4096x2048.annotated.png (4096x2048) [6.4 MB] || currIMERGaccum.rob.png (3600x1800) [2.0 MB] || currIMERGaccum.rob.4096x2048.png (4096x2048) [5.8 MB] || sst-precip-anomaly.hwshow [85 bytes] || sst-precip-combo-01.hwshow [245 bytes] || ",
+      "release_date": "2026-10-21T13:00:00-04:00",
+      "update_date": "2026-10-29T16:38:28.214562-04:00",
+      "main_image": {
+        "id": 1205978,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005682/currIMERGaccum.rob.4096x2048.annotated.png",
+        "filename": "currIMERGaccum.rob.4096x2048.annotated.png",
+        "media_type": "Image",
+        "alt_text": "Global IMERG accumulated anomalies in Robinson projection. (Unannotated versions can be downloaded here as well.)",
+        "width": 4096,
+        "height": 2048,
+        "pixels": 8388608
+      }
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "id": 31168,
+      "url": "http://svs.gsfc.nasa.gov/31168/",
+      "page_type": "Hyperwall Visual",
+      "title": "What NASA Knows from Decades of Earth System Observations",
+      "description": "Karen St. Germain, NASA's Director of Earth Science, gave this presentation to the 2021 United Nations Climate Change ConferenceWatch this video on the NASA Goddard YouTube channel. || KarenStGermain_4k_COP26_Presentation_Final_103850_print.jpg (1024x576) [143.2 KB] || KarenStGermain_4k_COP26_Presentation_Final_103850_searchweb.png (320x180) [87.7 KB] || KarenStGermain_4k_COP26_Presentation_Final_103850_thm.png (80x40) [6.7 KB] || KarenStGermain_HD_COP26_Presentation_Final.webm (1920x1080) [106.3 MB] || KarenStGermain_HD_COP26_Presentation_Final.mp4 (1920x1080) [1008.1 MB] || KarenStGFinal (3840x2160) [0 Item(s)] || transcript_StGermain.en_US.srt [13.6 KB] || transcript_StGermain.en_US.vtt [13.2 KB] || KarenStGermain_4k_COP26_Presentation_Final.mp4 (3840x2160) [7.6 GB] || ",
+      "release_date": "2021-12-13T00:00:00-05:00",
+      "update_date": "2025-02-03T00:52:40.917029-05:00",
+      "main_image": {
+        "id": 376487,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031168/KarenStGermain_4k_COP26_Presentation_Final_103850_print.jpg",
+        "filename": "KarenStGermain_4k_COP26_Presentation_Final_103850_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Karen St. Germain, NASA's Director of Earth Science, gave this presentation to the 2021 United Nations Climate Change ConferenceWatch this video on the NASA Goddard YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}
