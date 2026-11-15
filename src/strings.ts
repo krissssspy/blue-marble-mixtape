@@ -50,3 +50,8 @@ export const MONTH_ABBREVIATIONS = [
   'NOV',
   'DEC',
 ] as const;
+
+export const ACCESSIBILITY_STRINGS = {
+  canvasLabel: 'Blue Marble Mixtape museum',
+  listenPrompt: 'Listen to',
+} as const;
