@@ -136,14 +136,20 @@ describe('avatar and explorer rendering', () => {
     expect(shirts.size).toBe(6);
   });
 
+  it('keeps the trouser legs visible against the preview behind them', () => {
+    const frame = preview(DEFAULT_AVATAR, 2);
+    const trouser = frame.pixels[125 * frame.width + 45];
+    expect(contrastRatio(DUSK_PALETTE[trouser], DUSK_PALETTE[3])).toBeGreaterThanOrEqual(3);
+  });
+
   it.each(
     [
-      '4720a8545ae2aeb76d764f07dc18f29cc20368525507b34549ee9420ba29fc5c',
-      '2e58cc3b4b184dcf19288269072c0afbc1a80c5c556c666d7f6943867f7a770b',
-      'aaafef662fee9f4e09b4cbaeb00ced3497c6a0249c1299bfdb6026f8e0572017',
-      'ce604fc61446797ba8f4f1c6af746f2fe2539b3d7106cfa28c9d6e3aa584f14c',
-      'c6375f33dffd47f2f5cc10a4f2b8fe65f0140518a2ed92e7bbddd230f89521fd',
-      'c4fa9a41ee3b5291b9ba59a3fb5fd334c6da68869a82ad4b873a01e4abf878e4',
+      '61e6684f84a2fb89ca74e933509b4c49c5069b2ca613f82347c9e02a62c02b8b',
+      '27fbf7a7d024e15c732e98c8cf8085d4d7533adeec2bc3a0498cb33e36544ae8',
+      'ac72e547c00f8fc221ae8312cbe2e34d77b5974e3ba68add07567493255c8a3a',
+      '17101fb9db3c2035dd921a935262da23277ca8821a26f9cd7d930151ac9ab00f',
+      'daaa86e7a59a39aaef6c1852db1e274322e9882e612b0283fed32e8ce326f193',
+      'e886a56ea57f435b34f6708b939e000f3858ae7f50a93ffb634d5ca233cadd8a',
     ].map((expected, choice) => ({ choice, expected })),
   )(
     'matches indexed frames for choice $choice across four avatar steps',

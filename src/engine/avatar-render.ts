@@ -105,7 +105,7 @@ export function drawExplorer(
     e: 0,
     o: outfit,
     O: outfitTrim,
-    p: 3,
+    p: 12,
     b: 13,
   };
   paintSprite(frame, body, left, bottom - (body.length + legRows.length) * scale, scale, colors);
