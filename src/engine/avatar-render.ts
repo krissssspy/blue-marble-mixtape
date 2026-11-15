@@ -5,11 +5,11 @@ import { clearFramebuffer, fillRect, type Framebuffer } from './framebuffer.js';
 
 const body = [
   '...ssssss...',
-  '..sSSSSSSs..',
+  '..ssSSssss..',
   '..ssessess..',
-  '..sSSSSSSs..',
+  '..ssSSssss..',
   '...ssssss...',
-  '....sSSs....',
+  '....ssss....',
   '..ooooOOOO..',
   '.oooooooooo.',
   '.soooooooos.',
@@ -21,21 +21,21 @@ const body = [
 ] as const;
 
 const skinColors = [
+  [15, 5],
   [15, 15],
-  [15, 14],
   [14, 15],
-  [14, 13],
+  [14, 14],
   [13, 14],
-  [13, 2],
+  [13, 13],
 ] as const;
 
 const outfitColors = [
-  [4, 12],
-  [9, 8],
+  [11, 4],
+  [8, 9],
   [7, 15],
   [6, 14],
-  [12, 11],
-  [3, 7],
+  [12, 5],
+  [10, 4],
 ] as const;
 
 const hairShapes = [
@@ -94,7 +94,7 @@ export function drawExplorer(
     p: 3,
     b: 13,
   });
-  paintSprite(frame, hairShapes[appearance.hair], left, bottom - 16 * scale, scale, { h: 13 });
+  paintSprite(frame, hairShapes[appearance.hair], left, bottom - 16 * scale, scale, { h: 0 });
   const gear = headgear[appearance.headgear];
   paintSprite(frame, gear.shape, left, bottom - 19 * scale, scale, {
     g: gear.colors[0],

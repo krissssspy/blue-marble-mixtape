@@ -148,6 +148,8 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-43 The browser entry point connects the canvas, input, catalog loading, engine screens, and accessible overlays through the real site build
 - [x] M4-44 Desktop and touch browser tests verify the M4 flow, image accessibility, portrait controls, and reduced motion
 - [x] M4-45 The built engine passes the full phase suite and the live draft preview serves the M4 flow with the catalog and listening media
+- [x] M4-46 Usability follow-up. The avatar's face, neck, and hands retain the selected skin tone, and all six shirts contrast with the preview background.
+- [ ] M4-47 Usability follow-up. The explorer takes visible steps while moving and stands still when idle or when reduced motion is enabled.
 
 ## M5 Audio core
 
@@ -181,8 +183,12 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 
 ## M6 Rooms 1–9
 
+- [ ] M6-01 Select eight to ten distinct artifacts for each exhibit by evaluating the image and its sonification. Remove repeated views and source additional distinct artifacts for any exhibit that falls below eight.
+
 Itemised when M5 is done.
 
 ## M7 Lab and release
+
+- [ ] M7-01 Put a final door at the end of the museum that opens a thank-you message for visitors.
 
 Itemised when M6 is done.

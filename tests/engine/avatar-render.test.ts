@@ -80,14 +80,47 @@ function hasReadableChoice(frame: Framebuffer, choice: string): boolean {
 }
 
 describe('avatar and explorer rendering', () => {
+  it('fills the visible face, neck, and hands with the selected skin tone', () => {
+    const faceAndHands = [
+      [3, 2],
+      [8, 2],
+      [2, 3],
+      [9, 3],
+      [4, 5],
+      [7, 5],
+      [1, 8],
+      [10, 8],
+    ];
+    for (const [skin, tone] of [15, 15, 14, 14, 13, 13].entries()) {
+      const frame = sprite({ ...DEFAULT_AVATAR, skin });
+      for (const [x, y] of faceAndHands) {
+        expect(frame.pixels[(feetY - 14 + y) * frame.width + explorerX - 6 + x]).toBe(tone);
+      }
+      const picker = preview({ ...DEFAULT_AVATAR, skin }, 0);
+      const cheek = picker.pixels[77 * picker.width + 51];
+      expect([5, 13, 14, 15]).toContain(cheek);
+    }
+  });
+
+  it('keeps each shirt distinct from the avatar preview backdrop', () => {
+    const shirts = new Set<number>();
+    for (const [outfit] of AVATAR_LABELS.outfit.entries()) {
+      const frame = preview({ ...DEFAULT_AVATAR, outfit }, 2);
+      const shirt = frame.pixels[102 * frame.width + 60];
+      expect(contrastRatio(DUSK_PALETTE[shirt], DUSK_PALETTE[3])).toBeGreaterThanOrEqual(3);
+      shirts.add(shirt);
+    }
+    expect(shirts.size).toBe(6);
+  });
+
   it.each(
     [
-      'c5f4782d2beb954f2f15a2c89d3fe82fcf631d42b0a10e8ba4e0fbcb7c43b335',
-      '6321d6c337d0c8c11b9b3f2ec3b852883c90b333b23d59038763ada04c1e214a',
-      'e1401ad915e87d5515e173c7d210fd9a5a5b369999f5596e0a340c3d5c4eb0ce',
-      '748237dcf3d098122c982631f33b91b63586c16715068f1afd3da4ac68d21295',
-      'b0544d303a37880edeeedd258fff35b7b1b75125a8a0a286998a4fec911fae7f',
-      '30f6a8b78724db610faa60ffe61ed6a00dccd59430dff334531a0d7c43e21316',
+      '4720a8545ae2aeb76d764f07dc18f29cc20368525507b34549ee9420ba29fc5c',
+      '2e58cc3b4b184dcf19288269072c0afbc1a80c5c556c666d7f6943867f7a770b',
+      'aaafef662fee9f4e09b4cbaeb00ced3497c6a0249c1299bfdb6026f8e0572017',
+      'ce604fc61446797ba8f4f1c6af746f2fe2539b3d7106cfa28c9d6e3aa584f14c',
+      'c6375f33dffd47f2f5cc10a4f2b8fe65f0140518a2ed92e7bbddd230f89521fd',
+      'c4fa9a41ee3b5291b9ba59a3fb5fd334c6da68869a82ad4b873a01e4abf878e4',
     ].map((expected, choice) => ({ choice, expected })),
   )(
     'matches indexed frames for choice $choice across four avatar steps',

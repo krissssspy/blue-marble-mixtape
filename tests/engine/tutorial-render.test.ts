@@ -65,7 +65,7 @@ describe('tutorial rendering', () => {
     drawTutorial(frame, 96, avatar, thumbnail(5));
 
     expect(createHash('sha256').update(frame.pixels).digest('hex')).toBe(
-      'e1458ab8d38a9331a603024aca8414f4da2e21a27291591ec06dab073c48b219',
+      '0409b0b2beea25ad2ea94831e1a51bb8ab721410dcc34fad2d5d8cceffd1593a',
     );
   });
 

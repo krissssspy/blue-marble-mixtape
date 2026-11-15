@@ -17,7 +17,7 @@ export const TOUCH_STRINGS = {
 export const AVATAR_LABELS = {
   skin: ['Light peach', 'Warm beige', 'Golden tan', 'Copper brown', 'Rich brown', 'Deep umber'],
   hair: ['Short crop', 'Side part', 'Waves', 'Afro', 'Braids', 'Ponytail'],
-  outfit: ['Ocean blue', 'Forest green', 'Coral red', 'Sunflower yellow', 'Slate', 'Plum'],
+  outfit: ['Ocean blue', 'Forest green', 'Coral red', 'Sunflower yellow', 'Slate', 'Teal'],
   headgear: ['No headgear', 'Baseball cap', 'Beanie', 'Sun hat', 'Headband', 'Explorer hat'],
 } as const;
 
