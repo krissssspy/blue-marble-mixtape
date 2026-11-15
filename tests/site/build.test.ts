@@ -44,6 +44,14 @@ function parsePolicy(policy: string): Map<string, string[]> {
   return directives;
 }
 
+function attributes(markup: string): Map<string, string> {
+  return new Map(
+    [...markup.matchAll(/\b([\w-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/g)].map(
+      ([, name, doubleQuoted, singleQuoted]) => [name.toLowerCase(), doubleQuoted ?? singleQuoted],
+    ),
+  );
+}
+
 describe('npm run build', () => {
   it(
     'exits zero',
@@ -64,6 +72,46 @@ describe('npm run build', () => {
       expect(viewport, 'a <meta name="viewport"> element').not.toBeNull();
       expect(viewport?.[0]).toMatch(/\bcontent=["'][^"']*width=device-width/);
       expect(viewport?.[0]).toMatch(/\bcontent=["'][^"']*initial-scale=1(?![.\d])/);
+    },
+    TEST_TIMEOUT_MS,
+  );
+
+  it(
+    'builds a mountable museum with an accessible canvas and a local module entry',
+    () => {
+      expect(buildStatus, buildOutput).toBe(0);
+      const main = html.match(/<main\b([^>]*)>([\s\S]*?)<\/main\s*>/i);
+      expect(main, 'museum main element').not.toBeNull();
+      const shell = attributes(main![1]);
+      expect(shell.get('class')?.split(/\s+/)).toContain('museum-shell');
+      expect(shell.get('data-screen')).toBe('welcome');
+      expect(shell.has('data-room')).toBe(true);
+
+      const stage = [...main![2].matchAll(/<[a-z][\w-]*\b([^>]*)>/gi)].find(([, markup]) =>
+        attributes(markup).get('class')?.split(/\s+/).includes('game-stage'),
+      );
+      expect(stage, 'museum game stage').toBeDefined();
+      const canvas = main![2].slice(stage!.index).match(/<canvas\b([^>]*)>/i);
+      expect(canvas, 'native game canvas').not.toBeNull();
+      expect(attributes(canvas![1]).get('aria-label')?.trim()).toMatch(/\S/);
+
+      const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)].map(
+        ([, markup, body]) => ({ attrs: attributes(markup), body }),
+      );
+      const modules = scripts.filter(({ attrs }) => attrs.get('type') === 'module');
+      expect(modules).toHaveLength(1);
+      const src = modules[0].attrs.get('src');
+      expect(src).toMatch(/^(?:\.?\/)?assets\/[^/?#]+\.m?js$/);
+      const asset = src!.replace(/^\.?\//, '');
+      expect(readFileSync(join(dist, asset)).length, asset).toBeGreaterThan(0);
+
+      for (const { attrs, body } of scripts) {
+        const type = attrs.get('type')?.toLowerCase() ?? '';
+        if (type === '' || type === 'module' || /(?:java|ecma)script/.test(type)) {
+          expect(body.trim(), 'inline executable script').toBe('');
+        }
+      }
+      expect(html).not.toMatch(/\son[a-z]+\s*=/i);
     },
     TEST_TIMEOUT_MS,
   );

@@ -55,3 +55,22 @@ export const ACCESSIBILITY_STRINGS = {
   canvasLabel: 'Blue Marble Mixtape museum',
   listenPrompt: 'Listen to',
 } as const;
+
+export const MUSEUM_ROOMS = [
+  { id: 'sea-level', name: 'Sea Level', genre: 'Ambient drone' },
+  { id: 'air-quality', name: 'Air Quality', genre: 'Glitch / IDM' },
+  { id: 'biodiversity', name: 'Biodiversity', genre: 'Dawn chorus' },
+  { id: 'wildfires', name: 'Wildfires', genre: 'Industrial' },
+  { id: 'greenhouse-gases', name: 'Greenhouse Gases', genre: 'Baroque chorale' },
+  { id: 'energy', name: 'Energy', genre: 'Synthwave' },
+  { id: 'disasters', name: 'Disasters', genre: 'Cinematic' },
+  { id: 'water-resources', name: 'Water Resources', genre: 'Lo-fi jazz' },
+  { id: 'agriculture', name: 'Agriculture', genre: 'Folk / bluegrass' },
+  { id: 'lab', name: 'Lab', genre: 'Visitor choice' },
+] as const;
+
+export const APP_STRINGS = {
+  tutorial: 'Tutorial',
+  museum: 'Museum',
+  loadFailed: 'LOAD FAILED\n↑ RETRY',
+} as const;

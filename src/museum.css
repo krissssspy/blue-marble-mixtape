@@ -104,3 +104,16 @@ body {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+.game-stage > .listening-media {
+  position: absolute;
+  overflow: hidden;
+}
+
+.game-stage > .listening-media > img {
+  display: block;
+}
+
+.game-stage > canvas {
+  z-index: 1;
+}
