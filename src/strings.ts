@@ -20,3 +20,12 @@ export const AVATAR_LABELS = {
   outfit: ['Ocean blue', 'Forest green', 'Coral red', 'Sunflower yellow', 'Slate', 'Plum'],
   headgear: ['No headgear', 'Baseball cap', 'Beanie', 'Sun hat', 'Headband', 'Explorer hat'],
 } as const;
+
+export const AVATAR_COPY = {
+  step: 'STEP',
+  categories: ['SKIN', 'HAIR', 'OUTFIT', 'HEADGEAR'],
+  previous: '←',
+  next: '→',
+  confirm: '↑ OK',
+  back: '↓ BACK',
+} as const;
