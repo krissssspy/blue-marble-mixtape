@@ -9,7 +9,7 @@
     "check": "npm run lint && npm run format:check && tsc --noEmit",
     "mutation": "stryker run",
     "prepare": "node tools/hooks/install.mjs",
-    "build": "vite build",
+    "build": "vite build && node tools/ingest/check-budget.mjs",
     "ingest:refresh": "node tools/ingest/refresh.mjs && node tools/ingest/build-catalog.mjs"
   },
   "devDependencies": {
