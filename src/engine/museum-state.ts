@@ -40,8 +40,8 @@ export function stepMuseum(state: MuseumState, input: InputSample): MuseumStep {
           current = { ...current, avatarStep: current.avatarStep - 1 };
         }
       } else {
-        const { key } = AVATAR_STEPS[current.avatarStep];
-        const choice = cycleAvatarChoice(current.avatar[key], action);
+        const { key, choices } = AVATAR_STEPS[current.avatarStep];
+        const choice = cycleAvatarChoice(current.avatar[key], action, choices.length);
         current = { ...current, avatar: { ...current.avatar, [key]: choice } };
       }
     }

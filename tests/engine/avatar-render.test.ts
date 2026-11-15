@@ -15,7 +15,12 @@ import {
   createFramebuffer,
   type Framebuffer,
 } from '../../src/engine/framebuffer.js';
-import { BACKDROP_RAMP, DUSK_PALETTE, FRAME_PALETTE } from '../../src/engine/palette.js';
+import {
+  AVATAR_HAIR_INDICES,
+  BACKDROP_RAMP,
+  DUSK_PALETTE,
+  FRAME_PALETTE,
+} from '../../src/engine/palette.js';
 import { AVATAR_LABELS } from '../../src/strings.js';
 
 const backing = 15;
@@ -184,19 +189,42 @@ describe('avatar and explorer rendering', () => {
     }
   });
 
+  it('keeps hairstyles visible on dusk backgrounds and leaves both eyes clear', () => {
+    const [base, highlight] = AVATAR_HAIR_INDICES;
+    for (const backdrop of BACKDROP_RAMP) {
+      expect(contrastRatio(FRAME_PALETTE[base], backdrop)).toBeGreaterThan(1.5);
+      expect(contrastRatio(FRAME_PALETTE[highlight], backdrop)).toBeGreaterThanOrEqual(3);
+    }
+
+    for (const [hair, label] of AVATAR_LABELS.hair.entries()) {
+      const appearance = { ...DEFAULT_AVATAR, hair };
+      const frame = sprite(appearance);
+      expect(frame.pixels).toContain(base);
+      expect(frame.pixels).toContain(highlight);
+      const eyeRow = (feetY - 12) * frame.width + explorerX - 6;
+      expect([frame.pixels[eyeRow + 4], frame.pixels[eyeRow + 7]]).toEqual([0, 0]);
+      expect(hasReadableChoice(preview(appearance, 1), label.toUpperCase())).toBe(true);
+    }
+  });
+
   it.each(
     [
-      '7cda70f2877e0a1cfc64be636dc0bc60ffbac99e56056384a5263c39efb680ed',
-      '4bceb2b74d806fa8f186c65e5c8c112bb86a18c7a36ad85696217f110ac5e45d',
-      'be52c10583d8a74365d55a9f497ca8eb40bad2507ec12713bdb78b0a3b445af1',
-      'd6537e6754f9e1dd80fff853b4d962a67c2037e063617b5c13e91757d0bd0b34',
-      '0c52289b5ce59a54b94db37ae4d13e255c08cac973edafee6b7ee1a6df12c1b1',
-      '1cbc9ef5548f02fa834180e2b9ec4b137384f523f506d8fc58fa7ff5c9455b33',
+      '13c56dd3cd91ffb928271cb29a37cadc3e6d2ad430cb52559ee493891a3a1920',
+      '0854b82258783f6770fc33a71ecc1fb780cff278662160461c73acff2391a783',
+      'fd517b8863f12c80401ebb3568c13ad1945bda91d5d82fb4fe9a82e9d4a3196e',
+      '937116d0f6a187abfb1bcd030c82d3551cc6af841222a5a2554b65ad6f22054d',
+      'ea936f3dab9a39cbe7fd8beebca214bb522a85bcfe537b1ee5535aac0ce62c8c',
+      'a0e54158867d76856d46adad0d1627824f9354226ac7d1b00e5b2bb9e691f2d2',
     ].map((expected, choice) => ({ choice, expected })),
   )(
     'matches indexed frames for choice $choice across four avatar steps',
     ({ choice, expected }) => {
-      const appearance = { skin: choice, hair: choice, outfit: choice, headgear: choice };
+      const appearance = {
+        skin: choice,
+        hair: choice % AVATAR_LABELS.hair.length,
+        outfit: choice,
+        headgear: choice,
+      };
       const digest = createHash('sha256');
       for (const [step] of AVATAR_STEPS.entries()) {
         digest.update(preview(appearance, step).pixels);
@@ -222,12 +250,12 @@ describe('avatar and explorer rendering', () => {
     expect(frame.pixels[feetY * frame.width + explorerX]).toBe(backing);
   });
 
-  it.each(AVATAR_STEPS.map(({ key }, step) => ({ key, step })))(
-    'shows six distinct $key choices on the walkway and in the large preview',
-    ({ key, step }) => {
+  it.each(AVATAR_STEPS.map(({ key, choices }, step) => ({ key, choices, step })))(
+    'shows distinct $key choices on the walkway and in the large preview',
+    ({ key, choices, step }) => {
       const sprites = new Set<string>();
       const previews = new Set<string>();
-      for (let choice = 0; choice < 6; choice += 1) {
+      for (const [choice] of choices.entries()) {
         const appearance = { ...DEFAULT_AVATAR, [key]: choice };
         const walker = sprite(appearance);
         const picker = preview(appearance, step);
@@ -239,8 +267,8 @@ describe('avatar and explorer rendering', () => {
         previews.add(leftRows.join(','));
       }
 
-      expect(sprites.size).toBe(6);
-      expect(previews.size).toBe(6);
+      expect(sprites.size).toBe(choices.length);
+      expect(previews.size).toBe(choices.length);
     },
   );
 

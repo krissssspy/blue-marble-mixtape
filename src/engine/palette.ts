@@ -15,6 +15,7 @@ const shirtSwatches = [
   ['#2ec4b6', '#289d92', '#78eee0'],
 ] as const;
 const trouserSwatches = ['#8fa4c1', '#768db2', '#b9ccea'];
+const hairSwatches = ['#805357', '#c58e80'];
 const firstShirtSwatch = firstSkinSwatch + skinSwatches.length;
 const firstTrouserSwatch = firstShirtSwatch + shirtSwatches.length * 3;
 
@@ -27,6 +28,7 @@ export const FRAME_PALETTE = [
   ...skinSwatches,
   ...shirtSwatches.flat(),
   ...trouserSwatches,
+  ...hairSwatches,
 ];
 export const AVATAR_SKIN_INDICES = [
   15,
@@ -40,3 +42,5 @@ export const AVATAR_SHIRT_INDICES = shirtSwatches.map((_, index) =>
   shadeIndices(firstShirtSwatch + index * 3),
 );
 export const AVATAR_TROUSER_INDICES = shadeIndices(firstTrouserSwatch);
+const firstHairSwatch = firstTrouserSwatch + trouserSwatches.length;
+export const AVATAR_HAIR_INDICES = [firstHairSwatch, firstHairSwatch + 1] as const;

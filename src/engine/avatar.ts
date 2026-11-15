@@ -7,8 +7,11 @@ export const AVATAR_STEPS = [
   { key: 'headgear', choices: AVATAR_LABELS.headgear },
 ] as const;
 
-export function cycleAvatarChoice(index: number, direction: 'left' | 'right'): number {
-  const count = AVATAR_LABELS.skin.length;
+export function cycleAvatarChoice(
+  index: number,
+  direction: 'left' | 'right',
+  count: number,
+): number {
   const offset = direction === 'left' ? -1 : 1;
   return (index + offset + count) % count;
 }

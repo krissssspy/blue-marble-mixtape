@@ -40,14 +40,27 @@ describe('avatar storage', () => {
     });
   });
 
-  it('defaults fractional choices and choices above five', () => {
-    expect(loadAvatar(memoryStorage('{"skin":3.5,"hair":5,"outfit":6,"headgear":2}'))).toEqual({
+  it('defaults fractional choices and out-of-range current choices', () => {
+    expect(
+      loadAvatar(memoryStorage('{"version":1,"skin":3.5,"hair":5,"outfit":6,"headgear":2}')),
+    ).toEqual({
       skin: 0,
-      hair: 5,
+      hair: 0,
       outfit: 0,
       headgear: 2,
     });
   });
+
+  it.each([0, 1, 1, 2, 3, 4].map((expected, old) => ({ old, expected })))(
+    "preserves a visitor's pre-existing hairstyle $old as $expected",
+    ({ old, expected }) => {
+      const storage = memoryStorage(JSON.stringify({ ...defaults, skin: 5, hair: old, outfit: 3 }));
+      const migrated = { ...defaults, skin: 5, hair: expected, outfit: 3 };
+      expect(loadAvatar(storage)).toEqual(migrated);
+      saveAvatar(storage, migrated);
+      expect(loadAvatar(storage)).toEqual(migrated);
+    },
+  );
 
   it('uses defaults and keeps play available when storage access is denied', () => {
     const storage = {

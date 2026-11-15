@@ -72,7 +72,7 @@ describe('avatar customization', () => {
     const outfit = press(press(hair, 'yes').state, 'right').state;
     const backToHair = press(outfit, 'no');
 
-    const expected = { skin: 1, hair: 5, outfit: 1, headgear: 0 };
+    const expected = { skin: 1, hair: 4, outfit: 1, headgear: 0 };
     expect(backToHair).toMatchObject({
       state: { screen: 'avatar', avatarStep: 1, avatar: expected },
       effect: null,

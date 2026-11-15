@@ -2,7 +2,12 @@ import { AVATAR_COPY } from '../strings.js';
 import { AVATAR_STEPS, type AvatarSelection } from './avatar.js';
 import { drawText, measureTextWidth } from './font.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './framebuffer.js';
-import { AVATAR_SHIRT_INDICES, AVATAR_SKIN_INDICES, AVATAR_TROUSER_INDICES } from './palette.js';
+import {
+  AVATAR_HAIR_INDICES,
+  AVATAR_SHIRT_INDICES,
+  AVATAR_SKIN_INDICES,
+  AVATAR_TROUSER_INDICES,
+} from './palette.js';
 
 const body = [
   '...ssssss...',
@@ -34,12 +39,59 @@ export function walkPose(movingSteps: number, reducedMotion: boolean): ExplorerP
 }
 
 const hairShapes = [
-  ['...hhhhhh...', '..hhhhhhhh..', '..h......h..'],
-  ['...hhhhhh...', '..hhhhhhhh..', '..hhhh...h..', '..h.........'],
-  ['...hh.hh....', '..hhhhhhhh..', '..hh....hh..', '..h......h..'],
-  ['..hhhhhhhh..', '.hhhhhhhhhh.', '.hhh....hhh.', '.hh......hh.'],
-  ['...hhhhhh...', '..hhhhhhhh..', '.hh......hh.', '.hh......hh.', '.h........h.'],
-  ['...hhhhhhh..', '..hhhhhhhhh.', '..h......hh.', '.........hh.', '..........h.'],
+  { rise: 16, rows: ['...hHHhhh...', '..hHhhhhhh..', '..h......h..'] },
+  {
+    rise: 18,
+    rows: [
+      '.....hHHh...',
+      '...hHHhhhh..',
+      '..hHhhhhhh..',
+      '.hhhhhhhhh..',
+      '.hhh.....h..',
+      '.h..........',
+    ],
+  },
+  {
+    rise: 19,
+    rows: [
+      '....hHHh....',
+      '..hHHhhhhh..',
+      '.hHHhhhHhhh.',
+      '.hHhhhhhhhh.',
+      '.hhhHHhhhhh.',
+      '.hhh....hhh.',
+      '.hh......hh.',
+    ],
+  },
+  {
+    rise: 17,
+    rows: [
+      '...hH..Hh...',
+      '..hHhhhhHh..',
+      '..hhh..hhh..',
+      '.Hh......hH.',
+      '.hH......Hh.',
+      '.Hh......hH.',
+      '.hH......Hh.',
+      '..h......h..',
+      '..H......H..',
+    ],
+  },
+  {
+    rise: 19,
+    rows: [
+      '........HH..',
+      '.......Hhhh.',
+      '...hHHhhhhh.',
+      '..hHhhhh..hh',
+      '..hhhhhhh.hh',
+      '..h......hh.',
+      '..........hh',
+      '..........Hh',
+      '...........h',
+      '..........h.',
+    ],
+  },
 ] as const;
 
 const headgear = [
@@ -95,7 +147,11 @@ export function drawExplorer(
   };
   paintSprite(frame, body, left, bottom - (body.length + legRows.length) * scale, scale, colors);
   paintSprite(frame, legRows, left, bottom - legRows.length * scale, scale, colors);
-  paintSprite(frame, hairShapes[appearance.hair], left, bottom - 16 * scale, scale, { h: 0 });
+  const hair = hairShapes[appearance.hair];
+  paintSprite(frame, hair.rows, left, bottom - hair.rise * scale, scale, {
+    h: AVATAR_HAIR_INDICES[0],
+    H: AVATAR_HAIR_INDICES[1],
+  });
   const gear = headgear[appearance.headgear];
   paintSprite(frame, gear.shape, left, bottom - 19 * scale, scale, {
     g: gear.colors[0],

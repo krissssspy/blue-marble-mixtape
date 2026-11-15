@@ -2,6 +2,8 @@ import { AVATAR_STEPS, DEFAULT_AVATAR, type AvatarSelection } from './avatar.js'
 
 type AvatarStorage = Pick<Storage, 'getItem' | 'setItem'>;
 const storageKey = 'blue-marble-mixtape.avatar';
+const version = 1;
+const legacyHairChoices = [0, 1, 1, 2, 3, 4] as const;
 
 export function loadAvatar(storage: AvatarStorage | null | undefined): AvatarSelection {
   const avatar = { ...DEFAULT_AVATAR };
@@ -11,7 +13,11 @@ export function loadAvatar(storage: AvatarStorage | null | undefined): AvatarSel
 
     const fields = data as Record<string, unknown>;
     for (const { key, choices } of AVATAR_STEPS) {
-      const value = fields[key];
+      const stored = fields[key];
+      const value =
+        key === 'hair' && fields.version === undefined && typeof stored === 'number'
+          ? legacyHairChoices[stored]
+          : stored;
       if (
         typeof value === 'number' &&
         Number.isInteger(value) &&
@@ -32,7 +38,7 @@ export function saveAvatar(
   avatar: AvatarSelection,
 ): void {
   try {
-    storage?.setItem(storageKey, JSON.stringify(avatar));
+    storage?.setItem(storageKey, JSON.stringify({ ...avatar, version }));
   } catch {
     // The current selections remain available in memory.
   }
