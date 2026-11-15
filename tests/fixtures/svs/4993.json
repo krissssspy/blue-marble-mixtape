@@ -1,0 +1,933 @@
+{
+  "id": 4993,
+  "url": "http://svs.gsfc.nasa.gov/4993/",
+  "page_type": "Visualization",
+  "title": "Spread of the Dixie Fire - 2021",
+  "description": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel. || Dixie_fire_2021.7135_print.jpg (1024x576) [369.5 KB] || Dixie_fire_2021.7135_searchweb.png (320x180) [139.8 KB] || Dixie_fire_2021.7135_thm.png (80x40) [8.3 KB] || Dixie_fire_2021_p30_1080p30.mp4 (1920x1080) [172.9 MB] || Dixie_fire_2021_1080p60.mp4 (1920x1080) [190.8 MB] || 3840x2160_16x9_60p (3840x2160) [0 Item(s)] || captions_silent.32827.en_US.srt [43 bytes] || Dixie_fire_2021_p30_2160p30.mp4 (3840x2160) [477.6 MB] || Dixie_fire_2021_2160p60.mp4 (3840x2160) [513.8 MB] || Dixie_fire_2021_p30_1080p30.mp4.hwshow || Dixie_fire_animation_only_2021_1080p60.hwshow || ",
+  "release_date": "2022-06-01T09:00:00-04:00",
+  "update_date": "2025-06-23T00:13:43.248481-04:00",
+  "main_image": {
+    "id": 371837,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135_print.jpg",
+    "filename": "Dixie_fire_2021.7135_print.jpg",
+    "media_type": "Image",
+    "alt_text": "This image shows the spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Scientific consulting by": [{ "name": "Doug C. Morton", "employer": "NASA/GSFC" }],
+    "Visualizations by": [
+      { "name": "Cindy Starr", "employer": "Global Science and Technology, Inc." }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 314533,
+      "url": "http://svs.gsfc.nasa.gov/4993/#media_group_314533",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.<br><br>Coming soon to our YouTube channel.<br>",
+      "items": [
+        {
+          "id": 212259,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371837,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135_print.jpg",
+            "filename": "Dixie_fire_2021.7135_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This image shows the spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 212260,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371838,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135_searchweb.png",
+            "filename": "Dixie_fire_2021.7135_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 212261,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371839,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135_thm.png",
+            "filename": "Dixie_fire_2021.7135_thm.png",
+            "media_type": "Image",
+            "alt_text": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 212253,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371840,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_p30_1080p30.mp4",
+            "filename": "Dixie_fire_2021_p30_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 212255,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371842,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_1080p60.mp4",
+            "filename": "Dixie_fire_2021_1080p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 212258,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371836,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/frames/3840x2160_16x9_60p/",
+            "filename": "3840x2160_16x9_60p",
+            "media_type": "Frames",
+            "alt_text": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212262,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 848345,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/captions_silent.32827.en_US.srt",
+            "filename": "captions_silent.32827.en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 212254,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371834,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_p30_2160p30.mp4",
+            "filename": "Dixie_fire_2021_p30_2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212256,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371835,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_2160p60.mp4",
+            "filename": "Dixie_fire_2021_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 435725,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1098102,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_p30_1080p30.mp4.hwshow",
+            "filename": "Dixie_fire_2021_p30_1080p30.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 314532,
+      "url": "http://svs.gsfc.nasa.gov/4993/#media_group_314532",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "This visualization highlights data from a new fire detection and tracking approach (Chen et al., 2022) based on near-real time active fire detections from the VIIRS sensor on the Suomi-NPP satellite. Every 12 hours, the fire tracking algorithm uses new active fire detections to update the total fire perimeter and estimate the position of active fire lines where the fire may continue to spread.  Yellow lines indicate the new fire fronts from active fire data (red points) every 12 hours. This approach provides a detailed perspective on the behavior of the Dixie fire, the largest fire in California history.  The fire tracking data identify periods of rapid fire expansion, spot fires from blowing embers outside of the large fire perimeter, and active fire detections within the perimeter from continued flaming and smoldering behind the active fire fronts.  In total, the Dixie fire burned for more than 100 days, including more than a month of fire activity after the perimeter was contained in mid-September.<br><br>For more details, see the paper <a href=\"https://www.nature.com/articles/s41597-022-01343-0\">here.</a>",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 314534,
+      "url": "http://svs.gsfc.nasa.gov/4993/#media_group_314534",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This movie is identical to the above movie except that it is played twice the speed.<br><br>Coming soon to our YouTube channel.<br>",
+      "items": [
+        {
+          "id": 212268,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371844,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135_print2.jpg",
+            "filename": "Dixie_fire_2021.7135_print2.jpg",
+            "media_type": "Image",
+            "alt_text": "This movie is identical to the above movie except that it is played twice the speed.Coming soon to our YouTube channel.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 212263,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371845,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_4x_1080p30.mp4",
+            "filename": "Dixie_fire_2021_4x_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This movie is identical to the above movie except that it is played twice the speed.Coming soon to our YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 212265,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371849,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_p30_1080p60.mp4",
+            "filename": "Dixie_fire_2021_p30_1080p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "This movie is identical to the above movie except that it is played twice the speed.Coming soon to our YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 212269,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371847,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/frames/3840x2160_16x9_15p/",
+            "filename": "3840x2160_16x9_15p",
+            "media_type": "Frames",
+            "alt_text": "This movie is identical to the above movie except that it is played twice the speed.Coming soon to our YouTube channel.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212270,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371843,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/frames/3840x2160_16x9_30p/",
+            "filename": "3840x2160_16x9_30p",
+            "media_type": "Frames",
+            "alt_text": "This movie is identical to the above movie except that it is played twice the speed.Coming soon to our YouTube channel.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212271,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 848346,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/captions_silent.32828.en_US.srt",
+            "filename": "captions_silent.32828.en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "This movie is identical to the above movie except that it is played twice the speed.Coming soon to our YouTube channel.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 212264,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371846,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_4x_2160p30.mp4",
+            "filename": "Dixie_fire_2021_4x_2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This movie is identical to the above movie except that it is played twice the speed.Coming soon to our YouTube channel.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212266,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371850,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_p30_2160p60.mp4",
+            "filename": "Dixie_fire_2021_p30_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "This movie is identical to the above movie except that it is played twice the speed.Coming soon to our YouTube channel.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 435726,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1098103,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021_4x_1080p30.mp4.hwshow",
+            "filename": "Dixie_fire_2021_4x_1080p30.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 314535,
+      "url": "http://svs.gsfc.nasa.gov/4993/#media_group_314535",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "This image shows the extent of the Dixie fire on July 21, 2021. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+      "items": [
+        {
+          "id": 212274,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371852,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.1800_print.jpg",
+            "filename": "Dixie_fire_2021.1800_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This image shows the extent of the Dixie fire on July 21, 2021. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 212272,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371853,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.1800.tif",
+            "filename": "Dixie_fire_2021.1800.tif",
+            "media_type": "Image",
+            "alt_text": "This image shows the extent of the Dixie fire on July 21, 2021. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212273,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371851,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.1800.exr",
+            "filename": "Dixie_fire_2021.1800.exr",
+            "media_type": "Image",
+            "alt_text": "This image shows the extent of the Dixie fire on July 21, 2021. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 314536,
+      "url": "http://svs.gsfc.nasa.gov/4993/#media_group_314536",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "This image shows the extent of the Dixie fire on July 31, 2021. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+      "items": [
+        {
+          "id": 212277,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371855,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.2500_print.jpg",
+            "filename": "Dixie_fire_2021.2500_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This image shows the extent of the Dixie fire on July 31, 2021. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 212275,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371856,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.2500.tif",
+            "filename": "Dixie_fire_2021.2500.tif",
+            "media_type": "Image",
+            "alt_text": "This image shows the extent of the Dixie fire on July 31, 2021. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212276,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371854,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.2500.exr",
+            "filename": "Dixie_fire_2021.2500.exr",
+            "media_type": "Image",
+            "alt_text": "This image shows the extent of the Dixie fire on July 31, 2021. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 314537,
+      "url": "http://svs.gsfc.nasa.gov/4993/#media_group_314537",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "This image shows the extent of the Dixie fire on August 31, 2021.  The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+      "items": [
+        {
+          "id": 212280,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371858,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.4700_print.jpg",
+            "filename": "Dixie_fire_2021.4700_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This image shows the extent of the Dixie fire on August 31, 2021.  The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 212278,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371859,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.4700.tif",
+            "filename": "Dixie_fire_2021.4700.tif",
+            "media_type": "Image",
+            "alt_text": "This image shows the extent of the Dixie fire on August 31, 2021.  The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212279,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371857,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.4700.exr",
+            "filename": "Dixie_fire_2021.4700.exr",
+            "media_type": "Image",
+            "alt_text": "This image shows the extent of the Dixie fire on August 31, 2021.  The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 314538,
+      "url": "http://svs.gsfc.nasa.gov/4993/#media_group_314538",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "This image shows the spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color.",
+      "items": [
+        {
+          "id": 212284,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371837,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135_print.jpg",
+            "filename": "Dixie_fire_2021.7135_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This image shows the spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 212282,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855232,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135.png",
+            "filename": "Dixie_fire_2021.7135.png",
+            "media_type": "Image",
+            "alt_text": "This image shows the spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212281,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371861,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135.tif",
+            "filename": "Dixie_fire_2021.7135.tif",
+            "media_type": "Image",
+            "alt_text": "This image shows the spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212283,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371860,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/Dixie_fire_2021.7135.exr",
+            "filename": "Dixie_fire_2021.7135.exr",
+            "media_type": "Image",
+            "alt_text": "This image shows the spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 314539,
+      "url": "http://svs.gsfc.nasa.gov/4993/#media_group_314539",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Perimeter of the Dixie wildfire as of October 22, 2021. The dropdown menu offers multiple resolutions for a 16:9 aspect ratio.",
+      "items": [
+        {
+          "id": 212285,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371862,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/4k_fires_dixie_3840_2160_print.jpg",
+            "filename": "4k_fires_dixie_3840_2160_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Perimeter of the Dixie wildfire as of October 22, 2021. The dropdown menu offers multiple resolutions for a 16:9 aspect ratio.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 212287,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371864,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/4k_fires_dixie_1920_1080.png",
+            "filename": "4k_fires_dixie_1920_1080.png",
+            "media_type": "Image",
+            "alt_text": "Perimeter of the Dixie wildfire as of October 22, 2021. The dropdown menu offers multiple resolutions for a 16:9 aspect ratio.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 212286,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371863,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/4k_fires_dixie_3840_2160.png",
+            "filename": "4k_fires_dixie_3840_2160.png",
+            "media_type": "Image",
+            "alt_text": "Perimeter of the Dixie wildfire as of October 22, 2021. The dropdown menu offers multiple resolutions for a 16:9 aspect ratio.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 212288,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 371865,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004993/4k_fires_dixie_original-01.png",
+            "filename": "4k_fires_dixie_original-01.png",
+            "media_type": "Image",
+            "alt_text": "Perimeter of the Dixie wildfire as of October 22, 2021. The dropdown menu offers multiple resolutions for a 16:9 aspect ratio.",
+            "width": 16000,
+            "height": 9000,
+            "pixels": 144000000
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Scientist", "people": [{ "name": "Doug C. Morton", "employer": "NASA/GSFC" }] },
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Cindy Starr", "employer": "Global Science and Technology, Inc." },
+        { "name": "Horace Mitchell", "employer": "NASA/GSFC" },
+        { "name": "Michala Garrison", "employer": "SSAI" },
+        { "name": "AJ Christensen", "employer": "SSAI" },
+        { "name": "Greg Shirah", "employer": "NASA/GSFC" },
+        { "name": "Kel Elkins", "employer": "USRA" },
+        { "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [
+    "Chen, Y., Hantson, S., Andela, N. et al. California wildfire spread derived using VIIRS satellite observations and an object-based tracking system. Sci Data 9, 249 (2022). https://doi.org/10.1038/s41597-022-01343-0",
+    "Chen, Y., Hantson, S., Andela, N. et al. California wildfire spread derived using VIIRS satellite observations and an object-based tracking system. Sci Data 9, 249 (2022). https://doi.org/10.1038/s41597-022-01343-0"
+  ],
+  "datasets": [
+    {
+      "name": "DEM",
+      "common_name": "",
+      "platform": "SRTM",
+      "sensor": "SIR-C",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "Band Combination 4-3-2",
+      "common_name": "",
+      "platform": "Landsat-8",
+      "sensor": "OLI/TIRS",
+      "type": "Observed Data",
+      "organizations": ["USGS"],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": "7/11/2021 - 7/11/2021"
+    },
+    {
+      "name": "California Wildfire Spread Derived using VIIRS Observations and an Object-based Tracking System",
+      "common_name": "California Wildfire Spread Derived using VIIRS Observations and an Object-based Tracking System",
+      "platform": "Suomi-NPP",
+      "sensor": "VIIRS",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "Chen, Yang; Hantson, Stijn; Andela, Niels; Coffield, Shane; Graff, Casey; Morton, Douglas C.; et al. (2022): A Dataset of California Wildfire Spread Derived Using VIIRS Observations and an Object-based Tracking System. figshare. Collection. https://doi.org/10.6084/m9.figshare.c.5601537.v1",
+      "url": "https://springernature.figshare.com/collections/A_Dataset_of_California_Wildfire_Spread_Derived_Using_VIIRS_Observations_and_an_Object-based_Tracking_System/5601537/1",
+      "date_range": "07/14/2021 - 10/22/2021"
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Biosphere",
+    "Earth Science",
+    "Ecological Dynamics",
+    "Environmental Governance/management",
+    "Fire Management",
+    "Fire Occurrence",
+    "Fires",
+    "Human Dimensions",
+    "Human geography",
+    "Hyperwall",
+    "Natural hazards"
+  ],
+  "recommended_pages": [
+    {
+      "id": 14606,
+      "url": "http://svs.gsfc.nasa.gov/14606/",
+      "page_type": "Produced Video",
+      "title": "NASA and Fire",
+      "description": "Wildland fires, which are natural and essential for many ecosystems, have increased in frequency and size due to longer fire seasons, climate change, and the expanding interface between communities and wild vegetation. Using fire strategically—through prescribed burns and natural ignitions—can mitigate future severe fires that might burn more intensely under hotter, drier conditions.",
+      "release_date": "2024-07-29T15:00:00-04:00",
+      "update_date": "2025-09-15T17:43:50.308847-04:00",
+      "main_image": {
+        "id": 1158279,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_Image_4K.jpg",
+        "filename": "EIC_NASAandFire_Main_Image_4K.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.\r\n\r\nMusic credit: \"Magical Moments by Liam Joseph Hennessy [ PRS ]\" and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines.",
+        "width": 3840,
+        "height": 1080,
+        "pixels": 4147200
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": 4992,
+      "url": "http://svs.gsfc.nasa.gov/4992/",
+      "page_type": "Visualization",
+      "title": "Spread of the Caldor Fire - 2021",
+      "description": "This visualization shows the spread of the Caldor fire between August 15 and October 6, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel. || Caldor_fire_2021.6540_print2.jpg (1024x576) [371.6 KB] || Caldor_fire_2021_p30_1080p30.mp4 (1920x1080) [107.8 MB] || Caldor_fire_2021_1080p60.mp4 (1920x1080) [123.2 MB] || 3840x2160_16x9_60p (3840x2160) [0 Item(s)] || captions_silent.32783.en_US.srt [43 bytes] || Caldor_fire_2021_p30_2160p30.mp4 (3840x2160) [356.4 MB] || Caldor_fire_2021_2160p60.mp4 (3840x2160) [383.8 MB] || firespread02.hwshow || Caldor_fire_2021_p30_1080p30.mp4.hwshow || ",
+      "release_date": "2022-06-01T09:00:00-04:00",
+      "update_date": "2025-06-23T00:13:41.498157-04:00",
+      "main_image": {
+        "id": 371889,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004992/Caldor_fire_2021.6540_print2.jpg",
+        "filename": "Caldor_fire_2021.6540_print2.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the spread of the Caldor fire between August 15 and October 6, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5009,
+      "url": "http://svs.gsfc.nasa.gov/5009/",
+      "page_type": "Visualization",
+      "title": "Dixie and Caldor Wildfires Locator Maps - 2021",
+      "description": "Perimeters of Dixie and Caldor wildfires located in California. The extent of the Dixie wildfire is as of October 22, 2021, while the extent of the Caldor wildfire is as of October 6, 2021. The dropdown menu offers multiple resolutions for a 32:27 aspect ratio. || fires_preview.jpg (1024x864) [167.1 KB] || fires_16000.png (16000x13500) [19.6 MB] || fires_3840.png (3840x3240) [11.1 MB] || fires_16000_searchweb.png (320x180) [71.5 KB] || fires_16000_thm.png (80x40) [5.2 KB] || ",
+      "release_date": "2022-06-01T00:00:00-04:00",
+      "update_date": "2025-03-16T22:55:05.652269-04:00",
+      "main_image": {
+        "id": 842113,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005009/fires_16000_searchweb.png",
+        "filename": "fires_16000_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Perimeters of Dixie and Caldor wildfires located in California. The extent of the Dixie wildfire is as of October 22, 2021, while the extent of the Caldor wildfire is as of October 6, 2021. The dropdown menu offers multiple resolutions for a 32:27 aspect ratio.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "id": 14285,
+      "url": "http://svs.gsfc.nasa.gov/14285/",
+      "page_type": "Produced Video",
+      "title": "Wildfires 101: How NASA Studies Fires in a Changing World",
+      "description": "Complete transcript available.Universal Production Music:  Big Found by Ran Shir [BMI], Rotem Moav [BMI]; Swirling Blizzard by Laurent Dury [SACEM]; Dry Ice by Alessandro Rizzo [PRS], Elliot Greenway Ireland [PRS], Paper Boy [PRS]; Into Motion by Peter Larsen [PRS] This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html || 14285_Thumbnail.jpg (1920x1080) [750.1 KB] || 14285_Thumbnail_print.jpg (1024x576) [330.7 KB] || 14285_Thumbnail_searchweb.png (320x180) [91.0 KB] || 14285_Thumbnail_web.png (320x180) [91.0 KB] || 14285_Thumbnail_thm.png (80x40) [6.5 KB] || 14285_Wildfires101.webm (1920x1080) [40.4 MB] || 14285_Wildfires101.mp4 (1920x1080) [688.0 MB] || 14285_Wildfires101.en_US.srt [7.9 KB] || 14285_Wildfires101.en_US.vtt [7.5 KB] || ",
+      "release_date": "2023-08-02T00:00:00-04:00",
+      "update_date": "2023-07-03T14:20:25.908270-04:00",
+      "main_image": {
+        "id": 552560,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014200/a014285/14285_Thumbnail.jpg",
+        "filename": "14285_Thumbnail.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Universal Production Music:  Big Found by Ran Shir [BMI], Rotem Moav [BMI]; Swirling Blizzard by Laurent Dury [SACEM]; Dry Ice by Alessandro Rizzo [PRS], Elliot Greenway Ireland [PRS], Paper Boy [PRS]; Into Motion by Peter Larsen [PRS] This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5088,
+      "url": "http://svs.gsfc.nasa.gov/5088/",
+      "page_type": "Visualization",
+      "title": "Tracking the Spread of the Caldor and Dixie Fires",
+      "description": "This visualization shows the spread of the Caldor and the Dixie fires in California during the summer of 2021, updated every 12 hours from a new fire detection and tracking approach based on near-real time active fire detections from the VIIRS sensor on the Suomi-NPP satellite.Complete transcript available. || Tracking_the_Caldor_and_Dixie_Fires.03615_print.jpg (1024x576) [296.7 KB] || Tracking_the_Caldor_and_Dixie_Fires.03615_searchweb.png (320x180) [133.9 KB] || Tracking_the_Caldor_and_Dixie_Fires.03615_thm.png (80x40) [7.8 KB] || Tracking_the_Caldor_and_Dixie_Fires.mp4 (1920x1080) [336.4 MB] || Tracking_the_Caldor_and_Dixie_Fires.mp4.en_US.srt [3.9 KB] || Tracking_the_Caldor_and_Dixie_Fires.mp4.en_US.vtt [3.7 KB] || Tracking_the_Caldor_and_Dixie_Fires.mp4.hwshow || ",
+      "release_date": "2023-06-12T00:00:00-04:00",
+      "update_date": "2025-06-23T00:15:49.119129-04:00",
+      "main_image": {
+        "id": 841998,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005088/Tracking_the_Caldor_and_Dixie_Fires.03615_print.jpg",
+        "filename": "Tracking_the_Caldor_and_Dixie_Fires.03615_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the spread of the Caldor and the Dixie fires in California during the summer of 2021, updated every 12 hours from a new fire detection and tracking approach based on near-real time active fire detections from the VIIRS sensor on the Suomi-NPP satellite.Complete transcript available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 31184,
+      "url": "http://svs.gsfc.nasa.gov/31184/",
+      "page_type": "Hyperwall Visual",
+      "title": "NASA’s New Scientific Breakdown of Dramatic Caldor and Dixie Fires",
+      "description": "Complete transcript available. || Caldor_fire_2021.6540_print2.jpg (1024x576) [371.6 KB] || Caldor_fire_2021.6540_print2_searchweb.png (320x180) [132.2 KB] || Caldor_fire_2021.6540_print2_thm.png [7.6 KB] || CCaldor_fire_finLmp4.mp4 (1920x1080) [516.8 MB] || Caldor_fire_3_final.mp4 (1920x1080) [517.1 MB] || Caldor_firefinalmp4_otter_ai.en_US.srt [4.5 KB] || Caldor_firefinalmp4_otter_ai.en_US.vtt [4.5 KB] || ",
+      "release_date": "2022-05-30T11:30:00-04:00",
+      "update_date": "2025-01-14T14:37:17.438063-05:00",
+      "main_image": {
+        "id": 1140895,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031184/Caldor_fire_2021.6540_print2.jpg",
+        "filename": "Caldor_fire_2021.6540_print2.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

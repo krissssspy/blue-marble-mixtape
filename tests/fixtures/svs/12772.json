@@ -1,0 +1,900 @@
+{
+  "id": 12772,
+  "url": "http://svs.gsfc.nasa.gov/12772/",
+  "page_type": "Produced Video",
+  "title": "2017 Hurricanes and Aerosols Simulation",
+  "description": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel. || 12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_print.jpg (1024x576) [161.7 KB] || 12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_searchweb.png (180x320) [108.8 KB] || 12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_thm.png (80x40) [7.5 KB] || 12772_hurricanes_and_aerosols_appletv.m4v (1280x720) [78.1 MB] || 12772_hurricanes_and_aerosols_twitter_720.mp4 (1280x720) [34.1 MB] || 12772_hurricanes_and_aerosols.webm (960x540) [65.0 MB] || 12772_hurricanes_and_aerosols_appletv_subtitles.m4v (1280x720) [78.1 MB] || 12772_hurricanes_and_aerosols_1080p_large.mp4 (1920x1080) [163.1 MB] || 12772_hurricanes_and_aerosols_facebook_720.mp4 (1280x720) [184.9 MB] || 12772_hurricanes_and_aerosols_youtube_1080.mp4 (1920x1080) [247.2 MB] || 12772_hurricanes_and_aerosols_youtube_720.mp4 (1280x720) [247.9 MB] || 12772_hurricanes_aerosols_captions.en_US.srt [3.1 KB] || 12772_hurricanes_aerosols_captions.en_US.vtt [3.1 KB] || 12772_hurricanes_and_aerosols_UHD.mp4 (3840x2160) [739.9 MB] || 12772_hurricanes_and_aerosols_1080p-prores.mov (1920x1080) [4.3 GB] || 12772_hurricanes_and_aerosols_UHD_4444.mov (3840x2160) [40.1 GB] || ",
+  "release_date": "2021-05-05T10:25:00-04:00",
+  "update_date": "2025-03-02T23:42:53.438902-05:00",
+  "main_image": {
+    "id": 409572,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_print.jpg",
+    "filename": "12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Produced by": [{ "name": "Matthew R. Radcliff", "employer": "USRA" }],
+    "Scientific consulting by": [{ "name": "William Putman", "employer": "NASA/GSFC" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 317385,
+      "url": "http://svs.gsfc.nasa.gov/12772/#media_group_317385",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.<p><p>Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]<p><p><p><a href=\"/vis/a010000/a012700/a012772/12772_hurricanes_aerosols_transcript.html\">Complete transcript</a> available.</p><p><b>Watch this video on the <a href=\"https://www.youtube.com/watch?v=h1eRp0EGOmE\" target=\"_blank\" >NASA Goddard YouTube channel</a>.</b><p>",
+      "items": [
+        {
+          "id": 221164,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409572,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_print.jpg",
+            "filename": "12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 221165,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409573,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_searchweb.png",
+            "filename": "12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 221166,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409574,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_thm.png",
+            "filename": "12772_hurricanes_and_aerosols_1080p_youtube_1080.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 221159,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409576,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_appletv.m4v",
+            "filename": "12772_hurricanes_and_aerosols_appletv.m4v",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 221163,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409580,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_twitter_720.mp4",
+            "filename": "12772_hurricanes_and_aerosols_twitter_720.mp4",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 221169,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409575,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols.webm",
+            "filename": "12772_hurricanes_and_aerosols.webm",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 221170,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409584,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_appletv_subtitles.m4v",
+            "filename": "12772_hurricanes_and_aerosols_appletv_subtitles.m4v",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 221158,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409571,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_1080p_large.mp4",
+            "filename": "12772_hurricanes_and_aerosols_1080p_large.mp4",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221162,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409577,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_facebook_720.mp4",
+            "filename": "12772_hurricanes_and_aerosols_facebook_720.mp4",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 221160,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409578,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_youtube_1080.mp4",
+            "filename": "12772_hurricanes_and_aerosols_youtube_1080.mp4",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221161,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409579,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_youtube_720.mp4",
+            "filename": "12772_hurricanes_and_aerosols_youtube_720.mp4",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 221167,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 848958,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_aerosols_captions.en_US.srt",
+            "filename": "12772_hurricanes_aerosols_captions.en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 221168,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 848959,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_aerosols_captions.en_US.vtt",
+            "filename": "12772_hurricanes_aerosols_captions.en_US.vtt",
+            "media_type": "Captions",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 221156,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409583,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_UHD.mp4",
+            "filename": "12772_hurricanes_and_aerosols_UHD.mp4",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 221157,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409581,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_1080p-prores.mov",
+            "filename": "12772_hurricanes_and_aerosols_1080p-prores.mov",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221155,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409582,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_and_aerosols_UHD_4444.mov",
+            "filename": "12772_hurricanes_and_aerosols_UHD_4444.mov",
+            "media_type": "Movie",
+            "alt_text": "Tracking aerosols over land and water from August 1 to November 1, 2017.  Hurricanes and tropical storms are obvious from the large amounts of sea salt particles caught up in their swirling winds. The dust blowing off the Sahara, however, gets caught by water droplets and is rained out of the storm system.  Smoke from the massive fires in the Pacific Northwest region of North America are blown across the Atlantic to the UK and Europe.  This visualization is a result of combining NASA satellite data with sophisticated mathematical models that describe the underlying physical processes.Music: Elapsing Time by Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Complete transcript available.Watch this video on the NASA Goddard YouTube channel.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317384,
+      "url": "http://svs.gsfc.nasa.gov/12772/#media_group_317384",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Tracking the aerosols carried on the winds let scientists see the currents in our atmosphere.  This visualization follows sea salt, dust, and smoke from July 31 to November 1, 2017, to reveal how these particles are transported across the map.</p>\r\rThe first thing that is noticeable is how far the particles can travel.  Smoke from fires in the Pacific Northwest gets caught in a weather pattern and pulled all the way across the US and over to Europe.  Hurricanes form off the coast of Africa and travel across the Atlantic to make landfall in the United States.  Dust from the Sahara is blown into the Gulf of Mexico.  To understand the impacts of aerosols, scientists need to study the process as a global system.</p>\r\rThe Global Modeling and Assimilation Office (GMAO) at NASA's Goddard Space Flight Center has developed the Goddard Earth Observing System (GEOS), a family of mathematical models. Combined with data from NASA's Earth observing satellites, the supercomputer simulations enhance our scientific understanding of specific chemical, physical, and biological processes.</p>\r\rDuring the 2017 hurricane season, the storms are visible because of the sea salt that is captured by the storms.  Strong winds at the surface lift the sea salt into the atmosphere and the particles are incorporated into the storm.  Hurricane Irma is the first big storm that spawns off the coast of Africa. As the storm spins up, the Saharan dust is absorbed in cloud droplets and washed out of the storm as rain. This process happens with most of the storms, except for Hurricane Ophelia.  Forming more northward than most storms, Ophelia traveled to the east picking up dust from the Sahara and smoke from large fires in Portugal.  Retaining its tropical storm state farther northward than any system in the Atlantic, Ophelia carried the smoke and dust into Ireland and the UK.</p>\r\rComputer simulations using the GEOS models allow scientists to see how different processes fit together and evolve as a system.  By using mathematical models to represent nature we can separate the system into component parts and better understand the underlying physics of each.<br><br>GEOS runs on the Discover supercomputer at the NASA Center for Climate Simulation (NCCS)<br><br>For more information:  <a href=\"https://www.nas.nasa.gov/SC17/demos/demo34.html\">NASA@SC17: Glimpse at the Future of Global Weather Prediction and Analysis at NASA</a>",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 317386,
+      "url": "http://svs.gsfc.nasa.gov/12772/#media_group_317386",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "[Versión en español]<p>Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.<p><p>Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]<p><p><p><a href=\"/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols-transcript.html\">Transcripción completa</a> disponible</p>",
+      "items": [
+        {
+          "id": 221177,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409585,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_poster_print.jpg",
+            "filename": "12772_es_hurricanes_aerosols_poster_print.jpg",
+            "media_type": "Image",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 221176,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409588,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_poster.jpg",
+            "filename": "12772_es_hurricanes_aerosols_poster.jpg",
+            "media_type": "Image",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 221180,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409591,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_1080_yt.webm",
+            "filename": "12772_es_hurricanes_aerosols_1080_yt.webm",
+            "media_type": "Movie",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221175,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409587,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_1080_tw.mp4",
+            "filename": "12772_es_hurricanes_aerosols_1080_tw.mp4",
+            "media_type": "Movie",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221174,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409586,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_1080_yt.mp4",
+            "filename": "12772_es_hurricanes_aerosols_1080_yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221178,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 848961,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_captions.es_LA.srt",
+            "filename": "12772_es_hurricanes_aerosols_captions.es_LA.srt",
+            "media_type": "Captions",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "label": "English",
+            "language_code": "es-LA"
+          }
+        },
+        {
+          "id": 221179,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 848960,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_captions.es_LA.vtt",
+            "filename": "12772_es_hurricanes_aerosols_captions.es_LA.vtt",
+            "media_type": "Captions",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "label": "English",
+            "language_code": "es-LA"
+          }
+        },
+        {
+          "id": 221172,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409589,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_UHD_yt.mp4",
+            "filename": "12772_es_hurricanes_aerosols_UHD_yt.mp4",
+            "media_type": "Movie",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 221173,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409590,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_1080_pr.mov",
+            "filename": "12772_es_hurricanes_aerosols_1080_pr.mov",
+            "media_type": "Movie",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221171,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409592,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_es_hurricanes_aerosols_UHD_pr.mov",
+            "filename": "12772_es_hurricanes_aerosols_UHD_pr.mov",
+            "media_type": "Movie",
+            "alt_text": "[Versión en español]Rastreando de aerosoles sobre tierra y agua desde el 1 de agosto hasta el 1 de noviembre de 2017. Los huracanes y las tormentas tropicales son obvios por las grandes cantidades de partículas de sal marina atrapadas en sus vientos arremolinados. Sin embargo, el polvo del Sahara queda atrapado por las gotas de agua y sale por lluvia del sistema de tormentas. El humo de los incendios masivos en la región noroeste del Pacífico de América del Norte cruza el Atlántico hacia el Reino Unido y Europa. Esta visualización es el resultado de combinar datos satelitales de la NASA con sofisticados modelos matemáticos que describen los procesos físicos subyacentes.Música: Elapsing Time por Christian Telford [ASCAP], Robert Anthony Navarro [ASCAP]Transcripción completa disponible",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317387,
+      "url": "http://svs.gsfc.nasa.gov/12772/#media_group_317387",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Version without hurricane labels, dates, nor legend for color scales.",
+      "items": [
+        {
+          "id": 221184,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409597,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes-aerosols-1920-raw.00001_print.jpg",
+            "filename": "12772_hurricanes-aerosols-1920-raw.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Version without hurricane labels, dates, nor legend for color scales.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 221185,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409596,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes-aerosols-1920-raw.webm",
+            "filename": "12772_hurricanes-aerosols-1920-raw.webm",
+            "media_type": "Movie",
+            "alt_text": "Version without hurricane labels, dates, nor legend for color scales.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221183,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409593,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes-aerosols-1920-raw.mp4",
+            "filename": "12772_hurricanes-aerosols-1920-raw.mp4",
+            "media_type": "Movie",
+            "alt_text": "Version without hurricane labels, dates, nor legend for color scales.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221182,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409594,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes-aerosols-UHD-raw.mp4",
+            "filename": "12772_hurricanes-aerosols-UHD-raw.mp4",
+            "media_type": "Movie",
+            "alt_text": "Version without hurricane labels, dates, nor legend for color scales.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 221181,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409595,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes-aerosols-UHD-raw.mov",
+            "filename": "12772_hurricanes-aerosols-UHD-raw.mov",
+            "media_type": "Movie",
+            "alt_text": "Version without hurricane labels, dates, nor legend for color scales.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317388,
+      "url": "http://svs.gsfc.nasa.gov/12772/#media_group_317388",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbars indicating the amount of smoke, sea salt, and dust (expressed as aerosol optical depth at 550 nm), on transparent background.",
+      "items": [
+        {
+          "id": 221188,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409600,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_aerosol_colorbar_print.jpg",
+            "filename": "12772_aerosol_colorbar_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Colorbars indicating the amount of smoke, sea salt, and dust (expressed as aerosol optical depth at 550 nm), on transparent background.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 221187,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409599,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_aerosol_colorbar.png",
+            "filename": "12772_aerosol_colorbar.png",
+            "media_type": "Image",
+            "alt_text": "Colorbars indicating the amount of smoke, sea salt, and dust (expressed as aerosol optical depth at 550 nm), on transparent background.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 221186,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409598,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_aerosol_colorbar.psd",
+            "filename": "12772_aerosol_colorbar.psd",
+            "media_type": "Image",
+            "alt_text": "Colorbars indicating the amount of smoke, sea salt, and dust (expressed as aerosol optical depth at 550 nm), on transparent background.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 317389,
+      "url": "http://svs.gsfc.nasa.gov/12772/#media_group_317389",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Video of dates on transparent background.",
+      "items": [
+        {
+          "id": 221192,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409603,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_aerosols_dates_1920.00001_print.jpg",
+            "filename": "12772_hurricanes_aerosols_dates_1920.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Video of dates on transparent background.",
+            "width": 576,
+            "height": 1024,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 221191,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409605,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_aerosols_dates_1920.mp4",
+            "filename": "12772_hurricanes_aerosols_dates_1920.mp4",
+            "media_type": "Movie",
+            "alt_text": "Video of dates on transparent background.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221193,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409604,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_aerosols_dates_1920.webm",
+            "filename": "12772_hurricanes_aerosols_dates_1920.webm",
+            "media_type": "Movie",
+            "alt_text": "Video of dates on transparent background.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221190,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409602,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_aerosols_dates_1920.mov",
+            "filename": "12772_hurricanes_aerosols_dates_1920.mov",
+            "media_type": "Movie",
+            "alt_text": "Video of dates on transparent background.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 221189,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 409601,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012700/a012772/12772_hurricanes_aerosols_dates_UHD.mov",
+            "filename": "12772_hurricanes_aerosols_dates_UHD.mov",
+            "media_type": "Movie",
+            "alt_text": "Video of dates on transparent background.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["PAO"],
+  "credits": [
+    { "role": "Producer", "people": [{ "name": "Matthew R. Radcliff", "employer": "USRA" }] },
+    {
+      "role": "Technical support",
+      "people": [{ "name": "Aaron E. Lepsch", "employer": "ADNET Systems, Inc." }]
+    },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "William Putman", "employer": "NASA/GSFC" },
+        { "name": "Anton S. Darmenov", "employer": "NASA/GSFC" }
+      ]
+    },
+    {
+      "role": "Narrator",
+      "people": [
+        { "name": "Ellen T. Gray", "employer": "ADNET Systems, Inc." },
+        { "name": "Cristina Porras", "employer": "GBH" }
+      ]
+    },
+    { "role": "Translator", "people": [{ "name": "Cristina Porras", "employer": "GBH" }] }
+  ],
+  "missions": [],
+  "series": ["GEOS-DAS", "Hurricanes", "Narrated Movies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "aerosols",
+    "Atmosphere",
+    "Atmospheric Composition",
+    "Atmospheric Phenomena",
+    "Atmospheric science",
+    "Earth Science",
+    "GEOS",
+    "HDTV",
+    "Hurricane Harvey",
+    "Hurricanes",
+    "Hyperwall",
+    "Natural hazards",
+    "Supercomputer",
+    "Supercomputing Conference"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [
+    {
+      "id": 31171,
+      "url": "http://svs.gsfc.nasa.gov/31171/",
+      "page_type": "Hyperwall Visual",
+      "title": "How do we know for sure about Atmospheric Aerosols?",
+      "description": "Dr. Brent Holben explains how NASA's program of global ground-based sun photometers measure aerosols at the surface and why those measurements are so vital to understanding the Earth's processes at the 2021 United Nations Climate Change Conference.   Also available on YouTube || COP26_NASA_Hyperwall_Presentation_Atmospheric_Aerosols.02500_print.jpg (1024x576) [112.3 KB] || COP26_NASA_Hyperwall_Presentation_Atmospheric_Aerosols.02500_searchweb.png (320x180) [81.8 KB] || COP26_NASA_Hyperwall_Presentation_Atmospheric_Aerosols.02500_thm.png (80x40) [7.0 KB] || COP26_NASA_Hyperwall_Presentation_Atmospheric_Aerosols.mp4 (1280x720) [135.7 MB] || COP26_NASA_Hyperwall_Presentation_Atmospheric_Aerosols.webm (1280x720) [110.7 MB] || AERONET-COP26-talk2021.en_US.srt [19.2 KB] || AERONET-COP26-talk2021.en_US.vtt [19.0 KB] || ",
+      "release_date": "2021-12-14T00:00:00-05:00",
+      "update_date": "2023-05-03T13:43:39.704420-04:00",
+      "main_image": {
+        "id": 374985,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031100/a031171/COP26_NASA_Hyperwall_Presentation_Atmospheric_Aerosols.02500_print.jpg",
+        "filename": "COP26_NASA_Hyperwall_Presentation_Atmospheric_Aerosols.02500_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Dr. Brent Holben explains how NASA's program of global ground-based sun photometers measure aerosols at the surface and why those measurements are so vital to understanding the Earth's processes at the 2021 United Nations Climate Change Conference.   Also available on YouTube",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 13909,
+      "url": "http://svs.gsfc.nasa.gov/13909/",
+      "page_type": "Produced Video",
+      "title": "How NASA Satellites Help Model the Future of Climate",
+      "description": "Music: \"Connections Established,\" \"Data Visions,\" Universal Production MusicComplete transcript available. || gpmclimatethumb.png (1673x938) [2.6 MB] || gpmclimatethumb_print.jpg (1024x574) [222.0 KB] || gpmclimatethumb_searchweb.png (320x180) [126.5 KB] || gpmclimatethumb_thm.png (80x40) [11.6 KB] || ClimMod_v3.webm (1920x1080) [37.3 MB] || GPMClimMod_Twitter.mp4 (1920x1080) [203.6 MB] || ClimMod_v3.mp4 (1920x1080) [342.0 MB] || ClimMod.en_US.srt [7.2 KB] || ClimMod.en_US.vtt [6.8 KB] || GPMClimMod_prores.mov (1920x1080) [4.6 GB] || ",
+      "release_date": "2021-08-24T00:00:00-04:00",
+      "update_date": "2025-01-06T01:35:16.228977-05:00",
+      "main_image": {
+        "id": 377581,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013900/a013909/gpmclimatethumb.png",
+        "filename": "gpmclimatethumb.png",
+        "media_type": "Image",
+        "alt_text": "Music: \"Connections Established,\" \"Data Visions,\" Universal Production MusicComplete transcript available.",
+        "width": 1673,
+        "height": 938,
+        "pixels": 1569274
+      }
+    },
+    {
+      "id": 13262,
+      "url": "http://svs.gsfc.nasa.gov/13262/",
+      "page_type": "Produced Video",
+      "title": "NASA and NOAA Take to the Air to Chase Smoke",
+      "description": "Music: Broad Horizons by Chris White [PRS]Complete transcript available. || Still.png (1773x995) [3.3 MB] || Still_print.jpg (1024x574) [163.4 KB] || Still_searchweb.png (320x180) [119.4 KB] || Still_thm.png (80x40) [7.0 KB] || TWITTER_720_13692_FIREExKickoff_twitter_720.mp4 (1280x720) [27.0 MB] || 13692_FIREExKickoff.webm (960x540) [44.5 MB] || 13262_FIREExKickoff.mov (1920x1080) [1.4 GB] || YOUTUBE_1080_13692_FIREExKickoff_youtube_1080.mp4 (1920x1080) [207.3 MB] || 13262_FIREEx.en_US.srt [2.9 KB] || 13262_FIREEx.en_US.vtt [2.9 KB] || ",
+      "release_date": "2019-07-22T11:00:00-04:00",
+      "update_date": "2023-05-03T13:45:48.109554-04:00",
+      "main_image": {
+        "id": 394345,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013200/a013262/Still.png",
+        "filename": "Still.png",
+        "media_type": "Image",
+        "alt_text": "Music: Broad Horizons by Chris White [PRS]Complete transcript available.",
+        "width": 1773,
+        "height": 995,
+        "pixels": 1764135
+      }
+    },
+    {
+      "id": 13216,
+      "url": "http://svs.gsfc.nasa.gov/13216/",
+      "page_type": "Produced Video",
+      "title": "NASA Has Eyes On The Atlantic Hurricane Season",
+      "description": "NASA has a unique and important view of hurricanes around the planet. Satellites and aircraft watch as storms form, travel across the ocean and sometimes, make landfall. After the hurricanes have passed, the satellites and aircraft see the aftermath of hurricanes, from downed forests to mass power loss. || ",
+      "release_date": "2019-06-03T12:00:00-04:00",
+      "update_date": "2023-05-03T13:45:55.673932-04:00",
+      "main_image": {
+        "id": 395572,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013200/a013216/13216_NASA_Has_Eyes_On_The_Atlantic_Hurricane_Season_YouTube.00050_print.jpg",
+        "filename": "13216_NASA_Has_Eyes_On_The_Atlantic_Hurricane_Season_YouTube.00050_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Music credits: “Northern Breeze” by Denis Levaillant [SACEM], “Stunning Horizon” by Maxime Lebidois [SACEM], Ronan Maillard [SACEM], “Magnetic Force” by JC Lemay [SACEM] from Killer TracksWatch this video on the NASA Goddard YouTube channel.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by pond5.com is obtained through permission and may not be excised or remixed in other products. Specific details on stock footage may be found here. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html.Notes on footage:• 0:03 - 0:17 provided by Pond5• 1:38 - 1.43 provided by Pond5• 1:49 - 1:52 provided by Pond5• 2:21 - 1:27 provided by Pond5",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 12983,
+      "url": "http://svs.gsfc.nasa.gov/12983/",
+      "page_type": "Produced Video",
+      "title": "Dust in the Wind",
+      "description": "Dust, salt and smoke swirling in the air tell a story of summer 2017. || CoverStill.png (1920x1080) [2.3 MB] || CoverStill_1024x576.jpg (1024x576) [130.9 KB] || CoverStill_print.jpg (1024x576) [140.9 KB] || CoverStill_searchweb.png (320x180) [110.4 KB] || CoverStill_thm.png (80x40) [7.7 KB] || ",
+      "release_date": "2018-08-27T12:00:00-04:00",
+      "update_date": "2023-05-03T13:46:28.800456-04:00",
+      "main_image": {
+        "id": 400910,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012900/a012983/CoverStill.png",
+        "filename": "CoverStill.png",
+        "media_type": "Image",
+        "alt_text": "Dust, salt and smoke swirling in the air tell a story of summer 2017.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

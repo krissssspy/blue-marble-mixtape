@@ -1,0 +1,533 @@
+{
+  "id": 10480,
+  "url": "http://svs.gsfc.nasa.gov/10480/",
+  "page_type": "Produced Video",
+  "title": "GRACE Beauty Pass Animations",
+  "description": "GRACE, Gravity Recovery And Climate Experiment - twin satellites launched in March 2002, are making detailed measurements of Earth's gravity field which will lead to discoveries about gravity and Earth's natural systems. These discoveries could have far-reaching benefits to society and the world's population. || ",
+  "release_date": "2009-08-14T00:00:00-04:00",
+  "update_date": "2023-05-03T13:54:40.366533-04:00",
+  "main_image": {
+    "id": 496721,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_H264_720p.00077_print.jpg",
+    "filename": "10480_GRACE_Beauty_Pass_1_H264_720p.00077_print.jpg",
+    "media_type": "Image",
+    "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": {
+    "id": 496709,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_GoddardShorts.webmhd.webm",
+    "filename": "10480_GRACE_Beauty_Pass_1_GoddardShorts.webmhd.webm",
+    "media_type": "Movie",
+    "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+    "width": 960,
+    "height": 540,
+    "pixels": 518400
+  },
+  "main_credits": { "Visualizations by": [{ "name": "Chris Meaney", "employer": "HTSI" }] },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 354416,
+      "url": "http://svs.gsfc.nasa.gov/10480/#media_group_354416",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "GRACE, Gravity Recovery And Climate Experiment - twin satellites launched in March 2002, are making detailed measurements of Earth's gravity field which will lead to discoveries about gravity and Earth's natural systems. These discoveries could have far-reaching benefits to society and the world's population.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 354417,
+      "url": "http://svs.gsfc.nasa.gov/10480/#media_group_354417",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+      "items": [
+        {
+          "id": 341810,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496721,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_H264_720p.00077_print.jpg",
+            "filename": "10480_GRACE_Beauty_Pass_1_H264_720p.00077_print.jpg",
+            "media_type": "Image",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 341808,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496719,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_H264_720p_web.png",
+            "filename": "10480_GRACE_Beauty_Pass_1_H264_720p_web.png",
+            "media_type": "Image",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 341809,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496720,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_H264_720p_thm.png",
+            "filename": "10480_GRACE_Beauty_Pass_1_H264_720p_thm.png",
+            "media_type": "Image",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 341798,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496709,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_GoddardShorts.webmhd.webm",
+            "filename": "10480_GRACE_Beauty_Pass_1_GoddardShorts.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 341799,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496710,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/frames/1280x720_16x9_60p/GRACE_1/",
+            "filename": "GRACE_1",
+            "media_type": "Frames",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 341800,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496711,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_prores.mov",
+            "filename": "10480_GRACE_Beauty_Pass_1_prores.mov",
+            "media_type": "Movie",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 341801,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496712,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_H264_720p.mov",
+            "filename": "10480_GRACE_Beauty_Pass_1_H264_720p.mov",
+            "media_type": "Movie",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 341802,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496713,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_Youtube.mov",
+            "filename": "10480_GRACE_Beauty_Pass_1_Youtube.mov",
+            "media_type": "Movie",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 341803,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496714,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_GoddardShorts.m4v",
+            "filename": "10480_GRACE_Beauty_Pass_1_GoddardShorts.m4v",
+            "media_type": "Movie",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 341804,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496715,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_iPodLG.m4v",
+            "filename": "10480_GRACE_Beauty_Pass_1_iPodLG.m4v",
+            "media_type": "Movie",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 640,
+            "height": 360,
+            "pixels": 230400
+          }
+        },
+        {
+          "id": 341805,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496716,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_svs.mpg",
+            "filename": "10480_GRACE_Beauty_Pass_1_svs.mpg",
+            "media_type": "Movie",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 512,
+            "height": 288,
+            "pixels": 147456
+          }
+        },
+        {
+          "id": 341806,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496717,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1.wmv",
+            "filename": "10480_GRACE_Beauty_Pass_1.wmv",
+            "media_type": "Movie",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 346,
+            "height": 260,
+            "pixels": 89960
+          }
+        },
+        {
+          "id": 341807,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496718,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_1_iPodsm.m4v",
+            "filename": "10480_GRACE_Beauty_Pass_1_iPodsm.m4v",
+            "media_type": "Movie",
+            "alt_text": "The primary goal of the GRACE mission is to accurately map variations in the Earth's gravity field over its 5-year lifetime. ",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 354418,
+      "url": "http://svs.gsfc.nasa.gov/10480/#media_group_354418",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+      "items": [
+        {
+          "id": 341822,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496733,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_H264_720p.00152_print.jpg",
+            "filename": "10480_GRACE_Beauty_Pass_2_H264_720p.00152_print.jpg",
+            "media_type": "Image",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 341821,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496732,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_H264_720p_web.png",
+            "filename": "10480_GRACE_Beauty_Pass_2_H264_720p_web.png",
+            "media_type": "Image",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 341811,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496722,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_GoddardShorts.webmhd.webm",
+            "filename": "10480_GRACE_Beauty_Pass_2_GoddardShorts.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 341812,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496723,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/frames/1280x720_16x9_60p/GRACE_2/",
+            "filename": "GRACE_2",
+            "media_type": "Frames",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 341813,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496724,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_prores.mov",
+            "filename": "10480_GRACE_Beauty_Pass_2_prores.mov",
+            "media_type": "Movie",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 341814,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496725,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_H264_720p.mov",
+            "filename": "10480_GRACE_Beauty_Pass_2_H264_720p.mov",
+            "media_type": "Movie",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 341815,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496726,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_Youtube.mov",
+            "filename": "10480_GRACE_Beauty_Pass_2_Youtube.mov",
+            "media_type": "Movie",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 341816,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496727,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_GoddardShorts.m4v",
+            "filename": "10480_GRACE_Beauty_Pass_2_GoddardShorts.m4v",
+            "media_type": "Movie",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 341817,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496728,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_iPodLG.m4v",
+            "filename": "10480_GRACE_Beauty_Pass_2_iPodLG.m4v",
+            "media_type": "Movie",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 640,
+            "height": 360,
+            "pixels": 230400
+          }
+        },
+        {
+          "id": 341818,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496729,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_svs.mpg",
+            "filename": "10480_GRACE_Beauty_Pass_2_svs.mpg",
+            "media_type": "Movie",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 512,
+            "height": 288,
+            "pixels": 147456
+          }
+        },
+        {
+          "id": 341819,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496730,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2.wmv",
+            "filename": "10480_GRACE_Beauty_Pass_2.wmv",
+            "media_type": "Movie",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 346,
+            "height": 260,
+            "pixels": 89960
+          }
+        },
+        {
+          "id": 341820,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 496731,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010400/a010480/10480_GRACE_Beauty_Pass_2_iPodsm.m4v",
+            "filename": "10480_GRACE_Beauty_Pass_2_iPodsm.m4v",
+            "media_type": "Movie",
+            "alt_text": "The GRACE mission has two identical spacecrafts flying about 220 kilometers apart in a polar orbit 500 kilometers above the Earth.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["PAO"],
+  "credits": [
+    { "role": "Animator", "people": [{ "name": "Chris Meaney", "employer": "HTSI" }] },
+    { "role": "Producer", "people": [{ "name": "Laura Motel", "employer": "UMBC" }] },
+    { "role": "Scientist", "people": [{ "name": "John L. Labrecque", "employer": "NASA" }] }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [
+    "NASA Satellites Unlock Secret to Northern India's Vanishing Water (Produced by: Tom Biddlecome)"
+  ],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Earth", "Earth Science", "Gravity", "HDTV"],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 10764,
+      "url": "http://svs.gsfc.nasa.gov/10764/",
+      "page_type": "Produced Video",
+      "title": "India's Disappearing Water",
+      "description": "During the past decade, groundwater beneath the northern Indian states of Punjab, Haryana, and Rajasthan has decreased by more than 88 million acre-feet. That's nearly eight times the amount held in Lake Mead, the largest reservoir in the United States. Now at risk of experiencing severe shortages of this vital resource are the 120 million inhabitants of those regions. Using NASA's twin GRACE (Gravity Recovery and Climate Experiment) satellites, scientists measured tiny shifts in the Earth's gravitational field to determine the rate of groundwater change in India. Areas in red had slightly less mass due to a net loss of groundwater and therefore exhibited a weaker gravitational pull on the orbiting satellites. Areas in blue had greater mass and a stronger gravitational pull due to a net gain. Watch the data visualization in the first video below to see how India's groundwater supply declined over the six-year period between 2002 and 2008. || ",
+      "release_date": "2011-05-02T12:00:00-04:00",
+      "update_date": "2023-05-03T13:53:49.080069-04:00",
+      "main_image": {
+        "id": 486376,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010700/a010764/india_horiz_topgradient.jpg",
+        "filename": "india_horiz_topgradient.jpg",
+        "media_type": "Image",
+        "alt_text": "Will increased consumption of groundwater leave a nation in short supply?",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

@@ -1,0 +1,809 @@
+{
+  "id": 4285,
+  "url": "http://svs.gsfc.nasa.gov/4285/",
+  "page_type": "Visualization",
+  "title": "Near Real-Time Global Precipitation from the Global Precipitation Measurement Constellation",
+  "description": "An animation of the most currently available global precipitation data from IMERG.",
+  "release_date": "2015-03-31T12:00:00-04:00",
+  "update_date": "2026-11-14T20:20:59.566659-05:00",
+  "main_image": {
+    "id": 375203,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p_30_print.jpg",
+    "filename": "imergert_1080p_30_print.jpg",
+    "media_type": "Image",
+    "alt_text": "The Global Precipitation Measurement (GPM) mission produces NASA's most comprehensive global rain and snowfall product to date, called the Integrated Multi-satellite Retrievals for GPM (IMERG). It is computed using data from the GPM constellation of satellites — a network of international satellites that currently includes the GPM Core Observatory, GCOM-W1, NOAA-18, NOAA-19, DMSP F-16, DMSP F-17, DMSP F-18, Metop-A, and Metop-B. The global IMERG dataset provides precipitation rates for the entire world every 30 minutes. Although the process to create the combined dataset is intensive, the GPM team creates a preliminary, near-real-time dataset of precipitation within several hours of data acquisition. This visualization shows the most currently available precipitation data from IMERG, depicting how rain and snowstorms move around the planet. As scientists work to understand all the elements of Earth's climate and weather systems, and how they could change in the future, GPM provides a major step forward in providing comprehensive and consistent measurements of precipitation for scientists and a wide variety of user communities.",
+    "width": 576,
+    "height": 1024,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [{ "name": "Horace Mitchell", "employer": "NASA/GSFC" }],
+    "Scientific consulting by": [
+      { "name": "George Huffman", "employer": "NASA/GSFC" },
+      { "name": "Gail Skofronick Jackson", "employer": "NASA/GSFC" },
+      { "name": "Dalia B Kirschbaum", "employer": "NASA/GSFC" }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 338068,
+      "url": "http://svs.gsfc.nasa.gov/4285/#media_group_338068",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "An animation of the most currently available global precipitation data from IMERG.",
+      "items": [
+        {
+          "id": 462463,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375203,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p_30_print.jpg",
+            "filename": "imergert_1080p_30_print.jpg",
+            "media_type": "Image",
+            "alt_text": "The Global Precipitation Measurement (GPM) mission produces NASA's most comprehensive global rain and snowfall product to date, called the Integrated Multi-satellite Retrievals for GPM (IMERG). It is computed using data from the GPM constellation of satellites — a network of international satellites that currently includes the GPM Core Observatory, GCOM-W1, NOAA-18, NOAA-19, DMSP F-16, DMSP F-17, DMSP F-18, Metop-A, and Metop-B. The global IMERG dataset provides precipitation rates for the entire world every 30 minutes. Although the process to create the combined dataset is intensive, the GPM team creates a preliminary, near-real-time dataset of precipitation within several hours of data acquisition. This visualization shows the most currently available precipitation data from IMERG, depicting how rain and snowstorms move around the planet. As scientists work to understand all the elements of Earth's climate and weather systems, and how they could change in the future, GPM provides a major step forward in providing comprehensive and consistent measurements of precipitation for scientists and a wide variety of user communities.",
+            "width": 576,
+            "height": 1024,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 462464,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375202,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p_30_print_thm.png",
+            "filename": "imergert_1080p_30_print_thm.png",
+            "media_type": "Image",
+            "alt_text": "An animation of the most currently available global precipitation data from IMERG.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 462465,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375209,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p_30_searchweb.png",
+            "filename": "imergert_1080p_30_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "This gallery brings together the data visualizations that are updated daily for NASA's Earth Information Center (EIC).",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 462457,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375204,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p_30.mp4",
+            "filename": "imergert_1080p_30.mp4",
+            "media_type": "Movie",
+            "alt_text": "An animation of the most currently available global precipitation data from IMERG.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 462459,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375207,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/frames/1920x1080_16x9_30p/flatcomposite/",
+            "filename": "flatcomposite",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most currently available global precipitation data from IMERG.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 462466,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1093982,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p_30.webm",
+            "filename": "imergert_1080p_30.webm",
+            "media_type": "Movie",
+            "alt_text": "An animation of the most currently available global precipitation data from IMERG.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 462460,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375206,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/frames/3600x1800_2x1_30p/flatalpha/",
+            "filename": "flatalpha",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most currently available global precipitation data from IMERG.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 462461,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375205,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/frames/3600x1800_2x1_30p/flatcomposite/",
+            "filename": "flatcomposite",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most currently available global precipitation data from IMERG.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 462462,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375208,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/frames/3600x1800_2x1_30p/flatdates/",
+            "filename": "flatdates",
+            "media_type": "Frames",
+            "alt_text": "An animation of the most currently available global precipitation data from IMERG.",
+            "width": 343,
+            "height": 63,
+            "pixels": 21609
+          }
+        },
+        {
+          "id": 462458,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1097468,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030700/a030781/the-earth-observing-fleet-by-theme-precipitation.hwshow",
+            "filename": "the-earth-observing-fleet-by-theme-precipitation.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 338067,
+      "url": "http://svs.gsfc.nasa.gov/4285/#media_group_338067",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "The Global Precipitation Measurement (GPM) mission produces NASA's most comprehensive global rain and snowfall product to date, called the Integrated Multi-satellite Retrievals for GPM (IMERG). It is computed using data from the GPM constellation of satellites — a network of international satellites that currently includes the GPM Core Observatory, GCOM-W1, NOAA-18, NOAA-19, DMSP F-16, DMSP F-17, DMSP F-18, Metop-A, and Metop-B. The global IMERG dataset provides precipitation rates for the entire world every 30 minutes. Although the process to create the combined dataset is intensive, the GPM team creates a preliminary, near-real-time dataset of precipitation within several hours of data acquisition. This visualization shows the most currently available precipitation data from IMERG, depicting how rain and snowstorms move around the planet. As scientists work to understand all the elements of Earth's climate and weather systems, and how they could change in the future, GPM provides a major step forward in providing comprehensive and consistent measurements of precipitation for scientists and a wide variety of user communities.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 338069,
+      "url": "http://svs.gsfc.nasa.gov/4285/#media_group_338069",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbar for frozen precipitation",
+      "items": [
+        {
+          "id": 462467,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1097469,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/snowbarwhite2.png",
+            "filename": "snowbarwhite2.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar for frozen precipitation",
+            "width": 440,
+            "height": 90,
+            "pixels": 39600
+          }
+        },
+        {
+          "id": 462468,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375211,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/snowbarblack2.png",
+            "filename": "snowbarblack2.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar for frozen precipitation",
+            "width": 440,
+            "height": 90,
+            "pixels": 39600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 338070,
+      "url": "http://svs.gsfc.nasa.gov/4285/#media_group_338070",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Color bar for liquid precipitation",
+      "items": [
+        {
+          "id": 462469,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1097470,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/rainbarwhite2.png",
+            "filename": "rainbarwhite2.png",
+            "media_type": "Image",
+            "alt_text": "Color bar for liquid precipitation",
+            "width": 440,
+            "height": 90,
+            "pixels": 39600
+          }
+        },
+        {
+          "id": 462470,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375212,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/rainbarblack2.png",
+            "filename": "rainbarblack2.png",
+            "media_type": "Image",
+            "alt_text": "Color bar for liquid precipitation",
+            "width": 440,
+            "height": 90,
+            "pixels": 39600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 338071,
+      "url": "http://svs.gsfc.nasa.gov/4285/#media_group_338071",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "An image of the most currently available global precipitation data from IMERG.",
+      "items": [
+        {
+          "id": 462471,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375213,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p.now.png",
+            "filename": "imergert_1080p.now.png",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation data from IMERG.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 462474,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375216,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p.now_print.jpg",
+            "filename": "imergert_1080p.now_print.jpg",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation data from IMERG.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 462472,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375214,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_alpha.now.png",
+            "filename": "imergert_alpha.now.png",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation data from IMERG.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 462473,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375215,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_composite.now.png",
+            "filename": "imergert_composite.now.png",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation data from IMERG.",
+            "width": 3600,
+            "height": 1800,
+            "pixels": 6480000
+          }
+        },
+        {
+          "id": 462475,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375217,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_dates.now.png",
+            "filename": "imergert_dates.now.png",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation data from IMERG.",
+            "width": 343,
+            "height": 63,
+            "pixels": 21609
+          }
+        },
+        {
+          "id": 462476,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 375218,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p.now_searchweb.png",
+            "filename": "imergert_1080p.now_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "An image of the most currently available global precipitation data from IMERG.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Animator", "people": [{ "name": "Horace Mitchell", "employer": "NASA/GSFC" }] },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "George Huffman", "employer": "NASA/GSFC" },
+        { "name": "Gail Skofronick Jackson", "employer": "NASA/GSFC" },
+        { "name": "Dalia B Kirschbaum", "employer": "NASA/GSFC" }
+      ]
+    },
+    {
+      "role": "Programmer",
+      "people": [{ "name": "Leann Johnson", "employer": "Global Science and Technology, Inc." }]
+    },
+    { "role": "Producer", "people": [{ "name": "Ryan Fitzgibbons", "employer": "USRA" }] }
+  ],
+  "missions": ["Global Precipitation Measurement (GPM)"],
+  "series": ["Updates Regularly"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "IMERG",
+      "platform": null,
+      "sensor": null,
+      "type": "Data Compilation",
+      "organizations": ["NASA/GSFC"],
+      "description": "",
+      "credit": "",
+      "url": "http://pmm.nasa.gov/sites/default/files/document_files/IMERG_ATBD_V4.4.pdf",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Atmosphere",
+    "Atmospheric science",
+    "Earth Science",
+    "Global Precipitation Measurement",
+    "Hyperwall",
+    "precipitation",
+    "Precipitation Rate",
+    "rain",
+    "Real-time",
+    "Realtime",
+    "Up-to-date",
+    "Updated",
+    "Weather and Atmospheric Dynamics"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 14566,
+      "url": "http://svs.gsfc.nasa.gov/14566/",
+      "page_type": "Produced Video",
+      "title": "NASA Interview Opportunity: Celebrate Earth Day With A Global Pulse Check Of Our Oceans! See Our Oceans In A Whole New Light",
+      "description": "Join a NASA expert on April 22, 2024 to talk about Earth Day 2024 Celebrations sprinkled with ocean science! || ",
+      "release_date": "2024-04-15T11:00:00-04:00",
+      "update_date": "2024-04-22T07:33:38-04:00",
+      "main_image": {
+        "id": 1091102,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014566/Unknown-1.jpeg",
+        "filename": "Unknown-1.jpeg",
+        "media_type": "Image",
+        "alt_text": "Scroll down the page for the associated cut b-roll for the live shots. Pre-recorded soundbites will be posted on Sunday, April 21. Click here for the NEW material. Click on links below for latest stories:The Ocean Touches Everything: Celebrate Earth Day with NASANASA’s PACE Data on Ocean, Atmosphere, Climate Now Available",
+        "width": 1600,
+        "height": 640,
+        "pixels": 1024000
+      }
+    },
+    {
+      "id": 14508,
+      "url": "http://svs.gsfc.nasa.gov/14508/",
+      "page_type": "Produced Video",
+      "title": "Global Pulse Check! NASA’s New Earth Satellite, PACE, Launching Next Week to Capture Earth Like Never Before!",
+      "description": "Click here for more information about the PACE mission.Associated cut b-roll for the live shots will be added by 5 p.m. EST on Friday, Feb 2 || PACE_Live_Shots_Next_Weekend_Banner__copy.jpg (1800x720) [611.1 KB] || PACE_Live_Shots_Next_Weekend_Banner__copy_print.jpg (1024x409) [206.7 KB] || PACE_Live_Shots_Next_Weekend_Banner__copy_searchweb.png (320x180) [100.7 KB] || PACE_Live_Shots_Next_Weekend_Banner__copy_thm.png (80x40) [7.8 KB] || ",
+      "release_date": "2024-01-30T06:00:00-05:00",
+      "update_date": "2024-02-01T15:14:24-05:00",
+      "main_image": {
+        "id": 1088853,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014508/PACE_Live_Shots_Next_Weekend_Banner__copy.jpg",
+        "filename": "PACE_Live_Shots_Next_Weekend_Banner__copy.jpg",
+        "media_type": "Image",
+        "alt_text": "Click here for more information about the PACE mission.Associated cut b-roll for the live shots will be added by 5 p.m. EST on Friday, Feb 2",
+        "width": 1800,
+        "height": 720,
+        "pixels": 1296000
+      }
+    },
+    {
+      "id": 13833,
+      "url": "http://svs.gsfc.nasa.gov/13833/",
+      "page_type": "Produced Video",
+      "title": "Celebrate Earth Day with NASA’s World-Wide View of Our Changing Climate Live Shots",
+      "description": "Quick link to associated BROLL for the live shots.Quick link to canned interview with Dr. Gavin SchmidtQuick link to canned interview in Spanish with Erika Podest || Earth_Day_Banner_copy_1.png (6667x1698) [1.5 MB] || Earth_Day_Banner_copy_1_print.jpg (1024x260) [76.1 KB] || Earth_Day_Banner_copy_1_searchweb.png (320x180) [83.3 KB] || Earth_Day_Banner_copy_1_thm.png (80x40) [6.3 KB] || ",
+      "release_date": "2021-04-19T21:00:00-04:00",
+      "update_date": "2021-04-22T15:30:14-04:00",
+      "main_image": {
+        "id": 379211,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013800/a013833/Earth_Day_Banner_copy_1_print.jpg",
+        "filename": "Earth_Day_Banner_copy_1_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Quick link to associated BROLL for the live shots.Quick link to canned interview with Dr. Gavin SchmidtQuick link to canned interview in Spanish with Erika Podest",
+        "width": 1024,
+        "height": 260,
+        "pixels": 266240
+      }
+    },
+    {
+      "id": 13079,
+      "url": "http://svs.gsfc.nasa.gov/13079/",
+      "page_type": "Produced Video",
+      "title": "Inside Hurricane Maria in 360°",
+      "description": "Two days before Hurricane Maria devastated Puerto Rico, the NASA-Japan Global Precipitation Measurement Core Observatory satellite captured a 3-D view of the storm. At the time Maria was a Category 1 hurricane. The 3-D view reveals the processes inside the hurricane that would fuel the storm’s intensification to a category 5 within 24 hours.For the first time in 360-degrees, this data visualization takes you inside the hurricane. The precipitation satellite has an advanced radar that measures both liquid and frozen water. The brightly colored dots show areas of rainfall, where green and yellow show low rates and red and purple show high rates. At the top of the hurricane, where temperatures are colder, blue and purple dots show light and heavy frozen precipitation. The colored areas below the dots show how much rain is falling at the surface. Created by: NASA's Scientific Visualization Studio and NASA's Goddard Space Flight CenterData Sources:• NASA/GPM Dual Precipitation Radar (DPR) precipitation rate and drop size distribution data• NASA/GPM GPM Microwave Imager (GMI) ground precipitation data• NASA/Bluemarble land imagery• NOAA/GOES16 cloud data• Hipparcos/Telescope/Tycho 2 Catalogue || ",
+      "release_date": "2018-10-04T09:00:00-04:00",
+      "update_date": "2019-01-28T16:56:03-05:00",
+      "main_image": {
+        "id": 400098,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013000/a013079/Inside_Hurricane_Maria_in_360.00001_print.jpg",
+        "filename": "Inside_Hurricane_Maria_in_360.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This is a 360° video that can be downloaded and viewed on 360° video platforms such as YouTube and Facebook. Complete transcript available.Music credit: \"The Answer\" by Laurent Levesque [SACEM] from Killer Tracks",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 12592,
+      "url": "http://svs.gsfc.nasa.gov/12592/",
+      "page_type": "Produced Video",
+      "title": "Meteorologists live shots April 21",
+      "description": "1. How has our view of Earth changed since the first “Earth Rise” image from the 1969 Apollo mission?2. Why is this global view important? 3. What’s next?4. How can our viewers celebrate Earth Day tomorrow?5. Where can we learn more? || systems.png (1322x742) [906.8 KB] || systems_print.jpg (1024x574) [80.6 KB] || systems_print_print.jpg (1024x574) [80.4 KB] || systems_web.png (320x179) [59.3 KB] || systems_thm.png (80x40) [4.5 KB] || systems_print_searchweb.png (320x180) [58.9 KB] || systems_print_thm.png (80x40) [4.5 KB] || UpdatedEarthDayBroll42117.webm (1280x720) [27.7 MB] || UpdatedEarthDayBroll42117.mp4 (1280x720) [470.6 MB] || UpdatedEarthDayBroll42117.mov (1280x720) [3.8 GB] || ",
+      "release_date": "2017-04-20T15:00:00-04:00",
+      "update_date": "2017-04-20T15:59:55-04:00",
+      "main_image": {
+        "id": 414737,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012500/a012592/systems_print_print.jpg",
+        "filename": "systems_print_print.jpg",
+        "media_type": "Image",
+        "alt_text": "1. How has our view of Earth changed since the first “Earth Rise” image from the 1969 Apollo mission?\r2. Why is this global view important? \r3. What’s next?\r4. How can our viewers celebrate Earth Day tomorrow?\r5. Where can we learn more?",
+        "width": 1024,
+        "height": 574,
+        "pixels": 587776
+      }
+    },
+    {
+      "id": 12126,
+      "url": "http://svs.gsfc.nasa.gov/12126/",
+      "page_type": "Produced Video",
+      "title": "Science On a Sphere: A Global Tour of Precipitation from NASA",
+      "description": "Precipitation (falling rain and snow) is our fresh water reservoir in the sky and is fundamental to life on Earth. A Global Tour of Precipitation from NASA shows how rain and snowfall moves around the world from the vantage of space using measurements from the Global Precipitation Measurement Core Observatory, or GPM. This is a joint mission between NASA and the Japanese Aerospace Exploration Agency (JAXA) and offers the most detailed and worldwide view of rain and snowfall ever created.This narrated movie is created for Science On a Sphere, a platform designed by NOAA that displays movies on a spherical screen. Audiences can view the movie from any side of the sphere and can see any part of Earth. During this show viewers will be guided through a variety of precipitation patterns and display features such as the persistent band of the heaviest rainfall around the equator and tight swirls of tropical storms in the Northern Hemisphere. At subtropical latitudes in both hemispheres there are persistent dry areas and this is where most of the major deserts reside. Sea surface temperature and winds are also shown to highlight the interconnectedness of the Earth system. The movie concludes with near real-time global precipitation data from GPM, which is provided to Science On a Sphere roughly six hours after the observation.To download this movie formatted for a spherical screen, visit NOAA's official Science On a Sphere website below:‌• A Global Tour of Precipitation from NASA‌• Near Real-Time Global Precipitation Data || ",
+      "release_date": "2016-05-16T11:00:00-04:00",
+      "update_date": "2019-06-18T18:30:50-04:00",
+      "main_image": {
+        "id": 424331,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012100/a012126/YOUTUBE_HQ-12126_2DSOS_IMERG-MERRA-SST-Snippet_youtube_hq.00001_print.jpg",
+        "filename": "YOUTUBE_HQ-12126_2DSOS_IMERG-MERRA-SST-Snippet_youtube_hq.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization combines MUR Sea Surface Temperature (SST) data with GPM's IMERG precipitation data and MERRA winds. Note, the time period within each dataset does not match.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 12091,
+      "url": "http://svs.gsfc.nasa.gov/12091/",
+      "page_type": "Produced Video",
+      "title": "OLYMPEX Scientist Profiles",
+      "description": "Video profiles of researchers and scientists in the field during the OLYMPEX field campaign (2015-2016).From November 10 through December 21, NASA and university scientists are taking to the field to study wet winter weather near Seattle, Washington. With weather radars, weather balloons, specialized ground instruments, and NASA's DC-8 flying laboratory, the science team will be verifying rain and snowfall observations made by the Global Precipitation Measurement (GPM) satellite mission on a NASA-led field campaign, The Olympic Mountain Experiment, or OLYMPEX.This is Rachael Kroodsma's profile on YouTube.This is Joe Zagrodnik's profile on YouTube. || ",
+      "release_date": "2015-12-01T12:00:00-05:00",
+      "update_date": "2015-12-11T14:14:33-05:00",
+      "main_image": {
+        "id": 437102,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012000/a012091/Kroodsma_Still.png",
+        "filename": "Kroodsma_Still.png",
+        "media_type": "Image",
+        "alt_text": "A profile video of Rachael Kroodsma.For complete transcript, click here.",
+        "width": 1261,
+        "height": 714,
+        "pixels": 900354
+      }
+    },
+    {
+      "id": 12053,
+      "url": "http://svs.gsfc.nasa.gov/12053/",
+      "page_type": "B-Roll",
+      "title": "OLYMPEX Field Campaign B-Roll",
+      "description": "The Olympic Mountain Experiment, or OLYMPEX, is a NASA-led field campaign, which will take place on the Olympic Peninsula of Washington State from November 2015 through February 2016. The goal of the campaign is to collect detailed atmospheric measurements that will be used to evaluate how well rain-observing satellites measure rainfall and snowfall from space. In particular, OLYMPEX will be assessing satellite measurements made by the Global Precipitation Measurement (GPM) mission Core Observatory, a joint mission by NASA and the Japan Aerospace Exploration Agency (JAXA), which launched in 2014.This is a selection of b-roll that captures the scientists and instruments at work in Washington State. || ",
+      "release_date": "2015-11-11T15:00:00-05:00",
+      "update_date": "2019-07-16T12:28:20-04:00",
+      "main_image": {
+        "id": 437662,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012000/a012053/YOUTUBE_HQ-OLYMPEX_B-Roll_-_D3R_youtube_hq_print.jpg",
+        "filename": "YOUTUBE_HQ-OLYMPEX_B-Roll_-_D3R_youtube_hq_print.jpg",
+        "media_type": "Image",
+        "alt_text": "B-roll of a Dual-frequency Dual-polarized Doppler Radar (D3R). The D3R is a fully polarimetric, scanning weather radar system operating at the nominal frequencies of 13.91 GHz and 35.56 GHz covering a maximum range of 30 km. The frequencies chosen allow close compatibility with the GPM Dual-frequency Precipitation Radar system, which was selected for flight on the GPM core spacecraft. This footage was captured during the NASA-led field campaign OLYMPEX.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 12050,
+      "url": "http://svs.gsfc.nasa.gov/12050/",
+      "page_type": "Produced Video",
+      "title": "Researchers Gear Up For OLYMPEX",
+      "description": "From November 10 through December 21, NASA and university scientists are taking to the field to study wet winter weather near Seattle, Washington. With weather radars, weather balloons, specialized ground instruments, and NASA's DC-8 flying laboratory, the science team will be verifying rain and snowfall observations made by the Global Precipitation Measurement (GPM) satellite mission on a NASA-led field campaign, The Olympic Mountain Experiment, or OLYMPEX.For more information: http://www.nasa.gov/feature/goddard/nasa-heads-to-pacific-northwest-for-field-campaign-to-measure-rain-and-snowfall || ",
+      "release_date": "2015-11-10T16:00:00-05:00",
+      "update_date": "2015-11-11T15:27:02-05:00",
+      "main_image": {
+        "id": 437761,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012000/a012050/YOUTUBE_HQ-OLYMPEX_Preview_final_VX-213059_youtube_hq_print.jpg",
+        "filename": "YOUTUBE_HQ-OLYMPEX_Preview_final_VX-213059_youtube_hq_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This is a preview video of The Olympic Mountain Experiment, or OLYMPEX, NASA-led field campaign, which is taking place on the Olympic Peninsula of Washington State from November 2015 through February 2016. ",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4386,
+      "url": "http://svs.gsfc.nasa.gov/4386/",
+      "page_type": "Visualization",
+      "title": "Beyond Graphs: You, Too, Can Be A Data Visualizer!",
+      "description": "This gallery was created for Earth Science Week 2015 and beyond. It includes a quick start guide for educators and first-hand stories (blogs) for learners of all ages by NASA visualizers, scientists and educators. We hope that your understanding and use of NASA's visualizations will only increase as your appreciation grows for the beauty of the science they portray, and the communicative power they hold. Read all the blogs and find educational resources for all ages at: the Earth Science Week 2015 page.As an education specialist for NASA, I help teachers and students access and make sense of data. This often means using a type of visual representation. This could be anything from a simple bar graph to a complex animated visualization. Take a look at the last seven days of global precipitation, or other great examples relating to Visualizing Earth Systems here. While the complex animations may be difficult to replicate, a line or bar graph is just the beginning.I work for the Global Precipitation Measurement (GPM) mission, so let's use snow data for an example. This data is from a big snowstorm that hit upstate New York in November 2014. While the GPM satellite does measure snowfall, we'll start with data collected by \"citizen scientists.\" Citizen science is research conducted by non-professional scientists — which could include you! These particular citizen scientists are part of the Community Collaborative Rain, Hail and Snow Network (CoCoRaHS.)The data below is from one station, graphed using Microsoft Excel. It shows snow accumulation in inches at the location of one monitoring station over four days. (Note: CoCoRaHS reports are made in the morning reflecting the previous 24 hours of precipitation. The dates below show snow that fell the day and night prior.) || ",
+      "release_date": "2015-10-09T17:00:00-04:00",
+      "update_date": "2017-11-15T13:46:30-05:00",
+      "main_image": {
+        "id": 438805,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004300/a004386/snow-google-map.png",
+        "filename": "snow-google-map.png",
+        "media_type": "Image",
+        "alt_text": "Google Maps rendering of CoCoRaHS data in upstate New York in November 2014.",
+        "width": 977,
+        "height": 374,
+        "pixels": 365398
+      }
+    },
+    {
+      "id": 12017,
+      "url": "http://svs.gsfc.nasa.gov/12017/",
+      "page_type": "Produced Video",
+      "title": "NASA Takes You Inside Hurricane Joaquin Live Shots",
+      "description": "Canned Interview from Dr.Dalia KirschbaumFor complete transcript, click here. || IMage_Dalia.png (1161x656) [1.3 MB] || IMage_Dalia_print.jpg (1024x578) [133.3 KB] || IMage_Dalia_searchweb.png (320x180) [114.7 KB] || IMage_Dalia_web.png (320x180) [115.2 KB] || IMage_Dalia_thm.png (80x40) [13.5 KB] || WEBM_Dalia_Kirschbaum-_Hurricane_Joaquin_Canned.webm (960x540) [101.5 MB] || Dalia_Kirschbaum-_Hurricane_Joaquin_Canned_lowres.mp4 (480x272) [34.1 MB] || NASA_PODCAST_Dalia_Kirschbaum-_Hurricane_Joaquin_Canned_ipod_sm.en_US.srt [5.5 KB] || NASA_PODCAST_Dalia_Kirschbaum-_Hurricane_Joaquin_Canned_ipod_sm.en_US.vtt [5.3 KB] || Dalia_Kirschbaum-_Hurricane_Joaquin_Canned.mov (1280x720) [2.5 GB] || ",
+      "release_date": "2015-10-02T10:00:00-04:00",
+      "update_date": "2015-12-09T11:25:39-05:00",
+      "main_image": {
+        "id": 439078,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012000/a012017/GPM_Satellite_VX-209158_youtube_hq_print.jpg",
+        "filename": "GPM_Satellite_VX-209158_youtube_hq_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Global Precipitation Measurement (GPM) core observatory satellite beauty pass.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4372,
+      "url": "http://svs.gsfc.nasa.gov/4372/",
+      "page_type": "Visualization",
+      "title": "IMERG Global Precipitation Rates (New Colorbar)",
+      "description": "This movie shows IMERG liquid and frozen precipitation for the period June, 2015, through September, 2015.This video is also available on our YouTube channel. || imerge.20447_print.jpg (1024x576) [178.9 KB] || imerge.20447_searchweb.png (320x180) [83.1 KB] || imerge.20447_thm.png (80x40) [7.0 KB] || flatcomposite (1920x1080) [0 Item(s)] || imerg_1080p30.webm (1920x1080) [23.8 MB] || imerg_1080p30.mp4 (1920x1080) [290.2 MB] || numbers_with_alpha (3600x1800) [0 Item(s)] || numbers_with_earth (3600x1800) [0 Item(s)] || dates_with_alpha (3600x1800) [0 Item(s)] || dates_with_earth (3600x1800) [0 Item(s)] || imerg_4372.pptx [292.4 MB] || imerg_4372.key [295.0 MB] || imerg_1080p30.mp4.hwshow || ",
+      "release_date": "2015-10-02T00:00:00-04:00",
+      "update_date": "2017-02-23T14:10:55-05:00",
+      "main_image": {
+        "id": 439101,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004300/a004372/imerge.20447_print.jpg",
+        "filename": "imerge.20447_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This movie shows IMERG liquid and frozen precipitation for the period June, 2015, through September, 2015.This video is also available on our YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 11826,
+      "url": "http://svs.gsfc.nasa.gov/11826/",
+      "page_type": "Produced Video",
+      "title": "GPM April Showers Bring May Flowers Live Shots 4.1.15",
+      "description": "April Showers Bring May Flowers. || imerg1_print.jpg (1024x564) [132.4 KB] || imerg1_thm.png (80x40) [28.1 KB] || imerg1_web.jpg (319x176) [49.0 KB] || imerg1.jpg (350x193) [47.9 KB] || imerg1_searchweb.png (320x180) [130.8 KB] || GPM_LS_Broll_4_1_15_appletv.webm (960x540) [64.7 MB] || GPM_LS_Broll_4_1_15_appletv.m4v (960x540) [258.9 MB] || GPM_LS_Broll_4_1_15_1280x720.wmv (1280x720) [304.3 MB] || GPM_LS_Broll_4_1_15_youtube_hq.mov (1280x720) [779.3 MB] || GPM_LS_Broll_4_1_15_ipod_lg.m4v (640x360) [97.6 MB] || GPM_LS_Broll_4_1_15_nasaportal.mov (640x360) [226.9 MB] || GPM_LS_Broll_4_1_15_ipod_sm.mp4 (320x240) [48.1 MB] || GPM_LS_Broll_4_1_15.mov (1280x720) [8.8 GB] || ",
+      "release_date": "2015-03-31T20:00:00-04:00",
+      "update_date": "2015-06-08T16:45:57-04:00",
+      "main_image": {
+        "id": 444468,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011800/a011826/imerg1_print.jpg",
+        "filename": "imerg1_print.jpg",
+        "media_type": "Image",
+        "alt_text": "April Showers Bring May Flowers.",
+        "width": 1024,
+        "height": 564,
+        "pixels": 577536
+      }
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "id": 13979,
+      "url": "http://svs.gsfc.nasa.gov/13979/",
+      "page_type": "Produced Video",
+      "title": "Climate Change Could Affect Global Agriculture within 10 Years",
+      "description": "Average global crop yields for maize, or corn, may see a decrease of 24% by late century, with the declines becoming apparent by 2030, with high greenhouse gas emissions, according to a new NASA study. Wheat, in contrast, may see an uptick in crop yields by about 17%. The change in yields is due to the projected increases in temperature, shifts in rainfall patterns and elevated surface carbon dioxide concentrations due to human-caused greenhouse gas emissions, making it more difficult to grow maize in the tropics and expanding wheat’s growing range. || ",
+      "release_date": "2021-11-01T12:00:00-04:00",
+      "update_date": "2023-05-03T13:43:47.278008-04:00",
+      "main_image": {
+        "id": 375779,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013900/a013979/Screen_Shot_2021-10-28_at_2.29.18_PM.png",
+        "filename": "Screen_Shot_2021-10-28_at_2.29.18_PM.png",
+        "media_type": "Image",
+        "alt_text": "Music: Futurity by Lee Groves [PRS] and Peter George Marett [PRS]Complete transcript available.",
+        "width": 1777,
+        "height": 998,
+        "pixels": 1773446
+      }
+    },
+    {
+      "id": 13592,
+      "url": "http://svs.gsfc.nasa.gov/13592/",
+      "page_type": "Produced Video",
+      "title": "Guiding Farmers with NASA Satellites",
+      "description": "Agriculture in Pakistan is dependent on irrigation from the Indus River, but over the years, these freshwater resources have become scarce. Today, it is one of the world’s most depleted basins. To tackle this, farmers are attempting to predict and track freshwater resources with the help of NASA satellites and cell phones. || ",
+      "release_date": "2020-04-23T12:00:00-04:00",
+      "update_date": "2023-05-03T13:45:01.716316-04:00",
+      "main_image": {
+        "id": 385527,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013500/a013592/13592_FarmersGPM_YouTube.00001_print.jpg",
+        "filename": "13592_FarmersGPM_YouTube.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Music credits: “Billy” by Rob Jager [BUMA]; “Perfect Space” by Anthony Edwin Phillips [PRS], Samuel Karl Bohn [PRS]; “Games Show Spheres 07” by Anselm Kreuzer [GEMA]; “Hope Will Save Us” by Christopher John Hutchings [PRS] Additional imagery credit: University of Washington Watch this video on the NASA Goddard YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 12897,
+      "url": "http://svs.gsfc.nasa.gov/12897/",
+      "page_type": "Produced Video",
+      "title": "New NASA Model Finds Landslide Threats in Near Real-Time During Heavy Rains",
+      "description": "A new model has been developed to look at how potential landslide activity is changing around the world. A global Landslide Hazard Assessment model for Situational Awareness (LHASA) has been developed to provide an indication of where and when landslides may be likely around the world every 30 minutes. This model uses surface susceptibility (including slope, vegetation, road networks, geology, and forest cover loss) and satellite rainfall data from the Global Precipitation Measurement (GPM) mission to provide moderate to high “nowcasts.” This visualization shows the landslide nowcast results leveraging nearly two decades of Tropical Rainfall Measurement Mission (TRMM) rainfall over 2001-2016 to identify a landslide climatology by month at a 1 km grid cell. The average nowcast values by month highlight the key landslide hotspots, such as the Southeast Asia during the monsoon season in June through August and the U.S. Pacific Northwest in December and January. Overlaid with these nowcasts values are a Global Landslide Catalog(GLC) that was developed with the goal of identifying rainfall-triggered landslide events around the world, regardless of size, impact, or location. The GLC considers all types of mass movements triggered by rainfall, which have been reported in the media, disaster databases, scientific reports, or other sources. The visualization shows the distribution of landslides each month based on the estimated number of fatalities the event caused. The GLC has been compiled since 2007 at NASA's Goddard Space Flight Center and contains over 11,000 reports and growing. A new project called the Community the Cooperative Open Online Landslide Repository, or COOLR, provides the opportunity for the community to view landslide reports and contribute their own. The goal of the COOLR project is to create the largest global public online landslide catalog available and open to for anyone everyone to share, download, and analyze landslide information. More information on this system is available at: https://landslides.nasa.gov. Landslides occur when an environmental trigger like an extreme rain event, often a severe storm or hurricane, and gravity's downward pull sets soil and rock in motion. Conditions beneath the surface are often unstable already, so the heavy rains act as the last straw that causes mud, rocks, or debris- or all combined- to move rapidly down mountains and hillsides. Unfortunately, people and property are often swept up in these unexpected mass movements. Landslides can also be caused by earthquakes, surface freezing and thawing, ice melt, the collapse of groundwater reservoirs, volcanic eruptions, and erosion at the base of a slope from the flow of river or ocean water. But torrential rains most commonly activate landslides.For more information: https://www.nasa.gov/feature/goddard/2018/new-from-nasa-tracking-landslide-hazards-new-nasa-model-finds-landslide-threats-in-near-real || ",
+      "release_date": "2018-03-22T10:30:00-04:00",
+      "update_date": "2025-02-02T00:22:14.206492-05:00",
+      "main_image": {
+        "id": 405741,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012800/a012897/LARGE_MP4_3-19_CLIMATOLOGY_ONLY_1.5sec_LOOPED_1080_large.00001_print.jpg",
+        "filename": "LARGE_MP4_3-19_CLIMATOLOGY_ONLY_1.5sec_LOOPED_1080_large.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Data visualizationThis version shows only the landslide climatology (no overlaid fatalities) in order to show seasonality.  This version loops two times.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 12848,
+      "url": "http://svs.gsfc.nasa.gov/12848/",
+      "page_type": "Produced Video",
+      "title": "NASA Studies Snow At The Winter Olympics",
+      "description": "This Winter Olympics, NASA will be studying how well researchers can measure snow from the ground and space and provide better data for snowstorm predictions. NASA will make these observations as one of 20 agencies from eleven countries in a project led by the Korean Meteorological Administration called the International Collaborative Experiments for PyeongChang 2018 Olympic and Paralympic Winter Games, or ICE-POP. NASA.gov feature: NASA Seeks the Gold in Winter Olympics Snow || ",
+      "release_date": "2018-02-08T13:00:00-05:00",
+      "update_date": "2023-05-03T13:46:59.227554-04:00",
+      "main_image": {
+        "id": 406887,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012800/a012848/12848_ICEPOP_Final.00547_print.jpg",
+        "filename": "12848_ICEPOP_Final.00547_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Music credit: “Reach Into The Night” by Andrew Michael Britton [PRS], David Stephen Goldsmith [PRS], Mikey Rowe [PRS] and “Progressive Practice” by Emmanuel David Lipszyc [SACEM], Franck Lascombes [SACEM], Sebastien Charles Lipszyc [SACEM] From Killer TracksWatch this video on the NASA Goddard YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

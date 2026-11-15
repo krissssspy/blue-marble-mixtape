@@ -1,0 +1,460 @@
+{
+  "id": 5149,
+  "url": "http://svs.gsfc.nasa.gov/5149/",
+  "page_type": "Visualization",
+  "title": "GEOS-FP Precipitation and Clouds",
+  "description": "Precipitation and clouds are calculated using fields from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions, which can be used to estimate the formation of clouds along with rain and snowfall.",
+  "release_date": "2023-09-26T17:00:00-04:00",
+  "update_date": "2026-11-14T02:00:49.687402-05:00",
+  "main_image": {
+    "id": 858332,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005149/MC03_stage3_GMAO_precipitation_2048x1024_en.00001_print.jpg",
+    "filename": "MC03_stage3_GMAO_precipitation_2048x1024_en.00001_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Precipitation and clouds are calculated using fields from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions, which can be used to estimate the formation of clouds along with rain and snowfall.",
+    "width": 1024,
+    "height": 512,
+    "pixels": 524288
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [{ "name": "Joseph V. Ardizzone", "employer": "NASA/GSFC" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 371873,
+      "url": "http://svs.gsfc.nasa.gov/5149/#media_group_371873",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Precipitation and clouds are calculated using fields from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions, which can be used to estimate the formation of clouds along with rain and snowfall.",
+      "items": [
+        {
+          "id": 398775,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 858332,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005149/MC03_stage3_GMAO_precipitation_2048x1024_en.00001_print.jpg",
+            "filename": "MC03_stage3_GMAO_precipitation_2048x1024_en.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Precipitation and clouds are calculated using fields from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions, which can be used to estimate the formation of clouds along with rain and snowfall.",
+            "width": 1024,
+            "height": 512,
+            "pixels": 524288
+          }
+        },
+        {
+          "id": 398776,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 858333,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005149/MC03_stage3_GMAO_precipitation_2048x1024_en.00001_searchweb.png",
+            "filename": "MC03_stage3_GMAO_precipitation_2048x1024_en.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Precipitation and clouds are calculated using fields from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions, which can be used to estimate the formation of clouds along with rain and snowfall.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 398777,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 858334,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005149/MC03_stage3_GMAO_precipitation_2048x1024_en.00001_thm.png",
+            "filename": "MC03_stage3_GMAO_precipitation_2048x1024_en.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "Precipitation and clouds are calculated using fields from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions, which can be used to estimate the formation of clouds along with rain and snowfall.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 424716,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 858331,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005149/MC03_stage3_GMAO_precipitation_2048x1024_en.mp4",
+            "filename": "MC03_stage3_GMAO_precipitation_2048x1024_en.mp4",
+            "media_type": "Movie",
+            "alt_text": "Precipitation and clouds are calculated using fields from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions, which can be used to estimate the formation of clouds along with rain and snowfall.",
+            "width": 2048,
+            "height": 1024,
+            "pixels": 2097152
+          }
+        },
+        {
+          "id": 446560,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1141004,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005149/frames/2048x1024_2x1_12p/MC03_stage3_GMAO_precipitation_2048x1024_en-hwtool/",
+            "filename": "MC03_stage3_GMAO_precipitation_2048x1024_en-hwtool",
+            "media_type": "Frames",
+            "alt_text": "Precipitation and clouds are calculated using fields from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions, which can be used to estimate the formation of clouds along with rain and snowfall.",
+            "width": 2048,
+            "height": 1024,
+            "pixels": 2097152
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 372188,
+      "url": "http://svs.gsfc.nasa.gov/5149/#media_group_372188",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Weather models begin their forecasts by integrating observations from ground stations, aircraft, balloons, and a growing constellation of Earth observing satellites to estimate the most realistic atmospheric state. The Goddard Earth Observing System Forward Processing (GEOS-FP) system is a research model maintained by NASA’s Global Modeling and Assimilation Office to demonstrate innovative new ways to use satellite data to improve predictions of weather, air quality, and greenhouse gases and to help NASA collect new observations of our home planet. These models use complex equations to track the formation of clouds and estimate the amount of rainfall they will produce. <br>\r<br>This animation overlays total precipitation, including both rain and snow, atop simulated cloud fields shaded by their optical thickness. Precipitation patterns are shifting as a result of climate change because warmer temperatures allow the atmosphere to evaporate and store more water vapor. In the northeastern U.S., communities have experienced a higher percentage of total rain falling during severe storms, which is concerning because it can raise the risk of hazards like flash floods and result in a smaller percentage of rain replenishing ground water supplies. Scientists are also tracking changes in the frequency and impact of atmospheric rivers in the western U.S. In addition to producing precipitation, clouds play a critical role in climate. Depending on their elevation, thickness, and the presence of aerosol particles, clouds can either reflect sunlight (cooling the planet) or trap heat emitted from Earth’s surface (heating the planet). The degree to which cloud properties may change in coming decades is one of the largest sources of uncertainty in climate projections. NASA is working to find new ways to measure the properties of clouds and precipitation to help improve the ability to predict both short term changes in weather and long term changes in climate.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 379776,
+      "url": "http://svs.gsfc.nasa.gov/5149/#media_group_379776",
+      "widget": "Single image",
+      "title": "",
+      "caption": "Precipitation colorbar with semi-transparent background, optimized for Earth Information Center content.",
+      "description": "",
+      "items": [
+        {
+          "id": 511145,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1202219,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005149/Precipitation_colorbar.png",
+            "filename": "Precipitation_colorbar.png",
+            "media_type": "Image",
+            "alt_text": "",
+            "width": 528,
+            "height": 165,
+            "pixels": 87120
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 379777,
+      "url": "http://svs.gsfc.nasa.gov/5149/#media_group_379777",
+      "widget": "Single image",
+      "title": "",
+      "caption": "Precipitation colorbar.",
+      "description": "",
+      "items": [
+        {
+          "id": 511146,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1202220,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005149/Precipitation_colorbar_plain.png",
+            "filename": "Precipitation_colorbar_plain.png",
+            "media_type": "Image",
+            "alt_text": "",
+            "width": 528,
+            "height": 165,
+            "pixels": 87120
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 372189,
+      "url": "http://svs.gsfc.nasa.gov/5149/#media_group_372189",
+      "widget": "Basic text",
+      "title": "For More Information",
+      "caption": "",
+      "description": "See [https://gmao.gsfc.nasa.gov/weather-analysis-prediction/](https://gmao.gsfc.nasa.gov/weather-analysis-prediction/)",
+      "items": [],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    { "role": "Visualizer", "people": [{ "name": "Joseph V. Ardizzone", "employer": "NASA/GSFC" }] }
+  ],
+  "missions": [],
+  "series": ["Updates Regularly"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "GEOS-FP",
+      "common_name": "",
+      "platform": null,
+      "sensor": null,
+      "type": "Model",
+      "organizations": ["NASA GMAO"],
+      "description": "Documentation: Lucchesi, R., 2018: File Specification for GEOS FP. GMAO Office Note No. 4 (Version 1.2), 61 pp, available from [https://gmao.gsfc.nasa.gov/pubs/docs/Lucchesi1203.pdf](https://gmao.gsfc.nasa.gov/pubs/docs/Lucchesi1203.pdf)",
+      "credit": "",
+      "url": "https://fluid.nccs.nasa.gov/weather/",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Earth Information Center", "GMAO", "Hyperwall", "Weather and Atmospheric Dynamics"],
+  "recommended_pages": [
+    {
+      "id": 5668,
+      "url": "http://svs.gsfc.nasa.gov/5668/",
+      "page_type": "Visualization",
+      "title": "Unprecedented Wildfires in the Pacific Northwest Engulf the Region in Smoke",
+      "description": "Record-breaking wildfires impacted the Pacific Northwest. Watch how NASA’s GEOS model tracks the long-range transport of wildfire smoke as it travels across the continent. Additionally, Sentinel satellite imagery reveals the localized ground-level aftermath, showing burn scars and fire spread near Spokane, WA, as well as throughout Washington and Oregon.",
+      "release_date": "2026-08-06T00:00:00-04:00",
+      "update_date": "2026-08-06T14:58:08.086728-04:00",
+      "main_image": {
+        "id": 1204991,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005668/SmokeIntensity_PacificNW_1920x1080.png",
+        "filename": "SmokeIntensity_PacificNW_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5666,
+      "url": "http://svs.gsfc.nasa.gov/5666/",
+      "page_type": "Visualization",
+      "title": "Smoke from Record-Breaking Wildfires in Spain and France",
+      "description": "Record-breaking wildfires in July 2026 severely impacted European air quality. Watch how NASA’s GEOS model tracks the dramatic transport of wildfire smoke across the continent, alongside two NASA FEDS visualizations showing the rapid expansion of active fire perimeters in Madrid, Spain, and Bordeaux, France.",
+      "release_date": "2026-07-30T16:02:00-04:00",
+      "update_date": "2026-08-25T15:32:16.461583-04:00",
+      "main_image": {
+        "id": 1204875,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005666/SmokeIntensity_EuropeanWildfires_1920x1080.png",
+        "filename": "SmokeIntensity_EuropeanWildfires_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5665,
+      "url": "http://svs.gsfc.nasa.gov/5665/",
+      "page_type": "Visualization",
+      "title": "Long-range Transport of 2026 Canadian Wildfire Smoke into the United States (July 14-20, 2026)",
+      "description": "Powered by NASA's GEOS model, this animation visualizes the transport of brown carbon from July 14 to 20, 2026, and its impact on U.S. air quality.",
+      "release_date": "2026-07-20T13:30:00-04:00",
+      "update_date": "2026-07-22T11:17:40.880015-04:00",
+      "main_image": {
+        "id": 1204626,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005665/CanadianWildfires_WithActiveFireLocations_07202026_1920x1080.png",
+        "filename": "CanadianWildfires_WithActiveFireLocations_07202026_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5664,
+      "url": "http://svs.gsfc.nasa.gov/5664/",
+      "page_type": "Visualization",
+      "title": "Long-range Transport of 2026 Canadian Wildfire Smoke into the United States (July 14-17, 2026)",
+      "description": "Powered by NASA's GEOS model, this animation visualizes the transport of brown carbon from July 14 to 17, 2026, and its impact on U.S. air quality.",
+      "release_date": "2026-07-17T18:00:00-04:00",
+      "update_date": "2026-07-23T09:21:29.709358-04:00",
+      "main_image": {
+        "id": 1204624,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005664/CanadianWildfires_WithActiveFireLocations_07172026_1920x1080.png",
+        "filename": "CanadianWildfires_WithActiveFireLocations_07172026_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": 5669,
+      "url": "http://svs.gsfc.nasa.gov/5669/",
+      "page_type": "Visualization",
+      "title": "GEOS Aerosols (2025)",
+      "description": "Aerosols are tiny solid or liquid particles that float in the atmosphere and can travel long distances, affecting air quality and visibility far from their sources. This visualization still, captured for August 19, 2025 (20:00 UTC), is based on NASA's Goddard Earth Observing System (GEOS) model. The GEOS model delivers realistic, high-resolution weather and aerosol data that enable customized environmental prediction and advances in AI research.",
+      "release_date": "2026-08-10T15:15:00-04:00",
+      "update_date": "2026-08-10T17:08:45.208253-04:00",
+      "main_image": {
+        "id": 1205026,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1920x1080.png",
+        "filename": "Aerosols_2025-08-19T20_00_00_1920x1080.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5147,
+      "url": "http://svs.gsfc.nasa.gov/5147/",
+      "page_type": "Visualization",
+      "title": "GEOS-FP Near-Surface Temperature",
+      "description": "Near-surface temperature is calculated by sampling 3-D atmospheric fields from NASA’s GEOS-FP system 3 meters above Earth’s surface. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions that are used to begin a forecast.",
+      "release_date": "2023-09-26T17:00:00-04:00",
+      "update_date": "2026-11-14T02:00:14.958609-05:00",
+      "main_image": {
+        "id": 858328,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005147/MC01_stage3_GMAO_near_surface_temperature_2048x1024_en.00001_print.jpg",
+        "filename": "MC01_stage3_GMAO_near_surface_temperature_2048x1024_en.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Near surface temperature is calculated by sampling 3-D atmospheric fields from NASA’s GEOS-FP system 3 meters above Earth’s surface. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions that are used to begin a forecast.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 5148,
+      "url": "http://svs.gsfc.nasa.gov/5148/",
+      "page_type": "Visualization",
+      "title": "GEOS-FP Near-Surface Wind Speed",
+      "description": "Near-surface wind speed is calculated by sampling 3-D atmospheric fields from NASA’s GEOS-FP system 10 meters above Earth’s surface. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions that are used to begin a forecast.",
+      "release_date": "2023-09-26T17:00:00-04:00",
+      "update_date": "2026-11-14T02:00:23.891294-05:00",
+      "main_image": {
+        "id": 858325,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005148/MC02_stage3_GMAO_near_surface_wind_2048x1024_en.00001_print.jpg",
+        "filename": "MC02_stage3_GMAO_near_surface_wind_2048x1024_en.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Near-surface wind speed is calculated by sampling 3-D atmospheric fields from NASA’s GEOS-FP system 10 meters above Earth’s surface. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions that are used to begin a forecast.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 5150,
+      "url": "http://svs.gsfc.nasa.gov/5150/",
+      "page_type": "Visualization",
+      "title": "GEOS-FP Near-Surface Humidity",
+      "description": "Near-surface Humidity, also known as specific humidity (Q2M) from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions that are used to begin a forecast.",
+      "release_date": "2023-09-26T17:00:00-04:00",
+      "update_date": "2026-11-14T02:00:56.359417-05:00",
+      "main_image": {
+        "id": 1202189,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005150/MC04_stage3_GMAO_near_surface_humidity_2048x1024.png",
+        "filename": "MC04_stage3_GMAO_near_surface_humidity_2048x1024.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 2048,
+        "height": 1024,
+        "pixels": 2097152
+      }
+    },
+    {
+      "id": 5151,
+      "url": "http://svs.gsfc.nasa.gov/5151/",
+      "page_type": "Visualization",
+      "title": "Particulate Matter (PM) 2.5",
+      "description": "Near surface concentration of fine particular matter (PM2.5) estimated from NASA’s aerosol and weather fields produced by NASA’s GEOS-CF model.",
+      "release_date": "2023-09-26T17:00:00-04:00",
+      "update_date": "2026-11-14T02:00:58.490675-05:00",
+      "main_image": {
+        "id": 858344,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005151/MC01_stage4_GMAO_pm25_2048x1024_en.00001_print.jpg",
+        "filename": "MC01_stage4_GMAO_pm25_2048x1024_en.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Near surface concentration of fine particular matter (PM2.5) estimated from NASA’s aerosol and weather fields produced by NASA’s GEOS-CF model.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 5152,
+      "url": "http://svs.gsfc.nasa.gov/5152/",
+      "page_type": "Visualization",
+      "title": "Near surface Ozone (O3)",
+      "description": "Near surface concentration of ozone (O3) estimated by NASA’s GEOS-CF model.",
+      "release_date": "2023-09-26T17:00:00-04:00",
+      "update_date": "2026-11-14T02:01:04.513176-05:00",
+      "main_image": {
+        "id": 858348,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005152/MC02_stage4_GMAO_O3_2048x1024_en.00001_print.jpg",
+        "filename": "MC02_stage4_GMAO_O3_2048x1024_en.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Near surface concentration of ozone (O3) estimated by NASA’s GEOS-CF model.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 5153,
+      "url": "http://svs.gsfc.nasa.gov/5153/",
+      "page_type": "Visualization",
+      "title": "Carbon Monoxide (CO)",
+      "description": "Near surface concentration of carbon monoxide (CO) estimated by NASA’s GEOS-CF model.",
+      "release_date": "2023-09-26T17:00:00-04:00",
+      "update_date": "2026-11-14T02:01:07.983049-05:00",
+      "main_image": {
+        "id": 858352,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005153/MC03_stage4_GMAO_CO_2048x1024_en.00001_print.jpg",
+        "filename": "MC03_stage4_GMAO_CO_2048x1024_en.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Near surface concentration of carbon monoxide (CO) estimated by NASA’s GEOS-CF model.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 5154,
+      "url": "http://svs.gsfc.nasa.gov/5154/",
+      "page_type": "Visualization",
+      "title": "Nitrogen Oxides (NOx)",
+      "description": "Near surface concentration of Nitrogen Oxides (NOx) estimated from concentrations of nitrogen oxide and nitrogen dioxide produced by  NASA’s GEOS-CF model.",
+      "release_date": "2023-09-26T17:00:00-04:00",
+      "update_date": "2026-11-14T02:01:12.293142-05:00",
+      "main_image": {
+        "id": 858357,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005154/MC04_stage4_GMAO_NO2_2048x1024_en.00001_print.jpg",
+        "filename": "MC04_stage4_GMAO_NO2_2048x1024_en.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Near surface concentration of Nitrogen Oxides (NOx) estimated from concentrations of nitrogen oxide and nitrogen dioxide produced by NASA’s GEOS-CF model.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    }
+  ],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

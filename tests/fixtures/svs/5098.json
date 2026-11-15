@@ -1,0 +1,630 @@
+{
+  "id": 5098,
+  "url": "http://svs.gsfc.nasa.gov/5098/",
+  "page_type": "Visualization",
+  "title": "Relative Wetness Root Zone Versus Groundwater Comparison",
+  "description": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data. || root_n_grnd.4k.2676_print.jpg (1024x576) [173.0 KB] || root_n_grnd.4k.2676_searchweb.png (320x180) [73.6 KB] || root_n_grnd.4k.2676_web.png (320x180) [73.6 KB] || root_n_grnd.1080p30.mp4 (1920x1080) [50.5 MB] || root_n_grnd.1080p30.webm (1920x1080) [10.7 MB] || Sample_Composite (3840x2160) [0 Item(s)] || root_n_grnd.2160p30.mp4 (3840x2160) [118.5 MB] || ",
+  "release_date": "2023-04-24T09:00:00-04:00",
+  "update_date": "2025-03-10T00:13:30.539592-04:00",
+  "main_image": {
+    "id": 855241,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/root_n_grnd.4k.2676_print.jpg",
+    "filename": "root_n_grnd.4k.2676_print.jpg",
+    "media_type": "Image",
+    "alt_text": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [
+      { "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." }
+    ],
+    "Scientific consulting by": [{ "name": "Matthew Rodell", "employer": "NASA/GSFC" }],
+    "Produced by": [
+      { "name": "Kathleen Gaeta", "employer": "Advocates in Manpower Management, Inc." }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 312556,
+      "url": "http://svs.gsfc.nasa.gov/5098/#media_group_312556",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data.",
+      "items": [
+        {
+          "id": 460050,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855241,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/root_n_grnd.4k.2676_print.jpg",
+            "filename": "root_n_grnd.4k.2676_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 460051,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855242,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/root_n_grnd.4k.2676_searchweb.png",
+            "filename": "root_n_grnd.4k.2676_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 460053,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855243,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/root_n_grnd.4k.2676_web.png",
+            "filename": "root_n_grnd.4k.2676_web.png",
+            "media_type": "Image",
+            "alt_text": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 460049,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855239,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/root_n_grnd.1080p30.mp4",
+            "filename": "root_n_grnd.1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 460052,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855251,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/root_n_grnd.1080p30.webm",
+            "filename": "root_n_grnd.1080p30.webm",
+            "media_type": "Movie",
+            "alt_text": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 206566,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854972,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/frames/3840x2160_16x9_30p/Sample_Composite/",
+            "filename": "Sample_Composite",
+            "media_type": "Frames",
+            "alt_text": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 206565,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855240,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/root_n_grnd.2160p30.mp4",
+            "filename": "root_n_grnd.2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Sample composite showing the comparison between the root zone relative wetness data to groundwater wetness data. The root zone is approximately 1 meter below the surface as opposed to groundwater which is deeper. Seeing these side-by-side allows the viewer to see that the root zone data changes much more rapidly than the deeper stored groundwater data.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312555,
+      "url": "http://svs.gsfc.nasa.gov/5098/#media_group_312555",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "These maps combine data from the Gravity Recovery and Climate Experiment (GRACE) and GRACE Follow-On (GRACE-FO) with other satellite and ground-based measurements to model the relative amount of water stored at two different depths: plant root level and underground. The brown regions represent dry conditions. The blue regions represent wet areas. All of the maps are experimental products funded by NASA’s Applied Sciences Program and developed by scientists at NASA’s Goddard Space Flight Center and the National Drought Mitigation Center. The maps do not attempt to represent human consumption of water; but rather, they show changes in water storage related to weather, climate, and seasonal patterns.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 312557,
+      "url": "http://svs.gsfc.nasa.gov/5098/#media_group_312557",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Root zone data by itself. The root zone is the area beneath the soil surface where most vegetation roots grow.",
+      "items": [
+        {
+          "id": 460057,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854837,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/rz.17151_print.jpg",
+            "filename": "rz.17151_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Root zone data by itself. The root zone is the area beneath the soil surface where most vegetation roots grow.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 206572,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854838,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/rz_1080p30.mp4",
+            "filename": "rz_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Root zone data by itself. The root zone is the area beneath the soil surface where most vegetation roots grow.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 460056,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854836,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/frames/1920x1080_16x9_30p/Root_Zone/",
+            "filename": "Root_Zone",
+            "media_type": "Frames",
+            "alt_text": "Root zone data by itself. The root zone is the area beneath the soil surface where most vegetation roots grow.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 460058,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854850,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/rz_1080p30.webm",
+            "filename": "rz_1080p30.webm",
+            "media_type": "Movie",
+            "alt_text": "Root zone data by itself. The root zone is the area beneath the soil surface where most vegetation roots grow.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 460054,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854994,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/rz4k_2160p30.mp4",
+            "filename": "rz4k_2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Root zone data by itself. The root zone is the area beneath the soil surface where most vegetation roots grow.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 460055,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854973,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/frames/3840x2160_16x9_30p/Root_Zone/",
+            "filename": "Root_Zone",
+            "media_type": "Frames",
+            "alt_text": "Root zone data by itself. The root zone is the area beneath the soil surface where most vegetation roots grow.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 454604,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1099199,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/rz_1080p30.mp4.hwshow",
+            "filename": "rz_1080p30.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312558,
+      "url": "http://svs.gsfc.nasa.gov/5098/#media_group_312558",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Groundwater data by itself. Groundwater is stored far beneath the root zone and therefore changes less frequently.",
+      "items": [
+        {
+          "id": 206582,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854840,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/gw.17151_print.jpg",
+            "filename": "gw.17151_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Groundwater data by itself. Groundwater is stored far beneath the root zone and therefore changes less frequently.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 206581,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854839,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/frames/1920x1080_16x9_30p/Groundwater/",
+            "filename": "Groundwater",
+            "media_type": "Frames",
+            "alt_text": "Groundwater data by itself. Groundwater is stored far beneath the root zone and therefore changes less frequently.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 206583,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854888,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/gw_1080p30.webm",
+            "filename": "gw_1080p30.webm",
+            "media_type": "Movie",
+            "alt_text": "Groundwater data by itself. Groundwater is stored far beneath the root zone and therefore changes less frequently.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 460059,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854881,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/gw_1080p30.mp4",
+            "filename": "gw_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Groundwater data by itself. Groundwater is stored far beneath the root zone and therefore changes less frequently.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 460060,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854995,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/gw4k_2160p30.mp4",
+            "filename": "gw4k_2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Groundwater data by itself. Groundwater is stored far beneath the root zone and therefore changes less frequently.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 460061,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854974,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/frames/3840x2160_16x9_30p/Groundwater/",
+            "filename": "Groundwater",
+            "media_type": "Frames",
+            "alt_text": "Groundwater data by itself. Groundwater is stored far beneath the root zone and therefore changes less frequently.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312559,
+      "url": "http://svs.gsfc.nasa.gov/5098/#media_group_312559",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Date overlay for the above animations.",
+      "items": [
+        {
+          "id": 206584,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854842,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/dates.17151_print.jpg",
+            "filename": "dates.17151_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Date overlay for the above animations.",
+            "width": 1024,
+            "height": 256,
+            "pixels": 262144
+          }
+        },
+        {
+          "id": 206585,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854843,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/dates_500p30.mp4",
+            "filename": "dates_500p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Date overlay for the above animations.",
+            "width": 2000,
+            "height": 500,
+            "pixels": 1000000
+          }
+        },
+        {
+          "id": 460062,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854849,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/frames/2000x500_4x1_30p/Dates/",
+            "filename": "Dates",
+            "media_type": "Frames",
+            "alt_text": "Date overlay for the above animations.",
+            "width": 2000,
+            "height": 500,
+            "pixels": 1000000
+          }
+        },
+        {
+          "id": 460063,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854848,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/dates_500p30.webm",
+            "filename": "dates_500p30.webm",
+            "media_type": "Movie",
+            "alt_text": "Date overlay for the above animations.",
+            "width": 2000,
+            "height": 500,
+            "pixels": 1000000
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312560,
+      "url": "http://svs.gsfc.nasa.gov/5098/#media_group_312560",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Colorbar where browns indicate dryer areas and blue wetter.",
+      "items": [
+        {
+          "id": 460065,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854845,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/NEO_soil_moisture_pale2_cbar2_print.jpg",
+            "filename": "NEO_soil_moisture_pale2_cbar2_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Colorbar where browns indicate dryer areas and blue wetter.",
+            "width": 1024,
+            "height": 6612,
+            "pixels": 6770688
+          }
+        },
+        {
+          "id": 460064,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854851,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/NEO_soil_moisture_pale2_cbar2.png",
+            "filename": "NEO_soil_moisture_pale2_cbar2.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar where browns indicate dryer areas and blue wetter.",
+            "width": 70,
+            "height": 452,
+            "pixels": 31640
+          }
+        },
+        {
+          "id": 460066,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854846,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/NEO_soil_moisture_pale2_cbar2_thm.png",
+            "filename": "NEO_soil_moisture_pale2_cbar2_thm.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar where browns indicate dryer areas and blue wetter.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 460067,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854975,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005098/NEO_soil_moisture_pale2_cbar.png",
+            "filename": "NEO_soil_moisture_pale2_cbar.png",
+            "media_type": "Image",
+            "alt_text": "Colorbar where browns indicate dryer areas and blue wetter.",
+            "width": 310,
+            "height": 2000,
+            "pixels": 620000
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["SMD"],
+  "credits": [
+    {
+      "role": "Data visualizer",
+      "people": [{ "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." }]
+    },
+    { "role": "Scientist", "people": [{ "name": "Matthew Rodell", "employer": "NASA/GSFC" }] },
+    {
+      "role": "Producer",
+      "people": [{ "name": "Kathleen Gaeta", "employer": "Advocates in Manpower Management, Inc." }]
+    },
+    {
+      "role": "Data provider",
+      "people": [{ "name": "Hiroko Kato Beaudoing", "employer": "University of Maryland" }]
+    }
+  ],
+  "missions": [
+    "Gravity Recovery and Climate Experiment (GRACE)",
+    "Gravity Recovery and Climate Experiment Follow-on (GRACE-FO)"
+  ],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "Gravity Recovery and Climate Experiment (GRACE)",
+      "sensor": null,
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Droughts",
+    "Earth Science",
+    "Ground Water",
+    "HDTV",
+    "Human Dimensions",
+    "Hydrology",
+    "Hydrosphere",
+    "Hyperwall",
+    "Natural hazards"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

@@ -1,0 +1,352 @@
+{
+  "id": 30521,
+  "url": "http://svs.gsfc.nasa.gov/30521/",
+  "page_type": "Hyperwall Visual",
+  "title": "California Drought",
+  "description": "The NASA Gravity Recovery and Climate Experiment (GRACE) mission, launched in 2002, maps changes in Earth's gravity field resulting from the movement of water over the planet.  As water moves around the globe — for example, due to flooding in some regions and drought in others —  GRACE acts like a 'scale in the sky,' mapping the regions of Earth that are gaining or losing water each month.   The GRACE mission has been particularly successful in monitoring the melting of the Greenland and Antartic ice sheets, and in mapping changing freshwater storage on land.  This animation shows how the total amount of water (all of the snow, surface water, soil moisture and groundwater) varies in space and time, with the passage of dry seasons and wet seasons as well as with flooding, drought and transport due to water management  Blue colors represent wetter than average conditions (relative to the 2002-2013 time period) and the red colors represent drier than average conditions.  The graph at the left shows the monthly changes for the average of map region outlined in yellow. The yellow line in the graph at the left shows interannual variations.The Sacramento and San Joaquiin River basins are outlined in yellow and the rivers and their tributaries are shown by the blue lines.  The basins include California's Central Valley, the most productive agricultural region in the United States.  Ongoing drought in California has drained the state of nearly 15 cubic kilometers (12 miillion acre feet; 4 trillion gallons) of water in each of the last 3 years.  Much of the loss is a result of groundwater depletion. Limited rainfall and snowmelt throughout the state has forced agriculture and cities to rely more heavily on groundwater reserves, resulting in rapid depletion of the aquifer beneath the Central Valley. At least 50% of the annual water loss is due to the removal of groundwater. || ",
+  "release_date": "2014-10-01T23:00:00-04:00",
+  "update_date": "2024-10-13T23:38:45.811659-04:00",
+  "main_image": {
+    "id": 430603,
+    "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_ca_drought_v4_0128_print.jpg",
+    "filename": "grace_ca_drought_v4_0128_print.jpg",
+    "media_type": "Image",
+    "alt_text": "GRACE gravity data reveals water deficit in California.",
+    "width": 1024,
+    "height": 574,
+    "pixels": 587776
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [
+      { "name": "Marit Jentoft-Nilsen", "employer": "Global Science and Technology, Inc." }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 340116,
+      "url": "http://svs.gsfc.nasa.gov/30521/#media_group_340116",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "The NASA Gravity Recovery and Climate Experiment (GRACE) mission, launched in 2002, maps changes in Earth's gravity field resulting from the movement of water over the planet.  As water moves around the globe — for example, due to flooding in some regions and drought in others —  GRACE acts like a 'scale in the sky,' mapping the regions of Earth that are gaining or losing water each month.   The GRACE mission has been particularly successful in monitoring the melting of the Greenland and Antartic ice sheets, and in mapping changing freshwater storage on land.  <br><br>This animation shows how the total amount of water (all of the snow, surface water, soil moisture and groundwater) varies in space and time, with the passage of dry seasons and wet seasons as well as with flooding, drought and transport due to water management  Blue colors represent wetter than average conditions (relative to the 2002-2013 time period) and the red colors represent drier than average conditions.  The graph at the left shows the monthly changes for the average of map region outlined in yellow. The yellow line in the graph at the left shows interannual variations.<br><br>The Sacramento and San Joaquiin River basins are outlined in yellow and the rivers and their tributaries are shown by the blue lines.  The basins include California's Central Valley, the most productive agricultural region in the United States.  Ongoing drought in California has drained the state of nearly 15 cubic kilometers (12 miillion acre feet; 4 trillion gallons) of water in each of the last 3 years.  Much of the loss is a result of groundwater depletion. Limited rainfall and snowmelt throughout the state has forced agriculture and cities to rely more heavily on groundwater reserves, resulting in rapid depletion of the aquifer beneath the <i>Central Valley</i>. At least 50% of the annual water loss is due to the removal of groundwater.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 340117,
+      "url": "http://svs.gsfc.nasa.gov/30521/#media_group_340117",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "GRACE gravity data reveals water deficit in California.",
+      "items": [
+        {
+          "id": 288674,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430603,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_ca_drought_v4_0128_print.jpg",
+            "filename": "grace_ca_drought_v4_0128_print.jpg",
+            "media_type": "Image",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 1024,
+            "height": 574,
+            "pixels": 587776
+          }
+        },
+        {
+          "id": 288675,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430604,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_ca_drought_v4_0128_searchweb.png",
+            "filename": "grace_ca_drought_v4_0128_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 180,
+            "height": 320,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 288676,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430606,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_ca_drought_v4_0128_web.png",
+            "filename": "grace_ca_drought_v4_0128_web.png",
+            "media_type": "Image",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 320,
+            "height": 179,
+            "pixels": 57280
+          }
+        },
+        {
+          "id": 288677,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430608,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_ca_drought_v4_0128_thm.png",
+            "filename": "grace_ca_drought_v4_0128_thm.png",
+            "media_type": "Image",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 288668,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430610,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_california_v4_720p.webmhd.webm",
+            "filename": "grace_california_v4_720p.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 288670,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430595,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_california_v4_1080p.mp4",
+            "filename": "grace_california_v4_1080p.mp4",
+            "media_type": "Movie",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 288671,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430597,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_california_v4_720p.mp4",
+            "filename": "grace_california_v4_720p.mp4",
+            "media_type": "Movie",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 1280,
+            "height": 720,
+            "pixels": 921600
+          }
+        },
+        {
+          "id": 288669,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430593,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_california_v4_2304p.mp4",
+            "filename": "grace_california_v4_2304p.mp4",
+            "media_type": "Movie",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 4096,
+            "height": 2304,
+            "pixels": 9437184
+          }
+        },
+        {
+          "id": 288672,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430600,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_california_v4_360p.mp4",
+            "filename": "grace_california_v4_360p.mp4",
+            "media_type": "Movie",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 640,
+            "height": 360,
+            "pixels": 230400
+          }
+        },
+        {
+          "id": 288673,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430602,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/grace_ca_drought_v4_0128.tif",
+            "filename": "grace_ca_drought_v4_0128.tif",
+            "media_type": "Image",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 4104,
+            "height": 2304,
+            "pixels": 9455616
+          }
+        },
+        {
+          "id": 288678,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430591,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/california_deepening_drought.key",
+            "filename": "california_deepening_drought.key",
+            "media_type": "Presentation",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 0,
+            "height": 0,
+            "pixels": 0
+          }
+        },
+        {
+          "id": 288679,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 430589,
+            "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030500/a030521/california_deepening_drought.pptx",
+            "filename": "california_deepening_drought.pptx",
+            "media_type": "Presentation",
+            "alt_text": "GRACE gravity data reveals water deficit in California.",
+            "width": 0,
+            "height": 0,
+            "pixels": 0
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "hw",
+  "funding_sources": ["SMD"],
+  "credits": [
+    {
+      "role": "Animator",
+      "people": [
+        { "name": "Marit Jentoft-Nilsen", "employer": "Global Science and Technology, Inc." }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [{ "name": "Felix W. Landerer", "employer": "NASA/JPL CalTech" }]
+    },
+    {
+      "role": "Scientist",
+      "people": [{ "name": "Jay Famiglietti", "employer": "University of California, Irvine" }]
+    }
+  ],
+  "missions": ["Gravity Recovery and Climate Experiment (GRACE)"],
+  "series": [],
+  "tapes": [],
+  "papers": [
+    "Famiglietti, J. S., M. Lo, S. L. Ho, J. Bethune, K. J. Anderson, T. H. Syed, S. C. Swenson, C. R. de Linage, and M. Rodell (2011), Satellites measure recent rates of groundwater depletion in California's Central Valley, Geophys. Res. Lett., 38, L03403, doi:10.1029/2010GL046442.",
+    "Famiglietti, J. S., M. Lo, S. L. Ho, J. Bethune, K. J. Anderson, T. H. Syed, S. C. Swenson, C. R. de Linage, and M. Rodell (2011), Satellites measure recent rates of groundwater depletion in California's Central Valley, Geophys. Res. Lett., 38, L03403, doi:10.1029/2010GL046442."
+  ],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "Gravity Recovery and Climate Experiment (GRACE)",
+      "sensor": null,
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "California",
+    "Drought",
+    "Earth Science",
+    "Grace",
+    "Ground Water",
+    "HDTV",
+    "Hydrosphere",
+    "Hyperwall",
+    "Location",
+    "Presentation"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 4363,
+      "url": "http://svs.gsfc.nasa.gov/4363/",
+      "page_type": "Visualization",
+      "title": "Notes from the Underground",
+      "description": "This gallery was created for Earth Science Week 2015 and beyond. It includes a quick start guide for educators and first-hand stories (blogs) for learners of all ages by NASA visualizers, scientists and educators. We hope that your understanding and use of NASA's visualizations will only increase as your appreciation grows for the beauty of the science they portray, and the communicative power they hold. Read all the blogs and find educational resources for all ages at: the Earth Science Week 2015 page.I'm a hydrologist, which means I study how water moves around on land. Well, “on land” isn’t exactly right. It turns out that most of the interesting processes happen beneath the land surface, hidden from view. You might think, for example, that rivers fill from above — it rains and the water that doesn't sink into the ground runs off into the rivers. But in fact, about 80 percent of the water in rivers comes from underground. Rain soaks into the ground, adding water to the water table. When the water table rises to where it intersects with the land surface (on the side of a hill or even gently sloping \"flat\" land), the water penetrates through to the surface and runs downhill. Eventually, the flowing water carves out a ditch and you have a stream and ultimately a river.Let me show you what I mean: || ",
+      "release_date": "2015-09-29T18:00:00-04:00",
+      "update_date": "2023-05-03T13:49:17.105364-04:00",
+      "main_image": {
+        "id": 439245,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004300/a004363/grace-drought-california-02-08-14_print.jpg",
+        "filename": "grace-drought-california-02-08-14_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Three of the 12 images used in the GRACE lenticular card, which show the drying out of California’s aquifers based on the decreased amount of gravity they exert.",
+        "width": 1024,
+        "height": 654,
+        "pixels": 669696
+      }
+    }
+  ],
+  "sources": [],
+  "products": [],
+  "newer_versions": [
+    {
+      "id": 30862,
+      "url": "http://svs.gsfc.nasa.gov/30862/",
+      "page_type": "Hyperwall Visual",
+      "title": "GRACE measures California water",
+      "description": "Water storage from 2002-2017 as measured by gravity anomalies. || grace_ca_water_black_201701_print.jpg (1024x574) [119.7 KB] || grace_ca_water_black_201701_searchweb.png (320x180) [59.5 KB] || grace_ca_water_black_201701_thm.png (80x40) [4.9 KB] || grace_ca_water_black_1080p.mp4 (1920x1080) [7.3 MB] || grace_ca_water_black_720p.mp4 (1280x720) [3.6 MB] || grace_ca_water_black_720p.webm (1280x720) [5.9 MB] || grace_ca_water_black_201701.tif (4104x2304) [4.5 MB] || grace_ca_water_black_2304p.mp4 (4096x2304) [25.9 MB] || grace_ca_water_black_360p.mp4 (640x360) [1.1 MB] || ",
+      "release_date": "2017-03-07T00:00:00-05:00",
+      "update_date": "2025-02-03T00:47:22.253158-05:00",
+      "main_image": {
+        "id": 415873,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030800/a030862/grace_ca_water_black_201701_print.jpg",
+        "filename": "grace_ca_water_black_201701_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Water storage from 2002-2017 as measured by gravity anomalies.",
+        "width": 1024,
+        "height": 574,
+        "pixels": 587776
+      }
+    }
+  ],
+  "older_versions": [],
+  "alternate_versions": []
+}

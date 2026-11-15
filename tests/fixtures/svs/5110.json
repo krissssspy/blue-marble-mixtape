@@ -1,0 +1,1517 @@
+{
+  "id": 5110,
+  "url": "http://svs.gsfc.nasa.gov/5110/",
+  "page_type": "Visualization",
+  "title": "Atmospheric Carbon Dioxide Tagged by Source",
+  "description": "Carbon dioxide (CO2) is the most prevalent greenhouse gas driving global climate change. However, its increase in the atmosphere would be even more rapid without land and ocean carbon sinks, which collectively absorb about half of human emissions every year.  Advanced computer modeling techniques in NASA's Global Modeling and Assimilation Office allow us to disentangle the influences of sources and sinks and to better understand where carbon is coming from and going to. ||",
+  "release_date": "2023-06-16T10:00:00-04:00",
+  "update_date": "2026-01-05T15:47:43.308683-05:00",
+  "main_image": {
+    "id": 859342,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2explainer_1080p30.00740_print.jpg",
+    "filename": "CO2explainer_1080p30.00740_print.jpg",
+    "media_type": "Image",
+    "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": {
+    "id": 1195393,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/Tagged_CO2_explainer_1920x1080.mp4",
+    "filename": "Tagged_CO2_explainer_1920x1080.mp4",
+    "media_type": "Movie",
+    "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+    "width": 1920,
+    "height": 1080,
+    "pixels": 2073600
+  },
+  "main_credits": {
+    "Visualizations by": [
+      { "name": "AJ Christensen", "employer": "SSAI" },
+      { "name": "Mark SubbaRao", "employer": "NASA/GSFC" }
+    ],
+    "Scientific consulting by": [{ "name": "Lesley Ott", "employer": "NASA/GSFC" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 312173,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312173",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Carbon dioxide (CO2) is the most prevalent greenhouse gas driving global climate change. However, its increase in the atmosphere would be even more rapid without land and ocean carbon sinks, which collectively absorb about half of human emissions every year.  Advanced computer modeling techniques in NASA's Global Modeling and Assimilation Office allow us to disentangle the influences of sources and sinks and to better understand where carbon is coming from and going to.<br>",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 372227,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_372227",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.<p><p>This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+      "items": [
+        {
+          "id": 459081,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 859342,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2explainer_1080p30.00740_print.jpg",
+            "filename": "CO2explainer_1080p30.00740_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 459082,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1088367,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2explainer_1080p30.00740_print_searchweb.png",
+            "filename": "CO2explainer_1080p30.00740_print_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 459084,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1195393,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/Tagged_CO2_explainer_1920x1080.mp4",
+            "filename": "Tagged_CO2_explainer_1920x1080.mp4",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 414263,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 860789,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/5760x3240_16x9_30p/explainer/",
+            "filename": "explainer",
+            "media_type": "Frames",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+            "width": 5760,
+            "height": 3240,
+            "pixels": 18662400
+          }
+        },
+        {
+          "id": 459083,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1090295,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/Tagged_CO2_explainer_4K.mp4",
+            "filename": "Tagged_CO2_explainer_4K.mp4",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 499406,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156211,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/Tagged_CO2_explainer_4K.mp4.hwshow",
+            "filename": "Tagged_CO2_explainer_4K.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 372705,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_372705",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "<br>",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 372704,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_372704",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.<p><p>This composite does not have annotations.",
+      "items": [
+        {
+          "id": 459086,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 860786,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2composite.00100_print.jpg",
+            "filename": "CO2composite.00100_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This composite does not have annotations.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 414262,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 860788,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/5760x3240_16x9_30p/composite/",
+            "filename": "composite",
+            "media_type": "Frames",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This composite does not have annotations.",
+            "width": 5760,
+            "height": 3240,
+            "pixels": 18662400
+          }
+        },
+        {
+          "id": 459087,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 860787,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2composite.webm",
+            "filename": "CO2composite.webm",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This composite does not have annotations.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 459085,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 860785,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2composite.mp4",
+            "filename": "CO2composite.mp4",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This composite does not have annotations.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312174,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312174",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times. <p><p>For example, in this view highlighting North America and South America, during the growing season plants absorb CO2 through photosynthesis, but release much of this carbon through respiration during winter months. Some interesting features include fossil fuel emissions from the northeastern urban corridor that extends from Washington D.C. to Boston in the United States. The fast oscillation over the Amazon rainforest shows the impact of plants absorbing carbon while the sun is shining and then releasing it during nighttime hours.",
+      "items": [
+        {
+          "id": 459090,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855678,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal.00001_print.jpg",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times. For example, in this view highlighting North America and South America, during the growing season plants absorb CO2 through photosynthesis, but release much of this carbon through respiration during winter months. Some interesting features include fossil fuel emissions from the northeastern urban corridor that extends from Washington D.C. to Boston in the United States. The fast oscillation over the Amazon rainforest shows the impact of plants absorbing carbon while the sun is shining and then releasing it during nighttime hours.",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        },
+        {
+          "id": 459091,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855680,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal.00001_web.png",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times. For example, in this view highlighting North America and South America, during the growing season plants absorb CO2 through photosynthesis, but release much of this carbon through respiration during winter months. Some interesting features include fossil fuel emissions from the northeastern urban corridor that extends from Washington D.C. to Boston in the United States. The fast oscillation over the Amazon rainforest shows the impact of plants absorbing carbon while the sun is shining and then releasing it during nighttime hours.",
+            "width": 320,
+            "height": 320,
+            "pixels": 102400
+          }
+        },
+        {
+          "id": 459092,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855681,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal.00001_thm.png",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times. For example, in this view highlighting North America and South America, during the growing season plants absorb CO2 through photosynthesis, but release much of this carbon through respiration during winter months. Some interesting features include fossil fuel emissions from the northeastern urban corridor that extends from Washington D.C. to Boston in the United States. The fast oscillation over the Amazon rainforest shows the impact of plants absorbing carbon while the sun is shining and then releasing it during nighttime hours.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459089,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855677,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/2160x2160_1x1_30p/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal/",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal",
+            "media_type": "Frames",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times. For example, in this view highlighting North America and South America, during the growing season plants absorb CO2 through photosynthesis, but release much of this carbon through respiration during winter months. Some interesting features include fossil fuel emissions from the northeastern urban corridor that extends from Washington D.C. to Boston in the United States. The fast oscillation over the Amazon rainforest shows the impact of plants absorbing carbon while the sun is shining and then releasing it during nighttime hours.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 459093,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855695,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal_2160p30.webm",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal_2160p30.webm",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times. For example, in this view highlighting North America and South America, during the growing season plants absorb CO2 through photosynthesis, but release much of this carbon through respiration during winter months. Some interesting features include fossil fuel emissions from the northeastern urban corridor that extends from Washington D.C. to Boston in the United States. The fast oscillation over the Amazon rainforest shows the impact of plants absorbing carbon while the sun is shining and then releasing it during nighttime hours.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 459088,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855692,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal_2160p30.mp4",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal_2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times. For example, in this view highlighting North America and South America, during the growing season plants absorb CO2 through photosynthesis, but release much of this carbon through respiration during winter months. Some interesting features include fossil fuel emissions from the northeastern urban corridor that extends from Washington D.C. to Boston in the United States. The fast oscillation over the Amazon rainforest shows the impact of plants absorbing carbon while the sun is shining and then releasing it during nighttime hours.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 465412,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1148199,
+            "url": "http://svs.gsfc.nasa.gov/hyperwall/data/events/2022/20220218-b28/JHU/Climate-dashboard.hwshow",
+            "filename": "Climate-dashboard.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312175,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312175",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This view highlights CO2 sources and sinks over Asia and Australia. The most notable feature is fossil fuel emissions from China, which contribute to the increasing atmospheric burden of CO2 over the course of 2021. In contrast, drawdown from the land biosphere is visible over Australia for much of the year because emissions and population density are much lower. By the end of the animation, fossil fuel emissions which are released predominantly in the Northern Hemisphere are mixing southward obscuring Australia.",
+      "items": [
+        {
+          "id": 459096,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855683,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal.00001_print.jpg",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This view highlights CO2 sources and sinks over Asia and Australia. The most notable feature is fossil fuel emissions from China, which contribute to the increasing atmospheric burden of CO2 over the course of 2021. In contrast, drawdown from the land biosphere is visible over Australia for much of the year because emissions and population density are much lower. By the end of the animation, fossil fuel emissions which are released predominantly in the Northern Hemisphere are mixing southward obscuring Australia.",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        },
+        {
+          "id": 459097,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855685,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal.00001_web.png",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "This view highlights CO2 sources and sinks over Asia and Australia. The most notable feature is fossil fuel emissions from China, which contribute to the increasing atmospheric burden of CO2 over the course of 2021. In contrast, drawdown from the land biosphere is visible over Australia for much of the year because emissions and population density are much lower. By the end of the animation, fossil fuel emissions which are released predominantly in the Northern Hemisphere are mixing southward obscuring Australia.",
+            "width": 320,
+            "height": 320,
+            "pixels": 102400
+          }
+        },
+        {
+          "id": 459098,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855686,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal.00001_thm.png",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "This view highlights CO2 sources and sinks over Asia and Australia. The most notable feature is fossil fuel emissions from China, which contribute to the increasing atmospheric burden of CO2 over the course of 2021. In contrast, drawdown from the land biosphere is visible over Australia for much of the year because emissions and population density are much lower. By the end of the animation, fossil fuel emissions which are released predominantly in the Northern Hemisphere are mixing southward obscuring Australia.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459095,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855682,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/2160x2160_1x1_30p/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal/",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal",
+            "media_type": "Frames",
+            "alt_text": "This view highlights CO2 sources and sinks over Asia and Australia. The most notable feature is fossil fuel emissions from China, which contribute to the increasing atmospheric burden of CO2 over the course of 2021. In contrast, drawdown from the land biosphere is visible over Australia for much of the year because emissions and population density are much lower. By the end of the animation, fossil fuel emissions which are released predominantly in the Northern Hemisphere are mixing southward obscuring Australia.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 459099,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855696,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal_2160p30.webm",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal_2160p30.webm",
+            "media_type": "Movie",
+            "alt_text": "This view highlights CO2 sources and sinks over Asia and Australia. The most notable feature is fossil fuel emissions from China, which contribute to the increasing atmospheric burden of CO2 over the course of 2021. In contrast, drawdown from the land biosphere is visible over Australia for much of the year because emissions and population density are much lower. By the end of the animation, fossil fuel emissions which are released predominantly in the Northern Hemisphere are mixing southward obscuring Australia.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 459094,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855693,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal_2160p30.mp4",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_australasia_decal_2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This view highlights CO2 sources and sinks over Asia and Australia. The most notable feature is fossil fuel emissions from China, which contribute to the increasing atmospheric burden of CO2 over the course of 2021. In contrast, drawdown from the land biosphere is visible over Australia for much of the year because emissions and population density are much lower. By the end of the animation, fossil fuel emissions which are released predominantly in the Northern Hemisphere are mixing southward obscuring Australia.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312176,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312176",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This view highlights Europe, the Middle East, and Africa. European fossil fuel emissions are visible as is red representing emissions from fires over central Africa that are used to clear crop residue. Fires represent a much smaller source of CO2 to the atmosphere than fossil fuel emissions, but are significant because they can alter the ability of an ecosystem to sequester carbon in the future. Scientists are carefully monitoring how CO2 emissions from fires are altered by climate change, which is bringing longer and more severe fire seasons to many areas.",
+      "items": [
+        {
+          "id": 459102,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855688,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal.00001_print.jpg",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This view highlights Europe, the Middle East, and Africa. European fossil fuel emissions are visible as is red representing emissions from fires over central Africa that are used to clear crop residue. Fires represent a much smaller source of CO2 to the atmosphere than fossil fuel emissions, but are significant because they can alter the ability of an ecosystem to sequester carbon in the future. Scientists are carefully monitoring how CO2 emissions from fires are altered by climate change, which is bringing longer and more severe fire seasons to many areas.",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        },
+        {
+          "id": 459103,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855690,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal.00001_web.png",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "This view highlights Europe, the Middle East, and Africa. European fossil fuel emissions are visible as is red representing emissions from fires over central Africa that are used to clear crop residue. Fires represent a much smaller source of CO2 to the atmosphere than fossil fuel emissions, but are significant because they can alter the ability of an ecosystem to sequester carbon in the future. Scientists are carefully monitoring how CO2 emissions from fires are altered by climate change, which is bringing longer and more severe fire seasons to many areas.",
+            "width": 320,
+            "height": 320,
+            "pixels": 102400
+          }
+        },
+        {
+          "id": 459104,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855691,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal.00001_thm.png",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "This view highlights Europe, the Middle East, and Africa. European fossil fuel emissions are visible as is red representing emissions from fires over central Africa that are used to clear crop residue. Fires represent a much smaller source of CO2 to the atmosphere than fossil fuel emissions, but are significant because they can alter the ability of an ecosystem to sequester carbon in the future. Scientists are carefully monitoring how CO2 emissions from fires are altered by climate change, which is bringing longer and more severe fire seasons to many areas.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459101,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855687,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/2160x2160_1x1_30p/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal/",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal",
+            "media_type": "Frames",
+            "alt_text": "This view highlights Europe, the Middle East, and Africa. European fossil fuel emissions are visible as is red representing emissions from fires over central Africa that are used to clear crop residue. Fires represent a much smaller source of CO2 to the atmosphere than fossil fuel emissions, but are significant because they can alter the ability of an ecosystem to sequester carbon in the future. Scientists are carefully monitoring how CO2 emissions from fires are altered by climate change, which is bringing longer and more severe fire seasons to many areas.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 459105,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855697,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal_2160p30.webm",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal_2160p30.webm",
+            "media_type": "Movie",
+            "alt_text": "This view highlights Europe, the Middle East, and Africa. European fossil fuel emissions are visible as is red representing emissions from fires over central Africa that are used to clear crop residue. Fires represent a much smaller source of CO2 to the atmosphere than fossil fuel emissions, but are significant because they can alter the ability of an ecosystem to sequester carbon in the future. Scientists are carefully monitoring how CO2 emissions from fires are altered by climate change, which is bringing longer and more severe fire seasons to many areas.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 459100,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855694,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal_2160p30.mp4",
+            "filename": "JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_emea_decal_2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This view highlights Europe, the Middle East, and Africa. European fossil fuel emissions are visible as is red representing emissions from fires over central Africa that are used to clear crop residue. Fires represent a much smaller source of CO2 to the atmosphere than fossil fuel emissions, but are significant because they can alter the ability of an ecosystem to sequester carbon in the future. Scientists are carefully monitoring how CO2 emissions from fires are altered by climate change, which is bringing longer and more severe fire seasons to many areas.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 465413,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1148361,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/TaggedCO2_6-6-2023.hwshow",
+            "filename": "TaggedCO2_6-6-2023.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312177,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312177",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This equirectangular view is helpful for understanding what is happening across the entire globe at a glance. However, because of projection distortion, the contributions at the north and south poles are visually exaggerated.",
+      "items": [
+        {
+          "id": 459108,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856429,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.00001_print.jpg",
+            "filename": "NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This equirectangular view is helpful for understanding what is happening across the entire globe at a glance. However, because of projection distortion, the contributions at the north and south poles are visually exaggerated.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 459109,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856431,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.00001_web.png",
+            "filename": "NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "This equirectangular view is helpful for understanding what is happening across the entire globe at a glance. However, because of projection distortion, the contributions at the north and south poles are visually exaggerated.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 459110,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856432,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.00001_thm.png",
+            "filename": "NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "This equirectangular view is helpful for understanding what is happening across the entire globe at a glance. However, because of projection distortion, the contributions at the north and south poles are visually exaggerated.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459106,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856428,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/1920x1080_16x9_30p/JanToDec2021_TaggedCO2_6-23-2023a_co2_foursources_quality/",
+            "filename": "JanToDec2021_TaggedCO2_6-23-2023a_co2_foursources_quality",
+            "media_type": "Frames",
+            "alt_text": "This equirectangular view is helpful for understanding what is happening across the entire globe at a glance. However, because of projection distortion, the contributions at the north and south poles are visually exaggerated.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 459107,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856427,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.mp4",
+            "filename": "NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This equirectangular view is helpful for understanding what is happening across the entire globe at a glance. However, because of projection distortion, the contributions at the north and south poles are visually exaggerated.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 459111,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856433,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.webm",
+            "filename": "NewTaggedCO2_3-28-2023a_co2_foursources_quality_1080p30.webm",
+            "media_type": "Movie",
+            "alt_text": "This equirectangular view is helpful for understanding what is happening across the entire globe at a glance. However, because of projection distortion, the contributions at the north and south poles are visually exaggerated.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 459112,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856563,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/1920x1080_16x9_30p/NewTaggedCO2_3-28-2023a_co2_foursources_quality/",
+            "filename": "NewTaggedCO2_3-28-2023a_co2_foursources_quality",
+            "media_type": "Frames",
+            "alt_text": "This equirectangular view is helpful for understanding what is happening across the entire globe at a glance. However, because of projection distortion, the contributions at the north and south poles are visually exaggerated.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312178,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312178",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This 3D legend explains the components of the visualizations above. There are four floating boxes showing CO2 emissions from fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. These boxes show the actual volumetric data surrounding the spherical Earth, but the data are re-projected and fit into a Cartesian square. On the ground there are arrows showing natural CO2 absorption, with the land ecosystem's contribution in green, and the ocean's in blue. At times and locations when the land and ocean act as a source to the atmosphere, blue and green mixing ratios are shown.",
+      "items": [
+        {
+          "id": 459116,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855745,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend.00001_print.jpg",
+            "filename": "JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This 3D legend explains the components of the visualizations above. There are four floating boxes showing CO2 emissions from fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. These boxes show the actual volumetric data surrounding the spherical Earth, but the data are re-projected and fit into a Cartesian square. On the ground there are arrows showing natural CO2 absorption, with the land ecosystem's contribution in green, and the ocean's in blue. At times and locations when the land and ocean act as a source to the atmosphere, blue and green mixing ratios are shown.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 459117,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855747,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend.00001_web.png",
+            "filename": "JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "This 3D legend explains the components of the visualizations above. There are four floating boxes showing CO2 emissions from fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. These boxes show the actual volumetric data surrounding the spherical Earth, but the data are re-projected and fit into a Cartesian square. On the ground there are arrows showing natural CO2 absorption, with the land ecosystem's contribution in green, and the ocean's in blue. At times and locations when the land and ocean act as a source to the atmosphere, blue and green mixing ratios are shown.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 459118,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855748,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend.00001_thm.png",
+            "filename": "JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "This 3D legend explains the components of the visualizations above. There are four floating boxes showing CO2 emissions from fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. These boxes show the actual volumetric data surrounding the spherical Earth, but the data are re-projected and fit into a Cartesian square. On the ground there are arrows showing natural CO2 absorption, with the land ecosystem's contribution in green, and the ocean's in blue. At times and locations when the land and ocean act as a source to the atmosphere, blue and green mixing ratios are shown.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459113,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855749,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend_1080p30.mp4",
+            "filename": "JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This 3D legend explains the components of the visualizations above. There are four floating boxes showing CO2 emissions from fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. These boxes show the actual volumetric data surrounding the spherical Earth, but the data are re-projected and fit into a Cartesian square. On the ground there are arrows showing natural CO2 absorption, with the land ecosystem's contribution in green, and the ocean's in blue. At times and locations when the land and ocean act as a source to the atmosphere, blue and green mixing ratios are shown.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 459115,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855744,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/1920x1080_16x9_30p/JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend/",
+            "filename": "JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend",
+            "media_type": "Frames",
+            "alt_text": "This 3D legend explains the components of the visualizations above. There are four floating boxes showing CO2 emissions from fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. These boxes show the actual volumetric data surrounding the spherical Earth, but the data are re-projected and fit into a Cartesian square. On the ground there are arrows showing natural CO2 absorption, with the land ecosystem's contribution in green, and the ocean's in blue. At times and locations when the land and ocean act as a source to the atmosphere, blue and green mixing ratios are shown.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 459119,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855750,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend_1080p30.webm",
+            "filename": "JanToDec2021_TaggedCO2_6-6-2023a_diorama_legend_1080p30.webm",
+            "media_type": "Movie",
+            "alt_text": "This 3D legend explains the components of the visualizations above. There are four floating boxes showing CO2 emissions from fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. These boxes show the actual volumetric data surrounding the spherical Earth, but the data are re-projected and fit into a Cartesian square. On the ground there are arrows showing natural CO2 absorption, with the land ecosystem's contribution in green, and the ocean's in blue. At times and locations when the land and ocean act as a source to the atmosphere, blue and green mixing ratios are shown.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312179,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312179",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This is a 4096x1080 super wide format of the same legend above which can help in laying out this page's visualizations in a longer format on a modular display.",
+      "items": [
+        {
+          "id": 205657,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856472,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.00001_print.jpg",
+            "filename": "JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This is a 4096x1080 super wide format of the same legend above which can help in laying out this page's visualizations in a longer format on a modular display.",
+            "width": 1024,
+            "height": 270,
+            "pixels": 276480
+          }
+        },
+        {
+          "id": 459121,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856474,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.00001_web.png",
+            "filename": "JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "This is a 4096x1080 super wide format of the same legend above which can help in laying out this page's visualizations in a longer format on a modular display.",
+            "width": 320,
+            "height": 84,
+            "pixels": 26880
+          }
+        },
+        {
+          "id": 459122,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856475,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.00001_thm.png",
+            "filename": "JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "This is a 4096x1080 super wide format of the same legend above which can help in laying out this page's visualizations in a longer format on a modular display.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205655,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856453,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.mp4",
+            "filename": "JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is a 4096x1080 super wide format of the same legend above which can help in laying out this page's visualizations in a longer format on a modular display.",
+            "width": 4096,
+            "height": 1080,
+            "pixels": 4423680
+          }
+        },
+        {
+          "id": 205661,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856476,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.webm",
+            "filename": "JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long_1080p30_2.webm",
+            "media_type": "Movie",
+            "alt_text": "This is a 4096x1080 super wide format of the same legend above which can help in laying out this page's visualizations in a longer format on a modular display.",
+            "width": 4096,
+            "height": 1080,
+            "pixels": 4423680
+          }
+        },
+        {
+          "id": 459120,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856454,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/4096x1080_4x1_30p/JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long/",
+            "filename": "JanToDec2021_TaggedCO2_6-23-2023b_diorama_legend_long",
+            "media_type": "Frames",
+            "alt_text": "This is a 4096x1080 super wide format of the same legend above which can help in laying out this page's visualizations in a longer format on a modular display.",
+            "width": 4096,
+            "height": 1080,
+            "pixels": 4423680
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312180,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312180",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This waterfall diagram shows the different global contributors of atmospheric carbon dioxide over the course of the year, and how they contribute to the net carbon dioxide added to the atmosphere as the year progresses.",
+      "items": [
+        {
+          "id": 459124,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855829,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2_Waterfall_June10.02900_print.jpg",
+            "filename": "CO2_Waterfall_June10.02900_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This waterfall diagram shows the different global contributors of atmospheric carbon dioxide over the course of the year, and how they contribute to the net carbon dioxide added to the atmosphere as the year progresses.",
+            "width": 1024,
+            "height": 1139,
+            "pixels": 1166336
+          }
+        },
+        {
+          "id": 459125,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855831,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2_Waterfall_June10.02900_web.png",
+            "filename": "CO2_Waterfall_June10.02900_web.png",
+            "media_type": "Image",
+            "alt_text": "This waterfall diagram shows the different global contributors of atmospheric carbon dioxide over the course of the year, and how they contribute to the net carbon dioxide added to the atmosphere as the year progresses.",
+            "width": 320,
+            "height": 356,
+            "pixels": 113920
+          }
+        },
+        {
+          "id": 459126,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855832,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2_Waterfall_June10.02900_thm.png",
+            "filename": "CO2_Waterfall_June10.02900_thm.png",
+            "media_type": "Image",
+            "alt_text": "This waterfall diagram shows the different global contributors of atmospheric carbon dioxide over the course of the year, and how they contribute to the net carbon dioxide added to the atmosphere as the year progresses.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459123,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855828,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2_Waterfall_June10.mp4",
+            "filename": "CO2_Waterfall_June10.mp4",
+            "media_type": "Movie",
+            "alt_text": "This waterfall diagram shows the different global contributors of atmospheric carbon dioxide over the course of the year, and how they contribute to the net carbon dioxide added to the atmosphere as the year progresses.",
+            "width": 920,
+            "height": 1024,
+            "pixels": 942080
+          }
+        },
+        {
+          "id": 459127,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855833,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2_Waterfall_June10.webm",
+            "filename": "CO2_Waterfall_June10.webm",
+            "media_type": "Movie",
+            "alt_text": "This waterfall diagram shows the different global contributors of atmospheric carbon dioxide over the course of the year, and how they contribute to the net carbon dioxide added to the atmosphere as the year progresses.",
+            "width": 920,
+            "height": 1024,
+            "pixels": 942080
+          }
+        },
+        {
+          "id": 465414,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1148361,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/TaggedCO2_6-6-2023.hwshow",
+            "filename": "TaggedCO2_6-6-2023.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312181,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312181",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This timeline is synchronized with the visualizations above to show temporal progress across the year.",
+      "items": [
+        {
+          "id": 459130,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855838,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO.00001_print.jpg",
+            "filename": "JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This timeline is synchronized with the visualizations above to show temporal progress across the year.",
+            "width": 1024,
+            "height": 270,
+            "pixels": 276480
+          }
+        },
+        {
+          "id": 459131,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855836,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO.00001_web.png",
+            "filename": "JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO.00001_web.png",
+            "media_type": "Image",
+            "alt_text": "This timeline is synchronized with the visualizations above to show temporal progress across the year.",
+            "width": 320,
+            "height": 84,
+            "pixels": 26880
+          }
+        },
+        {
+          "id": 459132,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855835,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO.00001_thm.png",
+            "filename": "JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "This timeline is synchronized with the visualizations above to show temporal progress across the year.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 459128,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855840,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO_1080p30.mp4",
+            "filename": "JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This timeline is synchronized with the visualizations above to show temporal progress across the year.",
+            "width": 4096,
+            "height": 1080,
+            "pixels": 4423680
+          }
+        },
+        {
+          "id": 459129,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855839,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/frames/4096x1080_4x1_30p/JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO/",
+            "filename": "JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO",
+            "media_type": "Frames",
+            "alt_text": "This timeline is synchronized with the visualizations above to show temporal progress across the year.",
+            "width": 4096,
+            "height": 1080,
+            "pixels": 4423680
+          }
+        },
+        {
+          "id": 459133,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855834,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO_1080p30.webm",
+            "filename": "JanToDec2021_TaggedCO2_6-9-2023a_TIMELINE_ORTHO_1080p30.webm",
+            "media_type": "Movie",
+            "alt_text": "This timeline is synchronized with the visualizations above to show temporal progress across the year.",
+            "width": 4096,
+            "height": 1080,
+            "pixels": 4423680
+          }
+        },
+        {
+          "id": 465415,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1148361,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/TaggedCO2_6-6-2023.hwshow",
+            "filename": "TaggedCO2_6-6-2023.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312182,
+      "url": "http://svs.gsfc.nasa.gov/5110/#media_group_312182",
+      "widget": "Basic text",
+      "title": "For More Information",
+      "caption": "",
+      "description": "See [https://gmao.gsfc.nasa.gov/gmaoftp/lott/svs/tagged_co2/](https://gmao.gsfc.nasa.gov/gmaoftp/lott/svs/tagged_co2/)",
+      "items": [],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "AJ Christensen", "employer": "SSAI" },
+        { "name": "Mark SubbaRao", "employer": "NASA/GSFC" },
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" },
+        { "name": "Brenda Lopez-Silva", "employer": "SSAI" },
+        { "name": "Anansa B. Keaton-Ashanti", "employer": "NASA/GSFC" },
+        { "name": "Greg Shirah", "employer": "NASA/GSFC" }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    },
+    { "role": "Scientist", "people": [{ "name": "Lesley Ott", "employer": "NASA/GSFC" }] }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [
+    "Weir, B., Ott, L. E., Collatz, G. J., Kawa, S. R., Poulter, B., Chatterjee, A., Oda, T., and Pawson, S.: Bias-correcting carbon fluxes derived from land-surface satellite data for retrospective and near-real-time assimilation systems, Atmos. Chem. Phys., 21, 9609–9628, https://doi.org/10.5194/acp-21-9609-2021, 2021.",
+    "Weir, B., Ott, L. E., Collatz, G. J., Kawa, S. R., Poulter, B., Chatterjee, A., Oda, T., and Pawson, S.: Bias-correcting carbon fluxes derived from land-surface satellite data for retrospective and near-real-time assimilation systems, Atmos. Chem. Phys., 21, 9609–9628, https://doi.org/10.5194/acp-21-9609-2021, 2021."
+  ],
+  "datasets": [
+    {
+      "name": "GEOS Carbon Dioxide",
+      "common_name": "",
+      "platform": null,
+      "sensor": null,
+      "type": "Model",
+      "organizations": ["GMAO"],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["CO2", "Earth Information Center", "GEOS", "GMAO", "Hyperwall"],
+  "recommended_pages": [
+    {
+      "id": 5533,
+      "url": "http://svs.gsfc.nasa.gov/5533/",
+      "page_type": "Visualization",
+      "title": "Air Quality Model Runs",
+      "description": "NASA utilizes satellite instruments and models to monitor sources of air pollutants and their movement through the atmosphere. This visualization shows concentrations of air pollutants, such as Particulate Matter (PM2.5, fine particles smaller than 2.5 micrometers), Ozone (O~3~), Carbon Monoxide (CO), and Nitrogen Oxides (NO~x~) as they are tracked from NASA's Goddard Earth Observing System Composition Forecasting (GEOS-CF) system.",
+      "release_date": "2025-05-05T12:30:00-04:00",
+      "update_date": "2026-01-28T17:21:23.820283-05:00",
+      "main_image": {
+        "id": 1154743,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_Sphere_1920x1080_0000.png",
+        "filename": "AirQuality_Sphere_1920x1080_0000.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": 5424,
+      "url": "http://svs.gsfc.nasa.gov/5424/",
+      "page_type": "Visualization",
+      "title": "The Different Sources of Atmospheric Methane",
+      "description": "This data visualization shows methane (CH₄) in the Earth’s atmosphere during 2021. The colors represent contributions from different sources: agriculture and waste (fuchsia), industry (blue), wetlands (green), wildfires and cropland fires (yellow), and other natural sources (gray).",
+      "release_date": "2025-09-22T07:00:00-04:00",
+      "update_date": "2025-09-18T10:55:17.638628-04:00",
+      "main_image": {
+        "id": 1139773,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005424/TaggedCH4_Americas_2160x2160.00001_print.jpg",
+        "filename": "TaggedCH4_Americas_2160x2160.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This view highlights Methane (CH4) sources over North and South America during 2021.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5194,
+      "url": "http://svs.gsfc.nasa.gov/5194/",
+      "page_type": "Visualization",
+      "title": "OCO-2 and Keeling Curve: Trends in global atmospheric Carbon Dioxide (CO₂) 1958-present",
+      "description": "OCO-2 and Keeling Curve trends in global atmospheric Carbon Dioxide (CO₂). || OCO2_KeelingCurve_1920x1080p30.00370.png (1920x1080) [376.0 KB] || OCO2_KeelingCurve_1920x1080p30.00370_print.jpg (1024x576) [52.2 KB] || OCO2_KeelingCurve_1920x1080p30.00370_searchweb.png (320x180) [17.3 KB] || OCO2_KeelingCurve_1920x1080p30.00370_thm.png (80x40) [2.1 KB] || OCO2_KeelingCurve_1920x1080p30.mp4 (1920x1080) [5.5 MB] || OCO2_KeelingCurve_3840x2160p30.mp4 (3840x2160) [10.9 MB] || English (3840x2160) [0 Item(s)] || ",
+      "release_date": "2023-11-29T11:15:00-05:00",
+      "update_date": "2025-06-23T00:16:10.795501-04:00",
+      "main_image": {
+        "id": 1087759,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005194/OCO2_KeelingCurve_1920x1080p30.00370.png",
+        "filename": "OCO2_KeelingCurve_1920x1080p30.00370.png",
+        "media_type": "Image",
+        "alt_text": "OCO-2 and Keeling Curve trends in global atmospheric Carbon Dioxide (CO₂).",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5118,
+      "url": "http://svs.gsfc.nasa.gov/5118/",
+      "page_type": "Visualization",
+      "title": "Trends in atmospheric Methane (CH₄)",
+      "description": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022. || CH4Trends_1920x1080p30.00900_print.jpg (1024x576) [64.5 KB] || CH4Trends_1920x1080p30.00900.png (1920x1080) [766.2 KB] || CH4Trends_1920x1080p30.00900_searchweb.png (320x180) [26.3 KB] || CH4Trends_1920x1080p30.00900_thm.png (80x40) [3.5 KB] || CH4_Trends_1920x1080.mp4 (1920x1080) [4.4 MB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || CH4Trends_1920x1080p30.00900.exr (1920x1080) [1.7 MB] || ",
+      "release_date": "2023-06-20T22:00:00-04:00",
+      "update_date": "2025-06-23T00:15:56.469642-04:00",
+      "main_image": {
+        "id": 856225,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4Trends_1920x1080p30.00900.png",
+        "filename": "CH4Trends_1920x1080p30.00900.png",
+        "media_type": "Image",
+        "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5119,
+      "url": "http://svs.gsfc.nasa.gov/5119/",
+      "page_type": "Visualization",
+      "title": "OCO-2 and Keeling Curve: Trends in global atmospheric Carbon Dioxide (CO₂)",
+      "description": "OCO-2 and Keeling Curve trends in global atmospheric carbon dioxide. || KeelingCurve_OCO2_1920x1080p30.00370_print.jpg (1024x576) [49.6 KB] || KeelingCurve_OCO2_1920x1080p30.00370.png (1920x1080) [357.7 KB] || KeelingCurve_OCO2_1920x1080p30.00370_searchweb.png (320x180) [16.8 KB] || KeelingCurve_OCO2_1920x1080p30.00370_thm.png (80x40) [2.1 KB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || OCO2_KeelingCurve_1920x1080p30.mp4 (1920x1080) [5.3 MB] || KeelingCurve_OCO2_1920x1080p30.00370.exr (1920x1080) [2.3 MB] || ",
+      "release_date": "2023-06-20T22:00:00-04:00",
+      "update_date": "2025-06-23T00:15:56.562963-04:00",
+      "main_image": {
+        "id": 856233,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005119/KeelingCurve_OCO2_1920x1080p30.00370.png",
+        "filename": "KeelingCurve_OCO2_1920x1080p30.00370.png",
+        "media_type": "Image",
+        "alt_text": "OCO-2 and Keeling Curve trends in global atmospheric carbon dioxide.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5117,
+      "url": "http://svs.gsfc.nasa.gov/5117/",
+      "page_type": "Visualization",
+      "title": "Trends in atmospheric Nitrous Oxide (N₂O)",
+      "description": "Global trends in atmospheric Nitrous Oxide (N₂O) for the period January 2001-December 2022. || N2OTrends_1920x1080p30.00900_print.jpg (1024x576) [60.7 KB] || N2OTrends_1920x1080p30.00900.png (1920x1080) [685.4 KB] || N2OTrends_1920x1080p30.00900_searchweb.png (320x180) [24.2 KB] || N2OTrends_1920x1080p30.00900_thm.png (80x40) [3.0 KB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || N2O_Trends_1920x1080p30.mp4 (1920x1080) [7.4 MB] || N2OTrends_1920x1080p30.00900.exr (1920x1080) [1.8 MB] || ",
+      "release_date": "2023-06-20T21:00:00-04:00",
+      "update_date": "2025-03-16T23:03:26.017499-04:00",
+      "main_image": {
+        "id": 856200,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005117/N2OTrends_1920x1080p30.00900.png",
+        "filename": "N2OTrends_1920x1080p30.00900.png",
+        "media_type": "Image",
+        "alt_text": "Global trends in atmospheric Nitrous Oxide (N₂O) for the period January 2001-December 2022.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5116,
+      "url": "http://svs.gsfc.nasa.gov/5116/",
+      "page_type": "Visualization",
+      "title": "Global Atmospheric Methane (CH₄)",
+      "description": "Volumetric visualization of the total Methane (CH₄) on a global scale added on Earth's atmosphere over the course of the year 2021. || TotalCH4_Comp_1920x19020p30_00080.png (1920x1920) [2.5 MB] || TotalCH4_Comp_1920x19020p30_00080_print.jpg (1024x1024) [114.9 KB] || VolumetricCH4_Composite (1920x1920) [0 Item(s)] || VolumetricCH4_Composite_1920x19020p30.mp4 (1920x1920) [353.5 MB] || ",
+      "release_date": "2023-06-20T16:00:00-04:00",
+      "update_date": "2025-03-16T23:03:25.999759-04:00",
+      "main_image": {
+        "id": 856165,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005116/TotalCH4_Volume_1920x1920.00080.png",
+        "filename": "TotalCH4_Volume_1920x1920.00080.png",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the total methane on a global scale added on Earth's atmosphere over the course of the year 2021.",
+        "width": 1920,
+        "height": 1920,
+        "pixels": 3686400
+      }
+    },
+    {
+      "id": 5115,
+      "url": "http://svs.gsfc.nasa.gov/5115/",
+      "page_type": "Visualization",
+      "title": "Global Atmospheric Carbon Dioxide (CO₂)",
+      "description": "Volumetric visualization of the total carbon dioxide (CO₂) on a global scale added on Earth's atmosphere over the course of the year 2021. || TotalCO2_Comp_1920x1920p30_00080.png (1920x1920) [3.2 MB] || TotalCO2_Comp_1920x1920p30_00080_print.jpg (1024x1024) [168.5 KB] || VolumetricCO2_Composite (1920x1920) [0 Item(s)] || VolumetricCO2_Composite_1920x1920p30.mp4 (1920x1920) [806.2 MB] || ",
+      "release_date": "2023-06-20T15:00:00-04:00",
+      "update_date": "2025-01-15T10:57:49-05:00",
+      "main_image": {
+        "id": 856146,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005115/TotalCO2_Volume_1920x1920.00080.png",
+        "filename": "TotalCO2_Volume_1920x1920.00080.png",
+        "media_type": "Image",
+        "alt_text": "Visualization of the total carbon dioxide (CO₂) on a global scale added on Earth's atmosphere over the course of the year 2021 (without the timeline).",
+        "width": 1920,
+        "height": 1920,
+        "pixels": 3686400
+      }
+    },
+    {
+      "id": 4949,
+      "url": "http://svs.gsfc.nasa.gov/4949/",
+      "page_type": "Visualization",
+      "title": "Global Carbon Dioxide 2020-2021",
+      "description": "Data visualization featuring volumetric carbon dioxide on a global scale for the period June 1, 2020 - July 31, 2021.Coming soon to our YouTube channel. || CO2Volumetric_1024x576_02582_print.jpg (1024x576) [90.6 KB] || CO2Volumetric_1024x576_02582.png (1024x576) [569.1 KB] || CO2Volumetric_1024x576_02582_searchweb.png (180x320) [60.0 KB] || CO2Volumetric_1024x576_02582_thm.png (80x40) [5.1 KB] || CO2Volumetric_1920x1080p30.mp4 (1920x1080) [65.3 MB] || CO2Volumetric_1920x1080p30.webm (1920x1080) [13.3 MB] || 3840x2160_16x9_30p (3840x2160) [0 Item(s)] || CO2Volumetric_3840x2160_30fps_02582.exr (3840x2160) [63.3 MB] || CO2Volumetric_3840x2160_30fps_02582.tif (3840x2160) [44.5 MB] || captions_silent.31831.en_US.srt [43 bytes] || CO2Volumetric_3840x2160p30.mp4 (3840x2160) [931.2 MB] || ",
+      "release_date": "2021-11-02T00:00:00-04:00",
+      "update_date": "2023-09-19T13:03:33-04:00",
+      "main_image": {
+        "id": 375928,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004900/a004949/CO2Volumetric_1024x576_02582.png",
+        "filename": "CO2Volumetric_1024x576_02582.png",
+        "media_type": "Image",
+        "alt_text": "Data visualization featuring volumetric carbon dioxide on a global scale for the period June 1, 2020 - July 31, 2021.Coming soon to our YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "id": 14696,
+      "url": "http://svs.gsfc.nasa.gov/14696/",
+      "page_type": "Produced Video",
+      "title": "NASA + Smithsonian and Greenhouse Gases",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel. || Smithsonian_GHG.png (3825x1076) [2.8 MB] || Smithsonian_GHG_searchweb.png (320x180) [63.7 KB] || Smithsonian_GHG_thm.png (80x40) [6.2 KB] || GHG_Smithsonian.en_US.srt [5.8 KB] || GHG_Smithsonian.en_US.vtt [5.5 KB] || Smithsonian_GHG_v5_small.mp4 (7680x2160) [472.3 MB] || Smithsonian_GHG_v5_medium.mp4 (7680x2160) [859.9 MB] || Smithsonian_GHG_v5_h.264.mp4 (7680x2160) [4.5 GB] || ",
+      "release_date": "2024-10-08T00:00:00-04:00",
+      "update_date": "2024-10-08T17:35:56-04:00",
+      "main_image": {
+        "id": 1100888,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png",
+        "filename": "Smithsonian_GHG_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    },
+    {
+      "id": 14568,
+      "url": "http://svs.gsfc.nasa.gov/14568/",
+      "page_type": "Produced Video",
+      "title": "Tracking the Greenhouse Gas Methane, Earth Information Center Videos",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html || GHGMain.png (7680x2160) [5.4 MB] || GHGMain_print.jpg (1024x288) [68.0 KB] || GHGMain_searchweb.png (320x180) [64.0 KB] || GHGMain_thm.png (80x40) [6.8 KB] || GHG.en_US.srt [4.0 KB] || GHG.en_US.vtt [3.8 KB] || GHG_Main_7680x2160.mp4 (7680x2160) [586.6 MB] || GHG_Main.mp4 (7680x2160) [1.1 GB] || GHG_Main_h.264.mov (7680x2160) [1.1 GB] || ",
+      "release_date": "2024-04-18T00:00:00-04:00",
+      "update_date": "2024-11-17T23:29:39.213467-05:00",
+      "main_image": {
+        "id": 1091163,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGMain_print.jpg",
+        "filename": "GHGMain_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    },
+    {
+      "id": 31236,
+      "url": "http://svs.gsfc.nasa.gov/31236/",
+      "page_type": "Hyperwall Visual",
+      "title": "Carbon Dioxide Sources and Sinks",
+      "description": "A version of the Earth Information Center's \"Carbon Sources and Sinks\" dashboard designed for the 5x3 hyperwall. || TaggedCO2.00001_print.jpg (1024x345) [72.8 KB] || TaggedCO2.00001_searchweb.png (320x180) [52.8 KB] || TaggedCO2.00001_thm.png (80x40) [4.7 KB] || 9600x3240_16x9_30p (9600x3240) [0 Item(s)] || TaggedCO2.mp4 (3840x1296) [421.7 MB] || ",
+      "release_date": "2023-07-31T00:00:00-04:00",
+      "update_date": "2025-01-06T03:32:44.824646-05:00",
+      "main_image": {
+        "id": 856993,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031200/a031236/TaggedCO2.00001_print.jpg",
+        "filename": "TaggedCO2.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A version of the Earth Information Center's \"Carbon Sources and Sinks\" dashboard designed for the 5x3 hyperwall.",
+        "width": 1024,
+        "height": 345,
+        "pixels": 353280
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

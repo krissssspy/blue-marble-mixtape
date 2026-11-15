@@ -1,0 +1,1074 @@
+{
+  "id": 5046,
+  "url": "http://svs.gsfc.nasa.gov/5046/",
+  "page_type": "Visualization",
+  "title": "Daily Arctic Sea Ice, By Year",
+  "description": "Summary",
+  "release_date": "2022-11-28T00:00:00-05:00",
+  "update_date": "2026-04-23T00:14:38.772322-04:00",
+  "main_image": {
+    "id": 552191,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2022001_print.jpg",
+    "filename": "arctic_sea_ice_w_dates.2022001_print.jpg",
+    "media_type": "Image",
+    "alt_text": "2022 Arctic daily sea ice with date",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": { "Visualizations by": [{ "name": "Trent L. Schindler", "employer": "USRA" }] },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 313413,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313413",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "This visualization shows the daily Arctic sea ice and seasonal land cover change progressing through time, with a single frame rendered for each day (available from the drop-down of each image window), and an animation created from these frames. <br><br>The Japan Aerospace Exploration Agency (JAXA) provides many water-related products derived from data acquired by the Advanced Microwave Scanning Radiometer 2 (AMSR2) instrument aboard the Global Change Observation Mission 1st-Water \"SHIZUKU\" (GCOM-W1) satellite. Two JAXA datasets are used in this animation:  the 10-km daily sea ice concentration and the 10 km daily 89 GHz Brightness Temperature.<br><br>In this visualization sea ice changes from day to day, with the amount of ice shown being determined by the AMSR2 sea ice concentration data. A running 3-day minimum is used, with a minimum threshhold concentration of 15%. The blueish white color of the sea ice is derived from a 3-day running minimum of the AMSR2 89 GHz brightness temperature. Over the terrain, monthly data from the seasonal Blue Marble Next Generation fades slowly from month to month.<br><br>The numerical portion of the frame filename begins with the four-digit year, followed by the three-digit day of the year for that frame.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 313414,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313414",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Arctic daily sea ice, two years from present, with dates",
+      "items": [
+        {
+          "id": 208933,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855087,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2023121_print.jpg",
+            "filename": "arctic_sea_ice_w_dates.2023121_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 208934,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855088,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2023121_searchweb.png",
+            "filename": "arctic_sea_ice_w_dates.2023121_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 208935,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855089,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2023121_web.png",
+            "filename": "arctic_sea_ice_w_dates.2023121_web.png",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 208936,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855090,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2023121_thm.png",
+            "filename": "arctic_sea_ice_w_dates.2023121_thm.png",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 208931,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 842268,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_moving_two_year_w_dates.mp4",
+            "filename": "arctic_sea_ice_moving_two_year_w_dates.mp4",
+            "media_type": "Movie",
+            "alt_text": "Arctic daily sea ice, two years from present, with dates",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 208932,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 842267,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/3840x2160_16x9_30p/arctic/two_years/w_dates/",
+            "filename": "w_dates",
+            "media_type": "Frames",
+            "alt_text": "Arctic daily sea ice, two years from present, with dates",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 208937,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 842583,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_moving_two_year_w_dates.webm",
+            "filename": "arctic_sea_ice_moving_two_year_w_dates.webm",
+            "media_type": "Movie",
+            "alt_text": "Arctic daily sea ice, two years from present, with dates",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313415,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313415",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "2024 Arctic daily sea ice with date",
+      "items": [
+        {
+          "id": 418020,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088411,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2024001_print.jpg",
+            "filename": "arctic_sea_ice_w_dates.2024001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2024 Arctic daily sea ice with date",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 417945,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088409,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/3840x2160_16x9_30p/arctic/2024/w_dates/",
+            "filename": "w_dates",
+            "media_type": "Frames",
+            "alt_text": "2024 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418022,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088413,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2024_w_dates.mp4",
+            "filename": "arctic_sea_ice_2024_w_dates.mp4",
+            "media_type": "Movie",
+            "alt_text": "2024 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313416,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313416",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "2024 Arctic daily sea ice",
+      "items": [
+        {
+          "id": 418021,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088412,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice.2024001_print.jpg",
+            "filename": "arctic_sea_ice.2024001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2024 Arctic daily sea ice",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 417983,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088410,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/3840x2160_16x9_30p/arctic/2024/no_dates/",
+            "filename": "no_dates",
+            "media_type": "Frames",
+            "alt_text": "2024 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418023,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1088414,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2024_no_dates.mp4",
+            "filename": "arctic_sea_ice_2024_no_dates.mp4",
+            "media_type": "Movie",
+            "alt_text": "2024 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313417,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313417",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "2023 Arctic daily sea ice with date",
+      "items": [
+        {
+          "id": 417986,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855087,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2023121_print.jpg",
+            "filename": "arctic_sea_ice_w_dates.2023121_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 417987,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855088,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2023121_searchweb.png",
+            "filename": "arctic_sea_ice_w_dates.2023121_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 417988,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855089,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2023121_web.png",
+            "filename": "arctic_sea_ice_w_dates.2023121_web.png",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 417989,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855090,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2023121_thm.png",
+            "filename": "arctic_sea_ice_w_dates.2023121_thm.png",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 417984,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 552184,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/3840x2160_16x9_30p/arctic/2023/w_dates/",
+            "filename": "w_dates",
+            "media_type": "Frames",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 417985,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765159,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2023_w_dates.mp4",
+            "filename": "arctic_sea_ice_2023_w_dates.mp4",
+            "media_type": "Movie",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 417990,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765192,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2023_w_dates.webm",
+            "filename": "arctic_sea_ice_2023_w_dates.webm",
+            "media_type": "Movie",
+            "alt_text": "2023 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313418,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313418",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "2023 Arctic daily sea ice",
+      "items": [
+        {
+          "id": 417993,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855091,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice.2023121_print.jpg",
+            "filename": "arctic_sea_ice.2023121_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 417994,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855092,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice.2023121_searchweb.png",
+            "filename": "arctic_sea_ice.2023121_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 417995,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855093,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice.2023121_web.png",
+            "filename": "arctic_sea_ice.2023121_web.png",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 417996,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855094,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice.2023121_thm.png",
+            "filename": "arctic_sea_ice.2023121_thm.png",
+            "media_type": "Image",
+            "alt_text": "2023 Arctic daily sea ice",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 417991,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 552032,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/3840x2160_16x9_30p/arctic/2023/no_dates/",
+            "filename": "no_dates",
+            "media_type": "Frames",
+            "alt_text": "2023 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 417992,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855403,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2023_no_dates.mp4",
+            "filename": "arctic_sea_ice_2023_no_dates.mp4",
+            "media_type": "Movie",
+            "alt_text": "2023 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 417997,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765193,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2023.webm",
+            "filename": "arctic_sea_ice_2023.webm",
+            "media_type": "Movie",
+            "alt_text": "2023 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313419,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313419",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "2022 Arctic daily sea ice with date",
+      "items": [
+        {
+          "id": 418000,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 552191,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2022001_print.jpg",
+            "filename": "arctic_sea_ice_w_dates.2022001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2022 Arctic daily sea ice with date",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 417998,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765194,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2022_w_dates.webm",
+            "filename": "arctic_sea_ice_2022_w_dates.webm",
+            "media_type": "Movie",
+            "alt_text": "2022 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 417999,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 552190,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/3840x2160_16x9_30p/arctic/2022/w_dates/",
+            "filename": "w_dates",
+            "media_type": "Frames",
+            "alt_text": "2022 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418001,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765157,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2022_w_dates.mp4",
+            "filename": "arctic_sea_ice_2022_w_dates.mp4",
+            "media_type": "Movie",
+            "alt_text": "2022 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313420,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313420",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "2022 Arctic daily sea ice",
+      "items": [
+        {
+          "id": 418004,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765158,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice.2022001_print.jpg",
+            "filename": "arctic_sea_ice.2022001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2022 Arctic daily sea ice",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 418002,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765195,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2022.webm",
+            "filename": "arctic_sea_ice_2022.webm",
+            "media_type": "Movie",
+            "alt_text": "2022 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418003,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 552039,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/3840x2160_16x9_30p/arctic/2022/no_dates/",
+            "filename": "no_dates",
+            "media_type": "Frames",
+            "alt_text": "2022 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418005,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 765160,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2022.mp4",
+            "filename": "arctic_sea_ice_2022.mp4",
+            "media_type": "Movie",
+            "alt_text": "2022 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313421,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313421",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "2021 Arctic daily sea ice with date",
+      "items": [
+        {
+          "id": 418007,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 842273,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_w_dates.2021001_print.jpg",
+            "filename": "arctic_sea_ice_w_dates.2021001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2021 Arctic daily sea ice with date",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 418006,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 842272,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/3840x2160_16x9_30p/arctic/2021/w_dates/",
+            "filename": "w_dates",
+            "media_type": "Frames",
+            "alt_text": "2021 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418008,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 849421,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2021_w_dates.mp4",
+            "filename": "arctic_sea_ice_2021_w_dates.mp4",
+            "media_type": "Movie",
+            "alt_text": "2021 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418009,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854497,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2021_w_dates.webm",
+            "filename": "arctic_sea_ice_2021_w_dates.webm",
+            "media_type": "Movie",
+            "alt_text": "2021 Arctic daily sea ice with date",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313422,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313422",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "2021 Arctic daily sea ice",
+      "items": [
+        {
+          "id": 418011,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 842275,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice.2021001_print.jpg",
+            "filename": "arctic_sea_ice.2021001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2021 Arctic daily sea ice",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 418010,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 842274,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/3840x2160_16x9_30p/arctic/2021/no_dates/",
+            "filename": "no_dates",
+            "media_type": "Frames",
+            "alt_text": "2021 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418012,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 849422,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2021.mp4",
+            "filename": "arctic_sea_ice_2021.mp4",
+            "media_type": "Movie",
+            "alt_text": "2021 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 418013,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 854498,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/arctic_sea_ice_2021.webm",
+            "filename": "arctic_sea_ice_2021.webm",
+            "media_type": "Movie",
+            "alt_text": "2021 Arctic daily sea ice",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 313423,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_313423",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "2023 date frames, for compositing",
+      "items": [
+        {
+          "id": 418015,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 552182,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/dates.2023001_print.jpg",
+            "filename": "dates.2023001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2023 date frames, for compositing",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 418014,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 552181,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/1920x1080_16x9_30p/dates/2023/",
+            "filename": "2023",
+            "media_type": "Frames",
+            "alt_text": "2023 date frames, for compositing",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373163,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_373163",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "2022 date frames, for compositing",
+      "items": [
+        {
+          "id": 418017,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 368179,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/dates.2022001_print.jpg",
+            "filename": "dates.2022001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2022 date frames, for compositing",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 418016,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 552183,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/1920x1080_16x9_30p/dates/2022/",
+            "filename": "2022",
+            "media_type": "Frames",
+            "alt_text": "2022 date frames, for compositing",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 373164,
+      "url": "http://svs.gsfc.nasa.gov/5046/#media_group_373164",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "2021 date frames, for compositing",
+      "items": [
+        {
+          "id": 418019,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 842277,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/dates.2021001_print.jpg",
+            "filename": "dates.2021001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "2021 date frames, for compositing",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 418018,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 842276,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005046/frames/1920x1080_16x9_30p/dates/2021/",
+            "filename": "2021",
+            "media_type": "Frames",
+            "alt_text": "2021 date frames, for compositing",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Trent L. Schindler", "employer": "USRA" },
+        { "name": "Cindy Starr", "employer": "Global Science and Technology, Inc." }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": ["Updates Regularly"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "Blue Marble: Next Generation",
+      "common_name": "BMNG",
+      "platform": "Terra and Aqua",
+      "sensor": "MODIS",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "The Blue Marble data is courtesy of Reto Stockli (NASA/GSFC).",
+      "url": "http://earthobservatory.nasa.gov/Newsroom/BlueMarble/",
+      "date_range": null
+    },
+    {
+      "name": "10 km Daily Sea Ice Concentration",
+      "common_name": "",
+      "platform": "SHIZUKU (GCOM-W1)",
+      "sensor": "AMSR2",
+      "type": "Observed Data",
+      "organizations": ["Japan Aerospace Exploration Agency"],
+      "description": "",
+      "credit": "AMSR2 data courtesy of the Japan Aerospace Exploration Agency (JAXA).",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "10 km Daily 89 GHz Brightness Temperature",
+      "common_name": "",
+      "platform": "SHIZUKU (GCOM-W1)",
+      "sensor": "AMSR2",
+      "type": "Observed Data",
+      "organizations": ["Japan Aerospace Exploration Agency"],
+      "description": "",
+      "credit": "AMSR2 data courtesy of the Japan Aerospace Exploration Agency (JAXA).",
+      "url": "",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Cryology",
+    "Cryosphere",
+    "Earth Science",
+    "Hyperwall",
+    "Ice",
+    "Ice Depth/Thickness",
+    "Ice Extent",
+    "JAXA",
+    "Location",
+    "Ocean",
+    "polar",
+    "Sea Ice"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

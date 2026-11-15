@@ -1,0 +1,362 @@
+{
+  "id": 5011,
+  "url": "http://svs.gsfc.nasa.gov/5011/",
+  "page_type": "Visualization",
+  "title": "Lightning Events Detected from the International Space Station (ISS) 2017-2023",
+  "description": "Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display). || iss_lightning_preview.jpg (1024x576) [260.7 KB] || iss_lightning_preview_searchweb.png (320x180) [59.3 KB] || iss_lightning_preview_thm.png (80x40) [4.9 KB] || iss_lightning_sphere_07312023.mp4 (1920x1080) [127.0 MB] || iss_lightning_sphere_07312023_60p4k.mp4 (3840x2160) [414.2 MB] || iss_lightning_eic_display_2160p30_h2652.mp4 (7680x2160) [579.9 MB] || iss_lightning_sphere_07312023.mp4.hwshow || ",
+  "release_date": "2023-10-19T00:00:00-04:00",
+  "update_date": "2025-03-28T00:14:18.798297-04:00",
+  "main_image": {
+    "id": 859220,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview.jpg",
+    "filename": "iss_lightning_preview.jpg",
+    "media_type": "Image",
+    "alt_text": "Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display).",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": { "Visualizations by": [{ "name": "Michala Garrison", "employer": "SSAI" }] },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 370276,
+      "url": "http://svs.gsfc.nasa.gov/5011/#media_group_370276",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display).",
+      "items": [
+        {
+          "id": 400779,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859220,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview.jpg",
+            "filename": "iss_lightning_preview.jpg",
+            "media_type": "Image",
+            "alt_text": "Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display).",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 400780,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859221,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview_searchweb.png",
+            "filename": "iss_lightning_preview_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display).",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 400781,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859222,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview_thm.png",
+            "filename": "iss_lightning_preview_thm.png",
+            "media_type": "Image",
+            "alt_text": "Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display).",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 401056,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859508,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sphere_07312023.mp4",
+            "filename": "iss_lightning_sphere_07312023.mp4",
+            "media_type": "Movie",
+            "alt_text": "Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 401077,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859530,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sphere_07312023_60p4k.mp4",
+            "filename": "iss_lightning_sphere_07312023_60p4k.mp4",
+            "media_type": "Movie",
+            "alt_text": "Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display).",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 401251,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859657,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_eic_display_2160p30_h2652.mp4",
+            "filename": "iss_lightning_eic_display_2160p30_h2652.mp4",
+            "media_type": "Movie",
+            "alt_text": "Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display).",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 437387,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1099144,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sphere_07312023.mp4.hwshow",
+            "filename": "iss_lightning_sphere_07312023.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 370275,
+      "url": "http://svs.gsfc.nasa.gov/5011/#media_group_370275",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "The Lightning Imaging Sensor (LIS) on the International Space Station (ISS) detects lightning occurring in the Earth’s tropical and mid-latitude regions. The LIS provides datasets consisting of near-real time and non-quality controlled data as well as final quality controlled datasets that are manually reviewed. This data uncovers the variability and distribution of lightning and can be used for storm detection and lightning-atmosphere interaction studies. \r<br>\r<br>This visualization shows the global distribution of lightning strikes between January 2017 and July 2023 using the final quality controlled science dataset. Each data point contains the latitude and longitude of the strike as well as the time it was detected by the LIS. A roving window of 10 days was used to visualize the seasonal patterns of lightning. <br><br><hr><b> Science on a Sphere (SOS) Content</b><br>This section contains materials for SOS.<br><br>SOS playlist file: <a href=\"/vis/a000000/a005000/a005011/playlist.sos.txt\" target=\"_blank\">playlist.sos</a><br>SOS label file: <a href=\"/vis/a000000/a005000/a005011/labels.txt\" target=\"_blank\">labels.txt</a><br><br>",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 372298,
+      "url": "http://svs.gsfc.nasa.gov/5011/#media_group_372298",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Global lightning events detected by the LIS on the ISS between March 2017 and July 2023. Movie in 4096x2048 resolution for SOS display.",
+      "items": [
+        {
+          "id": 401055,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859507,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sos_yearly_debug_2023_sos_2048p60.00420_print.jpg",
+            "filename": "iss_lightning_sos_yearly_debug_2023_sos_2048p60.00420_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Global lightning events detected by the LIS on the ISS between March 2017 and July 2023. Movie in 4096x2048 resolution for SOS display.",
+            "width": 1024,
+            "height": 512,
+            "pixels": 524288
+          }
+        },
+        {
+          "id": 401080,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859533,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sos_yearly_07312023_2048p60.mp4",
+            "filename": "iss_lightning_sos_yearly_07312023_2048p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "Global lightning events detected by the LIS on the ISS between March 2017 and July 2023. Movie in 4096x2048 resolution for SOS display.",
+            "width": 4096,
+            "height": 2048,
+            "pixels": 8388608
+          }
+        },
+        {
+          "id": 401053,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859505,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sos_yearly_debug_2023_sos_2048p60.mp4",
+            "filename": "iss_lightning_sos_yearly_debug_2023_sos_2048p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "Global lightning events detected by the LIS on the ISS between March 2017 and July 2023. Movie in 4096x2048 resolution for SOS display.",
+            "width": 4096,
+            "height": 2048,
+            "pixels": 8388608
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 372170,
+      "url": "http://svs.gsfc.nasa.gov/5011/#media_group_372170",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Thumbnail image for SOS.",
+      "items": [
+        {
+          "id": 401057,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 859509,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_SOS_thumb.jpg",
+            "filename": "iss_lightning_SOS_thumb.jpg",
+            "media_type": "Image",
+            "alt_text": "Thumbnail image for SOS.",
+            "width": 800,
+            "height": 800,
+            "pixels": 640000
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Michala Garrison", "employer": "SSAI" },
+        { "name": "Greg Shirah", "employer": "NASA/GSFC" },
+        { "name": "Kel Elkins", "employer": "USRA" },
+        { "name": "Alex Kekesi", "employer": "Global Science and Technology, Inc." }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [
+    "Blakeslee, Richard J. 2020. Quality Controlled Lightning Imaging Sensor (LIS) on International Space Station (ISS) Science Data [NC 2017-2020]. Dataset available online from the NASA Global Hydrology Resource Center DAAC, Huntsville, Alabama, U.S.A.",
+    "Blakeslee, Richard J. 2020. Quality Controlled Lightning Imaging Sensor (LIS) on International Space Station (ISS) Science Data [NC 2017-2020]. Dataset available online from the NASA Global Hydrology Resource Center DAAC, Huntsville, Alabama, U.S.A."
+  ],
+  "datasets": [
+    {
+      "name": "CPC (Climate Prediction Center) Cloud Composite",
+      "common_name": "",
+      "platform": null,
+      "sensor": null,
+      "type": "Data Compilation",
+      "organizations": ["Climate Prediction Center (CPC)"],
+      "description": "Global cloud cover from multiple satellites",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "Gray Earth with Shaded Relief, Hypsography, and Flat Water",
+      "common_name": "Gray Earth",
+      "platform": null,
+      "sensor": null,
+      "type": "Other",
+      "organizations": ["Natrual Earth"],
+      "description": "",
+      "credit": "",
+      "url": "https://www.naturalearthdata.com/downloads/10m-raster-data/10m-gray-earth/",
+      "date_range": null
+    },
+    {
+      "name": "Quality Controlled Lightning Imaging Sensor (LIS) on International Space Station (ISS) Science Data V1",
+      "common_name": "International Space Station (ISS) Lightning Imaging Sensor (LIS)",
+      "platform": null,
+      "sensor": "Lightning Imaging Sensor (LIS)",
+      "type": "Other",
+      "organizations": ["NASA Global Hydrometeorology Resource Center DAAC"],
+      "description": "The Quality Controlled Lightning Imaging Sensor (LIS) on International Space Station (ISS) Science Data dataset was collected by the LIS instrument mounted on the ISS and are used to detect the distribution and variability of total lightning occurring in the Earth’s tropical and subtropical regions.",
+      "credit": "",
+      "url": "https://ghrcdrive.nsstc.nasa.gov/pub/lis/iss/data/science/final/nc/",
+      "date_range": null
+    },
+    {
+      "name": "Land Cover Climate Modeling Grid (CMG)",
+      "common_name": "MCD12C1",
+      "platform": null,
+      "sensor": "MODIS",
+      "type": "Model",
+      "organizations": ["USGS"],
+      "description": "The Terra and Aqua combined Moderate Resolution Imaging Spectroradiometer (MODIS) Land Cover Climate Modeling Grid (CMG) (MCD12C1) Version 6 data product provides a spatially aggregated and reprojected version of the tiled MCD12Q1 Version 6 data product. The dataset provides global land cover types at yearly intervals using International Geosphere-Biosphere Programme (IGBP), University of Maryland (UMD), and Leaf Area Index (LAI) classification schemes.",
+      "credit": "Friedl, M., D. Sulla-Menashe.  <i>MCD12C1 MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006</i>. 2015, distributed by NASA EOSDIS Land Processes DAAC, https://doi.org/10.5067/MODIS/MCD12C1.006. Accessed 2022-08-25.",
+      "url": "https://lpdaac.usgs.gov/products/mcd12c1v006/",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Earth Information Center",
+    "Eic (earth information center) display",
+    "Hyperwall",
+    "International Space Station",
+    "ISS",
+    "Lightning",
+    "Lightning Imaging Sensor",
+    "Science On a Sphere"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [
+    {
+      "id": 14802,
+      "url": "http://svs.gsfc.nasa.gov/14802/",
+      "page_type": "Produced Video",
+      "title": "Earth to Space: A National Symphony Orchestra Concert",
+      "description": "Explore the vastness of space with music inspired by the planets, stars, and beyond! In anticipation of the upcoming voyage of Artemis II, the National Symphony Orchestra celebrates the discoveries and beauty of space through music and images produced by NASA. Explore this page to learn more about the visuals used in the Kennedy Center's 2025 Earth to Space Festival NSO Family Concert.",
+      "release_date": "2025-03-28T14:31:59-04:00",
+      "update_date": "2025-03-28T14:31:07.685909-04:00",
+      "main_image": {
+        "id": 1095591,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014523/STScI-01EVT8F67B9Y3QAJ0DFB1KYQDT.jpg",
+        "filename": "STScI-01EVT8F67B9Y3QAJ0DFB1KYQDT.jpg",
+        "media_type": "Image",
+        "alt_text": "This artist's concept shows how the universe might have looked when it was less than a billion years old, about 7 percent of its current age. Star formation voraciously consumed primordial hydrogen, churning out myriad stars at an unprecedented rate. NASA’s Nancy Grace Roman Space Telescope will peer back to the universe’s early stages to understand how it transitioned from being opaque to the brilliant starscape we see today.\rCredit: NASA, ESA, and A. Schaller (for STScI)\rAlt text: This illustration depicts a mesmerizing and chaotic cosmic scene, filled with misshapen clumps and twists of white and purplish material on a black background. Most of the clumps are small, but a particularly large conglomeration extends from the lower-right of the frame up to the middle and nearly all the way across to the left side, sort of like billowing clouds. It's full of bulbous shapes outlined with glowing lavender tendrils. Bright groups of stars are concentrated in the center of each lobe, and also scattered more sparsely throughout the surrounding area.",
+        "width": 3000,
+        "height": 2375,
+        "pixels": 7125000
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

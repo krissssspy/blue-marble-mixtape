@@ -1,0 +1,521 @@
+{
+  "id": 14369,
+  "url": "http://svs.gsfc.nasa.gov/14369/",
+  "page_type": "Produced Video",
+  "title": "Leveraging NASA Research to Safeguard the U.S. East Coast from Hurricanes",
+  "description": "16x9 optimized for YouTube Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available. || EIC_Hurricanes_16x9_FINAL.00030_print.jpg (1024x576) [84.1 KB] || EIC_Hurricanes_16x9_FINAL.00030_searchweb.png (320x180) [26.5 KB] || EIC_Hurricanes_16x9_FINAL.00030_thm.png (80x40) [2.5 KB] || EIC_l_Hurricanes_16x9.en_US.srt [2.8 KB] || EIC_Hurricanes_16x9_FINAL.webm (3840x2160) [45.0 MB] || EIC_Hurricanes_16x9_FINAL.mp4 (3840x2160) [550.7 MB] || ",
+  "release_date": "2023-06-21T08:00:00-04:00",
+  "update_date": "2025-01-06T01:35:27.914399-05:00",
+  "main_image": {
+    "id": 855990,
+    "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_16x9_FINAL.00030_print.jpg",
+    "filename": "EIC_Hurricanes_16x9_FINAL.00030_print.jpg",
+    "media_type": "Image",
+    "alt_text": "16x9 optimized for YouTube Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": {
+    "Produced by": [{ "name": "Jon Walton", "employer": "NASA/JPL" }],
+    "Scientific consulting by": [{ "name": "Marangelly Fuentes", "employer": "SSAI" }]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 312131,
+      "url": "http://svs.gsfc.nasa.gov/14369/#media_group_312131",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "16x9 optimized for YouTube <p><p>Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira <p><p>This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html<p><p><p><a href=\"/vis/a010000/a014300/a014369/script_34497_00.html\">Complete transcript</a> available.</p>",
+      "items": [
+        {
+          "id": 205495,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855990,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_16x9_FINAL.00030_print.jpg",
+            "filename": "EIC_Hurricanes_16x9_FINAL.00030_print.jpg",
+            "media_type": "Image",
+            "alt_text": "16x9 optimized for YouTube Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 205496,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855989,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_16x9_FINAL.00030_searchweb.png",
+            "filename": "EIC_Hurricanes_16x9_FINAL.00030_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "16x9 optimized for YouTube Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205497,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855988,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_16x9_FINAL.00030_thm.png",
+            "filename": "EIC_Hurricanes_16x9_FINAL.00030_thm.png",
+            "media_type": "Image",
+            "alt_text": "16x9 optimized for YouTube Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205493,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855937,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_l_Hurricanes_16x9.en_US.srt",
+            "filename": "EIC_l_Hurricanes_16x9.en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 205494,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855978,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_16x9_FINAL.webm",
+            "filename": "EIC_Hurricanes_16x9_FINAL.webm",
+            "media_type": "Movie",
+            "alt_text": "16x9 optimized for YouTube Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 205492,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855939,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_16x9_FINAL.mp4",
+            "filename": "EIC_Hurricanes_16x9_FINAL.mp4",
+            "media_type": "Movie",
+            "alt_text": "16x9 optimized for YouTube Music: Downloading Landscapes by Andrew Michael Britton & David Stephen Goldsmith and Swift Response by Miguel D' Oliveira This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com and NOAA is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312130,
+      "url": "http://svs.gsfc.nasa.gov/14369/#media_group_312130",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "<b>Withstanding the Storms</b><br>The scariest thing about a hurricane is not knowing what to expect. Hurricanes are getting stronger due to climate change warming the air and oceans. NASA atmospheric scientist Mara Fuentes says NASA sees deep into hurricanes to better their power, track storms through the night, and precisely map flooding in real time. NASA shares this information with partners like NOAA for weather forecasts and FEME to support emergency responders. Before, during, and after a hurricane, NASA data is put to use by decision makers to make critical decisions.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 312132,
+      "url": "http://svs.gsfc.nasa.gov/14369/#media_group_312132",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.",
+      "items": [
+        {
+          "id": 205501,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855992,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Main_FINAL-h.264.00030_print.jpg",
+            "filename": "EIC_Hurricanes_Main_FINAL-h.264.00030_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.",
+            "width": 1024,
+            "height": 288,
+            "pixels": 294912
+          }
+        },
+        {
+          "id": 205502,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855993,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Main_FINAL-h.264.00030_searchweb.png",
+            "filename": "EIC_Hurricanes_Main_FINAL-h.264.00030_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205503,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855991,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Main_FINAL-h.264.00030_thm.png",
+            "filename": "EIC_Hurricanes_Main_FINAL-h.264.00030_thm.png",
+            "media_type": "Image",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205498,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855937,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_l_Hurricanes_16x9.en_US.srt",
+            "filename": "EIC_l_Hurricanes_16x9.en_US.srt",
+            "media_type": "Captions",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.",
+            "label": "English",
+            "language_code": "en-US"
+          }
+        },
+        {
+          "id": 205500,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855979,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Main_FINAL-h.264.webm",
+            "filename": "EIC_Hurricanes_Main_FINAL-h.264.webm",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        },
+        {
+          "id": 205499,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855940,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Main_FINAL-h.264.mov",
+            "filename": "EIC_Hurricanes_Main_FINAL-h.264.mov",
+            "media_type": "Movie",
+            "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.",
+            "width": 7680,
+            "height": 2160,
+            "pixels": 16588800
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312133,
+      "url": "http://svs.gsfc.nasa.gov/14369/#media_group_312133",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Right circle display video",
+      "items": [
+        {
+          "id": 205505,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856000,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_R.00030_print.jpg",
+            "filename": "EIC_Hurricanes_Circle_R.00030_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Right circle display video",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        },
+        {
+          "id": 205506,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856001,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_R.00030_searchweb.png",
+            "filename": "EIC_Hurricanes_Circle_R.00030_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Right circle display video",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205507,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856002,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_R.00030_thm.png",
+            "filename": "EIC_Hurricanes_Circle_R.00030_thm.png",
+            "media_type": "Image",
+            "alt_text": "Right circle display video",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205508,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856017,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_R.webm",
+            "filename": "EIC_Hurricanes_Circle_R.webm",
+            "media_type": "Movie",
+            "alt_text": "Right circle display video",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 205504,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855998,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_R.mp4",
+            "filename": "EIC_Hurricanes_Circle_R.mp4",
+            "media_type": "Movie",
+            "alt_text": "Right circle display video",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312134,
+      "url": "http://svs.gsfc.nasa.gov/14369/#media_group_312134",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Left circle display video",
+      "items": [
+        {
+          "id": 205510,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856003,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_L.00030_print.jpg",
+            "filename": "EIC_Hurricanes_Circle_L.00030_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Left circle display video",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        },
+        {
+          "id": 205511,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856004,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_L.00030_searchweb.png",
+            "filename": "EIC_Hurricanes_Circle_L.00030_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Left circle display video",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205512,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856005,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_L.00030_thm.png",
+            "filename": "EIC_Hurricanes_Circle_L.00030_thm.png",
+            "media_type": "Image",
+            "alt_text": "Left circle display video",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205513,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856018,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_L.webm",
+            "filename": "EIC_Hurricanes_Circle_L.webm",
+            "media_type": "Movie",
+            "alt_text": "Left circle display video",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 205509,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 855999,
+            "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014300/a014369/EIC_Hurricanes_Circle_L.mp4",
+            "filename": "EIC_Hurricanes_Circle_L.mp4",
+            "media_type": "Movie",
+            "alt_text": "Left circle display video",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "gms",
+  "funding_sources": ["PAO"],
+  "credits": [
+    { "role": "Producer", "people": [{ "name": "Jon Walton", "employer": "NASA/JPL" }] },
+    { "role": "Scientist", "people": [{ "name": "Marangelly Fuentes", "employer": "SSAI" }] },
+    { "role": "Editor", "people": [{ "name": "James Round", "employer": "NASA/JPL CalTech" }] },
+    {
+      "role": "Project support",
+      "people": [
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" },
+        { "name": "Ellen T. Gray", "employer": "NASA/HQ" },
+        { "name": "Katie Jepson", "employer": "KBR Wyle Services, LLC" }
+      ]
+    },
+    {
+      "role": "Videographer",
+      "people": [
+        { "name": "Rob Andreoli", "employer": "Advocates in Manpower Management, Inc." },
+        { "name": "John D. Philyaw", "employer": "Advocates in Manpower Management, Inc." }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": ["Narrated Movies"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Atmosphere",
+    "Atmospheric Phenomena",
+    "Atmospheric science",
+    "Disaster Response",
+    "Earth Information Center",
+    "Earth Science",
+    "Human Dimensions",
+    "Hurricanes",
+    "Hyperwall",
+    "Natural hazards",
+    "Social Behavior"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 14696,
+      "url": "http://svs.gsfc.nasa.gov/14696/",
+      "page_type": "Produced Video",
+      "title": "NASA + Smithsonian and Greenhouse Gases",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel. || Smithsonian_GHG.png (3825x1076) [2.8 MB] || Smithsonian_GHG_searchweb.png (320x180) [63.7 KB] || Smithsonian_GHG_thm.png (80x40) [6.2 KB] || GHG_Smithsonian.en_US.srt [5.8 KB] || GHG_Smithsonian.en_US.vtt [5.5 KB] || Smithsonian_GHG_v5_small.mp4 (7680x2160) [472.3 MB] || Smithsonian_GHG_v5_medium.mp4 (7680x2160) [859.9 MB] || Smithsonian_GHG_v5_h.264.mp4 (7680x2160) [4.5 GB] || ",
+      "release_date": "2024-10-08T00:00:00-04:00",
+      "update_date": "2024-10-08T17:35:56-04:00",
+      "main_image": {
+        "id": 1100888,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png",
+        "filename": "Smithsonian_GHG_searchweb.png",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).\rUniversal Production Music France: \"Human Endeavor\" by Oliver Grim, Koka Media; \"Accuracy\" by Laurent Levesque.Universal Production Music: \"Feelings of Pride\" by Kathryn Louise Maclennan, Label-Aurora Production Music.\rThis video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html\rComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel.",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+      }
+    }
+  ],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

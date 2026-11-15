@@ -1,0 +1,511 @@
+{
+  "id": 5118,
+  "url": "http://svs.gsfc.nasa.gov/5118/",
+  "page_type": "Visualization",
+  "title": "Trends in atmospheric Methane (CH₄)",
+  "description": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022. || CH4Trends_1920x1080p30.00900_print.jpg (1024x576) [64.5 KB] || CH4Trends_1920x1080p30.00900.png (1920x1080) [766.2 KB] || CH4Trends_1920x1080p30.00900_searchweb.png (320x180) [26.3 KB] || CH4Trends_1920x1080p30.00900_thm.png (80x40) [3.5 KB] || CH4_Trends_1920x1080.mp4 (1920x1080) [4.4 MB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || CH4Trends_1920x1080p30.00900.exr (1920x1080) [1.7 MB] || ",
+  "release_date": "2023-06-20T22:00:00-04:00",
+  "update_date": "2025-06-23T00:15:56.469642-04:00",
+  "main_image": {
+    "id": 856225,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4Trends_1920x1080p30.00900.png",
+    "filename": "CH4Trends_1920x1080p30.00900.png",
+    "media_type": "Image",
+    "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+    "width": 1920,
+    "height": 1080,
+    "pixels": 2073600
+  },
+  "main_video": null,
+  "main_credits": {
+    "Visualizations by": [{ "name": "Helen-Nicole Kostis", "employer": "USRA" }],
+    "Scientific consulting by": [
+      { "name": "Lesley Ott", "employer": "NASA/GSFC" },
+      { "name": "Brad Weir", "employer": "Morgan State University" }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 312135,
+      "url": "http://svs.gsfc.nasa.gov/5118/#media_group_312135",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+      "items": [
+        {
+          "id": 205518,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856226,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4Trends_1920x1080p30.00900_print.jpg",
+            "filename": "CH4Trends_1920x1080p30.00900_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 205517,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856225,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4Trends_1920x1080p30.00900.png",
+            "filename": "CH4Trends_1920x1080p30.00900.png",
+            "media_type": "Image",
+            "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 205519,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856227,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4Trends_1920x1080p30.00900_searchweb.png",
+            "filename": "CH4Trends_1920x1080p30.00900_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205520,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856228,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4Trends_1920x1080p30.00900_thm.png",
+            "filename": "CH4Trends_1920x1080p30.00900_thm.png",
+            "media_type": "Image",
+            "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 205514,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856223,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4_Trends_1920x1080.mp4",
+            "filename": "CH4_Trends_1920x1080.mp4",
+            "media_type": "Movie",
+            "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 205515,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856222,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/frames/1920x1080_16x9_30p/",
+            "filename": "1920x1080_16x9_30p",
+            "media_type": "Frames",
+            "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 205516,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856224,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4Trends_1920x1080p30.00900.exr",
+            "filename": "CH4Trends_1920x1080p30.00900.exr",
+            "media_type": "Image",
+            "alt_text": "Global trends in atmospheric Methane (CH₄) for the period July 1983-December 2022.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 435728,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1098105,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005118/CH4_Trends_1920x1080.mp4.hwshow",
+            "filename": "CH4_Trends_1920x1080.mp4.hwshow",
+            "media_type": "HyperwallShow",
+            "alt_text": "",
+            "width": 0,
+            "height": 0,
+            "pixels": null
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Helen-Nicole Kostis", "employer": "USRA" },
+        { "name": "AJ Christensen", "employer": "SSAI" }
+      ]
+    },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Lesley Ott", "employer": "NASA/GSFC" },
+        { "name": "Brad Weir", "employer": "Morgan State University" }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "GTOPO30 Topography and Bathymetry",
+      "common_name": "",
+      "platform": null,
+      "sensor": null,
+      "type": "Data Compilation",
+      "organizations": ["USGS"],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "Blue Marble: Next Generation",
+      "common_name": "BMNG",
+      "platform": "Terra and Aqua",
+      "sensor": "MODIS",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "The Blue Marble data is courtesy of Reto Stockli (NASA/GSFC).",
+      "url": "http://earthobservatory.nasa.gov/Newsroom/BlueMarble/",
+      "date_range": null
+    },
+    {
+      "name": "GMAO GEOS Atmospheric Methane",
+      "common_name": "GMAO GEOS Atmospheric Methane",
+      "platform": null,
+      "sensor": null,
+      "type": "Model",
+      "organizations": ["GMAO"],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Atmospheric Composition",
+    "Atmospheric science",
+    "Earth Information Center",
+    "Earth Science",
+    "Environmental Impacts",
+    "Greenhouse Gases",
+    "Human Dimensions",
+    "Hyperwall"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 5272,
+      "url": "http://svs.gsfc.nasa.gov/5272/",
+      "page_type": "Visualization",
+      "title": "Methane plumes detected by EMIT Space Mission",
+      "description": "The Earth Surface Mineral Dust Source Investigation (EMIT) mission uses an imaging spectrometer to detect the unique pattern of reflected and absorbed light – called a spectral fingerprint – from various materials on Earth's surface and in its atmosphere. Perched on the International Space Station, EMIT was originally intended to map the prevalence of minerals in Earth's arid regions, such as the deserts of Africa and Australia. Scientists verified that EMIT could also detect the spectral fingerprints of methane and carbon dioxide which enables mapping of emissions from the energy, waste, and agriculture sectors. || ",
+      "release_date": "2024-05-21T08:00:00-04:00",
+      "update_date": "2024-09-17T10:43:40.204188-04:00",
+      "main_image": {
+        "id": 1092449,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005272/California_3840x2160_print.jpg",
+        "filename": "California_3840x2160_print.jpg",
+        "media_type": "Image",
+        "alt_text": "A region of enhanced methane is visible near Modesto, California. This version of the data visualization includes location label.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5273,
+      "url": "http://svs.gsfc.nasa.gov/5273/",
+      "page_type": "Visualization",
+      "title": "Atmospheric Carbon Dioxide Tagged by Source for Science-on-a-Sphere",
+      "description": "Carbon dioxide (CO2) is the most prevalent greenhouse gas driving global climate change. However, its increase in the atmosphere would be even more rapid without land and ocean carbon sinks, which collectively absorb about half of human emissions every year. Advanced computer modeling techniques in NASA's Global Modeling and Assimilation Office allow us to disentangle the influences of sources and sinks and to better understand where carbon is coming from and going to.",
+      "release_date": "2024-04-22T00:00:00-04:00",
+      "update_date": "2025-07-09T17:25:19.927673-04:00",
+      "main_image": {
+        "id": 1091430,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005273/SOS_TaggedCO2_10-6-2023a_co2_foursources_quality_ScienceOnASphere_copied.00001_print.jpg",
+        "filename": "SOS_TaggedCO2_10-6-2023a_co2_foursources_quality_ScienceOnASphere_copied.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+      }
+    },
+    {
+      "id": 5119,
+      "url": "http://svs.gsfc.nasa.gov/5119/",
+      "page_type": "Visualization",
+      "title": "OCO-2 and Keeling Curve: Trends in global atmospheric Carbon Dioxide (CO₂)",
+      "description": "OCO-2 and Keeling Curve trends in global atmospheric carbon dioxide. || KeelingCurve_OCO2_1920x1080p30.00370_print.jpg (1024x576) [49.6 KB] || KeelingCurve_OCO2_1920x1080p30.00370.png (1920x1080) [357.7 KB] || KeelingCurve_OCO2_1920x1080p30.00370_searchweb.png (320x180) [16.8 KB] || KeelingCurve_OCO2_1920x1080p30.00370_thm.png (80x40) [2.1 KB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || OCO2_KeelingCurve_1920x1080p30.mp4 (1920x1080) [5.3 MB] || KeelingCurve_OCO2_1920x1080p30.00370.exr (1920x1080) [2.3 MB] || ",
+      "release_date": "2023-06-20T22:00:00-04:00",
+      "update_date": "2025-06-23T00:15:56.562963-04:00",
+      "main_image": {
+        "id": 856233,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005119/KeelingCurve_OCO2_1920x1080p30.00370.png",
+        "filename": "KeelingCurve_OCO2_1920x1080p30.00370.png",
+        "media_type": "Image",
+        "alt_text": "OCO-2 and Keeling Curve trends in global atmospheric carbon dioxide.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5117,
+      "url": "http://svs.gsfc.nasa.gov/5117/",
+      "page_type": "Visualization",
+      "title": "Trends in atmospheric Nitrous Oxide (N₂O)",
+      "description": "Global trends in atmospheric Nitrous Oxide (N₂O) for the period January 2001-December 2022. || N2OTrends_1920x1080p30.00900_print.jpg (1024x576) [60.7 KB] || N2OTrends_1920x1080p30.00900.png (1920x1080) [685.4 KB] || N2OTrends_1920x1080p30.00900_searchweb.png (320x180) [24.2 KB] || N2OTrends_1920x1080p30.00900_thm.png (80x40) [3.0 KB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || N2O_Trends_1920x1080p30.mp4 (1920x1080) [7.4 MB] || N2OTrends_1920x1080p30.00900.exr (1920x1080) [1.8 MB] || ",
+      "release_date": "2023-06-20T21:00:00-04:00",
+      "update_date": "2025-03-16T23:03:26.017499-04:00",
+      "main_image": {
+        "id": 856200,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005117/N2OTrends_1920x1080p30.00900.png",
+        "filename": "N2OTrends_1920x1080p30.00900.png",
+        "media_type": "Image",
+        "alt_text": "Global trends in atmospheric Nitrous Oxide (N₂O) for the period January 2001-December 2022.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 5115,
+      "url": "http://svs.gsfc.nasa.gov/5115/",
+      "page_type": "Visualization",
+      "title": "Global Atmospheric Carbon Dioxide (CO₂)",
+      "description": "Volumetric visualization of the total carbon dioxide (CO₂) on a global scale added on Earth's atmosphere over the course of the year 2021. || TotalCO2_Comp_1920x1920p30_00080.png (1920x1920) [3.2 MB] || TotalCO2_Comp_1920x1920p30_00080_print.jpg (1024x1024) [168.5 KB] || VolumetricCO2_Composite (1920x1920) [0 Item(s)] || VolumetricCO2_Composite_1920x1920p30.mp4 (1920x1920) [806.2 MB] || ",
+      "release_date": "2023-06-20T15:00:00-04:00",
+      "update_date": "2025-01-15T10:57:49-05:00",
+      "main_image": {
+        "id": 856146,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005115/TotalCO2_Volume_1920x1920.00080.png",
+        "filename": "TotalCO2_Volume_1920x1920.00080.png",
+        "media_type": "Image",
+        "alt_text": "Visualization of the total carbon dioxide (CO₂) on a global scale added on Earth's atmosphere over the course of the year 2021 (without the timeline).",
+        "width": 1920,
+        "height": 1920,
+        "pixels": 3686400
+      }
+    },
+    {
+      "id": 5110,
+      "url": "http://svs.gsfc.nasa.gov/5110/",
+      "page_type": "Visualization",
+      "title": "Atmospheric Carbon Dioxide Tagged by Source",
+      "description": "Carbon dioxide (CO2) is the most prevalent greenhouse gas driving global climate change. However, its increase in the atmosphere would be even more rapid without land and ocean carbon sinks, which collectively absorb about half of human emissions every year.  Advanced computer modeling techniques in NASA's Global Modeling and Assimilation Office allow us to disentangle the influences of sources and sinks and to better understand where carbon is coming from and going to. ||",
+      "release_date": "2023-06-16T10:00:00-04:00",
+      "update_date": "2026-01-05T15:47:43.308683-05:00",
+      "main_image": {
+        "id": 859342,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005110/CO2explainer_1080p30.00740_print.jpg",
+        "filename": "CO2explainer_1080p30.00740_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows the CO2 being added to Earth's atmosphere over the course of the year 2021, split into four major contributors: fossil fuels in orange, burning biomass in red, land ecosystems in green, and the ocean in blue. The dots on the surface also show how atmospheric carbon dioxide is also being absorbed by land ecosystems in green and the ocean in blue. Though the land and oceans are each carbon sinks in a global sense, individual locations can be sources at different times.This annotated version highlights key CO2 sources and sinks and their seasonal patterns.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5054,
+      "url": "http://svs.gsfc.nasa.gov/5054/",
+      "page_type": "Visualization",
+      "title": "Methane Emissions from Wetlands",
+      "description": "Methane is an important greenhouse gas that’s contributed to around one third of global warming. About a third of total methane emissions comes from wetlands. Wetland habitats are filled with things like waterlogged soils and permafrost, which is what makes them sizable carbon sinks. But as a warming climate causes wetland soils to warm or flood, carbon is released into the atmosphere as methane. || wetlands.jpg (875x488) [108.8 KB] || MethaneWetalndsFinal.mp4 (1920x1080) [74.1 MB] || MethaneWetalndsFinal.webm (1920x1080) [14.8 MB] || Sound_otter_ai.en_US.srt [2.5 KB] || Sound_otter_ai.en_US.vtt [2.5 KB] || MethaneWetalndsFinal.mp4.hwshow [408 bytes] || ",
+      "release_date": "2022-12-14T13:00:00-05:00",
+      "update_date": "2025-01-06T00:29:57.154157-05:00",
+      "main_image": {
+        "id": 367971,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005054/ch4_wetlands.01500_print.jpg",
+        "filename": "ch4_wetlands.01500_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Methane emissions from wetlands for the years 1980-2021with significant wetlands highlighted.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 5041,
+      "url": "http://svs.gsfc.nasa.gov/5041/",
+      "page_type": "Visualization",
+      "title": "Methane Emissions in the United States",
+      "description": "2012 methane emissions across the United States. || ch4_epa_sq_2022-11-14_1335.00100_print.jpg (1024x1024) [191.2 KB] || ch4_epa_sq_2022-11-14_1335.00100_searchweb.png (180x320) [57.3 KB] || ch4_epa_sq_2022-11-14_1335.00100_thm.png (80x40) [4.5 KB] || ch4_epa_sq_2022-11-14_1335.mp4 (2160x2160) [23.8 MB] || ch4_epa_sq_2022-11-14_1335.webm (2160x2160) [5.0 MB] || ",
+      "release_date": "2022-12-01T00:00:00-05:00",
+      "update_date": "2024-11-19T00:21:33.616388-05:00",
+      "main_image": {
+        "id": 368018,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005041/ch4_epa_sq_2022-11-14_1335.00100_print.jpg",
+        "filename": "ch4_epa_sq_2022-11-14_1335.00100_print.jpg",
+        "media_type": "Image",
+        "alt_text": "2012 methane emissions across the United States.",
+        "width": 1024,
+        "height": 1024,
+        "pixels": 1048576
+      }
+    },
+    {
+      "id": 5007,
+      "url": "http://svs.gsfc.nasa.gov/5007/",
+      "page_type": "Visualization",
+      "title": "Trends in Global Atmospheric Methane (CH₄)",
+      "description": "Timeplot of global atmospheric methane (CH4) showing the full NOAA record (September 1983-March 2022). This version is created with a dark background. || MethaneTrends_Dark_3840x216030p.1512_print.jpg (1024x576) [44.0 KB] || MethaneTrends_Dark_3840x216030p.1512.png (3840x2160) [508.9 KB] || MethaneTrends_Dark_3840x216030p.1512_searchweb.png (180x320) [13.1 KB] || MethaneTrends_Dark_3840x216030p.1512_thm.png (80x40) [2.2 KB] || MethaneTrends_Dark_3840x216030p.1512_web.png (320x180) [13.1 KB] || MethaneTrends_Dark_1080p30.mp4 (1920x1080) [3.7 MB] || MethaneTrends_Dark_1080p30.webm (1920x1080) [4.6 MB] || MethaneTrends_Dark (3840x2160) [0 Item(s)] || MethaneTrends_Dark_3840x216030p.mp4 (3840x2160) [16.4 MB] || MethaneTrends_Dark_3840x216030p.1512.exr (3840x2160) [886.5 KB] || ",
+      "release_date": "2022-08-11T00:00:00-04:00",
+      "update_date": "2025-03-09T22:55:56.437892-04:00",
+      "main_image": {
+        "id": 369809,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005000/a005007/MethaneTrends_Dark_3840x216030p.1512_print.jpg",
+        "filename": "MethaneTrends_Dark_3840x216030p.1512_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Timeplot of global atmospheric methane (CH4) showing the full NOAA record (September 1983-March 2022). This version is created with a dark background.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4890,
+      "url": "http://svs.gsfc.nasa.gov/4890/",
+      "page_type": "Visualization",
+      "title": "GeoCarb Observes Greenhouse Gasses from Geosynchronous Orbit",
+      "description": "GeoCarb and OCO-2 measuring carbon dioxide from space || geocarb_HD_FINAL.4662_print.jpg (1024x576) [49.8 KB] || geocarb_HD_FINAL.4662_searchweb.png (320x180) [32.3 KB] || geocarb_HD_FINAL.4662_thm.png (80x40) [2.9 KB] || geocarb_HD_FINAL_1080p59.94.mp4 (1920x1080) [43.1 MB] || geocarb_HD_FINAL_1080p29.97.mp4 (1920x1080) [41.3 MB] || geocarb_HD_FINAL_1080p59.94.webm (1920x1080) [19.9 MB] || 1920x1080_16x9_60p (1920x1080) [1.0 MB] || 3840x2160_16x9_60p (3840x2160) [1.0 MB] || 5780x3240_16x9_30p (5760x3240) [1.0 MB] || geocarb_4k_FINAL_2160p59.94.mp4 (3840x2160) [135.4 MB] || ",
+      "release_date": "2021-04-02T12:00:00-04:00",
+      "update_date": "2024-10-10T00:12:39.072715-04:00",
+      "main_image": {
+        "id": 379659,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004800/a004890/geocarb_HD_FINAL.4662_print.jpg",
+        "filename": "geocarb_HD_FINAL.4662_print.jpg",
+        "media_type": "Image",
+        "alt_text": "GeoCarb and OCO-2 measuring carbon dioxide from space",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 4789,
+      "url": "http://svs.gsfc.nasa.gov/4789/",
+      "page_type": "Visualization",
+      "title": "Global Atmospheric Methane",
+      "description": "This first 3D volumetric visualization focuses on several continents showing the emission and transport of atmospheric methane around the globe between January 1, 2017 and November 30, 2018.  This video is also available on our YouTube channel. || Global_methane_comp.1320_print.jpg (1024x576) [163.2 KB] || Global_methane_comp_1080p30.webm (1920x1080) [22.1 MB] || composite (1920x1080) [0 Item(s)] || captions_silent.29083.en_US.srt [43 bytes] || Global_methane_comp_1080p30.mp4 (1920x1080) [1.4 GB] || Global_methane_comp_1080p30.mp4.hwshow || ",
+      "release_date": "2020-03-23T10:00:00-04:00",
+      "update_date": "2025-06-23T00:10:40.213675-04:00",
+      "main_image": {
+        "id": 387485,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a004700/a004789/Global_methane_loop_comp.0210_print.jpg",
+        "filename": "Global_methane_loop_comp.0210_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This second 3D volumetric visualization shows a global view of the methane emission and transport between December 1, 2017 and November 30, 2018.  This visualizaion of the rotating global view is designed to be played in a continuous loop.This video is also available on our YouTube channel.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    },
+    {
+      "id": 13047,
+      "url": "http://svs.gsfc.nasa.gov/13047/",
+      "page_type": "Produced Video",
+      "title": "New Arctic Lakes Could Soon Be a Major Source of Atmospheric Methane",
+      "description": "For centuries, a massive store of carbon has been locked underground in the Arctic's permanently frozen soil known as permafrost. As Earth's climate continues to warm, that carbon has begun to leach into the atmosphere, the result of microbes waking up and digesting once-frozen organic materials. A new NASA-funded study focuses on a mechanism that could accelerate the release of this atmospheric carbon, the result of thermokarst lakes. These lakes form when thawing permafrost causes the ground to slump, creating a depression that collects rain and snowmelt and perpetuates a cycle of further permafrost thaw. || ",
+      "release_date": "2018-08-17T11:00:00-04:00",
+      "update_date": "2023-05-03T13:46:30.539381-04:00",
+      "main_image": {
+        "id": 400931,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a013000/a013047/Bubbles_Still.png",
+        "filename": "Bubbles_Still.png",
+        "media_type": "Image",
+        "alt_text": "Music: Coveted Jewels by Reuben James Cornell [PRS]Complete transcript available.",
+        "width": 1755,
+        "height": 987,
+        "pixels": 1732185
+      }
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "id": 14568,
+      "url": "http://svs.gsfc.nasa.gov/14568/",
+      "page_type": "Produced Video",
+      "title": "Tracking the Greenhouse Gas Methane, Earth Information Center Videos",
+      "description": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html || GHGMain.png (7680x2160) [5.4 MB] || GHGMain_print.jpg (1024x288) [68.0 KB] || GHGMain_searchweb.png (320x180) [64.0 KB] || GHGMain_thm.png (80x40) [6.8 KB] || GHG.en_US.srt [4.0 KB] || GHG.en_US.vtt [3.8 KB] || GHG_Main_7680x2160.mp4 (7680x2160) [586.6 MB] || GHG_Main.mp4 (7680x2160) [1.1 GB] || GHG_Main_h.264.mov (7680x2160) [1.1 GB] || ",
+      "release_date": "2024-04-18T00:00:00-04:00",
+      "update_date": "2024-11-17T23:29:39.213467-05:00",
+      "main_image": {
+        "id": 1091163,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014568/GHGMain_print.jpg",
+        "filename": "GHGMain_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: \"Passing By\" by Miguel D'Oliveira, \"Simple Story\" by Fred Dubois, and \"Whispers of Hope\" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

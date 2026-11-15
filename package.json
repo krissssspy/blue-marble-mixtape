@@ -9,7 +9,8 @@
     "check": "npm run lint && npm run format:check && tsc --noEmit",
     "mutation": "stryker run",
     "prepare": "node tools/hooks/install.mjs",
-    "build": "vite build"
+    "build": "vite build",
+    "ingest:refresh": "node tools/ingest/refresh.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

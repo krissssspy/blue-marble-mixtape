@@ -1,0 +1,230 @@
+{
+  "id": 5120,
+  "url": "http://svs.gsfc.nasa.gov/5120/",
+  "page_type": "Visualization",
+  "title": "NOAA GOES-East and NOAA GOES-West True Color Imagery Over Past 5 Days",
+  "description": "A true color view of the Earth from GOES-16 (GOES-East) over the past 5 days. || PR_WorldView_geostationary_east_2160x2160_en.00001_print.jpg (1024x1024) [306.7 KB] || PR_WorldView_geostationary_east_2160x2160_en.00001_searchweb.png (320x180) [105.7 KB] || PR_WorldView_geostationary_east_2160x2160_en.00001_thm.png (80x40) [7.5 KB] || east (2160x2160) [0 Item(s)] || PR_WorldView_geostationary_east_2160x2160_en.mp4 (2160x2160) [1.1 GB] ||",
+  "release_date": "2023-06-26T09:00:00-04:00",
+  "update_date": "2026-11-13T23:32:19.154942-05:00",
+  "main_image": {
+    "id": 856333,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005120/PR_WorldView_geostationary_east_2160x2160_en.00001_print.jpg",
+    "filename": "PR_WorldView_geostationary_east_2160x2160_en.00001_print.jpg",
+    "media_type": "Image",
+    "alt_text": "A true color view of the Earth from GOES-16 (GOES-East) over the past 5 days.",
+    "width": 1024,
+    "height": 1024,
+    "pixels": 1048576
+  },
+  "main_video": null,
+  "main_credits": { "Visualizations by": [{ "name": "Alex Gurvich", "employer": "NASA/GSFC" }] },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 312099,
+      "url": "http://svs.gsfc.nasa.gov/5120/#media_group_312099",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A true color view of the Earth from GOES-16 (GOES-East) over the past 5 days.",
+      "items": [
+        {
+          "id": 458844,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856333,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005120/PR_WorldView_geostationary_east_2160x2160_en.00001_print.jpg",
+            "filename": "PR_WorldView_geostationary_east_2160x2160_en.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "A true color view of the Earth from GOES-16 (GOES-East) over the past 5 days.",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        },
+        {
+          "id": 205391,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856334,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005120/PR_WorldView_geostationary_east_2160x2160_en.00001_searchweb.png",
+            "filename": "PR_WorldView_geostationary_east_2160x2160_en.00001_searchweb.png",
+            "media_type": "Image",
+            "alt_text": "A true color view of the Earth from GOES-16 (GOES-East) over the past 5 days.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 205392,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856335,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005120/PR_WorldView_geostationary_east_2160x2160_en.00001_thm.png",
+            "filename": "PR_WorldView_geostationary_east_2160x2160_en.00001_thm.png",
+            "media_type": "Image",
+            "alt_text": "A true color view of the Earth from GOES-16 (GOES-East) over the past 5 days.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 458845,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856369,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005120/frames/2160x2160_1x1_60p/east/",
+            "filename": "east",
+            "media_type": "Frames",
+            "alt_text": "A true color view of the Earth from GOES-16 (GOES-East) over the past 5 days.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 458843,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856329,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005120/PR_WorldView_geostationary_east_2160x2160_en.mp4",
+            "filename": "PR_WorldView_geostationary_east_2160x2160_en.mp4",
+            "media_type": "Movie",
+            "alt_text": "A true color view of the Earth from GOES-16 (GOES-East) over the past 5 days.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 312098,
+      "url": "http://svs.gsfc.nasa.gov/5120/#media_group_312098",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "From the <a href=\"https://www.star.nesdis.noaa.gov/goes/conus_band.php?sat=G16&band=GEOCOLOR&length=24\" target=\"_blank\"> NOAA GOES Image Viewer Webpage </a> <br><br><b>GeoColor</b> is a multispectral product composed of True Color (using a simulated green component) during daytime, and an Infrared product that uses bands 7 and 13 at night. During the day, the imagery looks approximately as it would when viewed with human eyes from space. At night, the blue colors represent liquid water clouds such as fog and stratus, while gray to white indicate higher ice clouds, and the city lights come from a static database derived from the VIIRS Day Night Band.<br><br>GeoColor was developed at the <a href=\"https://www.cira.colostate.edu/\" target=\"_blank\">Cooperative Institute for Research in the Atmosphere (CIRA)</a> and the STAR Regional and Mesoscale Meteorology Branch (RAMMB). For a full description of the algorithm, please see this <a href=\"https://journals.ametsoc.org/view/journals/atot/37/3/JTECH-D-19-0134.1.xml\" target=\"_blank\">article</a>.<br><br>Please credit <b>CIRA/NOAA</b> when using GeoColor imagery.<br><br><b>NOTE:</b> Lighted areas shown in nighttime images are not real-time depictions of city lights. The layer is derived from a compilation of JPSS VIIRS Day Night Band images and is included for orientation purposes.<br><br>For more information about GeoColor imagery <a href=\"https://www.star.nesdis.noaa.gov/goes/documents/QuickGuide_CIRA_Geocolor_20171019.pdf\" target=\"_blank\">see this guide</a>.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 312100,
+      "url": "http://svs.gsfc.nasa.gov/5120/#media_group_312100",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A true color view of the Earth from GOES-18 (GOES-West) over the past 5 days.",
+      "items": [
+        {
+          "id": 458847,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856330,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005120/PL_WorldView_geostationary_west_2160x2160_en.00001_print.jpg",
+            "filename": "PL_WorldView_geostationary_west_2160x2160_en.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "A true color view of the Earth from GOES-18 (GOES-West) over the past 5 days.",
+            "width": 1024,
+            "height": 1024,
+            "pixels": 1048576
+          }
+        },
+        {
+          "id": 458848,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856368,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005120/frames/2160x2160_1x1_60p/west/",
+            "filename": "west",
+            "media_type": "Frames",
+            "alt_text": "A true color view of the Earth from GOES-18 (GOES-West) over the past 5 days.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        },
+        {
+          "id": 458846,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 856328,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005100/a005120/PL_WorldView_geostationary_west_2160x2160_en.mp4",
+            "filename": "PL_WorldView_geostationary_west_2160x2160_en.mp4",
+            "media_type": "Movie",
+            "alt_text": "A true color view of the Earth from GOES-18 (GOES-West) over the past 5 days.",
+            "width": 2160,
+            "height": 2160,
+            "pixels": 4665600
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Alex Gurvich", "employer": "NASA/GSFC" },
+        { "name": "Ryan Boller", "employer": "NASA/GSFC" }
+      ]
+    }
+  ],
+  "missions": [],
+  "series": ["Updates Regularly"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "GOES-16",
+      "sensor": "ABI",
+      "type": "Other",
+      "organizations": [],
+      "description": "Advanced Baseline Imager (ABI) has 16 spectral bands, including two visible channels, four near-infrared channels and ten infrared channels. It is nearly identical to the imagers on Himawari 8 and Himawari 9.",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Earth Information Center", "GOES-16", "Hyperwall"],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

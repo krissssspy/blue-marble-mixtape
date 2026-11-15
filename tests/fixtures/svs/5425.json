@@ -1,0 +1,1177 @@
+{
+  "id": 5425,
+  "url": "http://svs.gsfc.nasa.gov/5425/",
+  "page_type": "Visualization",
+  "title": "Perpetual Ocean 2: Western Boundary Currents",
+  "description": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream. The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+  "release_date": "2025-02-27T09:45:00-05:00",
+  "update_date": "2025-05-20T13:45:29.041835-04:00",
+  "main_image": {
+    "id": 1139048,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_4k_clean_noDate.00000_print.jpg",
+    "filename": "perpetual_ocean2_CLOSE_093_4k_clean_noDate.00000_print.jpg",
+    "media_type": "Image",
+    "alt_text": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+    "width": 1024,
+    "height": 576,
+    "pixels": 589824
+  },
+  "main_video": null,
+  "main_credits": { "Visualizations by": [{ "name": "Greg Shirah", "employer": "NASA/GSFC" }] },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 376521,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376521",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.<p><p>The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+      "items": [
+        {
+          "id": 443454,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1139058,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_clean_noDate_1080p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_093_clean_noDate_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 443455,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1139059,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_clean_noDate_2160p60.mp4",
+            "filename": "perpetual_ocean2_CLOSE_093_clean_noDate_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 443436,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1139044,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/3840x2160_16x9_60p/beauty_all_depths/",
+            "filename": "beauty_all_depths",
+            "media_type": "Frames",
+            "alt_text": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 458091,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1153193,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_clean_noDate_1080p_carousel.jpg",
+            "filename": "perpetual_ocean2_CLOSE_093_clean_noDate_1080p_carousel.jpg",
+            "media_type": "Image",
+            "alt_text": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 443440,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1139048,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_4k_clean_noDate.00000_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_093_4k_clean_noDate.00000_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 443442,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1139050,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_4k_clean_noDate.00000_thm.png",
+            "filename": "perpetual_ocean2_CLOSE_093_4k_clean_noDate.00000_thm.png",
+            "media_type": "Image",
+            "alt_text": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 468487,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1153799,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/9600x3240_16x9_30p/",
+            "filename": "9600x3240_16x9_30p",
+            "media_type": "Frames",
+            "alt_text": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+            "width": 9600,
+            "height": 3240,
+            "pixels": 31104000
+          }
+        },
+        {
+          "id": 469687,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1154650,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_beauty_hw5x3_810p30_5.mp4",
+            "filename": "perpetual_ocean2_beauty_hw5x3_810p30_5.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.",
+            "width": 2400,
+            "height": 810,
+            "pixels": 1944000
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378113,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_378113",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "The narrated version of this visualization was accepted into ACM/SIGGRAPH's 2025 Electronic Theater.\r\n[https://svs.gsfc.nasa.gov/14745/](https://svs.gsfc.nasa.gov/14745/)",
+      "items": [
+        {
+          "id": 470607,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155308,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/SIGGRAPH_OfficialSelectionETWhite.png",
+            "filename": "SIGGRAPH_OfficialSelectionETWhite.png",
+            "media_type": "Image",
+            "alt_text": "",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376523,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376523",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "This is a visualization of ocean currents around the world. NASA’s ocean model, Estimating the Circulation and Climate of the Ocean (<a href=\"https://www.ecco-group.org\" target=\"_blank\">ECCO</a>)), is used to visualize the currents. The ECCO ocean circulation model incorporates observations from spacecraft, buoys, and other in situ measurements to keep the model accurate. ECCO is a joint project between NASA/JPL, MIT, and UT Austin. The model output used here is from ECCO-2 and covers the years 2021-2023.<br><br>In 2011, we used ECCO2 to create a visualization called Perpetual Ocean.  Perpetual Ocean continues to be extremely popular, but it only shows ocean currents on the surface.  In this new visualization, we use the ocean’s 3D velocity field to visualize some of the strongest ocean currents. We release virtual particles in the ocean and allow them to move with the ocean’s three dimensional velocity field. Each particle has a trail to better see its direction of movement. The particles initialized above 600 meters in depth have a trail length of 3 days, those initialized deeper than 600 meters have a trail length of 6 days. The particle trails help identify the strongest currents in the world that are squeezed in narrow belts on the western side of each ocean basin. These are called western boundary currents. The looping meanders in the boundary currents sometimes form turbulent rings (eddies) that can trap cold or warm waters in their centers and then separate from the main flow (see 2:30 of temperature version for an example for trapped warm water). In general, the western boundary currents are warm and salty.<br><br>The visualization starts from a global rotating view before slowing down to see the Western Boundary Current along the western edge of the Pacific Ocean along the coasts of Australia, and Asia. We zoom in to show the  Kuroshio Current off the coast of Japan. Along the Japanese coast, the current exhibits large meanders that can persist for many months in more or less the same location. The Kuroshio current has a temperature range of  20 to 25 °C. Its salinity can change seasonally with an average value of 34.5.<br><br><br>We then zoom out  and move over the Indian Ocean The Indian Ocean exhibits large variations in salinity. The western Indian Ocean is quite salty (>36) due to overflow inputs from marginal Seas (e.g. Persian Gulf and Red Sea). The East Indian Ocean is fresher (~35) due to river inputs from India.   The Indonesian Throughflow is quite fresh (33-34) and carries freshwater from the Pacific. We then zoom into the southern tip of Africa. The exchange of water from the Indian Ocean to the South Atlantic occurs here. The Agulhas Current is another Western Boundary current following the slope of the continental shelf closely. The continental shelf along the east coast of southern Africa is quite narrow and steep. This sloping topography stabilizes the Agulhas Current so that it shows no wide meanderings of the type familiar in other boundary currents such as the Kuroshio. The Agulhas Current overshoots the African continent, moving  into the South Atlantic. Then retroflects back to the Indian Ocean. At the retroflection, shedding of warm (20 to 25 °C ) and salty (~35.5)  rings happens. The eddies detached from the current have a lifetime of more than 2 years traveling across the south Atlantic ocean. These eddies are referred to as Agulhas Rings.<br><br>Another Western Boundary Current, called the Gulf Stream comes into view along the east coast of North America. The Gulf Stream forms at the Florida Straits. It’s one of the fastest currents on Earth with surface speed of up to 2.5 meters per second. In the Gulf stream, cold cores (mostly anticyclonic ones) form when the Gulf Stream meanders eastward leaving the coast of North America (off Cape Hatteras in North Carolina). The eddy diameters can be as large as 1000 km. Zooming into the Gulf Stream, we can see that the warm surface water (>25°C) moves poleward (white particle trails). The Gulf Stream is generally the warmest and saltiest western boundary current. There’s a return current underneath at depth below 500m (the blue particle trails) moving southward carrying cold waters from the pole. <br>The loop currents in the Gulf of Mexico are very large eddies persisting in the Gulf. They bring the warm and highly saline Caribbean water into the Gulf. As we zoom out from the Gulf Stream, the salinity version shows that the Atlantic is generally much more salty than the Pacific.<br><br>Models like ECCO-2 help scientists to understand the characteristics of these currents better and ultimately understand how heat is transported globally in the Ocean.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 376522,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376522",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This is the 'temperature version' of Perpetual Ocean 2: Western Boundary Currents. The visualization starts with a rotating globe showing ocean currents. The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.<p><p>The colors used to color the flow in this version vary from dark blue to purple to orange to yellow.   See the colorbar below specified for the 'temperature version'.",
+      "items": [
+        {
+          "id": 443806,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139350,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_096_temperature.00000_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_096_temperature.00000_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This is the 'temperature version' of Perpetual Ocean 2: Western Boundary Currents. The visualization starts with a rotating globe showing ocean currents. The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version vary from dark blue to purple to orange to yellow.   See the colorbar below specified for the 'temperature version'.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 443803,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139351,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_096_temperature_1080p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_096_temperature_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the 'temperature version' of Perpetual Ocean 2: Western Boundary Currents. The visualization starts with a rotating globe showing ocean currents. The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version vary from dark blue to purple to orange to yellow.   See the colorbar below specified for the 'temperature version'.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 443805,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139348,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/3840x2160_16x9_60p/temperature/",
+            "filename": "temperature",
+            "media_type": "Frames",
+            "alt_text": "This is the 'temperature version' of Perpetual Ocean 2: Western Boundary Currents. The visualization starts with a rotating globe showing ocean currents. The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version vary from dark blue to purple to orange to yellow.   See the colorbar below specified for the 'temperature version'.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 443804,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139349,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_096_temperature_2160p60.mp4",
+            "filename": "perpetual_ocean2_CLOSE_096_temperature_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the 'temperature version' of Perpetual Ocean 2: Western Boundary Currents. The visualization starts with a rotating globe showing ocean currents. The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version vary from dark blue to purple to orange to yellow.   See the colorbar below specified for the 'temperature version'.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376525,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376525",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This is the 'salinity version' of Perpetual Ocean 2: Western Boundary Currents.  See the colorbar below specified for the 'salinity version'.<p><p>",
+      "items": [
+        {
+          "id": 444560,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139787,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_103_salinity.00001_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_103_salinity.00001_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This is the 'salinity version' of Perpetual Ocean 2: Western Boundary Currents.  See the colorbar below specified for the 'salinity version'.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 445193,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1140086,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/3840x2160_16x9_60p/salinity/",
+            "filename": "salinity",
+            "media_type": "Frames",
+            "alt_text": "This is the 'salinity version' of Perpetual Ocean 2: Western Boundary Currents.  See the colorbar below specified for the 'salinity version'.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 445194,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1140087,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_103_salinity_1080p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_103_salinity_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the 'salinity version' of Perpetual Ocean 2: Western Boundary Currents.  See the colorbar below specified for the 'salinity version'.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 445195,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1140088,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_103_salinity_2160p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_103_salinity_2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the 'salinity version' of Perpetual Ocean 2: Western Boundary Currents.  See the colorbar below specified for the 'salinity version'.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 444559,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139786,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_103_salinity.mp4",
+            "filename": "perpetual_ocean2_CLOSE_103_salinity.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the 'salinity version' of Perpetual Ocean 2: Western Boundary Currents.  See the colorbar below specified for the 'salinity version'.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376527,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376527",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This is the '600 meter and deeper beauty version' showing only ocean currents below 600 meters in the Gulf Stream region.  This is intended for fading in post production to better see the counter current.  This uses the same color table as the 'beauty shot version'.",
+      "items": [
+        {
+          "id": 444564,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139055,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_095_beauty_600m_and_below.14000_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_095_beauty_600m_and_below.14000_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This is the '600 meter and deeper beauty version' showing only ocean currents below 600 meters in the Gulf Stream region.  This is intended for fading in post production to better see the counter current.  This uses the same color table as the 'beauty shot version'.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 444561,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139056,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_095_beauty_600m_and_below_1080p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_095_beauty_600m_and_below_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the '600 meter and deeper beauty version' showing only ocean currents below 600 meters in the Gulf Stream region.  This is intended for fading in post production to better see the counter current.  This uses the same color table as the 'beauty shot version'.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 444563,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139053,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/3840x2160_16x9_60p/beauty_600m_and_lower/",
+            "filename": "beauty_600m_and_lower",
+            "media_type": "Frames",
+            "alt_text": "This is the '600 meter and deeper beauty version' showing only ocean currents below 600 meters in the Gulf Stream region.  This is intended for fading in post production to better see the counter current.  This uses the same color table as the 'beauty shot version'.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 444562,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139061,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_095_beauty_600m_and_below_2160p60.mp4",
+            "filename": "perpetual_ocean2_CLOSE_095_beauty_600m_and_below_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is the '600 meter and deeper beauty version' showing only ocean currents below 600 meters in the Gulf Stream region.  This is intended for fading in post production to better see the counter current.  This uses the same color table as the 'beauty shot version'.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376528,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376528",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This is an overlay layer of the equator line and label to enable the enhancement of the equator in post production. It is rendered with a hold-out matte for the earth.",
+      "items": [
+        {
+          "id": 444568,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139084,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_095_equator_holdout.00000_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_095_equator_holdout.00000_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This is an overlay layer of the equator line and label to enable the enhancement of the equator in post production. It is rendered with a hold-out matte for the earth.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 444565,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139086,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_095_equator_holdout_1080p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_095_equator_holdout_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is an overlay layer of the equator line and label to enable the enhancement of the equator in post production. It is rendered with a hold-out matte for the earth.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 444566,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139083,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_095_equator_holdout.mp4",
+            "filename": "perpetual_ocean2_CLOSE_095_equator_holdout.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is an overlay layer of the equator line and label to enable the enhancement of the equator in post production. It is rendered with a hold-out matte for the earth.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 444567,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139082,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/3840x2160_16x9_60p/equator/",
+            "filename": "equator",
+            "media_type": "Frames",
+            "alt_text": "This is an overlay layer of the equator line and label to enable the enhancement of the equator in post production. It is rendered with a hold-out matte for the earth.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376532,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376532",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Optional sea ice only layer.",
+      "items": [
+        {
+          "id": 444572,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139418,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_097_SEA_ICE_ONLY.00000_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_097_SEA_ICE_ONLY.00000_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Optional sea ice only layer.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 444569,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139429,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_097_SEA_ICE_ONLY_1080p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_097_SEA_ICE_ONLY_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Optional sea ice only layer.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 444570,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139416,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_097_SEA_ICE_ONLY.mp4",
+            "filename": "perpetual_ocean2_CLOSE_097_SEA_ICE_ONLY.mp4",
+            "media_type": "Movie",
+            "alt_text": "Optional sea ice only layer.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 444571,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139415,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/3840x2160_16x9_60p/sea_ice/",
+            "filename": "sea_ice",
+            "media_type": "Frames",
+            "alt_text": "Optional sea ice only layer.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376578,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376578",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Layer with land only",
+      "items": [
+        {
+          "id": 445203,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1140092,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_097_LAND_ONLY2.00000_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_097_LAND_ONLY2.00000_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Layer with land only",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 445200,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1140090,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_097_LAND_ONLY2_1080p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_097_LAND_ONLY2_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Layer with land only",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 445202,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1140089,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/3840x2160_16x9_60p/land_only/",
+            "filename": "land_only",
+            "media_type": "Frames",
+            "alt_text": "Layer with land only",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 445201,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1140091,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_097_LAND_ONLY_2160p60.mp4",
+            "filename": "perpetual_ocean2_CLOSE_097_LAND_ONLY_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "Layer with land only",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376593,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376593",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Land mask layer.  This is intended to be used with the land layer which has changing snow.",
+      "items": [
+        {
+          "id": 445207,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139432,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_097_LAND_MASK.00000_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_097_LAND_MASK.00000_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Land mask layer.  This is intended to be used with the land layer which has changing snow.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 445204,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139529,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_097_LAND_MASK_1080p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_097_LAND_MASK_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "Land mask layer.  This is intended to be used with the land layer which has changing snow.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 445206,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139430,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/3840x2160_16x9_60p/land_mask/",
+            "filename": "land_mask",
+            "media_type": "Frames",
+            "alt_text": "Land mask layer.  This is intended to be used with the land layer which has changing snow.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 445205,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139431,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_097_LAND_MASK.mp4",
+            "filename": "perpetual_ocean2_CLOSE_097_LAND_MASK.mp4",
+            "media_type": "Movie",
+            "alt_text": "Land mask layer.  This is intended to be used with the land layer which has changing snow.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376594,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376594",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "This is a dates only layer that corresponds to the 'beauty shot version' and 'temperature version' on this page.  Dates range from 15 Jan 2021 to 25 Dec 2023.",
+      "items": [
+        {
+          "id": 445211,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139051,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_datesOnly.00000_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_093_datesOnly.00000_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This is a dates only layer that corresponds to the 'beauty shot version' and 'temperature version' on this page.  Dates range from 15 Jan 2021 to 25 Dec 2023.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        },
+        {
+          "id": 445208,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139052,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_datesOnly_1080p30.mp4",
+            "filename": "perpetual_ocean2_CLOSE_093_datesOnly_1080p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is a dates only layer that corresponds to the 'beauty shot version' and 'temperature version' on this page.  Dates range from 15 Jan 2021 to 25 Dec 2023.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 445209,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139060,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_datesOnly_2160p60.mp4",
+            "filename": "perpetual_ocean2_CLOSE_093_datesOnly_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "This is a dates only layer that corresponds to the 'beauty shot version' and 'temperature version' on this page.  Dates range from 15 Jan 2021 to 25 Dec 2023.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 445210,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139046,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/frames/3840x2160_16x9_60p/dates/",
+            "filename": "dates",
+            "media_type": "Frames",
+            "alt_text": "This is a dates only layer that corresponds to the 'beauty shot version' and 'temperature version' on this page.  Dates range from 15 Jan 2021 to 25 Dec 2023.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376595,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376595",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "This color bar is applied to the 'salinity version' of the ocean currents.  The colors range from greenish-cyan to gray to orange to red.  Values range from 33 to 36 salinity units.",
+      "items": [
+        {
+          "id": 445212,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139414,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_100_salinity_cbar.png",
+            "filename": "perpetual_ocean2_CLOSE_100_salinity_cbar.png",
+            "media_type": "Image",
+            "alt_text": "This color bar is applied to the 'salinity version' of the ocean currents.  The colors range from greenish-cyan to gray to orange to red.  Values range from 33 to 36 salinity units.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 445213,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139417,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_100_salinity_cbar_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_100_salinity_cbar_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This color bar is applied to the 'salinity version' of the ocean currents.  The colors range from greenish-cyan to gray to orange to red.  Values range from 33 to 36 salinity units.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376685,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376685",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "This is the color bar applied to the 'beauty shot version' and the '600 meters and deeper version' of the ocean currents. In the 'beauty shot version', all currents above 600 meters depth are white. All currents at 600 meters and below use this blue-cyan-white colorbar below with value ranging from -3 to 22 celcius.",
+      "items": [
+        {
+          "id": 445214,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139433,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_101_cbar_beauty.png",
+            "filename": "perpetual_ocean2_CLOSE_101_cbar_beauty.png",
+            "media_type": "Image",
+            "alt_text": "This is the color bar applied to the 'beauty shot version' and the '600 meters and deeper version' of the ocean currents. In the 'beauty shot version', all currents above 600 meters depth are white. All currents at 600 meters and below use this blue-cyan-white colorbar below with value ranging from -3 to 22 celcius.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 445215,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139435,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_101_cbar_beauty_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_101_cbar_beauty_print.jpg",
+            "media_type": "Image",
+            "alt_text": "This is the color bar applied to the 'beauty shot version' and the '600 meters and deeper version' of the ocean currents. In the 'beauty shot version', all currents above 600 meters depth are white. All currents at 600 meters and below use this blue-cyan-white colorbar below with value ranging from -3 to 22 celcius.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 376775,
+      "url": "http://svs.gsfc.nasa.gov/5425/#media_group_376775",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Color bar applied to the 'temperature version' of the ocean currents. Colors range from blue to purple to yellow in degrees Celcius from 0 to 25.<p><p>",
+      "items": [
+        {
+          "id": 445216,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139434,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_101_cbar_temperature.png",
+            "filename": "perpetual_ocean2_CLOSE_101_cbar_temperature.png",
+            "media_type": "Image",
+            "alt_text": "Color bar applied to the 'temperature version' of the ocean currents. Colors range from blue to purple to yellow in degrees Celcius from 0 to 25.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 445217,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 1139436,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_101_cbar_temperature_print.jpg",
+            "filename": "perpetual_ocean2_CLOSE_101_cbar_temperature_print.jpg",
+            "media_type": "Image",
+            "alt_text": "Color bar applied to the 'temperature version' of the ocean currents. Colors range from blue to purple to yellow in degrees Celcius from 0 to 25.",
+            "width": 1024,
+            "height": 576,
+            "pixels": 589824
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE"],
+  "credits": [
+    {
+      "role": "Visualizer",
+      "people": [
+        { "name": "Greg Shirah", "employer": "NASA/GSFC" },
+        { "name": "Horace Mitchell", "employer": "NASA/GSFC" }
+      ]
+    },
+    {
+      "role": "Technical support",
+      "people": [
+        { "name": "Laurence Schuler", "employer": "ADNET Systems, Inc." },
+        { "name": "Ian Jones", "employer": "ADNET Systems, Inc." }
+      ]
+    },
+    {
+      "role": "Scientist",
+      "people": [
+        { "name": "Atousa Saberi", "employer": "NASA/GSFC" },
+        { "name": "Josh Willis", "employer": "JPL" }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [{ "name": "Kathleen Gaeta", "employer": "Advocates in Manpower Management, Inc." }]
+    }
+  ],
+  "missions": [],
+  "series": ["Perpetual Ocean 2"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "Blue Marble: Next Generation",
+      "common_name": "BMNG",
+      "platform": "Terra and Aqua",
+      "sensor": "MODIS",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "The Blue Marble data is courtesy of Reto Stockli (NASA/GSFC).",
+      "url": "http://earthobservatory.nasa.gov/Newsroom/BlueMarble/",
+      "date_range": null
+    },
+    {
+      "name": "ECCO2 High Resolution Ocean and Sea Ice Model",
+      "common_name": "ECCO2",
+      "platform": null,
+      "sensor": null,
+      "type": "Model",
+      "organizations": ["NASA/JPL"],
+      "description": "",
+      "credit": "",
+      "url": "",
+      "date_range": null
+    },
+    {
+      "name": "ETOPO-30",
+      "common_name": "",
+      "platform": null,
+      "sensor": null,
+      "type": "Model",
+      "organizations": [],
+      "description": "NOAA Earth TOPOgraphy global relief model 30 arc-second resolution (ETOPO-30): The ETOPO Global Relief Model integrates topography, bathymetry, and shoreline data from regional and global datasets to enable comprehensive, high resolution renderings of geophysical characteristics of the earth’s surface. The model is designed to support tsunami forecasting, modeling, and warning, as well as ocean circulation modeling and Earth visualization.",
+      "credit": "",
+      "url": "https://www.ncei.noaa.gov/products/etopo-global-relief-model",
+      "date_range": null
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Earth Science",
+    "ocean circulation",
+    "ocean currents",
+    "Oceans",
+    "Physical oceanography"
+  ],
+  "recommended_pages": [],
+  "related": [
+    {
+      "id": 5479,
+      "url": "http://svs.gsfc.nasa.gov/5479/",
+      "page_type": "Visualization",
+      "title": "Ocean Currents in equirectangular projection",
+      "description": "Ocean flows beauty version.  The flows are colored by temperature data from 600 meters and deeper.  Flows above 600 meters deep are white. || These are ocean currents based on ECCO-2 data.   This is supplementary material that is related to the new Perpetual Ocean 2 tour.   These versions were created specifically for Science on a Sphere, but can be used for other purposes as well. || Ocean flows colored by salinity data || Ocean flows colored by temperature data || Beauty color bar ||",
+      "release_date": "2025-05-30T00:00:00-04:00",
+      "update_date": "2025-07-01T16:55:19.276508-04:00",
+      "main_image": {
+        "id": 1155268,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005479/OceanFlows/thumbnail_big.jpg",
+        "filename": "thumbnail_big.jpg",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 800,
+        "height": 800,
+        "pixels": 640000
+      }
+    },
+    {
+      "id": 14745,
+      "url": "http://svs.gsfc.nasa.gov/14745/",
+      "page_type": "Produced Video",
+      "title": "An Ocean in Motion: NASA's Mesmerizing View of Earth's Underwater Highways",
+      "description": "Complete transcript available.Universal Music Production: “Playing with the Narrative Instrumental” and “What Was Reported As Is Instrumental” || Thumbnail_main.jpg (3840x2160) [4.4 MB] || Thumbnail_main_print.jpg (1024x576) [596.0 KB] || Thumbnail_main_searchweb.png (320x180) [116.0 KB] || Thumbnail_main_web.png (320x180) [116.0 KB] || Thumbnail_main_thm.png [7.6 KB] || Perp_Oceans_Final_2.webm (3840x2160) [549.9 MB] || Perp_Oceans_Final_2.mp4 (3840x2160) [3.0 GB] ||",
+      "release_date": "2025-02-28T00:00:00-05:00",
+      "update_date": "2025-04-15T16:44:04.323581-04:00",
+      "main_image": {
+        "id": 1140548,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014745/Thumbnail_main_print.jpg",
+        "filename": "Thumbnail_main_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Universal Music Production: “Playing with the Narrative Instrumental” and “What Was Reported As Is Instrumental”   ",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "id": 14745,
+      "url": "http://svs.gsfc.nasa.gov/14745/",
+      "page_type": "Produced Video",
+      "title": "An Ocean in Motion: NASA's Mesmerizing View of Earth's Underwater Highways",
+      "description": "Complete transcript available.Universal Music Production: “Playing with the Narrative Instrumental” and “What Was Reported As Is Instrumental” || Thumbnail_main.jpg (3840x2160) [4.4 MB] || Thumbnail_main_print.jpg (1024x576) [596.0 KB] || Thumbnail_main_searchweb.png (320x180) [116.0 KB] || Thumbnail_main_web.png (320x180) [116.0 KB] || Thumbnail_main_thm.png [7.6 KB] || Perp_Oceans_Final_2.webm (3840x2160) [549.9 MB] || Perp_Oceans_Final_2.mp4 (3840x2160) [3.0 GB] ||",
+      "release_date": "2025-02-28T00:00:00-05:00",
+      "update_date": "2025-04-15T16:44:04.323581-04:00",
+      "main_image": {
+        "id": 1140548,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014745/Thumbnail_main_print.jpg",
+        "filename": "Thumbnail_main_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Complete transcript available.Universal Music Production: “Playing with the Narrative Instrumental” and “What Was Reported As Is Instrumental”   ",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": [
+    {
+      "id": 5529,
+      "url": "http://svs.gsfc.nasa.gov/5529/",
+      "page_type": "Visualization",
+      "title": "Perpetual Ocean 2: Polar Views",
+      "description": "This page contains north and south polars views of ECCO2 based ocean currents.",
+      "release_date": "2025-04-25T12:00:59-04:00",
+      "update_date": "2025-04-25T09:59:51.315597-04:00",
+      "main_image": {
+        "id": 1154518,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005529/preview_south.11800.png",
+        "filename": "preview_south.11800.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1280,
+        "height": 720,
+        "pixels": 921600
+      }
+    },
+    {
+      "id": 5505,
+      "url": "http://svs.gsfc.nasa.gov/5505/",
+      "page_type": "Visualization",
+      "title": "Perpetual Ocean 2: Equirectangular",
+      "description": "This page contains equirectangular versions of Perpetual Ocean 2's 'beauty version'.",
+      "release_date": "2024-03-25T12:18:00-04:00",
+      "update_date": "2026-01-15T12:35:09.587058-05:00",
+      "main_image": {
+        "id": 1153613,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005505/preview_1280x640.png",
+        "filename": "preview_1280x640.png",
+        "media_type": "Image",
+        "alt_text": "",
+        "width": 1280,
+        "height": 640,
+        "pixels": 819200
+      }
+    }
+  ]
+}
