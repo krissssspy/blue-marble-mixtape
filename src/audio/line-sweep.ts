@@ -1,12 +1,11 @@
 import type { FeatureFrame, FeaturePack } from './feature-pack.js';
 import { midiToHz } from './pitch.js';
-import type { Recipe } from './recipe.js';
+import { RECIPE_TEMPO_BPM, type Recipe } from './recipe.js';
 import { euclideanRhythm } from './rhythm.js';
 import { scaleNote } from './scale.js';
 import type { ScoreEvent } from './score.js';
 
 type FeatureSource = Recipe['pitchSource'] | Recipe['loudnessSource'];
-const tempoBpm = { slow: 72, medium: 108, fast: 144 };
 
 function feature(frame: FeatureFrame, source: Exclude<FeatureSource, 'height'>, index: number) {
   switch (source) {
@@ -52,7 +51,7 @@ function columnValue(
 export function lineSweepScore(pack: FeaturePack, recipe: Recipe): readonly ScoreEvent[] {
   if (recipe.scan !== 'lineSweep') throw new Error('A line sweep recipe is required.');
   const { width } = pack;
-  const step = 60 / tempoBpm[recipe.tempo] / 4;
+  const step = 60 / RECIPE_TEMPO_BPM[recipe.tempo] / 4;
   const duration = step * (recipe.rhythm === 'free' ? 1.4 : 0.85);
   const pulses =
     recipe.rhythm === 'euclidean' ? euclideanRhythm(Math.ceil(width * 0.6), width) : null;

@@ -23,6 +23,18 @@ export type Recipe = {
   readonly [Field in keyof typeof RECIPE_CHOICES]: (typeof RECIPE_CHOICES)[Field][number];
 };
 
+export const DEFAULT_RECIPE = {
+  scan: 'lineSweep',
+  pitchSource: 'height',
+  loudnessSource: 'brightness',
+  scale: 'minorPentatonic',
+  voice: 'triangle',
+  rhythm: 'free',
+  tempo: 'medium',
+} satisfies Recipe;
+
+export const RECIPE_TEMPO_BPM = { slow: 72, medium: 108, fast: 144 };
+
 const choices = Object.entries(RECIPE_CHOICES);
 
 export function validateRecipe(input: unknown): input is Recipe {

@@ -107,6 +107,22 @@ test('walks all nine exhibits, hears distinct scores, and reaches the thank-you 
 
   await page.keyboard.down('ArrowRight');
   try {
+    await page.waitForFunction(
+      () => document.querySelector('main.museum-shell')?.getAttribute('data-room') === 'lab',
+    );
+  } finally {
+    await page.keyboard.up('ArrowRight');
+  }
+  await page.keyboard.press('ArrowUp');
+  await expect(shell).toHaveAttribute('data-screen', 'lab');
+  await expect(page.locator('.museum-announcements')).toContainText('ARTIFACT');
+  await page.keyboard.press('ArrowLeft');
+  await expect(page.locator('.museum-announcements')).toContainText('LANDSAT 7 LOOKS AT');
+  await page.keyboard.press('ArrowDown');
+  await expect(shell).toHaveAttribute('data-screen', 'room');
+
+  await page.keyboard.down('ArrowRight');
+  try {
     await expect(shell).toHaveAttribute('data-screen', 'farewell', { timeout: 7000 });
   } finally {
     await page.keyboard.up('ArrowRight');

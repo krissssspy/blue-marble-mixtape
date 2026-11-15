@@ -76,3 +76,20 @@ export const APP_STRINGS = {
   museum: 'Museum',
   loadFailed: 'LOAD FAILED\n↑ RETRY',
 } as const;
+
+export const LAB_COPY = {
+  invite: '↑ MIX A TAPE',
+  next: '↑ NEXT',
+  play: '↑ PLAY',
+  steps: {
+    artifact: 'ARTIFACT',
+    scan: 'SCAN',
+    pitchSource: 'PITCH FROM',
+    loudnessSource: 'LOUDNESS FROM',
+    scale: 'SCALE',
+    voice: 'VOICE',
+    rhythm: 'RHYTHM',
+    tempo: 'TEMPO',
+    play: 'PLAY?',
+  },
+} as const;

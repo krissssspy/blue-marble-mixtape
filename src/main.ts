@@ -1,8 +1,8 @@
 import { createBrowserPlayer, type BrowserPlayback } from './audio/browser-player.js';
 import { exhibitScore } from './audio/exhibit-scores.js';
 import { decodeFeaturePack } from './audio/feature-pack.js';
-import { lineSweepScore } from './audio/line-sweep.js';
-import type { Recipe } from './audio/recipe.js';
+import { labScore } from './audio/lab-score.js';
+import { DEFAULT_RECIPE, type Recipe } from './audio/recipe.js';
 import { createMuseumAnnouncements } from './engine/announcements.js';
 import { createArtifactInteraction, interactWithArtifacts } from './engine/artifact-interaction.js';
 import { drawArtifactFrame } from './engine/artifact-frame.js';
@@ -22,11 +22,18 @@ import {
 } from './engine/framebuffer.js';
 import { createInputBuffer, type InputSample } from './engine/input-buffer.js';
 import { mapKey } from './engine/input-map.js';
+import { drawLab, drawLabInvite, labChoice } from './engine/lab-render.js';
+import { encodeLabShare, readLabShare } from './engine/lab-share.js';
+import { createLabState, LAB_STEPS, stepLab, type LabState } from './engine/lab.js';
 import { drawListenPrompt } from './engine/listen-prompt.js';
 import { createListeningImage } from './engine/listening-image.js';
 import { drawListeningOverlay } from './engine/listening-overlay.js';
 import { motionFrame } from './engine/motion-preference.js';
-import { loadMuseumAssets, type CatalogArtifact } from './engine/museum-assets.js';
+import {
+  loadMuseumAssets,
+  type CatalogArtifact,
+  type MuseumCatalog,
+} from './engine/museum-assets.js';
 import { createMuseumState, stepMuseum } from './engine/museum-state.js';
 import { drawPlayhead, fitImageRect } from './engine/playhead.js';
 import { tutorialExitOpen, walkRoom } from './engine/room-travel.js';
@@ -35,28 +42,13 @@ import { createTouchControls } from './engine/touch-controls.js';
 import { configureTouchLayout } from './engine/touch-layout.js';
 import { drawTutorial } from './engine/tutorial-render.js';
 import { drawWelcome } from './engine/welcome.js';
-import {
-  createMuseumRooms,
-  drawDoor,
-  drawRoom,
-  type MountedArtifact,
-  type MuseumRoom,
-} from './museum-rooms.js';
+import { createMuseumRooms, drawDoor, drawRoom, type MuseumRoom } from './museum-rooms.js';
 import { loadMuseumThumbnail } from './museum-thumbnails.js';
 import { ACCESSIBILITY_STRINGS, APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
 
 const thumbnailFallback = new Uint8Array(48 * 27).fill(3);
 const secondsPerStep = 1 / 60;
 const maxFrameGapMs = 250;
-const listeningRecipe = {
-  scan: 'lineSweep',
-  pitchSource: 'height',
-  loudnessSource: 'brightness',
-  scale: 'minorPentatonic',
-  voice: 'triangle',
-  rhythm: 'free',
-  tempo: 'medium',
-} satisfies Recipe;
 
 function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasElement): void {
   const frame = createFramebuffer();
@@ -79,10 +71,13 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     // The explorer still works when storage is unavailable.
   }
   let state = { ...createMuseumState(), avatar: loadAvatar(storage) };
+  let catalog: MuseumCatalog | null = null;
   let rooms = createMuseumRooms();
   let position = { roomIndex: 0, x: 32 };
   let movingSteps = 0;
   let farewell = false;
+  let lab: LabState | null = null;
+  let labPlaying = false;
   let interaction = createArtifactInteraction();
   let loadStarted = false;
   let loadFailed = false;
@@ -117,7 +112,11 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     }
   }
 
-  function loadListeningAudio(artifact: CatalogArtifact, room: MuseumRoom['id']): void {
+  function loadListeningAudio(
+    artifact: CatalogArtifact,
+    room: MuseumRoom['id'],
+    recipe: Recipe = DEFAULT_RECIPE,
+  ): void {
     if (!audio) return;
     const { player, ready } = audio;
     const request = new AbortController();
@@ -131,7 +130,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
         if (!request.signal.aborted) {
           const score =
             room === 'tutorial' || room === 'lab'
-              ? lineSweepScore(pack, listeningRecipe)
+              ? labScore(pack, recipe)
               : exhibitScore(room, pack);
           playback = player.play(score);
         }
@@ -151,9 +150,19 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
       (value) => (progress = value),
     )
       .then((assets) => {
+        catalog = assets.catalog;
         rooms = createMuseumRooms(assets);
         practiceThumbnail = assets.practiceThumbnail;
         thumbnails.set(assets.practiceArtifact.id, practiceThumbnail);
+        const shared = readLabShare(window.location.hash);
+        if (shared) {
+          const artifactIndex = catalog.artifacts.findIndex(({ id }) => id === shared.artifactId);
+          if (artifactIndex >= 0) {
+            const roomIndex = rooms.length - 1;
+            position = { roomIndex, x: rooms[roomIndex].walkway[0].x + 8 };
+            lab = { step: LAB_STEPS.length - 1, artifactIndex, recipe: shared.recipe };
+          }
+        }
       })
       .catch(() => {
         loadFailed = true;
@@ -161,7 +170,8 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
       });
   }
 
-  function thumbnailFor({ id, artifact }: MountedArtifact): Uint8Array {
+  function thumbnailFor(artifact: CatalogArtifact): Uint8Array {
+    const { id } = artifact;
     if (!requestedThumbnails.has(id) && !thumbnails.has(id)) {
       requestedThumbnails.add(id);
       void loadMuseumThumbnail(document, artifact.mediaPaths.thumbnail)
@@ -180,6 +190,23 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
         farewell = false;
         position = { ...position, x: position.x - 12 };
         input.clear();
+      }
+      return;
+    }
+    if (lab && catalog) {
+      if (labPlaying) {
+        if (sample.pressed.includes('no')) labPlaying = false;
+      } else {
+        const choice = stepLab(lab, sample.pressed, catalog.artifacts.length);
+        lab = choice.state;
+        if (choice.effect === 'close') {
+          lab = null;
+          input.clear();
+        } else if (choice.effect === 'play') {
+          labPlaying = true;
+          const artifactId = catalog.artifacts[lab.artifactIndex].id;
+          window.history.replaceState(null, '', encodeLabShare({ artifactId, recipe: lab.recipe }));
+        }
       }
       return;
     }
@@ -215,16 +242,27 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     movingSteps = position.x === previousX ? 0 : movingSteps + 1;
     if (previousRoom !== position.roomIndex) interaction = createArtifactInteraction();
     const room = rooms[position.roomIndex];
+    if (
+      room.id === 'lab' &&
+      catalog &&
+      interaction.listeningId === null &&
+      interaction.promptId === null &&
+      sample.pressed.includes('yes')
+    ) {
+      lab = createLabState();
+      movingSteps = 0;
+      return;
+    }
     interaction = interactWithArtifacts(interaction, position.x, room.spots, sample.pressed);
   }
 
-  function drawListening(artifact: CatalogArtifact, room: MuseumRoom['id']): void {
+  function drawListening(artifact: CatalogArtifact, room: MuseumRoom['id'], recipe?: Recipe): void {
     if (currentImage?.id !== artifact.id) {
       const element = createListeningImage(document, artifact);
       currentImage = { id: artifact.id, element };
       imageHost.replaceChildren(element);
       imageHost.hidden = false;
-      loadListeningAudio(artifact, room);
+      loadListeningAudio(artifact, room, recipe);
     }
     const { naturalWidth, naturalHeight } = currentImage.element;
     const playing = playback?.read();
@@ -238,7 +276,10 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
       {
         shortTitle: artifact.shortTitle,
         displayDate: artifact.displayDate,
-        genre: MUSEUM_ROOMS.find(({ id }) => id === artifact.room)?.genre ?? APP_STRINGS.museum,
+        genre:
+          MUSEUM_ROOMS.find(({ id }) => id === room)?.genre ??
+          MUSEUM_ROOMS.find(({ id }) => id === artifact.room)?.genre ??
+          APP_STRINGS.museum,
       },
       playing?.progress ?? 0,
     );
@@ -273,6 +314,19 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
       shell.dataset.screen = 'farewell';
       drawFarewell(frame);
       announcements.update({ roomName: ACCESSIBILITY_STRINGS.farewell });
+    } else if (lab && catalog) {
+      if (labPlaying) {
+        const artifact = catalog.artifacts[lab.artifactIndex];
+        shell.dataset.screen = 'listening';
+        drawListening(artifact, 'lab', lab.recipe);
+        announcements.update({ listening: artifact });
+      } else {
+        hideListening();
+        shell.dataset.screen = 'lab';
+        drawLab(frame, lab, catalog.artifacts, thumbnailFor);
+        const { title, value } = labChoice(lab, catalog.artifacts);
+        announcements.update({ roomName: `${title}. ${value}.` });
+      }
     } else if (listening) {
       shell.dataset.screen = 'listening';
       drawListening(listening.artifact, room.id);
@@ -317,8 +371,9 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
             focus,
             parallax: motion.parallax,
             hasNext: true,
-            thumbnailFor,
+            thumbnailFor: ({ artifact }) => thumbnailFor(artifact),
           });
+          if (room.id === 'lab' && !prompt) drawLabInvite(frame);
         }
         if (prompt) drawListenPrompt(frame, prompt.x - left, 52);
         announcements.update({
