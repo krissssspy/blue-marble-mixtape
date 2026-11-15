@@ -61,6 +61,26 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-21b SVS 5072 uses NASA's current January–December single-year image in place of its broken main-image URL
 - [x] M3-21c Ingest uses decoded image dimensions and serves the local fallback when a source has no published image within the 3840-pixel width cap
 - [x] M3-22 The offline completeness check accounts for every collected source with catalog entries or a documented reason for exclusion
+- [x] M3-23a Stage processed media batch 1 of 20 (18 artifacts, 54 files)
+- [ ] M3-23b Stage processed media batch 2 of 20 (23 artifacts, 69 files)
+- [ ] M3-23c Stage processed media batch 3 of 20 (1 artifacts, 4 files)
+- [ ] M3-23d Stage processed media batch 4 of 20 (4 artifacts, 13 files)
+- [ ] M3-23e Stage processed media batch 5 of 20 (3 artifacts, 10 files)
+- [ ] M3-23f Stage processed media batch 6 of 20 (13 artifacts, 39 files)
+- [ ] M3-23g Stage processed media batch 7 of 20 (5 artifacts, 17 files)
+- [ ] M3-23h Stage processed media batch 8 of 20 (1 artifacts, 3 files)
+- [ ] M3-23i Stage processed media batch 9 of 20 (1 artifacts, 4 files)
+- [ ] M3-23j Stage processed media batch 10 of 20 (12 artifacts, 37 files)
+- [ ] M3-23k Stage processed media batch 11 of 20 (6 artifacts, 20 files)
+- [ ] M3-23l Stage processed media batch 12 of 20 (4 artifacts, 14 files)
+- [ ] M3-23m Stage processed media batch 13 of 20 (12 artifacts, 37 files)
+- [ ] M3-23n Stage processed media batch 14 of 20 (16 artifacts, 50 files)
+- [ ] M3-23o Stage processed media batch 15 of 20 (14 artifacts, 44 files)
+- [ ] M3-23p Stage processed media batch 16 of 20 (6 artifacts, 19 files)
+- [ ] M3-23q Stage processed media batch 17 of 20 (2 artifacts, 7 files)
+- [ ] M3-23r Stage processed media batch 18 of 20 (11 artifacts, 34 files)
+- [ ] M3-23s Stage processed media batch 19 of 20 (12 artifacts, 38 files)
+- [ ] M3-23t Stage processed media batch 20 of 20 (16 artifacts, 50 files)
 - [ ] M3-23 The refresh builds the catalog and all referenced media from a recorded snapshot, and the committed outputs serve in the site build
 - [ ] M3-24 The built site fails verification above 150 MB total or 2 MB for any individual file
 - [ ] M3-25 The preview serves the catalog and its referenced assets, and the PR lists authored alt text and room assignments for owner review
