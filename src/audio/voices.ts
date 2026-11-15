@@ -56,3 +56,20 @@ export function bell(seconds: number, frequency: number): number {
   const modulation = 1.4 * Math.sin(Math.SQRT2 * phase);
   return Math.sin(phase + modulation) * Math.exp(-4 * seconds);
 }
+
+export function createPad(frequency: number, sampleRate: number): () => number {
+  const cutoff = frequency * 0.9;
+  const smoothing = 1 - Math.exp((-2 * Math.PI * cutoff) / sampleRate);
+  const low = frequency * 0.995;
+  const high = frequency * 1.005;
+  let index = 0;
+  let filtered = 0;
+
+  return () => {
+    const seconds = index / sampleRate;
+    index += 1;
+    const detuned = phaseAt(seconds, low) + phaseAt(seconds, high) - 1;
+    filtered += smoothing * (detuned - filtered);
+    return filtered * Math.min(1, seconds / 0.45);
+  };
+}

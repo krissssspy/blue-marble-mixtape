@@ -169,7 +169,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M5-14 The pluck voice (Karplus–Strong) produces the requested fundamental and decays
 - [x] M5-15 The organ voice (additive) contains the requested fundamental and its drawbar harmonics
 - [x] M5-16 The bell voice (FM) has inharmonic partials and a decaying tail
-- [ ] M5-17 The pad voice (detuned, low-passed) has a slow attack and a dull spectrum
+- [x] M5-17 The pad voice (detuned, low-passed) has a slow attack and a dull spectrum
 - [ ] M5-18 `renderScore` mixes events into stereo at their start times with equal-power panning, and is silent elsewhere
 - [ ] M5-19 `renderScore` is deterministic and keeps every sample within −1 to 1
 - [ ] M5-20 The console bus reduces bit depth and sample rate to the chosen settings

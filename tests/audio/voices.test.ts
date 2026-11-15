@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { bell, createNoise, createPluck, organ, pulse, triangle } from '../../src/audio/voices.js';
+import {
+  bell,
+  createNoise,
+  createPad,
+  createPluck,
+  organ,
+  pulse,
+  triangle,
+} from '../../src/audio/voices.js';
 
 describe('pulse voice', () => {
   it('repeats at the requested frequency and switches at the chosen duty cycle', () => {
@@ -148,6 +156,26 @@ describe('FM bell voice', () => {
     expect(magnitude(attack, carrier * (1 + Math.SQRT2))).toBeGreaterThan(0.26);
     expect(magnitude(attack, carrier * 2)).toBeLessThan(0.025);
     expect(rms(samples.slice(-2048))).toBeLessThan(rms(attack) * 0.06);
+    expect(Math.max(...samples.map(Math.abs))).toBeLessThanOrEqual(1);
+  });
+});
+
+describe('pad voice', () => {
+  it('swells slowly with two detuned fundamentals and attenuated upper harmonics', () => {
+    const frequency = 400;
+    const sampleRate = 8192;
+    const samples = Array.from({ length: (3 * sampleRate) / 2 }, createPad(frequency, sampleRate));
+    const steady = samples.slice(sampleRate / 2);
+    const lowNote = magnitude(steady, 398);
+    const highNote = magnitude(steady, 402);
+    expect(samples[0]).toBeCloseTo(0);
+    expect(lowNote).toBeGreaterThan(0.17);
+    expect(highNote).toBeGreaterThan(0.17);
+    expect(magnitude(steady, 400)).toBeLessThan(0.02);
+    expect(magnitude(steady, 796)).toBeLessThan(lowNote * 0.4);
+    expect(magnitude(steady, 2786)).toBeLessThan(lowNote * 0.07);
+    expect(rms(samples.slice(0, 500))).toBeLessThan(rms(steady) * 0.15);
+    expect(rms(samples.slice(1800, 2300))).toBeGreaterThan(rms(samples.slice(0, 500)) * 2);
     expect(Math.max(...samples.map(Math.abs))).toBeLessThanOrEqual(1);
   });
 });
