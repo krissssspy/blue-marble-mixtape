@@ -46,7 +46,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-08 Media selection skips thumbnails, placeholders, colour bars, and alternate sizes or formats of the same view
 - [x] M3-09 Produced Video and B-Roll contribute only their NASA poster still and are never sent to movie processing
 - [x] M3-10 Each view selects the largest NASA JPEG or PNG at or below 3840 pixels wide and keeps its original dimensions and HTTPS URL
-- [ ] M3-11 Selected images produce local WebP listening fallbacks at up to 1280 pixels wide
+- [x] M3-11 Selected images produce local WebP listening fallbacks at up to 1280 pixels wide
 - [ ] M3-12 Selected images produce 48×27 thumbnails quantised to the Dusk palette
 - [ ] M3-13 Eligible featured visualisations, animations, and hyperwall visuals with movies produce 48 evenly spaced frames without reading source audio
 - [ ] M3-14 Frame sets are stored as sprite sheets with one 320×180 cell per frame and no file over 2 MB
