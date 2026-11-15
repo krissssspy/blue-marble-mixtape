@@ -21,6 +21,16 @@ function readCredits(page) {
     .join('; ');
 }
 
+function readMainImage(page) {
+  if (page.id !== 5072 || page.main_image?.id !== 764822) return page.main_image;
+
+  // The recorded main image was replaced by NASA's print of the same January–December view.
+  const group = page.media_groups.find(({ id }) => id === 311998);
+  const replacement = group?.items.find((item) => item?.instance?.id === 1206041);
+  if (!replacement) throw new Error('Missing the replacement main image for SVS source 5072.');
+  return replacement.instance;
+}
+
 export async function resolveSources(pages) {
   const entries = await crawlGallery((id) => readPage(pages, id));
   return entries.map((entry) => {
@@ -34,7 +44,7 @@ export async function resolveSources(pages) {
         sourceUrl: httpsUrl(page.url).href,
         releaseDate: page.release_date.slice(0, 10),
         creditLine: readCredits(page),
-        mainImage: page.main_image,
+        mainImage: readMainImage(page),
         mediaGroups: page.media_groups,
       };
     }

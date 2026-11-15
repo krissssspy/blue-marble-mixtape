@@ -5,10 +5,10 @@ import { resolveSources } from '../../tools/ingest/lib/sources.mjs';
 
 const directory = new URL('../fixtures/svs/', import.meta.url);
 const { retrievedOn } = JSON.parse(readFileSync(new URL('manifest.json', directory), 'utf8'));
+const pages = new Map();
 let sources: Awaited<ReturnType<typeof resolveSources>>;
 
 beforeAll(async () => {
-  const pages = new Map();
   for (const filename of readdirSync(directory)) {
     if (!/^\d+\.json$/.test(filename)) continue;
     const page = JSON.parse(readFileSync(new URL(filename, directory), 'utf8'));
@@ -121,5 +121,88 @@ describe('planCatalog', () => {
     const unavailable = { ...source, mainImage: wideImage, mediaGroups: [] };
 
     expect(() => planCatalog([unavailable], retrievedOn)).toThrow(/\b5533\b/);
+  });
+
+  it('uses the replacement January-through-December single-year image for recorded source 5072', () => {
+    const recordedPage = pages.get(5072);
+    expect(recordedPage.main_image.id).toBe(764822);
+
+    const plan = planCatalog([sourceById(5072)], retrievedOn);
+
+    expect(plan.map(({ view }) => view.groupId)).toEqual([311998, 311995, 311996]);
+    expect(plan[0]).toMatchObject({
+      view: { groupId: 311998, image: { id: 1206041 } },
+      image: { id: 1206041, filename: 'atlantic_jan_to_dec_singleYear_print.jpg' },
+      artifact: {
+        id: 'svs-page-5072-311998',
+        fullResolution: {
+          url: 'https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005072/atlantic_jan_to_dec_singleYear_print.jpg',
+        },
+      },
+    });
+    expect(recordedPage.main_image.id).toBe(764822);
+  });
+
+  it('preserves a valid main image in a newer response for source 5072', async () => {
+    const page = pages.get(5072);
+    const replacement = page.media_groups
+      .flatMap(({ items }: { items: unknown[] }) => items)
+      .find(({ instance }: { instance: { id: number } }) => instance.id === 1206030).instance;
+    const updatedPages = new Map(pages).set(5072, { ...page, main_image: replacement });
+    const updatedSources = await resolveSources(updatedPages);
+    const source = updatedSources.find(({ id }) => id === 5072);
+    if (!source) throw new Error('Missing recorded SVS source 5072');
+
+    const plan = planCatalog([source], retrievedOn);
+
+    expect(plan[0]).toMatchObject({ view: { groupId: 311996 }, image: { id: 1206030 } });
+  });
+
+  it('reports source 5072 when its stale main image has no recorded replacement', async () => {
+    const page = pages.get(5072);
+    expect(page.main_image.id).toBe(764822);
+    const mediaGroups = page.media_groups.map(
+      (group: { id: number; items: { instance?: { id: number } }[] }) =>
+        group.id === 311998
+          ? { ...group, items: group.items.filter(({ instance }) => instance?.id !== 1206041) }
+          : group,
+    );
+    const incompletePages = new Map(pages).set(5072, { ...page, media_groups: mediaGroups });
+
+    await expect(resolveSources(incompletePages)).rejects.toThrow(
+      'Missing the replacement main image for SVS source 5072.',
+    );
+    const withoutGroup = page.media_groups.filter(({ id }: { id: number }) => id !== 311998);
+    const missingGroupPages = new Map(pages).set(5072, { ...page, media_groups: withoutGroup });
+    await expect(resolveSources(missingGroupPages)).rejects.toThrow(
+      'Missing the replacement main image for SVS source 5072.',
+    );
+  });
+
+  it('finds the exact replacement after empty items and another image in its group', async () => {
+    const page = pages.get(5072);
+    const otherImage = { instance: { ...page.main_image, id: 1 } };
+    const mediaGroups = page.media_groups.map((group: { id: number; items: unknown[] }) =>
+      group.id === 311998
+        ? { ...group, items: [null, { instance: null }, otherImage, ...group.items] }
+        : group,
+    );
+    const updatedPages = new Map(pages).set(5072, { ...page, media_groups: mediaGroups });
+
+    const resolved = await resolveSources(updatedPages);
+
+    expect(resolved.find(({ id }) => id === 5072)?.mainImage?.id).toBe(1206041);
+  });
+
+  it('leaves a missing main image on source 5072 and the same media ID on other sources', async () => {
+    const page = pages.get(5072);
+    const updatedPages = new Map(pages)
+      .set(5072, { ...page, main_image: null })
+      .set(5533, { ...pages.get(5533), main_image: page.main_image });
+
+    const resolved = await resolveSources(updatedPages);
+
+    expect(resolved.find(({ id }) => id === 5072)?.mainImage).toBeNull();
+    expect(resolved.find(({ id }) => id === 5533)?.mainImage).toBe(page.main_image);
   });
 });
