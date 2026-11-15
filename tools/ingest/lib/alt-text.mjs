@@ -1,3 +1,5 @@
+import curatedAlt from '../authored-alt.json' with { type: 'json' };
+
 const entities = { amp: '&', nbsp: ' ', quot: '"', apos: "'", lt: '<', gt: '>' };
 
 function usefulText(value) {
@@ -19,6 +21,7 @@ export function resolveAltText(source, view, image) {
 
   const group = source.mediaGroups.find(({ id }) => id === view.groupId);
   const authoredText = [
+    curatedAlt[`${source.id}:${view.groupId ?? 'main'}`],
     group?.caption,
     group?.description,
     group?.title,

@@ -20,3 +20,5 @@ Append-only. Newest last.
 - 2026-11-14. A preflight of the selected listening images found that SVS 5072's API main image returns HTTP 404. The official page publishes the same January–December single-year view under a new filename. M3-21b records that exact replacement without altering the captured NASA response.
 - 2026-11-14. Review of the selected views found that SVS 4285 labels its frozen and liquid precipitation colour bars in alt text. Their filenames contain `snowbar` and `rainbar`. M3-18b extends the auxiliary-image filter to use that NASA metadata.
 - 2026-11-14. The gallery API transposes the reported width and height of some embedded images. PNG headers show that seven Worldview originals are 4096 pixels wide. Ingest keeps those artifacts, records the original NASA URL and verified size, and uses the local WebP when no published variant meets the 3840-pixel remote width cap.
+
+- 2026-11-14. The single processed-media upload disconnected repeatedly during Git transfer. M3-23a through M3-23t stage the same verified files in smaller commits. M3-23 publishes the complete catalog once all media are present.

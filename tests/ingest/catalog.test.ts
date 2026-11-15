@@ -64,7 +64,7 @@ describe('planCatalog', () => {
       pageType: 'Visualization',
       sourceUrl: 'https://svs.gsfc.nasa.gov/5533/',
       creditLine: expect.stringContaining('Helen-Nicole Kostis'),
-      altText: expect.stringContaining('transport of Carbon Monoxide'),
+      altText: expect.stringContaining('globe centered on the Americas'),
       altSource: 'authored',
       room: 'air-quality',
       featured: false,
@@ -99,10 +99,71 @@ describe('planCatalog', () => {
       id: 'svs-media-860409-main',
       sourceId: 860409,
       viewGroupId: null,
-      altText: 'True color imagery from Terra satellite',
+      altText:
+        'Terra satellite strips show cloud systems and sunlit terrain across part of Earth. Gold outlines mark the boundaries of neighboring satellite passes.',
       altSource: 'authored',
       displayDate: '2023-10-16',
     });
+  });
+
+  it('assigns distinct curated descriptions to the SIGGRAPH card and all three air-quality views', () => {
+    const artifacts = planCatalog([sourceById(5425), sourceById(5533)], retrievedOn).map(
+      ({ artifact }) => artifact,
+    );
+    const descriptions = Object.fromEntries(
+      artifacts
+        .filter(({ altSource }) => altSource === 'authored')
+        .map(({ id, altText }) => [id, altText]),
+    );
+
+    expect(descriptions).toMatchObject({
+      'svs-page-5425-378113':
+        'White laurels frame a black title card reading SIGGRAPH Computer Animation Festival, Electronic Theater, 2025 Official Selection.',
+      'svs-page-5533-378003':
+        'An Earth globe centered on the Americas splits into yellow particulate matter, green nitrogen oxides, and purple ozone visualization bands.',
+      'svs-page-5533-378004':
+        'Side-by-side vertical bands show wildfire-related air pollutants across a flat world map, with a vivid red carbon monoxide plume covering much of South America.',
+      'svs-page-5533-378005':
+        'On a globe centered on the Americas, a red carbon monoxide plume spreads across central South America beside purple ozone and yellow particulate-matter bands.',
+    });
+  });
+
+  it('identifies all 27 recorded views with authored descriptions', () => {
+    const authored = planCatalog(sources, retrievedOn)
+      .map(({ artifact }) => artifact)
+      .filter(({ altSource }) => altSource === 'authored');
+
+    expect(
+      authored.map(({ sourceId, viewGroupId }) => `${sourceId}:${viewGroupId ?? 'main'}`),
+    ).toEqual([
+      '860409:main',
+      '860410:main',
+      '860411:main',
+      '860412:main',
+      '860413:main',
+      '860414:main',
+      '860415:main',
+      '860416:main',
+      '860417:main',
+      '5150:main',
+      '1139914:main',
+      '1139915:main',
+      '1139916:main',
+      '1139917:main',
+      '1139918:main',
+      '1139919:main',
+      '1139893:main',
+      '1139894:main',
+      '1139895:main',
+      '1139896:main',
+      '1139897:main',
+      '14713:main',
+      '5425:378113',
+      '5533:378003',
+      '5533:378004',
+      '5533:378005',
+      '5544:main',
+    ]);
   });
 
   it('limits a short title without splitting Unicode characters', () => {

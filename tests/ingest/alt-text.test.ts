@@ -18,12 +18,12 @@ const source = {
 };
 
 describe('resolveAltText', () => {
-  it('prefers the selected image’s NASA alt text over other text for the view', () => {
+  it('prefers the selected image’s NASA alt text over a curated description', () => {
     const image = { id: 201, alt_text: 'Counterclockwise currents off the coast.' };
     const variant = { id: 202, alt_text: 'Currents visible in the coastal water.' };
-    const view = { groupId: 20, image: variant, imageVariants: [variant, image] };
+    const view = { groupId: 378003, image: variant, imageVariants: [variant, image] };
 
-    expect(resolveAltText(source, view, image)).toEqual({
+    expect(resolveAltText({ ...source, id: 5533 }, view, image)).toEqual({
       altText: image.alt_text,
       altSource: 'nasa',
     });
@@ -32,9 +32,9 @@ describe('resolveAltText', () => {
   it('uses NASA alt text from another image variant of the same view', () => {
     const image = { id: 201, alt_text: 'NASA image' };
     const variant = { id: 202, alt_text: 'Curved currents near the continental shelf.' };
-    const view = { groupId: 20, image, imageVariants: [image, variant] };
+    const view = { groupId: 378003, image, imageVariants: [image, variant] };
 
-    expect(resolveAltText(source, view, image)).toEqual({
+    expect(resolveAltText({ ...source, id: 5533 }, view, image)).toEqual({
       altText: variant.alt_text,
       altSource: 'nasa',
     });
@@ -95,7 +95,17 @@ describe('resolveAltText', () => {
     });
   });
 
-  it('uses the recorded NASA title when a standalone link has no caption or alt text', () => {
+  it('uses a NASA title when there is no description or curated fallback', () => {
+    const image = { id: 201, alt_text: '' };
+    const view = { groupId: null, image, imageVariants: [image] };
+
+    expect(resolveAltText({ ...source, description: '' }, view, image)).toEqual({
+      altText: source.title,
+      altSource: 'authored',
+    });
+  });
+
+  it('uses the curated description for recorded Terra imagery without NASA alt text', () => {
     const page = JSON.parse(
       readFileSync(new URL('../fixtures/svs/40509.json', import.meta.url), 'utf8'),
     );
@@ -107,7 +117,8 @@ describe('resolveAltText', () => {
     const view = { groupId: null, image, imageVariants: [image] };
 
     expect(resolveAltText(link, view, image)).toEqual({
-      altText: 'True color imagery from Terra satellite',
+      altText:
+        'Terra satellite strips show cloud systems and sunlit terrain across part of Earth. Gold outlines mark the boundaries of neighboring satellite passes.',
       altSource: 'authored',
     });
   });
