@@ -151,7 +151,33 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 
 ## M5 Audio core
 
-Itemised when M4 is done.
+Built in parallel with M4 on branch `feature/museum-audio`, in its own worktree, and rebased onto `feature/museum` when M4 is quiet. Everything lives under `src/audio/` and `tests/audio/`.
+
+- [x] M5-01 `midiToHz` converts MIDI note numbers to frequency with A4 (note 69) at 440 Hz
+- [ ] M5-02 `scaleNote` maps a 0–1 value onto a named scale (major pentatonic, minor pentatonic, Dorian, Phrygian, whole tone, chromatic) from a root note over a number of octaves
+- [ ] M5-03 `euclideanRhythm` spreads k pulses over n steps as evenly as possible
+- [ ] M5-04 `seededRandom` returns the same sequence of numbers in [0, 1) for the same seed
+- [ ] M5-05 `validateScore` accepts events that carry a voice, start, duration, pitch, loudness, pan, and an image location, and rejects an event without a location
+- [ ] M5-06 `validateScore` rejects non-finite or out-of-range values and events out of start order
+- [ ] M5-07 Locations are points, lines, rings, paths, or regions in image-relative 0–1 coordinates, and `validateScore` rejects malformed ones
+- [ ] M5-08 `eventsAt` returns the events sounding at a time, and `scoreDuration` returns the end of the last event
+- [ ] M5-09 `decodeFeaturePack` reads the ingest feature-pack binary into named channel planes per frame and rejects a bad header
+- [ ] M5-10 `envelope` shapes a note with attack and release so it starts and ends at zero and never exceeds its loudness
+- [ ] M5-11 The pulse voice produces the requested fundamental with a chosen duty cycle
+- [ ] M5-12 The triangle voice produces the requested fundamental with only odd harmonics
+- [ ] M5-13 The noise voice is deterministic for a seed and has no stable pitch
+- [ ] M5-14 The pluck voice (Karplus–Strong) produces the requested fundamental and decays
+- [ ] M5-15 The organ voice (additive) contains the requested fundamental and its drawbar harmonics
+- [ ] M5-16 The bell voice (FM) has inharmonic partials and a decaying tail
+- [ ] M5-17 The pad voice (detuned, low-passed) has a slow attack and a dull spectrum
+- [ ] M5-18 `renderScore` mixes events into stereo at their start times with equal-power panning, and is silent elsewhere
+- [ ] M5-19 `renderScore` is deterministic and keeps every sample within −1 to 1
+- [ ] M5-20 The console bus reduces bit depth and sample rate to the chosen settings
+- [ ] M5-21 The scheduler hands each event out exactly once as the clock advances through its lookahead window
+- [ ] M5-22 The player reports progress from 0 to 1 against the clock and reports no active events after stop
+- [ ] M5-23 `validateRecipe` accepts the lab's scans, sources, scales, voices, rhythms, and tempos, and rejects anything else
+- [ ] M5-24 `lineSweepScore` turns a feature pack and a recipe into a valid score whose event locations sweep left to right
+- [ ] M5-25 The browser player renders a score to an audio buffer and plays it through an injected audio context, starting only after a user gesture
 
 ## M6 Rooms 1–9
 
