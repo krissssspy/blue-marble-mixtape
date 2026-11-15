@@ -1,4 +1,5 @@
-export type VoiceName = 'pulse' | 'triangle' | 'noise' | 'pluck' | 'organ' | 'bell' | 'pad';
+export const VOICE_NAMES = ['pulse', 'triangle', 'noise', 'pluck', 'organ', 'bell', 'pad'] as const;
+export type VoiceName = (typeof VOICE_NAMES)[number];
 
 export interface ImagePoint {
   readonly x: number;
@@ -31,7 +32,6 @@ export interface ScoreEvent {
 export type ScoreCheck =
   { readonly ok: true } | { readonly ok: false; readonly index: number; readonly reason: string };
 
-const VOICES: readonly string[] = ['pulse', 'triangle', 'noise', 'pluck', 'organ', 'bell', 'pad'];
 const NUMBER_FIELDS = {
   start: (value: number) => value >= 0,
   duration: (value: number) => value > 0,
@@ -85,7 +85,7 @@ function isScoreLocation(value: unknown): boolean {
 
 function eventProblem(event: unknown): string | undefined {
   if (!isRecord(event)) return 'event must be an object';
-  if (typeof event.voice !== 'string' || !VOICES.includes(event.voice)) {
+  if (!VOICE_NAMES.some((voice) => voice === event.voice)) {
     return 'voice is missing or not a known voice';
   }
   for (const [field, withinRange] of Object.entries(NUMBER_FIELDS)) {
