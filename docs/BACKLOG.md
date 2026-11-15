@@ -48,7 +48,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-10 Each view selects the largest NASA JPEG or PNG at or below 3840 pixels wide and keeps its original dimensions and HTTPS URL
 - [x] M3-11 Selected images produce local WebP listening fallbacks at up to 1280 pixels wide
 - [x] M3-12 Selected images produce 48×27 thumbnails quantised to the Dusk palette
-- [ ] M3-13 Eligible featured visualisations, animations, and hyperwall visuals with movies produce 48 evenly spaced frames without reading source audio
+- [x] M3-13 Eligible featured visualisations, animations, and hyperwall visuals with movies produce 48 evenly spaced frames without reading source audio
 - [ ] M3-14 Frame sets are stored as sprite sheets with one 320×180 cell per frame and no file over 2 MB
 - [ ] M3-15 Each still produces a 96×54 grid of luminance, hue, and saturation
 - [ ] M3-16 Each feature grid includes Sobel edge magnitude and direction
