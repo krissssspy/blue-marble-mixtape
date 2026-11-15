@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { validateScore } from '../../src/audio/score.js';
+import { eventsAt, scoreDuration, validateScore, type ScoreEvent } from '../../src/audio/score.js';
 
-function goodEvent(): Record<string, unknown> {
+function goodEvent(): ScoreEvent {
   return {
     voice: 'pulse',
     start: 0,
@@ -14,7 +14,7 @@ function goodEvent(): Record<string, unknown> {
 }
 
 function without(field: string): unknown {
-  const event = goodEvent();
+  const event: Record<string, unknown> = { ...goodEvent() };
   delete event[field];
   return event;
 }
@@ -172,5 +172,29 @@ describe('score image locations', () => {
       index: 1,
       reason: expect.stringContaining('location'),
     });
+  });
+});
+
+describe('score timing', () => {
+  const long = { ...goodEvent(), start: 1, duration: 3 };
+  const short = { ...goodEvent(), start: 1.5, duration: 0.5 };
+  const final = { ...goodEvent(), start: 3, duration: 0.25 };
+  const score = [long, short, final];
+
+  it('returns events starting at or before the clock and excludes their end boundary', () => {
+    expect(eventsAt(score, 0.999)).toEqual([]);
+    expect(eventsAt(score, 1)).toEqual([long]);
+    expect(eventsAt(score, 1.5)).toEqual([long, short]);
+    expect(eventsAt(score, 2)).toEqual([long]);
+    expect(eventsAt(score, 3)).toEqual([long, final]);
+    expect(eventsAt(score, 3.25)).toEqual([long]);
+    expect(eventsAt(score, 4)).toEqual([]);
+    expect(eventsAt([], 2)).toEqual([]);
+  });
+
+  it('uses the maximum end time, including earlier starts that outlast later events', () => {
+    expect(scoreDuration([])).toBe(0);
+    expect(scoreDuration([final])).toBe(3.25);
+    expect(scoreDuration(score)).toBe(4);
   });
 });

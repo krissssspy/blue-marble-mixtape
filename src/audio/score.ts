@@ -116,3 +116,11 @@ export function validateScore(score: readonly unknown[]): ScoreCheck {
   }
   return { ok: true };
 }
+
+export function eventsAt(score: readonly ScoreEvent[], seconds: number): readonly ScoreEvent[] {
+  return score.filter(({ start, duration }) => seconds >= start && seconds < start + duration);
+}
+
+export function scoreDuration(score: readonly ScoreEvent[]): number {
+  return score.reduce((latest, { start, duration }) => Math.max(latest, start + duration), 0);
+}
