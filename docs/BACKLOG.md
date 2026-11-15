@@ -120,10 +120,11 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-22 Confirmed avatar choices are restored from browser storage with usable defaults for invalid saved data
 - [ ] M4-23 The avatar screen previews each choice immediately and the explorer sprite uses the same choices on the walkway
 - [ ] M4-24 The tutorial displays the three control hints and renders a practice artifact on a continuous tiled walkway
-- [ ] M4-25 The engine loads the committed catalog and the local images it needs for the tutorial, with progress based on completed loads
+- [x] M4-25 The engine loads the committed catalog and the local images it needs for the tutorial, with progress based on completed loads
 - [ ] M4-26 The tutorial cassette shows a progress counter and winds tape between its two reels as assets load
 - [ ] M4-27 The tutorial exit stays closed while loading and opens when the loader reads READY
-- [ ] M4-28 Door traversal follows the room order in both directions, positions the explorer on entry, and labels each track with a cassette banner
+- [ ] M4-28 Door traversal follows the room order in both directions and positions the explorer on entry
+- [ ] M4-28b Each room shows its track number and name on an opaque cassette banner
 
 ### Artifact interaction and listening
 
@@ -133,7 +134,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [ ] M4-32 Artifact thumbnails fit their frames on posts and the focused frame renders a two-pixel pulse, sparkles, and a bobbing diamond
 - [x] M4-33 An opaque cassette-shaped prompt draws LISTEN? and the two answer hints in the 16-pixel font
 - [ ] M4-34 The listening view uses a real image with catalog alt text and keeps the whole NASA frame smoothly fitted on screen
-- [ ] M4-35 Listening selects the catalog's full-resolution URL when present and switches to the local WebP when no eligible image is available
+- [ ] M4-35 Listening shows the local WebP immediately, upgrades to the eligible NASA image after loading, and keeps the WebP if the remote load fails
 - [ ] M4-36 The listening overlay shows the short title, display date, genre, close hint, and cassette tape progress strip
 - [ ] M4-37 A shape-marked playhead maps image-relative positions into the fitted image and clears when playback has no active position
 - [ ] M4-38 A named canvas and polite live region announce avatar choices, room titles, artifact prompts, and listening titles and credits
