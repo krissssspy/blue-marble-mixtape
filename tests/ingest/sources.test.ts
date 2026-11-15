@@ -15,6 +15,32 @@ function recordedPages() {
 }
 
 describe('resolveSources', () => {
+  it('appends only the selected view from a supplemental detail page', async () => {
+    const pages = recordedPages();
+    const supplementalId = 90000;
+    const standalone = { ...pages.get(5533), id: supplementalId, title: 'Supplemental image' };
+    const group = standalone.media_groups[1];
+    pages.set(supplementalId, standalone);
+    const existing = await resolveSources(pages);
+
+    const sources = await resolveSources(pages, [{ id: supplementalId, groupId: group.id }]);
+    expect(sources.slice(0, -1)).toEqual(existing);
+    expect(sources.at(-1)).toMatchObject({
+      id: supplementalId,
+      type: 'details_page',
+      title: 'Supplemental image',
+      galleryIds: [],
+      mainImage: null,
+      mediaGroups: [group],
+    });
+    await expect(resolveSources(pages, [{ id: supplementalId, groupId: -1 }])).rejects.toThrow(
+      /90000.*-1/,
+    );
+    await expect(resolveSources(pages, [{ id: 5533, groupId: group.id }])).rejects.toThrow(
+      /5533.*already/,
+    );
+  });
+
   it('resolves the recorded sources in crawl order with their source metadata', async () => {
     const pages = recordedPages();
     const sources = await resolveSources(pages);

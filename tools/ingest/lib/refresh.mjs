@@ -1,6 +1,6 @@
 import { crawlGallery } from './svs.mjs';
 
-export async function recordSnapshot(loadPage, retrievedOn) {
+export async function recordSnapshot(loadPage, retrievedOn, supplementalIds = []) {
   const pages = new Map();
 
   async function recordPage(id) {
@@ -22,6 +22,9 @@ export async function recordSnapshot(loadPage, retrievedOn) {
         cause,
       });
     }
+  }
+  for (const id of supplementalIds) {
+    if (!pages.has(id)) await recordPage(id);
   }
 
   return { retrievedOn, pages };

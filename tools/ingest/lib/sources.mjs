@@ -31,22 +31,25 @@ function readMainImage(page) {
   return replacement.instance;
 }
 
-export async function resolveSources(pages) {
+function detailSource(entry, page) {
+  return {
+    ...entry,
+    title: page.title,
+    description: page.description,
+    pageType: page.page_type,
+    sourceUrl: httpsUrl(page.url).href,
+    releaseDate: page.release_date.slice(0, 10),
+    creditLine: readCredits(page),
+    mainImage: readMainImage(page),
+    mediaGroups: page.media_groups,
+  };
+}
+
+export async function resolveSources(pages, supplementalViews = []) {
   const entries = await crawlGallery((id) => readPage(pages, id));
-  return entries.map((entry) => {
+  const sources = entries.map((entry) => {
     if (entry.type === 'details_page') {
-      const page = readPage(pages, entry.id);
-      return {
-        ...entry,
-        title: page.title,
-        description: page.description,
-        pageType: page.page_type,
-        sourceUrl: httpsUrl(page.url).href,
-        releaseDate: page.release_date.slice(0, 10),
-        creditLine: readCredits(page),
-        mainImage: readMainImage(page),
-        mediaGroups: page.media_groups,
-      };
+      return detailSource(entry, readPage(pages, entry.id));
     }
 
     const gallery = readPage(pages, entry.galleryId);
@@ -67,4 +70,18 @@ export async function resolveSources(pages) {
       mediaGroups: [],
     };
   });
+  for (const { id, groupId } of supplementalViews) {
+    if (sources.some((source) => source.type === 'details_page' && source.id === id)) {
+      throw new Error(`SVS source ${id} is already in the catalog.`);
+    }
+    const page = readPage(pages, id);
+    const group = page.media_groups.find((candidate) => candidate.id === groupId);
+    if (!group) throw new Error(`SVS source ${id} has no media group ${groupId}.`);
+    sources.push({
+      ...detailSource({ type: 'details_page', id, galleryIds: [] }, page),
+      mainImage: null,
+      mediaGroups: [group],
+    });
+  }
+  return sources;
 }

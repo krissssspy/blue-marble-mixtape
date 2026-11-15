@@ -315,6 +315,13 @@ describe('build-catalog CLI', () => {
     const publicDir = join(project, 'public');
     mkdirSync(recorded, { recursive: true });
     cpSync(new URL('../../tools/ingest/', import.meta.url), tooling, { recursive: true });
+    writeFileSync(
+      join(tooling, 'supplemental.json'),
+      JSON.stringify([{ id: 31345, groupId: 378063 }]),
+    );
+    const supplementalPage = JSON.parse(readFileSync(new URL('31345.json', fixtures), 'utf8'));
+    writeFileSync(join(recorded, '31345.json'), JSON.stringify(supplementalPage));
+    const supplementalUrl = supplementalPage.main_image.url.replace(/^http:/, 'https:');
     symlinkSync(
       fileURLToPath(new URL('../../node_modules/', import.meta.url)),
       join(project, 'node_modules'),
@@ -343,7 +350,7 @@ describe('build-catalog CLI', () => {
       `
 import { readFile } from 'node:fs/promises';
 globalThis.fetch = async (url) => {
-  if (url !== ${JSON.stringify(stillUrl)}) throw new Error('Unexpected URL: ' + url);
+  if (!${JSON.stringify([stillUrl, supplementalUrl])}.includes(url)) throw new Error('Unexpected URL: ' + url);
   return new Response(await readFile(new URL('./image.png', import.meta.url)));
 };
 `,
@@ -363,10 +370,22 @@ globalThis.fetch = async (url) => {
     const catalog = JSON.parse(readFileSync(join(publicDir, 'catalog.json'), 'utf8'));
     expect(catalog).toMatchObject({
       retrievedOn: date,
-      artifacts: [{ id: stillId, fullResolution: { url: stillUrl, width: 64, height: 36 } }],
+      artifacts: [
+        { id: stillId, fullResolution: { url: stillUrl, width: 64, height: 36 } },
+        {
+          id: 'svs-page-31345-378063',
+          room: 'biodiversity',
+          fullResolution: { url: supplementalUrl, width: 64, height: 36 },
+        },
+      ],
       excludedSources: [],
     });
     expect(readdirSync(join(publicDir, 'media', stillId)).sort()).toEqual([
+      'features.bin',
+      'preview.webp',
+      'thumbnail.png',
+    ]);
+    expect(readdirSync(join(publicDir, 'media', 'svs-page-31345-378063')).sort()).toEqual([
       'features.bin',
       'preview.webp',
       'thumbnail.png',

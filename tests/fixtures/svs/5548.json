@@ -1,0 +1,1363 @@
+{
+  "id": 5548,
+  "url": "http://svs.gsfc.nasa.gov/5548/",
+  "page_type": "Visualization",
+  "title": "Global Views of PACE Land Vegetation Data",
+  "description": "Global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls, carotenoids, and anthocyanins.",
+  "release_date": "2025-06-05T07:00:59-04:00",
+  "update_date": "2025-09-17T13:53:59.071687-04:00",
+  "main_image": {
+    "id": 1155836,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_full_dates_legend.00370_m.jpg",
+    "filename": "pace_land_veg_full_dates_legend.00370_m.jpg",
+    "media_type": "Image",
+    "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+    "width": 1920,
+    "height": 1080,
+    "pixels": 2073600
+  },
+  "main_video": {
+    "id": 1155833,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_full_dates_legend_2160p60.mp4",
+    "filename": "pace_land_veg_full_dates_legend_2160p60.mp4",
+    "media_type": "Movie",
+    "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+    "width": 3840,
+    "height": 2160,
+    "pixels": 8294400
+  },
+  "main_credits": {
+    "Visualizations by": [
+      {
+        "name": "Kel Elkins",
+        "employer": "USRA"
+      }
+    ],
+    "Produced by": [
+      {
+        "name": "Ryan Fitzgibbons",
+        "employer": "eMITS"
+      }
+    ],
+    "Scientific consulting by": [
+      {
+        "name": "Morgaine McKibben",
+        "employer": "SSAI"
+      },
+      {
+        "name": "Fred Huemmerich",
+        "employer": "UMBC"
+      }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 378210,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378210",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+      "items": [
+        {
+          "id": 475941,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155833,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_full_dates_legend_2160p60.mp4",
+            "filename": "pace_land_veg_full_dates_legend_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475942,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155834,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_full_2160p60.mp4",
+            "filename": "pace_land_veg_full_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475945,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155837,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_full/",
+            "filename": "pace_land_veg_full",
+            "media_type": "Frames",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475946,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155838,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_full_dates_legend/",
+            "filename": "pace_land_veg_full_dates_legend",
+            "media_type": "Frames",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475944,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155836,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_full_dates_legend.00370_m.jpg",
+            "filename": "pace_land_veg_full_dates_legend.00370_m.jpg",
+            "media_type": "Image",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 475943,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155835,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_full_dates_legend.00370.tif",
+            "filename": "pace_land_veg_full_dates_legend.00370.tif",
+            "media_type": "Image",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378225,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378225",
+      "widget": "Basic text",
+      "title": "",
+      "caption": "",
+      "description": "Launched in early 2024, NASA’s new Plankton Aerosol Cloud ocean Ecosystem (PACE) satellite provides the world’s first and only hyperspectral, global coverage of terrestrial ecosystems every 1-2 days. Hyperspectral satellite observations such as these can allow us to detect vegetation characteristics such as concentrations of leaf pigments which play important roles in plant photosynthesis and protection, advancing our ability to understand and measure regional forest and crop health and productivity from space.\r\n\r\nSpanning PACE’s first 12 months of observations, shown here are monthly-averaged indices of three major classes of plant pigments: chlorophylls, carotenoids, and anthocyanins. Chlorophyll is the green pigment in leaves, the only pigment that previous satellite missions were specifically designed to detect. Carotenoids and anthocyanins are yellow and red pigments also found in leaves. Chlorophyll controls potential photosynthesis, while carotenoids and anthocyanins can aid photosynthesis and help to provide protection to plants when under stress.\r\n\r\nThe magenta color above indicates anthocyanin, green indicates chlorophyll, and cyan is for carotenoids. The color represents the relative amounts of each of these pigments. The brightness of the color represents the amount of leaves, with brighter colors meaning more leaves. For example, the bright green of the tropical forests shows they have lots of leaves with lots of chlorophyll in them.\r\n\r\nThe onset of spring in the northern hemisphere is evident as the pigment indices show the northwards march of spring leaf-out between the months of March and May. Black color over land shows no, or very low, leaf or pigment levels. Note how these zones of black in deciduous regions of the northern hemisphere decrease (plants transitioning to spring) and increase in the south (plants transitioning to winter) until September when the pattern begins to reverse with the beginnings of northern hemisphere fall and spring in the southern hemisphere. In contrast, regions where plants undergo less seasonal change show comparatively less difference in these indices over time, such as the coniferous forests of the U.S. Pacific Northwest.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 378211,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378211",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A regional view over North America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+      "items": [
+        {
+          "id": 475949,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155842,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_north_america_dates_legend_2160p60.mp4",
+            "filename": "pace_land_veg_north_america_dates_legend_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over North America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475950,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155843,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_north_america_2160p60.mp4",
+            "filename": "pace_land_veg_north_america_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over North America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475951,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155844,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_north_america/",
+            "filename": "pace_land_veg_north_america",
+            "media_type": "Frames",
+            "alt_text": "A regional view over North America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475952,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155845,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_north_america_dates_legend/",
+            "filename": "pace_land_veg_north_america_dates_legend",
+            "media_type": "Frames",
+            "alt_text": "A regional view over North America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475948,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155841,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_north_america_dates_legend.00370_m.jpg",
+            "filename": "pace_land_veg_north_america_dates_legend.00370_m.jpg",
+            "media_type": "Image",
+            "alt_text": "A regional view over North America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 475947,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155840,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_north_america_dates_legend.00370.tif",
+            "filename": "pace_land_veg_north_america_dates_legend.00370.tif",
+            "media_type": "Image",
+            "alt_text": "A regional view over North America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378212,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378212",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A regional view over South America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025. Persistent cloudiness over the Amazon rainforest/basin and eastern regions occur seasonally, causing gaps in the data.",
+      "items": [
+        {
+          "id": 475956,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155849,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_south_america_dates_legend_2160p60.mp4",
+            "filename": "pace_land_veg_south_america_dates_legend_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over South America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475953,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155846,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_south_america_2160p60.mp4",
+            "filename": "pace_land_veg_south_america_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over South America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475957,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155850,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_south_america/",
+            "filename": "pace_land_veg_south_america",
+            "media_type": "Frames",
+            "alt_text": "A regional view over South America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475958,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155851,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_south_america_dates_legend/",
+            "filename": "pace_land_veg_south_america_dates_legend",
+            "media_type": "Frames",
+            "alt_text": "A regional view over South America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475955,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155848,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_south_america_dates_legend.00270_m.jpg",
+            "filename": "pace_land_veg_south_america_dates_legend.00270_m.jpg",
+            "media_type": "Image",
+            "alt_text": "A regional view over South America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 475954,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155847,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_south_america_dates_legend.00270.tif",
+            "filename": "pace_land_veg_south_america_dates_legend.00270.tif",
+            "media_type": "Image",
+            "alt_text": "A regional view over South America of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378213,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378213",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A regional view over India of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+      "items": [
+        {
+          "id": 475962,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155855,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_india_dates_legend_2160p60.mp4",
+            "filename": "pace_land_veg_india_dates_legend_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over India of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475959,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155852,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_india_2160p60.mp4",
+            "filename": "pace_land_veg_india_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over India of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475963,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155856,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_india/",
+            "filename": "pace_land_veg_india",
+            "media_type": "Frames",
+            "alt_text": "A regional view over India of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475964,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155857,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_india_dates_legend/",
+            "filename": "pace_land_veg_india_dates_legend",
+            "media_type": "Frames",
+            "alt_text": "A regional view over India of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475961,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155854,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_india_dates_legend.00430_m.jpg",
+            "filename": "pace_land_veg_india_dates_legend.00430_m.jpg",
+            "media_type": "Image",
+            "alt_text": "A regional view over India of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 475960,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155853,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_india_dates_legend.00430.tif",
+            "filename": "pace_land_veg_india_dates_legend.00430.tif",
+            "media_type": "Image",
+            "alt_text": "A regional view over India of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378214,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378214",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A regional view over Siberia of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+      "items": [
+        {
+          "id": 475968,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155861,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_siberia_dates_legend_2160p60.mp4",
+            "filename": "pace_land_veg_siberia_dates_legend_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over Siberia of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475965,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155858,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_siberia_2160p60.mp4",
+            "filename": "pace_land_veg_siberia_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over Siberia of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475969,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155862,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_siberia/",
+            "filename": "pace_land_veg_siberia",
+            "media_type": "Frames",
+            "alt_text": "A regional view over Siberia of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475970,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155863,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_land_veg_siberia_dates_legend/",
+            "filename": "pace_land_veg_siberia_dates_legend",
+            "media_type": "Frames",
+            "alt_text": "A regional view over Siberia of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475967,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155860,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_siberia_dates_legend.00200_m.jpg",
+            "filename": "pace_land_veg_siberia_dates_legend.00200_m.jpg",
+            "media_type": "Image",
+            "alt_text": "A regional view over Siberia of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 475966,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155859,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_siberia_dates_legend.00200.tif",
+            "filename": "pace_land_veg_siberia_dates_legend.00200.tif",
+            "media_type": "Image",
+            "alt_text": "A regional view over Siberia of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378219,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378219",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "A triangular legend for chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values.",
+      "items": [
+        {
+          "id": 475997,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155876,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_terrestrial_legend_01.00016.png",
+            "filename": "pace_terrestrial_legend_01.00016.png",
+            "media_type": "Image",
+            "alt_text": "A triangular legend for chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475998,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155877,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_terrestrial_legend_01.00016.tif",
+            "filename": "pace_terrestrial_legend_01.00016.tif",
+            "media_type": "Image",
+            "alt_text": "A triangular legend for chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378216,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378216",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. White areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+      "items": [
+        {
+          "id": 475980,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155873,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_greyscale_north_america_dates_legend_2160p60.mp4",
+            "filename": "pace_ndvi_greyscale_north_america_dates_legend_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. Greener areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475977,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155870,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_greyscale_north_america_2160p60.mp4",
+            "filename": "pace_ndvi_greyscale_north_america_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. Greener areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475995,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155874,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_ndvi_greyscale_north_america/",
+            "filename": "pace_ndvi_greyscale_north_america",
+            "media_type": "Frames",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. Greener areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475996,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155875,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_ndvi_greyscale_north_america_dates_legend/",
+            "filename": "pace_ndvi_greyscale_north_america_dates_legend",
+            "media_type": "Frames",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. Greener areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475979,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155872,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_greyscale_north_america_dates_legend.00370_m.jpg",
+            "filename": "pace_ndvi_greyscale_north_america_dates_legend.00370_m.jpg",
+            "media_type": "Image",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. Greener areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 475978,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155871,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_greyscale_north_america_dates_legend.00370.tif",
+            "filename": "pace_ndvi_greyscale_north_america_dates_legend.00370.tif",
+            "media_type": "Image",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. Greener areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378215,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378215",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. Greener areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+      "items": [
+        {
+          "id": 475974,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155867,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_brown_green_north_america_dates_legend_2160p60.mp4",
+            "filename": "pace_ndvi_brown_green_north_america_dates_legend_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. White areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475971,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155864,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_brown_green_north_america_2160p60.mp4",
+            "filename": "pace_ndvi_brown_green_north_america_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. White areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475975,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155868,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_ndvi_brown_green_north_america/",
+            "filename": "pace_ndvi_brown_green_north_america",
+            "media_type": "Frames",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. White areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475976,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155869,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_ndvi_brown_green_north_america_dates_legend/",
+            "filename": "pace_ndvi_brown_green_north_america_dates_legend",
+            "media_type": "Frames",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. White areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 475973,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155866,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_brown_green_north_america_dates_legend.00370_m.jpg",
+            "filename": "pace_ndvi_brown_green_north_america_dates_legend.00370_m.jpg",
+            "media_type": "Image",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. White areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 475972,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155865,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_brown_green_north_america_dates_legend.00370.tif",
+            "filename": "pace_ndvi_brown_green_north_america_dates_legend.00370.tif",
+            "media_type": "Image",
+            "alt_text": "A regional view over North America of normalized difference vegetation index (NDVI) values observed by the PACE satellite. NDVI is a widely used standard for estimating vegetation health and density from space. White areas represent more vegetation. With more spectral information, PACE is introducing advanced capabilities to monitor health, growth, and type of vegetation that cannot be detected with NDVI.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378221,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378221",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Brown-green legend for normalized difference vegetation index (NDVI).",
+      "items": [
+        {
+          "id": 475999,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155878,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_legend_green_01.00016.tif",
+            "filename": "pace_ndvi_legend_green_01.00016.tif",
+            "media_type": "Image",
+            "alt_text": "Brown-green legend for normalized difference vegetation index (NDVI).",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 476000,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155879,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_legend_green_01.00016.png",
+            "filename": "pace_ndvi_legend_green_01.00016.png",
+            "media_type": "Image",
+            "alt_text": "Brown-green legend for normalized difference vegetation index (NDVI).",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378222,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378222",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Black-white legend for normalized difference vegetation index (NDVI).",
+      "items": [
+        {
+          "id": 476001,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155880,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_legend_blackwhite_01.00016.png",
+            "filename": "pace_ndvi_legend_blackwhite_01.00016.png",
+            "media_type": "Image",
+            "alt_text": "Black-white legend for normalized difference vegetation index (NDVI).",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 476002,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155881,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_ndvi_legend_blackwhite_01.00016.tif",
+            "filename": "pace_ndvi_legend_blackwhite_01.00016.tif",
+            "media_type": "Image",
+            "alt_text": "Black-white legend for normalized difference vegetation index (NDVI).",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378224,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378224",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "Animated date display, spanning March 2024 to March 2025.",
+      "items": [
+        {
+          "id": 476005,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155884,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/frames/3840x2160_16x9_30p/pace_dates/",
+            "filename": "pace_dates",
+            "media_type": "Frames",
+            "alt_text": "Animated date display, spanning March 2024 to March 2025. White text on black background.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 476004,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155883,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_dates.00700.jpg",
+            "filename": "pace_dates.00700.jpg",
+            "media_type": "Image",
+            "alt_text": "Animated date display, spanning March 2024 to March 2025. White text on black background.",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 476003,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155882,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_dates.00700.exr",
+            "filename": "pace_dates.00700.exr",
+            "media_type": "Image",
+            "alt_text": "Animated date display, spanning March 2024 to March 2025. White text on black background.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 476006,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1155885,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_dates_2160p60.mp4",
+            "filename": "pace_dates_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "Animated date display, spanning March 2024 to March 2025. White text on black background.",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378289,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378289",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025. Video is formatted in a vertical orientation.",
+      "items": [
+        {
+          "id": 476319,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156071,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_veg_globe_vertical_01_3840p60_h265.mp4",
+            "filename": "pace_veg_globe_vertical_01_3840p60_h265.mp4",
+            "media_type": "Movie",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025. Video is formatted in a vertical orientation.",
+            "width": 2160,
+            "height": 3840,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 476320,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156072,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_veg_globe_vertical_01_2160x3840_9x16_60p_prores.mov",
+            "filename": "pace_veg_globe_vertical_01_2160x3840_9x16_60p_prores.mov",
+            "media_type": "Movie",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025. Video is formatted in a vertical orientation.",
+            "width": 2160,
+            "height": 3840,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 476321,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156073,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_veg_globe_vertical_01.00350_m.jpg",
+            "filename": "pace_veg_globe_vertical_01.00350_m.jpg",
+            "media_type": "Image",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025. Video is formatted in a vertical orientation.",
+            "width": 1080,
+            "height": 1920,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 476322,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1156074,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_veg_globe_vertical_01.00350.tif",
+            "filename": "pace_veg_globe_vertical_01.00350.tif",
+            "media_type": "Image",
+            "alt_text": "A global view of three major classes of plant pigments observed by the PACE satellite: chlorophylls (shown in green), carotenoids (shown in blue), and anthocyanins (shown in red). White represents regions where all three indices have similar values. This visualization spans March 2024 to March 2025. Video is formatted in a vertical orientation.",
+            "width": 2160,
+            "height": 3840,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 378892,
+      "url": "http://svs.gsfc.nasa.gov/5548/#media_group_378892",
+      "widget": "Video player",
+      "title": "",
+      "caption": "A regional view of New England in the United States, showing three major classes of plant pigments observed by the PACE satellite: chlorophylls (green), carotenoids (blue), and anthocyanins (red).",
+      "description": "",
+      "items": [
+        {
+          "id": 491983,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158351,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_new_england_1080p60.mp4",
+            "filename": "pace_land_veg_new_england_1080p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view of New England in the United States, showing three major classes of plant pigments observed by the PACE satellite: chlorophylls (green), carotenoids (blue), and anthocyanins (red).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 491984,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158352,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_new_england_2160p30.mp4",
+            "filename": "pace_land_veg_new_england_2160p30.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view of New England in the United States, showing three major classes of plant pigments observed by the PACE satellite: chlorophylls (green), carotenoids (blue), and anthocyanins (red).",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 491985,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158353,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_new_england_2160p60.mp4",
+            "filename": "pace_land_veg_new_england_2160p60.mp4",
+            "media_type": "Movie",
+            "alt_text": "A regional view of New England in the United States, showing three major classes of plant pigments observed by the PACE satellite: chlorophylls (green), carotenoids (blue), and anthocyanins (red).",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        },
+        {
+          "id": 491982,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158350,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_new_england.00016_preview.jpg",
+            "filename": "pace_land_veg_new_england.00016_preview.jpg",
+            "media_type": "Image",
+            "alt_text": "A regional view of New England in the United States, showing three major classes of plant pigments observed by the PACE satellite: chlorophylls (green), carotenoids (blue), and anthocyanins (red).",
+            "width": 1920,
+            "height": 1080,
+            "pixels": 2073600
+          }
+        },
+        {
+          "id": 491981,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": "",
+          "instance": {
+            "id": 1158349,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_new_england.00016.jpg",
+            "filename": "pace_land_veg_new_england.00016.jpg",
+            "media_type": "Image",
+            "alt_text": "A regional view of New England in the United States, showing three major classes of plant pigments observed by the PACE satellite: chlorophylls (green), carotenoids (blue), and anthocyanins (red).",
+            "width": 3840,
+            "height": 2160,
+            "pixels": 8294400
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": [],
+  "credits": [
+    {
+      "role": "Visualizer",
+      "people": [
+        {
+          "name": "Kel Elkins",
+          "employer": "USRA"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Ryan Fitzgibbons",
+          "employer": "eMITS"
+        }
+      ]
+    },
+    {
+      "role": "Scientist",
+      "people": [
+        {
+          "name": "Morgaine McKibben",
+          "employer": "SSAI"
+        },
+        {
+          "name": "Fred Huemmerich",
+          "employer": "UMBC"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Morgaine McKibben",
+          "employer": "SSAI"
+        }
+      ]
+    }
+  ],
+  "missions": ["Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)"],
+  "series": [],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "Land Vegetation Indices",
+      "common_name": "",
+      "platform": "PACE",
+      "sensor": "OCI",
+      "type": "Observed Data",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "https://www.earthdata.nasa.gov/data/catalog?keyword=PACE%20OCI%20landvi",
+      "date_range": "March 2024 - March 2025"
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": [
+    "Earth",
+    "Growing Season",
+    "Seasons",
+    "Vegetation",
+    "Vegetation Growth",
+    "Vegetation Index"
+  ],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [
+    {
+      "id": 31365,
+      "url": "http://svs.gsfc.nasa.gov/31365/",
+      "page_type": "Visualization",
+      "title": "The Earth System Science Spheres",
+      "description": "A rotating sphere shows data from recent satellites representing four of the five science spheres: Atmosphere, Biosphere, Geosphere, and Hydrosphere.",
+      "release_date": "2026-03-01T18:59:59-05:00",
+      "update_date": "2026-03-19T18:05:56.161618-04:00",
+      "main_image": {
+        "id": 1202010,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a031300/a031365/rotating_globes_horiz_00780.png",
+        "filename": "rotating_globes_horiz_00780.png",
+        "media_type": "Image",
+        "alt_text": "This animation shows a rotating Earth, with differently colored datasets appearing every 27 seconds.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+      }
+    },
+    {
+      "id": 14850,
+      "url": "http://svs.gsfc.nasa.gov/14850/",
+      "page_type": "Produced Video",
+      "title": "Leaf Year: Seeing Plants in Hyperspectral Color",
+      "description": "Music: \"Natural Perfection,\" \"Drops of Ins piration,\" \"Andriod,\" \"Tiny Moving Parts,\" Universal Production Music.1:06 - 1:53; 2:59 - 3:10; 3:31 - 3:47, footage provided by Pond5.comComplete transcript available. || PACE_Land_Thumb_v1.png (1280x720) [1.1 MB] || PACE_Land_Thumb_v1_print.jpg (1024x576) [266.1 KB] || PACE_Land_Thumb_v1_searchweb.png (320x180) [115.1 KB] || PACE_Land_Thumb_v1_thm.png (80x40) [8.0 KB] || PACE_Leaf_Year_Final_ProRes.webm (1920x1080) [32.4 MB] || PACE_Leaf_Year_Final_YT.mp4 (1920x1080) [308.4 MB] || PACE_Veg_Final.en_US.srt [7.0 KB] || PACE_Veg_Final.en_US.vtt [6.6 KB] || PACE_Leaf_Year_Final_ProRes.mov (1920x1080) [4.0 GB] || ",
+      "release_date": "2025-06-05T00:00:00-04:00",
+      "update_date": "2025-06-05T07:06:40.268585-04:00",
+      "main_image": {
+        "id": 1155780,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014850/PACE_Land_Thumb_v1.png",
+        "filename": "PACE_Land_Thumb_v1.png",
+        "media_type": "Image",
+        "alt_text": "Music: \"Natural Perfection,\" \"Drops of Ins piration,\" \"Andriod,\" \"Tiny Moving Parts,\" Universal Production Music.1:06 - 1:53; 2:59 - 3:10; 3:31 - 3:47, footage provided by Pond5.comComplete transcript available.",
+        "width": 1280,
+        "height": 720,
+        "pixels": 921600
+      }
+    }
+  ],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

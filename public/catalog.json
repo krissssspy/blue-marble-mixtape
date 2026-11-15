@@ -5755,6 +5755,134 @@
         "width": 1080,
         "height": 1080
       }
+    },
+    {
+      "id": "svs-page-31345-378063",
+      "sourceId": 31345,
+      "viewGroupId": 378063,
+      "title": "One Year of PACE OCI Chlorophyll",
+      "shortTitle": "One Year of PACE O",
+      "pageType": "Visualization",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/31345/",
+      "creditLine": "Scientist: Jeremy Werdell, Ivona Cetinic; Visualizer: Marit Jentoft-Nilsen",
+      "altText": "These global maps of PACE chlorophyll data show areas with high chlorophyll concentration in red, medium chlorophyll in green and low chloroiphyll in blue. The global maps are in a rectangular projection.",
+      "altSource": "nasa",
+      "room": "biodiversity",
+      "featured": false,
+      "releaseDate": "2025-06-11",
+      "retrievalDate": "2026-11-15",
+      "displayDate": "2025-06-11",
+      "fullResolution": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_chlorophyll_20250303-20250401.jpg",
+        "width": 1920,
+        "height": 960
+      },
+      "mediaPaths": {
+        "preview": "/media/svs-page-31345-378063/preview.webp",
+        "thumbnail": "/media/svs-page-31345-378063/thumbnail.png",
+        "features": "/media/svs-page-31345-378063/features.bin"
+      },
+      "originalImage": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a030000/a031300/a031345/PACE_chlorophyll_20250303-20250401.jpg",
+        "width": 1920,
+        "height": 960
+      }
+    },
+    {
+      "id": "svs-page-5548-378892",
+      "sourceId": 5548,
+      "viewGroupId": 378892,
+      "title": "Global Views of PACE Land Vegetation Data",
+      "shortTitle": "Global Views of PA",
+      "pageType": "Visualization",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/5548/",
+      "creditLine": "Visualizations by: Kel Elkins; Produced by: Ryan Fitzgibbons; Scientific consulting by: Morgaine McKibben, Fred Huemmerich",
+      "altText": "A regional view of New England in the United States, showing three major classes of plant pigments observed by the PACE satellite: chlorophylls (green), carotenoids (blue), and anthocyanins (red).",
+      "altSource": "nasa",
+      "room": "biodiversity",
+      "featured": false,
+      "releaseDate": "2025-06-05",
+      "retrievalDate": "2026-11-15",
+      "displayDate": "2025-06-05",
+      "fullResolution": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_new_england.00016.jpg",
+        "width": 3840,
+        "height": 2160
+      },
+      "mediaPaths": {
+        "preview": "/media/svs-page-5548-378892/preview.webp",
+        "thumbnail": "/media/svs-page-5548-378892/thumbnail.png",
+        "features": "/media/svs-page-5548-378892/features.bin"
+      },
+      "originalImage": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005548/pace_land_veg_new_england.00016.jpg",
+        "width": 3840,
+        "height": 2160
+      }
+    },
+    {
+      "id": "svs-page-3967-348576",
+      "sourceId": 3967,
+      "viewGroupId": 348576,
+      "title": "Deforestation in Rondonia, Brazil",
+      "shortTitle": "Deforestation in R",
+      "pageType": "Visualization",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/3967/",
+      "creditLine": "Visualizations by: Trent L. Schindler",
+      "altText": "Rondonia deforestation with dates",
+      "altSource": "nasa",
+      "room": "biodiversity",
+      "featured": false,
+      "releaseDate": "2012-07-23",
+      "retrievalDate": "2026-11-15",
+      "displayDate": "2012-07-23",
+      "fullResolution": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/rondonia.0330.jpg",
+        "width": 1920,
+        "height": 1080
+      },
+      "mediaPaths": {
+        "preview": "/media/svs-page-3967-348576/preview.webp",
+        "thumbnail": "/media/svs-page-3967-348576/thumbnail.png",
+        "features": "/media/svs-page-3967-348576/features.bin"
+      },
+      "originalImage": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a003900/a003967/rondonia.0330.jpg",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "id": "svs-page-2008-365262",
+      "sourceId": 2008,
+      "viewGroupId": 365262,
+      "title": "Landsat 7 Looks at Coral Reefs: (1 of 2)",
+      "shortTitle": "Landsat 7 Looks at",
+      "pageType": "Visualization",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/2008/",
+      "creditLine": "Visualizations by: Stuart A. Snodgrass",
+      "altText": "Landsat 7 &quot;sees&quot; the Earth differently than a camera. By detecting light in discretely separate ranges of color or more accurately, electromagnetic bands the instrument can tailor images to highlight particular features being studied by experts. The different shades in these images highlight various features specific to each coral colony. Patches of bright red show places where coral reefs are actively populated with living organisms.",
+      "altSource": "nasa",
+      "room": "biodiversity",
+      "featured": false,
+      "releaseDate": "2000-10-23",
+      "retrievalDate": "2026-11-15",
+      "displayDate": "2000-10-23",
+      "fullResolution": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/atolls_hires.jpg",
+        "width": 1440,
+        "height": 972
+      },
+      "mediaPaths": {
+        "preview": "/media/svs-page-2008-365262/preview.webp",
+        "thumbnail": "/media/svs-page-2008-365262/thumbnail.png",
+        "features": "/media/svs-page-2008-365262/features.bin"
+      },
+      "originalImage": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/atolls_hires.jpg",
+        "width": 1440,
+        "height": 972
+      }
     }
   ],
   "excludedSources": [

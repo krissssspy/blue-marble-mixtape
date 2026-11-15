@@ -1,0 +1,483 @@
+{
+  "id": 2008,
+  "url": "http://svs.gsfc.nasa.gov/2008/",
+  "page_type": "Visualization",
+  "title": "Landsat 7 Looks at Coral Reefs: (1 of 2)",
+  "description": "Coral forms off shore from volcanic islands in tropical latitudes, developing a barrier reef that's separated by a growing lagoon. But over time, while the surrounding ocean wears away the main body of the island, the coral ring remains. || ",
+  "release_date": "2000-10-23T12:00:00-04:00",
+  "update_date": "2023-05-03T13:58:18.193403-04:00",
+  "main_image": {
+    "id": 535265,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008_pre.jpg",
+    "filename": "a002008_pre.jpg",
+    "media_type": "Image",
+    "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+    "width": 320,
+    "height": 266,
+    "pixels": 85120
+  },
+  "main_video": {
+    "id": 535270,
+    "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008.webmhd.webm",
+    "filename": "a002008.webmhd.webm",
+    "media_type": "Movie",
+    "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+    "width": 960,
+    "height": 540,
+    "pixels": 518400
+  },
+  "main_credits": {
+    "Visualizations by": [
+      {
+        "name": "Stuart A. Snodgrass",
+        "employer": "Global Science and Technology, Inc."
+      }
+    ]
+  },
+  "progress": "Complete",
+  "media_groups": [
+    {
+      "id": 365260,
+      "url": "http://svs.gsfc.nasa.gov/2008/#media_group_365260",
+      "widget": "Basic text with HTML",
+      "title": "",
+      "caption": "",
+      "description": "Coral forms off shore from volcanic islands in tropical latitudes, developing a barrier reef that's separated by a growing lagoon. But over time, while the surrounding ocean wears away the main body of the island, the coral ring remains.",
+      "items": [],
+      "extra_data": {}
+    },
+    {
+      "id": 365261,
+      "url": "http://svs.gsfc.nasa.gov/2008/#media_group_365261",
+      "widget": "Video player",
+      "title": "",
+      "caption": "",
+      "description": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+      "items": [
+        {
+          "id": 380467,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535268,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008.00005_print.png",
+            "filename": "a002008.00005_print.png",
+            "media_type": "Image",
+            "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+            "width": 720,
+            "height": 480,
+            "pixels": 345600
+          }
+        },
+        {
+          "id": 380462,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535264,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008_thm.png",
+            "filename": "a002008_thm.png",
+            "media_type": "Image",
+            "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 380463,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535265,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008_pre.jpg",
+            "filename": "a002008_pre.jpg",
+            "media_type": "Image",
+            "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+            "width": 320,
+            "height": 266,
+            "pixels": 85120
+          }
+        },
+        {
+          "id": 380468,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535269,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008_pre_searchweb.jpg",
+            "filename": "a002008_pre_searchweb.jpg",
+            "media_type": "Image",
+            "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+            "width": 320,
+            "height": 180,
+            "pixels": 57600
+          }
+        },
+        {
+          "id": 380466,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535270,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008.webmhd.webm",
+            "filename": "a002008.webmhd.webm",
+            "media_type": "Movie",
+            "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+            "width": 960,
+            "height": 540,
+            "pixels": 518400
+          }
+        },
+        {
+          "id": 380464,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535266,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008.dv",
+            "filename": "a002008.dv",
+            "media_type": "Movie",
+            "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+            "width": 720,
+            "height": 480,
+            "pixels": 345600
+          }
+        },
+        {
+          "id": 380465,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535267,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008.mp4",
+            "filename": "a002008.mp4",
+            "media_type": "Movie",
+            "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+            "width": 640,
+            "height": 480,
+            "pixels": 307200
+          }
+        },
+        {
+          "id": 380461,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535263,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/a002008.mpg",
+            "filename": "a002008.mpg",
+            "media_type": "Movie",
+            "alt_text": "These elegant whorls of color are atolls, enclosed\ncoral reefs almost always surrounding a lagoon. Generally speaking, atolls\nare the products of volcanic islands that have eroded away.",
+            "width": 320,
+            "height": 240,
+            "pixels": 76800
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 365262,
+      "url": "http://svs.gsfc.nasa.gov/2008/#media_group_365262",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Landsat 7 &amp;quot;sees&amp;quot; the Earth differently than a camera.\nBy detecting light in discretely separate ranges of color or more accurately,\nelectromagnetic bands the instrument can tailor images to highlight particular\nfeatures being studied by experts. The different shades in these images highlight\nvarious features specific to each coral colony. Patches of bright red show places\nwhere coral reefs are actively populated with living organisms.",
+      "items": [
+        {
+          "id": 380472,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535274,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/atolls_hires.jpg",
+            "filename": "atolls_hires.jpg",
+            "media_type": "Image",
+            "alt_text": "Landsat 7 &amp;quot;sees&amp;quot; the Earth differently than a camera.\nBy detecting light in discretely separate ranges of color or more accurately,\nelectromagnetic bands the instrument can tailor images to highlight particular\nfeatures being studied by experts. The different shades in these images highlight\nvarious features specific to each coral colony. Patches of bright red show places\nwhere coral reefs are actively populated with living organisms.",
+            "width": 1440,
+            "height": 972,
+            "pixels": 1399680
+          }
+        },
+        {
+          "id": 380470,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535272,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/atolls_hires_web.jpg",
+            "filename": "atolls_hires_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Landsat 7 &amp;quot;sees&amp;quot; the Earth differently than a camera.\nBy detecting light in discretely separate ranges of color or more accurately,\nelectromagnetic bands the instrument can tailor images to highlight particular\nfeatures being studied by experts. The different shades in these images highlight\nvarious features specific to each coral colony. Patches of bright red show places\nwhere coral reefs are actively populated with living organisms.",
+            "width": 320,
+            "height": 216,
+            "pixels": 69120
+          }
+        },
+        {
+          "id": 380471,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535273,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/atolls_hires_thm.png",
+            "filename": "atolls_hires_thm.png",
+            "media_type": "Image",
+            "alt_text": "Landsat 7 &amp;quot;sees&amp;quot; the Earth differently than a camera.\nBy detecting light in discretely separate ranges of color or more accurately,\nelectromagnetic bands the instrument can tailor images to highlight particular\nfeatures being studied by experts. The different shades in these images highlight\nvarious features specific to each coral colony. Patches of bright red show places\nwhere coral reefs are actively populated with living organisms.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 380469,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535271,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/atolls_hires.tif",
+            "filename": "atolls_hires.tif",
+            "media_type": "Image",
+            "alt_text": "Landsat 7 &amp;quot;sees&amp;quot; the Earth differently than a camera.\nBy detecting light in discretely separate ranges of color or more accurately,\nelectromagnetic bands the instrument can tailor images to highlight particular\nfeatures being studied by experts. The different shades in these images highlight\nvarious features specific to each coral colony. Patches of bright red show places\nwhere coral reefs are actively populated with living organisms.",
+            "width": 1440,
+            "height": 972,
+            "pixels": 1399680
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 365263,
+      "url": "http://svs.gsfc.nasa.gov/2008/#media_group_365263",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "Near infrared data instead makes some areas on the reef\njump out in bright red relief. The near infrared band best gathers the\nelectromagnetic signature of a thriving ecosystem.",
+      "items": [
+        {
+          "id": 380476,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535278,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/false_atolls_hires.jpg",
+            "filename": "false_atolls_hires.jpg",
+            "media_type": "Image",
+            "alt_text": "Near infrared data instead makes some areas on the reef\njump out in bright red relief. The near infrared band best gathers the\nelectromagnetic signature of a thriving ecosystem.",
+            "width": 1440,
+            "height": 972,
+            "pixels": 1399680
+          }
+        },
+        {
+          "id": 380474,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535276,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/false_atolls_hires_web.jpg",
+            "filename": "false_atolls_hires_web.jpg",
+            "media_type": "Image",
+            "alt_text": "Near infrared data instead makes some areas on the reef\njump out in bright red relief. The near infrared band best gathers the\nelectromagnetic signature of a thriving ecosystem.",
+            "width": 320,
+            "height": 216,
+            "pixels": 69120
+          }
+        },
+        {
+          "id": 380475,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535277,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/false_atolls_hires_thm.png",
+            "filename": "false_atolls_hires_thm.png",
+            "media_type": "Image",
+            "alt_text": "Near infrared data instead makes some areas on the reef\njump out in bright red relief. The near infrared band best gathers the\nelectromagnetic signature of a thriving ecosystem.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 380473,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535275,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/false_atolls_hires.tif",
+            "filename": "false_atolls_hires.tif",
+            "media_type": "Image",
+            "alt_text": "Near infrared data instead makes some areas on the reef\njump out in bright red relief. The near infrared band best gathers the\nelectromagnetic signature of a thriving ecosystem.",
+            "width": 1440,
+            "height": 972,
+            "pixels": 1399680
+          }
+        }
+      ],
+      "extra_data": {}
+    },
+    {
+      "id": 365264,
+      "url": "http://svs.gsfc.nasa.gov/2008/#media_group_365264",
+      "widget": "Single image",
+      "title": "",
+      "caption": "",
+      "description": "The different shades in these images highlight\nvarious features specific to each coral colony.",
+      "items": [
+        {
+          "id": 380480,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535282,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/zm_atolls_hires.jpg",
+            "filename": "zm_atolls_hires.jpg",
+            "media_type": "Image",
+            "alt_text": "The different shades in these images highlight\nvarious features specific to each coral colony.",
+            "width": 1440,
+            "height": 972,
+            "pixels": 1399680
+          }
+        },
+        {
+          "id": 380478,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535280,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/zm_atolls_hires_web.jpg",
+            "filename": "zm_atolls_hires_web.jpg",
+            "media_type": "Image",
+            "alt_text": "The different shades in these images highlight\nvarious features specific to each coral colony.",
+            "width": 320,
+            "height": 216,
+            "pixels": 69120
+          }
+        },
+        {
+          "id": 380479,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535281,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/zm_atolls_hires_thm.png",
+            "filename": "zm_atolls_hires_thm.png",
+            "media_type": "Image",
+            "alt_text": "The different shades in these images highlight\nvarious features specific to each coral colony.",
+            "width": 80,
+            "height": 40,
+            "pixels": 3200
+          }
+        },
+        {
+          "id": 380477,
+          "type": "media",
+          "extra_data": null,
+          "title": null,
+          "caption": null,
+          "instance": {
+            "id": 535279,
+            "url": "http://svs.gsfc.nasa.gov/vis/a000000/a002000/a002008/zm_atolls_hires.tif",
+            "filename": "zm_atolls_hires.tif",
+            "media_type": "Image",
+            "alt_text": "The different shades in these images highlight\nvarious features specific to each coral colony.",
+            "width": 1440,
+            "height": 972,
+            "pixels": 1399680
+          }
+        }
+      ],
+      "extra_data": {}
+    }
+  ],
+  "studio": "svs",
+  "funding_sources": ["ESE Informal Education"],
+  "credits": [
+    {
+      "role": "Animator",
+      "people": [
+        {
+          "name": "Stuart A. Snodgrass",
+          "employer": "Global Science and Technology, Inc."
+        }
+      ]
+    },
+    {
+      "role": "Scientist",
+      "people": [
+        {
+          "name": "Serge Andrefouet",
+          "employer": "University of South Florida"
+        }
+      ]
+    }
+  ],
+  "missions": ["Landsat"],
+  "series": ["Landsat 7 Coral Reefs"],
+  "tapes": [],
+  "papers": [],
+  "datasets": [
+    {
+      "name": "",
+      "common_name": "",
+      "platform": "Landsat-7",
+      "sensor": "ETM+",
+      "type": "Other",
+      "organizations": [],
+      "description": "",
+      "credit": "",
+      "url": "http://landsat.gsfc.nasa.gov/about/wrs.html",
+      "date_range": "1999, 2000"
+    }
+  ],
+  "nasa_science_categories": ["Earth"],
+  "keywords": ["Biological oceanography", "Coral Reefs"],
+  "recommended_pages": [],
+  "related": [],
+  "sources": [],
+  "products": [],
+  "newer_versions": [],
+  "older_versions": [],
+  "alternate_versions": []
+}

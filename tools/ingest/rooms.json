@@ -1,5 +1,7 @@
 {
   "assignments": {
+    "2008": "biodiversity",
+    "3967": "biodiversity",
     "4170": "water-resources",
     "4285": "water-resources",
     "4685": "disasters",
@@ -59,6 +61,7 @@
     "5453": "wildfires",
     "5533": "air-quality",
     "5544": "agriculture",
+    "5548": "biodiversity",
     "5577": "lab",
     "5584": "disasters",
     "10480": "water-resources",
@@ -79,6 +82,7 @@
     "20322": "agriculture",
     "30521": "water-resources",
     "31196": "energy",
+    "31345": "biodiversity",
     "367972": "greenhouse-gases",
     "368019": "greenhouse-gases",
     "479017": "sea-level",

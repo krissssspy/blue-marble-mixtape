@@ -2,6 +2,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { buildCatalog } from './lib/build-catalog.mjs';
 import { resolveSources } from './lib/sources.mjs';
+import supplementalViews from './supplemental.json' with { type: 'json' };
 
 const fixtures = new URL('../../tests/fixtures/svs/', import.meta.url);
 const output = fileURLToPath(new URL('../../public/', import.meta.url));
@@ -13,4 +14,4 @@ for (const filename of await readdir(fixtures)) {
   pages.set(page.id, page);
 }
 
-await buildCatalog(await resolveSources(pages), retrievedOn, output);
+await buildCatalog(await resolveSources(pages, supplementalViews), retrievedOn, output);

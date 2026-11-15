@@ -2,6 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { format, resolveConfig } from 'prettier';
 import { recordSnapshot } from './lib/refresh.mjs';
+import supplementalViews from './supplemental.json' with { type: 'json' };
 
 const directory = new URL('../../tests/fixtures/svs/', import.meta.url);
 const manifest = new URL('manifest.json', directory);
@@ -19,6 +20,7 @@ async function loadPage(id) {
 const { retrievedOn, pages } = await recordSnapshot(
   loadPage,
   new Date().toISOString().slice(0, 10),
+  supplementalViews.map(({ id }) => id),
 );
 const options = { ...(await resolveConfig(fileURLToPath(manifest))), parser: 'json' };
 const files = [];

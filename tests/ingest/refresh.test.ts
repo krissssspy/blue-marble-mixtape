@@ -10,6 +10,28 @@ function gallery(id: number, cards: [string, number][]) {
 }
 
 describe('recordSnapshot', () => {
+  it('records standalone selected sources alongside the crawl without loading duplicates', async () => {
+    const root = gallery(rootId, [['details_page', 301]]);
+    const detail = { id: 301, title: 'Ice cover', media_groups: [] };
+    const standalone = { id: 302, title: 'Coral reef', media_groups: [] };
+    const pages = new Map([
+      [rootId, root],
+      [301, detail],
+      [302, standalone],
+    ]);
+    const requested: number[] = [];
+    const snapshot = await recordSnapshot(
+      async (id: number) => {
+        requested.push(id);
+        return pages.get(id);
+      },
+      retrievedOn,
+      [302, 301, 302],
+    );
+    expect(snapshot.pages).toEqual(pages);
+    expect(requested).toEqual([rootId, 301, 302]);
+  });
+
   it('records the root, nested galleries and unique details with the given retrieval date', async () => {
     const pages = new Map([
       [

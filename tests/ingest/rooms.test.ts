@@ -3,6 +3,7 @@ import { beforeAll, describe, expect, it } from 'vitest';
 import { assignRoom } from '../../tools/ingest/lib/rooms.mjs';
 import { resolveSources } from '../../tools/ingest/lib/sources.mjs';
 import { selectViews } from '../../tools/ingest/lib/views.mjs';
+import supplementalViews from '../../tools/ingest/supplemental.json' with { type: 'json' };
 
 const roomSlugs = [
   'sea-level',
@@ -26,7 +27,7 @@ beforeAll(async () => {
     const page = JSON.parse(readFileSync(new URL(filename, directory), 'utf8'));
     pages.set(page.id, page);
   }
-  sources = await resolveSources(pages);
+  sources = await resolveSources(pages, supplementalViews);
 });
 
 function sourceById(id: number) {
@@ -41,7 +42,7 @@ describe('assignRoom', () => {
       selectViews(source).map((view) => assignRoom(source, view)),
     );
 
-    expect(assignments).toHaveLength(180);
+    expect(assignments).toHaveLength(184);
     for (const { room, featured } of assignments) {
       expect(roomSlugs).toContain(room);
       expect(typeof featured).toBe('boolean');
@@ -52,6 +53,22 @@ describe('assignRoom', () => {
       ).length;
       expect(featuredCount, room).toBeGreaterThanOrEqual(4);
       expect(featuredCount, room).toBeLessThanOrEqual(6);
+    }
+  });
+
+  it('includes the selected supplemental media groups in Biodiversity', () => {
+    const catalog = JSON.parse(
+      readFileSync(new URL('../../public/catalog.json', import.meta.url), 'utf8'),
+    );
+    expect(supplementalViews).toHaveLength(4);
+    for (const { id, groupId } of supplementalViews) {
+      const views = selectViews(sourceById(id));
+      expect(views.map((view) => view.groupId)).toEqual([groupId]);
+      expect(
+        catalog.artifacts.filter((artifact: { sourceId: number }) => artifact.sourceId === id),
+      ).toMatchObject([
+        { sourceId: id, viewGroupId: groupId, room: 'biodiversity', altSource: 'nasa' },
+      ]);
     }
   });
 
