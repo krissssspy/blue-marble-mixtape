@@ -1,5 +1,5 @@
 import { TUTORIAL_HINTS } from '../strings.js';
-import { drawExplorer } from './avatar-render.js';
+import { drawExplorer, type ExplorerPose } from './avatar-render.js';
 import type { AvatarSelection } from './avatar.js';
 import { drawText } from './font.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './framebuffer.js';
@@ -78,10 +78,11 @@ export function drawTutorial(
   explorerX: number,
   avatar: AvatarSelection,
   practiceThumbnail: Uint8Array,
+  pose: ExplorerPose = 0,
 ): void {
   drawLandscape(frame);
   drawWalkway(frame);
   drawHints(frame);
   drawPracticeArtifact(frame, practiceThumbnail);
-  drawExplorer(frame, explorerX, groundY, avatar);
+  drawExplorer(frame, explorerX, groundY, avatar, 1, pose);
 }

@@ -14,11 +14,23 @@ const body = [
   '.oooooooooo.',
   '.soooooooos.',
   '..OOooooOO..',
-  '..ppp..ppp..',
-  '..ppp..ppp..',
-  '..ppp..ppp..',
-  '.bbbb..bbbb.',
 ] as const;
+
+const legPoses = [
+  ['..ppp..ppp..', '..ppp..ppp..', '..ppp..ppp..', '.bbbb..bbbb.'],
+  ['..ppp..ppp..', '.ppp...ppp..', '.ppp....ppp.', 'bbbb....bbb.'],
+  ['..ppp..ppp..', '...pppppp...', '....ppppb...', '...bbbb.....'],
+  ['..ppp..ppp..', '..ppp...ppp.', '.ppp....ppp.', '.bbb....bbbb'],
+] as const;
+
+export type ExplorerPose = 0 | 1 | 2 | 3;
+const walkCycle = [1, 2, 3, 2] as const;
+const stepsPerPose = 6;
+
+export function walkPose(movingSteps: number, reducedMotion: boolean): ExplorerPose {
+  if (movingSteps === 0 || reducedMotion) return 0;
+  return walkCycle[Math.floor((movingSteps - 1) / stepsPerPose) % walkCycle.length];
+}
 
 const skinColors = [
   [15, 5],
@@ -80,12 +92,14 @@ export function drawExplorer(
   feetY: number,
   appearance: AvatarSelection,
   scale = 1,
+  pose: ExplorerPose = 0,
 ): void {
   const left = Math.round(x) - 6 * scale;
   const bottom = Math.round(feetY);
   const [skin, skinLight] = skinColors[appearance.skin];
   const [outfit, outfitTrim] = outfitColors[appearance.outfit];
-  paintSprite(frame, body, left, bottom - body.length * scale, scale, {
+  const legRows = legPoses[pose];
+  const colors = {
     s: skin,
     S: skinLight,
     e: 0,
@@ -93,7 +107,9 @@ export function drawExplorer(
     O: outfitTrim,
     p: 3,
     b: 13,
-  });
+  };
+  paintSprite(frame, body, left, bottom - (body.length + legRows.length) * scale, scale, colors);
+  paintSprite(frame, legRows, left, bottom - legRows.length * scale, scale, colors);
   paintSprite(frame, hairShapes[appearance.hair], left, bottom - 16 * scale, scale, { h: 0 });
   const gear = headgear[appearance.headgear];
   paintSprite(frame, gear.shape, left, bottom - 19 * scale, scale, {

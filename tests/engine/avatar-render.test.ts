@@ -1,7 +1,12 @@
 import { createHash } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
 import { AVATAR_STEPS, DEFAULT_AVATAR, type AvatarSelection } from '../../src/engine/avatar.js';
-import { drawAvatarScreen, drawExplorer } from '../../src/engine/avatar-render.js';
+import {
+  drawAvatarScreen,
+  drawExplorer,
+  walkPose,
+  type ExplorerPose,
+} from '../../src/engine/avatar-render.js';
 import { contrastRatio } from '../../src/engine/background.js';
 import { drawText } from '../../src/engine/font.js';
 import {
@@ -16,10 +21,10 @@ const backing = 15;
 const explorerX = 80;
 const feetY = 120;
 
-function sprite(appearance: AvatarSelection, scale = 1): Framebuffer {
+function sprite(appearance: AvatarSelection, scale = 1, pose: ExplorerPose = 0): Framebuffer {
   const frame = createFramebuffer();
   clearFramebuffer(frame, backing);
-  drawExplorer(frame, explorerX, feetY, appearance, scale);
+  drawExplorer(frame, explorerX, feetY, appearance, scale, pose);
   return frame;
 }
 
@@ -80,6 +85,24 @@ function hasReadableChoice(frame: Framebuffer, choice: string): boolean {
 }
 
 describe('avatar and explorer rendering', () => {
+  it('alternates grounded stride poses while moving and uses the standing pose for reduced motion', () => {
+    expect([0, 1, 6, 7, 12, 13, 19, 24, 25].map((step) => walkPose(step, false))).toEqual([
+      0, 1, 1, 2, 2, 3, 2, 2, 1,
+    ]);
+    expect(walkPose(19, true)).toBe(0);
+
+    const standing = sprite(DEFAULT_AVATAR);
+    const legs = (feetY - 4) * standing.width;
+    const silhouettes = new Set([standing.pixels.slice(legs).join(',')]);
+    for (const pose of [1, 2, 3] as const) {
+      const frame = sprite(DEFAULT_AVATAR, 1, pose);
+      expect(spriteBounds(frame).bottom).toBe(feetY - 1);
+      expect(frame.pixels.slice(0, legs)).toEqual(standing.pixels.slice(0, legs));
+      silhouettes.add(frame.pixels.slice(legs).join(','));
+    }
+    expect(silhouettes.size).toBe(4);
+  });
+
   it('fills the visible face, neck, and hands with the selected skin tone', () => {
     const faceAndHands = [
       [3, 2],

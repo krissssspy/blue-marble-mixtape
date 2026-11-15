@@ -1,5 +1,5 @@
 import { drawArtifactFrame } from './engine/artifact-frame.js';
-import { drawExplorer } from './engine/avatar-render.js';
+import { drawExplorer, type ExplorerPose } from './engine/avatar-render.js';
 import type { AvatarSelection } from './engine/avatar.js';
 import { clearFramebuffer, fillRect, type Framebuffer } from './engine/framebuffer.js';
 import type { CatalogArtifact, MuseumAssets } from './engine/museum-assets.js';
@@ -104,6 +104,7 @@ interface RoomView {
   readonly left: number;
   readonly explorerX: number;
   readonly avatar: AvatarSelection;
+  readonly pose?: ExplorerPose;
   readonly focusId: string | null;
   readonly focus: ArtifactFocus;
   readonly parallax: boolean;
@@ -112,8 +113,19 @@ interface RoomView {
 }
 
 export function drawRoom(frame: Framebuffer, view: RoomView): void {
-  const { room, track, left, explorerX, avatar, focusId, focus, parallax, hasNext, thumbnailFor } =
-    view;
+  const {
+    room,
+    track,
+    left,
+    explorerX,
+    avatar,
+    pose,
+    focusId,
+    focus,
+    parallax,
+    hasNext,
+    thumbnailFor,
+  } = view;
   drawRoomBackdrop(frame, parallax ? left : 0);
   drawDoor(frame, room.walkway[0].x - left, ground, true);
   if (hasNext) drawDoor(frame, room.walkway.at(-1)!.x - left, ground, true);
@@ -130,6 +142,6 @@ export function drawRoom(frame: Framebuffer, view: RoomView): void {
     );
   }
 
-  drawExplorer(frame, explorerX - left, walkwayHeight(room.walkway, explorerX), avatar);
+  drawExplorer(frame, explorerX - left, walkwayHeight(room.walkway, explorerX), avatar, 1, pose);
   drawTrackBanner(frame, track, room.name);
 }

@@ -1,7 +1,7 @@
 import { createMuseumAnnouncements } from './engine/announcements.js';
 import { createArtifactInteraction, interactWithArtifacts } from './engine/artifact-interaction.js';
 import { drawArtifactFrame } from './engine/artifact-frame.js';
-import { drawAvatarScreen, drawExplorer } from './engine/avatar-render.js';
+import { drawAvatarScreen, drawExplorer, walkPose } from './engine/avatar-render.js';
 import { loadAvatar, saveAvatar } from './engine/avatar-storage.js';
 import { AVATAR_STEPS } from './engine/avatar.js';
 import { cameraLeft } from './engine/camera.js';
@@ -60,6 +60,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   let state = { ...createMuseumState(), avatar: loadAvatar(storage) };
   let rooms = createMuseumRooms();
   let position = { roomIndex: 0, x: 32 };
+  let movingSteps = 0;
   let interaction = createArtifactInteraction();
   let loadStarted = false;
   let loadFailed = false;
@@ -118,9 +119,11 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
 
     if (loadFailed && sample.pressed.includes('yes')) loadTutorial();
     const previousRoom = position.roomIndex;
+    const previousX = position.x;
     if (interaction.listeningId === null) {
       position = walkRoom(position, sample, rooms, progress, secondsPerStep);
     }
+    movingSteps = position.x === previousX ? 0 : movingSteps + 1;
     if (previousRoom !== position.roomIndex) interaction = createArtifactInteraction();
     const room = rooms[position.roomIndex];
     interaction = interactWithArtifacts(interaction, position.x, room.spots, sample.pressed);
@@ -160,6 +163,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     const listening = room.spots.find(({ id }) => id === interaction.listeningId);
     const prompt = room.spots.find(({ id }) => id === interaction.promptId);
     const motion = motionFrame(tick, motionPreference.matches);
+    const pose = walkPose(movingSteps, motionPreference.matches);
     const focus = {
       tick: motion.backgroundTick,
       pulse: motion.pulse,
@@ -187,10 +191,10 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
         if (position.roomIndex === 0) {
           shell.dataset.screen = 'tutorial';
           const floor = room.walkway[0].y;
-          drawTutorial(frame, position.x, state.avatar, practiceThumbnail);
+          drawTutorial(frame, position.x, state.avatar, practiceThumbnail, pose);
           if (interaction.focusId !== null) {
             drawArtifactFrame(frame, 160, floor, practiceThumbnail, focus);
-            drawExplorer(frame, position.x, floor, state.avatar);
+            drawExplorer(frame, position.x, floor, state.avatar, 1, pose);
           }
           drawDoor(frame, room.walkway.at(-1)!.x, floor, tutorialExitOpen(progress));
           drawTapeLoader(frame, progress);
@@ -206,6 +210,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
             left,
             explorerX: position.x,
             avatar: state.avatar,
+            pose,
             focusId: interaction.focusId,
             focus,
             parallax: motion.parallax,
@@ -242,6 +247,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   });
   function resetInput(): void {
     input.clear();
+    movingSteps = 0;
     stepper = createFixedStepper(step);
     previousTime = undefined;
   }

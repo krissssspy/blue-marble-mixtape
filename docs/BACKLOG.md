@@ -149,7 +149,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-44 Desktop and touch browser tests verify the M4 flow, image accessibility, portrait controls, and reduced motion
 - [x] M4-45 The built engine passes the full phase suite and the live draft preview serves the M4 flow with the catalog and listening media
 - [x] M4-46 Usability follow-up. The avatar's face, neck, and hands retain the selected skin tone, and all six shirts contrast with the preview background.
-- [ ] M4-47 Usability follow-up. The explorer takes visible steps while moving and stands still when idle or when reduced motion is enabled.
+- [x] M4-47 Usability follow-up. The explorer takes visible steps while moving and stands still when idle or when reduced motion is enabled.
 
 ## M5 Audio core
 

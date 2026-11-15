@@ -3,6 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { expect, test, type Locator, type Page } from '@playwright/test';
 import { drawText, measureTextWidth } from '../src/engine/font.js';
 import { createFramebuffer } from '../src/engine/framebuffer.js';
+import { DUSK_PALETTE } from '../src/engine/palette.js';
 
 const museum = 'main.museum-shell[data-screen][data-room]';
 const gameCanvas = '.game-stage canvas';
@@ -71,6 +72,46 @@ async function holdRight(page: Page, until: () => Promise<void>): Promise<void> 
   }
 }
 
+async function enterTutorial(page: Page, shell: Locator): Promise<void> {
+  await page.keyboard.press('ArrowUp');
+  await expect(shell).toHaveAttribute('data-screen', 'avatar');
+  for (let choice = 0; choice < 4; choice += 1) {
+    await page.keyboard.press('ArrowUp');
+    await waitForFrames(page, 2);
+  }
+  await expect(shell).toHaveAttribute('data-screen', 'tutorial');
+}
+
+function readExplorerFeet(canvas: Locator): Promise<{ x: number; boots: string }> {
+  return canvas.evaluate(
+    (element, { shirt, boot }) => {
+      const game = element as HTMLCanvasElement;
+      const { data } = game.getContext('2d')!.getImageData(0, 0, game.width, game.height);
+      function colorAt(x: number, y: number): number {
+        const offset = 4 * (game.width * y + x);
+        return (data[offset] << 16) | (data[offset + 1] << 8) | data[offset + 2];
+      }
+      const shirtLeft = Array.from({ length: game.width }, (_, x) => x).find(
+        (x) => colorAt(x, 141) === shirt,
+      );
+      if (shirtLeft === undefined) throw new Error('The explorer is missing from the tutorial.');
+      const x = shirtLeft + 5;
+      const boots = [146, 147]
+        .map((y) =>
+          Array.from({ length: 12 }, (_, index) => Number(colorAt(x - 6 + index, y) === boot)).join(
+            '',
+          ),
+        )
+        .join('/');
+      return { x, boots };
+    },
+    {
+      shirt: Number.parseInt(DUSK_PALETTE[11].slice(1), 16),
+      boot: Number.parseInt(DUSK_PALETTE[13].slice(1), 16),
+    },
+  );
+}
+
 test('walks from Welcome to the first exhibit with only arrow keys', async ({ page }) => {
   const catalog = JSON.parse(
     readFileSync(new URL('../public/catalog.json', import.meta.url), 'utf8'),
@@ -113,14 +154,7 @@ test('walks from Welcome to the first exhibit with only arrow keys', async ({ pa
     await expect(page.getByRole('button', { name, exact: true })).toBeHidden();
   }
 
-  await page.keyboard.press('ArrowUp');
-  await expect(shell).toHaveAttribute('data-screen', 'avatar');
-  for (let choice = 0; choice < 4; choice += 1) {
-    await page.keyboard.press('ArrowUp');
-    await waitForFrames(page, 2);
-  }
-
-  await expect(shell).toHaveAttribute('data-screen', 'tutorial');
+  await enterTutorial(page, shell);
   await waitForLoaderText(canvas, 'READY');
   await holdRight(page, () => expect(announcements).toContainText(/listen/i));
 
@@ -154,13 +188,7 @@ test('retries the tutorial catalog with Up after the first request fails', async
   await page.goto('/');
   const shell = page.locator(museum);
   const canvas = page.locator(gameCanvas).first();
-  await page.keyboard.press('ArrowUp');
-  await expect(shell).toHaveAttribute('data-screen', 'avatar');
-  for (let choice = 0; choice < 4; choice += 1) {
-    await page.keyboard.press('ArrowUp');
-    await waitForFrames(page, 2);
-  }
-  await expect(shell).toHaveAttribute('data-screen', 'tutorial');
+  await enterTutorial(page, shell);
   await expect(page.locator(status)).toContainText(/load failed/i);
   await waitForLoaderText(canvas, '↑ RETRY');
   expect(attempts).toBe(1);
@@ -168,6 +196,41 @@ test('retries the tutorial catalog with Up after the first request fails', async
   await page.keyboard.press('ArrowUp');
   await waitForLoaderText(canvas, 'READY');
   expect(attempts).toBe(2);
+});
+
+test('animates the explorer while walking and uses the standing pose for reduced motion', async ({
+  page,
+}) => {
+  await page.goto('/');
+  const shell = page.locator(museum);
+  const canvas = page.locator(gameCanvas).first();
+  await enterTutorial(page, shell);
+  const standing = await readExplorerFeet(canvas);
+  const strides = new Set<string>();
+  await holdRight(page, () =>
+    expect
+      .poll(
+        async () => {
+          const walking = await readExplorerFeet(canvas);
+          if (walking.x > standing.x && walking.boots !== standing.boots)
+            strides.add(walking.boots);
+          return strides.size;
+        },
+        { intervals: [25] },
+      )
+      .toBeGreaterThan(1),
+  );
+  await expect.poll(async () => (await readExplorerFeet(canvas)).boots).toBe(standing.boots);
+
+  const stoppingPoint = (await readExplorerFeet(canvas)).x;
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.keyboard.down('ArrowLeft');
+  try {
+    await expect.poll(async () => (await readExplorerFeet(canvas)).x).toBeLessThan(stoppingPoint);
+    expect((await readExplorerFeet(canvas)).boots).toBe(standing.boots);
+  } finally {
+    await page.keyboard.up('ArrowLeft');
+  }
 });
 
 test('keeps the Welcome canvas still with reduced motion', async ({ page }) => {
