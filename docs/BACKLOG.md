@@ -142,7 +142,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 
 - [x] M4-39 Background specifications enforce four or more depth layers and ten or more distinct named motifs per room with no reuse between rooms
 - [x] M4-40 Background colours stay on the five-tone Dusk ramp, the ramp stays within 2:1, play-lane elements reach 3:1, and opaque text panels reach 4.5:1
-- [ ] M4-41 Ambient motion is limited to three animations, one change per second, and under 2% of screen pixels per change outside protected areas
+- [x] M4-41 Ambient motion is limited to three animations, one change per second, and under 2% of screen pixels per change outside protected areas
 - [ ] M4-42 Reduced-motion preferences freeze background layers and disable sparkle and parallax while retaining slower focus cues
 - [ ] M4-43 The browser entry point connects the canvas, input, catalog loading, engine screens, and accessible overlays through the real site build
 - [ ] M4-44 Desktop and touch browser tests verify the M4 flow, image accessibility, portrait controls, and reduced motion
