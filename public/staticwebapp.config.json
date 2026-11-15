@@ -1,5 +1,8 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html"
+  },
+  "globalHeaders": {
+    "Content-Security-Policy": "default-src 'self'; img-src 'self' https://svs.gsfc.nasa.gov"
   }
 }
