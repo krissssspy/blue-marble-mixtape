@@ -147,7 +147,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-42 Reduced-motion preferences freeze background layers and disable sparkle and parallax while retaining slower focus cues
 - [x] M4-43 The browser entry point connects the canvas, input, catalog loading, engine screens, and accessible overlays through the real site build
 - [x] M4-44 Desktop and touch browser tests verify the M4 flow, image accessibility, portrait controls, and reduced motion
-- [ ] M4-45 The built engine passes the full phase suite and the live draft preview serves the M4 flow with the catalog and listening media
+- [x] M4-45 The built engine passes the full phase suite and the live draft preview serves the M4 flow with the catalog and listening media
 
 ## M5 Audio core
 
