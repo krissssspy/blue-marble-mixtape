@@ -147,4 +147,43 @@ describe('crawlGallery', () => {
       }),
     ]);
   });
+
+  it('reports an unresolved EIC root with the original error as its cause', async () => {
+    const cause = new Error('Recorded response is unavailable');
+    const requested: number[] = [];
+    const error = await crawlGallery(async (id: number) => {
+      requested.push(id);
+      throw cause;
+    }).catch((failure: unknown) => failure);
+
+    expect(error).toBeInstanceOf(Error);
+    expect((error as Error).message).toMatch(/\b40467\b/);
+    expect((error as Error).message).toMatch(/\b(?:EIC|root)\b/i);
+    expect((error as Error).cause).toBe(cause);
+    expect(requested).toEqual([40467]);
+  });
+
+  it('reports the unresolved nested gallery and its immediate parent before loading later siblings', async () => {
+    const cause = new Error('Recorded response is unavailable');
+    const galleries = new Map([
+      [40467, [100]],
+      [100, [200, 300]],
+    ]);
+    const requested: number[] = [];
+    const error = await crawlGallery(async (id: number) => {
+      requested.push(id);
+      if (id === 200) throw cause;
+      const items = (galleries.get(id) ?? []).map((childId) => ({
+        type: 'gallery_page',
+        instance: { id: childId },
+      }));
+      return { id, media_groups: [{ items }] };
+    }).catch((failure: unknown) => failure);
+
+    expect(error).toBeInstanceOf(Error);
+    expect((error as Error).message).toMatch(/\b200\b/);
+    expect((error as Error).message).toMatch(/\b100\b/);
+    expect((error as Error).cause).toBe(cause);
+    expect(requested).toEqual([40467, 100, 200]);
+  });
 });

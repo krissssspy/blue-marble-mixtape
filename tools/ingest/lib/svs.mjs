@@ -8,14 +8,20 @@ export async function crawlGallery(loadPage) {
   const entries = new Map();
   const visitedGalleries = new Set();
 
-  async function visit(galleryId) {
+  async function visit(galleryId, parentId) {
     if (visitedGalleries.has(galleryId)) return;
     visitedGalleries.add(galleryId);
 
-    const page = await loadPage(galleryId);
+    let page;
+    try {
+      page = await loadPage(galleryId);
+    } catch (cause) {
+      const context = parentId === undefined ? 'EIC root' : `child of gallery ${parentId}`;
+      throw new Error(`Could not load SVS gallery ${galleryId} (${context}).`, { cause });
+    }
     for (const { type, id } of readGalleryCards(page)) {
       if (type === 'gallery_page') {
-        await visit(id);
+        await visit(id, galleryId);
         continue;
       }
 
