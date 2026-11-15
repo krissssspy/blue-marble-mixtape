@@ -153,6 +153,14 @@ describe('avatar and explorer rendering', () => {
       const frame = preview({ ...DEFAULT_AVATAR, outfit }, 2);
       const shirt = frame.pixels[102 * frame.width + 60];
       expect(contrastRatio(DUSK_PALETTE[shirt], DUSK_PALETTE[3])).toBeGreaterThanOrEqual(3);
+      for (const [x, y] of [
+        [42, 94],
+        [72, 94],
+        [42, 112],
+        [78, 112],
+      ]) {
+        expect(frame.pixels[y * frame.width + x]).toBe(shirt);
+      }
       shirts.add(shirt);
     }
     expect(shirts.size).toBe(6);
@@ -166,12 +174,12 @@ describe('avatar and explorer rendering', () => {
 
   it.each(
     [
-      '8cc36e6d9a7db63fd775b2cd8834f2b57706dcd512df0d7a4e05e835a57789cd',
-      'bad828c16e89fc9bd860143f4746d15050358961a278c84f72487e4dd05a82b9',
-      '43f6278ffb951194041f6a22d341dcf94d4a3cdfca64ff0cf24cf8bac0d24329',
-      '17101fb9db3c2035dd921a935262da23277ca8821a26f9cd7d930151ac9ab00f',
-      '91d07ef90aec8a568311dc4c0e53aa37f532ce6856988a86a2fe42d38677b23c',
-      'e886a56ea57f435b34f6708b939e000f3858ae7f50a93ffb634d5ca233cadd8a',
+      '5f3a9b683de8d3f9ecd4a214744ea87f5de5f56fab55442dc1ba09a44984e79f',
+      'ffb8876a482719af1210911653c982da1404faaf9d6378911e5fec20f2e6302d',
+      '7463885b41e269122261a7fba70b3563aba269f8b2f366872454b389260b1bbe',
+      'bf5032475c078573d3ab4d9fdaba474cdee9d7f59d496a02549be6de2efc5d3e',
+      '061e6b77657a3b55462e43b3cb37a73095d783a912288833ce3b87fe39df62d1',
+      'f927de87b80c09588dc63dce0f93a26f6c1ebb0ecc75aea4c0975b1e0fa0ddc3',
     ].map((expected, choice) => ({ choice, expected })),
   )(
     'matches indexed frames for choice $choice across four avatar steps',

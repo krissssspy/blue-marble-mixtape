@@ -11,10 +11,10 @@ const body = [
   '..ssssssss..',
   '...ssssss...',
   '....ssss....',
-  '..ooooOOOO..',
+  '..oooooooo..',
   '.oooooooooo.',
   '.soooooooos.',
-  '..OOooooOO..',
+  '..oooooooo..',
 ] as const;
 
 const legPoses = [
@@ -33,14 +33,7 @@ export function walkPose(movingSteps: number, reducedMotion: boolean): ExplorerP
   return walkCycle[Math.floor((movingSteps - 1) / stepsPerPose) % walkCycle.length];
 }
 
-const outfitColors = [
-  [11, 4],
-  [8, 9],
-  [7, 15],
-  [6, 14],
-  [12, 5],
-  [10, 4],
-] as const;
+const outfitColors = [11, 8, 7, 6, 12, 10] as const;
 
 const hairShapes = [
   ['...hhhhhh...', '..hhhhhhhh..', '..h......h..'],
@@ -88,13 +81,11 @@ export function drawExplorer(
 ): void {
   const left = Math.round(x) - 6 * scale;
   const bottom = Math.round(feetY);
-  const [outfit, outfitTrim] = outfitColors[appearance.outfit];
   const legRows = legPoses[pose];
   const colors = {
     s: AVATAR_SKIN_INDICES[appearance.skin],
     e: 0,
-    o: outfit,
-    O: outfitTrim,
+    o: outfitColors[appearance.outfit],
     p: 12,
     b: 13,
   };
