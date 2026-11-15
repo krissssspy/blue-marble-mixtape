@@ -164,7 +164,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M5-09 `decodeFeaturePack` reads the ingest feature-pack binary into named channel planes per frame and rejects a bad header
 - [x] M5-10 `envelope` shapes a note with attack and release so it starts and ends at zero and never exceeds its loudness
 - [x] M5-11 The pulse voice produces the requested fundamental with a chosen duty cycle
-- [ ] M5-12 The triangle voice produces the requested fundamental with only odd harmonics
+- [x] M5-12 The triangle voice produces the requested fundamental with only odd harmonics
 - [ ] M5-13 The noise voice is deterministic for a seed and has no stable pitch
 - [ ] M5-14 The pluck voice (Karplus–Strong) produces the requested fundamental and decays
 - [ ] M5-15 The organ voice (additive) contains the requested fundamental and its drawbar harmonics
