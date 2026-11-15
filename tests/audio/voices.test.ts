@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { createNoise, createPluck, pulse, triangle } from '../../src/audio/voices.js';
+import { createNoise, createPluck, organ, pulse, triangle } from '../../src/audio/voices.js';
 
 describe('pulse voice', () => {
   it('repeats at the requested frequency and switches at the chosen duty cycle', () => {
@@ -117,5 +117,19 @@ describe('pluck voice', () => {
     const draw = (seed: number) => Array.from({ length: 256 }, createPluck(440, sampleRate, seed));
     expect(draw(5)).toEqual(draw(5));
     expect(draw(5)).not.toEqual(draw(6));
+  });
+});
+
+describe('organ voice', () => {
+  it('adds the fundamental and weighted drawbar harmonics', () => {
+    const frequency = 128;
+    const sampleRate = 8192;
+    const samples = Array.from({ length: 64 }, (_, index) => organ(index / sampleRate, frequency));
+    const stops = [1, 0.6, 0.4, 0.2, 0, 0.1, 0];
+    for (const [index, stop] of stops.entries()) {
+      expect(magnitude(samples, index + 1)).toBeCloseTo(stop / 2.3, 9);
+    }
+    expect(Math.max(...samples)).toBeLessThanOrEqual(1);
+    expect(Math.min(...samples)).toBeGreaterThanOrEqual(-1);
   });
 });

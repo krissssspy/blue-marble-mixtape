@@ -32,3 +32,21 @@ export function createPluck(frequency: number, sampleRate: number, seed: number)
     return current;
   };
 }
+
+const drawbars = [
+  [1, 1],
+  [2, 0.6],
+  [3, 0.4],
+  [4, 0.2],
+  [6, 0.1],
+] as const;
+const organGain = drawbars.reduce((sum, [, gain]) => sum + gain, 0);
+
+export function organ(seconds: number, frequency: number): number {
+  const phase = 2 * Math.PI * frequency * seconds;
+  let sum = 0;
+  for (const [harmonic, gain] of drawbars) {
+    sum += gain * Math.sin(harmonic * phase);
+  }
+  return sum / organGain;
+}
