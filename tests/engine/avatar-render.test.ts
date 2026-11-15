@@ -120,8 +120,8 @@ describe('avatar and explorer rendering', () => {
         expect(frame.pixels[(feetY - 14 + y) * frame.width + explorerX - 6 + x]).toBe(tone);
       }
       const picker = preview({ ...DEFAULT_AVATAR, skin }, 0);
-      const cheek = picker.pixels[77 * picker.width + 51];
-      expect([5, 13, 14, 15]).toContain(cheek);
+      expect(picker.pixels[77 * picker.width + 51]).toBe(tone);
+      expect(picker.pixels[77 * picker.width + 57]).toBe(tone);
     }
   });
 
@@ -144,11 +144,11 @@ describe('avatar and explorer rendering', () => {
 
   it.each(
     [
-      '61e6684f84a2fb89ca74e933509b4c49c5069b2ca613f82347c9e02a62c02b8b',
+      'a2a04fb9c8357b22d392e9230ef9399df58b07b5c580884636baf4d2f2f653d7',
       '27fbf7a7d024e15c732e98c8cf8085d4d7533adeec2bc3a0498cb33e36544ae8',
-      'ac72e547c00f8fc221ae8312cbe2e34d77b5974e3ba68add07567493255c8a3a',
+      'a5dc4a58f2d4a563c975505630fc367529de714d2d427ee368215d7dece5c285',
       '17101fb9db3c2035dd921a935262da23277ca8821a26f9cd7d930151ac9ab00f',
-      'daaa86e7a59a39aaef6c1852db1e274322e9882e612b0283fed32e8ce326f193',
+      '41c47e5309b191214d3d74e290369181abeed97213de3c6648c974da4d25e69e',
       'e886a56ea57f435b34f6708b939e000f3858ae7f50a93ffb634d5ca233cadd8a',
     ].map((expected, choice) => ({ choice, expected })),
   )(

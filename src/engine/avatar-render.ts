@@ -7,7 +7,7 @@ const body = [
   '...ssssss...',
   '..ssSSssss..',
   '..ssessess..',
-  '..ssSSssss..',
+  '..ssssssss..',
   '...ssssss...',
   '....ssss....',
   '..ooooOOOO..',
