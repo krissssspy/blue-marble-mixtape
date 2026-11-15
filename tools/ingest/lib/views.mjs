@@ -21,7 +21,8 @@ function viewKey(image) {
     .replace(/(?:[_.-])(?:print|thm|thumb|thumbnail|searchweb|web)$/, '');
 }
 
-export function selectViews({ mainImage, mediaGroups }) {
+export function selectViews({ mainImage, mediaGroups, pageType = '' }) {
+  const posterOnly = pageType === 'Produced Video' || pageType === 'B-Roll';
   const groups = mediaGroups.map(({ id: groupId, items }) => ({
     groupId,
     images: items.map((item) => item?.instance).filter((media) => media?.media_type === 'Image'),
@@ -40,7 +41,9 @@ export function selectViews({ mainImage, mediaGroups }) {
   }
 
   const viewImages = (images) => images.filter((image) => isViewImage(image) && !isPreview(image));
-  if (mainImage && isViewImage(mainImage)) {
+  const hasMainImage =
+    mainImage && (!posterOnly || mainImage.media_type === 'Image') && isViewImage(mainImage);
+  if (hasMainImage) {
     const variants = mainGroup ? viewImages(mainGroup.images) : [];
     if (!isPreview(mainImage)) {
       addView(mainImage, variants.length ? variants : [mainImage], mainGroup?.groupId ?? null);
@@ -50,7 +53,7 @@ export function selectViews({ mainImage, mediaGroups }) {
   }
 
   for (const { groupId, images } of groups) {
-    if (views.length === 3) break;
+    if (posterOnly || views.length === 3) break;
     const variants = viewImages(images);
     if (!variants.length) continue;
     if (variants.some((image) => selectedIds.has(image.id) || selectedKeys.has(viewKey(image)))) {
@@ -59,7 +62,7 @@ export function selectViews({ mainImage, mediaGroups }) {
     addView(variants[0], variants, groupId);
   }
 
-  if (!views.length && mainImage && isViewImage(mainImage)) {
+  if (!views.length && hasMainImage) {
     addView(mainImage, [mainImage], mainGroup?.groupId ?? null);
   }
   return views;

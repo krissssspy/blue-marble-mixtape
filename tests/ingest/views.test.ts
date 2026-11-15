@@ -177,4 +177,45 @@ describe('selectViews', () => {
       { groupId: 3, image: ice, imageVariants: [ice] },
     ]);
   });
+
+  it.each([
+    [14371, 'B-Roll', 312120, 856095, [856095, 856094]],
+    [14696, 'Produced Video', 375932, 1100886, [1100886]],
+    [14713, 'Produced Video', null, 1139025, [1139025]],
+  ])(
+    'selects only the supplied poster view from recorded page %i (%s)',
+    (id, pageType, groupId, posterId, variantIds) => {
+      const page = readRecordedPage(id);
+      expect(page.page_type).toBe(pageType);
+      const views = selectViews({
+        pageType,
+        mainImage: page.main_image,
+        mediaGroups: page.media_groups,
+      });
+
+      expect(views).toMatchObject([
+        {
+          groupId,
+          image: { id: posterId, media_type: 'Image' },
+          imageVariants: variantIds.map((id) => ({ id, media_type: 'Image' })),
+        },
+      ]);
+    },
+  );
+
+  it.each(['Produced Video', 'B-Roll'])(
+    'does not substitute another still when a %s has no usable poster',
+    (pageType) => {
+      const placeholder = image(1, 'no_preview.png');
+      const movie = { ...image(3, 'source.mp4'), media_type: 'Movie' };
+      const mediaGroups = [
+        imageGroup(1, placeholder),
+        imageGroup(2, image(2, 'another_still.png')),
+      ];
+
+      expect(selectViews({ pageType, mainImage: null, mediaGroups })).toEqual([]);
+      expect(selectViews({ pageType, mainImage: placeholder, mediaGroups })).toEqual([]);
+      expect(selectViews({ pageType, mainImage: movie, mediaGroups })).toEqual([]);
+    },
+  );
 });
