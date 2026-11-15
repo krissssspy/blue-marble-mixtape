@@ -179,7 +179,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M5-22 The player reports progress from 0 to 1 against the clock and reports no active events after stop
 - [x] M5-23 `validateRecipe` accepts the lab's scans, sources, scales, voices, rhythms, and tempos, and rejects anything else
 - [x] M5-24 `lineSweepScore` turns a feature pack and a recipe into a valid score whose event locations sweep left to right
-- [ ] M5-25 The browser player renders a score to an audio buffer and plays it through an injected audio context, starting only after a user gesture
+- [x] M5-25 The browser player renders a score to an audio buffer and plays it through an injected audio context, starting only after a user gesture
 
 ## M6 Rooms 1–9
 

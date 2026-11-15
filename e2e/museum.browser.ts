@@ -198,6 +198,76 @@ test('retries the tutorial catalog with Up after the first request fails', async
   expect(attempts).toBe(2);
 });
 
+test('starts catalog audio and its image playhead after a gesture and stops on close', async ({
+  page,
+}) => {
+  interface AudioProbe {
+    started: { hasSignal: boolean; sampleRate: number; channels: number }[];
+    stopped: number;
+  }
+  await page.addInitScript(() => {
+    const probe: AudioProbe = { started: [], stopped: 0 };
+    Object.assign(window, { audioProbe: probe });
+    const nativeStart = AudioBufferSourceNode.prototype.start;
+    const nativeStop = AudioBufferSourceNode.prototype.stop;
+    AudioBufferSourceNode.prototype.start = function (...args) {
+      const buffer = this.buffer!;
+      probe.started.push({
+        hasSignal:
+          buffer.getChannelData(0).some((sample) => sample !== 0) ||
+          buffer.getChannelData(1).some((sample) => sample !== 0),
+        sampleRate: buffer.sampleRate,
+        channels: buffer.numberOfChannels,
+      });
+      nativeStart.apply(this, args);
+    };
+    AudioBufferSourceNode.prototype.stop = function (...args) {
+      probe.stopped += 1;
+      nativeStop.apply(this, args);
+    };
+  });
+  const audio = () =>
+    page.evaluate(() => (window as Window & { audioProbe?: AudioProbe }).audioProbe!);
+
+  await page.goto('/');
+  const shell = page.locator(museum);
+  const canvas = page.locator(gameCanvas).first();
+  await expect(shell).toHaveAttribute('data-screen', 'welcome');
+  expect((await audio()).started).toEqual([]);
+  await enterTutorial(page, shell);
+  await holdRight(page, () => expect(page.locator(status)).toContainText(/listen/i));
+  expect((await audio()).started).toEqual([]);
+
+  const feature = page.waitForResponse((response) => response.url().endsWith('/features.bin'), {
+    timeout: 5000,
+  });
+  await page.keyboard.press('ArrowUp');
+  await expect(shell).toHaveAttribute('data-screen', 'listening');
+  expect((await feature).ok()).toBe(true);
+  await expect
+    .poll(async () => (await audio()).started)
+    .toEqual([{ hasSignal: true, sampleRate: 22050, channels: 2 }]);
+  await expect
+    .poll(() =>
+      canvas.evaluate((element) => {
+        const game = element as HTMLCanvasElement;
+        const row = game.getContext('2d')!.getImageData(0, 90, game.width, 1).data;
+        return row.some(
+          (value, index) =>
+            index % 4 === 0 &&
+            value === 255 &&
+            row[index + 1] === 204 &&
+            row[index + 2] === 51 &&
+            row[index + 3] === 255,
+        );
+      }),
+    )
+    .toBe(true);
+  await page.keyboard.press('ArrowDown');
+  await expect(shell).toHaveAttribute('data-screen', 'tutorial');
+  await expect.poll(async () => (await audio()).stopped).toBe(1);
+});
+
 test('animates the explorer while walking and uses the standing pose for reduced motion', async ({
   page,
 }) => {

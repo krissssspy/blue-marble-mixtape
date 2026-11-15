@@ -1,3 +1,7 @@
+import { createBrowserPlayer, type BrowserPlayback } from './audio/browser-player.js';
+import { decodeFeaturePack } from './audio/feature-pack.js';
+import { lineSweepScore } from './audio/line-sweep.js';
+import type { Recipe } from './audio/recipe.js';
 import { createMuseumAnnouncements } from './engine/announcements.js';
 import { createArtifactInteraction, interactWithArtifacts } from './engine/artifact-interaction.js';
 import { drawArtifactFrame } from './engine/artifact-frame.js';
@@ -36,6 +40,15 @@ import { APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
 const thumbnailFallback = new Uint8Array(48 * 27).fill(3);
 const secondsPerStep = 1 / 60;
 const maxFrameGapMs = 250;
+const listeningRecipe = {
+  scan: 'lineSweep',
+  pitchSource: 'height',
+  loudnessSource: 'brightness',
+  scale: 'minorPentatonic',
+  voice: 'triangle',
+  rhythm: 'free',
+  tempo: 'medium',
+} satisfies Recipe;
 
 function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasElement): void {
   const frame = createFramebuffer();
@@ -67,10 +80,51 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   let progress = 0;
   let practiceThumbnail: Uint8Array = thumbnailFallback;
   let currentImage: { id: string; element: HTMLImageElement } | null = null;
+  let audio: {
+    player: ReturnType<typeof createBrowserPlayer>;
+    ready: Promise<boolean>;
+  } | null = null;
+  let listeningRequest: AbortController | null = null;
+  let playback: BrowserPlayback | null = null;
   const thumbnails = new Map<string, Uint8Array>();
   const requestedThumbnails = new Set<string>();
   let tick = 0;
   let previousTime: number | undefined;
+
+  function unlockAudio(): void {
+    if (audio || typeof AudioContext === 'undefined') return;
+    try {
+      const player = createBrowserPlayer(new AudioContext());
+      const ready = player.unlock().then(
+        () => true,
+        () => {
+          audio = null;
+          return false;
+        },
+      );
+      audio = { player, ready };
+    } catch {
+      // The museum remains navigable if the browser cannot create an audio context.
+    }
+  }
+
+  function loadListeningAudio(artifact: CatalogArtifact): void {
+    if (!audio) return;
+    const { player, ready } = audio;
+    const request = new AbortController();
+    listeningRequest = request;
+    void ready
+      .then(async (unlocked) => {
+        if (!unlocked || request.signal.aborted) return;
+        const response = await fetch(artifact.mediaPaths.features, { signal: request.signal });
+        if (!response.ok) return;
+        const pack = decodeFeaturePack(await response.arrayBuffer());
+        if (!request.signal.aborted) playback = player.play(lineSweepScore(pack, listeningRecipe));
+      })
+      .catch(() => {
+        // Keep the image and navigation responsive when audio or the pack is unavailable.
+      });
+  }
 
   function loadTutorial(): void {
     if (loadStarted) return;
@@ -135,11 +189,15 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
       currentImage = { id: artifact.id, element };
       imageHost.replaceChildren(element);
       imageHost.hidden = false;
+      loadListeningAudio(artifact);
     }
     const { naturalWidth, naturalHeight } = currentImage.element;
+    const playing = playback?.read();
     clearFramebuffer(frame, transparentIndex);
     const image = fitImageRect(frame.width, frame.height, naturalWidth, naturalHeight);
-    if (image) drawPlayhead(frame, image, []);
+    if (image) {
+      drawPlayhead(frame, image, playing?.activeEvents.map(({ location }) => location) ?? []);
+    }
     drawListeningOverlay(
       frame,
       {
@@ -147,12 +205,16 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
         displayDate: artifact.displayDate,
         genre: MUSEUM_ROOMS.find(({ id }) => id === artifact.room)?.genre ?? APP_STRINGS.museum,
       },
-      0,
+      playing?.progress ?? 0,
     );
   }
 
   function hideListening(): void {
     if (!currentImage) return;
+    listeningRequest?.abort();
+    listeningRequest = null;
+    audio?.player.stop();
+    playback = null;
     imageHost.hidden = true;
     imageHost.replaceChildren();
     currentImage = null;
@@ -240,10 +302,15 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     const action = mapKey(event.key);
     if (!action || event.altKey || event.metaKey || event.ctrlKey) return;
     event.preventDefault();
-    if (!event.repeat) input.press(`key:${event.key}`, action);
+    if (event.repeat) return;
+    if (event.isTrusted && action === 'yes') unlockAudio();
+    input.press(`key:${event.key}`, action);
   });
   window.addEventListener('keyup', (event) => {
     if (mapKey(event.key)) input.release(`key:${event.key}`);
+  });
+  touch.addEventListener('pointerup', (event) => {
+    if (event.isTrusted && event.pointerType === 'touch') unlockAudio();
   });
   function resetInput(): void {
     input.clear();

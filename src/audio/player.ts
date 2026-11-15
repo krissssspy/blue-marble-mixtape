@@ -5,8 +5,11 @@ export interface PlaybackSnapshot {
   readonly activeEvents: readonly ScoreEvent[];
 }
 
-export function createPlayer(score: readonly ScoreEvent[], clock: () => number) {
-  const startedAt = clock();
+export function createPlayer(
+  score: readonly ScoreEvent[],
+  clock: () => number,
+  startedAt = clock(),
+) {
   const duration = scoreDuration(score);
   let stoppedProgress: number | null = null;
 
