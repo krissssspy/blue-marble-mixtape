@@ -108,7 +108,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-13 Frame time advances the pure simulation in fixed 60 Hz steps and delivers each discrete press once
 - [x] M4-14 The explorer walks horizontally at a fixed speed, cancels opposing movement, and stops at the ends of the walkway
 - [x] M4-15 The explorer stays on the continuous walkway as it passes through ramps and steps
-- [ ] M4-16 The side-scrolling camera follows the explorer and clamps at both room edges
+- [x] M4-16 The side-scrolling camera follows the explorer and clamps at both room edges
 
 ### Welcome, avatar, and tutorial
 
