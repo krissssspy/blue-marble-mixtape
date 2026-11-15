@@ -1,3 +1,5 @@
+import { seededRandom } from './random.js';
+
 function phaseAt(seconds: number, frequency: number): number {
   const cycles = seconds * frequency;
   return cycles - Math.floor(cycles);
@@ -9,4 +11,9 @@ export function pulse(seconds: number, frequency: number, dutyCycle: number): nu
 
 export function triangle(seconds: number, frequency: number): number {
   return 1 - 4 * Math.abs(phaseAt(seconds, frequency) - 0.5);
+}
+
+export function createNoise(seed: number): () => number {
+  const random = seededRandom(seed);
+  return () => 2 * random() - 1;
 }

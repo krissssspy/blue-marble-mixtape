@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { pulse, triangle } from '../../src/audio/voices.js';
+import { createNoise, pulse, triangle } from '../../src/audio/voices.js';
 
 describe('pulse voice', () => {
   it('repeats at the requested frequency and switches at the chosen duty cycle', () => {
@@ -54,5 +54,32 @@ describe('triangle voice', () => {
     expect(magnitude(samples, 2)).toBeLessThan(1e-12);
     expect(magnitude(samples, 4)).toBeLessThan(1e-12);
     expect(magnitude(samples, 6)).toBeLessThan(1e-12);
+  });
+});
+
+describe('noise voice', () => {
+  it('produces the same independent centered samples for the same seed', () => {
+    const first = createNoise(12);
+    const second = createNoise(12);
+    const other = createNoise(13);
+    const draw = (next: () => number) => Array.from({ length: 2048 }, next);
+    const samples = draw(first);
+    expect(samples).toEqual(draw(second));
+    expect(samples).not.toEqual(draw(other));
+    expect(Math.min(...samples)).toBeGreaterThanOrEqual(-1);
+    expect(Math.max(...samples)).toBeLessThan(1);
+    expect(Math.min(...samples)).toBeLessThan(-0.98);
+    expect(Math.max(...samples)).toBeGreaterThan(0.98);
+    expect(
+      Math.abs(samples.reduce((total, sample) => total + sample, 0) / samples.length),
+    ).toBeLessThan(0.04);
+
+    const energy = samples.reduce((total, sample) => total + sample * sample, 0);
+    for (const lag of [1, 2, 3, 5, 13, 31, 64]) {
+      const cross = samples
+        .slice(lag)
+        .reduce((total, sample, index) => total + sample * samples[index], 0);
+      expect(Math.abs(cross / energy)).toBeLessThan(0.07);
+    }
   });
 });
