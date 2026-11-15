@@ -4,6 +4,7 @@ import sharp from 'sharp';
 import { describe, expect, it, vi } from 'vitest';
 import { createFramebuffer, type Framebuffer } from '../../src/engine/framebuffer.js';
 import type { MuseumCatalog } from '../../src/engine/museum-assets.js';
+import { walkwayHeight } from '../../src/engine/walkway.js';
 import {
   createMuseumRooms,
   drawDoor,
@@ -63,15 +64,50 @@ describe('browser room layout', () => {
           expect.arrayContaining(room.spots.map(({ artifact }) => artifact)),
         );
       }
-      expect(room.walkway).toEqual([
-        { x: 18, y: 148 },
-        { x: room.width - 18, y: 148 },
-      ]);
+      expect(room.walkway[0]).toEqual({ x: 18, y: 148 });
+      expect(room.walkway.at(-1)).toEqual({ x: room.width - 18, y: 148 });
       expect(room.width).toBeGreaterThanOrEqual(320);
       expect(
         room.spots.every(({ x, range }) => x > 18 && x < room.width - 18 && range === 27),
       ).toBe(true);
     }
+  });
+
+  it('gives each exhibit its own continuous route and draws ramps under the explorer', () => {
+    const exhibits = createMuseumRooms(assets).slice(1, -1);
+    const profiles = new Set<string>();
+    for (const { width, walkway } of exhibits) {
+      expect(walkway.length).toBeGreaterThan(2);
+      expect(new Set(walkway.map(({ y }) => y)).size).toBeGreaterThan(1);
+      expect(walkway.every(({ x }, index) => index === 0 || x > walkway[index - 1].x)).toBe(true);
+      expect(walkway.every(({ y }) => y >= 137 && y <= 157)).toBe(true);
+      profiles.add(walkway.map(({ y }) => y).join(','));
+      for (let x = 1; x < width - 1; x += 8) {
+        expect(Math.abs(walkwayHeight(walkway, x + 1) - walkwayHeight(walkway, x))).toBeLessThan(1);
+      }
+    }
+    expect(profiles.size).toBe(9);
+
+    const room = exhibits[0];
+    const frame = createFramebuffer();
+    const explorerX = Math.round(room.width * 0.5);
+    const left = explorerX - 160;
+    const floor = Math.round(walkwayHeight(room.walkway, explorerX));
+    drawRoom(frame, {
+      room,
+      track: 1,
+      left,
+      explorerX,
+      avatar: { skin: 0, hair: 0, outfit: 0, headgear: 0 },
+      focusId: null,
+      focus: { tick: 0, pulse: false, sparkles: false },
+      parallax: false,
+      hasNext: true,
+      thumbnailFor: () => practiceThumbnail,
+    });
+    expect(pixel(frame, 156, floor - 1)).toBe(13);
+    expect(pixel(frame, 156, floor)).toBe(12);
+    expect(pixel(frame, 156, 148)).not.toBe(12);
   });
 
   it('uses no repeated images across the nine exhibits and keeps the original catalog', async () => {
@@ -94,6 +130,47 @@ describe('browser room layout', () => {
     );
     expect(new Set(rasterHashes).size).toBe(exhibits.length);
     expect(assets.catalog.artifacts.length).toBeGreaterThan(exhibits.length);
+  });
+
+  it('does not place missing or reassigned artifacts in the exhibit', () => {
+    const catalogWithChanges = {
+      ...catalog,
+      artifacts: catalog.artifacts
+        .filter(({ id }) => id !== 'svs-media-479017-main')
+        .map((artifact) =>
+          artifact.id === 'svs-page-5425-376521' ? { ...artifact, room: 'lab' } : artifact,
+        ),
+    };
+    const sea = createMuseumRooms({ ...assets, catalog: catalogWithChanges })[1];
+    expect(sea.spots[0].id).toBe('svs-page-5425-376522');
+    expect(sea.spots).toHaveLength(8);
+  });
+
+  it('keeps the lab on its own flat floor and scrolls its backdrop separately', () => {
+    const room = createMuseumRooms(assets).at(-1)!;
+    const frame = createFramebuffer();
+    frame.pixels.fill(7);
+    const view = {
+      room,
+      track: 10,
+      left: 31,
+      explorerX: 72,
+      avatar: { skin: 0, hair: 0, outfit: 0, headgear: 0 },
+      focusId: null,
+      focus: { tick: 0, pulse: false, sparkles: false },
+      parallax: true,
+      hasNext: false,
+      thumbnailFor: () => practiceThumbnail,
+    };
+    drawRoom(frame, view);
+    expect(pixel(frame, 5, 77)).toBe(2);
+    expect(pixel(frame, 32, 77)).toBe(1);
+    expect(pixel(frame, 10, 82)).toBe(3);
+    expect(pixel(frame, 10, 106)).toBe(3);
+    expect(pixel(frame, 10, 129)).toBe(4);
+    expect(pixel(frame, 10, 148)).toBe(12);
+    drawRoom(frame, { ...view, parallax: false });
+    expect(pixel(frame, 32, 77)).toBe(2);
   });
 
   it('requests framed thumbnails around the camera and draws a focus cue above the native pixels', () => {
@@ -146,10 +223,10 @@ describe('browser room layout', () => {
 
     drawRoom(frame, { ...common, left: lastView - 3, explorerX: room.width - 40 });
     expect([entrance, end, openExit, digest(frame)]).toEqual([
-      '56bb29d5eaac97909349eae4453b8c61ee903de7b5e3072811dee14654e3f603',
-      'b11dd92edf2af6b2d9d4a4231daf478d4195e2e3490695dc409b94744518754e',
-      '2aec8806dcf487607f39ee18092b28368a60468bddb1a855c47716f7351071ca',
-      '8aa9fcbad8f03731d8d8e0cc5f62dc97d23ebf42bd5d0c87c493f25b6f51b60a',
+      '38aa1f6ebdf2abaa0f885384dc14ca279aee2138d641791dbd5488daf2326523',
+      'eca55ddd9411e8ec75676c622bd1841c5598235d3a2ca2794a9d2c8825df570f',
+      '2091e36ae9937bf0b3dc0468a6578b3b7f0c70e76c94a2ef3d99fbc3bfa6f3a3',
+      '406151ac5dee61ebe90ebb16e82fdb420ef42ed43f027d82a69d99211e3a1a3b',
     ]);
   });
 

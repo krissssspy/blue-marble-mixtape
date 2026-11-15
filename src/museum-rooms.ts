@@ -12,6 +12,17 @@ import { APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
 const ground = 148;
 const edge = 18;
 const spacing = 88;
+const walkwayLevels = {
+  'sea-level': [148, 148, 140, 144, 148],
+  'air-quality': [148, 143, 143, 138, 148],
+  biodiversity: [148, 143, 137, 144, 148],
+  wildfires: [148, 153, 146, 155, 148],
+  'greenhouse-gases': [148, 141, 137, 141, 148],
+  energy: [148, 145, 147, 145, 148],
+  disasters: [148, 140, 140, 145, 148],
+  'water-resources': [148, 149, 154, 141, 148],
+  agriculture: [148, 153, 145, 150, 148],
+} satisfies Record<ExhibitId, readonly number[]>;
 
 export interface MountedArtifact {
   readonly id: string;
@@ -59,14 +70,15 @@ export function createMuseumRooms(assets?: MuseumAssets): readonly MuseumRoom[] 
               return artifact?.room === id ? [artifact] : [];
             });
       const width = Math.max(320, spacing * (artifacts.length + 1));
+      const levels = id === 'lab' ? [ground, ground] : walkwayLevels[id];
       return {
         id,
         name,
         width,
-        walkway: [
-          { x: edge, y: ground },
-          { x: width - edge, y: ground },
-        ],
+        walkway: levels.map((y, index) => ({
+          x: edge + Math.round(((width - 2 * edge) * index) / (levels.length - 1)),
+          y,
+        })),
         spots: artifacts.map((artifact, index) => ({
           id: artifact.id,
           x: spacing * (index + 1),
@@ -105,14 +117,20 @@ function drawRoomBackdrop(
   } else {
     drawExhibitBackdrop(frame, room.id, offset, parallax);
   }
-  fillRect(frame, 0, ground, frame.width, frame.height - ground, 13);
-  for (let x = -(Math.floor(offset) % 8); x < frame.width; x += 8) {
-    for (let y = ground; y < frame.height; y += 8) {
-      fillRect(frame, x, y + 1, 1, 7, 2);
-      fillRect(frame, x + 2, y + 4, 4, 1, 14);
+}
+
+function drawWalkway(frame: Framebuffer, room: MuseumRoom, left: number): void {
+  for (let x = 0; x < frame.width; x += 1) {
+    const worldX = left + x;
+    const floor = Math.round(walkwayHeight(room.walkway, worldX));
+    const tileX = Math.floor(worldX) % 8;
+    fillRect(frame, x, floor, 1, frame.height - floor, 13);
+    for (let y = floor; y < frame.height; y += 8) {
+      if (tileX === 0) fillRect(frame, x, y + 1, 1, 7, 2);
+      if (tileX >= 2 && tileX < 6) fillRect(frame, x, y + 4, 1, 1, 14);
     }
+    fillRect(frame, x, floor, 1, 2, 12);
   }
-  fillRect(frame, 0, ground, frame.width, 2, 12);
 }
 
 type ArtifactFocus = NonNullable<Parameters<typeof drawArtifactFrame>[4]>;
@@ -146,8 +164,11 @@ export function drawRoom(frame: Framebuffer, view: RoomView): void {
     thumbnailFor,
   } = view;
   drawRoomBackdrop(frame, room, left, parallax);
-  drawDoor(frame, room.walkway[0].x - left, ground, true);
-  if (hasNext) drawDoor(frame, room.walkway.at(-1)!.x - left, ground, true);
+  drawWalkway(frame, room, left);
+  const entrance = room.walkway[0];
+  const exit = room.walkway[room.walkway.length - 1];
+  drawDoor(frame, entrance.x - left, entrance.y, true);
+  if (hasNext) drawDoor(frame, exit.x - left, exit.y, true);
 
   for (const spot of room.spots) {
     const x = spot.x - left;
