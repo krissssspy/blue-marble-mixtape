@@ -59,13 +59,16 @@ function drawCenteredText(frame: Framebuffer, text: string, y: number, index: nu
   drawText(frame, text, (frame.width - width) / 2, y, index);
 }
 
-function drawEarth(frame: Framebuffer): void {
+function drawEarth(frame: Framebuffer, tick: number): void {
   const radius = 15;
+  const diameter = radius * 2 + 1;
+  const shift = ((Math.floor(tick / 6) % diameter) + diameter) % diameter;
   for (let y = -radius; y <= radius; y += 1) {
     const span = Math.floor(Math.sqrt(radius * radius - y * y));
     for (let x = -span; x <= span; x += 1) {
       const inShade = x + y > 12;
-      const isLand = continents[y + 10]?.[x + 13] === '#';
+      const worldX = ((x + radius + shift) % diameter) - radius;
+      const isLand = continents[y + 10]?.[worldX + 13] === '#';
       let color: number = inShade ? dusk.deepOcean : dusk.ocean;
       if (isLand) color = inShade ? dusk.shadedLand : dusk.land;
       if (y < -12 && Math.abs(x) < 7) color = dusk.ice;
@@ -74,7 +77,7 @@ function drawEarth(frame: Framebuffer): void {
   }
 }
 
-export function drawWelcome(frame: Framebuffer): void {
+export function drawWelcome(frame: Framebuffer, tick = 0): void {
   clearFramebuffer(frame, dusk.sky);
   for (const [x, y] of stars) fillRect(frame, x, y, 1, 1, dusk.ocean);
 
@@ -94,7 +97,7 @@ export function drawWelcome(frame: Framebuffer): void {
 
   fillRect(frame, 108, 80, 104, 40, dusk.cream);
   fillRect(frame, 110, 82, 100, 36, dusk.sky);
-  drawEarth(frame);
+  drawEarth(frame, tick);
 
   fillRect(frame, 92, 124, 136, 8, dusk.shadow);
   for (const x of [112, 142, 174, 204]) fillRect(frame, x, 126, 4, 4, dusk.sky);
