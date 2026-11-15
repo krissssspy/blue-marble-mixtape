@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { createNoise, pulse, triangle } from '../../src/audio/voices.js';
+import { createNoise, createPluck, pulse, triangle } from '../../src/audio/voices.js';
 
 describe('pulse voice', () => {
   it('repeats at the requested frequency and switches at the chosen duty cycle', () => {
@@ -81,5 +81,41 @@ describe('noise voice', () => {
         .reduce((total, sample, index) => total + sample * samples[index], 0);
       expect(Math.abs(cross / energy)).toBeLessThan(0.07);
     }
+  });
+});
+
+function rms(samples: readonly number[]): number {
+  return Math.sqrt(
+    samples.reduce((energy, sample) => energy + sample * sample, 0) / samples.length,
+  );
+}
+
+describe('pluck voice', () => {
+  const sampleRate = 24000;
+
+  it.each([200, 300])('rings near the requested %s Hz and decays', (frequency) => {
+    const samples = Array.from({ length: 12000 }, createPluck(frequency, sampleRate, 37));
+    const period = sampleRate / frequency;
+    const start = Math.round(4 * period);
+    const reference = samples.slice(start, start + Math.round(8 * period));
+    const correlation = (lag: number) => {
+      const nearby = samples.slice(start + lag, start + lag + reference.length);
+      const cross = reference.reduce((sum, sample, index) => sum + sample * nearby[index], 0);
+      return cross / (rms(reference) * rms(nearby) * reference.length);
+    };
+    const candidates = Array.from({ length: 11 }, (_, index) => period - 5 + index);
+    const best = candidates.reduce((winner, candidate) =>
+      correlation(candidate) > correlation(winner) ? candidate : winner,
+    );
+    expect(Math.abs(best - period)).toBeLessThanOrEqual(1);
+    expect(correlation(best)).toBeGreaterThan(0.93);
+    expect(rms(samples.slice(0, 1000))).toBeGreaterThan(0.18);
+    expect(rms(samples.slice(-1000))).toBeLessThan(rms(samples.slice(0, 1000)) * 0.35);
+  });
+
+  it('uses the seed to excite the string reproducibly', () => {
+    const draw = (seed: number) => Array.from({ length: 256 }, createPluck(440, sampleRate, seed));
+    expect(draw(5)).toEqual(draw(5));
+    expect(draw(5)).not.toEqual(draw(6));
   });
 });
