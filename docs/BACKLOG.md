@@ -156,7 +156,7 @@ Built in parallel with M4 on branch `feature/museum-audio`, in its own worktree,
 - [x] M5-01 `midiToHz` converts MIDI note numbers to frequency with A4 (note 69) at 440 Hz
 - [x] M5-02 `scaleNote` maps a 0–1 value onto a named scale (major pentatonic, minor pentatonic, Dorian, Phrygian, whole tone, chromatic) from a root note over a number of octaves
 - [x] M5-03 `euclideanRhythm` spreads k pulses over n steps as evenly as possible
-- [ ] M5-04 `seededRandom` returns the same sequence of numbers in [0, 1) for the same seed
+- [x] M5-04 `seededRandom` returns the same sequence of numbers in [0, 1) for the same seed
 - [ ] M5-05 `validateScore` accepts events that carry a voice, start, duration, pitch, loudness, pan, and an image location, and rejects an event without a location
 - [ ] M5-06 `validateScore` rejects non-finite or out-of-range values and events out of start order
 - [ ] M5-07 Locations are points, lines, rings, paths, or regions in image-relative 0–1 coordinates, and `validateScore` rejects malformed ones
