@@ -6,7 +6,9 @@ interface AudibleClip {
   audible: boolean;
 }
 
-test('walks all nine curated exhibits and hears a different score in each', async ({ page }) => {
+test('walks all nine exhibits, hears distinct scores, and reaches the thank-you door', async ({
+  page,
+}) => {
   test.setTimeout(60_000);
   await page.addInitScript(() => {
     // Preserve trusted inputs and the native audio clock while shortening the walk.
@@ -102,4 +104,15 @@ test('walks all nine curated exhibits and hears a different score in each', asyn
 
   expect(renderedScenes.size).toBe(9);
   expect(new Set((await clips()).map(({ fingerprint }) => fingerprint)).size).toBe(9);
+
+  await page.keyboard.down('ArrowRight');
+  try {
+    await expect(shell).toHaveAttribute('data-screen', 'farewell', { timeout: 7000 });
+  } finally {
+    await page.keyboard.up('ArrowRight');
+  }
+  await expect(page.locator('.museum-announcements')).toContainText('Thanks for visiting');
+  await page.keyboard.press('ArrowDown');
+  await expect(shell).toHaveAttribute('data-room', 'lab');
+  await expect(shell).toHaveAttribute('data-screen', 'room');
 });

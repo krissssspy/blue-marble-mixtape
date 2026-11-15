@@ -270,7 +270,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 
 ## M7 Lab and release
 
-- [ ] M7-01 Put a final door at the end of the museum that opens a thank-you message for visitors.
+- [x] M7-01 Put a final door at the end of the museum that opens a thank-you message for visitors.
 - [ ] M7-02 Run the browser voices in an AudioWorklet where available, with the validated buffer player as the fallback.
 
 Itemised when M6 is done.

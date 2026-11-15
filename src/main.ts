@@ -11,6 +11,7 @@ import { loadAvatar, saveAvatar } from './engine/avatar-storage.js';
 import { AVATAR_STEPS } from './engine/avatar.js';
 import { cameraLeft } from './engine/camera.js';
 import { createCanvasPresenter } from './engine/display.js';
+import { drawFarewell } from './engine/farewell.js';
 import { createFixedStepper } from './engine/fixed-step.js';
 import { drawText } from './engine/font.js';
 import {
@@ -42,7 +43,7 @@ import {
   type MuseumRoom,
 } from './museum-rooms.js';
 import { loadMuseumThumbnail } from './museum-thumbnails.js';
-import { APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
+import { ACCESSIBILITY_STRINGS, APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
 
 const thumbnailFallback = new Uint8Array(48 * 27).fill(3);
 const secondsPerStep = 1 / 60;
@@ -81,6 +82,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   let rooms = createMuseumRooms();
   let position = { roomIndex: 0, x: 32 };
   let movingSteps = 0;
+  let farewell = false;
   let interaction = createArtifactInteraction();
   let loadStarted = false;
   let loadFailed = false;
@@ -173,6 +175,14 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
 
   function step(sample: InputSample): void {
     tick += 1;
+    if (farewell) {
+      if (sample.pressed.includes('no')) {
+        farewell = false;
+        position = { ...position, x: position.x - 12 };
+        input.clear();
+      }
+      return;
+    }
     if (state.screen !== 'tutorial') {
       const transition = stepMuseum(state, sample);
       state = transition.state;
@@ -189,6 +199,18 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     const previousX = position.x;
     if (interaction.listeningId === null) {
       position = walkRoom(position, sample, rooms, progress, secondsPerStep);
+      const room = rooms[position.roomIndex];
+      if (
+        room.id === 'lab' &&
+        sample.right &&
+        !sample.left &&
+        position.x === room.walkway.at(-1)!.x
+      ) {
+        farewell = true;
+        movingSteps = 0;
+        input.clear();
+        return;
+      }
     }
     movingSteps = position.x === previousX ? 0 : movingSteps + 1;
     if (previousRoom !== position.roomIndex) interaction = createArtifactInteraction();
@@ -246,7 +268,12 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     };
 
     shell.dataset.room = state.screen === 'tutorial' ? room.id : '';
-    if (listening) {
+    if (farewell) {
+      hideListening();
+      shell.dataset.screen = 'farewell';
+      drawFarewell(frame);
+      announcements.update({ roomName: ACCESSIBILITY_STRINGS.farewell });
+    } else if (listening) {
       shell.dataset.screen = 'listening';
       drawListening(listening.artifact, room.id);
       announcements.update({ roomName: room.name, listening: listening.artifact });
@@ -289,7 +316,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
             focusId: interaction.focusId,
             focus,
             parallax: motion.parallax,
-            hasNext: position.roomIndex < rooms.length - 1,
+            hasNext: true,
             thumbnailFor,
           });
         }

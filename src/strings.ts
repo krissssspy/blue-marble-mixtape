@@ -5,6 +5,7 @@ export const STRINGS = {
   close: '↓ CLOSE',
   loading: 'LOADING',
   ready: 'READY',
+  farewell: 'THANKS FOR\nVISITING',
 } as const;
 
 export const TOUCH_STRINGS = {
@@ -54,6 +55,7 @@ export const MONTH_ABBREVIATIONS = [
 export const ACCESSIBILITY_STRINGS = {
   canvasLabel: 'Blue Marble Mixtape museum',
   listenPrompt: 'Listen to',
+  farewell: 'Thanks for visiting Blue Marble Mixtape.',
 } as const;
 
 export const MUSEUM_ROOMS = [
