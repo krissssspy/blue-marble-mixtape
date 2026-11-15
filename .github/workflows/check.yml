@@ -20,6 +20,8 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm test
+      - run: npx playwright install --with-deps chromium --only-shell
+      - run: npm run test:e2e
       - run: npm run mutation
       - name: Audit commit history
         env:
