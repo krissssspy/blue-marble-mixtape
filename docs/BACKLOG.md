@@ -78,7 +78,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-23o Stage processed media batch 15 of 20 (14 artifacts, 44 files)
 - [x] M3-23p Stage processed media batch 16 of 20 (6 artifacts, 19 files)
 - [x] M3-23q Stage processed media batch 17 of 20 (2 artifacts, 7 files)
-- [ ] M3-23r Stage processed media batch 18 of 20 (11 artifacts, 34 files)
+- [x] M3-23r Stage processed media batch 18 of 20 (11 artifacts, 34 files)
 - [ ] M3-23s Stage processed media batch 19 of 20 (12 artifacts, 38 files)
 - [ ] M3-23t Stage processed media batch 20 of 20 (16 artifacts, 50 files)
 - [ ] M3-23 The refresh builds the catalog and all referenced media from a recorded snapshot, and the committed outputs serve in the site build
