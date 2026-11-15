@@ -140,7 +140,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 
 ### Background rules and integration
 
-- [ ] M4-39 Background specifications enforce four or more depth layers and ten or more distinct named motifs per room with no reuse between rooms
+- [x] M4-39 Background specifications enforce four or more depth layers and ten or more distinct named motifs per room with no reuse between rooms
 - [ ] M4-40 Background colours stay on the five-tone Dusk ramp, the ramp stays within 2:1, play-lane elements reach 3:1, and opaque text panels reach 4.5:1
 - [ ] M4-41 Ambient motion is limited to three animations, one change per second, and under 2% of screen pixels per change outside protected areas
 - [ ] M4-42 Reduced-motion preferences freeze background layers and disable sparkle and parallax while retaining slower focus cues
