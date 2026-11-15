@@ -10,10 +10,11 @@ export interface ArtifactInteraction {
   readonly focusId: string | null;
   readonly promptId: string | null;
   readonly listeningId: string | null;
+  readonly dismissedIds: ReadonlySet<string>;
 }
 
 export function createArtifactInteraction(): ArtifactInteraction {
-  return { focusId: null, promptId: null, listeningId: null };
+  return { focusId: null, promptId: null, listeningId: null, dismissedIds: new Set() };
 }
 
 function closestArtifact(explorerX: number, spots: readonly ArtifactSpot[]): string | null {
@@ -34,13 +35,14 @@ export function interactWithArtifacts(
   explorerX: number,
   spots: readonly ArtifactSpot[],
   pressed: readonly MuseumAction[],
-): ArtifactInteraction;
-export function interactWithArtifacts(
-  state: ArtifactInteraction,
-  explorerX: number,
-  spots: readonly ArtifactSpot[],
 ): ArtifactInteraction {
   const inRange = spots.filter(({ x, range }) => Math.abs(explorerX - x) <= range);
   const focusId = closestArtifact(explorerX, inRange);
-  return { ...state, focusId, promptId: focusId };
+  const inRangeIds = new Set(inRange.map(({ id }) => id));
+  const dismissedIds = new Set([...state.dismissedIds].filter((id) => inRangeIds.has(id)));
+  if (pressed.includes('no') && state.promptId !== null && inRangeIds.has(state.promptId)) {
+    dismissedIds.add(state.promptId);
+  }
+  const promptId = focusId !== null && !dismissedIds.has(focusId) ? focusId : null;
+  return { ...state, focusId, promptId, dismissedIds };
 }
