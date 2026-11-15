@@ -124,7 +124,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-26 The tutorial cassette shows a progress counter and winds tape between its two reels as assets load
 - [x] M4-27 The tutorial exit stays closed while loading and opens when the loader reads READY
 - [x] M4-28 Door traversal follows the room order in both directions and positions the explorer on entry
-- [ ] M4-28b Each room shows its track number and name on an opaque cassette banner
+- [x] M4-28b Each room shows its track number and name on an opaque cassette banner
 
 ### Artifact interaction and listening
 
