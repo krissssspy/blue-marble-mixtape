@@ -36,7 +36,31 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 
 ## M3 Ingest
 
-Itemised when M2 is done.
+- [x] M3-01 The ingest reader loads the recorded EIC root (SVS 40467) and identifies child cards using their instance IDs and types
+- [ ] M3-02 The crawler follows every nested gallery from 40467 in source order and collects detail pages, media-group references, and links
+- [ ] M3-03 Repeated pages and media references are collected once by SVS ID, including cycles between galleries
+- [ ] M3-04 The crawler reports an unresolved expected SVS page with its referring gallery, so an incomplete snapshot cannot pass silently
+- [ ] M3-05 A manual refresh records NASA API responses and retrieval dates for offline ingest, and tests replay the recorded responses
+- [ ] M3-06 Detail and linked media records supply canonical source URLs, titles, credits, release dates, and media groups
+- [ ] M3-07 Each source contributes its main image first and at most two additional distinct views in source order
+- [ ] M3-08 Media selection skips thumbnails, placeholders, colour bars, and alternate sizes or formats of the same view
+- [ ] M3-09 Produced Video and B-Roll contribute only their NASA poster still and are never sent to movie processing
+- [ ] M3-10 Each view selects the largest NASA JPEG or PNG at or below 3840 pixels wide and keeps its original dimensions and HTTPS URL
+- [ ] M3-11 Selected images produce local WebP listening fallbacks at up to 1280 pixels wide
+- [ ] M3-12 Selected images produce 48×27 thumbnails quantised to the Dusk palette
+- [ ] M3-13 Eligible featured visualisations, animations, and hyperwall visuals with movies produce 48 evenly spaced frames without reading source audio
+- [ ] M3-14 Frame sets are stored as sprite sheets with one 320×180 cell per frame and no file over 2 MB
+- [ ] M3-15 Each still produces a 96×54 grid of luminance, hue, and saturation
+- [ ] M3-16 Each feature grid includes Sobel edge magnitude and direction
+- [ ] M3-17 Feature grids from frame sets include block-matched motion vectors and frame-difference energy
+- [ ] M3-18 Feature grids serialize deterministically to compact binary packs with a tested layout
+- [ ] M3-19 Missing or placeholder NASA alt text is replaced with a view-specific description grounded in NASA's material and marked authored
+- [ ] M3-20 The explicit room table assigns every accepted source, including daily imagery, with four to six featured artifacts per room
+- [ ] M3-21 The catalog records every required field, including a short title of at most 18 characters and retrieval date for daily imagery
+- [ ] M3-22 The offline completeness check accounts for every collected source with catalog entries or a documented reason for exclusion
+- [ ] M3-23 The refresh builds the catalog and all referenced media from a recorded snapshot, and the committed outputs serve in the site build
+- [ ] M3-24 The built site fails verification above 150 MB total or 2 MB for any individual file
+- [ ] M3-25 The preview serves the catalog and its referenced assets, and the PR lists authored alt text and room assignments for owner review
 
 ## M4 Engine
 
