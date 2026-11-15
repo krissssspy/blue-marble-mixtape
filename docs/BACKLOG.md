@@ -161,7 +161,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M5-06 `validateScore` rejects non-finite or out-of-range values and events out of start order
 - [x] M5-07 Locations are points, lines, rings, paths, or regions in image-relative 0–1 coordinates, and `validateScore` rejects malformed ones
 - [x] M5-08 `eventsAt` returns the events sounding at a time, and `scoreDuration` returns the end of the last event
-- [ ] M5-09 `decodeFeaturePack` reads the ingest feature-pack binary into named channel planes per frame and rejects a bad header
+- [x] M5-09 `decodeFeaturePack` reads the ingest feature-pack binary into named channel planes per frame and rejects a bad header
 - [ ] M5-10 `envelope` shapes a note with attack and release so it starts and ends at zero and never exceeds its loudness
 - [ ] M5-11 The pulse voice produces the requested fundamental with a chosen duty cycle
 - [ ] M5-12 The triangle voice produces the requested fundamental with only odd harmonics
