@@ -1,4 +1,4 @@
-import type { Framebuffer } from './framebuffer.js';
+import { transparentIndex, type Framebuffer } from './framebuffer.js';
 import { DUSK_PALETTE } from './palette.js';
 
 const rgbaPalette = DUSK_PALETTE.map((hex) => {
@@ -6,9 +6,12 @@ const rgbaPalette = DUSK_PALETTE.map((hex) => {
   return [(rgb >> 16) & 255, (rgb >> 8) & 255, rgb & 255, 255];
 });
 
+const transparentRgba = [0, 0, 0, 0];
+
 export function writeFrameRgba(frame: Framebuffer, target: Uint8ClampedArray): void {
   for (let pixel = 0; pixel < frame.pixels.length; pixel += 1) {
-    target.set(rgbaPalette[frame.pixels[pixel]], pixel * 4);
+    const index = frame.pixels[pixel];
+    target.set(index === transparentIndex ? transparentRgba : rgbaPalette[index], pixel * 4);
   }
 }
 

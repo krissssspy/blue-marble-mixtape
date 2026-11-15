@@ -1,7 +1,7 @@
 const width = 320;
 const height = 180;
 const tileSize = 8;
-const transparentIndex = 255;
+export const transparentIndex = 255;
 
 export interface Framebuffer {
   readonly width: number;
