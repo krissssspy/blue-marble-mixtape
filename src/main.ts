@@ -1,4 +1,5 @@
 import { createBrowserPlayer, type BrowserPlayback } from './audio/browser-player.js';
+import { exhibitScore } from './audio/exhibit-scores.js';
 import { decodeFeaturePack } from './audio/feature-pack.js';
 import { lineSweepScore } from './audio/line-sweep.js';
 import type { Recipe } from './audio/recipe.js';
@@ -33,7 +34,13 @@ import { createTouchControls } from './engine/touch-controls.js';
 import { configureTouchLayout } from './engine/touch-layout.js';
 import { drawTutorial } from './engine/tutorial-render.js';
 import { drawWelcome } from './engine/welcome.js';
-import { createMuseumRooms, drawDoor, drawRoom, type MountedArtifact } from './museum-rooms.js';
+import {
+  createMuseumRooms,
+  drawDoor,
+  drawRoom,
+  type MountedArtifact,
+  type MuseumRoom,
+} from './museum-rooms.js';
 import { loadMuseumThumbnail } from './museum-thumbnails.js';
 import { APP_STRINGS, MUSEUM_ROOMS } from './strings.js';
 
@@ -108,7 +115,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     }
   }
 
-  function loadListeningAudio(artifact: CatalogArtifact): void {
+  function loadListeningAudio(artifact: CatalogArtifact, room: MuseumRoom['id']): void {
     if (!audio) return;
     const { player, ready } = audio;
     const request = new AbortController();
@@ -119,7 +126,13 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
         const response = await fetch(artifact.mediaPaths.features, { signal: request.signal });
         if (!response.ok) return;
         const pack = decodeFeaturePack(await response.arrayBuffer());
-        if (!request.signal.aborted) playback = player.play(lineSweepScore(pack, listeningRecipe));
+        if (!request.signal.aborted) {
+          const score =
+            room === 'tutorial' || room === 'lab'
+              ? lineSweepScore(pack, listeningRecipe)
+              : exhibitScore(room, pack);
+          playback = player.play(score);
+        }
       })
       .catch(() => {
         // Keep the image and navigation responsive when audio or the pack is unavailable.
@@ -183,13 +196,13 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     interaction = interactWithArtifacts(interaction, position.x, room.spots, sample.pressed);
   }
 
-  function drawListening(artifact: CatalogArtifact): void {
+  function drawListening(artifact: CatalogArtifact, room: MuseumRoom['id']): void {
     if (currentImage?.id !== artifact.id) {
       const element = createListeningImage(document, artifact);
       currentImage = { id: artifact.id, element };
       imageHost.replaceChildren(element);
       imageHost.hidden = false;
-      loadListeningAudio(artifact);
+      loadListeningAudio(artifact, room);
     }
     const { naturalWidth, naturalHeight } = currentImage.element;
     const playing = playback?.read();
@@ -235,7 +248,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     shell.dataset.room = state.screen === 'tutorial' ? room.id : '';
     if (listening) {
       shell.dataset.screen = 'listening';
-      drawListening(listening.artifact);
+      drawListening(listening.artifact, room.id);
       announcements.update({ roomName: room.name, listening: listening.artifact });
     } else {
       hideListening();

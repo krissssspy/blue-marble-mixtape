@@ -189,7 +189,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M6-03 Load explicit exhibit selections in order while preserving the full catalog for the lab library.
 - [ ] M6-04 Draw and walk continuous room-specific paths with grounded artifacts, doors, and camera bounds.
 - [x] M6-05 Render each room backdrop as at least four layers on the Dusk ramp and respect reduced motion and the protected play lane.
-- [ ] M6-06 Route the selected artifact through the current room’s score mapper and pass its active locations to the listening overlay.
+- [x] M6-06 Route the selected artifact through the current room’s score mapper and pass its active locations to the listening overlay.
 
 ### Sea Level
 

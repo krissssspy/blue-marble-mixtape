@@ -203,10 +203,11 @@ test('starts catalog audio and its image playhead after a gesture and stops on c
 }) => {
   interface AudioProbe {
     started: { hasSignal: boolean; sampleRate: number; channels: number }[];
+    durations: number[];
     stopped: number;
   }
   await page.addInitScript(() => {
-    const probe: AudioProbe = { started: [], stopped: 0 };
+    const probe: AudioProbe = { started: [], durations: [], stopped: 0 };
     Object.assign(window, { audioProbe: probe });
     const nativeStart = AudioBufferSourceNode.prototype.start;
     const nativeStop = AudioBufferSourceNode.prototype.stop;
@@ -219,6 +220,7 @@ test('starts catalog audio and its image playhead after a gesture and stops on c
         sampleRate: buffer.sampleRate,
         channels: buffer.numberOfChannels,
       });
+      probe.durations.push(buffer.duration);
       nativeStart.apply(this, args);
     };
     AudioBufferSourceNode.prototype.stop = function (...args) {
@@ -266,6 +268,21 @@ test('starts catalog audio and its image playhead after a gesture and stops on c
   await page.keyboard.press('ArrowDown');
   await expect(shell).toHaveAttribute('data-screen', 'tutorial');
   await expect.poll(async () => (await audio()).stopped).toBe(1);
+
+  await holdRight(page, () => expect(shell).toHaveAttribute('data-room', 'sea-level'));
+  await holdRight(page, () => expect(page.locator(status)).toContainText(/listen/i));
+  const exhibitFeature = page.waitForResponse((response) =>
+    response.url().endsWith('/media/svs-media-479017-main/features.bin'),
+  );
+  await page.keyboard.press('ArrowUp');
+  await expect(shell).toHaveAttribute('data-screen', 'listening');
+  expect((await exhibitFeature).ok()).toBe(true);
+  await expect.poll(async () => (await audio()).started).toHaveLength(2);
+  const playback = await audio();
+  expect(playback.started[1]).toEqual({ hasSignal: true, sampleRate: 22050, channels: 2 });
+  expect(playback.durations[1]).toBeLessThan(playback.durations[0]);
+  await page.keyboard.press('ArrowDown');
+  await expect.poll(async () => (await audio()).stopped).toBe(2);
 });
 
 test('animates the explorer while walking and uses the standing pose for reduced motion', async ({

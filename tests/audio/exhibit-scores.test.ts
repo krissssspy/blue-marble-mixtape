@@ -1,0 +1,180 @@
+import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
+import { describe, expect, it } from 'vitest';
+import { exhibitScore } from '../../src/audio/exhibit-scores.js';
+import { decodeFeaturePack, type FeaturePack } from '../../src/audio/feature-pack.js';
+import { renderScore } from '../../src/audio/render.js';
+import { scoreDuration, validateScore, type ScoreEvent } from '../../src/audio/score.js';
+import type { MuseumCatalog } from '../../src/engine/museum-assets.js';
+import { EXHIBIT_ARTIFACT_IDS, type ExhibitId } from '../../src/exhibit-selection.js';
+
+const exhibits = Object.keys(EXHIBIT_ARTIFACT_IDS) as ExhibitId[];
+const voices = {
+  'sea-level': ['pad', 'triangle'],
+  'air-quality': ['noise', 'pulse'],
+  biodiversity: ['bell', 'organ'],
+  wildfires: ['bell', 'noise', 'pulse'],
+  'greenhouse-gases': ['organ'],
+  energy: ['pad', 'pulse', 'triangle'],
+  disasters: ['bell', 'noise', 'pad', 'triangle'],
+  'water-resources': ['bell', 'noise', 'pluck'],
+  agriculture: ['noise', 'pluck', 'triangle'],
+};
+
+const scoreFingerprints = {
+  'sea-level': 'f44bbd094a40fb9f73477aa25e45f6447676f751109a0b88a3da7b681e00a8e3',
+  'air-quality': '65b1c003a21c362e9c7b05ade7df2f1703a8b593f48273ba122a68a957553e64',
+  biodiversity: '6604b50b24aff7203ab51feb1df1bc95b3d817c2f0084520c188e257e50bc050',
+  wildfires: '276671371b8e65ce46f7344d0224fe7dc7aa524fa275684813464ba568fa69de',
+  'greenhouse-gases': 'a904b560089e3b995c69a2854505d569198945c4bd33fdf2f6257eeb8ed1cf17',
+  energy: 'f4fc509e934a501edf287da8514b62922af1acb94ff7b866dd8dee4fb6317a62',
+  disasters: '236c45cacac3c933aebd497e9d7d48002dbefd371ef1e5d741ff40ee2469a204',
+  'water-resources': '6ee0570e9a064c84e642ca93e3e2a6129609295df433a861cb6d68023af24951',
+  agriculture: '6d02c697c8e3b97afc6e804058a45cfa572036c6a9770bcef48cbe8b9ac13e4a',
+};
+
+function fixture(shift = 0): FeaturePack {
+  const width = 12;
+  const height = 12;
+  const plane = (scale: number, frame: number) =>
+    Uint8Array.from(
+      { length: width * height },
+      (_, index) => (scale * index + 43 * Math.floor(index / width) + frame * 17 + shift) % 256,
+    );
+  return {
+    width,
+    height,
+    frames: [0, 1, 2].map((frame) => ({
+      luminance: plane(13, frame),
+      hue: plane(17, frame),
+      saturation: plane(43, frame),
+      edgeMagnitude: plane(31, frame),
+      edgeDirection: plane(11, frame),
+      motionX: new Int8Array(width * height).fill(frame * 19),
+      motionY: new Int8Array(width * height).fill(-frame * 22),
+      frameDifferenceEnergy: plane(19, frame),
+    })),
+  };
+}
+
+function audibleProfile(score: readonly ScoreEvent[]) {
+  const sampleRate = 8000;
+  const length = 256;
+  const { left, right } = renderScore(score, sampleRate);
+  let centroid = 0;
+  for (let block = 1; block <= 6; block += 1) {
+    const at = Math.floor(((left.length - length) * block) / 8);
+    let power = 0;
+    let weighted = 0;
+    for (let bin = 1; bin <= length / 2; bin += 1) {
+      const frequency = (bin * sampleRate) / length;
+      const angle = (2 * Math.PI * bin) / length;
+      const factor = 2 * Math.cos(angle);
+      let previous = 0;
+      let older = 0;
+      for (let index = 0; index < length; index += 1) {
+        const sample =
+          (left[at + index] + right[at + index]) * Math.sin((Math.PI * index) / length) ** 2;
+        const next = sample + factor * previous - older;
+        older = previous;
+        previous = next;
+      }
+      const energy = previous ** 2 + older ** 2 - factor * previous * older;
+      power += energy;
+      weighted += energy * frequency;
+    }
+    centroid += power ? weighted / power : 0;
+  }
+  const chroma = new Float64Array(12);
+  let weight = 0;
+  for (const event of score) {
+    if (event.voice === 'noise') continue;
+    const midi = Math.round(69 + 12 * Math.log2(event.pitch / 440));
+    const contribution = event.duration * event.loudness;
+    chroma[midi % 12] += contribution;
+    weight += contribution;
+  }
+  return {
+    centroid: centroid / 6,
+    onsets: new Set(score.map(({ start }) => start)).size / scoreDuration(score),
+    chroma: chroma.map((value) => value / weight),
+  };
+}
+
+describe('nine exhibit scores', () => {
+  it.each(exhibits)(
+    'uses the %s instrument set and maps changing image data deterministically',
+    (exhibit) => {
+      const score = exhibitScore(exhibit, fixture());
+      expect(score.length).toBeGreaterThan(10);
+      expect(validateScore(score)).toEqual({ ok: true });
+      const canonical = JSON.stringify(score, (_, value) =>
+        typeof value === 'number' ? Number(value.toFixed(7)) : value,
+      );
+      expect(createHash('sha256').update(canonical).digest('hex')).toBe(scoreFingerprints[exhibit]);
+      expect([...new Set(score.map(({ voice }) => voice))].sort()).toEqual(voices[exhibit]);
+      expect(score).toEqual(exhibitScore(exhibit, fixture()));
+      expect(score).not.toEqual(exhibitScore(exhibit, fixture(46)));
+    },
+  );
+
+  it('maps every curated artifact to a valid score with image positions', () => {
+    const { artifacts } = JSON.parse(
+      readFileSync(new URL('../../public/catalog.json', import.meta.url), 'utf8'),
+    ) as MuseumCatalog;
+    for (const exhibit of exhibits) {
+      for (const id of EXHIBIT_ARTIFACT_IDS[exhibit]) {
+        const artifact = artifacts.find((candidate) => candidate.id === id)!;
+        const pack = decodeFeaturePack(
+          readFileSync(new URL(`../../public${artifact.mediaPaths.features}`, import.meta.url)),
+        );
+        const score = exhibitScore(exhibit, pack);
+        expect(score.length, id).toBeGreaterThan(10);
+        expect(validateScore(score), id).toEqual({ ok: true });
+      }
+    }
+  });
+
+  it('follows adjacent Hilbert cells for air quality and reverses alternate field rows', () => {
+    const air = exhibitScore('air-quality', fixture()).filter(({ voice }) => voice === 'pulse');
+    expect(air).toHaveLength(64);
+    expect(new Set(air.map(({ location }) => JSON.stringify(location))).size).toBe(64);
+    for (let index = 1; index < air.length; index += 1) {
+      const a = air[index - 1].location;
+      const b = air[index].location;
+      if (a.kind !== 'point' || b.kind !== 'point')
+        throw new Error('Expected a point per Hilbert cell.');
+      expect(Math.abs(a.x - b.x) + Math.abs(a.y - b.y)).toBe(1 / 8);
+    }
+    const plough = exhibitScore('agriculture', fixture()).filter(
+      ({ voice, start }) =>
+        voice === 'pluck' && Math.abs(start / 0.155 - Math.round(start / 0.155)) < 1e-6,
+    );
+    expect(plough.slice(0, 3).map(({ location }) => location)).toMatchObject(
+      [0, 1 / 8, 2 / 8].map((x) => ({ kind: 'region', x, y: 0 })),
+    );
+    expect(plough.slice(8, 11).map(({ location }) => location)).toMatchObject(
+      [7 / 8, 6 / 8, 5 / 8].map((x) => ({ kind: 'region', x, y: 1 / 4 })),
+    );
+  });
+
+  it('produces measurably different spectra, onset rates, and pitch distributions on the same image', () => {
+    const profiles = exhibits.map((exhibit) => audibleProfile(exhibitScore(exhibit, fixture())));
+    for (const [index, a] of profiles.entries()) {
+      for (const [other, b] of profiles.slice(index + 1).entries()) {
+        const pitchDistance = a.chroma.reduce(
+          (sum, value, pitch) => sum + Math.abs(value - b.chroma[pitch]),
+          0,
+        );
+        const difference = Math.hypot(
+          (a.centroid - b.centroid) / 2000,
+          (a.onsets - b.onsets) / 20,
+          pitchDistance / 2,
+        );
+        expect(difference, `${exhibits[index]} vs. ${exhibits[index + other + 1]}`).toBeGreaterThan(
+          0.22,
+        );
+      }
+    }
+  });
+});
