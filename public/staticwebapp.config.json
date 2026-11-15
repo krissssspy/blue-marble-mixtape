@@ -3,6 +3,6 @@
     "rewrite": "/index.html"
   },
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self'; img-src 'self' https://svs.gsfc.nasa.gov"
+    "Content-Security-Policy": "default-src 'self'; img-src 'self' https://svs.gsfc.nasa.gov; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
   }
 }

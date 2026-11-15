@@ -26,6 +26,20 @@ beforeAll(() => {
   if (buildStatus === 0) html = readFileSync(join(dist, 'index.html'), 'utf8');
 }, TEST_TIMEOUT_MS);
 
+function parsePolicy(policy: string): Map<string, string[]> {
+  const directives = new Map<string, string[]>();
+  for (const part of policy.split(';')) {
+    const tokens = part.trim().split(/\s+/).filter(Boolean);
+    const name = tokens.shift();
+    if (name) {
+      const key = name.toLowerCase();
+      expect(directives.has(key), `duplicate ${key}`).toBe(false);
+      directives.set(key, tokens);
+    }
+  }
+  return directives;
+}
+
 describe('npm run build', () => {
   it(
     'exits zero',
@@ -73,16 +87,7 @@ describe('npm run build', () => {
       expect(typeof policy, 'globalHeaders["Content-Security-Policy"] is a string').toBe('string');
       expect((policy as string).trim().length).toBeGreaterThan(0);
 
-      const directives = new Map<string, string[]>();
-      for (const part of (policy as string).split(';')) {
-        const tokens = part.trim().split(/\s+/).filter(Boolean);
-        const name = tokens.shift();
-        if (name) {
-          const key = name.toLowerCase();
-          expect(directives.has(key), `duplicate ${key}`).toBe(false);
-          directives.set(key, tokens);
-        }
-      }
+      const directives = parsePolicy(policy as string);
 
       expect(directives.get('default-src')).toEqual(["'self'"]);
       expect([...(directives.get('img-src') ?? [])].sort()).toEqual(
@@ -90,7 +95,7 @@ describe('npm run build', () => {
       );
       for (const [name, sources] of directives) {
         expect(sources.length, name).toBeGreaterThan(0);
-        if (name === 'img-src') continue;
+        if (name === 'img-src' || name === 'frame-ancestors') continue;
         for (const source of sources) {
           expect(["'self'"], `${name} source ${source}`).toContain(source);
         }
@@ -110,6 +115,25 @@ describe('npm run build', () => {
           expect(source, 'off-site host').toBe('https://svs.gsfc.nasa.gov');
         }
       }
+    },
+    TEST_TIMEOUT_MS,
+  );
+
+  it(
+    'forbids base tags, foreign form targets and framing in the content security policy',
+    () => {
+      expect(buildStatus, buildOutput).toBe(0);
+      const raw = readFileSync(join(dist, 'staticwebapp.config.json'), 'utf8');
+      const config = JSON.parse(raw) as {
+        globalHeaders?: Record<string, unknown>;
+      };
+      const policy = config.globalHeaders?.['Content-Security-Policy'];
+      expect(typeof policy, 'globalHeaders["Content-Security-Policy"] is a string').toBe('string');
+
+      const directives = parsePolicy(policy as string);
+      expect(directives.get('base-uri')).toEqual(["'self'"]);
+      expect(directives.get('form-action')).toEqual(["'self'"]);
+      expect(directives.get('frame-ancestors')).toEqual(["'none'"]);
     },
     TEST_TIMEOUT_MS,
   );
