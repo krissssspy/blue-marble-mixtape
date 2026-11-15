@@ -66,3 +66,37 @@ describe('score synthesis', () => {
     expect(() => renderScore([], sampleRate)).toThrow(/sample rate/i);
   });
 });
+
+describe('deterministic bounded mixing', () => {
+  it('renders seeded noise and plucks identically on repeated calls', () => {
+    const score = [
+      note({ voice: 'noise', pitch: 200, pan: -0.5 }),
+      note({ voice: 'pluck', pitch: 340, pan: 0.75 }),
+      note({ voice: 'noise', pitch: 320, start: 0.75 }),
+    ];
+    const first = renderScore(score, 8000);
+    const second = renderScore(score, 8000);
+    expect(first).toEqual(second);
+    expect(first.left).not.toBe(second.left);
+    expect(first.left.some((sample) => sample !== 0)).toBe(true);
+  });
+
+  it('clips the final sum symmetrically in both channels', () => {
+    const score = Array.from({ length: 4 }, () => note({ loudness: 1 }));
+    const { left, right } = renderScore(score, 1000);
+    for (const channel of [left, right]) {
+      expect(channel[300]).toBe(-1);
+      expect(channel[370]).toBe(1);
+      expect(channel.every((sample) => sample >= -1 && sample <= 1)).toBe(true);
+    }
+  });
+
+  it('lets later notes cancel an earlier overfull mix before clipping', () => {
+    const negative = note({ loudness: 1 });
+    const positive = note({ loudness: 1, start: 0.29 });
+    const score = [negative, negative, negative, positive, positive, positive];
+    const { left, right } = renderScore(score, 1000);
+    expect(left[300]).toBeCloseTo(0, 6);
+    expect(right[300]).toBeCloseTo(0, 6);
+  });
+});

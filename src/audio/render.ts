@@ -54,5 +54,9 @@ export function renderScore(score: readonly ScoreEvent[], sampleRate: number): S
     }
   }
 
+  for (let sample = 0; sample < length; sample += 1) {
+    left[sample] = Math.max(-1, Math.min(1, left[sample]));
+    right[sample] = Math.max(-1, Math.min(1, right[sample]));
+  }
   return { sampleRate, left, right };
 }

@@ -173,7 +173,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M5-16 The bell voice (FM) has inharmonic partials and a decaying tail
 - [x] M5-17 The pad voice (detuned, low-passed) has a slow attack and a dull spectrum
 - [x] M5-18 `renderScore` mixes events into stereo at their start times with equal-power panning, and is silent elsewhere
-- [ ] M5-19 `renderScore` is deterministic and keeps every sample within −1 to 1
+- [x] M5-19 `renderScore` is deterministic and keeps every sample within −1 to 1
 - [ ] M5-20 The console bus reduces bit depth and sample rate to the chosen settings
 - [ ] M5-21 The scheduler hands each event out exactly once as the clock advances through its lookahead window
 - [ ] M5-22 The player reports progress from 0 to 1 against the clock and reports no active events after stop
