@@ -158,7 +158,7 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M5-03 `euclideanRhythm` spreads k pulses over n steps as evenly as possible
 - [x] M5-04 `seededRandom` returns the same sequence of numbers in [0, 1) for the same seed
 - [x] M5-05 `validateScore` accepts events that carry a voice, start, duration, pitch, loudness, pan, and an image location, and rejects an event without a location
-- [ ] M5-06 `validateScore` rejects non-finite or out-of-range values and events out of start order
+- [x] M5-06 `validateScore` rejects non-finite or out-of-range values and events out of start order
 - [ ] M5-07 Locations are points, lines, rings, paths, or regions in image-relative 0–1 coordinates, and `validateScore` rejects malformed ones
 - [ ] M5-08 `eventsAt` returns the events sounding at a time, and `scoreDuration` returns the end of the last event
 - [ ] M5-09 `decodeFeaturePack` reads the ingest feature-pack binary into named channel planes per frame and rejects a bad header
