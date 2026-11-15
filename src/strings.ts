@@ -29,3 +29,24 @@ export const AVATAR_COPY = {
   confirm: '↑ OK',
   back: '↓ BACK',
 } as const;
+
+export const TUTORIAL_HINTS = [
+  { arrows: ['←', '→'], label: 'WALK' },
+  { arrows: ['↑'], label: 'YES' },
+  { arrows: ['↓'], label: 'NO' },
+] as const;
+
+export const MONTH_ABBREVIATIONS = [
+  'JAN',
+  'FEB',
+  'MAR',
+  'APR',
+  'MAY',
+  'JUN',
+  'JUL',
+  'AUG',
+  'SEP',
+  'OCT',
+  'NOV',
+  'DEC',
+] as const;

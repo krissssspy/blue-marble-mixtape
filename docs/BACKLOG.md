@@ -119,7 +119,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M4-21 Up confirms an avatar step and Down goes back, with the last confirmation entering the tutorial
 - [x] M4-22 Confirmed avatar choices are restored from browser storage with usable defaults for invalid saved data
 - [x] M4-23 The avatar screen previews each choice immediately and the explorer sprite uses the same choices on the walkway
-- [ ] M4-24 The tutorial displays the three control hints and renders a practice artifact on a continuous tiled walkway
+- [x] M4-24 The tutorial displays the three control hints and renders a practice artifact on a continuous tiled walkway
 - [x] M4-25 The engine loads the committed catalog and the local images it needs for the tutorial, with progress based on completed loads
 - [ ] M4-26 The tutorial cassette shows a progress counter and winds tape between its two reels as assets load
 - [x] M4-27 The tutorial exit stays closed while loading and opens when the loader reads READY
