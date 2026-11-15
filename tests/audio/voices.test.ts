@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { createNoise, createPluck, organ, pulse, triangle } from '../../src/audio/voices.js';
+import { bell, createNoise, createPluck, organ, pulse, triangle } from '../../src/audio/voices.js';
 
 describe('pulse voice', () => {
   it('repeats at the requested frequency and switches at the chosen duty cycle', () => {
@@ -131,5 +131,23 @@ describe('organ voice', () => {
     }
     expect(Math.max(...samples)).toBeLessThanOrEqual(1);
     expect(Math.min(...samples)).toBeGreaterThanOrEqual(-1);
+  });
+});
+
+describe('FM bell voice', () => {
+  it('has inharmonic sidebands and a tail that decays over time', () => {
+    const frequency = 256;
+    const sampleRate = 8192;
+    const samples = Array.from({ length: sampleRate }, (_, index) =>
+      bell(index / sampleRate, frequency),
+    );
+    const attack = samples.slice(0, 2048);
+    const carrier = (frequency * attack.length) / sampleRate;
+    expect(magnitude(attack, carrier)).toBeGreaterThan(0.25);
+    expect(magnitude(attack, carrier * (Math.SQRT2 - 1))).toBeGreaterThan(0.26);
+    expect(magnitude(attack, carrier * (1 + Math.SQRT2))).toBeGreaterThan(0.26);
+    expect(magnitude(attack, carrier * 2)).toBeLessThan(0.025);
+    expect(rms(samples.slice(-2048))).toBeLessThan(rms(attack) * 0.06);
+    expect(Math.max(...samples.map(Math.abs))).toBeLessThanOrEqual(1);
   });
 });

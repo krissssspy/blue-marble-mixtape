@@ -50,3 +50,9 @@ export function organ(seconds: number, frequency: number): number {
   }
   return sum / organGain;
 }
+
+export function bell(seconds: number, frequency: number): number {
+  const phase = 2 * Math.PI * frequency * seconds;
+  const modulation = 1.4 * Math.sin(Math.SQRT2 * phase);
+  return Math.sin(phase + modulation) * Math.exp(-4 * seconds);
+}
