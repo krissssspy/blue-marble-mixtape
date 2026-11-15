@@ -42,7 +42,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-04 The crawler reports an unresolved expected SVS page with its referring gallery, so an incomplete snapshot cannot pass silently
 - [x] M3-05 A manual refresh records NASA API responses and retrieval dates for offline ingest, and tests replay the recorded responses
 - [x] M3-06 Detail and linked media records supply canonical source URLs, titles, credits, release dates, and media groups
-- [ ] M3-07 Each source contributes its main image first and at most two additional distinct views in source order
+- [x] M3-07 Each source contributes its main image first and at most two additional distinct views in source order
 - [ ] M3-08 Media selection skips thumbnails, placeholders, colour bars, and alternate sizes or formats of the same view
 - [ ] M3-09 Produced Video and B-Roll contribute only their NASA poster still and are never sent to movie processing
 - [ ] M3-10 Each view selects the largest NASA JPEG or PNG at or below 3840 pixels wide and keeps its original dimensions and HTTPS URL
