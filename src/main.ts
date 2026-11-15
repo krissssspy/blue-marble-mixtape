@@ -4,6 +4,7 @@ import { decodeFeaturePack } from './audio/feature-pack.js';
 import { labScore } from './audio/lab-score.js';
 import { DEFAULT_RECIPE, type Recipe } from './audio/recipe.js';
 import scoreWorkletUrl from './audio/score-worklet.ts?worker&url';
+import { createSoundEffects } from './audio/sound-effects.js';
 import { createMuseumAnnouncements } from './engine/announcements.js';
 import { createArtifactInteraction, interactWithArtifacts } from './engine/artifact-interaction.js';
 import { drawArtifactFrame } from './engine/artifact-frame.js';
@@ -90,15 +91,27 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   let practiceThumbnail: Uint8Array = thumbnailFallback;
   let currentImage: { id: string; element: HTMLImageElement } | null = null;
   let audio: {
+    context: AudioContext;
     player: ReturnType<typeof createBrowserPlayer>;
+    effects: ReturnType<typeof createSoundEffects>;
     ready: Promise<boolean>;
   } | null = null;
+  let pendingSelectionSound = false;
   let listeningRequest: AbortController | null = null;
   let playback: BrowserPlayback | null = null;
   const thumbnails = new Map<string, Uint8Array>();
   const requestedThumbnails = new Set<string>();
   let tick = 0;
   let previousTime: number | undefined;
+
+  function playSelection(): void {
+    if (audio?.context.state === 'running') {
+      pendingSelectionSound = false;
+      audio.effects.select();
+    } else {
+      pendingSelectionSound = true;
+    }
+  }
 
   function unlockAudio(): void {
     if (audio || typeof AudioContext === 'undefined') return;
@@ -116,6 +129,13 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
             }
           : undefined;
       const player = createBrowserPlayer(context, worklet);
+      const effects = createSoundEffects(context);
+      const playPending = () => {
+        if (audio?.context === context && pendingSelectionSound && context.state === 'running') {
+          playSelection();
+        }
+      };
+      context.addEventListener('statechange', playPending);
       const ready = player.unlock().then(
         () => true,
         () => {
@@ -123,7 +143,8 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
           return false;
         },
       );
-      audio = { player, ready };
+      audio = { context, player, effects, ready };
+      playPending();
     } catch {
       // The museum remains navigable if the browser cannot create an audio context.
     }
@@ -203,6 +224,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
   function step(sample: InputSample): void {
     tick += 1;
     if (creditIndex !== null && catalog) {
+      const previousCredit = creditIndex;
       const count = catalog.artifacts.length;
       if (sample.pressed.includes('no')) {
         creditIndex = null;
@@ -212,6 +234,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
       } else if (sample.pressed.includes('right')) {
         creditIndex = (creditIndex + 1) % count;
       }
+      if (creditIndex !== previousCredit) playSelection();
       return;
     }
     if (farewell) {
@@ -219,16 +242,22 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
         farewell = false;
         position = { ...position, x: position.x - 12 };
         input.clear();
+        playSelection();
       } else if (sample.pressed.includes('yes') && catalog?.artifacts.length) {
         creditIndex = 0;
+        playSelection();
       }
       return;
     }
     if (lab && catalog) {
       if (labPlaying) {
-        if (sample.pressed.includes('no')) labPlaying = false;
+        if (sample.pressed.includes('no')) {
+          labPlaying = false;
+          playSelection();
+        }
       } else {
         const choice = stepLab(lab, sample.pressed, catalog.artifacts.length);
+        if (choice.state !== lab || choice.effect) playSelection();
         lab = choice.state;
         if (choice.effect === 'close') {
           lab = null;
@@ -243,6 +272,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     }
     if (state.screen !== 'tutorial') {
       const transition = stepMuseum(state, sample);
+      if (transition.state !== state) playSelection();
       state = transition.state;
       if (transition.effect) shell.dispatchEvent(new Event(transition.effect));
       if (state.screen === 'tutorial') {
@@ -252,7 +282,10 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
       return;
     }
 
-    if (loadFailed && sample.pressed.includes('yes')) loadTutorial();
+    if (loadFailed && sample.pressed.includes('yes')) {
+      loadTutorial();
+      playSelection();
+    }
     const previousRoom = position.roomIndex;
     const previousX = position.x;
     if (interaction.listeningId === null) {
@@ -271,6 +304,7 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
       }
     }
     movingSteps = position.x === previousX ? 0 : movingSteps + 1;
+    if (movingSteps > 0) audio?.effects.footstep();
     if (previousRoom !== position.roomIndex) interaction = createArtifactInteraction();
     const room = rooms[position.roomIndex];
     if (
@@ -282,9 +316,22 @@ function mountMuseum(shell: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasE
     ) {
       lab = createLabState();
       movingSteps = 0;
+      playSelection();
       return;
     }
-    interaction = interactWithArtifacts(interaction, position.x, room.spots, sample.pressed);
+    const nextInteraction = interactWithArtifacts(
+      interaction,
+      position.x,
+      room.spots,
+      sample.pressed,
+    );
+    if (
+      nextInteraction.listeningId !== interaction.listeningId ||
+      (interaction.promptId !== null && nextInteraction.dismissedIds.has(interaction.promptId))
+    ) {
+      playSelection();
+    }
+    interaction = nextInteraction;
   }
 
   function drawListening(artifact: CatalogArtifact, room: MuseumRoom['id'], recipe?: Recipe): void {
