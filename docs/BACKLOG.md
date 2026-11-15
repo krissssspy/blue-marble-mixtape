@@ -84,7 +84,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [x] M3-23 The refresh builds the catalog and all referenced media from a recorded snapshot, and the committed outputs serve in the site build
 - [x] M3-24 The built site fails verification above 150 MB total or 2 MB for any individual file
 - [x] M3-24b The recorded views without NASA alt text use descriptions checked against their images
-- [ ] M3-25 The preview serves the catalog and its referenced assets, and the PR lists authored alt text and room assignments for owner review
+- [x] M3-25 The preview serves the catalog and its referenced assets, and the PR lists authored alt text and room assignments for owner review
 
 ## M4 Engine
 

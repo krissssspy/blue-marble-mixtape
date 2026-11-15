@@ -69,6 +69,32 @@ describe('npm run build', () => {
   );
 
   it(
+    'copies the catalog and every referenced media file into the build byte for byte',
+    () => {
+      expect(buildStatus, buildOutput).toBe(0);
+      const publicDir = join(cwd, 'public');
+      const catalog = readFileSync(join(publicDir, 'catalog.json'));
+      expect(readFileSync(join(dist, 'catalog.json')).equals(catalog), 'catalog.json').toBe(true);
+
+      const { artifacts } = JSON.parse(catalog.toString('utf8')) as {
+        artifacts: { mediaPaths: Record<string, string> }[];
+      };
+      expect(artifacts.length).toBeGreaterThan(0);
+      for (const { mediaPaths } of artifacts) {
+        const paths = Object.values(mediaPaths);
+        expect(paths.length).toBeGreaterThan(0);
+        for (const path of paths) {
+          expect(path).toMatch(/^\/media\//);
+          const file = path.slice(1);
+          const built = readFileSync(join(dist, file));
+          expect(built.equals(readFileSync(join(publicDir, file))), path).toBe(true);
+        }
+      }
+    },
+    TEST_TIMEOUT_MS,
+  );
+
+  it(
     'passes the smoke CLI against dist/index.html served over HTTP',
     async () => {
       expect(buildStatus, buildOutput).toBe(0);
