@@ -278,4 +278,4 @@ The first four items were developed on `feature/museum-audio`. The audio core co
 - [x] M7-06 Round-trip a validated artifact and recipe through a URL fragment and reopen it in the Lab.
 - [x] M7-07 Show readable, linkable source credits and NASA affiliation language in the liner notes.
 - [x] M7-08 Verify the Lab, sharing, liner notes, and farewell in desktop and touch browsers.
-- [ ] M7-09 Run the full release suite and verify the live Azure preview while keeping PR #1 in draft.
+- [x] M7-09 Run the full release suite and verify the live Azure preview while keeping PR #1 in draft.
