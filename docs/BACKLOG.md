@@ -133,7 +133,7 @@ Owner steps U2 and U5 are needed before the first live deploy, not before these 
 - [ ] M4-31 Up opens the prompted artifact and Down closes its listening view, returning the explorer to the walkway
 - [ ] M4-32 Artifact thumbnails fit their frames on posts and the focused frame renders a two-pixel pulse, sparkles, and a bobbing diamond
 - [x] M4-33 An opaque cassette-shaped prompt draws LISTEN? and the two answer hints in the 16-pixel font
-- [ ] M4-34 The listening view uses a real image with catalog alt text and keeps the whole NASA frame smoothly fitted on screen
+- [x] M4-34 The listening view uses a real image with catalog alt text and keeps the whole NASA frame smoothly fitted on screen
 - [ ] M4-35 Listening shows the local WebP immediately, upgrades to the eligible NASA image after loading, and keeps the WebP if the remote load fails
 - [ ] M4-36 The listening overlay shows the short title, display date, genre, close hint, and cassette tape progress strip
 - [ ] M4-37 A shape-marked playhead maps image-relative positions into the fitted image and clears when playback has no active position
